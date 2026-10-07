@@ -1,0 +1,26 @@
+"""Shared data locations and profile schema; resolving a path has no side effects."""
+from pathlib import Path
+
+DATA = Path(__file__).resolve().parents[2] / "data"
+PROFILE_COLUMNS = ['Identifikace transakce', 'Profil', 'Jmeno', 'Typ profilu', 'Kategorie', 'Synteticka', 'Skupina transakci']
+ROUTES = {
+    "data_all.csv": "transactions",
+    "data_synthetic.csv": "transactions",
+    "data_combined.csv": "transactions",
+    "original_profiles.csv": "profiles",
+    "synthetic_profiles.csv": "profiles",
+    "category_dictionary.csv": "dictionaries",
+    "category_mapping.csv": "dictionaries",
+    "main_category_dictionary.csv": "dictionaries",
+    "original_classification_audit.csv": "diagnostics",
+    "merchant_verification.csv": "diagnostics"
+}
+
+
+def data_path(name):
+    """Return a known artifact path without creating files or directories."""
+    try:
+        folder = ROUTES[name]
+    except KeyError as exc:
+        raise ValueError(f"Unknown data artifact: {name}") from exc
+    return DATA / folder / name
