@@ -1,0 +1,2329 @@
+{
+  "potraviny": [
+    {
+      "name": "Albert",
+      "source": "https://www.albert.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Albert",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.albert.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Lidl",
+      "source": "https://www.lidl.cz/c/kategorie/s10004543",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Lidl",
+      "verification_status": "verified_official_indexed",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.lidl.cz/c/kategorie/s10004543",
+          "kind": "official_indexed"
+        }
+      ]
+    },
+    {
+      "name": "Tesco Supermarket Milovice",
+      "source": "https://itesco.cz/prodejny/milovice/arm%C3%A1dn%C3%AD-192",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Tesco Supermarket Milovice",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://itesco.cz/prodejny/milovice/arm%C3%A1dn%C3%AD-192",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Rohlík.cz",
+      "source": "https://www.rohlik.cz/cs-CZ/zachran-a-usetri",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Rohlík.cz",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.rohlik.cz/cs-CZ/zachran-a-usetri",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "BILLA Praha Blox",
+      "source": "https://www.billa.cz/letaky-billa",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "BILLA Praha Blox",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.billa.cz/letaky-billa",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "PENNY Milovice Armádní",
+      "source": "https://www.traficon.cz/prodejny/tabak-traficon-penny-milovice-armadni",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "PENNY Milovice Armádní",
+      "verification_status": "verified_partner",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.traficon.cz/prodejny/tabak-traficon-penny-milovice-armadni",
+          "kind": "partner"
+        }
+      ]
+    }
+  ],
+  "drogerie": [
+    {
+      "name": "dm drogerie markt",
+      "source": "https://www.dm.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "dm drogerie markt",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.dm.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "restaurace": [
+    {
+      "name": "Kantýna",
+      "source": "https://www.kantyna.ambi.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Kantýna",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.kantyna.ambi.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Bageterie Boulevard",
+      "source": "https://www.bb.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Bageterie Boulevard",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.bb.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Burger King",
+      "source": "https://burgerking.cz/cs/menu/section-b745a262-e894-4dd8-a2c8-a402d8648b8c",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Burger King",
+      "verification_status": "verified_official_indexed",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://burgerking.cz/cs/menu/section-b745a262-e894-4dd8-a2c8-a402d8648b8c",
+          "kind": "official_indexed"
+        }
+      ]
+    },
+    {
+      "name": "Lokál U Jiráta",
+      "source": "https://zapojse.ambi.cz/lokal-u-jirata",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Lokál U Jiráta",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://zapojse.ambi.cz/lokal-u-jirata",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Takumi Ramen Kitchen Praha",
+      "source": "https://www.takumiramennoodles.com/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Takumi Ramen Kitchen Praha",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.takumiramennoodles.com/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Phở Bar",
+      "source": "https://phobar.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Phở Bar",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://phobar.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "kavárny": [
+    {
+      "name": "Vagon kafe Praha Nové Město",
+      "source": "https://en.firmy.cz/company/612371-vagon-kafe-praha-nove-mesto.html",
+      "verified_on": "",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Vagon kafe Praha Nové Město",
+      "verification_status": "historical",
+      "verification_scope": "incomplete",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "plausible",
+      "enabled_for_generation": false,
+      "verification_sources": [
+        {
+          "url": "https://en.firmy.cz/company/612371-vagon-kafe-praha-nove-mesto.html",
+          "kind": "directory"
+        }
+      ]
+    },
+    {
+      "name": "Parlor Café Praha Karlín",
+      "source": "https://www.firmy.cz/detail/13023305-parlor-cafe-praha-karlin.html",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Parlor Café Praha Karlín",
+      "verification_status": "verified_directory",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.firmy.cz/detail/13023305-parlor-cafe-praha-karlin.html",
+          "kind": "directory"
+        }
+      ]
+    },
+    {
+      "name": "Cake Art",
+      "source": "https://shop.pragueweddings.com/cs/cake-art-t%C5%99inec",
+      "verified_on": "",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "",
+      "verification_status": "ambiguous",
+      "verification_scope": "incomplete",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "unsupported",
+      "enabled_for_generation": false,
+      "verification_sources": [
+        {
+          "url": "https://shop.pragueweddings.com/cs/cake-art-t%C5%99inec",
+          "kind": "investigation"
+        }
+      ]
+    },
+    {
+      "name": "Cactus Cafe Praha Braník",
+      "source": "https://www.firmy.cz/detail/13322703-cactus-cafe-praha-branik.html",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Cactus Cafe Praha Braník",
+      "verification_status": "verified_directory",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.firmy.cz/detail/13322703-cactus-cafe-praha-branik.html",
+          "kind": "directory"
+        }
+      ]
+    },
+    {
+      "name": "mamacoffee",
+      "source": "https://www.mamacoffee.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "mamacoffee",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.mamacoffee.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "rozvoz jídla": [
+    {
+      "name": "speedlo",
+      "source": "https://speedlopro.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "speedlo",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://speedlopro.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "oblečení": [
+    {
+      "name": "DECATHLON",
+      "source": "https://www.decathlon.cz/vsechny-sporty/sportovni-obleceni",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "DECATHLON",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.decathlon.cz/vsechny-sporty/sportovni-obleceni",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "H&M",
+      "source": "https://www2.hm.com/cs_cz/index.html",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "H&M",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www2.hm.com/cs_cz/index.html",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "obuv": [
+    {
+      "name": "DEICHMANN",
+      "source": "https://www.deichmann.com/cs-cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "DEICHMANN",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.deichmann.com/cs-cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "BAŤA",
+      "source": "https://www.bata.com/cz/zeny/obuv/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "BAŤA",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.bata.com/cz/zeny/obuv/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "elektronika": [
+    {
+      "name": "Alza.cz",
+      "source": "https://www.alza.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Alza.cz",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "plausible",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.alza.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Alza.cz",
+      "source": "https://www.alza.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Alza.cz",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "plausible",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.alza.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Alza.cz",
+      "source": "https://www.alza.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Alza.cz",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "plausible",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.alza.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "nábytek": [
+    {
+      "name": "IKEA",
+      "source": "https://www.ikea.com/cz/cs/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "IKEA",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.ikea.com/cz/cs/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "domácí potřeby": [
+    {
+      "name": "Action",
+      "source": "https://www.action.com/cs-cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Action",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.action.com/cs-cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "BAUHAUS",
+      "source": "https://www.bauhaus.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "BAUHAUS",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.bauhaus.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "HORNBACH",
+      "source": "https://www.hornbach.cz/sluzby/montazni-servis/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "HORNBACH",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.hornbach.cz/sluzby/montazni-servis/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "opravy domácnosti": [
+    {
+      "name": "HORNBACH",
+      "source": "https://www.hornbach.cz/sluzby/montazni-servis/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "HORNBACH",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.hornbach.cz/sluzby/montazni-servis/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "úklidové služby": [
+    {
+      "name": "Youklid",
+      "source": "https://youklid.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Youklid",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://youklid.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "kadeřnictví": [
+    {
+      "name": "KLIER",
+      "source": "https://www.klier.cz/o-nas",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "KLIER",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.klier.cz/o-nas",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "kosmetické služby": [
+    {
+      "name": "Slevomat.cz",
+      "source": "https://www.slevomat.cz/akce/2418996-omlazeni-pleti-osetreni-vc-sera-s-lososi-dna?filteredCategoryId=246",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Slevomat.cz",
+      "verification_status": "verified_official_indexed",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.slevomat.cz/akce/2418996-omlazeni-pleti-osetreni-vc-sera-s-lososi-dna?filteredCategoryId=246",
+          "kind": "official_indexed"
+        }
+      ]
+    }
+  ],
+  "prádelna": [
+    {
+      "name": "5àsec",
+      "source": "https://www.5asec.com/en/content/our-concept",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "5àsec",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.5asec.com/en/content/our-concept",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "servis spotřebičů": [
+    {
+      "name": "Bosch",
+      "source": "https://www.bosch-home.com/cz/cs/services",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Bosch",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.bosch-home.com/cz/cs/services",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "léky": [
+    {
+      "name": "Dr. Max",
+      "source": "https://www.drmax.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Dr. Max",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.drmax.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Lékárna ISCARE",
+      "source": "https://www.iscare.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Lékárna ISCARE",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.iscare.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Lékárna ROYALE s.r.o.",
+      "source": "https://www.lekarnaroyale.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Lékárna ROYALE s.r.o.",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.lekarnaroyale.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "zubař": [
+    {
+      "name": "Canadian Medical",
+      "source": "https://www.canadian.cz/cs/sluzby/zachovna-stomatologie/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Canadian Medical",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.canadian.cz/cs/sluzby/zachovna-stomatologie/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "fyzioterapie": [
+    {
+      "name": "Canadian Medical",
+      "source": "https://www.canadian.cz/cs/specializace/fyzioterapie/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Canadian Medical",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.canadian.cz/cs/specializace/fyzioterapie/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "optika": [
+    {
+      "name": "Fielmann",
+      "source": "https://www.fielmann.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Fielmann",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.fielmann.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "psychoterapie": [
+    {
+      "name": "Hedepy",
+      "source": "https://hedepy.cz/o-terapii/co-je-to-psychoterapie-a-pro-koho-je-urcena",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Hedepy",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://hedepy.cz/o-terapii/co-je-to-psychoterapie-a-pro-koho-je-urcena",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "veřejná doprava": [
+    {
+      "name": "PID Lítačka",
+      "source": "https://www.pidlitacka.cz/cs/faq/user-account",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "PID Lítačka",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.pidlitacka.cz/cs/faq/user-account",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Operátor ICT / PID Lítačka",
+      "source": "https://operatorict.cz/kariera",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Operátor ICT / PID Lítačka",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://operatorict.cz/kariera",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Dopravní podnik hl. m. Prahy",
+      "source": "https://www.dpp.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Dopravní podnik hl. m. Prahy",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.dpp.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "vlak": [
+    {
+      "name": "České dráhy",
+      "source": "https://www.cd.cz/eshop/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "České dráhy",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.cd.cz/eshop/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "České dráhy",
+      "source": "https://www.cd.cz/eshop/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "České dráhy",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.cd.cz/eshop/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "RegioJet",
+      "source": "https://regiojet.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "RegioJet",
+      "verification_status": "verified_official_indexed",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://regiojet.cz/",
+          "kind": "official_indexed"
+        }
+      ]
+    }
+  ],
+  "taxi": [
+    {
+      "name": "BOLT.EU",
+      "source": "https://bolt.eu/en/support/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "BOLT.EU",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://bolt.eu/en/support/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "pohonné hmoty": [
+    {
+      "name": "Shell",
+      "source": "https://www.shell.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Shell",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.shell.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "autoservis": [
+    {
+      "name": "BestDrive",
+      "source": "https://www.bestdrive.cz/branches/bestdrive-cr-vysoke-myto-prazska.html",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "BestDrive",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.bestdrive.cz/branches/bestdrive-cr-vysoke-myto-prazska.html",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "parkování": [
+    {
+      "name": "Technická správa komunikací hl. m. Prahy",
+      "source": "https://cdn.parking.praha.eu/parking-praha/2026/02/TSK-cenik-parkovani-od-1.4.2026.pdf",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Technická správa komunikací hl. m. Prahy",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://cdn.parking.praha.eu/parking-praha/2026/02/TSK-cenik-parkovani-od-1.4.2026.pdf",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "mytí auta": [
+    {
+      "name": "IMO Car Wash",
+      "source": "https://app.imocarwash.com/cz/cs",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "IMO Car Wash",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://app.imocarwash.com/cz/cs",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "sport": [
+    {
+      "name": "Aquapalace Praha",
+      "source": "https://www.aquapalace.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Aquapalace Praha",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "plausible",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.aquapalace.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Svět wellness s.r.o. / Infinit Sen",
+      "source": "https://sen.infinit.cz/files/reklamacni-rad-sw.pdf",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Svět wellness s.r.o. / Infinit Sen",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "unsupported",
+      "enabled_for_generation": false,
+      "verification_sources": [
+        {
+          "url": "https://sen.infinit.cz/files/reklamacni-rad-sw.pdf",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Form Factory",
+      "source": "https://www.formfactory.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Form Factory",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.formfactory.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "sportovní vybavení": [
+    {
+      "name": "DECATHLON",
+      "source": "https://www.decathlon.cz/vsechny-sporty/sportovni-obleceni",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "DECATHLON",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.decathlon.cz/vsechny-sporty/sportovni-obleceni",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "SPORTISIMO",
+      "source": "https://www.sportisimo.cz/sporty/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "SPORTISIMO",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.sportisimo.cz/sporty/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "kino": [
+    {
+      "name": "Cinema City",
+      "source": "https://www.cinemacity.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Cinema City",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.cinemacity.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "divadlo": [
+    {
+      "name": "GoOut",
+      "source": "https://goout.net/cs/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "GoOut",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "plausible",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://goout.net/cs/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "koncerty": [
+    {
+      "name": "GoOut",
+      "source": "https://goout.net/cs/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "GoOut",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "plausible",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://goout.net/cs/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Storm Club Prague",
+      "source": "https://ra.co/clubs/87559",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Storm Club Prague",
+      "verification_status": "verified_directory",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://ra.co/clubs/87559",
+          "kind": "directory"
+        }
+      ]
+    }
+  ],
+  "knihy": [
+    {
+      "name": "Luxor",
+      "source": "https://www.luxor.cz/pobocky",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Luxor",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.luxor.cz/pobocky",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "hry": [
+    {
+      "name": "Steam",
+      "source": "https://store.steampowered.com/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Steam",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://store.steampowered.com/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "GAMIVO",
+      "source": "https://www.gamivo.com/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "GAMIVO",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.gamivo.com/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Epic Games Store",
+      "source": "https://store.epicgames.com/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Epic Games Store",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://store.epicgames.com/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Xzone",
+      "source": "https://www.xzone.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Xzone",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.xzone.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "vzdělávání": [
+    {
+      "name": "Codecademy",
+      "source": "https://www.codecademy.com/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Codecademy",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.codecademy.com/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Isibalo",
+      "source": "https://www.isibalo.com/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Isibalo",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.isibalo.com/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "školní potřeby": [
+    {
+      "name": "Papirnictvi Litomerice",
+      "source": "https://www.leal.cz/papirnictvi/kontakt",
+      "verified_on": "",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "",
+      "verification_status": "ambiguous",
+      "verification_scope": "incomplete",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "unsupported",
+      "enabled_for_generation": false,
+      "verification_sources": [
+        {
+          "url": "https://www.leal.cz/papirnictvi/kontakt",
+          "kind": "investigation"
+        }
+      ]
+    },
+    {
+      "name": "Hračky a papír, Všetaty",
+      "source": "https://www.cylex.cz/vsetaty-stredocesky-kraj/hra%C4%8Dky%2Ba%2Bpap%C3%ADr-390104.html",
+      "verified_on": "",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Hračky a papír, Všetaty",
+      "verification_status": "partial",
+      "verification_scope": "incomplete",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "unsupported",
+      "enabled_for_generation": false,
+      "verification_sources": [
+        {
+          "url": "https://www.cylex.cz/vsetaty-stredocesky-kraj/hra%C4%8Dky%2Ba%2Bpap%C3%ADr-390104.html",
+          "kind": "directory"
+        }
+      ]
+    },
+    {
+      "name": "LEAL Papírnictví",
+      "source": "https://www.leal.cz/papirnictvi/kontakt",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "LEAL Papírnictví",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.leal.cz/papirnictvi/kontakt",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "péče o děti": [
+    {
+      "name": "Marcela Habrová",
+      "source": "fictional-person",
+      "verified_on": "",
+      "origin": "fictional-person",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Marcela Habrová",
+      "verification_status": "fictional_person",
+      "verification_scope": "not_applicable",
+      "verification_note": "Smyšlená osoba.",
+      "category_fit": "synthetic_context",
+      "enabled_for_generation": true,
+      "verification_sources": []
+    }
+  ],
+  "hračky": [
+    {
+      "name": "Hračky a papír, Všetaty",
+      "source": "https://www.cylex.cz/vsetaty-stredocesky-kraj/hra%C4%8Dky%2Ba%2Bpap%C3%ADr-390104.html",
+      "verified_on": "",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Hračky a papír, Všetaty",
+      "verification_status": "partial",
+      "verification_scope": "incomplete",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "unsupported",
+      "enabled_for_generation": false,
+      "verification_sources": [
+        {
+          "url": "https://www.cylex.cz/vsetaty-stredocesky-kraj/hra%C4%8Dky%2Ba%2Bpap%C3%ADr-390104.html",
+          "kind": "directory"
+        }
+      ]
+    },
+    {
+      "name": "Dráčik",
+      "source": "https://www.dracik.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Dráčik",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.dracik.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "veterinář": [
+    {
+      "name": "Super zoo veterina",
+      "source": "https://www.superzoo.cz/sluzby/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Super zoo veterina",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.superzoo.cz/sluzby/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "krmivo": [
+    {
+      "name": "Super zoo",
+      "source": "https://www.superzoo.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Super zoo",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.superzoo.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Super zoo",
+      "source": "https://www.superzoo.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Super zoo",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.superzoo.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Super zoo",
+      "source": "https://www.superzoo.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Super zoo",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.superzoo.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "péče o zvířata": [
+    {
+      "name": "Stanislav Akát",
+      "source": "fictional-person",
+      "verified_on": "",
+      "origin": "fictional-person",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Stanislav Akát",
+      "verification_status": "fictional_person",
+      "verification_scope": "not_applicable",
+      "verification_note": "Smyšlená osoba.",
+      "category_fit": "synthetic_context",
+      "enabled_for_generation": true,
+      "verification_sources": []
+    }
+  ],
+  "zahrada": [
+    {
+      "name": "HORNBACH",
+      "source": "https://www.hornbach.cz/sluzby/montazni-servis/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "HORNBACH",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.hornbach.cz/sluzby/montazni-servis/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "dárky": [
+    {
+      "name": "Alza.cz",
+      "source": "https://www.alza.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Alza.cz",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "plausible",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.alza.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "SONNENTOR",
+      "source": "https://www.sonnentor.com/cs-cz",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "SONNENTOR",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.sonnentor.com/cs-cz",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Alchemistr",
+      "source": "https://alchemistr.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Alchemistr",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "plausible",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://alchemistr.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "charita": [
+    {
+      "name": "Člověk v tísni",
+      "source": "https://www.clovekvtisni.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Člověk v tísni",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.clovekvtisni.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "právní služby": [
+    {
+      "name": "Dostupný advokát",
+      "source": "https://dostupnyadvokat.cz/sluzby/firma",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Dostupný advokát",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://dostupnyadvokat.cz/sluzby/firma",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "účetnictví": [
+    {
+      "name": "Účetnictví Praha s.r.o.",
+      "source": "https://www.ucetnictvi-praha.eu/ucetnictvi/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Účetnictví Praha s.r.o.",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.ucetnictvi-praha.eu/ucetnictvi/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "poštovné": [
+    {
+      "name": "Česká pošta",
+      "source": "https://www.ceskaposta.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Česká pošta",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.ceskaposta.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Zásilkovna",
+      "source": "https://www.zasilkovna.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Zásilkovna",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.zasilkovna.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "PPL CZ",
+      "source": "https://www.ppl.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "PPL CZ",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.ppl.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "DPD",
+      "source": "https://www.dpd.com/cz/cs/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "DPD",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.dpd.com/cz/cs/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "energie": [
+    {
+      "name": "ČEZ Prodej, a.s.",
+      "source": "https://www.cez.cz/cs/podpora/elektrina",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "ČEZ Prodej, a.s.",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.cez.cz/cs/podpora/elektrina",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "telefon a internet": [
+    {
+      "name": "O2 Czech Republic a.s.",
+      "source": "https://www.o2.cz/osobni",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "O2 Czech Republic a.s.",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.o2.cz/osobni",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "předplatné": [
+    {
+      "name": "Netflix",
+      "source": "https://www.netflix.com/cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Netflix",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.netflix.com/cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "pojištění": [
+    {
+      "name": "Generali Česká pojišťovna",
+      "source": "https://www.generaliceska.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Generali Česká pojišťovna",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.generaliceska.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "cestovní pojištění": [
+    {
+      "name": "Generali Česká pojišťovna",
+      "source": "https://www.generaliceska.cz/cestovni-pojisteni",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Generali Česká pojišťovna",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.generaliceska.cz/cestovni-pojisteni",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "dovolená – letenky": [
+    {
+      "name": "Ryanair",
+      "source": "https://help.ryanair.com/hc/cs/categories/38653074432913-Digit%C3%A1ln%C3%AD-Palubn%C3%AD-Letenky",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Ryanair",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://help.ryanair.com/hc/cs/categories/38653074432913-Digit%C3%A1ln%C3%AD-Palubn%C3%AD-Letenky",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "dovolená – ubytování": [
+    {
+      "name": "Booking.com",
+      "source": "https://news.booking.com/fast-facts",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Booking.com",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://news.booking.com/fast-facts",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "dovolená – pronájem auta": [
+    {
+      "name": "Sixt",
+      "source": "https://www.sixt.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Sixt",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.sixt.cz/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "dovolená – stravování": [
+    {
+      "name": "McDonald’s Paris",
+      "source": "https://www.mcdonalds.fr/liste-restaurants-mcdonalds-france",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "McDonald’s Paris",
+      "verification_status": "verified_official_indexed",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.mcdonalds.fr/liste-restaurants-mcdonalds-france",
+          "kind": "official_indexed"
+        }
+      ]
+    }
+  ],
+  "dovolená – výlety": [
+    {
+      "name": "GetYourGuide",
+      "source": "https://www.getyourguide.com/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "GetYourGuide",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.getyourguide.com/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "dovolená – suvenýry": [
+    {
+      "name": "Louvre Shop",
+      "source": "https://boutique.louvre.fr/en/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Louvre Shop",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://boutique.louvre.fr/en/",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "důchod": [
+    {
+      "name": "ČSSZ",
+      "source": "https://www.cssz.gov.cz/web/cz/podani-zadosti-o-duchod2",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "ČSSZ",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.cssz.gov.cz/web/cz/podani-zadosti-o-duchod2",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "rodičovský příspěvek": [
+    {
+      "name": "Úřad práce ČR",
+      "source": "https://www.uradprace.cz/cms/documents/8d9a01e2-e69e-5fcd-e11f-17d9a295c970/UP-Rodicovsky-prispevek-2022-12-nastenka.pdf",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Úřad práce ČR",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.uradprace.cz/cms/documents/8d9a01e2-e69e-5fcd-e11f-17d9a295c970/UP-Rodicovsky-prispevek-2022-12-nastenka.pdf",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "mzda": [
+    {
+      "name": "Zúčtování se zaměstnanci, členy představenstva a dozorčí rady",
+      "source": "data_all.csv",
+      "verified_on": "",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "",
+      "verification_status": "accounting_label",
+      "verification_scope": "statement_label_only",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "synthetic_context",
+      "enabled_for_generation": true,
+      "verification_sources": []
+    }
+  ],
+  "stipendium a brigáda": [
+    {
+      "name": "Fakulta stavební ČVUT v Praze",
+      "source": "https://portal.fsv.cvut.cz/student/bakalmag/stipend.php",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Fakulta stavební ČVUT v Praze",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "plausible",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://portal.fsv.cvut.cz/student/bakalmag/stipend.php",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "příjmy z podnikání": [
+    {
+      "name": "Union Film s.r.o.",
+      "source": "https://obchod.mojekino.cz/obchodni-podminky",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Union Film s.r.o.",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "plausible",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://obchod.mojekino.cz/obchodni-podminky",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "vratka nákupu": [
+    {
+      "name": "Alza.cz",
+      "source": "https://www.alza.cz/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Alza.cz",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "plausible",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.alza.cz/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Steam",
+      "source": "https://store.steampowered.com/",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Steam",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://store.steampowered.com/",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Operátor ICT / PID Lítačka",
+      "source": "https://operatorict.cz/kariera",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Operátor ICT / PID Lítačka",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://operatorict.cz/kariera",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "výběr hotovosti": [
+    {
+      "name": "Komerční banka",
+      "source": "https://www.kb.cz/cs/pobocky-a-bankomaty",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Komerční banka",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.kb.cz/cs/pobocky-a-bankomaty",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Komerční banka",
+      "source": "https://www.kb.cz/cs/pobocky-a-bankomaty",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Komerční banka",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.kb.cz/cs/pobocky-a-bankomaty",
+          "kind": "official"
+        }
+      ]
+    },
+    {
+      "name": "Komerční banka",
+      "source": "https://www.kb.cz/cs/pobocky-a-bankomaty",
+      "verified_on": "2026-10-07",
+      "origin": "public-catalog",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Komerční banka",
+      "verification_status": "verified_official",
+      "verification_scope": "entity_and_service",
+      "verification_note": "Veřejný katalog poskytovatelů; syntetický název není doloženým bankovním descriptorem.",
+      "category_fit": "confirmed",
+      "enabled_for_generation": true,
+      "verification_sources": [
+        {
+          "url": "https://www.kb.cz/cs/pobocky-a-bankomaty",
+          "kind": "official"
+        }
+      ]
+    }
+  ],
+  "nájem nebo hypotéka": [
+    {
+      "name": "Bohumila Kaštanová",
+      "source": "fictional-person",
+      "verified_on": "",
+      "origin": "fictional-person",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Bohumila Kaštanová",
+      "verification_status": "fictional_person",
+      "verification_scope": "not_applicable",
+      "verification_note": "Smyšlená osoba.",
+      "category_fit": "synthetic_context",
+      "enabled_for_generation": true,
+      "verification_sources": []
+    },
+    {
+      "name": "Oldřich Lipový",
+      "source": "fictional-person",
+      "verified_on": "",
+      "origin": "fictional-person",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Oldřich Lipový",
+      "verification_status": "fictional_person",
+      "verification_scope": "not_applicable",
+      "verification_note": "Smyšlená osoba.",
+      "category_fit": "synthetic_context",
+      "enabled_for_generation": true,
+      "verification_sources": []
+    },
+    {
+      "name": "Natálie Borová",
+      "source": "fictional-person",
+      "verified_on": "",
+      "origin": "fictional-person",
+      "checked_on": "2026-10-07",
+      "canonical_name": "Natálie Borová",
+      "verification_status": "fictional_person",
+      "verification_scope": "not_applicable",
+      "verification_note": "Smyšlená osoba.",
+      "category_fit": "synthetic_context",
+      "enabled_for_generation": true,
+      "verification_sources": []
+    }
+  ]
+}
