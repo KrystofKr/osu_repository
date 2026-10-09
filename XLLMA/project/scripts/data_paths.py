@@ -24,3 +24,9 @@ def data_path(name):
     except KeyError as exc:
         raise ValueError(f"Unknown data artifact: {name}") from exc
     return DATA / folder / name
+
+
+def require_synthetic_reference(rows):
+    """Reject accidental replacement of the reference by an ordinary bank export."""
+    if not rows or any(not row.get('Identifikace transakce', '').startswith('REF-') for row in rows):
+        raise ValueError('data_all.csv musí být syntetická reference s identifikátory REF-; skutečný bankovní výpis sem nepatří.')

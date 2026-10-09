@@ -1,6 +1,6 @@
 """Generate reproducible fictional bank transactions and their analysis metadata."""
 from pathlib import Path
-from data_paths import data_path, PROFILE_COLUMNS
+from data_paths import require_synthetic_reference, data_path, PROFILE_COLUMNS
 from datetime import date, timedelta
 from decimal import Decimal, ROUND_HALF_UP
 import json
@@ -87,9 +87,10 @@ def main():
     if any(not items for items in CATALOG.values()):
         raise ValueError("Každá kategorie musí mít ověřeného poskytovatele nebo výslovně smyšlenou osobu.")
     with data_path('data_all.csv').open(encoding='utf-8',newline='') as f:
-        reader=csv.DictReader(f,delimiter=';'); HEADER=reader.fieldnames; ORIGINAL=list(reader)
-    if not ORIGINAL:
-        raise ValueError('Původní výpis je prázdný; nelze odvodit četnost poznámek.')
+        reader=csv.DictReader(f,delimiter=';'); HEADER=reader.fieldnames; REFERENCE=list(reader)
+    require_synthetic_reference(REFERENCE)
+    if not REFERENCE:
+        raise ValueError('Referenční syntetický výpis je prázdný.')
     ROWS, META = [], []
     ACCOUNTS={}
     def account(key):
@@ -234,12 +235,12 @@ def main():
             writer=csv.DictWriter(f,fieldnames=header,delimiter=';');writer.writeheader();writer.writerows(rows)
     assert len(ROWS)==TARGET
     assert len({r['Identifikace transakce'] for r in ROWS})==TARGET
-    assert not {r['Identifikace transakce'] for r in ROWS}&{r['Identifikace transakce'] for r in ORIGINAL}
+    assert not {r['Identifikace transakce'] for r in ROWS}&{r['Identifikace transakce'] for r in REFERENCE}
     assert all(set(r)==set(HEADER) for r in ROWS)
     write(data_path('data_synthetic.csv'),HEADER,sorted(ROWS,key=sortkey))
-    write(data_path('data_combined.csv'),HEADER,sorted(ORIGINAL+ROWS,key=sortkey))
+    write(data_path('data_combined.csv'),HEADER,sorted(REFERENCE+ROWS,key=sortkey))
     write(data_path('synthetic_profiles.csv'),PROFILE_COLUMNS,META)
-    for filename,expected in [('data_synthetic.csv',TARGET),('data_combined.csv',len(ORIGINAL)+TARGET),('synthetic_profiles.csv',TARGET)]:
+    for filename,expected in [('data_synthetic.csv',TARGET),('data_combined.csv',len(REFERENCE)+TARGET),('synthetic_profiles.csv',TARGET)]:
         with data_path(filename).open(encoding='utf-8',newline='') as f:
             reader=csv.DictReader(f,delimiter=';'); loaded=list(reader)
         assert len(loaded)==expected

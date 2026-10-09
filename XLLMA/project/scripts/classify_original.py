@@ -1,5 +1,5 @@
 """Label the synthetic reference transactions using explicit, reviewable rules; no demographic inference."""
-from data_paths import data_path, PROFILE_COLUMNS
+from data_paths import require_synthetic_reference, data_path, PROFILE_COLUMNS
 import csv,re,unicodedata
 from decimal import Decimal
 from collections import Counter, defaultdict
@@ -69,6 +69,7 @@ def classify(r):
 
 def main():
     with data_path('data_all.csv').open(encoding='utf-8',newline='') as f: rows=list(csv.DictReader(f,delimiter=';'))
+    require_synthetic_reference(rows)
     # Fail early if a future import has damaged text; do not classify corrupted values.
     if any(chr(0xFFFD) in value for row in rows for value in row.values()):
         raise ValueError('data_all.csv obsahuje poškozené znaky. Opravte kódování zdrojových dat.')
@@ -103,7 +104,7 @@ def main():
     assert len(lookup)==len(metadata)
     assert len([lookup[r['Identifikace transakce']] for r in rows])==len(rows)
     counts=Counter(lookup[r['Identifikace transakce']]['Kategorie'] for r in rows)
-    print(f'Original rows: {len(rows)}; metadata IDs: {len(metadata)}; classified rows: {len(rows)-counts["neurčeno"]}; unknown: {counts["neurčeno"]}')
+    print(f'Synthetic reference rows: {len(rows)}; metadata IDs: {len(metadata)}; classified rows: {len(rows)-counts["neurčeno"]}; unknown: {counts["neurčeno"]}')
 
 
 if __name__ == "__main__":

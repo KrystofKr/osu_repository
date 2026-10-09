@@ -1,5 +1,5 @@
 """Build shared category codebooks and frequencies without changing transaction labels."""
-from data_paths import data_path
+from data_paths import require_synthetic_reference, data_path
 import csv
 from collections import Counter
 def read(name):
@@ -27,24 +27,36 @@ GROUPS={
     'G99':('Neurčeno',['neurčeno']),
 }
 def main():
+    all_group_categories = [cat for _, cats in GROUPS.values() for cat in cats]
+    if len(all_group_categories) != len(set(all_group_categories)):
+        raise ValueError('Kategorie je přiřazena více hlavním skupinám.')
     group_for={c:(code,name) for code,(name,cats) in GROUPS.items() for c in cats}
-    original_meta=read('original_profiles.csv');synthetic_meta=read('synthetic_profiles.csv');original=read('data_all.csv');synthetic=read('data_synthetic.csv')
+    reference_meta=read('original_profiles.csv');synthetic_meta=read('synthetic_profiles.csv');reference=read('data_all.csv');synthetic=read('data_synthetic.csv')
+    require_synthetic_reference(reference)
+    if any(r["Synteticka"] != "1" for r in reference_meta + synthetic_meta):
+        raise ValueError("Obě datové sady musejí být označené jako syntetické.")
     def index(rows):
         out={r['Identifikace transakce']:r for r in rows}
         assert len(out)==len(rows), 'Metadata must have unique identifiers'
         return out
-    om=index(original_meta);sm=index(synthetic_meta)
-    assert set(om)=={r['Identifikace transakce'] for r in original}
+    if not reference or not synthetic:
+        raise ValueError('Oba zdrojové výpisy musí obsahovat transakce.')
+    om=index(reference_meta);sm=index(synthetic_meta)
+    if set(om) & set(sm):
+        raise ValueError('Identifikátory referenční a hlavní syntetické sady se překrývají.')
+    assert set(om)=={r['Identifikace transakce'] for r in reference}
     assert set(sm)=={r['Identifikace transakce'] for r in synthetic}
     def canonical(category):return ALIASES.get(category,category)
-    oc=Counter(canonical(om[r['Identifikace transakce']]['Kategorie']) for r in original)
+    oc=Counter(canonical(om[r['Identifikace transakce']]['Kategorie']) for r in reference)
     sc=Counter(canonical(sm[r['Identifikace transakce']]['Kategorie']) for r in synthetic)
-    oi=Counter(canonical(r['Kategorie']) for r in original_meta)
+    oi=Counter(canonical(r['Kategorie']) for r in reference_meta)
     si=Counter(canonical(r['Kategorie']) for r in synthetic_meta)
     # Preserve previous category codes, including temporarily absent categories.
     existing=read('category_dictionary.csv') if data_path('category_dictionary.csv').exists() else []
     codes={r['Kategorie']:r['Kod kategorie'] for r in existing}
     assert len(codes)==len(existing), 'Duplicate category names in dictionary'
+    if len(set(codes.values())) != len(codes):
+        raise ValueError('Duplicitní kódy kategorií v číselníku.')
     categories=sorted(set(oc)|set(sc)|set(codes))
     assert set(categories)<=set(group_for),set(categories)-set(group_for)
     next_code=max([int(c[1:]) for c in codes.values()]+[0])+1
@@ -57,12 +69,12 @@ def main():
         'Cetnost originalni radky':oc[cat],'Cetnost originalni identifikatory':oi[cat],
         'Cetnost synteticke radky':sc[cat],'Cetnost synteticke identifikatory':si[cat],
         'Cetnost spolecne radky':oc[cat]+sc[cat],
-        'Podil originalni procent':f'{100*oc[cat]/len(original):.2f}'.replace('.',','),
+        'Podil originalni procent':f'{100*oc[cat]/len(reference):.2f}'.replace('.',','),
         'Podil synteticke procent':f'{100*sc[cat]/len(synthetic):.2f}'.replace('.',','),
-        'Podil spolecne procent':f'{100*(oc[cat]+sc[cat])/(len(original)+len(synthetic)):.2f}'.replace('.',',')})
+        'Podil spolecne procent':f'{100*(oc[cat]+sc[cat])/(len(reference)+len(synthetic)):.2f}'.replace('.',',')})
     write('category_dictionary.csv',result)
     mapping=[]
-    for label in sorted({r['Kategorie'] for r in original_meta+synthetic_meta}):
+    for label in sorted({r['Kategorie'] for r in reference_meta+synthetic_meta}):
         cat=canonical(label)
         mapping.append({'Puvodni kategorie':label,'Kod kategorie':codes[cat],'Kategorie':cat,'Kod hlavni kategorie':group_for[cat][0],'Hlavni kategorie':group_for[cat][1]})
     write('category_mapping.csv',mapping)
@@ -74,14 +86,14 @@ def main():
             row[col]=sum(r[col] for r in members)
         main.append(row)
     write('main_category_dictionary.csv',main)
-    assert sum(r['Cetnost originalni radky'] for r in result)==len(original)
-    assert sum(r['Cetnost originalni identifikatory'] for r in result)==len(original_meta)
+    assert sum(r['Cetnost originalni radky'] for r in result)==len(reference)
+    assert sum(r['Cetnost originalni identifikatory'] for r in result)==len(reference_meta)
     assert sum(r['Cetnost synteticke radky'] for r in result)==len(synthetic)
     assert len(set(codes.values()))==len(codes)
     for name in ['category_dictionary.csv','category_mapping.csv','main_category_dictionary.csv']:
         check=read(name);assert check and all(None not in r and None not in r.values() for r in check)
-    print('Categories:',len(categories),'original:',len(oc),'synthetic:',len(sc),'main groups:',len(main))
-    print('Frequency totals:',len(original),len(original_meta),len(synthetic),len(original)+len(synthetic))
+    print('Categories:',len(categories),'reference:',len(oc),'synthetic:',len(sc),'main groups:',len(main))
+    print('Frequency totals:',len(reference),len(reference_meta),len(synthetic),len(reference)+len(synthetic))
     print('Top combined:',[(r['Kategorie'],r['Cetnost spolecne radky']) for r in sorted(result,key=lambda r:r['Cetnost spolecne radky'],reverse=True)[:5]])
 
 
