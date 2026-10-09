@@ -39,3 +39,10 @@ Notebook `../project/notebooks/EDA.ipynb` analyzuje odděleně referenci a hlavn
 Kategorie reference jsou heuristické odhady, nikoli ruční pravda. Kategorie hlavní sady pocházejí ze scénářů generátoru a nemusejí být poznatelné z textu platby. Správnost LLM vyžaduje nezávisle posouzené příklady; shoda s pravidly sama není správnost. Žádné současné výsledky nelze prezentovat jako analýzu reálného uživatele.
 
 Generátor používá pevné fiktivní kurzy, modelovou inflaci, pevné profily a předpoklady pro četnost poznámek (4 % popis pro mě, 50 % zpráva pro příjemce). Tyto parametry nyní nejsou odvozené ze soukromého výpisu. Názvy firem pocházejí z veřejného katalogu, bankovní čísla a osobní jména jsou smyšlená. Názvy nejsou potvrzenými bankovními descriptory a katalog neprokazuje skutečný nákup ani dostupnost služby v každém historickém dni.
+
+
+## Kontrola označení zdrojů
+
+Generátor, klasifikátor, číselníky a validátor odmítnou `data_all.csv` bez prefixů REF-. Validátor kontroluje SYN- u hlavní sady a příznak `Synteticka = 1` v obou metadatech; stejné kontroly má EDA. Jde o ochranu před nechtěným vložením běžného bankovního exportu, nikoli o důkaz syntetického původu libovolně přeznačených dat.
+
+Historické názvy `original_profiles.csv`, `original_classification_audit.csv`, `classify_original.py` a sloupce `Cetnost originalni ...` jsou ponechané kvůli kompatibilitě. `Puvodni kategorie` je vstupní název před sjednocením aliasů. Bankovní sloupce `Originalni castka` a `Originalni mena` označují částku a měnu před přepočtem, nikoli původ soukromých dat. Nulové kategorie v číselníku zůstávají kvůli stabilním kódům; nejsou dokladem současných transakcí.
