@@ -127,11 +127,38 @@ def main(argv=None):
     write_csv(output/'category_metrics.csv',all_class_metrics,['source','level','name','code','support','predicted','precision','recall','f1'])
     write_csv(output/'confusions.csv',confusions,['source','level','target','prediction','count'])
     def pct(value):return f'{100*value:.2f} %' if value is not None else '—'
-    model = manifest['configuration']['model']
+    configuration = manifest['configuration']
+    options = configuration['options']
+    model = configuration['model']
+    seconds = manifest.get('wall_seconds', 0)
+    completed = manifest.get('completed', 0)
+    parameters = [
+        ('Model', f'`{model}`'),
+        ('Digest modelu', f'`{configuration["digest"]}`'),
+        ('Ollama', manifest.get('ollama_version', '—')),
+        ('Transakce ve vstupu', len(transactions)),
+        ('Kategorie / hlavní skupiny', f'{len(dictionary)} / {len(groups)}'),
+        ('Transakce na požadavek', configuration['batch_size']),
+        ('Souběžné požadavky při posledním spuštění', manifest.get('last_execution', {}).get('workers', '—')),
+        ('Temperature', options['temperature']),
+        ('Seed', options['seed']),
+        ('Kontext (tokeny)', options['num_ctx']),
+        ('Limit odpovědi pro plnou dávku (tokeny)', options['num_predict']),
+        ('Thinking', 'zapnuto' if configuration['think'] else 'vypnuto'),
+        ('Zaznamenaný čas klasifikace', f'{seconds:.2f} s ({seconds / 60:.2f} min)'),
+        ('Průměrný čas na uloženou transakci', f'{seconds / completed:.3f} s' if completed else '—'),
+        ('Požadavky na klasifikaci', manifest.get('requests', '—')),
+        ('Zpracování neúspěšných odpovědí / dělení dávek', manifest.get('fallback_splits', '—')),
+    ]
     lines=[f'# Vyhodnocení {model}','',f'Vyhodnoceno {len(enriched)} z {len(transactions)} transakcí.',
            '', 'Cíl hodnocení: shoda se scénářovou kategorií generátoru. Nejde o ručně ověřenou přesnost na skutečných bankovních datech.',
-           '', '| Sada | Počet | Přesnost kategorie | Macro-F1 kategorie | Přesnost hlavní | Macro-F1 hlavní |',
-           '|---|---:|---:|---:|---:|---:|']
+           '', '## Parametry experimentu', '', '| Parametr | Hodnota |', '|---|---|']
+    lines.extend(f'| {name} | {value} |' for name, value in parameters)
+    lines.extend(['', 'Čas pochází z run.json a sčítá aktivní spuštění klasifikátoru, včetně požadavků a zápisu výsledků; nezahrnuje pauzy mezi spuštěními ani toto vyhodnocení.',
+                  'Limit odpovědi je společný pro celý požadavek. Neúplné odpovědi klasifikátor odmítá.',
+                  '', '## Výsledky', '',
+                  '| Sada | Počet | Přesnost kategorie | Macro-F1 kategorie | Přesnost hlavní | Macro-F1 hlavní |',
+                  '|---|---:|---:|---:|---:|---:|'])
     for source,values in metrics['sources'].items():
         lines.append(f'| {source} | {values["fine"]["count"]} | {pct(values["fine"]["accuracy"])} | {pct(values["fine"]["macro_f1"])} | {pct(values["main"]["accuracy"])} | {pct(values["main"]["macro_f1"])} |')
     lines.extend(['','Macro-F1 průměruje jen kategorie přítomné v cílových datech. Četné kategorie tedy nepřeváží vzácné.',
