@@ -1,5 +1,7 @@
 # Plně syntetická data XLLMA
 
+Souhrn vývoje, rozhodnutí a všech experimentů je v [dokumentaci postupu a výsledků](../DOKUMENTACE_PROJEKTU.md).
+
 Soukromé transakce byly 9. 10. 2026 nahrazeny nezávisle vygenerovanými smyšlenými platbami. Žádný současný výpis nepředstavuje skutečné transakce majitele projektu. Původní částky, data, bankovní údaje a poznámky se nezachovávají. Název `data_all.csv` zůstává kvůli kompatibilitě skriptů.
 
 ## Soubory
@@ -103,6 +105,28 @@ Každý požadavek dostává samostatnou transakci a společné instrukce, bez h
 
 Dokončené [porovnání obou běhů](experiments/qwen3.5_4b_single_t0/comparison_report.md) ukazuje při zpracování po jedné podrobnou shodu 45,18 % a hlavní shodu 60,51 %, oproti 58,26 % a 71,30 % v dávce 16. Čas vzrostl ze 40,55 na 88,68 minut. Jde o výsledek tohoto modelu, promptu a syntetických dat, nikoli obecné pravidlo o velikosti dávek. Reporty experimentů jsou místní ignorované výstupy.
 
+### Kategorie navržené samotným LLM
+
+Experiment `qwen3.5_4b_discovered` má dvě oddělené fáze. `discover_categories.py` vybere 512 náhodných transakcí bez opakování (seed 42). Qwen z osmi vzorků po 64 navrhne vlastní české hlavní a podrobné kategorie, jejich definice a jednu kategorii pro neurčitelný účel. Poté vlastní návrhy sjednotí. Existující číselníky, scénáře, heuristika, profily a katalog obchodníků nejsou vstupem návrhu ani následné klasifikace. Technické stropy návrhu jsou 60 podrobných kategorií a 16 hlavních skupin; konkrétní počet volí model.
+
+Skript přidělí novým kategoriím kódy D001… a skupinám H001…, odstraní pouze nepoužité hlavní skupiny a zmrazí `taxonomy.json`. Významy a názvy nepřepisuje ručně. Pokud návrh nemá platnou strukturu, může požádat Qwen o dvě opravy; všechny požadavky a odpovědi uchovává. Klasifikace potom používá pouze tuto zmrazenou taxonomii a její definice, dávku 16, teplotu 0 a ostatní klasifikační nastavení předchozího dávkového experimentu. Během označování se kategorie nedoplňují.
+
+Ze složky XLLMA:
+
+```bash
+python3 project/scripts/discover_categories.py
+python3 project/scripts/classify_all_llm.py --taxonomy data/experiments/qwen3.5_4b_discovered/taxonomy.json --output data/experiments/qwen3.5_4b_discovered
+python3 project/scripts/evaluate_discovered.py --plots
+```
+
+Návrh i klasifikaci lze obnovit opakováním příkazu; změna dat, nastavení nebo taxonomie vyžaduje novou výstupní složku. Návrh používá kontext 16 384 tokenů, sjednocení 32 768 a klasifikace 8 192. Thinking je vypnuto. Taxonomie a její kontrolní součet jsou součástí konfigurace klasifikace. Původní číselníky ani bankovní CSV tento experiment nepřepisuje.
+
+`evaluate_discovered.py` vyhodnocuje především 10 113 transakcí mimo návrhový vzorek. Odlišné názvy a granularita kategorií znamenají, že přímá shoda nových kódů D/H se scénářovými K/G nedává smysl. Report proto porovnává rozdělení pomocí ARI, homogenity, úplnosti a V-measure; stejné metriky počítá pro předchozí dávkový experiment na stejných řádcích. Navíc jen na návrhových řádcích stanoví většinovou asociaci nových kategorií ke scénářům a měří její shodu na zbytku. Tato asociace je statistická, může být více ku jedné a nenahrazuje významové ověření kategorií. Neurčené a v kalibračním vzorku nepozorované kategorie zůstávají bez asociace.
+
+Výstupy jsou v `data/experiments/qwen3.5_4b_discovered/`: vlastní `category_dictionary.csv` a `main_category_dictionary.csv` s četnostmi, `predictions.csv`, `evaluation.json`, `contingency.csv`, [výsledkový report](experiments/qwen3.5_4b_discovered/evaluation_report.md) a grafy. `discovery.json`, `proposal_*.json`, `merged_proposal*.json`, `taxonomy.json`, `run.json` a `predictions.jsonl` uchovávají průběh a podklady pro pokračování. Výstupy jsou ignorované Gitem. Náhodný vzorek nemusí zachytit vzácné účely; zbývající řádky pocházejí ze stejného syntetického generátoru. Výsledky tedy neprokazují kvalitu na reálných platbách ani nových obchodnících.
+
+Dokončený běh vytvořil 29 kategorií a 14 hlavních skupin a označil všech 10 625 transakcí. Použil 28 kategorií; neurčený účel má 924 řádků (8,70 %) a 164 zařazení porušuje vlastní hierarchii. Návrh trval evidovaných 3,29 minuty a klasifikace 39,99 minuty. Na 10 113 řádcích mimo návrhový vzorek má podrobné rozdělení ARI 0,6605 oproti 0,5960 s pevným číselníkem; hlavní rozdělení má ARI 0,4295 oproti 0,5707. V-measure je v obou úrovních nižší: 71,44 % oproti 73,57 % a 54,72 % oproti 63,92 %. Výsledek tedy není jednoznačně lepší. Model například zařadil neurčitý účel pod příjmy a vytvořil překrývající se sportovní a cestovní kategorie; tyto vady nebyly ručně opravovány.
+
 ## Přehled skriptů
 
 | Skript v `../project/scripts/` | Úloha |
@@ -113,6 +137,8 @@ Dokončené [porovnání obou běhů](experiments/qwen3.5_4b_single_t0/compariso
 | `validate_data.py` | Kontrola konzistence výpisů, profilů, scénářů a číselníků |
 | `recover_reference_scenarios.py` | Obnova scénářových štítků při přesné reprodukci referenčních transakcí |
 | `classify_all_llm.py` | Úplná i omezená klasifikace lokálním LLM s pokračováním po přerušení |
+| `discover_categories.py` | Návrh a zmrazení vlastní taxonomie lokálním LLM bez současných štítků |
 | `evaluate_llm.py` | Vyhodnocení uložených odpovědí, tabulky a volitelné grafy |
+| `evaluate_discovered.py` | Vyhodnocení vlastní taxonomie, četnosti a srovnání rozdělení s předchozím experimentem |
 | `llm_utils.py` | Sdílený klient Ollamy a čtení/zápis experimentů; nespouští se samostatně |
 | `data_paths.py` | Společné umístění datových souborů; nespouští se samostatně |
