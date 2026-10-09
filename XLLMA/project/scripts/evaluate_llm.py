@@ -57,6 +57,8 @@ def main(argv=None):
         parser.error('Experiment musí být pod data/experiments.')
     predictions=load_journal(output/'predictions.jsonl')
     manifest=json.loads((output/'run.json').read_text())
+    if manifest['configuration'].get('taxonomy_mode') == 'model_proposed':
+        raise ValueError('Vlastní taxonomie má odlišné kódy; použij evaluate_discovered.py.')
     for name,digest in manifest['configuration']['input_hashes'].items():
         if hashlib.sha256(data_path(name).read_bytes()).hexdigest()!=digest:
             raise ValueError('Vstupy se od klasifikace změnily: '+name)
