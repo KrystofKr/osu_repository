@@ -70,3 +70,34 @@ def write_json(path, data):
     temporary = path.with_suffix('.tmp')
     temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     temporary.replace(path)
+
+
+def load_taxonomy(path):
+    """Read a frozen, model-proposed taxonomy without consulting existing labels."""
+    document = json.loads(path.read_text(encoding='utf-8'))
+    groups = document['groups']
+    categories = document['categories']
+    sample_ids = document.get('sample_ids')
+    if (document.get('format_version') != 1 or not isinstance(groups,list) or not groups
+        or not isinstance(categories,list) or not categories or not isinstance(sample_ids,list)
+        or not sample_ids or any(not isinstance(i,str) or not i for i in sample_ids)
+        or len(set(sample_ids)) != len(sample_ids)):
+        raise ValueError('Neplatná navržená taxonomie.')
+    for rows in (groups, categories):
+        if any(not isinstance(r,dict) for r in rows):
+            raise ValueError('Neplatné položky taxonomie.')
+        for field in ('code', 'name'):
+            values = [r[field] for r in rows]
+            if any(not isinstance(v, str) or not v.strip() for v in values) or len({v.casefold() for v in values}) != len(values):
+                raise ValueError('Prázdné nebo duplicitní kódy/názvy taxonomie.')
+        if any(not isinstance(r.get('description'), str) or not r['description'].strip() for r in rows):
+            raise ValueError('Kategorie musí mít definice.')
+    group_codes = {r['code'] for r in groups}
+    if any(r['group'] not in group_codes or type(r.get('unknown')) is not bool for r in categories):
+        raise ValueError('Neplatná hierarchie taxonomie.')
+    if {r['group'] for r in categories} != group_codes or sum(r['unknown'] for r in categories) != 1:
+        raise ValueError('Každá hlavní skupina musí být použita; vyžadována je právě jedna neurčená kategorie.')
+    dictionary = [{'Kod kategorie': r['code'], 'Kategorie': r['name'],
+                   'Kod hlavni kategorie': r['group'], 'Definice': r['description'],
+                   'Neurceno': r['unknown']} for r in categories]
+    return document, dictionary, {r['code']: r['name'] for r in groups}
