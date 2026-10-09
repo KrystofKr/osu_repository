@@ -8,6 +8,7 @@ ROUTES = {
     "data_synthetic.csv": "transactions",
     "data_combined.csv": "transactions",
     "original_profiles.csv": "profiles",
+    "reference_scenarios.csv": "profiles",
     "synthetic_profiles.csv": "profiles",
     "category_dictionary.csv": "dictionaries",
     "category_mapping.csv": "dictionaries",

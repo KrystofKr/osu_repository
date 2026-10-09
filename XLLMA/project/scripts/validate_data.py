@@ -100,6 +100,10 @@ def main():
     audit = unique(loaded['original_classification_audit.csv'][1], ID, 'Audit')
     require(set(audit) == set(om), 'Nesoulad identifikátorů auditu')
     require(all(audit[key]['Kategorie'] == row['Kategorie'] for key, row in om.items()), 'Neaktuální kategorie auditu')
+    if data_path('reference_scenarios.csv').exists():
+        scenario_index = unique(read('reference_scenarios.csv')[1], ID, 'Scénáře reference')
+        require(set(scenario_index) == set(om), 'Scénáře reference nepokrývají referenční transakce')
+        require(all(row['Synteticka'] == '1' and row['Kategorie'] in mapping for row in scenario_index.values()), 'Neplatné scénáře reference')
     catalog = json.loads(Path(__file__).with_name('merchant_catalog.json').read_text(encoding='utf-8'))
     for row in synthetic:
         category = sm[row[ID]]['Kategorie']
