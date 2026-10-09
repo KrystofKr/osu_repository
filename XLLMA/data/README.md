@@ -9,6 +9,7 @@ Soukromé transakce byly 9. 10. 2026 nahrazeny nezávisle vygenerovanými smyšl
 | transactions/data_all.csv | 1 625 syntetických referenčních transakcí, identifikátory REF-* |
 | transactions/data_synthetic.csv | 9 000 syntetických transakcí, identifikátory SYN-* |
 | transactions/data_combined.csv | Obě sady, celkem 10 625 transakcí |
+| profiles/reference_scenarios.csv | Obnovené scénáře referenčních transakcí po přesném ověření reprodukce |
 | profiles/original_profiles.csv | Heuristická kategorizace syntetické reference; historický název souboru |
 | profiles/synthetic_profiles.csv | Kategorie ze scénářů generátoru a 12 smyšlených profilů |
 | dictionaries/category_dictionary.csv | Stabilní kódy kategorií, četnosti řádků a identifikátorů |
@@ -46,3 +47,57 @@ Generátor používá pevné fiktivní kurzy, modelovou inflaci, pevné profily 
 Generátor, klasifikátor, číselníky a validátor odmítnou `data_all.csv` bez prefixů REF-. Validátor kontroluje SYN- u hlavní sady a příznak `Synteticka = 1` v obou metadatech; stejné kontroly má EDA. Jde o ochranu před nechtěným vložením běžného bankovního exportu, nikoli o důkaz syntetického původu libovolně přeznačených dat.
 
 Historické názvy `original_profiles.csv`, `original_classification_audit.csv`, `classify_original.py` a sloupce `Cetnost originalni ...` jsou ponechané kvůli kompatibilitě. `Puvodni kategorie` je vstupní název před sjednocením aliasů. Bankovní sloupce `Originalni castka` a `Originalni mena` označují částku a měnu před přepočtem, nikoli původ soukromých dat. Nulové kategorie v číselníku zůstávají kvůli stabilním kódům; nejsou dokladem současných transakcí.
+
+
+## Úplná klasifikace a vyhodnocení
+
+`classify_all_llm.py` zpracuje celý společný výpis do 89 podrobných a 15 hlavních kategorií. Qwen vybírá oba kódy; nesoulad mezi jejich hierarchií se vykazuje jako chyba konzistence, automaticky se neopravuje. Každý požadavek obsahuje pevnou taxonomii a dávku 16 nezávislých transakcí. Model dostává pouze bankovní údaje, nikoli scénáře, heuristické štítky nebo katalog poskytovatelů.
+
+Pro syntetickou referenci byl scénář generátoru obnoven pomocí seedů 20261010 a 20261011 v `recover_reference_scenarios.py`. Zápis `profiles/reference_scenarios.csv` proběhne pouze po přesné shodě všech bankovních sloupců se současným výpisem. Soubor je samostatná scénářová reference, nenahrazuje heuristické `original_profiles.csv` a není vstupem do modelu.
+
+Ze složky XLLMA:
+
+```bash
+python3 project/scripts/recover_reference_scenarios.py
+python3 project/scripts/classify_all_llm.py
+python3 project/scripts/evaluate_llm.py
+```
+
+Přerušená klasifikace pokračuje ze souboru `predictions.jsonl`. `run.json` uzamyká vstupní soubory, digest modelu, prompt, nastavení i velikost dávky. `--workers` určuje souběžné požadavky; zrychlí běh pouze při paralelní podpoře serveru. Host musí být lokální. Výstupy zůstávají pod `data/experiments/qwen3.5_4b_all_categories/`.
+
+Malý kontrolní běh používá stejný skript:
+
+```bash
+python3 project/scripts/classify_all_llm.py --max-new 50 --output data/experiments/pilot
+python3 project/scripts/evaluate_llm.py --experiment data/experiments/pilot --allow-partial
+```
+
+Limit vybere prvních 50 dosud nezpracovaných transakcí v pořadí společného výpisu; není to náhodný ani reprezentativní vzorek. Opakování zpracuje dalších 50. Bez `--max-new` se dokončí celý výpis. Při změně vstupů, promptu, modelového digestu nebo velikosti dávky použij novou výstupní složku. Klasifikace vybírá z pevné taxonomie a nemění bankovní výpisy ani jejich metadata. Lokální API musí běžet na 127.0.0.1:11434; výsledky experimentů jsou ignorované Gitem.
+
+- `run.json`: nastavení, kontrolní součty vstupů, digest modelu a průběh běhu.
+- `predictions.jsonl`: průběžný zápis odpovědí potřebný pro pokračování klasifikace a vyhodnocení.
+- `predictions.csv`: každý bankovní řádek, obě kategorie Qwenu, scénářové štítky, shody a konzistence hierarchie; referenční řádky obsahují navíc heuristické kódy.
+- `evaluation_report.md`: čitelný souhrn výsledků a nejčastějších záměn.
+- `evaluation.json`: metriky za celý výpis a jednotlivé sady, včetně podrobných a hlavních kategorií.
+- `category_metrics.csv`: precision, recall a F1 jednotlivých kategorií a skupin.
+- `confusions.csv`: četnosti cílových a predikovaných dvojic kategorií.
+
+Evaluator standardně odmítá neúplný běh; `--allow-partial` je pouze pro průběžnou kontrolu. Přesnost a macro-F1 vyjadřují shodu se scénářovým záměrem generátoru. Neprokazují stejnou kvalitu na reálných výpisech; část scénářů nelze z bankovního textu jednoznačně určit. Macro-F1 používá kategorie s nenulovým cílovým zastoupením. Srovnání s heuristikou je vykázané zvlášť jako shoda, nikoli nezávislá přesnost.
+
+Aktuální Qwen3.5 ve verzi Ollamy 0.34.0 paralelní požadavky nepodporuje; pro něj používej `--workers 1`. Pro export grafů vyhodnocení spusť `.venv/bin/python XLLMA/project/scripts/evaluate_llm.py --plots` z kořene repozitáře.
+
+U dokončeného experimentu obsahuje vyhodnocení i řádek `excluding_pilot`, který vynechává 50 transakcí z prvního pilotu použitého při úpravě instrukcí. Jejich identifikátory jsou uložené v `run.json` pod `evaluation_context.prompt_development_ids`. Starý pilotní skript a jeho samostatné výstupy byly odstraněny; úplný experiment na nich nezávisí. Nové experimenty bez těchto metadat tento řádek nevytvářejí.
+
+## Přehled skriptů
+
+| Skript v `../project/scripts/` | Úloha |
+|---|---|
+| `generate_synthetic.py` | Generování hlavní syntetické sady, profilů a společného výpisu |
+| `classify_original.py` | Heuristická klasifikace syntetické reference pro srovnání |
+| `build_category_dictionaries.py` | Stabilní kódy kategorií, mapování a četnosti |
+| `validate_data.py` | Kontrola konzistence výpisů, profilů, scénářů a číselníků |
+| `recover_reference_scenarios.py` | Obnova scénářových štítků při přesné reprodukci referenčních transakcí |
+| `classify_all_llm.py` | Úplná i omezená klasifikace lokálním LLM s pokračováním po přerušení |
+| `evaluate_llm.py` | Vyhodnocení uložených odpovědí, tabulky a volitelné grafy |
+| `llm_utils.py` | Sdílený klient Ollamy a čtení/zápis experimentů; nespouští se samostatně |
+| `data_paths.py` | Společné umístění datových souborů; nespouští se samostatně |
