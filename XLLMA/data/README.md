@@ -77,7 +77,7 @@ Limit vybere prvních 50 dosud nezpracovaných transakcí v pořadí společnéh
 - `run.json`: nastavení, kontrolní součty vstupů, digest modelu a průběh běhu.
 - `predictions.jsonl`: průběžný zápis odpovědí potřebný pro pokračování klasifikace a vyhodnocení.
 - `predictions.csv`: každý bankovní řádek, obě kategorie Qwenu, scénářové štítky, shody a konzistence hierarchie; referenční řádky obsahují navíc heuristické kódy.
-- `evaluation_report.md`: čitelný souhrn výsledků a nejčastějších záměn.
+- `evaluation_report.md`: parametry experimentu, čas klasifikace, souhrn výsledků a nejčastější záměny.
 - `evaluation.json`: metriky za celý výpis a jednotlivé sady, včetně podrobných a hlavních kategorií.
 - `category_metrics.csv`: precision, recall a F1 jednotlivých kategorií a skupin.
 - `confusions.csv`: četnosti cílových a predikovaných dvojic kategorií.
@@ -87,6 +87,21 @@ Evaluator standardně odmítá neúplný běh; `--allow-partial` je pouze pro pr
 Aktuální Qwen3.5 ve verzi Ollamy 0.34.0 paralelní požadavky nepodporuje; pro něj používej `--workers 1`. Pro export grafů vyhodnocení spusť `.venv/bin/python XLLMA/project/scripts/evaluate_llm.py --plots` z kořene repozitáře.
 
 U dokončeného experimentu obsahuje vyhodnocení i řádek `excluding_pilot`, který vynechává 50 transakcí z prvního pilotu použitého při úpravě instrukcí. Jejich identifikátory jsou uložené v `run.json` pod `evaluation_context.prompt_development_ids`. Starý pilotní skript a jeho samostatné výstupy byly odstraněny; úplný experiment na nich nezávisí. Nové experimenty bez těchto metadat tento řádek nevytvářejí.
+
+### Porovnání s jednotlivými transakcemi
+
+Experiment `qwen3.5_4b_single_t0` používá jednu transakci na požadavek, jednoho pracovníka, teplotu 0, seed 42, kontext 8 192 tokenů a limit odpovědi 80 tokenů. Zachovává modelový digest, prompt, vstupní soubory a taxonomii experimentu s dávkou 16. Identifikátory 50 vývojových příkladů jsou převzaté do jeho `evaluation_context`, aby bylo možné porovnat i shodu bez těchto příkladů.
+
+Ze složky XLLMA:
+
+```bash
+python3 project/scripts/classify_all_llm.py --batch-size 1 --workers 1 --output data/experiments/qwen3.5_4b_single_t0
+python3 project/scripts/evaluate_llm.py --experiment data/experiments/qwen3.5_4b_single_t0
+```
+
+Každý požadavek dostává samostatnou transakci a společné instrukce, bez historie předchozích požadavků. Čas v reportu sčítá aktivní spuštění klasifikátoru; pauzy mezi pokračováními a vyhodnocení do něj nevstupují. Výsledek s dávkou 1 lze porovnat s dávkou 16 na stejných identifikátorech. Teplota se v tomto srovnání nemění.
+
+Dokončené [porovnání obou běhů](experiments/qwen3.5_4b_single_t0/comparison_report.md) ukazuje při zpracování po jedné podrobnou shodu 45,18 % a hlavní shodu 60,51 %, oproti 58,26 % a 71,30 % v dávce 16. Čas vzrostl ze 40,55 na 88,68 minut. Jde o výsledek tohoto modelu, promptu a syntetických dat, nikoli obecné pravidlo o velikosti dávek. Reporty experimentů jsou místní ignorované výstupy.
 
 ## Přehled skriptů
 
