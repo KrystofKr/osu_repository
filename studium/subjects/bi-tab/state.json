@@ -1,0 +1,3726 @@
+{
+  "schema_version": 1,
+  "subject_id": "bi-tab",
+  "name": "BI-TAB",
+  "goals": [
+    "Porozumět obsahu balíčku BI-TAB, vysvětlovat odpovědi a samostatně řešit jeho otázky a úlohy."
+  ],
+  "created_at": "2026-10-17T14:26:40.571188+00:00",
+  "topics": {
+    "prednaska-01": {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-01",
+      "title": "Přednáška 01",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 01“ předmětu BI-TAB."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-02": {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-02",
+      "title": "Přednáška 02",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 02“ předmětu BI-TAB."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-03": {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-03",
+      "title": "Přednáška 03",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 03“ předmětu BI-TAB."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-04": {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-04",
+      "title": "Přednáška 04",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 04“ předmětu BI-TAB."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-05": {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-05",
+      "title": "Přednáška 05",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 05“ předmětu BI-TAB."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-06": {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-06",
+      "title": "Přednáška 06",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 06“ předmětu BI-TAB."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-07": {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-07",
+      "title": "Přednáška 07",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 07“ předmětu BI-TAB."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-08": {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-08",
+      "title": "Přednáška 08",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 08“ předmětu BI-TAB."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    }
+  },
+  "sources": {
+    "anki-prednaska-01-v1": {
+      "subject_id": "bi-tab",
+      "source_id": "anki-prednaska-01-v1",
+      "title": "FIT ČVUT Anki – BI-TAB – Přednáška 01",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-tab/anki-prednaska-01-v1/anki-prednaska-01-v1.zip",
+      "file": "sources/anki-prednaska-01-v1/anki-prednaska-01-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "5db25d9e1209280de5188ca2f9cc949502552848baec945541a12c968a7b448b",
+      "topic_ids": [
+        "prednaska-01"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg, SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-TAB – Přednáška 01"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg; APKG SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 53183dd48468239630c7cf283347984511ecad52b3dee78ea36f4c1d42180eeb."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-TAB"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 10 poznámek, 10 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1708630120419"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1708630120419"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: B(RTXmP))f; štítky: bi-tab::p01."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Metadata původního zdroje pro kartu 1708630120419: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Popište anténu a její parametry."
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "Anténa je zařízení, které vysílá a přijímá elektromagnetické vlny. Mezi parametry antény patří:"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "- **zisk** - poměr intenzity vyzařování v daném směru vůči referenční anténě;"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "- **pracovní pásmo** - šířka přenášeného frekvenčního pásma;"
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "- **směrovost** - směr vysílání a příjmu elektromagnetických vln (popisuje se vyzařovacím diagramem);"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "- **polarizace** - rovina, ve které se šíří elektrická složky elektromagnetické vlny."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "## Poznámka Anki 1708630142108"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Karty Anki: 1708630142108"
+        },
+        {
+          "locator": "transcript-line:38",
+          "text": "GUID: t$@1`wGP-@; štítky: bi-tab::p01."
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "Metadata původního zdroje pro kartu 1708630142108: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "Popište elektromagnetickou vlnu a její parametry."
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "Elektromagnetická vlna je jev, při kterém se prostorem šíří elektromagnetické pole. To se skládá z elektrické a magnetické roviny, které jsou na sebe vzájemně kolmé. Elektromagnetické vlnění je typicky generováno elektrickým signálem, který osciluje ve tvaru sinusoidy. Mezi parametry elektromagnetické vlny patří:"
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "- **vlnová délka **(\\(\\lambda\\)) - vzdálenost dvou bodů kmitajících ve fázi,"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "- **frekvence **(\\(f\\)) - počet opakování periody za jednotku času,"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "- **amplituda **- maximální hodnota vlny,"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "přičemž platí"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "\\[f = \\frac c \\lambda,\\]kde \\(c\\) je rychlost světla."
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": " [Obrázek: em_wave.png; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "## Poznámka Anki 1708631047336"
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "Karty Anki: 1708631047336"
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "GUID: H%y-Kzb.fj; štítky: bi-tab::p01."
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "Metadata původního zdroje pro kartu 1708631047336: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "Jaké jsou typy polarizace antény? Jak ji lze ovlivňovat?"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "Mezi možné polarizace antény patří:"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "- vertikální,"
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "- horizontální,"
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "- kruhová."
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "Polarizace souvisí s polohou antény, proto ji lze upravovat změnou prostorové orientace antény."
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "## Poznámka Anki 1708789884010"
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "Karty Anki: 1708789884011"
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "GUID: A}YQP:zpXJ; štítky: bi-tab::p01."
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "Uveďte příklady typů antén."
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "Mezi typy antén patří:"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "- dipól,"
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "- yagi-uda,"
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "- parabolická anténa."
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "## Poznámka Anki 1708790100985"
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "Karty Anki: 1708790100986"
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "GUID: I=t)__ky.); štítky: bi-tab::p01."
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "Metadata původního zdroje pro kartu 1708790100986: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "Jaké rozlišujeme druhy linek dle možnosti vysílání a příjmu?"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "Rozlišujeme následující typy linek:"
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "- **simplex **- komunikace probíhá pouze jedním směrem;"
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "- **duplex **- komunikace probíhá obousměrně;"
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "- **half-duplex** - komunikace může probíhat oběma směry, ale najednou lze komunikovat pouze jednosměrně."
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": " [Obrázek: paste-20229215ee6af9c4f418904d4787afcd7edc3cbe.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "## Poznámka Anki 1708790836024"
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "Karty Anki: 1708790836025"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "GUID: LN,VhaU2Cx; štítky: bi-tab::p01."
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "Popište superheterodynní přijímač."
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:130",
+          "text": "Superheterodynní přijímač je typ rádiového přijímače, který funguje tak, že přijímaný signál se nejprve směšuje s proměnnou frekvencí místního oscilátoru a teprve výsledná rozdílová frekvence (intermediate frequency) se zesiluje a demoduluje."
+        },
+        {
+          "locator": "transcript-line:132",
+          "text": " [Obrázek: paste-d47527296e219606d9eee1d275bd7bec0d7decf4.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:134",
+          "text": "## Poznámka Anki 1708791512660"
+        },
+        {
+          "locator": "transcript-line:136",
+          "text": "Karty Anki: 1708791512660"
+        },
+        {
+          "locator": "transcript-line:137",
+          "text": "GUID: xVzj,Wk%wb; štítky: bi-tab::p01."
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "Metadata původního zdroje pro kartu 1708791512660: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:141",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:143",
+          "text": "Popište modulaci signálu. Jaké existují typy?"
+        },
+        {
+          "locator": "transcript-line:145",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:147",
+          "text": "Modulace signálu je proces úpravy nosného signálu (carrier signal) pomocí modulačního signálu (modulation signal). V bezdrátových sítích se používá zejména za účelem vložení informace do rádiového signálu. Rozlišujeme následující typy modulace:"
+        },
+        {
+          "locator": "transcript-line:149",
+          "text": "- **analogová **- amplitudová, frekvenční, fázová;"
+        },
+        {
+          "locator": "transcript-line:151",
+          "text": "- **digitální** - amplitude-shift keying (ASK), frequency-shift keying (FSK), phase-shift keying (PSK)."
+        },
+        {
+          "locator": "transcript-line:153",
+          "text": "## Poznámka Anki 1708792256310"
+        },
+        {
+          "locator": "transcript-line:155",
+          "text": "Karty Anki: 1708792256310"
+        },
+        {
+          "locator": "transcript-line:156",
+          "text": "GUID: se9bs9w?5v; štítky: bi-tab::p01."
+        },
+        {
+          "locator": "transcript-line:158",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:160",
+          "text": "Popište softwarově definované rádio (SDR)."
+        },
+        {
+          "locator": "transcript-line:162",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:164",
+          "text": "Softwarově definované rádio (software-defined radio) je rádiový systém, jehož komponenty, které jsou obvykle implementovány analogovým hardwarem (např. směšovače, zesilovače nebo filtry), jsou realizovány softwarově programovatelnými obvody. Díky tomu lze SDR změnou software používat na různých frekvenčních pásmech nebo pro různé komunikační protokoly."
+        },
+        {
+          "locator": "transcript-line:166",
+          "text": "## Poznámka Anki 1709129282035"
+        },
+        {
+          "locator": "transcript-line:168",
+          "text": "Karty Anki: 1709129282035"
+        },
+        {
+          "locator": "transcript-line:169",
+          "text": "GUID: owT.0m[1vi; štítky: bi-tab::p01."
+        },
+        {
+          "locator": "transcript-line:171",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:173",
+          "text": "Popište vzorkovací frekvenci a vzorkovací teorém."
+        },
+        {
+          "locator": "transcript-line:175",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:177",
+          "text": "Vzorkovací frekvence označuje počet vzorků za jednotku času načítaných ze spojitého analogového signálu při jeho přeměně na disktrétní digitální signál. Vzorkovací teorém říká, že dokonalá rekonstrukce signálu je možná pouze v případě, že vzorkovací frekvence je větší než dvojnásobek maximální frekvence vzorkovaného signálu."
+        },
+        {
+          "locator": "transcript-line:179",
+          "text": "## Poznámka Anki 1714914622363"
+        },
+        {
+          "locator": "transcript-line:181",
+          "text": "Karty Anki: 1714914622364"
+        },
+        {
+          "locator": "transcript-line:182",
+          "text": "GUID: Nq89k38.ZR; štítky: bi-tab::p01."
+        },
+        {
+          "locator": "transcript-line:184",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:186",
+          "text": "Popište quadrature amplitude modulation (QAM)."
+        },
+        {
+          "locator": "transcript-line:188",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:190",
+          "text": "Quadrature amplitude modulation (QAM) je digitální modulace, která kombinuje principy amplitudové a fázové modulace. Protože používá dvě nosné vlny, umožňuje přenos dvou signálů ve stejném frekvenčním pásmu a zdvojnásobuje tak přenosovou rychlost. Obě nosné vlny jsou vzájemně fázově posunuty o 90 °. Pro interpretaci QAM se používá konstelační diagram."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:45.151985+00:00",
+      "transcript_file": "sources/anki-prednaska-01-v1/transcript/anki-prednaska-01-v1.md",
+      "transcript_sha256": "a525bf7f1cf9cb1c07dc89b039c18db1972a8af9ce74094e87413eb00865b827"
+    },
+    "anki-prednaska-02-v1": {
+      "subject_id": "bi-tab",
+      "source_id": "anki-prednaska-02-v1",
+      "title": "FIT ČVUT Anki – BI-TAB – Přednáška 02",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-tab/anki-prednaska-02-v1/anki-prednaska-02-v1.zip",
+      "file": "sources/anki-prednaska-02-v1/anki-prednaska-02-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "be0eceecbb805618170b743b8b986aa930e9dd74355a01efba73388658a475f1",
+      "topic_ids": [
+        "prednaska-02"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg, SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-TAB – Přednáška 02"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg; APKG SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 53183dd48468239630c7cf283347984511ecad52b3dee78ea36f4c1d42180eeb."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-TAB"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 8 poznámek, 8 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1709144245446"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1709144245446"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: H*&frEOX6!; štítky: bi-tab::p02."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Popište základní vrstvy přenosu dat v bezdrátových sítích."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Mezi základní vrstvy přenosu dat v bezdrátových sítích patří:"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "- **data a protokol**;"
+        },
+        {
+          "locator": "transcript-line:27",
+          "text": "- **kódování** - úprava dat pro přenos na médiu, kontrola a oprava chyb;"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "- **modulace**."
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "## Poznámka Anki 1709144555354"
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "Karty Anki: 1709144555354"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "GUID: sJR0G;Zhsx; štítky: bi-tab::p02."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Popište return-to-zero a non-return-to-zero kódování."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Return-to-zero a non-return-to-zero jsou typy kódování, v jejichž nejjednodušším případě jsou nuly a jedničky reprezentovány zápornými a kladnými pulzy. U return-to-zero kódování se po odvysílání každého pulzu vrátí signál do neutrální hodnoty, což u non-return-to-zero kódování nenastává. Vložené návraty do neutrální hodnoty umožňují synchronizaci hodin příjemce a odesílatele, ale vyžadují větší šířku frekvenčního pásma."
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "       [Obrázek: RZcode.png; soubor je v media/ v doprovodném ZIP] (původní alt: undefined)  | "
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "       [Obrázek: NRZcode.png; soubor je v media/ v doprovodném ZIP] (původní alt: undefined)  | "
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "      return-to-zero | "
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "      non-return-to-zero |"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "## Poznámka Anki 1709149962182"
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "Karty Anki: 1709149962182"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "GUID: OO5&gT^dsR; štítky: bi-tab::p02."
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "Popište kódování Manchester."
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "Kódování Manchester je typ kódování, ve kterém nese informaci vždy hrana v polovině bitového intervalu. Ve verzi podle IEEE 802.3 reprezentuje hrana z nízké do vysoké úrovně jedničku a hrana opačným směrem nulu (v původní verzi kódování je tomu přesně naopak). Hrany, které se nachází na krajích bitového intervalu žádnou informaci nenesou a pouze uvádějí signál do potřebné úrovně."
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": " [Obrázek: 1920px-Manchester_encoding_both_conventions.svg.png; soubor je v media/ v doprovodném ZIP] (původní alt: undefined)"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "## Poznámka Anki 1709150297861"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "Karty Anki: 1709150297861"
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "GUID: eQ%YUvV(]z; štítky: bi-tab::p02."
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "Uveďte základní typy útoků na bezdrátové síti."
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "Mezi základní typy útoků na síti patří:"
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "- **odposlouchávání **(eavesdropping),"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "- **modifikace dat **(tampering),"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "- **rušení **(jamming),"
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "- **replay a relay útoky**."
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "## Poznámka Anki 1709150551825"
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "Karty Anki: 1709150551825"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "GUID: t<SNS+tSg{; štítky: bi-ib::11 bi-ib::12 bi-ib::21 bi-tab::p02."
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "Popište replay útok."
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "Replay útok je typ útoku, který typicky zahrnuje nahrání autentizačních nebo přístupových informací přenášených po síti a jejich pozdější přehrání za účelem získání neoprávněného přístupu nebo jiného efektu."
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "## Poznámka Anki 1709151016907"
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "Karty Anki: 1709151016907"
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "GUID: tW&z@g}g_}; štítky: bi-tab::p02."
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "Popište rolling code."
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "Rolling code je metoda předcházení replay útokům, která se používá v některých keyless entry systémech. Funguje tak, že vysílač i přijímač obsahují generátory pseudonáhodných čísel, které jsou na začátku nastaveny na stejný seed. Když je vysílač spuštěn, odešle kód, který je další v pořadí generovaném jeho PRNG. Přijímač tuto hodnotu porovná s několika dalšími možnými kódy z pořadí generovaného jeho vlastním PRNG a pokud nalezne shodu, zajistí odemčení."
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "## Poznámka Anki 1709151438508"
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "Karty Anki: 1709151438508"
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "GUID: yfbLx(k2m@; štítky: bi-tab::p02."
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "Popište zranitelnost rolljam."
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "Rolljam je zranitelnost keyless entry systémů, které používají rolling code. Její zneužití probíhá následovně:"
+        },
+        {
+          "locator": "transcript-line:125",
+          "text": "- Zařízení útočníka generuje rušící signál, který blokuje signál z vysílače právoplatného vlastníka, a zároveň nahrává kódy z pokusů o odemčení."
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "- Při prvním pokusu o odemčení je použitý kód uložen."
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "- Při následujícím pokusu je přehrán kód z prvního pokusu a kód z druhého pokusu je uložen."
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "Tímto způsobem má útočník uložen funkční kód pro odemčení a zároveň snižuje riziko detekce."
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "## Poznámka Anki 1709153280258"
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "Karty Anki: 1709153280258"
+        },
+        {
+          "locator": "transcript-line:134",
+          "text": "GUID: OD{E0d_t{|; štítky: bi-tab::p02."
+        },
+        {
+          "locator": "transcript-line:136",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:138",
+          "text": "Popište relay útok na vozidlo."
+        },
+        {
+          "locator": "transcript-line:140",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:142",
+          "text": "Relay útok na vozidlo může probíhat následujícím způsobem:"
+        },
+        {
+          "locator": "transcript-line:144",
+          "text": "- Útočník umístí do blízkosti vozidla anténu, kterou zaznamená jím generované elektromagnetické pole. To se typicky využívá pro odemčení vozidla v případě, že se klíč nachází v jeho bezprostřední blízkosti."
+        },
+        {
+          "locator": "transcript-line:145",
+          "text": "- Útočník následně pomocí vysílače replikuje elektromagnetické pole v blízkosti klíče."
+        },
+        {
+          "locator": "transcript-line:146",
+          "text": "- Klíč na elektromagnetické pole zareaguje odesláním odemykacího kódu, který útočník zaznamená."
+        },
+        {
+          "locator": "transcript-line:147",
+          "text": "- Útočník kód přehraje v blízkosti vozidla, čímž dojde k jeho odemčení."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:45.173373+00:00",
+      "transcript_file": "sources/anki-prednaska-02-v1/transcript/anki-prednaska-02-v1.md",
+      "transcript_sha256": "0456c3c88a4729c1cfc1230611756501f9c449319ed064b01b4815c4e8a8fde7"
+    },
+    "anki-prednaska-03-v1": {
+      "subject_id": "bi-tab",
+      "source_id": "anki-prednaska-03-v1",
+      "title": "FIT ČVUT Anki – BI-TAB – Přednáška 03",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-tab/anki-prednaska-03-v1/anki-prednaska-03-v1.zip",
+      "file": "sources/anki-prednaska-03-v1/anki-prednaska-03-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "b56bca0eef34896f88156dc5e42df652f3b3e10bae23558af91a4f36952ca922",
+      "topic_ids": [
+        "prednaska-03"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg, SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-TAB – Přednáška 03"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg; APKG SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 53183dd48468239630c7cf283347984511ecad52b3dee78ea36f4c1d42180eeb."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-TAB"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 8 poznámek, 8 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1709751019484"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1709751019485"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: K2j>Nh6eHC; štítky: bi-tab::p03."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Jaké existují časové stupnice (standary času)?"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Existují následující časové stupnice (standardy času):"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "- **Universal Time **(UT0, UT1, UT2) - čas založený na rozaci Země;"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "- **International Atomic Time **(TAI) - vážený průměr časů 450 atomových hodin;"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "- **Coordinated Universal Time **(UTC) - založen na TAI, používá přestupné sekundy."
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "## Poznámka Anki 1709751305597"
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "Karty Anki: 1709751305597"
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "GUID: m_`8O/-5=1; štítky: bi-tab::p03."
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "Popište přestupnou sekundu."
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "Přestupná sekunda je jednosekundová oprava, která se nepravidelně aplikuje na Coordinated Universal Time (UTC). Jejím cílem je vyrovnat rozdíl mezi časem měřeným atomovými hodinami (International Atomic Time) a časem odvozeným od rotace Země (Universal Time). Tento rozdíl vzniká vlivem zpomalující se zemské rotace."
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "## Poznámka Anki 1709751545973"
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "Karty Anki: 1709751545973"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "GUID: CZ%qQ9QJIZ; štítky: bi-tab::p03."
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "Jaké existují metody synchronizace času?"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "Existují následující metody synchronizace času:"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "- **pomocí satelitních systémů** (common-view),"
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "- **pomocí optického vlákna **(ELSTAB),"
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "- **pomocí sítě **(NTP, PTP, White Rabbit),"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "- **pomocí rádia **(eLoran)."
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "## Poznámka Anki 1709751669972"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "Karty Anki: 1709751669972"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "GUID: xN[JgDu2?u; štítky: bi-tab::p03."
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "Popište stabilitu a přesnost hodin."
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "**Stabilitou **hodin se rozumí maximální změna relativní frekvence v daném časovém úseku. **Přesnost** hodin vyjadřuje absolutní odchylku od správného času."
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "## Poznámka Anki 1709754996844"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "Karty Anki: 1709754996845"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "GUID: rFi1/!Ev2a; štítky: bi-tab::p03."
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "Popište signál pulse-per-second."
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "Pulse-per-second je signál, jehož začátek přesně reprezentuje začátek sekundy. Bývá jedním z výstupů atomových hodin."
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "## Poznámka Anki 1709755049857"
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "Karty Anki: 1709755049857"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "GUID: u6A*.C#>TW; štítky: bi-tab::p03."
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": "Popište synchronizaci a syntonizaci hodin."
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "**Synchronizace **hodin je sjednocení časového údaje dvou hodin, kdežto **syntonizace** je sjednocení jejich frekvence."
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "## Poznámka Anki 1709755914593"
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "Karty Anki: 1709755914593"
+        },
+        {
+          "locator": "transcript-line:107",
+          "text": "GUID: G=gF`Lja&K; štítky: bi-tab::p03."
+        },
+        {
+          "locator": "transcript-line:109",
+          "text": "Metadata původního zdroje pro kartu 1709755914593: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "Popište Network Time Protocol (NTP)."
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "Network Time Protocol (NTP) je protokol aplikační vrstvy používaný pro synchronizaci hodin. Typicky je implementován pomocí protokolu UDP a používá port 123. Servery provozující NTP se nazývají strata a jsou řazeny hierarchicky dle vzálenosti od atomových hodin. Komunikace protokolu NTP vypadá následovně:"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "- klient odešle žádost na NTP server,"
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "- NTP server přijme klientovu žádost a začne ji zpracovávat,"
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "- NTP server dokončí zpracování žádosti a odešle odpověď,"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "- klient přijme odpověď NTP serveru."
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "V každém z těchto kroků jsou vytvořeny timestampy, z nichž klient následně dokáže spočítat správný způsob úpravy svých hodin."
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": " [Obrázek: paste-ad778c42e383998a38865147bea05789e8a92fd5.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "## Poznámka Anki 1709756970567"
+        },
+        {
+          "locator": "transcript-line:130",
+          "text": "Karty Anki: 1709756970567"
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "GUID: rEe8ls/}eb; štítky: bi-tab::p03."
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "Popište Precision Time Protocol (PTP)."
+        },
+        {
+          "locator": "transcript-line:137",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "Precision Time Protocol (PTP), někdy označován také IEEE 1588, je protokol, který se používá k synchronizaci hodin. Může být implementován na transportní vrstvě pomocí protokolu UDP, ale typicky se využívá na linkové vrstvě, kde dosahuje mnohem vyšší přesnosti. Zakládá se na hardwarové podpoře síťové infrastruktury a používá follow-up paket, který obsahuje data o předchozím paketu. Je postaven na architektuře master/slave, přičemž hodiny slave jsou synchronizovány k hodinám master."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:45.195449+00:00",
+      "transcript_file": "sources/anki-prednaska-03-v1/transcript/anki-prednaska-03-v1.md",
+      "transcript_sha256": "720b6e4ccf44df4bc6f32ba7ec5918d350897b154ad40cd4777ce23329016c98"
+    },
+    "anki-prednaska-04-v1": {
+      "subject_id": "bi-tab",
+      "source_id": "anki-prednaska-04-v1",
+      "title": "FIT ČVUT Anki – BI-TAB – Přednáška 04",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-tab/anki-prednaska-04-v1/anki-prednaska-04-v1.zip",
+      "file": "sources/anki-prednaska-04-v1/anki-prednaska-04-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "61aabbb9824c610979287395a178082675dd663f954d095092092cfc57c2adf4",
+      "topic_ids": [
+        "prednaska-04"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg, SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-TAB – Přednáška 04"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg; APKG SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 53183dd48468239630c7cf283347984511ecad52b3dee78ea36f4c1d42180eeb."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-TAB"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 7 poznámek, 7 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1710353345539"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1710353345539"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: hx{#&?#(=]; štítky: bi-tab::p04."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Popište rozdíly mezi circuit switching a packet switching."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Circuit switching je komunikační metoda, při které je před zahájením přenosu dat vytvořeno spojení (circuit) mezi komunikujícími zařízeními. Toto spojení je po dobu komunikace neměnné a používané linky jsou obsazené. Naproti tomu packet switching data před přenosem rozdělí na menší části (packets), které jsou poté nezávisle směrovány. Circuit switching a packet switching mají následující výhody a nevýhody:      "
+        },
+        {
+          "locator": "transcript-line:25",
+          "text": "|       **circuit switching** |       **packet switching** |         "
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "|       nížší latence |       vyšší latence |         "
+        },
+        {
+          "locator": "transcript-line:27",
+          "text": "|       garantovaná rychlost přenosu |       variabilní rychlost přenosu |          "
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "|       dražší |       levnější |"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "## Poznámka Anki 1710354104730"
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "Karty Anki: 1710354104730"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "GUID: m8RH8HY|&B; štítky: bi-tab::p04."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Popište autentizaci v Global System for Mobile Communication (GSM/2G) síti."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Předpokládejme, že existuje společný symetrický klíč \\(K_i\\), který je uložen jak v mobile station (MS), tak v domovském mobile switching center (MSC). Autentizace v 2G síti probíhá následovně:"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "- MS posílá svou international mobile subscriber identity (IMSI) MSC."
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "- MSC si na základě IMSI z databáze zjistí odpovídající hodnotu \\(K_i\\) a vygeneruje náhodné číslo \\(\\text{RAND}\\). Pomocí \\(\\text{RAND}\\) a \\(K_i\\) získá signed response \\(\\text{SRES}\\) za pomocí algoritmu A3 a \\(K_c\\) za pomocí algoritmu A8. Hodnotu \\(\\text{RAND}\\) odešle MS."
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "- Pomocí \\(\\text{RAND}\\) si MS stejným způsobem vygeneruje \\(K_c\\) a \\(\\text{SRES}'\\). \\(\\text{SRES}'\\) následně pošle MSC."
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "- MSC porovná \\(\\text{SRES}\\) s \\(\\text{SRES}'\\) a pokud se shodují, je zařízení úspěšně autentizováno a spouští se šifrování pomocí A5/3. Jako šifrovací klíč se použije \\(K_c\\)."
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "## Poznámka Anki 1710362116600"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "Karty Anki: 1710362116600"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "GUID: H[|4@W%63t; štítky: bi-tab::p04."
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "Popište popiště vývoj napříč 1G, 2G, 3G, 4G a 5G sítěmi."
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "Vývoj napříč 1G, 2G, 3G, 4G a 5G sítěmi je následující:"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "      **různé technologie"
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "(1G)** | "
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "      **Global System for Mobile Communications"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "(GSM/2G)** | "
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "      **Universal Mobile Telecommunications System"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "(UMTS/3G)** | "
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "      **4G** | "
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "      **5G** | "
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "      zavislé na analogových technologiích | "
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "      první plně digitální generace | "
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "      hlas, SMS, circuit switching, packet switching | "
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "      vylepšení technologií 3G a podpora VoIP | "
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "      nižší latence | "
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "       | "
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "      hlas, SMS, circuit switching | "
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "      rychlejší datový přenos | "
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "      rychlejší datový přenos | "
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "      rychlejší datový přenos | "
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "       | "
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "      později přidán i packet switching a přenos dat | "
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "       | "
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "      standardizace 3rd Generation Partnership Project (3GPP) |"
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "## Poznámka Anki 1710362600483"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "Karty Anki: 1710362600483"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "GUID: O-6`Ob6iba; štítky: bi-tab::p04."
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "Popište rozdíl mezi standalone (SA) a non-standalone (NSA) 5G sítěmi."
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "Standalone (SA) 5G síť je 5G síť, která používá 5G jádro a může tak využívat výhody 5G, jako jsou nízká latence a rychlý datový přenos. Oproti tomu non-standalone (NSA) 5G sítě stále operují na 4G LTE jádru."
+        },
+        {
+          "locator": "transcript-line:105",
+          "text": "## Poznámka Anki 1710362765261"
+        },
+        {
+          "locator": "transcript-line:107",
+          "text": "Karty Anki: 1710362765261"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "GUID: sH>6_`YDM4; štítky: bi-tab::p04."
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "Popište 3rd Generation Partnership Project (3GPP)."
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "3rd Generation Partnership Project (3GPP) je pojem zaštiťující celou řadu standardizačních organizací, které se zabývají vývojem mobilních telekomunikačních sítí (2G, 3G, 4G, 5G)."
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "## Poznámka Anki 1710363924172"
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "Karty Anki: 1710363924173"
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "GUID: K^>JXAEN#}; štítky: bi-tab::p04."
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:125",
+          "text": "Popište Subscriber Identity Module (SIM) kartu."
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "Subscriber Identity Module (SIM) karta je forma smart card se standardním ISO 7816-4 souborovým systémem, která se využívá v mobilních telekomunikačních sítích. Běžně ukládá následující data:"
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "- international mobile subscriber identity (IMSI),"
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "- autentizační klíč \\(K_i\\),"
+        },
+        {
+          "locator": "transcript-line:134",
+          "text": "- Integrated Circuit Card Identifier (ICCID)."
+        },
+        {
+          "locator": "transcript-line:136",
+          "text": "## Poznámka Anki 1710364388053"
+        },
+        {
+          "locator": "transcript-line:138",
+          "text": "Karty Anki: 1710364388053"
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "GUID: utfUB`DCz]; štítky: bi-tab::p04."
+        },
+        {
+          "locator": "transcript-line:141",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:143",
+          "text": "Popište international mobile subscriber identity (IMSI) catcher."
+        },
+        {
+          "locator": "transcript-line:145",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:147",
+          "text": "International mobile subscriber identity (IMSI) catcher je forma man-in-the-middle útoku na mobilní telekomunikační sítě, zjeména na 2G síť. Funguje tak, že útočník předstírá falešnou telekomunikační věž a zachytí IMSI konkrétní mobile station. Z pozice man-in-the-middle pak může projít celým autentizačním algoritmem pro 2G a následně odposlouchávat telefonní komunikaci. Síť 3G zavádí proti tomuto útoku obranu v podobě mutual authentication."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:45.218044+00:00",
+      "transcript_file": "sources/anki-prednaska-04-v1/transcript/anki-prednaska-04-v1.md",
+      "transcript_sha256": "ff7d10b6b83a065d9caa8c11d92d052c05c44ed1d555d034e825374e5b0eb635"
+    },
+    "anki-prednaska-05-v1": {
+      "subject_id": "bi-tab",
+      "source_id": "anki-prednaska-05-v1",
+      "title": "FIT ČVUT Anki – BI-TAB – Přednáška 05",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-tab/anki-prednaska-05-v1/anki-prednaska-05-v1.zip",
+      "file": "sources/anki-prednaska-05-v1/anki-prednaska-05-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "fe7744a83069d5ce66953bb7d1313ea4f14c2d2a224f7e86028d9bad261a471d",
+      "topic_ids": [
+        "prednaska-05"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg, SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-TAB – Přednáška 05"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg; APKG SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 53183dd48468239630c7cf283347984511ecad52b3dee78ea36f4c1d42180eeb."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-TAB"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 19 poznámek, 19 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1710965743973"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1710965743974"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: Gc1u]EE8B-; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Uveďte příklady metod ochrany paměti."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Mezi metody ochrany paměti patří:"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "- ohrady (fences),"
+        },
+        {
+          "locator": "transcript-line:27",
+          "text": "- relokace,"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "- mezní registry (base/bound),"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "- značkovaná architektura (tagged architecture),"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "- segmentace a stránkování,"
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "- zámky a klíče."
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "## Poznámka Anki 1710966032438"
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "Karty Anki: 1710966032438"
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "GUID: zG&_iaEI=); štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:38",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "Popište ochranu paměti za pomoci ohrad (fences)."
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "Ohrady (fences) je metoda ochrany paměti, která paměť rozdělí na dvě části. Jednu z nich používá operační systém, tu druhou pak uživatelské procesy. Je vhodná pro systémy s jedním uživatelem, neboť dokáže oddělit pouze operační systém, ale jednotlivé procesy už ne. Implementuje se typicky pomocí pevné hranice definované ve fence registru."
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "## Poznámka Anki 1710966329458"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "Karty Anki: 1710966329459"
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "GUID: ooN$aAPB!%; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "Popište ochranu paměti za pomoci relokace."
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "Relokace je metoda ochrany paměti, při které jsou programy navrhovány tak, aby v paměti ležely od adresy nula. Používají relativní odkazy, ke kterým je následně přičítán relokační faktor. Operační systém se nachází v nejnižší části paměti a programy do něj nemohou zasahovat. Nedokáže však vzájemně oddělit jednotlivé procesy, což se řeší pomocí protection key."
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "## Poznámka Anki 1710966898158"
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "Karty Anki: 1710966898158"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "GUID: hu4>FO&t}0; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "Popište ochranu paměti za pomoci relokace s protection key."
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "Protection key rozšiřuje ochranu paměti za pomoci relokace a umožňuje oddělit jednotlivé procesy. Je uložen v každém chunku paměti a typicky obsahuje PID. Procesor pak při každém přístupu do paměti porovnává protection key chunku s PID přistupujícího procesu."
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "## Poznámka Anki 1710967195105"
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "Karty Anki: 1710967195105"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "GUID: xycei7d53e; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "Popište ochranu paměti za pomoci mezních registrů (base/bound)."
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "Mezní registry (base/bound) je metoda ochrany paměti, při které jsou definovány registry obsahující nejvyšší a nejnižší dostupnou adresu. Tyto registry se nastavují dynamicky při předávání řízení procesu a umožňují tak oddělení jednotlivých procesů. Její nevýhodou je, že neumožňuje selektivní sdílení dat."
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "## Poznámka Anki 1710967370548"
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "Karty Anki: 1710967370548"
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "GUID: c(?YmlAQ`&; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "Popište ochranu paměti za pomoci značkované architektury (tagged architecture)."
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "Značkovaná architektura (tagged architecture) je metoda ochrany paměti, při které je s každou adresou spojeno několik řídících bitů (tags), které určují typ uložených dat a povolené operace."
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": "## Poznámka Anki 1710968704420"
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "Karty Anki: 1710968704420"
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "GUID: wjk0wdIYx4; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:105",
+          "text": "Popište ochranu paměti za pomoci segmentace."
+        },
+        {
+          "locator": "transcript-line:107",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:109",
+          "text": "Ochrana paměti pomocí segmentace probíhá tak, že při přístupu k adrese, která se skládá ze dvou částí, segment selector a offset, je kontrolováno, že offset nepřesahuje délku segmentu. Její výhodou je, že umožňuje selektivní sdílení dat."
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "## Poznámka Anki 1711037115237"
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "Karty Anki: 1711037115237"
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "GUID: y1e)Y!!C0l; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "Popište metodu ochrany paměti za pomocí stránkování."
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "Ochrana paměti za pomocí stránkování je jedna nejrozšířenějších metod ochrany paměti, která kombinuje principy ostatních metod. Každému procesu přiděluje virtuální adresní prostor a procesy se tak nemohou vzájemně ovlivňovat. Navíc podobně jako značkovaná architektura (tagged architecture) umožňuje pro každou stránku definovat úrovně přístupu a povolené operace."
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "## Poznámka Anki 1711038404635"
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "Karty Anki: 1711038404635"
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "GUID: vh:?Y?evl#; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "Metadata původního zdroje pro kartu 1711038404635: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "Popište direct memory access (DMA) útok. Uveďte typy portů, které mohou DMA povolovat."
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:137",
+          "text": "Direct memory access (DMA) útok je typ útoku postranním kanálem, kdy útočník získá přímý přístup do paměti skrze hardwarové porty. Mezi porty, které mohou dovolovat DMA patří FireWire, ExpressCard nebo Thunderbolt."
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "## Poznámka Anki 1711039675177"
+        },
+        {
+          "locator": "transcript-line:141",
+          "text": "Karty Anki: 1711039675177"
+        },
+        {
+          "locator": "transcript-line:142",
+          "text": "GUID: w@%g99OF3[; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:144",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:146",
+          "text": "Popište útok cold boot."
+        },
+        {
+          "locator": "transcript-line:148",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:150",
+          "text": "Útok cold boot je typ útoku postranním kanálem, jehož cílem je získat obraz operační paměti počítače. Zneužívá toho, že obsah volatilních pamětí, jako je SRAM nebo DRAM, zůstává čitelný ještě několik sekund po vypnutí napájení. Typicky probíhá následujícím způsobem:"
+        },
+        {
+          "locator": "transcript-line:152",
+          "text": "- Útočník provede hard reset stroje (odebere mu napájení)."
+        },
+        {
+          "locator": "transcript-line:153",
+          "text": "- Typicky ještě cílovou paměť prudce zchladí, aby zpomalil degradaci jejího obsahu."
+        },
+        {
+          "locator": "transcript-line:154",
+          "text": "- Paměť vyjme a vloží do jiného stroje, pomocí nějž si zkopíruje obsah paměti."
+        },
+        {
+          "locator": "transcript-line:156",
+          "text": "## Poznámka Anki 1711040421410"
+        },
+        {
+          "locator": "transcript-line:158",
+          "text": "Karty Anki: 1711040421410"
+        },
+        {
+          "locator": "transcript-line:159",
+          "text": "GUID: v)beA7$3G-; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:161",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:163",
+          "text": "Popište TRESOR."
+        },
+        {
+          "locator": "transcript-line:165",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:167",
+          "text": "TRESOR je patch Linuxového jádra zavedený v reakci na DMA a cold boot útoky. Mění nakládání s kryptografickými klíči tak, že namísto v RAM jsou ukládány v registrech procesoru. Využívá k tomu instrukční sadu AES-NI. Tuto metodu však lze obejít např. využitím speciálního souboru \\(\\mathtt{/dev/kmem}\\), který umožňuje přístup do systémové paměti."
+        },
+        {
+          "locator": "transcript-line:169",
+          "text": "## Poznámka Anki 1711041961705"
+        },
+        {
+          "locator": "transcript-line:171",
+          "text": "Karty Anki: 1711041961705"
+        },
+        {
+          "locator": "transcript-line:172",
+          "text": "GUID: AGB8>a$y85; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:174",
+          "text": "Metadata původního zdroje pro kartu 1711041961705: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:176",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:178",
+          "text": "Popište stupně superskalárního instrukčního zřetězení."
+        },
+        {
+          "locator": "transcript-line:180",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:182",
+          "text": "Superskalární zřetězení se člení na následující stupně:"
+        },
+        {
+          "locator": "transcript-line:184",
+          "text": "- **instrukční/dekódovací fronta** (instruction/decode buffer) - fronta načtených instrukcí (mohou být již částečně dekódovány);"
+        },
+        {
+          "locator": "transcript-line:185",
+          "text": "- **rozřazovací fronta** (dispatch buffer) - slouží k pozdržení instrukcí, dokud nebudou předány odpovídajícím vykonávacím jednotkám, instrukce do ní přicházejí v programovém pořadí, ale mohou z odcházet v jiném;"
+        },
+        {
+          "locator": "transcript-line:186",
+          "text": "- **rezervační stanice** (reservation station) - fronta instrukcí připravených k provedení operace v dané vykonávací jednotce nebo čekajících na forwarding dat;"
+        },
+        {
+          "locator": "transcript-line:187",
+          "text": "- **řadící fronta** (reorder buffer) - fronta, která zajistí dokončení instrukcí v programovém pořadí, což je nezbytné pro podporu přesných přerušení (precise exceptions);"
+        },
+        {
+          "locator": "transcript-line:188",
+          "text": "- **zápisová fronta** (store buffer) - fronta mezi vykonávacími jednotkami a L1 datovou cache."
+        },
+        {
+          "locator": "transcript-line:190",
+          "text": "## Poznámka Anki 1711049989435"
+        },
+        {
+          "locator": "transcript-line:192",
+          "text": "Karty Anki: 1711049989436"
+        },
+        {
+          "locator": "transcript-line:193",
+          "text": "GUID: Fh$T#R[@Pt; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:195",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:197",
+          "text": "Popište postranní kanál technikou flush and reload."
+        },
+        {
+          "locator": "transcript-line:199",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:201",
+          "text": "Flush and reload je typ útoku postranním kanálem, jehož cílem je zjistit, zda se za nějaký časový interval pracovalo s konkrétním blokem paměti. Funguje následujícím způsobem:"
+        },
+        {
+          "locator": "transcript-line:203",
+          "text": "- Sledovaný blok je odstraněn z cache (flush)."
+        },
+        {
+          "locator": "transcript-line:204",
+          "text": "- Uplyne časový interval, během kterého může a nemusí nějaký proces k bloku přistoupit."
+        },
+        {
+          "locator": "transcript-line:205",
+          "text": "- Následně je k danému bloku přistoupeno (reload) a v případě, že nastane cache hit, byl tento blok používán nějakým procesem."
+        },
+        {
+          "locator": "transcript-line:207",
+          "text": "## Poznámka Anki 1711050274022"
+        },
+        {
+          "locator": "transcript-line:209",
+          "text": "Karty Anki: 1711050274023"
+        },
+        {
+          "locator": "transcript-line:210",
+          "text": "GUID: mf;BOKU/WA; štítky: bi-ib::17 bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:212",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:214",
+          "text": "Popište flush and reload postranní kanál na příkladu algoritmu square and multiply."
+        },
+        {
+          "locator": "transcript-line:216",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:218",
+          "text": "Alogirtmus square and multiply je implementován v knihovně OpenSSL, jejíž paměťové stránky jsou typicky sdíleny napříč několika procesy. Útočník může pomocí flush and reload sledovat, jaká část kódu je prováděna, a tedy zda se provádí operace násobení. Tímto způsobem může např. získat tajný klíč šifry RSA, která tento algoritmus využívá."
+        },
+        {
+          "locator": "transcript-line:220",
+          "text": "## Poznámka Anki 1711053156976"
+        },
+        {
+          "locator": "transcript-line:222",
+          "text": "Karty Anki: 1711053156976"
+        },
+        {
+          "locator": "transcript-line:223",
+          "text": "GUID: Am+/&K,{k?; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:225",
+          "text": "Metadata původního zdroje pro kartu 1711053156976: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:227",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:229",
+          "text": "Popište útok Meltdown."
+        },
+        {
+          "locator": "transcript-line:231",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:233",
+          "text": "Meltdown je útok cílený na superskalární procesory, který zneužívá out-of-order provádění instrukcí a cache postranní kanál. Předpokládejme, že v user space máme alokované pole \\(\\texttt{probe_array}\\) o velikosti \\(256 \\cdot 4096\\) bytů, kde \\(256\\) je počet všech možných hodnot bytu a \\(4096\\) bytů je běžná velikost stránky. Potom útok Meltdown probíhá následovně:"
+        },
+        {
+          "locator": "transcript-line:235",
+          "text": "- Nejprve je přistoupeno na adresu v kernel space s cílem přečíst jeden byte dat \\(b\\)."
+        },
+        {
+          "locator": "transcript-line:236",
+          "text": "- Poté je přistoupeno k \\(\\texttt{probe_array[} b \\cdot 4096 \\texttt ]\\), čímž je do cache načtena jedna konkrétní stránka obsahující část \\(\\texttt{probe_array} \\)."
+        },
+        {
+          "locator": "transcript-line:237",
+          "text": "- Nakonec je za pomocí flush and reload postranního kanálu zjištěno číslo stránky, ke které bylo přistoupeno, a je tak získána hodnota \\(b\\)."
+        },
+        {
+          "locator": "transcript-line:239",
+          "text": "Protože superskalární procesor vykonává instrukce mimo programové pořadí, jsou tyto instrukce provedeny dříve, než dojde k dohledání, že daná adresa náleží kernel space, a je vyvolána výjimka."
+        },
+        {
+          "locator": "transcript-line:241",
+          "text": "## Poznámka Anki 1711054739845"
+        },
+        {
+          "locator": "transcript-line:243",
+          "text": "Karty Anki: 1711054739845"
+        },
+        {
+          "locator": "transcript-line:244",
+          "text": "GUID: bQ5pi3zXms; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:246",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:248",
+          "text": "Popište obrany proti útoku Meltdown."
+        },
+        {
+          "locator": "transcript-line:250",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:252",
+          "text": "Proti útoku Meltdown se lze bránit následujícími způsoby:"
+        },
+        {
+          "locator": "transcript-line:254",
+          "text": "- **kernel address space layout randomization **(KASLR) - randomizace adresy, od které je v paměti umístěn kernel;"
+        },
+        {
+          "locator": "transcript-line:256",
+          "text": "- **kernel page-table isolation **(KPTI nebo dříve KAISER) - vytvoření dvou separátních stránkovacích tabulek pro kernel space a user space, přičemž user space tabulka obsahuje pouze minimum kernel space adres."
+        },
+        {
+          "locator": "transcript-line:258",
+          "text": "## Poznámka Anki 1711110555134"
+        },
+        {
+          "locator": "transcript-line:260",
+          "text": "Karty Anki: 1711110555135"
+        },
+        {
+          "locator": "transcript-line:261",
+          "text": "GUID: lD&USu66&j; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:263",
+          "text": "Metadata původního zdroje pro kartu 1711110555135: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:265",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:267",
+          "text": "Popište útok Spectre (varianta bounds check bypass)."
+        },
+        {
+          "locator": "transcript-line:269",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:271",
+          "text": "Spectre je útok cílený na superskalární procesory, který zneužívá spekulativní provádění instrukcí a cache postranní kanál. Předpokládejme, že v user space máme alokované pole \\(\\texttt{probe_array}\\) o velikosti \\(256 \\cdot 4096\\) bytů, kde \\(256\\) je počet všech možných hodnot bytu a \\(4096\\) bytů je běžná velikost stránky. Dále předpokládejme pole \\(\\texttt{array}\\) ukazující do libovolné paměti a proměnnou \\(\\texttt{array_size}\\). Potom útok Spectre probíhá následovně:"
+        },
+        {
+          "locator": "transcript-line:273",
+          "text": "- Nejprve je vyhodnocena podmínka \\(\\texttt x < \\texttt{array_size}\\)."
+        },
+        {
+          "locator": "transcript-line:274",
+          "text": "- Na základě této podmínky je přistoupeno k \\(\\texttt{probe_array[array[x]} \\cdot 4096 \\texttt ]\\) s cílem přečíst jeden byte dat \\(b\\). Tím je do cache načtena jedna konkrétní stránka obsahující část \\(\\texttt{probe_array} \\)."
+        },
+        {
+          "locator": "transcript-line:275",
+          "text": "- Nakonec je za pomocí flush and reload postranního kanálu zjištěno číslo stránky, ke které bylo přistoupeno, a je tak získána hodnota \\(b\\)."
+        },
+        {
+          "locator": "transcript-line:276",
+          "text": "Protože \\(\\texttt x\\) je hodnota, kterou útočník dokáže ovlivnit, může prediktor skoků vytrénovat tak, aby umožňil spekulativně vykonat přístup do paměti, který by se za normálních okolností neměl provést."
+        },
+        {
+          "locator": "transcript-line:278",
+          "text": "## Poznámka Anki 1711115217570"
+        },
+        {
+          "locator": "transcript-line:280",
+          "text": "Karty Anki: 1711115217570"
+        },
+        {
+          "locator": "transcript-line:281",
+          "text": "GUID: MN6h;~wX~p; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:283",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:285",
+          "text": "Popište ovlivnění (mistraining) predikce skoků cizího procesu."
+        },
+        {
+          "locator": "transcript-line:287",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:289",
+          "text": "Ovlivnění (mistraining) prediktorů v cizím procesu lze dosáhnout kvůli tomu, že na jeden prediktor se může mapovat vícero adres podmíněných skoků. V případě, že útočník ve svém adresním prostoru nalezne podmíněný skok, jehož adresa je kongruentní s adresou podmíněného skoku cizího procesu, může ovlivnit prediktorem vydávané predikce."
+        },
+        {
+          "locator": "transcript-line:291",
+          "text": "## Poznámka Anki 1711117233444"
+        },
+        {
+          "locator": "transcript-line:293",
+          "text": "Karty Anki: 1711117233444"
+        },
+        {
+          "locator": "transcript-line:294",
+          "text": "GUID: F4iw=ghL:1; štítky: bi-tab::p05."
+        },
+        {
+          "locator": "transcript-line:296",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:298",
+          "text": "Popište obrany proti útoku Spectre."
+        },
+        {
+          "locator": "transcript-line:300",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:302",
+          "text": "Proti útoku Spectre a všem jeho variantám neexistuje absolutní obrana. Nicméně mezi technologie, které se používají, patří např. retpoline (return trampoline). Pomocí ní lze nepřímé skoky nahradit za volání instrukce \\(\\texttt{ret}\\) a zabránit tak procesoru ve spekulativním provádění, protože místo indirect branch predictoru je použit return address stack."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:45.247625+00:00",
+      "transcript_file": "sources/anki-prednaska-05-v1/transcript/anki-prednaska-05-v1.md",
+      "transcript_sha256": "919480c101ffafe013f6d3bad5cf8cd4be8a6582e29a61456031a3dcf0b026d9"
+    },
+    "anki-prednaska-06-v1": {
+      "subject_id": "bi-tab",
+      "source_id": "anki-prednaska-06-v1",
+      "title": "FIT ČVUT Anki – BI-TAB – Přednáška 06",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-tab/anki-prednaska-06-v1/anki-prednaska-06-v1.zip",
+      "file": "sources/anki-prednaska-06-v1/anki-prednaska-06-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "3c6a4bdde904b5a6eda1c00091a2846c85616738296a00b5095e956f8df90c4e",
+      "topic_ids": [
+        "prednaska-06"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg, SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-TAB – Přednáška 06"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg; APKG SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 53183dd48468239630c7cf283347984511ecad52b3dee78ea36f4c1d42180eeb."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-TAB"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 8 poznámek, 8 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1712164400543"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1712164400543"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: T,P&==e*g; štítky: bi-tab::p06."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Popište electronic control unit (ECU)."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Electronic control unit (ECU) je vestavný systém používaný v automotive, který ovládá jeden nebo více elektronických systémů (např. powertrain control module, engine control module, transmission control module)."
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "## Poznámka Anki 1712164617243"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Karty Anki: 1712164617244"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "GUID: u:vXi;K&L3; štítky: bi-tab::p06."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "Metadata původního zdroje pro kartu 1712164617244: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "Popište typické části controller area network (CAN) sítě vozidla."
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "Controller area network (CAN) síť vozidla se typicky skládá z následujících částí:"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "- **powertrain **- motor, převodovka;"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "- **chassis** - klimatizace, dveře, okna;"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "- **media** - infotainment, modem."
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "Jednotlivé části jsou propojeny skrze **gateways**."
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "## Poznámka Anki 1712164761125"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "Karty Anki: 1712164761125"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "GUID: q.vu!mp-ar; štítky: bi-tab::p06."
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "Uveďte příklady metod propojování electronic control units (ECU)."
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "Mezi metody propojování electronic control units (ECU) patří:"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "- controller area network (CAN),"
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "- automotive Ethernet (BroadR-Reach),"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "- FlexRay,"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "a další."
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "## Poznámka Anki 1712165038793"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "Karty Anki: 1712165038793"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "GUID: KRIsB-0U+i; štítky: bi-tab::p06."
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "Popište možné vektory útoku na vozidla."
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "Mezi možné vektory útoku na vozidla patří externí rozhraní:"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "- on-board diagnostics (OBD) port,"
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "- připojení na backend skrze mobilní síť,"
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "- Wi-Fi access point,"
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "a interní rozhraní:"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "- controller area network (CAN),"
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "- automotive Ethernet (BroadR-Reach),"
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "- FlexRay."
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "## Poznámka Anki 1712171487730"
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "Karty Anki: 1712171487730"
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "GUID: Q/9:)~rm[7; štítky: bi-tab::p06."
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "Popište automotive Ethernet (BroadR-Reach)."
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:105",
+          "text": "Automotive Ethernet (BroadR-Reach) je technologie podobná Ethernetu, která se využívá v automotive. Systémům vozidla umožňuje komunikovat v rychlostech 100 Mb/s a 1000 Mb/s pomocí kabelu s jedním krouceným párem vodiče."
+        },
+        {
+          "locator": "transcript-line:107",
+          "text": "## Poznámka Anki 1712172343396"
+        },
+        {
+          "locator": "transcript-line:109",
+          "text": "Karty Anki: 1712172343396"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "GUID: fwS5[Y*Zr&; štítky: bi-tab::p06."
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "Metadata původního zdroje pro kartu 1712172343396: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "Popište controller area network (CAN) sběrnici."
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "Controller area network (CAN) sběrnice je sběrnice využívaná v automotive, která systémům vozidla umožňuje komunikovat pomocí message-based protokolu bežícím na fyzické a linkové vrstvě. Funguje na principu broadcastu, tedy každá zpráva, která je na CAN sběrnici odeslána, je doručena všem zařízením včetně odesílatele. Jednotlivé zprávy jsou odlišeny pomocí identifikátorů s tím, že zprávy s nižším identifikátorem mají na sběrnici vyšší prioritu."
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "## Poznámka Anki 1712172579545"
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "Karty Anki: 1712172579545"
+        },
+        {
+          "locator": "transcript-line:125",
+          "text": "GUID: d@}KTQf88(; štítky: bi-tab::p06."
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "Popište protokol ISO-TP (ISO 15765-2)."
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "Protokol ISO-TP (ISO 15765-2) je protokol síťové a transportní vrstvy, který se používá pro posílání paketů po controller area network (CAN) sběrnici. Umožňuje překonat 8bytové omezení CAN sběrnice a přenášet větší objemy dat."
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "## Poznámka Anki 1712173308541"
+        },
+        {
+          "locator": "transcript-line:137",
+          "text": "Karty Anki: 1712173308541"
+        },
+        {
+          "locator": "transcript-line:138",
+          "text": "GUID: of4J)v4RI8; štítky: bi-tab::p06."
+        },
+        {
+          "locator": "transcript-line:140",
+          "text": "Metadata původního zdroje pro kartu 1712173308541: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:142",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:144",
+          "text": "Popište Unified Diagnostic Services (UDS)."
+        },
+        {
+          "locator": "transcript-line:146",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:148",
+          "text": "Unified Diagnostic Servies (UDS) je protokol relační a aplikační vrstvy, který je postaven na modelu request/response. UDS je přenášen pomocí protokolu controller area network (CAN) sběrnice a běžně se používá pro konfiguraci a diagnostiku electronic control units (ECU) vozidla."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:45.277349+00:00",
+      "transcript_file": "sources/anki-prednaska-06-v1/transcript/anki-prednaska-06-v1.md",
+      "transcript_sha256": "781be2e5b9b81263f95ae77b91666aff82d0e6e67bbaa77c3237eccd5699dfe9"
+    },
+    "anki-prednaska-07-v1": {
+      "subject_id": "bi-tab",
+      "source_id": "anki-prednaska-07-v1",
+      "title": "FIT ČVUT Anki – BI-TAB – Přednáška 07",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-tab/anki-prednaska-07-v1/anki-prednaska-07-v1.zip",
+      "file": "sources/anki-prednaska-07-v1/anki-prednaska-07-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "ff93da5d80a469556eae477d2a73d2d0546f9bfbf7f63da52dbe7b97c78e61e9",
+      "topic_ids": [
+        "prednaska-07"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg, SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-TAB – Přednáška 07"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg; APKG SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 53183dd48468239630c7cf283347984511ecad52b3dee78ea36f4c1d42180eeb."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-TAB"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 10 poznámek, 10 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1713970224912"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1713970224912"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: CB~otZlB_2; štítky: bi-tab::p07."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Popište smart city."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Smart city je koncept města, které používá informační a komunikační technologie pro vytvoření funkčního a udržitelného prostředí. Za pomoci sběru a zpracování dat dokáže samo reagovat a dosáhnout snížení spotřeby prostředků a zvýšení kvality života."
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "## Poznámka Anki 1713970987655"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Karty Anki: 1713970987655"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "GUID: DjmfhRRewc; štítky: bi-tab::p07."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Popište smart indicators."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Smart indicators jsou indikátory definované NIST, na základě kterých získává město status smart city. Tyto indikátory jsou:"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "- smart environment,"
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "- smart living,"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "- smart economy,"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "- smart people,"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "- smart governance,"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "- smart mobility."
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "## Poznámka Anki 1713971204310"
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "Karty Anki: 1713971204310"
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "GUID: px{^:A>^AC; štítky: bi-tab::p07."
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "Popište smart mobility."
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "Smart mobility je jeden z indikátorů smart cities, který poskytuje podporu pro veřejnou dopravu, autonomní vozidla a další formy mobility s cílem zvýšit bezpečnost a efektivitu a snížit dopad na životní prostředí."
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "## Poznámka Anki 1713972092538"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "Karty Anki: 1713972092538"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "GUID: lu.mf-7Tkb; štítky: bi-tab::p07."
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "Popište architekturu smart cities."
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "Architektura smart cities se dělí do následujících vrstev:"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "- **core** - propojení a integrace zařízení do jednoho celku,"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "- **communication layer **- propojení core a edge pomocí komunikačních protokolů,"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "- **edge** - zařízení a aplikace sbírající data a provádějící příkazy (senzory, akční členy, IoT zařízení)."
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "## Poznámka Anki 1713972758173"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "Karty Anki: 1713972758173"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "GUID: Oud8N`rbdl; štítky: bi-tab::p07."
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "Metadata původního zdroje pro kartu 1713972758173: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "Popište cyber-physical system (CPS)."
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "Cyber-physical system (CPS) je systém integrující výpočty s fyzickými procesy. Provádí sběr a zpracování dat za účelem interakce s fyzickým světem včetně člověka. CPS se typicky skládá z následujících částí:"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "- **senzory **(sensors) - sledují stav fyzického procesu;"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "- **akční členy** (actuators) - interagují s fyzickým procesem;"
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "- **řídící jednotka** (controller) - přijímá data ze senzorů, řídí akční členy a komunikuje s dohledovým systémem (SCADA)."
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": " [Obrázek: paste-4c6bf001bcde447f66f835dcf67e14a5ee272437.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "## Poznámka Anki 1713972886284"
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "Karty Anki: 1713972886284"
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "GUID: ctT|W5eMw[; štítky: bi-tab::p07."
+        },
+        {
+          "locator": "transcript-line:105",
+          "text": "Metadata původního zdroje pro kartu 1713972886284: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:107",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:109",
+          "text": "Popište Internet of Things (IoT)."
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "Internet of Things (IoT) jsou zařízení vybavená senzory a softwarem pro zpracování jejich výstupů, která si prostřednictvím internetu nebo jiných sítí vyměnují data s dalšími zařízeními za účelem poskytování služeb nebo informací."
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "## Poznámka Anki 1713973666719"
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "Karty Anki: 1713973666720"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "GUID: xz{s!DQxr`; štítky: bi-tab::p07."
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "Popište aplikace artificial intelligence na poli smart cities."
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "Artificial intelligence může být v kontextu smart cities využívána následovně:"
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "- **machine learning** - optimizace dopravy nebo svozu odpadu;"
+        },
+        {
+          "locator": "transcript-line:130",
+          "text": "- **computer vision** - optimizace dopravy, chytré osvětlení;"
+        },
+        {
+          "locator": "transcript-line:132",
+          "text": "- **natural language processing** - analýza veřejného mínění, chatbot."
+        },
+        {
+          "locator": "transcript-line:134",
+          "text": "## Poznámka Anki 1713974996347"
+        },
+        {
+          "locator": "transcript-line:136",
+          "text": "Karty Anki: 1713974996347"
+        },
+        {
+          "locator": "transcript-line:137",
+          "text": "GUID: Jf,@oW>1dD; štítky: bi-tab::p07."
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:141",
+          "text": "Popište cloud, fog a edge computing."
+        },
+        {
+          "locator": "transcript-line:143",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:145",
+          "text": "Cloud, fog a edge computing jsou formy výpočetní architektury charakterizované následujícími znaky:"
+        },
+        {
+          "locator": "transcript-line:147",
+          "text": "- **cloud** - centralizované výpočetní prostředky vzdálené od koncových zařízení a dostupné po internetu,"
+        },
+        {
+          "locator": "transcript-line:149",
+          "text": "- **fog** - decentralizované výpočetní prostředky poskytující kompromis mezi cloud a edge,"
+        },
+        {
+          "locator": "transcript-line:151",
+          "text": "- **edge** - distribuované výpočetní prostředky umístěné co nejblíže ke koncovému zařízení."
+        },
+        {
+          "locator": "transcript-line:153",
+          "text": "## Poznámka Anki 1713977290396"
+        },
+        {
+          "locator": "transcript-line:155",
+          "text": "Karty Anki: 1713977290397"
+        },
+        {
+          "locator": "transcript-line:156",
+          "text": "GUID: x.-Wy}dY,W; štítky: bi-tab::p07."
+        },
+        {
+          "locator": "transcript-line:158",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:160",
+          "text": "Uveďte typy machine-to-X (M2X) a vehicle-to-X (V2X) sítí."
+        },
+        {
+          "locator": "transcript-line:162",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:164",
+          "text": "Mezi typy machine-to-X (M2X) patří:"
+        },
+        {
+          "locator": "transcript-line:166",
+          "text": "- machine to machine (M2M),"
+        },
+        {
+          "locator": "transcript-line:168",
+          "text": "- machine to infrastructure (M2I),"
+        },
+        {
+          "locator": "transcript-line:169",
+          "text": "- machine to human (M2H)."
+        },
+        {
+          "locator": "transcript-line:171",
+          "text": "Mezi typy vehicle-to-X (V2X) patří:"
+        },
+        {
+          "locator": "transcript-line:173",
+          "text": "- vehicle to vehicle (V2V),"
+        },
+        {
+          "locator": "transcript-line:175",
+          "text": "- vehicle to infrastructure (V2I),"
+        },
+        {
+          "locator": "transcript-line:177",
+          "text": "- vehicle to human/pedestrian (V2H/V2P)."
+        },
+        {
+          "locator": "transcript-line:179",
+          "text": "## Poznámka Anki 1713977485629"
+        },
+        {
+          "locator": "transcript-line:181",
+          "text": "Karty Anki: 1713977485629"
+        },
+        {
+          "locator": "transcript-line:182",
+          "text": "GUID: L}kpL;KYG{; štítky: bi-tab::p07."
+        },
+        {
+          "locator": "transcript-line:184",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:186",
+          "text": "Uveďte příklady protokolů používaných ve smart cities."
+        },
+        {
+          "locator": "transcript-line:188",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:190",
+          "text": "Mezi protokoly používané ve smart cities patří:"
+        },
+        {
+          "locator": "transcript-line:192",
+          "text": "- Message Queuing Telemetry Transport (MQTT),"
+        },
+        {
+          "locator": "transcript-line:194",
+          "text": "- Advanced Message Queuing Protocol (AMQP),"
+        },
+        {
+          "locator": "transcript-line:196",
+          "text": "- Long Range WAN (LoRaWAN)."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:45.305907+00:00",
+      "transcript_file": "sources/anki-prednaska-07-v1/transcript/anki-prednaska-07-v1.md",
+      "transcript_sha256": "33d4fd86fc490c2cc8dedf93cd13e6d27a27420b217bdd0abc9fb8d9f16a46f2"
+    },
+    "anki-prednaska-08-v1": {
+      "subject_id": "bi-tab",
+      "source_id": "anki-prednaska-08-v1",
+      "title": "FIT ČVUT Anki – BI-TAB – Přednáška 08",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-tab/anki-prednaska-08-v1/anki-prednaska-08-v1.zip",
+      "file": "sources/anki-prednaska-08-v1/anki-prednaska-08-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "644b20ddcebb917f39bb981e07c62a1b058eefa4ba9446318fa1e349f5baad96",
+      "topic_ids": [
+        "prednaska-08"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg, SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-TAB – Přednáška 08"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-tab/BI-TAB.apkg; APKG SHA-256 aad5d9418346792a97b103483c6a92411d60f79d52fd5a423fd0fc14dffe748b. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 53183dd48468239630c7cf283347984511ecad52b3dee78ea36f4c1d42180eeb."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-TAB"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 14 poznámek, 14 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1714661422152"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1714661422152"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: ARD$7oq4GQ; štítky: bi-tab::p08."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Popište artificial intelligence (AI)."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Artificial intelligence je soubor technologií, které umožňují strojům vnímat své prostředí, učit se a tvořit za účelem splnit vytyčené cíle."
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "## Poznámka Anki 1714661653429"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Karty Anki: 1714661653429"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "GUID: y+sL_b:U&*; štítky: bi-tab::p08."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Rozdělte artificial intelligence podle úrovně inteligence."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Artificial intelligence se podle úrovně inteligence dělí na následující typy:"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "- **narrow artificial intelligence **- dokáže řešit pouze jeden typ úloh (např. ChatGPT),"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "- **artificial general intelligence **(AGI)** **- dokáže řešit všechny typy úloh podobně jako člověk,"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "- **aritificial super intelligence **(ASI) - dokáže řešit všechny typy úloh lépe než člověk."
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "## Poznámka Anki 1714662004916"
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "Karty Anki: 1714662004916"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "GUID: Ax+VTCPlVL; štítky: bi-tab::p08."
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "Rozdělte artificial intelligence podle schopností."
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "Artificial intelligence se podle schopností dělí na následující typy:"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "- **reactive machines** - nedokáží použít paměť, pouze reagují na kombinaci vstupů;"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "- **limited memory machines** - používají paměť, dnešní úroveň AI;"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "- **theory of mind** - dokáží rozeznat mentální stavy;"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "- **self-aware AI** - vědomi vlastní existence, mají svědomí."
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "## Poznámka Anki 1714662303024"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "Karty Anki: 1714662303024"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "GUID: D+1Um|/=?~; štítky: bi-tab::p08."
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "Popište machine learning (ML)."
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "Machine learning (ML) je odvětví artificial intelligence zabývající se vývojem algoritmů, které dokáží provádět rozhodnutí na základě naučených dat bez explicitních instrukcí a programování."
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "## Poznámka Anki 1714662847261"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "Karty Anki: 1714662847261"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "GUID: e}N,)od4P4; štítky: bi-tab::p08."
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "Popište training v kontextu machine learning."
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "Training je proces hledání nejlepších parametrů machine learning modelu. Existují následující typy:"
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "- **unsupervised training **- model obdrží nestrukturovaná data,"
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "- **supervised training** - model obdrží vstupy a požadované výstupy,"
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "- **reinforcement training **- model interaguje s dynamickým prostředím a dostává zpětnou vazbu."
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "## Poznámka Anki 1714662977365"
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "Karty Anki: 1714662977365"
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": "GUID: p]Xv8/sbhN; štítky: bi-tab::p08."
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "Popište neural network (NN)."
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "Neural network (NN) je machine learning model, který je inspirovaný strukturou lidského a zvířecího mozku."
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "## Poznámka Anki 1714664098778"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "Karty Anki: 1714664098778"
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "GUID: Er83x7edi*; štítky: bi-tab::p08."
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "Popište natural language processing (NLP)."
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "Natural language processing (NLP) je odvětví artificial intelligence, které se specializuje na porozumění, manipulaci a generování lidského jazyka."
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "## Poznámka Anki 1714664692443"
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "Karty Anki: 1714664692443"
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "GUID: kkZ~~*Php>; štítky: bi-tab::p08."
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "Rozdělte útoky na artificial intelligence."
+        },
+        {
+          "locator": "transcript-line:130",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:132",
+          "text": "Útoky na artificial intelligence lze rozdělit do následujících kategorií:"
+        },
+        {
+          "locator": "transcript-line:134",
+          "text": "- **training-phase attacks** - training set poisoning, training set backdoor;"
+        },
+        {
+          "locator": "transcript-line:136",
+          "text": "- **testing-phase attacks** - adversarial examples, model extraction a membership inference."
+        },
+        {
+          "locator": "transcript-line:138",
+          "text": "## Poznámka Anki 1714664990597"
+        },
+        {
+          "locator": "transcript-line:140",
+          "text": "Karty Anki: 1714664990597"
+        },
+        {
+          "locator": "transcript-line:141",
+          "text": "GUID: Po/WKJ#uL!; štítky: bi-tab::p08."
+        },
+        {
+          "locator": "transcript-line:143",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:145",
+          "text": "Popište training set poisoning útok."
+        },
+        {
+          "locator": "transcript-line:147",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:149",
+          "text": "Training set poisoning je typ training-phase útoku na artificial intelligence. Spočívá v tom, že útočník upraví trénovací data modelu tak, aby snížil přesnost jeho výstupů."
+        },
+        {
+          "locator": "transcript-line:151",
+          "text": "## Poznámka Anki 1714665095431"
+        },
+        {
+          "locator": "transcript-line:153",
+          "text": "Karty Anki: 1714665095431"
+        },
+        {
+          "locator": "transcript-line:154",
+          "text": "GUID: W_JySx3>P; štítky: bi-tab::p08."
+        },
+        {
+          "locator": "transcript-line:156",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:158",
+          "text": "Popište training set backdoor útok."
+        },
+        {
+          "locator": "transcript-line:160",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:162",
+          "text": "Training set backdoor je typ training-phase útoku na artificial intelligence. Spočívá v tom, že útočník do trénovacích dat vloží škodlivá data. Model se pak pro většinu vstupů chová správně, ale při zadání backdoorovaného vstupu se zachová nesprávně."
+        },
+        {
+          "locator": "transcript-line:164",
+          "text": "## Poznámka Anki 1714665336693"
+        },
+        {
+          "locator": "transcript-line:166",
+          "text": "Karty Anki: 1714665336693"
+        },
+        {
+          "locator": "transcript-line:167",
+          "text": "GUID: d,BdhZE3b=; štítky: bi-tab::p08."
+        },
+        {
+          "locator": "transcript-line:169",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:171",
+          "text": "Popište adversarial examples útok."
+        },
+        {
+          "locator": "transcript-line:173",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:175",
+          "text": "Adversarial examples je typ testing-phase útoku na artificial intelligence. Spočívá v tom, že útočník generuje vstupní data s jemnými změnami tak, aby maximalizoval chybovost modelu."
+        },
+        {
+          "locator": "transcript-line:177",
+          "text": "## Poznámka Anki 1714665666417"
+        },
+        {
+          "locator": "transcript-line:179",
+          "text": "Karty Anki: 1714665666417"
+        },
+        {
+          "locator": "transcript-line:180",
+          "text": "GUID: BM6wi{S+_>; štítky: bi-tab::p08."
+        },
+        {
+          "locator": "transcript-line:182",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:184",
+          "text": "Popište model extraction a membership inference útoky."
+        },
+        {
+          "locator": "transcript-line:186",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:188",
+          "text": "Model extraction a membership inference jsou typy testing-phase útoků na artificial intelligence. Spočívají v tom, že útočník prostřednictvím dotazování modelu a jeho konfidenční funkce model zkopíruje. Následně kopii zneužije k tomu, aby zjistil, zda byl konkrétní vzorek použit v trénovacích datech původního modelu."
+        },
+        {
+          "locator": "transcript-line:190",
+          "text": "## Poznámka Anki 1714667446368"
+        },
+        {
+          "locator": "transcript-line:192",
+          "text": "Karty Anki: 1714667446368"
+        },
+        {
+          "locator": "transcript-line:193",
+          "text": "GUID: MiXez:%=7T; štítky: bi-tab::p08."
+        },
+        {
+          "locator": "transcript-line:195",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:197",
+          "text": "Uveďte příklady zneužítí artificial intelligence."
+        },
+        {
+          "locator": "transcript-line:199",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:201",
+          "text": "Artificial intelligence lze zneužít v následujících útocích:"
+        },
+        {
+          "locator": "transcript-line:203",
+          "text": "- smart malware,"
+        },
+        {
+          "locator": "transcript-line:205",
+          "text": "- phishing,"
+        },
+        {
+          "locator": "transcript-line:207",
+          "text": "- penetration testing."
+        },
+        {
+          "locator": "transcript-line:209",
+          "text": "## Poznámka Anki 1714668159489"
+        },
+        {
+          "locator": "transcript-line:211",
+          "text": "Karty Anki: 1714668159489"
+        },
+        {
+          "locator": "transcript-line:212",
+          "text": "GUID: PQs;8]1+J|; štítky: bi-tab::p08."
+        },
+        {
+          "locator": "transcript-line:214",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:216",
+          "text": "Uveďte příklady využití artificial intelligence pro kybernetickou bezpečnost."
+        },
+        {
+          "locator": "transcript-line:218",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:220",
+          "text": "Artificial intelligence lze pro kybernetickou bezpečnost využít následujícími způsoby:"
+        },
+        {
+          "locator": "transcript-line:222",
+          "text": "- malware detection,"
+        },
+        {
+          "locator": "transcript-line:224",
+          "text": "- intrusion detection,"
+        },
+        {
+          "locator": "transcript-line:225",
+          "text": "- phishing detection."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:45.336383+00:00",
+      "transcript_file": "sources/anki-prednaska-08-v1/transcript/anki-prednaska-08-v1.md",
+      "transcript_sha256": "e7dce690c5e5da5c289a1559910fd9b8add7ab4490a59b4265c99067db52a679"
+    }
+  },
+  "checkpoints": []
+}

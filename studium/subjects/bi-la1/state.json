@@ -1,0 +1,2220 @@
+{
+  "schema_version": 1,
+  "subject_id": "bi-la1",
+  "name": "BI-LA1",
+  "goals": [
+    "Porozumět obsahu Anki balíčku BI-LA1, vysvětlovat odpovědi a samostatně řešit jeho otázky a úlohy."
+  ],
+  "created_at": "2026-10-17T14:00:59.419526+00:00",
+  "topics": {
+    "zakladni-sada": {
+      "subject_id": "bi-la1",
+      "topic_id": "zakladni-sada",
+      "title": "Základní sada otázek",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Základní sada otázek“ z balíčku BI-LA1."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    }
+  },
+  "sources": {
+    "anki-zakladni-sada-v1": {
+      "subject_id": "bi-la1",
+      "source_id": "anki-zakladni-sada-v1",
+      "title": "Anki – BI-LA1 – Základní sada otázek",
+      "version": "2026-10-17T16:00:56+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-study-import-zhtvc_y1/exports/bi-la1/anki-zakladni-sada-v1/anki-zakladni-sada-v1.zip",
+      "file": "sources/anki-zakladni-sada-v1/anki-zakladni-sada-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "79e5864c86cdda34a8408c1b9ab524d36303f743d6a1dc6718f375cb0a888d7f",
+      "topic_ids": [
+        "zakladni-sada"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Export z místního Anki profilu User 1, kolekce /mnt/c/Users/kryst/AppData/Roaming/Anki2/User 1/collection.anki2, verze 2026-10-17T16:00:56+02:00. ZIP je původní strojový export polí HTML, identifikátorů, šablon a médií; Markdown je odvozený čitelný přepis pomocí HTMLParser, bez doplňování učiva. Podtržítka a horní indexy HTML zůstávají jako sub/sup, MathJax/TeX se zachovává. Přesný přepis se cituje transcript-line:N. Obrázky a vzorce vyžadují před výukou vizuální kontrolu. Odkazy na externí dokumenty nebyly načtené. Import nezapisuje výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-LA1 – Základní sada otázek"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: místní Anki, profil User 1. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:00:56+02:00. Původní kolekce SHA-256: 0d1f9aa982a5c3eaa31cfd838f48afceda879ae758526167d718d7f2d6347255."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: before OSU::BI-LA1"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 48 poznámek, 48 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "## Poznámka Anki 1641673467216"
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "Karty Anki: 1641673467216"
+        },
+        {
+          "locator": "transcript-line:14",
+          "text": "GUID: M@K862Et<f; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Definujte hodnost matice."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Nechť \\(\\mathbf A \\in T^{m,n}\\). Hodností matice \\(\\mathbf A\\) nazýváme dimenzi lineárního obalu souboru řádků matice \\(\\mathbf A\\), kde tyto řádky z \\(T^{1, n} \\) chápeme jako vektory z \\(T^n\\)."
+        },
+        {
+          "locator": "transcript-line:23",
+          "text": "\\[h(\\mathbf A) = \\dim \\langle (\\mathbf A_{1:})^T,\\dots,(\\mathbf A_{m:})^T \\rangle.\\]"
+        },
+        {
+          "locator": "transcript-line:25",
+          "text": "## Poznámka Anki 1641679899612"
+        },
+        {
+          "locator": "transcript-line:27",
+          "text": "Karty Anki: 1641679899612"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "GUID: GN-x]b_%Pf; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "Definujte inverzní, regulární a singulární matici."
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "Buď \\(\\mathbf A \\in T^{n, n}\\). Matici \\(\\mathbf B \\in T^{n, n}\\) nazveme **inverzní maticí** k matici \\(\\mathbf A\\) (značíme \\(\\mathbf A^{-1}\\)), pokud platí"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "\\[\\mathbf{AB} = \\mathbf{BA} = \\mathbf E.\\]Matici \\(\\mathbf A\\) nazveme **regulární**, pokud existuje matice, která je k ní inverzní. V opačném případě nazveme \\(\\mathbf A\\) **singulární**."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "## Poznámka Anki 1641758109152"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Karty Anki: 1641758109152"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "GUID: vtKZ.`;W7a; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "Vyslovte Frobeniovu větu."
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "[Obrázek: paste-47f9aec39c7f24e4f8741110165dbf0e1c21f231.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "## Poznámka Anki 1641913197839"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "Karty Anki: 1641913197840"
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "GUID: sH2{,>!<A1; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "Definujte permutaci."
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "[Obrázek: paste-7ffe0f701c4e8859a6927e8c353c1f166ae1c1be.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "## Poznámka Anki 1641913756603"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "Karty Anki: 1641913756604"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "GUID: A=7H8s17)F; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "Definujte inverzi v permutaci a znaménko permutace."
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "[Obrázek: paste-d69f50195519f77b050bca759b52cbf7e17b0a54.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "## Poznámka Anki 1642154069949"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "Karty Anki: 1642154069951"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "GUID: fg`):#$#fz; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "Definujte vlastní číslo, vlastní vektor a spektrum matice."
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "Číslo \\(\\lambda \\in \\mathbb C\\) nazýváme vlastním číslem matice \\(\\mathbf{A} \\in \\mathbb C^{n,n}\\), právě když existuje nenulový vektor \\(\\mathbf{x} \\in \\mathbb C^n\\) splňující"
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "\\[\\mathbf A \\mathbf x = \\lambda \\mathbf x.\\]Takovýto vektor \\(\\mathbf x\\) nazýváme **vlastním vektorem matice** \\(\\mathbf A\\) příslušejícím **vlastnímu číslu** \\(\\lambda\\). **Spektrem matice** \\(\\mathbf A\\), značeno \\(\\sigma(\\mathbf A)\\), je množina všech vlastních čísel matice \\(\\mathbf A\\)."
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "## Poznámka Anki 1642156669352"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "Karty Anki: 1642156669352"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "GUID: x%?RMq=4C`; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "Definujte charakteristický polynom."
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "Charakteristický polynom matice \\(\\mathbf{A} \\in \\mathbb C^{n,n}\\) (ozn. \\(p_{\\mathbf A}\\)) nazýváme zobrazení definované předpisem"
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "\\[p_{\\mathbf A} := \\det(\\mathbf A - z \\mathbf E), \\quad z \\in \\mathbb C.\\]"
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "## Poznámka Anki 1642170349997"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "Karty Anki: 1642170349997"
+        },
+        {
+          "locator": "transcript-line:109",
+          "text": "GUID: I*O5:^%#?(; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "Definujte diagonalizovatelnou matici."
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "[Obrázek: paste-c77e99716df2fe5fe3d1dd880e300f1791190103.jpg; soubor je v media/ v doprovodném ZIP]  [Obrázek: paste-90dd8ae5140d0852c7e29e26242fb41cdaf334a6.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "## Poznámka Anki 1715606853945"
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "Karty Anki: 1715606853945"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "GUID: K&y:;`LkJV; štítky: bi-la1 bi-spol::11 duplicate ni-spol::01."
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "Definujte grupu (group) a abelovskou (komutativní) grupu."
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:130",
+          "text": "Nechť \\(M\\) je neprázdná množina a \\(\\circ : M \\times M \\to M\\) binární operace (vlastnosti grupoidu). Pokud"
+        },
+        {
+          "locator": "transcript-line:132",
+          "text": "- platí asociativní zákon (vlastnost pologrupy):"
+        },
+        {
+          "locator": "transcript-line:134",
+          "text": "\\[(\\forall a,b,c \\in M) \\big(a \\circ (b \\circ c) = (a \\circ b) \\circ c \\big),\\]"
+        },
+        {
+          "locator": "transcript-line:136",
+          "text": "- existuje neutrální prvek (vlastnost monoidu) tak, že"
+        },
+        {
+          "locator": "transcript-line:138",
+          "text": "\\[(\\exists e \\in M)(\\forall a \\in M) \\big( a \\circ e = e \\circ a = a \\big),\\]"
+        },
+        {
+          "locator": "transcript-line:140",
+          "text": "- existuje inverzní prvek tak, že"
+        },
+        {
+          "locator": "transcript-line:142",
+          "text": "\\[(\\forall a \\in M)(\\exists a^{-1}\\in M) \\big(a \\circ a^{-1} = a^{-1} \\circ a = e\\big),\\]říkáme, že uspořádaná dvojice \\(G = (M, \\circ)\\) je **grupa**. Pokud navíc pro \\(\\circ\\) platí komutativní zákon:"
+        },
+        {
+          "locator": "transcript-line:144",
+          "text": "\\[(\\forall a,b \\in M) \\big(a \\circ b = b \\circ a\\big),\\]mluvíme o** abelovské **(komutativní)** grupě**."
+        },
+        {
+          "locator": "transcript-line:146",
+          "text": "### Doplňující pole (Extra)"
+        },
+        {
+          "locator": "transcript-line:148",
+          "text": "Grupa je tedy monoid \\((M, \\circ)\\), ve kterém existuje ke každému prvku inverzní prvek, a abelovská (komutativní) grupa je grupa, kde \\(\\circ\\) je komutativní operace."
+        },
+        {
+          "locator": "transcript-line:150",
+          "text": "## Poznámka Anki 1715607014742"
+        },
+        {
+          "locator": "transcript-line:152",
+          "text": "Karty Anki: 1715607014742"
+        },
+        {
+          "locator": "transcript-line:153",
+          "text": "GUID: J?b<_RT/>G; štítky: bi-la1 bi-spol::11 duplicate ni-spol::02."
+        },
+        {
+          "locator": "transcript-line:155",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:157",
+          "text": "Definujte těleso (field) a komutativní těleso."
+        },
+        {
+          "locator": "transcript-line:159",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:161",
+          "text": "[Obrázek: paste-d5e92ec2cc57f58e362e2c6b973ae2570c49f7bf.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:163",
+          "text": "### Doplňující pole (Extra)"
+        },
+        {
+          "locator": "transcript-line:165",
+          "text": "**V předmětu NI-MPI **je těleso vždy definováno jako komutativní těleso, tedy okruh \\(T = (M, + , \\cdot)\\), pro který platí, že \\((M \\smallsetminus \\{ 0 \\}, \\cdot)\\) je abelovksá grupa."
+        },
+        {
+          "locator": "transcript-line:167",
+          "text": "## Poznámka Anki 1715607282260"
+        },
+        {
+          "locator": "transcript-line:169",
+          "text": "Karty Anki: 1715607282260"
+        },
+        {
+          "locator": "transcript-line:170",
+          "text": "GUID: xDYgc{+_;w; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:172",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:174",
+          "text": "Definujte soustavu lineárních rovnic (SLR), množinu řešení SLR a homogenní SLR."
+        },
+        {
+          "locator": "transcript-line:176",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:178",
+          "text": "Nechť \\(m, n \\in \\mathbb N\\) a pro všechna \\(i \\in \\hat m\\) a všechna \\(j \\in \\hat n\\) platí, že \\(a_{ij} \\in T\\) a \\(b_i \\in T\\). Systém rovnic"
+        },
+        {
+          "locator": "transcript-line:179",
+          "text": "\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:180",
+          "text": "    a_{11}x_1 & + & a_{12}x_2 & + & \\cdots & + & a_{1n}x_n & = & b_1 \\\\"
+        },
+        {
+          "locator": "transcript-line:181",
+          "text": "    a_{21}x_1 & + & a_{22}x_2 & + & \\cdots & + & a_{2n}x_n & = & b_2 \\\\"
+        },
+        {
+          "locator": "transcript-line:182",
+          "text": "    \\vdots    &   & \\vdots    &   & \\ddots &   &    \\vdots & \\vdots & \\vdots \\\\"
+        },
+        {
+          "locator": "transcript-line:183",
+          "text": "    a_{m1}x_1 & + & a_{m2}x_2 & + & \\cdots & + & a_{mn}x_n & = & b_m"
+        },
+        {
+          "locator": "transcript-line:184",
+          "text": "    \\end{matrix}\\]nazýváme **soustavou **\\(m\\) **lineárních rovnic **o \\(n\\) neznámých \\(x_1, \\dots x_n \\in T\\). Číslu \\(a_{ij}\\) říkáme \\(j\\)-tý koeficient \\(i\\)-té rovnice. Množinu všech uspořádaných \\(n\\)-tic \\((x_1, x_2, \\dots, x_n) \\in T^n\\), pro které je po dosazení do soustavy výše splněno všech \\(m\\) rovnic, nazýváme **množinou řešení soustavy** a značíme ji \\(S\\). Platí-li \\(b_1 = b_2 = \\dots = b_m = 0\\), říkáme, že soustava je **homogenní**. V opačném případě je soustava nehomogenní."
+        },
+        {
+          "locator": "transcript-line:186",
+          "text": "## Poznámka Anki 1715608280717"
+        },
+        {
+          "locator": "transcript-line:188",
+          "text": "Karty Anki: 1715608280717"
+        },
+        {
+          "locator": "transcript-line:189",
+          "text": "GUID: DATK9G4;|+; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:191",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:193",
+          "text": "Definujte lineární obal."
+        },
+        {
+          "locator": "transcript-line:195",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:197",
+          "text": "Buď \\((\\mathbf x_1, \\dots, \\mathbf x_m)\\) soubor vektorů z \\(T^n\\). Množinu všech lineárních kombinací tohoto souboru nazveme lineárním obalem souboru \\((\\mathbf x_1, \\dots, \\mathbf x_m)\\) a značíme ji"
+        },
+        {
+          "locator": "transcript-line:198",
+          "text": "\\[\\langle \\mathbf x_1, \\dots, \\mathbf x_m \\rangle.\\]"
+        },
+        {
+          "locator": "transcript-line:200",
+          "text": "## Poznámka Anki 1715608501011"
+        },
+        {
+          "locator": "transcript-line:202",
+          "text": "Karty Anki: 1715608501011"
+        },
+        {
+          "locator": "transcript-line:203",
+          "text": "GUID: y:Ut9H@#e4; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:205",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:207",
+          "text": "Definujte triviální a netriviální lineární kombinaci."
+        },
+        {
+          "locator": "transcript-line:209",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:211",
+          "text": "Nechť \\(\\mathbf x \\in T^n\\) a \\((\\mathbf x_1, \\dots, \\mathbf x_m)\\) je soubor vektorů z \\(T^n\\). Říkáme, že vektor \\(\\mathbf x\\) je **lineární kombinací** souboru \\((\\mathbf x_1, \\dots, \\mathbf x_m)\\), právě když existují koeficienty lineární kombinace \\(\\alpha_1, \\dots, \\alpha_m \\in T\\) takové, že"
+        },
+        {
+          "locator": "transcript-line:212",
+          "text": "\\[\\mathbf x = \\displaystyle \\sum_{i = 1}^m \\alpha_i \\mathbf x_i.\\]Jestliže jsou všechny koeficienty nulové, nazýváme takovou **lineární kombinaci triviální**. V opačném případě jde o **netriviální lineární kombinaci**."
+        },
+        {
+          "locator": "transcript-line:214",
+          "text": "## Poznámka Anki 1715608621718"
+        },
+        {
+          "locator": "transcript-line:216",
+          "text": "Karty Anki: 1715608621718"
+        },
+        {
+          "locator": "transcript-line:217",
+          "text": "GUID: b7>Ao(Y_T0; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:219",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:221",
+          "text": "Definujte lineární nezávislost a lineární závislost."
+        },
+        {
+          "locator": "transcript-line:223",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:225",
+          "text": "Nechť \\((\\mathbf x_1, \\dots, \\mathbf x_m)\\) je soubor vektorů z \\(T^n\\). Řekneme, že soubor \\((\\mathbf x_1, \\dots, \\mathbf x_m)\\) je **lineárně nezávislý** (LN), právě když pouze triviální lineární kombinace tohoto souboru je rovna nulovému vektoru \\(\\theta\\). V opačném případě nazýváme soubor **lineárně závislým** (LZ)"
+        },
+        {
+          "locator": "transcript-line:227",
+          "text": "## Poznámka Anki 1715608796747"
+        },
+        {
+          "locator": "transcript-line:229",
+          "text": "Karty Anki: 1715608796747"
+        },
+        {
+          "locator": "transcript-line:230",
+          "text": "GUID: gXQ=Qd)0?K; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:232",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:234",
+          "text": "Definujte dimenzi podprostoru."
+        },
+        {
+          "locator": "transcript-line:236",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:238",
+          "text": "Buď \\(P\\) podprostor \\(T^n\\). Řekneme, že dimenze podprostoru \\(P\\) je rovna"
+        },
+        {
+          "locator": "transcript-line:240",
+          "text": "- \\(0\\), pokud neexistuje LN soubor vektorů z \\(P\\) délky \\(1\\)."
+        },
+        {
+          "locator": "transcript-line:242",
+          "text": "- \\(d \\in \\mathbb N\\), pokud existuje LN soubor vektorů z \\(P\\) délky \\(d\\), ale každý soubor vektorů z \\(P\\) délky \\(d + 1\\) je už LZ."
+        },
+        {
+          "locator": "transcript-line:244",
+          "text": "Dimenzi podprostoru \\(P\\) označujeme symbolem \\(\\dim P\\)."
+        },
+        {
+          "locator": "transcript-line:246",
+          "text": "## Poznámka Anki 1715609003342"
+        },
+        {
+          "locator": "transcript-line:248",
+          "text": "Karty Anki: 1715609003342"
+        },
+        {
+          "locator": "transcript-line:249",
+          "text": "GUID: L@@e|@/[&`; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:251",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:253",
+          "text": "Definujte podprostor."
+        },
+        {
+          "locator": "transcript-line:255",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:257",
+          "text": "Nechť \\(P\\) je podmnožina \\(T^n\\). Řekneme, že \\(P\\) je podprostor vektorového prostoru \\(T^n\\), právě když platí:"
+        },
+        {
+          "locator": "transcript-line:259",
+          "text": "- množina \\(P\\) je neprázdná:"
+        },
+        {
+          "locator": "transcript-line:261",
+          "text": "\\[P \\neq \\emptyset,\\]"
+        },
+        {
+          "locator": "transcript-line:263",
+          "text": "- množina \\(P\\) je uzavřená vůči sčítání vektorů v ní:"
+        },
+        {
+          "locator": "transcript-line:265",
+          "text": "\\[(\\forall \\mathbf x,\\mathbf y\\in P)(\\mathbf x +\\mathbf y\\in P)\\,,\\]"
+        },
+        {
+          "locator": "transcript-line:267",
+          "text": "- množina \\(P\\) je užavřená vůči násobení vektorů v ní libovolným skalárem:"
+        },
+        {
+          "locator": "transcript-line:269",
+          "text": "\\[(\\forall\\alpha\\in T)(\\forall \\mathbf x\\in P) (\\alpha \\mathbf x\\in P).\\]Tuto skutečnost pak značíme \\(P \\subset \\subset T^n\\)."
+        },
+        {
+          "locator": "transcript-line:271",
+          "text": "## Poznámka Anki 1715609109124"
+        },
+        {
+          "locator": "transcript-line:273",
+          "text": "Karty Anki: 1715609109124"
+        },
+        {
+          "locator": "transcript-line:274",
+          "text": "GUID: h>j1^=={a$; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:276",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:278",
+          "text": "Vyslovte větu o vztahu lineárního obalu a podprostoru."
+        },
+        {
+          "locator": "transcript-line:280",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:282",
+          "text": "Buď \\((\\mathbf x_1, \\dots, \\mathbf x_m)\\) soubor vektorů z \\(T^n\\). Potom platí"
+        },
+        {
+          "locator": "transcript-line:283",
+          "text": "\\[\\langle \\mathbf x_1, \\dots, \\mathbf x_m \\rangle \\subset \\subset T^n.\\]"
+        },
+        {
+          "locator": "transcript-line:285",
+          "text": "## Poznámka Anki 1715687772259"
+        },
+        {
+          "locator": "transcript-line:287",
+          "text": "Karty Anki: 1715687772259"
+        },
+        {
+          "locator": "transcript-line:288",
+          "text": "GUID: qC*]YWVb4,; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:290",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:292",
+          "text": "Popište horní stupňovitý tvar matice, hlavní sloupce a vedlejší sloupce."
+        },
+        {
+          "locator": "transcript-line:294",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:296",
+          "text": "O matici \\(\\mathbf A \\in T^{m, n}\\) řekneme, že je v **horním stupňovitém tvaru**, jestliže jsou všechny její řádky nulové, tj."
+        },
+        {
+          "locator": "transcript-line:297",
+          "text": "\\[\\mathbf A = \\Theta,\\]nebo jsou splněny obě následující podmínky:"
+        },
+        {
+          "locator": "transcript-line:299",
+          "text": "- případné nulové řádky jsou pouze v dolní části matice,"
+        },
+        {
+          "locator": "transcript-line:300",
+          "text": "- v nenulových řádcích je vždy první nenulový prvek až za prvním nenulovým prvkem v předchozím řádku."
+        },
+        {
+          "locator": "transcript-line:302",
+          "text": "Je-li matice v horním stupňovitém tvaru, potom sloupcům, ve kterých se vyskytuje první nenulový prvek řádku říkáme **hlavní sloupce**, ostatním říkáme **vedlejší sloupce**."
+        },
+        {
+          "locator": "transcript-line:304",
+          "text": "## Poznámka Anki 1715687884694"
+        },
+        {
+          "locator": "transcript-line:306",
+          "text": "Karty Anki: 1715687884694"
+        },
+        {
+          "locator": "transcript-line:307",
+          "text": "GUID: Ow:cuKlQ87; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:309",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:311",
+          "text": "Vyslovte větu o řešitelnosti soustavy s maticí v horním stupňovitém tvaru."
+        },
+        {
+          "locator": "transcript-line:313",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:315",
+          "text": "Mějme soustavu lineárních rovnic \\(\\mathbf{Ax} = \\mathbf b\\), kde \\(\\mathbf A \\in T^{m, n}\\). Je-li tato soustava v horním stupňovitém tvaru, platí následující:"
+        },
+        {
+          "locator": "transcript-line:317",
+          "text": "-  Je-li poslední sloupec matice \\((\\mathbf A \\ | \\ \\mathbf b)\\) hlavní, soustava nemá řešení."
+        },
+        {
+          "locator": "transcript-line:318",
+          "text": "-  Je-li poslední sloupec matice \\((\\mathbf A \\ | \\ \\mathbf b)\\) jediný vedlejší sloupec, má soustava právě jedno řešení."
+        },
+        {
+          "locator": "transcript-line:319",
+          "text": "-  Je-li poslední sloupec matice \\((\\mathbf A \\ | \\ \\mathbf b)\\) vedlejší a existuje-li ještě jiný vedlejší sloupec, má soustava více než jedno řešení."
+        },
+        {
+          "locator": "transcript-line:321",
+          "text": "Jiný případ než tyto tři nastat nemůže."
+        },
+        {
+          "locator": "transcript-line:323",
+          "text": "## Poznámka Anki 1715688706661"
+        },
+        {
+          "locator": "transcript-line:325",
+          "text": "Karty Anki: 1715688706661"
+        },
+        {
+          "locator": "transcript-line:326",
+          "text": "GUID: KLRx,(tY_Y; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:328",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:330",
+          "text": "Popište postup řešení soustavy lineárních rovnic."
+        },
+        {
+          "locator": "transcript-line:332",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:334",
+          "text": "Řešíme soustavu \\(\\mathbf{Ax} = \\mathbf b\\) s rozšířenou maticí \\((\\mathbf A \\ | \\ \\mathbf b)\\), kde \\(\\mathbf A \\in T^{m, n}\\) a \\(\\mathbf b \\in T^{m, 1}\\). Postup je následující:"
+        },
+        {
+          "locator": "transcript-line:336",
+          "text": "- Nemá-li zadaná soustava matici v horním stupňovitém tvaru, převedeme ji na něj pomocí GEM (množina řešení se nemění)."
+        },
+        {
+          "locator": "transcript-line:338",
+          "text": "- Pokud \\(h(\\mathbf A) < h(\\mathbf A \\ | \\ \\mathbf b)\\) řešení neexistuje. V opačném případě postupujeme dále."
+        },
+        {
+          "locator": "transcript-line:340",
+          "text": "- Za vázané proměnné označíme proměnné příslušející hlavním sloupcům matice. Zbývající volné proměnné označíme \\((t_1,\\dots,t_{n-h})\\)."
+        },
+        {
+          "locator": "transcript-line:342",
+          "text": "- Pro nalezení \\(\\tilde{\\mathbf x}\\) zvolíme za \\((t_1,\\dots,t_{n-h})\\) libovolně a ze soustavy \\((\\mathbf A \\ | \\ \\mathbf b)\\) dopočítáme vázané proměnné."
+        },
+        {
+          "locator": "transcript-line:344",
+          "text": "- Podle postupu pro řešení homogenní soustavy lineárních rovnic dopočítáme ze soustavy \\((\\mathbf A \\ | \\ \\theta)\\) bázi \\(S_0\\)."
+        },
+        {
+          "locator": "transcript-line:345",
+          "text": "- Řešením je \\(S = \\tilde{\\mathbf x} + S_0\\)."
+        },
+        {
+          "locator": "transcript-line:347",
+          "text": "## Poznámka Anki 1715688859054"
+        },
+        {
+          "locator": "transcript-line:349",
+          "text": "Karty Anki: 1715688859054"
+        },
+        {
+          "locator": "transcript-line:350",
+          "text": "GUID: m0?9k%G?PX; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:352",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:354",
+          "text": "Popište postup řešení homogenní soustavy lineárních rovnic."
+        },
+        {
+          "locator": "transcript-line:356",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:358",
+          "text": "Řešíme soustavu \\(\\mathbf{Ax} = \\theta\\) s rozšířenou maticí \\((\\mathbf A \\ | \\ \\theta)\\), kde \\(\\mathbf A \\in T^{m, n}\\). Postup je následující:"
+        },
+        {
+          "locator": "transcript-line:360",
+          "text": "- Nemá-li zadaná soustava matici v horním stupňovitém tvaru, převedeme ji na něj pomocí GEM (množina řešení se nemění)."
+        },
+        {
+          "locator": "transcript-line:361",
+          "text": "- Za vázané proměnné označíme proměnné příslušející hlavním sloupcům matice. Zbývající volné proměnné označíme \\((t_1,\\dots,t_{n-h})\\)."
+        },
+        {
+          "locator": "transcript-line:362",
+          "text": "- Zvolíme libovolnou bázi prostoru \\(T^{n - h}\\). Potom je jakákoliv volba volných proměnných v lineárním obalu této báze."
+        },
+        {
+          "locator": "transcript-line:364",
+          "text": "- Pro každý zvolený bazický vektor \\((t_1,\\dots,t_{n-h}) \\in T^{n - h}\\)  reprezentující volbu volných proměnných dopočítáme ze soustavy vázané proměnné."
+        },
+        {
+          "locator": "transcript-line:366",
+          "text": "- Dostáváme LN soubor \\(n - h\\) vektorů, který generuje \\(S_0\\)."
+        },
+        {
+          "locator": "transcript-line:368",
+          "text": "## Poznámka Anki 1715688976848"
+        },
+        {
+          "locator": "transcript-line:370",
+          "text": "Karty Anki: 1715688976848"
+        },
+        {
+          "locator": "transcript-line:371",
+          "text": "GUID: rD:+13bdl@; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:373",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:375",
+          "text": "Definujte generování podprostoru."
+        },
+        {
+          "locator": "transcript-line:377",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:379",
+          "text": "O souboru vektorů \\((\\mathbf x_1, \\dots, \\mathbf x_m)\\) z vektorového prostoru \\(T^n\\) řekneme, že generuje podprostor \\(P \\subset \\subset T^n\\), právě když platí"
+        },
+        {
+          "locator": "transcript-line:380",
+          "text": "\\[\\langle \\mathbf x_1, \\dots, \\mathbf x_m \\rangle = P.\\]"
+        },
+        {
+          "locator": "transcript-line:382",
+          "text": "## Poznámka Anki 1715689040909"
+        },
+        {
+          "locator": "transcript-line:384",
+          "text": "Karty Anki: 1715689040909"
+        },
+        {
+          "locator": "transcript-line:385",
+          "text": "GUID: m/-R}C+t!&; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:387",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:389",
+          "text": "Definujte bázi."
+        },
+        {
+          "locator": "transcript-line:391",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:393",
+          "text": "Mějme \\(P \\subset \\subset T^n\\). Existuje-li v \\(T^n\\) soubor vektorů \\((\\mathbf x_1, \\dots, \\mathbf x_m)\\) takový, že"
+        },
+        {
+          "locator": "transcript-line:395",
+          "text": "- \\((\\mathbf x_1, \\dots, \\mathbf x_m)\\) je LN,"
+        },
+        {
+          "locator": "transcript-line:397",
+          "text": "- \\((\\mathbf x_1, \\dots, \\mathbf x_m)\\) generuje \\(P\\),"
+        },
+        {
+          "locator": "transcript-line:399",
+          "text": "pak nazýváme soubor vektorů \\((\\mathbf x_1, \\dots, \\mathbf x_m)\\) bází podpostoru \\(P\\)."
+        },
+        {
+          "locator": "transcript-line:401",
+          "text": "## Poznámka Anki 1715689370720"
+        },
+        {
+          "locator": "transcript-line:403",
+          "text": "Karty Anki: 1715689370720"
+        },
+        {
+          "locator": "transcript-line:404",
+          "text": "GUID: JqFp)FwH5<; štítky: bi-la1 bi-spol::11."
+        },
+        {
+          "locator": "transcript-line:406",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:408",
+          "text": "Definujte operace Gaussovy eliminační metody (GEM). Jaký je jejich vztah k množině řešení soustavy lineárních rovnic?"
+        },
+        {
+          "locator": "transcript-line:410",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:412",
+          "text": "Definujeme tyto operace Gaussovy eliminační metody (GEM):"
+        },
+        {
+          "locator": "transcript-line:414",
+          "text": "- **(G1)** - prohození dvou řádků,"
+        },
+        {
+          "locator": "transcript-line:416",
+          "text": "- **(G2)** - vynásobení jednoho řádku matice nenulovým číslem,"
+        },
+        {
+          "locator": "transcript-line:418",
+          "text": "- **(G3)** - přičtení libovolného násobku jendoho řádku k jinému."
+        },
+        {
+          "locator": "transcript-line:420",
+          "text": "Převedeme-li rozšířenou matici jedné soustavy na rozšířenou matici jiné "
+        },
+        {
+          "locator": "transcript-line:421",
+          "text": "pomocí jedné z úprav (G1), (G2) nebo (G3), mají obě soustavy stejnou "
+        },
+        {
+          "locator": "transcript-line:422",
+          "text": "množinu řešení."
+        },
+        {
+          "locator": "transcript-line:424",
+          "text": "## Poznámka Anki 1715693020603"
+        },
+        {
+          "locator": "transcript-line:426",
+          "text": "Karty Anki: 1715693020603"
+        },
+        {
+          "locator": "transcript-line:427",
+          "text": "GUID: dx[A}x^8Ql; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:429",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:431",
+          "text": "Definujte matici."
+        },
+        {
+          "locator": "transcript-line:433",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:435",
+          "text": "Nechť \\(m, n \\in \\mathbb N\\). Uspořádaný soubor \\(m \\cdot n\\) čísel z \\(T\\) zapsaný do tabulky o \\(m\\) řádcích a \\(n\\) sloupcích nazýváme matice typu \\(m \\times n\\). Matice obvykle značíme"
+        },
+        {
+          "locator": "transcript-line:436",
+          "text": "\\[\\mathbf A ="
+        },
+        {
+          "locator": "transcript-line:437",
+          "text": "    \\begin{pmatrix}"
+        },
+        {
+          "locator": "transcript-line:438",
+          "text": "    a_{11} & a_{12} & \\cdots & a_{1n} \\\\"
+        },
+        {
+          "locator": "transcript-line:439",
+          "text": "    a_{21} & a_{22} & \\cdots & a_{2n} \\\\"
+        },
+        {
+          "locator": "transcript-line:440",
+          "text": "    \\vdots & \\vdots & \\ddots & \\vdots \\\\"
+        },
+        {
+          "locator": "transcript-line:441",
+          "text": "    a_{m1} & a_{m2} & \\cdots & a_{mn}"
+        },
+        {
+          "locator": "transcript-line:442",
+          "text": "    \\end{pmatrix},\\]kde \\(a_{ij}\\) jsou prvky matice, \\(i\\) je řádkový index a \\(j\\) je sloupcový index."
+        },
+        {
+          "locator": "transcript-line:444",
+          "text": "## Poznámka Anki 1715693192229"
+        },
+        {
+          "locator": "transcript-line:446",
+          "text": "Karty Anki: 1715693192229"
+        },
+        {
+          "locator": "transcript-line:447",
+          "text": "GUID: W~<-Oe3Wh; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:449",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:451",
+          "text": "Definujte součin matic."
+        },
+        {
+          "locator": "transcript-line:453",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:455",
+          "text": "Mějme \\(m, n, p \\in \\mathbb N\\), \\(\\mathbf A \\in T^{m, n}\\) matici s prvky \\(a_{ij}\\) a \\(\\mathbf B \\in T^{n, p}\\) matice s prvky \\(b_{ij}\\). Součinem matic \\(\\mathbf A\\) a \\(\\mathbf B\\) je matice \\(\\mathbf D \\in T^{m, p}\\) s prvky \\(d_{ij}\\), pro kterou platí"
+        },
+        {
+          "locator": "transcript-line:456",
+          "text": "\\[d_{ij} = \\sum_{k = 1}^n a_{ik}b_{kj}\\]a kterou značíme \\(\\mathbf D = \\mathbf A \\cdot \\mathbf B\\)."
+        },
+        {
+          "locator": "transcript-line:458",
+          "text": "## Poznámka Anki 1715694374930"
+        },
+        {
+          "locator": "transcript-line:460",
+          "text": "Karty Anki: 1715694374930"
+        },
+        {
+          "locator": "transcript-line:461",
+          "text": "GUID: PnYB7YuF/*; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:463",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:465",
+          "text": "Popište postup ověření regularity a nalezení inverzní matice."
+        },
+        {
+          "locator": "transcript-line:467",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:469",
+          "text": "Nechť \\(\\mathbf A \\in T^{n, n}\\). Postup je následující:"
+        },
+        {
+          "locator": "transcript-line:471",
+          "text": "- \\(\\mathbf A\\) doplníme o jednotkovou matici stejného rozměru a sestavíme dvoublokovou rozšířenou matici \\((\\mathbf A \\ | \\ \\mathbf E) \\in T^{n, 2n}\\)."
+        },
+        {
+          "locator": "transcript-line:473",
+          "text": "- Na celou \\((\\mathbf A \\ | \\ \\mathbf E)\\) používáme řádkové úpravy GEM. Pro libovolnou posloupnost takových úprav realizovaných regulární maticí \\(\\mathbf P\\) pak platí"
+        },
+        {
+          "locator": "transcript-line:475",
+          "text": "\\[(\\mathbf A \\ | \\ \\mathbf E) \\sim (\\mathbf{PA} \\ | \\ \\mathbf{PE}) \\sim (\\mathbf{PA} \\ | \\ \\mathbf P).\\]"
+        },
+        {
+          "locator": "transcript-line:477",
+          "text": "- Z věty o vztahu regularity a hodnosti matice víme, že \\(\\mathbf A \\) je možné převést na \\(\\mathbf E\\) právě tehdy, když je \\(\\mathbf A\\) regulární. Vznikne-li při úpravách \\(\\mathbf A\\) na horní stupňovitý tvar nulový řádek, pak je \\(\\mathbf A\\) singulární a inverze neexistuje."
+        },
+        {
+          "locator": "transcript-line:478",
+          "text": "- Je-li \\(\\mathbf A\\) regulární, pak pro úpravy \\(\\mathbf P\\) vedoucí k převedení levého bloku matice \\((\\mathbf A \\ | \\ \\mathbf E)\\) na \\(\\mathbf E\\) platí \\(\\mathbf P = \\mathbf A^{-1}\\) a pravý blok výsledné matice obsahuje hledanou \\(\\mathbf A^{-1}\\), tedy"
+        },
+        {
+          "locator": "transcript-line:480",
+          "text": "\\[(\\mathbf A \\ | \\ \\mathbf E) \\sim (\\mathbf E \\ | \\ \\mathbf A^{-1}).\\]"
+        },
+        {
+          "locator": "transcript-line:482",
+          "text": "## Poznámka Anki 1715694510276"
+        },
+        {
+          "locator": "transcript-line:484",
+          "text": "Karty Anki: 1715694510276"
+        },
+        {
+          "locator": "transcript-line:485",
+          "text": "GUID: ONYbj>(D6P; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:487",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:489",
+          "text": "Vyslovte větu o vztahu regularity a hodnosti matice."
+        },
+        {
+          "locator": "transcript-line:491",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:493",
+          "text": "Buď \\(\\mathbf A \\in T^{n, n}\\). Následující tvrzení jsou ekvivalentní:"
+        },
+        {
+          "locator": "transcript-line:495",
+          "text": "- \\(\\mathbf A\\) je regulární,"
+        },
+        {
+          "locator": "transcript-line:497",
+          "text": "- \\(h(\\mathbf A) = n\\),"
+        },
+        {
+          "locator": "transcript-line:498",
+          "text": "- \\(\\mathbf A \\sim \\mathbf E\\). "
+        },
+        {
+          "locator": "transcript-line:500",
+          "text": "Důkaz:"
+        },
+        {
+          "locator": "transcript-line:501",
+          "text": "https://courses.fit.cvut.cz/BI-LA1/@master/textbook/sec-regularni-matice.html#Proof4053a768ab1161e4167f063e69d8a8c0052c206586 (https://courses.fit.cvut.cz/BI-LA1/@master/textbook/sec-regularni-matice.html#Proof4053a768ab1161e4167f063e69d8a8c0052c206586)"
+        },
+        {
+          "locator": "transcript-line:503",
+          "text": "## Poznámka Anki 1715696387993"
+        },
+        {
+          "locator": "transcript-line:505",
+          "text": "Karty Anki: 1715696387993"
+        },
+        {
+          "locator": "transcript-line:506",
+          "text": "GUID: IHP+k-I2*Z; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:508",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:510",
+          "text": "Definujte algebraickou a geometrickou násobnost vlastního čísla."
+        },
+        {
+          "locator": "transcript-line:512",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:514",
+          "text": "Nechť \\(\\lambda \\in \\mathbb C\\) je vlastní číslo matice \\(\\mathbf A \\in \\mathbb C^{n, n}\\). Potom"
+        },
+        {
+          "locator": "transcript-line:516",
+          "text": "- **algebraickou násobností vlastního čísla **\\(\\lambda\\), ozn. \\(\\nu_a(\\lambda)\\), nazýváme jeho násobnost jakožto kořene charakteristického polynomu \\(p_{\\mathbf A}\\),"
+        },
+        {
+          "locator": "transcript-line:518",
+          "text": "- **geometrickou násobností vlastního čísla **\\(\\lambda\\), ozn. \\(\\nu_g(\\lambda)\\), nazýváme dimenzi vlastního podpostoru příslušejícího vlastnímu číslu \\(\\lambda\\), tj. dimenzi všech řešení homogenní soustavy \\((\\mathbf A - \\lambda \\mathbf E) \\cdot \\mathbf x = \\theta\\)."
+        },
+        {
+          "locator": "transcript-line:520",
+          "text": "## Poznámka Anki 1715696757783"
+        },
+        {
+          "locator": "transcript-line:522",
+          "text": "Karty Anki: 1715696757783"
+        },
+        {
+          "locator": "transcript-line:523",
+          "text": "GUID: sOR*+|TkhB; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:525",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:527",
+          "text": "Definujte podobnost matic."
+        },
+        {
+          "locator": "transcript-line:529",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:531",
+          "text": "Matice \\(\\mathbf A, \\mathbf B \\in \\mathbb C^{n, n}\\) nazveme podobné, právě když existuje regulární matice \\(\\mathbf P \\in \\mathbb C^{n, n}\\) taková, že platí"
+        },
+        {
+          "locator": "transcript-line:532",
+          "text": "\\[\\mathbf A = \\mathbf P^{-1} \\cdot \\mathbf B \\cdot \\mathbf P\\]nebo ekvivalentně"
+        },
+        {
+          "locator": "transcript-line:533",
+          "text": "\\[\\mathbf P \\cdot \\mathbf A = \\mathbf B \\cdot \\mathbf P.\\]"
+        },
+        {
+          "locator": "transcript-line:535",
+          "text": "## Poznámka Anki 1715696854582"
+        },
+        {
+          "locator": "transcript-line:537",
+          "text": "Karty Anki: 1715696854582"
+        },
+        {
+          "locator": "transcript-line:538",
+          "text": "GUID: H{El#Dqwy#; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:540",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:542",
+          "text": "Definujte diagonální matici."
+        },
+        {
+          "locator": "transcript-line:544",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:546",
+          "text": "Diagonální maticí \\(n\\)-tého řádu nazveme libovolnou čtvercovou matici \\(\\mathbf A \\in T^{n, n}\\) splňující"
+        },
+        {
+          "locator": "transcript-line:547",
+          "text": "\\[i \\neq j \\Rightarrow \\mathbf A_{ij} = 0.\\]"
+        },
+        {
+          "locator": "transcript-line:549",
+          "text": "## Poznámka Anki 1715697526969"
+        },
+        {
+          "locator": "transcript-line:551",
+          "text": "Karty Anki: 1715697526969"
+        },
+        {
+          "locator": "transcript-line:552",
+          "text": "GUID: u@/&BE9@T5; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:554",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:556",
+          "text": "Vyslovte větu o diagonalizovatelnosti komplexních matic."
+        },
+        {
+          "locator": "transcript-line:558",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:560",
+          "text": "Matice \\(\\mathbf A \\in \\mathbb C^{n, n}\\) je diagonalizovatelná, právě když každé z vlastních čísel \\(\\lambda\\) matice \\(\\mathbf A\\) má stejnou algebraickou a geometrickou násobnost, tj."
+        },
+        {
+          "locator": "transcript-line:561",
+          "text": "\\[\\big(\\forall \\lambda\\in\\sigma(\\mathbf A)\\big)\\big(\\nu_{a}(\\lambda) = \\nu_{g}(\\lambda)\\big).\\]"
+        },
+        {
+          "locator": "transcript-line:563",
+          "text": "## Poznámka Anki 1715697613291"
+        },
+        {
+          "locator": "transcript-line:565",
+          "text": "Karty Anki: 1715697613291"
+        },
+        {
+          "locator": "transcript-line:566",
+          "text": "GUID: iv00.L?Z0@; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:568",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:570",
+          "text": "Vyslovte větu o vztahu geometrické a algebraické násobnosti."
+        },
+        {
+          "locator": "transcript-line:572",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:574",
+          "text": "Nechť \\(\\mathbf A \\in \\mathbb C^{n, n}\\) a \\(\\lambda \\in \\sigma(\\mathbf A)\\). Potom"
+        },
+        {
+          "locator": "transcript-line:575",
+          "text": "\\[1 \\leq \\nu_g(\\lambda) \\leq \\nu_a(\\lambda) \\leq n.\\]"
+        },
+        {
+          "locator": "transcript-line:577",
+          "text": "## Poznámka Anki 1715697903307"
+        },
+        {
+          "locator": "transcript-line:579",
+          "text": "Karty Anki: 1715697903307"
+        },
+        {
+          "locator": "transcript-line:580",
+          "text": "GUID: f@<!kg9:LG; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:582",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:584",
+          "text": "Definujte determinant matice."
+        },
+        {
+          "locator": "transcript-line:586",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:588",
+          "text": "Buď \\(\\mathbf A\\) čtvercová matice z \\(T^{n, n}\\) s prvky \\(a_{ij}\\), kde \\(i, j \\in \\hat n\\). Determinant matice \\(\\mathbf A\\) je prvek z \\(T\\) definovaný vztahem"
+        },
+        {
+          "locator": "transcript-line:589",
+          "text": "\\[\\det \\mathbf A = \\displaystyle \\sum_{\\pi \\in S_n} \\operatorname{sgn}{\\pi} \\cdot a_{1, \\pi(1)} \\cdot a_{2, \\pi(2)} \\cdots a_{n, \\pi(n)}. \\]"
+        },
+        {
+          "locator": "transcript-line:591",
+          "text": "## Poznámka Anki 1718831617634"
+        },
+        {
+          "locator": "transcript-line:593",
+          "text": "Karty Anki: 1718831617634"
+        },
+        {
+          "locator": "transcript-line:594",
+          "text": "GUID: yrkv7:2X!+; štítky: bi-la1 bi-spol::12."
+        },
+        {
+          "locator": "transcript-line:596",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:598",
+          "text": "Popište postup pro nalezení podobné diagonální matice a matice podobnosti."
+        },
+        {
+          "locator": "transcript-line:600",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:602",
+          "text": "Mějme matici \\(\\mathbf A \\in \\mathbb C^{n, n}\\). Postup je následující:"
+        },
+        {
+          "locator": "transcript-line:604",
+          "text": "- nalezneme všechna vlastní čísla,"
+        },
+        {
+          "locator": "transcript-line:605",
+          "text": "- pro vlastní čísla nalezneme jejich násobnosti,"
+        },
+        {
+          "locator": "transcript-line:606",
+          "text": "- rozhodneme o diagonalizovatelnosti matice."
+        },
+        {
+          "locator": "transcript-line:608",
+          "text": "Pokud je matice diagonalizovatelná, tak pokračujeme:"
+        },
+        {
+          "locator": "transcript-line:610",
+          "text": "- nalezneme vlastní vektory příslušející vlastním číslům,"
+        },
+        {
+          "locator": "transcript-line:611",
+          "text": "- matici podobnosti \\(\\mathbf P\\) sestrojíme tak, že do sloupců matice vepíšeme vlastní vektory \\(\\mathbf A\\),"
+        },
+        {
+          "locator": "transcript-line:612",
+          "text": "- podobnou diagonální matici \\(\\mathbf D \\) sestrojíme tak, že na diagonálu matice vepíšeme vlastní čísla \\(\\mathbf A\\), přičemž pořadí vlastních čísel musí odpovídat pořadí vlastních vektorů, kterým příslušejí."
+        },
+        {
+          "locator": "transcript-line:614",
+          "text": "Pak platí"
+        },
+        {
+          "locator": "transcript-line:616",
+          "text": "\\[\\mathbf A \\cdot \\mathbf P = \\mathbf P \\cdot \\mathbf D\\]nebo ekvivalentně"
+        },
+        {
+          "locator": "transcript-line:618",
+          "text": "\\[\\mathbf A = \\mathbf P \\cdot \\mathbf D \\cdot \\mathbf P^{-1}.\\]"
+        },
+        {
+          "locator": "transcript-line:620",
+          "text": "## Poznámka Anki 1737282521444"
+        },
+        {
+          "locator": "transcript-line:622",
+          "text": "Karty Anki: 1737282521444"
+        },
+        {
+          "locator": "transcript-line:623",
+          "text": "GUID: 8F2wyd]=t; štítky: bi-la1."
+        },
+        {
+          "locator": "transcript-line:625",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:627",
+          "text": "Jaký je vztah mezi spektrem matice a jeho charakteristickým polynomem? Své tvrzení dokažte."
+        },
+        {
+          "locator": "transcript-line:629",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:631",
+          "text": "Tvrzení:"
+        },
+        {
+          "locator": "transcript-line:632",
+          "text": "Číslo λ ∈ C je vlastním číslem"
+        },
+        {
+          "locator": "transcript-line:633",
+          "text": "matice A ∈ C<sup>n,n</sup>, právě když je kořenem charakteristického polynomu pA matice A, tj. právě"
+        },
+        {
+          "locator": "transcript-line:634",
+          "text": "když pA(λ) = 0."
+        },
+        {
+          "locator": "transcript-line:636",
+          "text": "Důkaz:"
+        },
+        {
+          "locator": "transcript-line:637",
+          "text": "Z definice vlastního čísla víme, že λ ∈ C je vlastní číslo, pokud k němu existuje nějaký"
+        },
+        {
+          "locator": "transcript-line:638",
+          "text": "vlastní vektor. Vlastní vektor existuje právě tehdy, když"
+        },
+        {
+          "locator": "transcript-line:639",
+          "text": "následující homogenní rovnice má nějaké nenulové řešení:"
+        },
+        {
+          "locator": "transcript-line:640",
+          "text": "(A − λE)x = θ."
+        },
+        {
+          "locator": "transcript-line:641",
+          "text": "To znamená, že matice A − λE není regulární."
+        },
+        {
+          "locator": "transcript-line:642",
+          "text": "Tj λ je vlastním číslem"
+        },
+        {
+          "locator": "transcript-line:643",
+          "text": "matice A, právě když"
+        },
+        {
+          "locator": "transcript-line:644",
+          "text": "det(A − λE) = 0"
+        },
+        {
+          "locator": "transcript-line:646",
+          "text": "## Poznámka Anki 1737287495358"
+        },
+        {
+          "locator": "transcript-line:648",
+          "text": "Karty Anki: 1737287495358"
+        },
+        {
+          "locator": "transcript-line:649",
+          "text": "GUID: ryDeNR~QH{; štítky: bi-la1."
+        },
+        {
+          "locator": "transcript-line:651",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:653",
+          "text": "Jaké vlastnosti platí pro dvě podobné matice. Tvrzení dokažte."
+        },
+        {
+          "locator": "transcript-line:655",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:657",
+          "text": "Tvrzení:"
+        },
+        {
+          "locator": "transcript-line:658",
+          "text": "Mějme dvě podobné matice A, B ∈ C<sup>n,n</sup>. Potom"
+        },
+        {
+          "locator": "transcript-line:659",
+          "text": "platí následující tvrzení."
+        },
+        {
+          "locator": "transcript-line:660",
+          "text": "1. Charakteristické polynomy obou matic jsou shodné, tj. pA = pB."
+        },
+        {
+          "locator": "transcript-line:661",
+          "text": "2. Spektra obou matic jsou stejná, tj. σ(A) = σ(B)."
+        },
+        {
+          "locator": "transcript-line:662",
+          "text": "3. Je-li λ vlastní číslo matice A, potom algebraická násobnost vůči A i B je stejná."
+        },
+        {
+          "locator": "transcript-line:663",
+          "text": "4. Je-li λ vlastní číslo matice A, potom geometrická násobnost vůči A i B je stejná."
+        },
+        {
+          "locator": "transcript-line:664",
+          "text": "Důkaz:"
+        },
+        {
+          "locator": "transcript-line:665",
+          "text": "„1.“ Dle podobnosti matic A a B existuje regulární matice P ∈ C<sup>n,n</sup>"
+        },
+        {
+          "locator": "transcript-line:666",
+          "text": "splňující A = P<sup>−1</sup>BP. Charakteristické polynomy našich matic jsou potom totožné, protože"
+        },
+        {
+          "locator": "transcript-line:667",
+          "text": "díky pravidlům pro výpočet determinantu platí"
+        },
+        {
+          "locator": "transcript-line:668",
+          "text": "pA(λ) = det(A − λE)"
+        },
+        {
+          "locator": "transcript-line:669",
+          "text": " = det"
+        },
+        {
+          "locator": "transcript-line:670",
+          "text": "P"
+        },
+        {
+          "locator": "transcript-line:671",
+          "text": "<sup>−1</sup>BP − λP"
+        },
+        {
+          "locator": "transcript-line:672",
+          "text": "−1EP"
+        },
+        {
+          "locator": "transcript-line:673",
+          "text": " = det"
+        },
+        {
+          "locator": "transcript-line:674",
+          "text": "P"
+        },
+        {
+          "locator": "transcript-line:675",
+          "text": "<sup>−1</sup>"
+        },
+        {
+          "locator": "transcript-line:676",
+          "text": "(B − λE)P "
+        },
+        {
+          "locator": "transcript-line:677",
+          "text": " = det P"
+        },
+        {
+          "locator": "transcript-line:678",
+          "text": "<sup>−1</sup>"
+        },
+        {
+          "locator": "transcript-line:679",
+          "text": "det(B − λE) det P"
+        },
+        {
+          "locator": "transcript-line:680",
+          "text": "= det(B − λE) = pB(λ)"
+        },
+        {
+          "locator": "transcript-line:681",
+          "text": "pro každé λ ∈ C."
+        },
+        {
+          "locator": "transcript-line:682",
+          "text": "„2.“ Charakteristické polynomy matic A a B jsou stejné, a proto mají i stejné kořeny."
+        },
+        {
+          "locator": "transcript-line:683",
+          "text": "Množina těchto kořenů je rovna spektru příslušných matic, a tedy jsou i spektra matic A a B"
+        },
+        {
+          "locator": "transcript-line:684",
+          "text": "shodná."
+        },
+        {
+          "locator": "transcript-line:685",
+          "text": "„3.“ Shodné polynomy musí mít i stejné násobnosti kořenů, tedy algebraické násobnosti"
+        },
+        {
+          "locator": "transcript-line:686",
+          "text": "jsou stejné."
+        },
+        {
+          "locator": "transcript-line:687",
+          "text": "„4.“ P(A − λE) = (B − λE)P."
+        },
+        {
+          "locator": "transcript-line:688",
+          "text": "Jelikož násobení regulární maticí nemění hodnost, získáme"
+        },
+        {
+          "locator": "transcript-line:689",
+          "text": "h(A − λE) = h(B − λE)."
+        },
+        {
+          "locator": "transcript-line:690",
+          "text": "Frobeniova věta  nám tedy dává, že řešení homogenních rovnic (A−λE)x = θ i(B−λE)x ="
+        },
+        {
+          "locator": "transcript-line:691",
+          "text": "θ mají stejnou dimenzi. Proto je geometrická násobnost stejná pro obě matice."
+        },
+        {
+          "locator": "transcript-line:693",
+          "text": "## Poznámka Anki 1737462913309"
+        },
+        {
+          "locator": "transcript-line:695",
+          "text": "Karty Anki: 1737462913309"
+        },
+        {
+          "locator": "transcript-line:696",
+          "text": "GUID: x?BDE^[pB3; štítky: (žádné)."
+        },
+        {
+          "locator": "transcript-line:698",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:700",
+          "text": "Definujte pojem varieta a dimenze variety."
+        },
+        {
+          "locator": "transcript-line:702",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:704",
+          "text": "Množinu W ⊆ T"
+        },
+        {
+          "locator": "transcript-line:705",
+          "text": "n nazveme lineární"
+        },
+        {
+          "locator": "transcript-line:706",
+          "text": "varietou (případně pouze varietou), pokud existují a ∈ T"
+        },
+        {
+          "locator": "transcript-line:707",
+          "text": "n"
+        },
+        {
+          "locator": "transcript-line:708",
+          "text": "a P ⊂⊂ T"
+        },
+        {
+          "locator": "transcript-line:709",
+          "text": "n"
+        },
+        {
+          "locator": "transcript-line:710",
+          "text": "takové, že"
+        },
+        {
+          "locator": "transcript-line:711",
+          "text": "W = a + P."
+        },
+        {
+          "locator": "transcript-line:712",
+          "text": "Podprostor P nazýváme zaměřením variety W a značíme ho Z(W)."
+        },
+        {
+          "locator": "transcript-line:714",
+          "text": "• Číslo dim Z(W) nazýváme dimenzí variety W a je rovno dimenzi P,"
+        },
+        {
+          "locator": "transcript-line:716",
+          "text": "• každý nenulový vektor z Z(W) nazýváme směrovým vektorem variety W,"
+        },
+        {
+          "locator": "transcript-line:718",
+          "text": "• každý vektor a takový, že W = a + Z(W), nazýváme vektorem posunutí variety W"
+        },
+        {
+          "locator": "transcript-line:720",
+          "text": "## Poznámka Anki 1737522543838"
+        },
+        {
+          "locator": "transcript-line:722",
+          "text": "Karty Anki: 1737522543839"
+        },
+        {
+          "locator": "transcript-line:723",
+          "text": "GUID: ub3F4p~q2b; štítky: (žádné)."
+        },
+        {
+          "locator": "transcript-line:725",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:727",
+          "text": "Definujte vlastní podprostor k vl. číslu"
+        },
+        {
+          "locator": "transcript-line:729",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:731",
+          "text": "Je-li λ ∈ C vlastní"
+        },
+        {
+          "locator": "transcript-line:732",
+          "text": "číslo matice A ∈ C<sup>n,n</sup>, pak podprostor všech řešení homogenní soustavy s maticí A − λE"
+        },
+        {
+          "locator": "transcript-line:733",
+          "text": "nazýváme vlastním podprostorem matice A příslušejícím vlastnímu číslu λ."
+        },
+        {
+          "locator": "transcript-line:734",
+          "text": "-----------------------------------------------------------"
+        },
+        {
+          "locator": "transcript-line:735",
+          "text": " [Obrázek: paste-310e2236ed5e7f05782cc8b0b9c927190c8d7400.jpg; soubor je v media/ v doprovodném ZIP] "
+        },
+        {
+          "locator": "transcript-line:736",
+          "text": " [Obrázek: paste-ebf10d6e0ae36a0827f179fca701473fcbfb115a.jpg; soubor je v media/ v doprovodném ZIP] "
+        },
+        {
+          "locator": "transcript-line:737",
+          "text": " [Obrázek: paste-52ddee8ac4f516c24d52b4ae1253acdf2875879c.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:739",
+          "text": "## Poznámka Anki 1737523990351"
+        },
+        {
+          "locator": "transcript-line:741",
+          "text": "Karty Anki: 1737523990351"
+        },
+        {
+          "locator": "transcript-line:742",
+          "text": "GUID: leRk]l44[e; štítky: (žádné)."
+        },
+        {
+          "locator": "transcript-line:744",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:746",
+          "text": "Nechť A ∈ C<sup>"
+        },
+        {
+          "locator": "transcript-line:747",
+          "text": "n,n</sup> a λ<sub>1,</sub> . . . , λ<sub>k</sub> jsou navzájem různá"
+        },
+        {
+          "locator": "transcript-line:748",
+          "text": "vlastní čísla matice A, a nechť pro každé i ∈ ˆk označuje x<sub>i</sub> vlastní vektor A příslušející"
+        },
+        {
+          "locator": "transcript-line:749",
+          "text": "vlastnímu číslu λ<sub>i</sub>"
+        },
+        {
+          "locator": "transcript-line:750",
+          "text": ". Potom je soubor (x<sub>1</sub>, . . . , x<sub>k</sub>) LN."
+        },
+        {
+          "locator": "transcript-line:752",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:754",
+          "text": "https://courses.fit.cvut.cz/BI-LA1/@master/textbook/sec-diagonalizace.html#Proof7853a3ce4de84db4a445c1ee2c23b43d400f8bb9b3 (https://courses.fit.cvut.cz/BI-LA1/@master/textbook/sec-diagonalizace.html#Proof7853a3ce4de84db4a445c1ee2c23b43d400f8bb9b3)"
+        },
+        {
+          "locator": "transcript-line:756",
+          "text": "## Poznámka Anki 1737524595992"
+        },
+        {
+          "locator": "transcript-line:758",
+          "text": "Karty Anki: 1737524595993"
+        },
+        {
+          "locator": "transcript-line:759",
+          "text": "GUID: dsFd)KM=;:; štítky: (žádné)."
+        },
+        {
+          "locator": "transcript-line:761",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:763",
+          "text": "Definice jednotkové matice"
+        },
+        {
+          "locator": "transcript-line:765",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:767",
+          "text": "Jednotkovou maticí n-tého řádu rozumíme čtvercovou matici E ∈ T"
+        },
+        {
+          "locator": "transcript-line:768",
+          "text": "<sup>n,n</sup> splňující"
+        },
+        {
+          "locator": "transcript-line:769",
+          "text": "e<sub>ij</sub> = if i == j then 1 else 0"
+        },
+        {
+          "locator": "transcript-line:771",
+          "text": "## Poznámka Anki 1737524644650"
+        },
+        {
+          "locator": "transcript-line:773",
+          "text": "Karty Anki: 1737524644650"
+        },
+        {
+          "locator": "transcript-line:774",
+          "text": "GUID: C.jnSt1qJs; štítky: (žádné)."
+        },
+        {
+          "locator": "transcript-line:776",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:778",
+          "text": "Definice diagonální matice"
+        },
+        {
+          "locator": "transcript-line:780",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:782",
+          "text": "Diagonální maticí n-tého řádu nazveme libovolnou čtvercovou matici A ∈ T<sup>"
+        },
+        {
+          "locator": "transcript-line:783",
+          "text": "n,n</sup> splňující"
+        },
+        {
+          "locator": "transcript-line:784",
+          "text": "i != j ⇒ a<sub>ij </sub>= 0"
+        },
+        {
+          "locator": "transcript-line:786",
+          "text": "## Poznámka Anki 1737524691081"
+        },
+        {
+          "locator": "transcript-line:788",
+          "text": "Karty Anki: 1737524691081"
+        },
+        {
+          "locator": "transcript-line:789",
+          "text": "GUID: P2J7A$}lXl; štítky: (žádné)."
+        },
+        {
+          "locator": "transcript-line:791",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:793",
+          "text": "Definice diagonály"
+        },
+        {
+          "locator": "transcript-line:795",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:797",
+          "text": "Diagonálou čtvercové matice A ∈ T"
+        },
+        {
+          "locator": "transcript-line:798",
+          "text": "<sup>n,n</sup> nazveme vektor (a<sub>11</sub>, a<sub>22</sub>, . . . , a<sub>nn</sub>) ∈ T"
+        },
+        {
+          "locator": "transcript-line:799",
+          "text": "<sup>n</sup>"
+        },
+        {
+          "locator": "transcript-line:801",
+          "text": "## Poznámka Anki 1737525584175"
+        },
+        {
+          "locator": "transcript-line:803",
+          "text": "Karty Anki: 1737525584175"
+        },
+        {
+          "locator": "transcript-line:804",
+          "text": "GUID: iWP9sl0[7x; štítky: (žádné)."
+        },
+        {
+          "locator": "transcript-line:806",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:808",
+          "text": "Jak se mění hodnost při násobení matic"
+        },
+        {
+          "locator": "transcript-line:810",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:812",
+          "text": "Věta:"
+        },
+        {
+          "locator": "transcript-line:813",
+          "text": "Je-li A ∈ T<sup>"
+        },
+        {
+          "locator": "transcript-line:814",
+          "text": "m,n</sup> a B ∈ T"
+        },
+        {
+          "locator": "transcript-line:815",
+          "text": "<sup>n,p</sup>, potom h(AB) ≤ min {h(A), h(B)} ."
+        },
+        {
+          "locator": "transcript-line:816",
+          "text": "Důkaz:"
+        },
+        {
+          "locator": "transcript-line:817",
+          "text": "Řádky matice AB jsou lineárními kombinacemi"
+        },
+        {
+          "locator": "transcript-line:818",
+          "text": "řádků matice B, a tedy <(AB)<sub>1:</sub>,(AB)<sub>2:</sub>, . . . ,(AB)<sub>m:></sub> ⊆ <B<sub>1:</sub>, . . . , B<sub>n:</sub>>."
+        },
+        {
+          "locator": "transcript-line:819",
+          "text": " A tedy je h(AB) ≤ h(B). Tedy h(AB) = h ((AB)"
+        },
+        {
+          "locator": "transcript-line:820",
+          "text": "<sup>T</sup> ) = h (B<sup>T</sup>A<sup>T</sup> ) ≤ h(A"
+        },
+        {
+          "locator": "transcript-line:821",
+          "text": "<sup>T</sup>) = h(A)"
+        },
+        {
+          "locator": "transcript-line:823",
+          "text": "## Poznámka Anki 1737525766212"
+        },
+        {
+          "locator": "transcript-line:825",
+          "text": "Karty Anki: 1737525766212"
+        },
+        {
+          "locator": "transcript-line:826",
+          "text": "GUID: +M-W8/UCZ; štítky: (žádné)."
+        },
+        {
+          "locator": "transcript-line:828",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:830",
+          "text": "Dokažte první část Frobeniovi věty"
+        },
+        {
+          "locator": "transcript-line:832",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:834",
+          "text": "Důkaz:"
+        },
+        {
+          "locator": "transcript-line:835",
+          "text": "https://courses.fit.cvut.cz/BI-LA1/@master/textbook/sec-Frobeniova-veta.html#Proof44443d2e22e0a35e188aaf4ad966c65b5fb92d89e1 (https://courses.fit.cvut.cz/BI-LA1/@master/textbook/sec-Frobeniova-veta.html#Proof44443d2e22e0a35e188aaf4ad966c65b5fb92d89e1)"
+        },
+        {
+          "locator": "transcript-line:837",
+          "text": "## Poznámka Anki 1737526051387"
+        },
+        {
+          "locator": "transcript-line:839",
+          "text": "Karty Anki: 1737526051387"
+        },
+        {
+          "locator": "transcript-line:840",
+          "text": "GUID: m3CH<!Tz@%; štítky: (žádné)."
+        },
+        {
+          "locator": "transcript-line:842",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:844",
+          "text": "O vztahu SLR a podprostorů"
+        },
+        {
+          "locator": "transcript-line:846",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:848",
+          "text": "Věta:"
+        },
+        {
+          "locator": "transcript-line:849",
+          "text": "Nechť P je podmnožina T"
+        },
+        {
+          "locator": "transcript-line:850",
+          "text": "<sup>n</sup>"
+        },
+        {
+          "locator": "transcript-line:851",
+          "text": ". Pak P je podprostorem"
+        },
+        {
+          "locator": "transcript-line:852",
+          "text": "právě tehdy, když existuje homogenní soustava lineárních rovnic Ax = θ, jejíž množinou"
+        },
+        {
+          "locator": "transcript-line:853",
+          "text": "řešení je P."
+        },
+        {
+          "locator": "transcript-line:854",
+          "text": "Navíc je pro tuto soustavu splněno"
+        },
+        {
+          "locator": "transcript-line:855",
+          "text": "h(A) = n − dim"
+        },
+        {
+          "locator": "transcript-line:856",
+          "text": "Důkaz:"
+        },
+        {
+          "locator": "transcript-line:857",
+          "text": "https://courses.fit.cvut.cz/BI-LA1/@master/textbook/sec-linearni-varieta-reseni-SLR.html#veta-k-variete-existuje-slr (https://courses.fit.cvut.cz/BI-LA1/@master/textbook/sec-linearni-varieta-reseni-SLR.html#veta-k-variete-existuje-slr)"
+        },
+        {
+          "locator": "transcript-line:859",
+          "text": "## Poznámka Anki 1737526166997"
+        },
+        {
+          "locator": "transcript-line:861",
+          "text": "Karty Anki: 1737526166997"
+        },
+        {
+          "locator": "transcript-line:862",
+          "text": "GUID: L9Uhk4gIo6; štítky: (žádné)."
+        },
+        {
+          "locator": "transcript-line:864",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:866",
+          "text": "O vztahu SLR a variet"
+        },
+        {
+          "locator": "transcript-line:868",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:870",
+          "text": "Věta:"
+        },
+        {
+          "locator": "transcript-line:871",
+          "text": "Nechť M ⊆ T"
+        },
+        {
+          "locator": "transcript-line:872",
+          "text": "<sup>n</sup>"
+        },
+        {
+          "locator": "transcript-line:873",
+          "text": "je neprázdná. Pak M je lineární varietou"
+        },
+        {
+          "locator": "transcript-line:874",
+          "text": "právě tehdy, když existuje soustava lineárních rovnic Ax = b, jejíž množinou řešení je M."
+        },
+        {
+          "locator": "transcript-line:875",
+          "text": "Navíc je pro tuto soustavu splněno"
+        },
+        {
+          "locator": "transcript-line:876",
+          "text": "h(A) = n − dim M"
+        },
+        {
+          "locator": "transcript-line:877",
+          "text": "Důkaz:"
+        },
+        {
+          "locator": "transcript-line:878",
+          "text": "https://courses.fit.cvut.cz/BI-LA1/@master/textbook/sec-linearni-varieta-reseni-SLR.html#Proof5394c26923f2aef3d83cb178441a5db138b7ee4a55 (https://courses.fit.cvut.cz/BI-LA1/@master/textbook/sec-linearni-varieta-reseni-SLR.html#Proof5394c26923f2aef3d83cb178441a5db138b7ee4a55)"
+        },
+        {
+          "locator": "transcript-line:880",
+          "text": "## Poznámka Anki 1737526538053"
+        },
+        {
+          "locator": "transcript-line:882",
+          "text": "Karty Anki: 1737526538053"
+        },
+        {
+          "locator": "transcript-line:883",
+          "text": "GUID: oNh%2:22b6; štítky: (žádné)."
+        },
+        {
+          "locator": "transcript-line:885",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:887",
+          "text": "Deteterminant a regularita"
+        },
+        {
+          "locator": "transcript-line:889",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:891",
+          "text": "[Obrázek: paste-ea55eadc867e7e43f5177ccaff0b0c206016a77f.jpg; soubor je v media/ v doprovodném ZIP]"
+        }
+      ],
+      "created_at": "2026-10-17T14:00:59.947101+00:00",
+      "transcript_file": "sources/anki-zakladni-sada-v1/transcript/anki-zakladni-sada-v1.md",
+      "transcript_sha256": "b2078d9104cdd8eecb2de9b87bc3d72a16560a75cc7cdb7885f4f2962d1dc175"
+    }
+  },
+  "checkpoints": []
+}

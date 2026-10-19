@@ -1,0 +1,1882 @@
+{
+  "schema_version": 1,
+  "subject_id": "bi-pa2",
+  "name": "BI-PA2",
+  "goals": [
+    "Porozumět obsahu Anki balíčku BI-PA2, vysvětlovat odpovědi a samostatně řešit jeho otázky a úlohy."
+  ],
+  "created_at": "2026-10-17T14:00:59.454902+00:00",
+  "topics": {
+    "prednaska-02": {
+      "subject_id": "bi-pa2",
+      "topic_id": "prednaska-02",
+      "title": "Přednáška 02",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 02“ z balíčku BI-PA2."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-03": {
+      "subject_id": "bi-pa2",
+      "topic_id": "prednaska-03",
+      "title": "Přednáška 03",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 03“ z balíčku BI-PA2."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-10": {
+      "subject_id": "bi-pa2",
+      "topic_id": "prednaska-10",
+      "title": "Přednáška 10",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 10“ z balíčku BI-PA2."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "zakladni-sada": {
+      "subject_id": "bi-pa2",
+      "topic_id": "zakladni-sada",
+      "title": "Základní sada otázek",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Základní sada otázek“ z balíčku BI-PA2."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    }
+  },
+  "sources": {
+    "anki-prednaska-02-v1": {
+      "subject_id": "bi-pa2",
+      "source_id": "anki-prednaska-02-v1",
+      "title": "Anki – BI-PA2 – Přednáška 02",
+      "version": "2026-10-17T16:00:56+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-study-import-zhtvc_y1/exports/bi-pa2/anki-prednaska-02-v1/anki-prednaska-02-v1.zip",
+      "file": "sources/anki-prednaska-02-v1/anki-prednaska-02-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "e06d70625caba540046831496892c4313a7089785ac91320a52f617798e2f5df",
+      "topic_ids": [
+        "prednaska-02"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Export z místního Anki profilu User 1, kolekce /mnt/c/Users/kryst/AppData/Roaming/Anki2/User 1/collection.anki2, verze 2026-10-17T16:00:56+02:00. ZIP je původní strojový export polí HTML, identifikátorů, šablon a médií; Markdown je odvozený čitelný přepis pomocí HTMLParser, bez doplňování učiva. Podtržítka a horní indexy HTML zůstávají jako sub/sup, MathJax/TeX se zachovává. Přesný přepis se cituje transcript-line:N. Obrázky a vzorce vyžadují před výukou vizuální kontrolu. Odkazy na externí dokumenty nebyly načtené. Import nezapisuje výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PA2 – Přednáška 02"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: místní Anki, profil User 1. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:00:56+02:00. Původní kolekce SHA-256: 0d1f9aa982a5c3eaa31cfd838f48afceda879ae758526167d718d7f2d6347255."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: before OSU::BI-PA2"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 1 poznámek, 1 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "## Poznámka Anki 1716752581145"
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "Karty Anki: 1716752581145"
+        },
+        {
+          "locator": "transcript-line:14",
+          "text": "GUID: h:Za|KWc&3; štítky: bi-pa2::p02 bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Popište koncept zapouzdření (encapsulation)."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Zapouzdření (encapsulation) je koncept programovacích jazyků, který omezuje přístup k implementačním detailům objektu. Umožňuje objektům vystavit externímu kódu konzistentní rozhraní, které je nezávislé na interní implementaci. V C++ implementují zapouzdření klíčová slova \\(\\texttt{public}\\), \\(\\texttt{protected}\\) a \\(\\texttt{private}\\). Implicitní viditelnost metod a atributů třídy řídí také klíčová slova \\(\\texttt{class}\\) a \\(\\texttt{struct}\\)."
+        }
+      ],
+      "created_at": "2026-10-17T14:01:02.514587+00:00",
+      "transcript_file": "sources/anki-prednaska-02-v1/transcript/anki-prednaska-02-v1.md",
+      "transcript_sha256": "51c4febf57c6476584c63e32acdf363a130302a29f9a29f6fb73a89a40836456"
+    },
+    "anki-prednaska-03-v1": {
+      "subject_id": "bi-pa2",
+      "source_id": "anki-prednaska-03-v1",
+      "title": "Anki – BI-PA2 – Přednáška 03",
+      "version": "2026-10-17T16:00:56+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-study-import-zhtvc_y1/exports/bi-pa2/anki-prednaska-03-v1/anki-prednaska-03-v1.zip",
+      "file": "sources/anki-prednaska-03-v1/anki-prednaska-03-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "7c80c6d568c03093470a9fc0d958c40181fa581c802d21b165ea15d3319a49fc",
+      "topic_ids": [
+        "prednaska-03"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Export z místního Anki profilu User 1, kolekce /mnt/c/Users/kryst/AppData/Roaming/Anki2/User 1/collection.anki2, verze 2026-10-17T16:00:56+02:00. ZIP je původní strojový export polí HTML, identifikátorů, šablon a médií; Markdown je odvozený čitelný přepis pomocí HTMLParser, bez doplňování učiva. Podtržítka a horní indexy HTML zůstávají jako sub/sup, MathJax/TeX se zachovává. Přesný přepis se cituje transcript-line:N. Obrázky a vzorce vyžadují před výukou vizuální kontrolu. Odkazy na externí dokumenty nebyly načtené. Import nezapisuje výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PA2 – Přednáška 03"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: místní Anki, profil User 1. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:00:56+02:00. Původní kolekce SHA-256: 0d1f9aa982a5c3eaa31cfd838f48afceda879ae758526167d718d7f2d6347255."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: before OSU::BI-PA2"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 1 poznámek, 1 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "## Poznámka Anki 1716751814780"
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "Karty Anki: 1716751814781"
+        },
+        {
+          "locator": "transcript-line:14",
+          "text": "GUID: sX-#ynT*|i; štítky: bi-pa2::p03 bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Popište objektově orientované programování (OOP)."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Objektově orientované programování (OOP) je programovací paradigma postavené na konceptu objektů, které obsahují jak data ve formě atributů, tak spustitelný kód definující jejich rozhraní ve formě metod. Pro OOP jsou klíčové principy:"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "- abstrakce (abstraction),"
+        },
+        {
+          "locator": "transcript-line:25",
+          "text": "- zapouzdření (encapsulation),"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "- dědičnosti (inheritance),"
+        },
+        {
+          "locator": "transcript-line:27",
+          "text": "- polymorfismu (polymorphism)."
+        }
+      ],
+      "created_at": "2026-10-17T14:01:02.533090+00:00",
+      "transcript_file": "sources/anki-prednaska-03-v1/transcript/anki-prednaska-03-v1.md",
+      "transcript_sha256": "1b2104df14c662020d6e00b30a6c04ff2272531236500a05c6ec3348878b9973"
+    },
+    "anki-prednaska-10-v1": {
+      "subject_id": "bi-pa2",
+      "source_id": "anki-prednaska-10-v1",
+      "title": "Anki – BI-PA2 – Přednáška 10",
+      "version": "2026-10-17T16:00:56+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-study-import-zhtvc_y1/exports/bi-pa2/anki-prednaska-10-v1/anki-prednaska-10-v1.zip",
+      "file": "sources/anki-prednaska-10-v1/anki-prednaska-10-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "1ae107635522bea01ac15173fbc8e97f227caf5a255144fbba4cbab2cc640456",
+      "topic_ids": [
+        "prednaska-10"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Export z místního Anki profilu User 1, kolekce /mnt/c/Users/kryst/AppData/Roaming/Anki2/User 1/collection.anki2, verze 2026-10-17T16:00:56+02:00. ZIP je původní strojový export polí HTML, identifikátorů, šablon a médií; Markdown je odvozený čitelný přepis pomocí HTMLParser, bez doplňování učiva. Podtržítka a horní indexy HTML zůstávají jako sub/sup, MathJax/TeX se zachovává. Přesný přepis se cituje transcript-line:N. Obrázky a vzorce vyžadují před výukou vizuální kontrolu. Odkazy na externí dokumenty nebyly načtené. Import nezapisuje výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PA2 – Přednáška 10"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: místní Anki, profil User 1. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:00:56+02:00. Původní kolekce SHA-256: 0d1f9aa982a5c3eaa31cfd838f48afceda879ae758526167d718d7f2d6347255."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: before OSU::BI-PA2"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 2 poznámek, 2 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "## Poznámka Anki 1716820209892"
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "Karty Anki: 1716820209892"
+        },
+        {
+          "locator": "transcript-line:14",
+          "text": "GUID: b}Ub*EecZq; štítky: bi-pa2::p10 bi-spol::23."
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Popište specifikaci a implementaci abstraktního datového typu."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Abstraktní datový typ může být **specifikován**:"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "- **formálně** - signatury operací (syntaxe) a množina axiomů (sémantika),"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "- **neformálně** - signatury operací (syntaxe) a textový či obrázkový popis (sémantika)."
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Specifikace ADT však nemluví o jeho **implementaci**, která při dodržení syntaxe a sémantiky může být téměř libovolná. V C++ jsou ADT implementovány typicky za pomocí šablon tříd."
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "## Poznámka Anki 1716822514452"
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "Karty Anki: 1716822514452"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "GUID: n8QZ;9$PZ_; štítky: bi-pa2::p10 bi-spol::23."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Popište prioritní frontu (priority queue)."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Prioritní fronta (queue) je asociativní abstraktní datový typ, který řadí prvky na základě jejich hodnoty (priority). Měla by podporovat následující operace:"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "- \\(\\mathtt{insert}\\) - vloží prvek do fronty,"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "- \\(\\texttt{extract_min}\\) - odebere libovolný prvek s nejnižší prioritou z fronty."
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "Očekávané časové složitosti těchto operací jsou \\(\\mathcal O(\\log n)\\), proto se prioritní fronta implementuje pomocí binární haldy."
+        }
+      ],
+      "created_at": "2026-10-17T14:01:02.551353+00:00",
+      "transcript_file": "sources/anki-prednaska-10-v1/transcript/anki-prednaska-10-v1.md",
+      "transcript_sha256": "7401dbec754425c254d295a305a0a44da4ebc7a0979f07e120ebe6dbbb041a3f"
+    },
+    "anki-zakladni-sada-v1": {
+      "subject_id": "bi-pa2",
+      "source_id": "anki-zakladni-sada-v1",
+      "title": "Anki – BI-PA2 – Základní sada otázek",
+      "version": "2026-10-17T16:00:56+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-study-import-zhtvc_y1/exports/bi-pa2/anki-zakladni-sada-v1/anki-zakladni-sada-v1.zip",
+      "file": "sources/anki-zakladni-sada-v1/anki-zakladni-sada-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "4009dc18e6b5d3416dcb721f4b5882060b37299174674494c8ff0133e1bb8f9d",
+      "topic_ids": [
+        "zakladni-sada"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Export z místního Anki profilu User 1, kolekce /mnt/c/Users/kryst/AppData/Roaming/Anki2/User 1/collection.anki2, verze 2026-10-17T16:00:56+02:00. ZIP je původní strojový export polí HTML, identifikátorů, šablon a médií; Markdown je odvozený čitelný přepis pomocí HTMLParser, bez doplňování učiva. Podtržítka a horní indexy HTML zůstávají jako sub/sup, MathJax/TeX se zachovává. Přesný přepis se cituje transcript-line:N. Obrázky a vzorce vyžadují před výukou vizuální kontrolu. Odkazy na externí dokumenty nebyly načtené. Import nezapisuje výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PA2 – Základní sada otázek"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: místní Anki, profil User 1. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:00:56+02:00. Původní kolekce SHA-256: 0d1f9aa982a5c3eaa31cfd838f48afceda879ae758526167d718d7f2d6347255."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: before OSU::BI-PA2"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 42 poznámek, 42 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "## Poznámka Anki 1655282850885"
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "Karty Anki: 1655282850885"
+        },
+        {
+          "locator": "transcript-line:14",
+          "text": "GUID: G?m;WSz(S]; štítky: bi-pa2::ustni."
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Popište standardní datové proudy."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "**Datový proud** (\\(\\mathtt{ stream }\\)) je tok dat od zdroje k cíli s možnou konverzí."
+        },
+        {
+          "locator": "transcript-line:23",
+          "text": "Dělíme je na:"
+        },
+        {
+          "locator": "transcript-line:25",
+          "text": "- vstupní proud (\\(\\mathtt{ istream }\\)) - data jsou čtena ze zdroje a ukládána do paměti (např. \\(\\mathtt{ cin }\\) - std. vstup, \\(\\mathtt{ ifstream }\\) - soubor, \\(\\mathtt { istringstream }\\) - paměťový prostor)"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "- výstupní proud (\\(\\mathtt { ostream }\\)) - data jsou čtena z paměti a posílána na výstup (např. \\(\\mathtt{ cout }\\) - std. výstup, \\(\\mathtt{ cerr }\\) - std. chybový výstup, \\(\\mathtt{ ofstream }\\) - soubor, \\(\\mathtt{ ostringstream }\\) - paměťový prostor)"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "## Poznámka Anki 1655283096988"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "Karty Anki: 1655283096988"
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "GUID: nTY.h1[%{h; štítky: bi-pa2::ustni."
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "Popište konverze u standartních datových proudů."
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "- na různých OS se používají různé konce řádků (\\(\\mathtt{ LF }\\) - UNIX, \\(\\mathtt{ CR\\ LF }\\) - Windows, DOS, \\(\\mathtt{ CR }\\) - Mac (old))"
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "- v paměti je konec řádku vždy \\(\\mathtt { LF }\\)"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "- na Mac/Windows provádí C/C++ standartní knihovna konverze při čtení a zápisu"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "- u binárních souborů může kvůli konverzi dojít k poškození obsahu, konvezi je proto nutné vypnout"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "## Poznámka Anki 1655283246778"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "Karty Anki: 1655283246778"
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "GUID: yxe5tr&5Y:; štítky: bi-pa2::ustni."
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "Popište IO manipulátory."
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "Jde o sadu nástrojů pro řízení vzhledu formátovaného výstupu. Posílají se do proudu před proměnnou a ovlivňují její zobrazení. Jsou deklarovány v \\(\\mathtt { \\text{<}iomanip\\text{>} }\\). Např. \\(\\mathtt{ hex }, \\mathtt { setw (x) }, \\mathtt { setfill (c) }\\) a další."
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "## Poznámka Anki 1655283528864"
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "Karty Anki: 1655283528864"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "GUID: %U;;q3O3L; štítky: bi-pa2::ustni."
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "Jak fungují implicitní hodnoty parametrů?"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "Implicitní hodnoty parametrů se uvádí v definici funkcí a určují hodnotu parametru v případě, že je vynechán. Z toho důvodu se musí řadit až na konec seznamu parametrů."
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "## Poznámka Anki 1655283736306"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "Karty Anki: 1655283736306"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "GUID: tD:8O[kYI8; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "Co je to přetěžování funkcí?"
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "V C++ lze deklarovat funkce se stejným jménem, ale s různými typy či počtem parametrů. Takovým to funkcím se říká přetížené funkce. Funkce však nelze odlišit pouze návratovým typem. Jde o typ compile-time polymorfismu, jelikož o tom, jaká funkce se ve výsledku zavolá je rozhodnuto už při kompilaci programu."
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "## Poznámka Anki 1655284142989"
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "Karty Anki: 1655284142989"
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "GUID: GE^j=qS{1U; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "Popište inline funkce."
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "U inline funcí se místo zavolání funkce provede její vyexpandování do zdrojového kódu při kompilaci. Tím se vyhneme overheadu, který obnáší zavolání funkce."
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "Funkce deklarované a definované v těle třídy jsou implicitně inline. Dále můžeme inline funkce deklarovat pomocí klíčového slova \\(\\mathtt{ inline }\\), které je však pro kompilátor nezávazné."
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "## Poznámka Anki 1655284506141"
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "Karty Anki: 1655284506141"
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "GUID: K@mc?;Wmoq; štítky: bi-pa2::ustni."
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "Definujte konstanty."
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "Konstanta je proměnná, která nemůže být upravena po tom, co je definována. Můžeme je vytvářet pomocí maker preprocesoru (\\(\\mathtt { \\#define }\\)), klíčového slova \\(\\mathtt{ const }\\) či \\(\\mathtt { constexpr }\\)."
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "## Poznámka Anki 1655284714847"
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "Karty Anki: 1655284714847"
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "GUID: BPp!wx{INE; štítky: bi-pa2::ustni."
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "Popište reference."
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "Proměnná deklarovaná s operátorem \\(\\mathtt { \\& }\\) se nazývá referencí a funguje jako alternativní identifikátor dané proměnné. Pokud deklarujeme parametr funkce jako referenci, tak je nám umožněno modifikovat hodnotu tohoto parametru nebo vyhnout se kopírování velkých objektů. Reference může být vnitřně reprezentována jako ukazatel."
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "## Poznámka Anki 1655284944054"
+        },
+        {
+          "locator": "transcript-line:125",
+          "text": "Karty Anki: 1655284944054"
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "GUID: bdMA7HV0k; štítky: bi-pa2::ustni bi-spol::19."
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:130",
+          "text": "Popište operátory \\(\\mathtt { new }\\) a \\(\\mathtt { delete }\\)."
+        },
+        {
+          "locator": "transcript-line:132",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:134",
+          "text": "Operátor \\(\\mathtt { new }\\) slouží k alokaci prostoru pro proměnnou na haldě. Takto alokovaná paměť musí být uvolněna pomocí operátoru \\(\\mathtt { delete }\\)."
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "Pomocí operátoru \\(\\mathtt{ new [] }\\) můžeme alokovat paměť pro pole. Tuto paměť však uvolňujeme pomocí operátoru \\(\\mathtt { delete [] }\\)."
+        },
+        {
+          "locator": "transcript-line:137",
+          "text": "## Poznámka Anki 1655285245137"
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "Karty Anki: 1655285245137"
+        },
+        {
+          "locator": "transcript-line:140",
+          "text": "GUID: jUM8ot2c!0; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:142",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:144",
+          "text": "Popište třídu."
+        },
+        {
+          "locator": "transcript-line:146",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:148",
+          "text": "Třída je datový typ sloužící jako vzor pro vytváření objektů, které se poté nazývají instance třídy. Definuje:"
+        },
+        {
+          "locator": "transcript-line:150",
+          "text": "- **data** - atributy (členské proměnné),"
+        },
+        {
+          "locator": "transcript-line:152",
+          "text": "- **rozhraní** - metody (členské funkce)."
+        },
+        {
+          "locator": "transcript-line:154",
+          "text": "## Poznámka Anki 1655285358365"
+        },
+        {
+          "locator": "transcript-line:156",
+          "text": "Karty Anki: 1655285358365"
+        },
+        {
+          "locator": "transcript-line:157",
+          "text": "GUID: p8zYWE@uvi; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:159",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:161",
+          "text": "Popište objekt a operátor \\(\\mathtt{ this }\\)."
+        },
+        {
+          "locator": "transcript-line:163",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:165",
+          "text": "Objekt je konkrétní instancí třídy, tedy prvek modelované reality. Jeho typem je třída. Operátor \\(\\mathtt{ this }\\) je ukazatel na tuto konkrétní instanci a umožnuje přístup k jejím metodám a členským proměnným."
+        },
+        {
+          "locator": "transcript-line:167",
+          "text": "## Poznámka Anki 1655285417730"
+        },
+        {
+          "locator": "transcript-line:169",
+          "text": "Karty Anki: 1655285417730"
+        },
+        {
+          "locator": "transcript-line:170",
+          "text": "GUID: D^{^rA{y)y; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:172",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:174",
+          "text": "Popište konstantní metodu třídy."
+        },
+        {
+          "locator": "transcript-line:176",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:178",
+          "text": "Konstantní metoda třídy je metoda, která nemění stav daného objektu, tedy nemění členské proměnné a nesmí ani volat nekonstantní metody třídy."
+        },
+        {
+          "locator": "transcript-line:180",
+          "text": "## Poznámka Anki 1655386061586"
+        },
+        {
+          "locator": "transcript-line:182",
+          "text": "Karty Anki: 1655386061589"
+        },
+        {
+          "locator": "transcript-line:183",
+          "text": "GUID: J&sX#6@?]K; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:185",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:187",
+          "text": "Popište statické položky a metody tříd."
+        },
+        {
+          "locator": "transcript-line:189",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:191",
+          "text": "Není-li určeno jinak, jsou položky a metody třídy součástí každého objektu (instance). Pokud je položka nebo metoda deklarována jako statická, je součastí dané třídy nikoliv konkrétního objektu. Nemůže tedy přistupovat k ne-statickým položkám a metodám."
+        },
+        {
+          "locator": "transcript-line:193",
+          "text": "## Poznámka Anki 1655386439460"
+        },
+        {
+          "locator": "transcript-line:195",
+          "text": "Karty Anki: 1655386439460"
+        },
+        {
+          "locator": "transcript-line:196",
+          "text": "GUID: KY_DVB6@6[; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:198",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:200",
+          "text": "Popište přetěžování operátorů."
+        },
+        {
+          "locator": "transcript-line:202",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:204",
+          "text": "Stejně jako je možné přetěžovat funkce, je možné přetížit operátory tak, aby fungovaly s uživatelskými třídami. Deklarují se jako funkce či metody pomocí klíčového slova \\(\\mathtt{ operator }\\)."
+        },
+        {
+          "locator": "transcript-line:206",
+          "text": "## Poznámka Anki 1655386809678"
+        },
+        {
+          "locator": "transcript-line:208",
+          "text": "Karty Anki: 1655386809678"
+        },
+        {
+          "locator": "transcript-line:209",
+          "text": "GUID: h=%%I`lKQe; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:211",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:213",
+          "text": "Popište uživatelskou konverzi."
+        },
+        {
+          "locator": "transcript-line:215",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:217",
+          "text": "Už v C se provádí automatická konverze operandů pokud je třeba. Např. výraz \\(4.7 + 3\\) se automaticky zkonvertuje na \\(4.7 + \\mathtt{ (double) } 3\\), protože operand \\(4.7\\) je právě typu \\(\\mathtt{ double }\\). Stejně tak se v C++ mohou konvertovat operandy přetížených operátorů, a to pomocí konstruktorů uživatelské konverze."
+        },
+        {
+          "locator": "transcript-line:218",
+          "text": "Konstruktorem uživatelské konverze typu \\(\\mathtt{ T1 }\\) na typ \\(\\mathtt{ T2 }\\) rozumíme takový konstruktor třídy \\(\\mathtt{ T2 }\\), který lze zavolat s jediným parametrem typu \\(\\mathtt { T1 }\\)."
+        },
+        {
+          "locator": "transcript-line:219",
+          "text": "Tuto implicitní konverzi lze zakázat deklarováním takového konstruktoru jako explicitního pomocí klíčového slova \\(\\mathtt{ explicit }\\)."
+        },
+        {
+          "locator": "transcript-line:221",
+          "text": "## Poznámka Anki 1655387531836"
+        },
+        {
+          "locator": "transcript-line:223",
+          "text": "Karty Anki: 1655387531836"
+        },
+        {
+          "locator": "transcript-line:224",
+          "text": "GUID: yel!)qUKu*; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:226",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:228",
+          "text": "Porovnejte kopírující konstruktor a operátor přiřazení."
+        },
+        {
+          "locator": "transcript-line:230",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:232",
+          "text": "**Kopírující konstruktor** je členská funkce, která má za úkol inicializovat nový objekt kopií již existujícího objektu."
+        },
+        {
+          "locator": "transcript-line:233",
+          "text": "**Operátor přiřazení** se používá k přiřazení obsahu již exsitující proměnné do jiné již existující proměnné."
+        },
+        {
+          "locator": "transcript-line:235",
+          "text": "## Poznámka Anki 1655387835216"
+        },
+        {
+          "locator": "transcript-line:237",
+          "text": "Karty Anki: 1655387835216"
+        },
+        {
+          "locator": "transcript-line:238",
+          "text": "GUID: nC?aJfB6wZ; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:240",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:242",
+          "text": "Porovnejte mělkou a hlubokou kopii."
+        },
+        {
+          "locator": "transcript-line:244",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:246",
+          "text": "**Mělká kopie** se vytvoří jednoduše zkopírováním obsahu všech proměnných. To je postačující pouze v případě, že objekt neobsahuje dynamicky alokované proměnné. Mělká kopie objektů, které mají zdroje alokované na haldě může způsobovat chyby jako double-free, memory leaks a další."
+        },
+        {
+          "locator": "transcript-line:247",
+          "text": "**Hluboká kopie** překopíruje obsah všech proměnných vzorového objektu a zároveň vytvoří separátní a nezávislou kopii dynamicky alokovaných zdrojů."
+        },
+        {
+          "locator": "transcript-line:249",
+          "text": "## Poznámka Anki 1655388223088"
+        },
+        {
+          "locator": "transcript-line:251",
+          "text": "Karty Anki: 1655388223088"
+        },
+        {
+          "locator": "transcript-line:252",
+          "text": "GUID: o.wMOAi)g!; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:254",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:256",
+          "text": "Jak fungují počítané reference a copy-on-write?"
+        },
+        {
+          "locator": "transcript-line:258",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:260",
+          "text": "Ne vždy je potřeba ihned vytvářet hlubokou kopii objektu. Do objektu stačí přidat počítadlo, které se inkrementuje s každým \"kopírováním\" objektu (vytvořením nové reference) a dekrementuje s každým zavoláním destruktoru, přičemž pokud je po této dekrementaci nulové, dojde ke skutečné dealokaci prostředů."
+        },
+        {
+          "locator": "transcript-line:261",
+          "text": "Pokud pak dojde k zavolání metody, která by měnila obsah tohoto objektu, provede se skutečná hluboká kopie, korespondující úprava objektu a dekrementace počítadla."
+        },
+        {
+          "locator": "transcript-line:263",
+          "text": "## Poznámka Anki 1655388903433"
+        },
+        {
+          "locator": "transcript-line:265",
+          "text": "Karty Anki: 1655388903433"
+        },
+        {
+          "locator": "transcript-line:266",
+          "text": "GUID: t=);JVH_`4; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:268",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:270",
+          "text": "Popište výjimky."
+        },
+        {
+          "locator": "transcript-line:272",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:274",
+          "text": "Výjimky jsou vylepšení C++ oproti C. Kde v C se informace o chybě předávala nejčastěji pomocí návratové hodnoty funkce, můžeme v C++ využít výjimky. Ty nám umožňují oddělit error-handling od ostatního kódu. Zároveň při jejich prostupování call-stackem výše zajišťují úklid ve všech blocích, které jsou opouštěny. Výjimky jsou vytvářeny pomocí klíčového slova \\(\\mathtt{ throw }\\) a lze je zpracovávat pomocí \\(\\mathtt{ try }\\)-\\(\\mathtt{ catch }\\) bloku. Pokud výjimka zpracována není, způsobí ukončení programu."
+        },
+        {
+          "locator": "transcript-line:276",
+          "text": "## Poznámka Anki 1655390232328"
+        },
+        {
+          "locator": "transcript-line:278",
+          "text": "Karty Anki: 1655390232328"
+        },
+        {
+          "locator": "transcript-line:279",
+          "text": "GUID: xbyL>.QsoU; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:281",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:283",
+          "text": "Popište šablony funkcí a tříd."
+        },
+        {
+          "locator": "transcript-line:285",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:287",
+          "text": "**Šablona funkce** (generická funkce) je parametrizovaná deklarace (definice), ze které kompilátor dosazením za parametry vytvoří instanci šablony, tj. deklaraci (definici) konkrétní funkce. Parametrem šablony může být typ parametru, návratové hodnoty nebo lokálních proměnných funkce."
+        },
+        {
+          "locator": "transcript-line:288",
+          "text": "**Šablona třídy **(generická třída) je parametrizovatelná deklarace třídy, ze které kompilátor dosazením za generické parametry vytvoří instanci konkrétní třídy."
+        },
+        {
+          "locator": "transcript-line:290",
+          "text": "## Poznámka Anki 1655390425471"
+        },
+        {
+          "locator": "transcript-line:292",
+          "text": "Karty Anki: 1655390425471"
+        },
+        {
+          "locator": "transcript-line:293",
+          "text": "GUID: GGGF[7J0?e; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:295",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:297",
+          "text": "Popište dědičnost."
+        },
+        {
+          "locator": "transcript-line:299",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:301",
+          "text": "Mějme bázovou třídu \\(\\mathtt { B }\\). Pokud deklarujeme odvozenou třídu \\(\\mathtt{ D }\\) jako potomka třídy \\(\\mathtt{ B }\\) pomocí dvojtečkové notace, pak třída \\(\\mathtt{ D }\\) dědí všechny atributy a metody z třídy \\(\\mathtt{ B }\\), přičemž může přidávat vlastní. Odvozené třídy jsou jistou konkretizací abstraktnější bázové třídy."
+        },
+        {
+          "locator": "transcript-line:303",
+          "text": "## Poznámka Anki 1655391001672"
+        },
+        {
+          "locator": "transcript-line:305",
+          "text": "Karty Anki: 1655391001672"
+        },
+        {
+          "locator": "transcript-line:306",
+          "text": "GUID: j2JxoDdKwW; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:308",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:310",
+          "text": "Popište statickou vazbu."
+        },
+        {
+          "locator": "transcript-line:312",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:314",
+          "text": "Mějme bázovou třídu \\(\\mathtt{ B }\\) a zní odvozenou třídu \\(\\mathtt{ D }\\)."
+        },
+        {
+          "locator": "transcript-line:315",
+          "text": "Přiřadíme-li ukazatel na \\(\\mathtt{ D }\\) do ukazatele na \\(\\mathtt{ B }\\) (např. pro heterogenní kontejner) a potom na tomto objektu zavoláme zastíněnou metodu (definovanou jak na \\(\\mathtt{ B }\\), tak na \\(\\mathtt{ D }\\)), pak vždy dojde k zavolání metody na bázové třídě \\(\\mathtt{ B }\\). Jde o **statickou **(brzkou) **vazbu**. Vybraná operace je totiž vždy určena typem stojícím nalevo od operátoru a rozhoduje se o ní již v době kompilace."
+        },
+        {
+          "locator": "transcript-line:317",
+          "text": "## Poznámka Anki 1655391284451"
+        },
+        {
+          "locator": "transcript-line:319",
+          "text": "Karty Anki: 1655391284451"
+        },
+        {
+          "locator": "transcript-line:320",
+          "text": "GUID: y@nS[i*@o*; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:322",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:324",
+          "text": "Popište dynamickou vazbu."
+        },
+        {
+          "locator": "transcript-line:326",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:328",
+          "text": "Mějme bázovou třídu \\(\\mathtt{ B }\\) a zní odvozenou třídu \\(\\mathtt{ D }\\)."
+        },
+        {
+          "locator": "transcript-line:329",
+          "text": "Zastíněné metody nyní deklarujme společně s klíčovým slovem \\(\\mathtt{ virtual }\\). Tím dojde ke vzniku VMT (Virtual Method Table). Pokud pak přiřadíme instanci \\(\\mathtt{ D }\\) do ukazatele na třídu \\(\\mathtt{ B }\\) a zavoláme na tomto ukazateli zastíněnou metodu, bude se volaná metoda vybírat z VMT podle typu objektu, na který tento ukazatel ukazuje. Jde o **dynamickou** (pozdní) **vazbu**, která probíhá až při runtime."
+        },
+        {
+          "locator": "transcript-line:331",
+          "text": "## Poznámka Anki 1655391441141"
+        },
+        {
+          "locator": "transcript-line:333",
+          "text": "Karty Anki: 1655391441141"
+        },
+        {
+          "locator": "transcript-line:334",
+          "text": "GUID: O<XZ>aP!b9; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:336",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:338",
+          "text": "Definujte polymorfismus."
+        },
+        {
+          "locator": "transcript-line:340",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:342",
+          "text": "Polymorfismus znamená, že určitá entita se může v různých situacích chovat různě. Rozlišujeme compile-time polymorfismus a run-time polymorfismus. Compile-time polymorfismu dosahujeme pomocí přetěžování funkcí a operátorů, zatímco run-time polymorfismu pomocí virtuálních metod."
+        },
+        {
+          "locator": "transcript-line:344",
+          "text": "## Poznámka Anki 1655391593143"
+        },
+        {
+          "locator": "transcript-line:346",
+          "text": "Karty Anki: 1655391593143"
+        },
+        {
+          "locator": "transcript-line:347",
+          "text": "GUID: P(.kWq0>eG; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:349",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:351",
+          "text": "Definujte abstraktní metodu a abstraktní třídu."
+        },
+        {
+          "locator": "transcript-line:353",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:355",
+          "text": "**Abstraktní metoda** je metoda, která je deklarovaná, ale není definovaná a na místo její implementace je umístěna konstrukce \\(\\texttt{= 0}\\). **Abstraktní třída** je pak třída s alespoň jednou abstraktní metodou. Používají se pro definování rozhraní, které následně odvozené třídy implmementují. Abstraktní třídy nelze instancovat."
+        },
+        {
+          "locator": "transcript-line:357",
+          "text": "## Poznámka Anki 1655392245875"
+        },
+        {
+          "locator": "transcript-line:359",
+          "text": "Karty Anki: 1655392245875"
+        },
+        {
+          "locator": "transcript-line:360",
+          "text": "GUID: K)9ULWO}b#; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:362",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:364",
+          "text": "Definuje polymorfní datovou strukturu."
+        },
+        {
+          "locator": "transcript-line:366",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:368",
+          "text": "Polymorfní datová struktura obsahuje prvky různých typů, operace s prvky se mohou provádět různě v závislosti na typu prvku. Implementujeme je pomocí abstraktních tříd."
+        },
+        {
+          "locator": "transcript-line:370",
+          "text": "## Poznámka Anki 1655392454476"
+        },
+        {
+          "locator": "transcript-line:372",
+          "text": "Karty Anki: 1655392454476"
+        },
+        {
+          "locator": "transcript-line:373",
+          "text": "GUID: oapzd,pDqZ; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:375",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:377",
+          "text": "Popište dynamické přetypování."
+        },
+        {
+          "locator": "transcript-line:379",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:381",
+          "text": "Dynamické přetypování (\\(\\mathtt{ dynamic\\_cast }\\)) lze využít pro tzv. downcast, neboli převod ukazatele z bázové třídy na odvozenou třídu. Pokud je tato operace úspěšná je výsledkem této operace ukazatel na objekt odvozené třídy, pokud ne, je výsledekm \\(\\mathtt{ nullptr }\\)."
+        },
+        {
+          "locator": "transcript-line:383",
+          "text": "## Poznámka Anki 1655392585413"
+        },
+        {
+          "locator": "transcript-line:385",
+          "text": "Karty Anki: 1655392585413"
+        },
+        {
+          "locator": "transcript-line:386",
+          "text": "GUID: G!Eq;|<f).; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:388",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:390",
+          "text": "Popište RTTI a operátor \\(\\mathtt{ typeid }\\)."
+        },
+        {
+          "locator": "transcript-line:392",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:394",
+          "text": "Run-Time Type Information (RTTI) nám umožňuje zjistit typ objektu za běhu programu. Slouží k tomu např. operátor \\(\\mathtt{ typeid }\\), který vrací objekt typu \\(\\mathtt{ std::type\\_info }\\) vybavený mimo jiné operátory \\(\\mathtt{ == }\\), \\(\\mathtt{ != }\\) či metodou \\(\\mathtt{ name () }\\)."
+        },
+        {
+          "locator": "transcript-line:396",
+          "text": "## Poznámka Anki 1655393320383"
+        },
+        {
+          "locator": "transcript-line:398",
+          "text": "Karty Anki: 1655393320383"
+        },
+        {
+          "locator": "transcript-line:399",
+          "text": "GUID: gO7SMNFPxo; štítky: bi-pa2::ustni bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:401",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:403",
+          "text": "Vyjmenujte a vysvětlete operátory přetypování."
+        },
+        {
+          "locator": "transcript-line:405",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:407",
+          "text": "- \\(\\mathtt{ (T)x }\\) - přetypování z C"
+        },
+        {
+          "locator": "transcript-line:409",
+          "text": "- \\(\\mathtt{ const\\_cast<T>(x) }\\) - přidává či odebírá modifikátory \\(\\mathtt{ const }\\) a \\(\\mathtt{ volatile }\\)"
+        },
+        {
+          "locator": "transcript-line:411",
+          "text": "- \\(\\mathtt{ static\\_cast<T>(x) }\\) - běžná přetypování, v rámci hierarchie tříd pouze se statickou kontrolou (za běhu může vést k chybám)"
+        },
+        {
+          "locator": "transcript-line:413",
+          "text": "- \\(\\mathtt{ dynamic\\_cast (x) }\\) - přetypování ukazatelů nebo referencí v rámci hierarchie tříd s dynamickou kontrolou typů"
+        },
+        {
+          "locator": "transcript-line:414",
+          "text": "- \\(\\mathtt{ reinterpret\\_cast (x) }\\) - přetypování bez kontrol; implementačně závislé a nepřenositelné"
+        },
+        {
+          "locator": "transcript-line:416",
+          "text": "## Poznámka Anki 1655394551999"
+        },
+        {
+          "locator": "transcript-line:418",
+          "text": "Karty Anki: 1655394551999"
+        },
+        {
+          "locator": "transcript-line:419",
+          "text": "GUID: snb7JK~@Q^; štítky: bi-pa2::ustni bi-spol::19 bi-spol::23."
+        },
+        {
+          "locator": "transcript-line:421",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:423",
+          "text": "Popište abstraktní datový typ (ADT)."
+        },
+        {
+          "locator": "transcript-line:425",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:427",
+          "text": "Abstraktní datový typ (ADT) je datový typ, který je definován svým chováním, konkrétně množinou možných hodnot a množinou možných operací. Interní implementace ADT je pro uživatele nepodstatná a chování ADT je na ní nezávislé."
+        },
+        {
+          "locator": "transcript-line:429",
+          "text": "## Poznámka Anki 1655395148941"
+        },
+        {
+          "locator": "transcript-line:431",
+          "text": "Karty Anki: 1655395148941"
+        },
+        {
+          "locator": "transcript-line:432",
+          "text": "GUID: M?M[d[BS]o; štítky: bi-pa2::ustni bi-spol::23."
+        },
+        {
+          "locator": "transcript-line:434",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:436",
+          "text": "Popište zásobník (stack)."
+        },
+        {
+          "locator": "transcript-line:438",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:440",
+          "text": "Zásobník (stack) je sekvenční abstraktní datový typ, který organizuje prvky na principu LIFO. Měl by podporovat následující operace:"
+        },
+        {
+          "locator": "transcript-line:442",
+          "text": "- \\(\\texttt{push}\\) - vloží prvek na vrchol zásobníku,"
+        },
+        {
+          "locator": "transcript-line:444",
+          "text": "- \\(\\texttt{pop}\\) - odebere prvek z vrcholu zásobníku."
+        },
+        {
+          "locator": "transcript-line:446",
+          "text": "Očekávané časové složitosti těchto operací jsou \\(\\mathcal O(1)\\) případně \\(\\mathcal O^*(1)\\). Zásobník lze implementovat pomocí:"
+        },
+        {
+          "locator": "transcript-line:448",
+          "text": "- statické pole pevné délky,"
+        },
+        {
+          "locator": "transcript-line:449",
+          "text": "- dynamické pole pevné délky,"
+        },
+        {
+          "locator": "transcript-line:450",
+          "text": "- dynamické pole proměnlivé délky,"
+        },
+        {
+          "locator": "transcript-line:451",
+          "text": "- spojový seznam."
+        },
+        {
+          "locator": "transcript-line:453",
+          "text": "## Poznámka Anki 1655395454108"
+        },
+        {
+          "locator": "transcript-line:455",
+          "text": "Karty Anki: 1655395454108"
+        },
+        {
+          "locator": "transcript-line:456",
+          "text": "GUID: D5tVu(f:rq; štítky: bi-pa2::ustni bi-spol::23."
+        },
+        {
+          "locator": "transcript-line:458",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:460",
+          "text": "Popište frontu (queue)."
+        },
+        {
+          "locator": "transcript-line:462",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:464",
+          "text": "Fronta (queue) je sekvenční abstraktní datový typ, který organizuje prvky na principu FIFO. Měla by podporovat následující operace:"
+        },
+        {
+          "locator": "transcript-line:466",
+          "text": "- \\(\\mathtt{enqueue}\\) - vloží prvek na konec fronty,"
+        },
+        {
+          "locator": "transcript-line:468",
+          "text": "- \\(\\texttt{dequeue}\\) - odebere prvek ze začátku fronty."
+        },
+        {
+          "locator": "transcript-line:470",
+          "text": "Očekávané časové složitosti těchto operací jsou \\(\\mathcal O(1)\\) případně \\(\\mathcal O^*(1)\\). Frontu lze implementovat pomocí:"
+        },
+        {
+          "locator": "transcript-line:472",
+          "text": "- statické pole pevné délky,"
+        },
+        {
+          "locator": "transcript-line:473",
+          "text": "- dynamické pole pevné délky,"
+        },
+        {
+          "locator": "transcript-line:474",
+          "text": "- dynamické pole proměnlivé délky,"
+        },
+        {
+          "locator": "transcript-line:475",
+          "text": "- spojový seznam."
+        },
+        {
+          "locator": "transcript-line:477",
+          "text": "### Doplňující pole (Extra)"
+        },
+        {
+          "locator": "transcript-line:479",
+          "text": "V implementacích pomocí pole se postupuje, tak že při vkládání prvku proběhne kontrola, zda je „prázdný“ prostor před prvky větší než počet prvků. Pokud ano, jsou prvky přesunuty na začátek pole. Lze dokázat, že vkládání má v takovém případě časovou složitost \\(\\mathcal O^*(1)\\)."
+        },
+        {
+          "locator": "transcript-line:481",
+          "text": "## Poznámka Anki 1655395574633"
+        },
+        {
+          "locator": "transcript-line:483",
+          "text": "Karty Anki: 1655395574633"
+        },
+        {
+          "locator": "transcript-line:484",
+          "text": "GUID: Dydt(ks5&|; štítky: bi-pa2::ustni bi-spol::23."
+        },
+        {
+          "locator": "transcript-line:486",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:488",
+          "text": "Popište seznam (list)"
+        },
+        {
+          "locator": "transcript-line:490",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:492",
+          "text": "Seznam (list) je sekvenční abstraktní datový typ. Měl by podporovat následující operace, přičemž operace jsou určeny pozicí v seznamu:"
+        },
+        {
+          "locator": "transcript-line:494",
+          "text": "- \\(\\texttt{insert}\\) - vloží prvek před pozici v seznamu,"
+        },
+        {
+          "locator": "transcript-line:496",
+          "text": "- \\(\\texttt{remove}\\) - odstraní prvek za pozicí v seznamu,"
+        },
+        {
+          "locator": "transcript-line:498",
+          "text": "- \\(\\texttt{read}\\) - přečte hodnotu prvku na aktuální pozici,"
+        },
+        {
+          "locator": "transcript-line:500",
+          "text": "- \\(\\texttt{next}\\), \\(\\texttt{prev}\\) - posune pozici v seznamu."
+        },
+        {
+          "locator": "transcript-line:502",
+          "text": "Očekávané časové složitosti těchto operací jsou \\(\\mathcal O(1)\\), proto se ADT seznam implementuje pomocí obousměrně zřetězeného spojového seznamu."
+        },
+        {
+          "locator": "transcript-line:504",
+          "text": "## Poznámka Anki 1655396870856"
+        },
+        {
+          "locator": "transcript-line:506",
+          "text": "Karty Anki: 1655396870856"
+        },
+        {
+          "locator": "transcript-line:507",
+          "text": "GUID: fYl|q*c#Ak; štítky: bi-pa2::ustni bi-spol::23."
+        },
+        {
+          "locator": "transcript-line:509",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:511",
+          "text": "Popište pole (array), mapovací funkci a reprezentaci vícerozměrného pole."
+        },
+        {
+          "locator": "transcript-line:513",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:515",
+          "text": "**Pole** (array) je sekvenční abstraktní datový typ, který organizuje prvky v \\(n\\) dimenzionálním prostoru, přičemž každý prvek je identifikován \\(n\\)-ticí indexů. Mělo by podporovat přístup k prvkům s časovou složitostí \\(\\mathcal O(1)\\). Pro přístup k prvkům se používá **mapovací funkce**. **Vícerozměrná pole **lze reprezentovat jako:"
+        },
+        {
+          "locator": "transcript-line:517",
+          "text": "- kontinuální blok serializovaný po řádcích,"
+        },
+        {
+          "locator": "transcript-line:518",
+          "text": "- kontinuální blok serializovaný po sloupcích,"
+        },
+        {
+          "locator": "transcript-line:519",
+          "text": "- přístupové vektory (Ilifeho vektory)."
+        },
+        {
+          "locator": "transcript-line:521",
+          "text": " [Obrázek: paste-e768fd980bb1358128ab1d37683d96555ec2c575.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:523",
+          "text": "## Poznámka Anki 1655397506135"
+        },
+        {
+          "locator": "transcript-line:525",
+          "text": "Karty Anki: 1655397506135"
+        },
+        {
+          "locator": "transcript-line:526",
+          "text": "GUID: w-P-;-@s#g; štítky: bi-pa2::ustni bi-spol::23."
+        },
+        {
+          "locator": "transcript-line:528",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:530",
+          "text": "Popište množinu (set) a tabulku (map)."
+        },
+        {
+          "locator": "transcript-line:532",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:534",
+          "text": "**Množina **(set) je asociativní abstraktní datový typ, který uchovává klíče bez duplicit. Měla by podporovat operace:"
+        },
+        {
+          "locator": "transcript-line:536",
+          "text": "- \\(\\texttt{insert}\\) - vloží prvek do množiny;"
+        },
+        {
+          "locator": "transcript-line:538",
+          "text": "- \\(\\texttt{delete}\\) - odstraní prvek z množiny;"
+        },
+        {
+          "locator": "transcript-line:540",
+          "text": "- \\(\\texttt{contains}\\) - zjistí, zda je prvek v množině obsažen."
+        },
+        {
+          "locator": "transcript-line:542",
+          "text": "**Tabulka** (map) je asociativní abstraktní datový typ podobný množině, který společně s každým klíčem uchovává navíc ještě další libovolná data. Měla by podporovat stejné opreace jako množina a navíc:"
+        },
+        {
+          "locator": "transcript-line:544",
+          "text": "- \\(\\texttt{find}\\) - nalezne data asociovaná s daným klíčem."
+        },
+        {
+          "locator": "transcript-line:546",
+          "text": "Množinu a tabulku lze implementovat pomocí:"
+        },
+        {
+          "locator": "transcript-line:548",
+          "text": "- charakteristického (indikátorového) vektoru;"
+        },
+        {
+          "locator": "transcript-line:549",
+          "text": "- seřazeného pole libovolného typu,"
+        },
+        {
+          "locator": "transcript-line:550",
+          "text": "- neseřazeného pole libovolného typu,"
+        },
+        {
+          "locator": "transcript-line:551",
+          "text": "- spojového seznamu,"
+        },
+        {
+          "locator": "transcript-line:552",
+          "text": "- vyhledávacího stromu,"
+        },
+        {
+          "locator": "transcript-line:553",
+          "text": "- hashovací tabulky."
+        },
+        {
+          "locator": "transcript-line:555",
+          "text": "Časové složitosti jednotlivých implementací se mohu lišit:"
+        },
+        {
+          "locator": "transcript-line:557",
+          "text": " [Obrázek: paste-507201b60b3c53ed7c5658f2d583776018e84321.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:559",
+          "text": "## Poznámka Anki 1655399532619"
+        },
+        {
+          "locator": "transcript-line:561",
+          "text": "Karty Anki: 1655399532619"
+        },
+        {
+          "locator": "transcript-line:562",
+          "text": "GUID: pU|)k?]=KO; štítky: bi-pa2::ustni."
+        },
+        {
+          "locator": "transcript-line:564",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:566",
+          "text": "Popište binární vyhledávací strom."
+        },
+        {
+          "locator": "transcript-line:568",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:570",
+          "text": "Binární vyhledávací strom je asociativní kontejner obsahující hodnoty identifikované klíči. Jeho požadavkem je, aby byly každé dva klíče nazvájem porovnatelné. Potom pro uzel stromu s hodnotou \\(x\\) platí, že v jeho levém podstromu jsou uzly s hodnotou menší než \\(x\\) a v jeho pravém podstromu se nachází klíče s vyšší hodnotou než \\(x\\)."
+        },
+        {
+          "locator": "transcript-line:572",
+          "text": "## Poznámka Anki 1655399615732"
+        },
+        {
+          "locator": "transcript-line:574",
+          "text": "Karty Anki: 1655399615732"
+        },
+        {
+          "locator": "transcript-line:575",
+          "text": "GUID: OzV>P`ciz<; štítky: bi-pa2::ustni."
+        },
+        {
+          "locator": "transcript-line:577",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:579",
+          "text": "Jaké existují algoritmy pro průchod stromem?"
+        },
+        {
+          "locator": "transcript-line:581",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:583",
+          "text": "- DFS (Depth-First Search)"
+        },
+        {
+          "locator": "transcript-line:584",
+          "text": "- BFS (Breadth-First Search)"
+        },
+        {
+          "locator": "transcript-line:586",
+          "text": "## Poznámka Anki 1655561841792"
+        },
+        {
+          "locator": "transcript-line:588",
+          "text": "Karty Anki: 1655561841803"
+        },
+        {
+          "locator": "transcript-line:589",
+          "text": "GUID: xS-RoBnISn; štítky: bi-pa2::ustni."
+        },
+        {
+          "locator": "transcript-line:591",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:593",
+          "text": "Co je to rozptylovací funkce?"
+        },
+        {
+          "locator": "transcript-line:595",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:597",
+          "text": "Rozptylovací funkce je funkce, která pro každý vstup vrátí celé číslo z určitého rozsahu. Kolize jsou připuštěny."
+        },
+        {
+          "locator": "transcript-line:599",
+          "text": "## Poznámka Anki 1655561865513"
+        },
+        {
+          "locator": "transcript-line:601",
+          "text": "Karty Anki: 1655561865513"
+        },
+        {
+          "locator": "transcript-line:602",
+          "text": "GUID: s/MJgPRojQ; štítky: bi-pa2::ustni bi-spol::23."
+        },
+        {
+          "locator": "transcript-line:604",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:606",
+          "text": "Popište otevřené rozptylování."
+        },
+        {
+          "locator": "transcript-line:608",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:610",
+          "text": "U otevřeného rozptylování umisťujeme na pozici \\(i\\) takové klíče, pro které vrátila hashovací funkce hodnotu \\(i\\). Kolize více prvků na stejné pozici zařadíme do spojového seznamu, rozšiřitelného pole nebo podobně."
+        },
+        {
+          "locator": "transcript-line:612",
+          "text": "## Poznámka Anki 1655561887219"
+        },
+        {
+          "locator": "transcript-line:614",
+          "text": "Karty Anki: 1655561887219"
+        },
+        {
+          "locator": "transcript-line:615",
+          "text": "GUID: JJm>RG)5+c; štítky: bi-pa2::ustni bi-spol::23."
+        },
+        {
+          "locator": "transcript-line:617",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:619",
+          "text": "Popište uzavřené rozptylování."
+        },
+        {
+          "locator": "transcript-line:621",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:623",
+          "text": "U uzavřeného rozptylování se klíče ukládají do pole jehož velikost omezuje počet prvků tabulky. Kolizní řádky se ukládají na další pozice v poli. Sekvence kolizních řádku je zakončena \"prázdným\" řádkem, který musí v poli být alespoň jeden. "
+        },
+        {
+          "locator": "transcript-line:624",
+          "text": "Vyhledávání začíná na indexu daném hashovací funkcí až po další \"prázdný\" řádek. Při mazání nelze nahrazovat \"prázdným\" řádkem, ale musí se provést re-hash."
+        },
+        {
+          "locator": "transcript-line:626",
+          "text": "## Poznámka Anki 1718543643173"
+        },
+        {
+          "locator": "transcript-line:628",
+          "text": "Karty Anki: 1718543643173"
+        },
+        {
+          "locator": "transcript-line:629",
+          "text": "GUID: Et&O3eUa6w; štítky: bi-pa2 bi-spol::23."
+        },
+        {
+          "locator": "transcript-line:631",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:633",
+          "text": "Popište rozdíl mezi sekvenčními a asociativními kontejnery."
+        },
+        {
+          "locator": "transcript-line:635",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:637",
+          "text": "**Sekvenční **kontejnery jsou takové kontejnery, které umožňují sekvenční přístup k prvkům. **Asociativní **kontejnery naopak umožňují rychlé vyhledávání, typicky v čase \\(\\mathcal O(\\log n)\\) u seřazených kontejnerů a v čase \\(\\mathcal O(1)\\) (průměrně) u neseřazených kontejnerů."
+        },
+        {
+          "locator": "transcript-line:639",
+          "text": "## Poznámka Anki 1718560991021"
+        },
+        {
+          "locator": "transcript-line:641",
+          "text": "Karty Anki: 1718560991021"
+        },
+        {
+          "locator": "transcript-line:642",
+          "text": "GUID: uKA-lQ9T7o; štítky: bi-pa2 bi-spol::22."
+        },
+        {
+          "locator": "transcript-line:644",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:646",
+          "text": "Popište koncept abstrakce (abstraction)."
+        },
+        {
+          "locator": "transcript-line:648",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:650",
+          "text": "Abstrakce (abstraction) je koncept programovacích jazyků, který spočívá v generalizaci konkrétních případů na obecné koncepty. Formou abstakce jsou:"
+        },
+        {
+          "locator": "transcript-line:652",
+          "text": "- generalizace konkrétních tříd na společnou rodičovskou třídu a zní dědící odvozené třídy,"
+        },
+        {
+          "locator": "transcript-line:653",
+          "text": "- abstraktní třídy a metody,"
+        },
+        {
+          "locator": "transcript-line:654",
+          "text": "- funkce,"
+        },
+        {
+          "locator": "transcript-line:655",
+          "text": "- moduly,"
+        },
+        {
+          "locator": "transcript-line:656",
+          "text": "- šablony"
+        },
+        {
+          "locator": "transcript-line:658",
+          "text": "a další."
+        }
+      ],
+      "created_at": "2026-10-17T14:01:02.570808+00:00",
+      "transcript_file": "sources/anki-zakladni-sada-v1/transcript/anki-zakladni-sada-v1.md",
+      "transcript_sha256": "5b7d25bc8694387c5d1c2fdf423a16749a331b21826dcbecff1e48c82354f10a"
+    }
+  },
+  "checkpoints": []
+}

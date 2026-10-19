@@ -1,0 +1,1655 @@
+{
+  "status": "passed",
+  "subjects": 23,
+  "materials": 234,
+  "notes_verified": 2464,
+  "cards_verified": 2464,
+  "unique_media_contents": 202,
+  "hashes_and_citations_verified": true,
+  "topic_searches_verified": 234,
+  "source_packages_unchanged": true,
+  "existing_library_materials_unchanged": true,
+  "concurrent_existing_state_changes": [],
+  "missing_media": 0,
+  "new_checkpoints": 0,
+  "search_samples": [
+    {
+      "subject_id": "bi-aag",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Definujte pojem abeceda.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-aag",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Definujte **deterministický konečný automat**.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-aag",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Definujte **ekvivalentní** konečné automaty.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-aag",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Definujte **regulární výraz**.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-aag",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Popište algoritmus zvaný **metoda derivací**, který pro regulární výraz \\(V\\) vrátí konečný automat \\(M\\) tak, že \\(L(M) = h(V)\\).",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-aag",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Jak zní **pumping lemma**?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-aag",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Definujte **normální tvar podle Chomského** pro bezkontextovou gramatiku.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-aag",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Definujte **zásobníkový automat**.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-aag",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Definujte **formální překlad**.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-aag",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Definujte **deterministický Turingův stroj**.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-adu",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Jaké jsou kategorie administrátorských nástrojů?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-adu",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Jaký je rozdíl mezi autentizací a autorizací?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-adu",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Jak se testuje autorizace na tradičním Unixovém systému a systému podporujícím privilegia?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-adu",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Jak jsou pospsána zařízení v Unixu?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-adu",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Jaké informace ukládají metadata ve filesystému?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-adu",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Popište princip Zettabyte File System (ZFS).",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-adu",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Co je to socket?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-adu",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Jaká existují řešení sdílení filesystémů?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-adu",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Co je to daemon?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-adu",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Popište proces bootu systému.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-adu",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Co je to virtualizace? Uveďte příklady.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-aps",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Definujte ISA.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-aps",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Jaké HDL (Hardware Description Language) známe?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-aps",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Co je funkce řadiče?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-aps",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Jaké jsou typické stupně zřetězeného zpracování instrukcí?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-aps",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Definujte přerušení.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-aps",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Rozdělte pamět podle použítí v počítači.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-aps",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "S jakými problémy se můžeme setkat u hlavní paměti bez virtualizace?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-aps",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Rozdělte multiprocesorové systémy.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-aps",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Definujte sekvenčně konzistentní počítač.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-aps",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Popište částečné a úplné překrývání instrukcí.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-aps",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Co je to Load Bypassing?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-aps",
+      "topic_id": "prednaska-12",
+      "source_id": "anki-prednaska-12-v1",
+      "query": "K čemu slouží prediktor skoků?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-asb",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Popište Transmission Control Program.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-asb",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Popište hub (opakovač).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-asb",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Uveďte možnosti zabezpečení na úrovni switchů.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-asb",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Co je to public key infrastructure (PKI)?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-asb",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Uveďte možnosti šifrování na jednotlivých vrstvách Open Systems Interconnection (OSI) modelu společně s typickými šifrovacími protokoly.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-asb",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Popište technologii Wi-Fi.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-asb",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Popište Internet of Things (IoT).",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-asb",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Popište naivní přístup k autentizaci a jeho nevýhody.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-asb",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Popište a porovnejte protokoly Secure Shell Protocol (SSH) a Telnet.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-asb",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Popište rozdíl mezi layer a tier?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-bek",
+      "topic_id": "cviceni-02",
+      "source_id": "anki-cviceni-02-v1",
+      "query": "Popište DLL hijacking.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-bek",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Co je to spolehlivý software?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-bek",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Co je role preprocesoru?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-bek",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Popište ochrany proti přetečení bufferu (buffer overflow).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-bek",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Popište možné cíle útoku přetečení bufferu (buffer overflow) na haldě.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-bek",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Uveďte doporučení pro psaní bezpečnějšího kódu v C.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-bek",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Popište Windows trustee a security identifier (SID).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-bek",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Popište důvody, proč mohou aplikace vyžadovat zvýšená oprávnění a jejich řešení.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-bek",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Popište vlastnosti kvalitních kryptograficky bezpečných generátorů náhodných a pseudonáhodných čísel.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-bek",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Popište SQL injection.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-bek",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Jaké existují strategie obrany proti útokům pomocí vstupu?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-bek",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Co je to nesprávné řízení přístupů (OWASP Top Ten)? Uveďte typické chyby.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-bek",
+      "topic_id": "prednaska-12",
+      "source_id": "anki-prednaska-12-v1",
+      "query": "Popište Transport Layer Security (TLS) protokol.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-bek",
+      "topic_id": "prednaska-13",
+      "source_id": "anki-prednaska-13-v1",
+      "query": "Co je to denial-of-service (DoS) útok.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Popište databázi.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Definujte kardinalitu.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Popište podobnosti a odlišnosti tabulek a relací.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Jak přetransformujeme entitu z konceptuálního modelu do relačního?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Popište základní syntaxi příkazu \\(\\texttt{SELECT}\\) v Structured Query Language (SQL).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Co je to vnější spojení (outer join)?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Popište databázový pohled (database view)",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Co je to funkční závislost?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Popište transakci.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Co je to ROWID?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "What is a threat? Give examples.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "What is the difference between a packet sniffer and a packet analyzer?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "What is the difference between the \\(\\mathtt{GET}\\) and \\(\\mathtt{POST}\\) HTTP methods? What other HTTP methods are there?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Describe cross-site scripting (XSS). What types are there? How can it be mitigated?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "What is a server-side request forgery (SSRF) attack? How can it be mitigated?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "What is privilege escalation? What types are there?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Describe the OWASP risk rating methodology.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "List examples of Wi-Fi management frames and their uses.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "What are the typical phases of OS pentesting?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "What is Active Directory?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "What are the typical parts of an in-vehicle controller area network (CAN) network?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-12",
+      "source_id": "anki-prednaska-12-v1",
+      "query": "What is forensic science?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-eha",
+      "topic_id": "zakladni-sada-otazek",
+      "source_id": "anki-zakladni-sada-otazek-v1",
+      "query": "What are the stages of forensic analysis?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-hwb",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Porovnejte implementaci kryptografických funkcí jako softwarový modul a hardwarový modul.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-hwb",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Popište Trusted Platform Module (TPM).",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-hwb",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Jaké jsou požadavky na šifrování disku?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-hwb",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Popište šifru Advanced Encryption Standard (AES).",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-hwb",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Popište proces inicializace kontaktní čipové karty.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-hwb",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Popište autentizační faktor. Jaké existují skupiny autentizančích faktorů?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-hwb",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Popište útok postranním kanálem (side-channel attack).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-hwb",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Popište trusted (důvěřovaný) a trustworthy (důvěryhodný) systém.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-hwb",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Co je to generátor pseudonáhodných čísel (PRNG)?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-hwb",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Popište metody biometrické identifikace uživatele.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-hwb",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Popište vestavný systém (embedded system). Uveďte příklady.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-kab",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Co je to kryptologie, kryptografie a kryptoanalýza.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-kab",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Popište exponenciální šifru. Dokažte funkčnost dešifrovacího vztahu.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-kab",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Co je to proudová šifra? Jakou běžně používá transformaci OT?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-kab",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Co je to bloková šifra?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-kab",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Definujte jednosměrnou funkci.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-kab",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Popište kryptosystém veřejného klíče.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-kab",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Co je to čipová karta? Jaký autentizační faktor představuje?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-kab",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Definujte entropii zprávy.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-kab",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Popište kryprografii eliptických křivek (ECC).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-kab",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Vyslovte větu o Čínské větě o zbytcích.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-kab",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Popište podvržení veřejného klíče.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-osy",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Porovnejte hyper-threading a multi-threading.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-osy",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Co je to proces?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-osy",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Co je to uváznutí (deadlock)?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-osy",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Jaké rozlišujeme typy sdílených prostředků?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-osy",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Co je to tabulka procesů, process control block a thread control block?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-osy",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Co je to virtuální adresní prostor (VAS) a jaké obsahuje struktury?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-osy",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Popište strukturu jednoho řádku v invertované tabulce stránek.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-osy",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Popište segmentaci.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-osy",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Popište architekturu HDD.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-osy",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Popište rozložení dat na disku.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-osy",
+      "topic_id": "prednaska-12",
+      "source_id": "anki-prednaska-12-v1",
+      "query": "Co je to virtual file system (VFS)?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-osy",
+      "topic_id": "zakladni-sada-otazek",
+      "source_id": "anki-zakladni-sada-otazek-v1",
+      "query": "Co je to cache hit, cache miss, hit rate, hit time, miss rate a miss penalty?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-psi",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Jak rozdělujeme počítačové sítě?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-psi",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Jaký je účel linkové vrstvy, co je základní přenášenou jednotkou a jaké má podvrstvy?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-psi",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Jaké jsou důvody pro využití virtual local area network (VLAN)?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-psi",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Které druhy komunikačních operací jsou a nejsou podporovány u IPv6?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-psi",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Definujte cestu (ve směrování).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-psi",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Popište port a dělení portů.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-psi",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Co je to resolver, name server a DNS server?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-psi",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Popište firewall.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-psi",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Popište virutal private network (VPN) a jeho využití.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-psi",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Popište a porovnejte protokoly Secure Shell Protocol (SSH) a Telnet.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-psi",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Popište elektromagnetickou vlnu a její parametry.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-psi",
+      "topic_id": "prednaska-12",
+      "source_id": "anki-prednaska-12-v1",
+      "query": "Co je to optická síť?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-psi",
+      "topic_id": "proseminar-01",
+      "source_id": "anki-proseminar-01-v1",
+      "query": "Definujte router (směrovač).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-psi",
+      "topic_id": "proseminar-04",
+      "source_id": "anki-proseminar-04-v1",
+      "query": "Napište vzorec pro výpočet efektivity schématu Stop-and-Wait (jednotlivé potvrzování) pomocí objemu dat.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-pst",
+      "topic_id": "cviceni-06",
+      "source_id": "anki-cviceni-06-v1",
+      "query": "Vyslovte větu o transformaci diskrétní náhodné veličiny.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Vyslovte klasickou definici pravděpodobnosti.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Popište úplný rozklad pravděpodobnosti.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Definujte náhodnou veličinu.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Definujte střední hodnotu spojité náhodné veličiny.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Definujte Bernoulliho (alternativní) rozdělení.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Definujte sdružené rozdělení (náhodný vektor a sdruženou distribuční funkci).",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Vyslovte větu o součtu diskrétních náhodných veličin (diskrétní konvoluci).",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Vyslovte větu o Markovově nerovnosti.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Definujte náhodný výběr.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Definujte interval spolehlivosti, jeho dolní a horní meze a hladinu spolehlivosti.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Popište hypotézu.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-12",
+      "source_id": "anki-prednaska-12-v1",
+      "query": "Popište výběrovou kovarianci.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-sap",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Co je to FPGA?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-sap",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Definujte kombinační obvod. Co je jeho matematickým modelem?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-sap",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Definujte sekvenční obvod. Co je jeho matematickým modelem?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-sap",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Popište obvod majorita.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-sap",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Popište řádovou mřížku a její vlastnosti.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-sap",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Co je to výpujčka, jaký má vztah k přenosu a kdy se používá?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-sap",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Zakreslete schéma pro rozšíření řádové mřížky pro doplňkový kód.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-sap",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Popište instrukční cyklus.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-sap",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Co je to přerušení?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-sap",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Rozdělte pamět podle použítí v počítači.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-sap",
+      "topic_id": "zakladni-sada-otazek",
+      "source_id": "anki-zakladni-sada-otazek-v1",
+      "query": "Zakreslete obecný model sekvečního obvodu.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Popište anténu a její parametry.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Popište základní vrstvy přenosu dat v bezdrátových sítích.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Jaké existují časové stupnice (standary času)?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Popište rozdíly mezi circuit switching a packet switching.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Uveďte příklady metod ochrany paměti.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Popište electronic control unit (ECU).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Popište smart city.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-tab",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Popište artificial intelligence (AI).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-ukb",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Jaký je rozdíl mezi informační a kybernetickou bezpečností?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-ukb",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Definujte hrozbu. Uveďte příklady.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-ukb",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Definujte protokol.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-ukb",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Popište řízení rizik (risk management).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-ukb",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Rozdělte útoky na síťové vrstvě.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-ukb",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Popište secure boot.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-ukb",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Co je to front-end a back-end webové aplikace?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-ukb",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Co je to ZoKB? Kdy vstoupil v platnost?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-ukb",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Co je to Facebook Pixel?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-ukb",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Co je to bezpečný software?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-ukb",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Popište Internet of Things (IoT).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-ukb",
+      "topic_id": "prednaska-12",
+      "source_id": "anki-prednaska-12-v1",
+      "query": "Popište Purdue model pro průmyslové sítě.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "bi-zsb",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "What is system security?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-zsb",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "What is digital forensics?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-zsb",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "What is the difference between an operations incident and a security incident?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-zsb",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "What is a checksum?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-zsb",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "What are computer files and metadata?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-zsb",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Describe a bring your own vulnerable driver (BYOVD) attack.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-zsb",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "How can an operating system be separated into different security domains?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-zsb",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "What is vulnerability management?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-zsb",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Describe primitives for isolation and mediation used in operating systems.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-zsb",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Describe business continuity management (BCM).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-zsb",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Describe disaster recovery.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "bi-zsb",
+      "topic_id": "prednaska-12",
+      "source_id": "anki-prednaska-12-v1",
+      "query": "Describe malware and list examples.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "ni-hwb",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Describe a smart cart. Which authentication factor does it represent?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "ni-hwb",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Describe the origin of the power analysis side-channel attack.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "ni-hwb",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Describe a side-channel attack.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "ni-hwb",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Describe the influence of electronic noise on the power consumption signal.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-kop",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Čím je charakterizován kombinatorický problém?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-kop",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Popište experimentální vyhodnocení algoritmů.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-kop",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Definujte **deterministický Turingův stroj**.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "ni-kop",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Popište \\(\\text X\\)-těžký (\\(\\text X\\)-hard) problém.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-kop",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Definujte pseudopolynomiální algoritmus. Uveďte příklad.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-kop",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Popište princip globálních a lokálních heuristických metod.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-kop",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Popište randomizované algoritmy.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-kop",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Popište metodu úniku z lokálních optim lokálních heuristik a konkrétní metody jejich implementace.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-kop",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Popište genetický algoritmus a jeho obecnou strukturu.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-kop",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Popište evoluční strategii a její obecnou strukturu.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-kop",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Popište schéma, jeho řád a délku.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-kop",
+      "topic_id": "prednaska-12",
+      "source_id": "anki-prednaska-12-v1",
+      "query": "Popište řešitelnost instance komponované globální heuristickou metodou.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-pdp",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Popište paralelní počítač.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-pdp",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Popište progamový model OpenMP a paralelní oblasti.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-pdp",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Čím je charakterizován kombinatorický problém?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "ni-pdp",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Popište klasifikaci paralelizovatelných programů.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-rev",
+      "topic_id": "cviceni-05",
+      "source_id": "anki-cviceni-05-v1",
+      "query": "Popište bázovou třídu (base class) v kontextu run-time type information (RTTI).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-rev",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Popište reverzní inženýrství (reverse engineering).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-rev",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Definujte základní blok (basic block) kódu a control-flow graf (CFG).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-rev",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Popište postup určení velikosti struktury při reverzní analýze.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-rev",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Popište disassemblování lineárním průchodem (linear sweep).",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-rev",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Popište postup pro rozpoznávání kompilátorů.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-rev",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Popište debugger.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-sbf",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Describe the CIA triad.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "ni-sbf",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "List common threat actors and their motivation.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "ni-sbf",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "What is digital forensics?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "ni-sbf",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Describe memory forensics.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-sbf",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Describe data storage layers.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-sbf",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "What are forensic artifacts? List examples.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "ni-sbf",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Describe the difference between authentication and authorization.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "ni-sbf",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Describe the symmetric Needham-Schroeder protocol.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "ni-sbf",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Describe the sources for forensic analysis of a compromised Linux endpoint.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-sib",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "What is the difference between an operations incident and a security incident?",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "ni-sib",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Describe DNS fast flux and double DNS fast flux.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-sib",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Describe port scanning.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "ni-sib",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Describe a covert channel.",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "ni-sib",
+      "topic_id": "zakladni-sada-otazek",
+      "source_id": "anki-zakladni-sada-otazek-v1",
+      "query": "Describe the structure of an IPv4 packet.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "nie-blo",
+      "topic_id": "cviceni-02",
+      "source_id": "anki-cviceni-02-v1",
+      "query": "Describe Ethereum.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "nie-blo",
+      "topic_id": "cviceni-03",
+      "source_id": "anki-cviceni-03-v1",
+      "query": "Describe an Ethereum transaction.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "nie-blo",
+      "topic_id": "cviceni-04",
+      "source_id": "anki-cviceni-04-v1",
+      "query": "Describe the Ethereum virtual machine (EVM).",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "nie-blo",
+      "topic_id": "cviceni-06",
+      "source_id": "anki-cviceni-06-v1",
+      "query": "Describe the reentrancy attack on Ethereum smart contracts.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "nie-blo",
+      "topic_id": "cviceni-07",
+      "source_id": "anki-cviceni-07-v1",
+      "query": "Describe a static analyzer.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "nie-blo",
+      "topic_id": "cviceni-08",
+      "source_id": "anki-cviceni-08-v1",
+      "query": "Describe the sctructure of a security audit of a smart contract.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "nie-blo",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Describe Bitcoin.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "nie-blo",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Describe Ethereum gas.",
+      "locator": "transcript-line:22"
+    },
+    {
+      "subject_id": "nie-blo",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Describe generic blockchain use-case patterns.",
+      "locator": "transcript-line:22"
+    }
+  ]
+}

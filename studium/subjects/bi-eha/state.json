@@ -1,0 +1,4724 @@
+{
+  "schema_version": 1,
+  "subject_id": "bi-eha",
+  "name": "BI-EHA",
+  "goals": [
+    "Porozumět obsahu balíčku BI-EHA, vysvětlovat odpovědi a samostatně řešit jeho otázky a úlohy."
+  ],
+  "created_at": "2026-10-17T14:26:40.530398+00:00",
+  "topics": {
+    "prednaska-01": {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-01",
+      "title": "Přednáška 01",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 01“ předmětu BI-EHA."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-02": {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-02",
+      "title": "Přednáška 02",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 02“ předmětu BI-EHA."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-03": {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-03",
+      "title": "Přednáška 03",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 03“ předmětu BI-EHA."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-04": {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-04",
+      "title": "Přednáška 04",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 04“ předmětu BI-EHA."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-05": {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-05",
+      "title": "Přednáška 05",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 05“ předmětu BI-EHA."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-06": {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-06",
+      "title": "Přednáška 06",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 06“ předmětu BI-EHA."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-07": {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-07",
+      "title": "Přednáška 07",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 07“ předmětu BI-EHA."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-08": {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-08",
+      "title": "Přednáška 08",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 08“ předmětu BI-EHA."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-09": {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-09",
+      "title": "Přednáška 09",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 09“ předmětu BI-EHA."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-10": {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-10",
+      "title": "Přednáška 10",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 10“ předmětu BI-EHA."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-11": {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-11",
+      "title": "Přednáška 11",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 11“ předmětu BI-EHA."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-12": {
+      "subject_id": "bi-eha",
+      "topic_id": "prednaska-12",
+      "title": "Přednáška 12",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 12“ předmětu BI-EHA."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "zakladni-sada-otazek": {
+      "subject_id": "bi-eha",
+      "topic_id": "zakladni-sada-otazek",
+      "title": "Základní sada otázek",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Základní sada otázek“ předmětu BI-EHA."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    }
+  },
+  "sources": {
+    "anki-prednaska-01-v1": {
+      "subject_id": "bi-eha",
+      "source_id": "anki-prednaska-01-v1",
+      "title": "FIT ČVUT Anki – BI-EHA – Přednáška 01",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-eha/anki-prednaska-01-v1/anki-prednaska-01-v1.zip",
+      "file": "sources/anki-prednaska-01-v1/anki-prednaska-01-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "5b90254852a14da3f3f74da90338e5fde9df9b048c77c307f843d83b1ebef4b4",
+      "topic_ids": [
+        "prednaska-01"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg, SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-EHA – Přednáška 01"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg; APKG SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 5c983498accbbf883eb18eb0e5351b8f14653c14dcca6e88ff363b189b4adf5b."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-EHA"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 22 poznámek, 22 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1677241820084"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1677241820085"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: <*DLCe9v0; štítky: bi-eha::p01 bi-ib::07 bi-ib::14 bi-ib::26."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "What is a threat? Give examples."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "A threat is a circumstance or an event with the potential to negatively impact organizational operations, assets, or individuals via unauthorized access, destruction, disclosure or other methods. This includes malware, spyware or asset damage."
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "## Poznámka Anki 1677241886047"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Karty Anki: 1677241886047"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "GUID: rT+(^7trMY; štítky: bi-eha::p01 bi-ib::07 bi-ib::14."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "What is an attack vector? List examples."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "An attack vector is a path, method, or scenario that can be exploited to penetrate a target system. This includes open ports, running services, unprotected interfaces, etc."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "## Poznámka Anki 1677241946037"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Karty Anki: 1677241946037"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "GUID: FDl`J7w$f$; štítky: bi-eha::p01 bi-ib::07 bi-ib::14."
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "What is an attack surface?"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "An attack surface is a set of points (attack vectors) on the boundary of a system where an attacker might try to penetrate the system."
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "## Poznámka Anki 1677242013816"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "Karty Anki: 1677242013816"
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "GUID: w76_tV)KT|; štítky: bi-eha::p01 bi-ib::07 bi-ib::14 bi-ib::15 bi-ib::26."
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "What is a vulnerability? Give examples."
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "A vulnerability is a weakness that can be exploited by a threat. This includes improper input validation, weak passwords, or security misconfiguration."
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "## Poznámka Anki 1677242123292"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "Karty Anki: 1677242123292"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "GUID: O}{PCMDw8W; štítky: bi-eha::p01 bi-ib::07 bi-ib::14 bi-ib::26."
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "What is an exploit?"
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "An exploit is a piece of software, data, or a sequence of commands that takes advantage of a vulnerability."
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "## Poznámka Anki 1677242263226"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "Karty Anki: 1677242263226"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "GUID: jUoDzMMg>Z; štítky: bi-eha::p01 bi-ib::07 bi-ib::14 bi-ib::15 bi-ib::26."
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "What is a zero-day vulnerability?"
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "A zero-day vulnerability is a recent vulnerability that was discovered by the attackers before the vendor of the vulnerable product has become aware of it."
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "## Poznámka Anki 1677242451975"
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "Karty Anki: 1677242451975"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "GUID: IQ+[Ex7[D&; štítky: bi-eha::p01 bi-ib::14."
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": "What are the differenes between black, white, and grey box testing?"
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "These testing approaches differ in the degree of knowledge of the internal structure of the tested system:"
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "- **black box testing** - no knowledge,"
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "- **white box testing** - complete knowledge,"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "- **gray box testing** - partial or otherwise limited knowledge."
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "## Poznámka Anki 1677243118336"
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "Karty Anki: 1677243118336"
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "GUID: MzVTPXuA}f; štítky: bi-eha::p01 bi-ib::14."
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "What penetration testing methodologies and standards are there?"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "The most used commonly used methodologies include:"
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "- **Penetration Test Execution Standard** (PTES) - general and widely used,"
+        },
+        {
+          "locator": "transcript-line:125",
+          "text": "- **Open Web Application Security Project** (OWASP) - oriented towards web and web applications,"
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "- **National Institute of Standards and Technology** (NIST) - oriented towards critical infrastructure."
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "## Poznámka Anki 1677243721663"
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "Karty Anki: 1677243721663"
+        },
+        {
+          "locator": "transcript-line:132",
+          "text": "GUID: KH!Nq`>~pK; štítky: bi-eha::p01 bi-ib::14."
+        },
+        {
+          "locator": "transcript-line:134",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:136",
+          "text": "Describe the Penetration Test Execution Standard (PTES)."
+        },
+        {
+          "locator": "transcript-line:138",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:140",
+          "text": "The Penetration Test Execution Standard (PTES) is a framework that outlines a structure of a penetration test. It consists of the following phases:"
+        },
+        {
+          "locator": "transcript-line:142",
+          "text": "- pre-engagement interactions,"
+        },
+        {
+          "locator": "transcript-line:143",
+          "text": "- intelligence gathering,"
+        },
+        {
+          "locator": "transcript-line:144",
+          "text": "- threat modeling,"
+        },
+        {
+          "locator": "transcript-line:146",
+          "text": "- vulnerability analysis,"
+        },
+        {
+          "locator": "transcript-line:148",
+          "text": "- exploitation,"
+        },
+        {
+          "locator": "transcript-line:149",
+          "text": "- post-exploitation,"
+        },
+        {
+          "locator": "transcript-line:150",
+          "text": "- reporting."
+        },
+        {
+          "locator": "transcript-line:152",
+          "text": "## Poznámka Anki 1685701489938"
+        },
+        {
+          "locator": "transcript-line:154",
+          "text": "Karty Anki: 1685701489938"
+        },
+        {
+          "locator": "transcript-line:155",
+          "text": "GUID: opj(>=J>]5; štítky: bi-eha::p01 bi-ib::14."
+        },
+        {
+          "locator": "transcript-line:157",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:159",
+          "text": "What is penetration testing?"
+        },
+        {
+          "locator": "transcript-line:161",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:163",
+          "text": "Penetration testing (pentesting) is a subset of ethical hacking. Its objective is to assess the security of a computer system by simulating a real-world attack. A penetration tester is typically specialized in a certain area (web, cloud, mobile applications, etc.). The outcome of a penetration test is usually a penetration test report."
+        },
+        {
+          "locator": "transcript-line:165",
+          "text": "## Poznámka Anki 1685701718060"
+        },
+        {
+          "locator": "transcript-line:167",
+          "text": "Karty Anki: 1685701718060"
+        },
+        {
+          "locator": "transcript-line:168",
+          "text": "GUID: dck:ei|gH=; štítky: bi-eha::p01 bi-ib::14."
+        },
+        {
+          "locator": "transcript-line:170",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:172",
+          "text": "What is ethical hacking?"
+        },
+        {
+          "locator": "transcript-line:174",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:176",
+          "text": "Ethical hacking is an umbrella term that refers to the practice of intentionally circumventing security measures of a computer system in order to identify security flaws. Ethical hackers usually have a broader area of knowledge and aren't necessarily specialized in one certain field."
+        },
+        {
+          "locator": "transcript-line:178",
+          "text": "## Poznámka Anki 1685702032655"
+        },
+        {
+          "locator": "transcript-line:180",
+          "text": "Karty Anki: 1685702032655"
+        },
+        {
+          "locator": "transcript-line:181",
+          "text": "GUID: pM(vFc?gz3; štítky: bi-eha::p01 bi-ib::14."
+        },
+        {
+          "locator": "transcript-line:183",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:185",
+          "text": "What is bug bounty hunting?"
+        },
+        {
+          "locator": "transcript-line:187",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:189",
+          "text": "Bug bounty hunting is a subset of ethical hacking where independent individuals (bug bounty hunters) proactively search for security flaws in comupter systems. Organisations usually offer bug bounty programs which provide the hunters with monetary rewards for the disclosure of discovered security flaws."
+        },
+        {
+          "locator": "transcript-line:191",
+          "text": "## Poznámka Anki 1685702577072"
+        },
+        {
+          "locator": "transcript-line:193",
+          "text": "Karty Anki: 1685702577073"
+        },
+        {
+          "locator": "transcript-line:194",
+          "text": "GUID: lx2s1{(:{f; štítky: bi-eha::p01."
+        },
+        {
+          "locator": "transcript-line:196",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:198",
+          "text": "Describe a black hat hacker."
+        },
+        {
+          "locator": "transcript-line:200",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:202",
+          "text": "A black hat hacker is a cybercriminal that uses their skills in illegal activities with malicous intent. They operate without the consent of the owner of the system they hack into, with the goal to exploit security flaws for personal gain, such as financial profit, information disclosure, or disruption."
+        },
+        {
+          "locator": "transcript-line:204",
+          "text": "## Poznámka Anki 1685702757903"
+        },
+        {
+          "locator": "transcript-line:206",
+          "text": "Karty Anki: 1685702757903"
+        },
+        {
+          "locator": "transcript-line:207",
+          "text": "GUID: y(}km%i`{]; štítky: bi-eha::p01."
+        },
+        {
+          "locator": "transcript-line:209",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:211",
+          "text": "Describe a white hat hacker."
+        },
+        {
+          "locator": "transcript-line:213",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:215",
+          "text": "A white hat hacker is an ethical hacker that uses their skills in legal and legitimate activities. They operate with the consent of the owner of the system they hack into, with the goal to improve its security by disclosing any discovered security flaws."
+        },
+        {
+          "locator": "transcript-line:217",
+          "text": "## Poznámka Anki 1685703177148"
+        },
+        {
+          "locator": "transcript-line:219",
+          "text": "Karty Anki: 1685703177148"
+        },
+        {
+          "locator": "transcript-line:220",
+          "text": "GUID: x1ef]MX`vH; štítky: bi-eha::p01."
+        },
+        {
+          "locator": "transcript-line:222",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:224",
+          "text": "Describe a grey hat hacker."
+        },
+        {
+          "locator": "transcript-line:226",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:228",
+          "text": "A grey hat hacker is a hacker that uses their skills in both legal and illegal activities often without any malicious intent. They operate without the consent of the owner of the system they hack into; however, rather than exploiting discovered security flaws for personal gain, they disclose them. The activities of a grey hat hacker may violate legal or ethical standards."
+        },
+        {
+          "locator": "transcript-line:230",
+          "text": "## Poznámka Anki 1717850672476"
+        },
+        {
+          "locator": "transcript-line:232",
+          "text": "Karty Anki: 1717850672476"
+        },
+        {
+          "locator": "transcript-line:233",
+          "text": "GUID: Dhj{)P{5P`; štítky: bi-eha::p01 bi-ib::14."
+        },
+        {
+          "locator": "transcript-line:235",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:237",
+          "text": "Describe the pre-engagement interactions phase of the Penetration Test Execution Standard (PTES)."
+        },
+        {
+          "locator": "transcript-line:239",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:241",
+          "text": "The pre-engagement interactions phase of the Penetration Test Execution Standard (PTES) focuses on preparing for the penetration test. This includes:"
+        },
+        {
+          "locator": "transcript-line:243",
+          "text": "- determining scope,"
+        },
+        {
+          "locator": "transcript-line:244",
+          "text": "- setting objectives,"
+        },
+        {
+          "locator": "transcript-line:245",
+          "text": "- establishing rules of engagement."
+        },
+        {
+          "locator": "transcript-line:247",
+          "text": "## Poznámka Anki 1717851004912"
+        },
+        {
+          "locator": "transcript-line:249",
+          "text": "Karty Anki: 1717851004912"
+        },
+        {
+          "locator": "transcript-line:250",
+          "text": "GUID: Q!/r&HU-#>; štítky: bi-eha::p01 bi-ib::14."
+        },
+        {
+          "locator": "transcript-line:252",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:254",
+          "text": "Describe the intelligence gathering phase of the Penetration Test Execution Standard (PTES)."
+        },
+        {
+          "locator": "transcript-line:256",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:258",
+          "text": "The intelligence gathering phase of the Penetration Test Execution Standard (PTES) focuses on collecting as much information about the target as possible and producing a plan for the penetration test. This includes:"
+        },
+        {
+          "locator": "transcript-line:260",
+          "text": "- open-source intelligence,"
+        },
+        {
+          "locator": "transcript-line:261",
+          "text": "- covert gathering,"
+        },
+        {
+          "locator": "transcript-line:262",
+          "text": "- infrastructure fingerprinting."
+        },
+        {
+          "locator": "transcript-line:264",
+          "text": "This phase can use both active and passive approaches based on the format of the penetration test."
+        },
+        {
+          "locator": "transcript-line:266",
+          "text": "## Poznámka Anki 1717851283359"
+        },
+        {
+          "locator": "transcript-line:268",
+          "text": "Karty Anki: 1717851283359"
+        },
+        {
+          "locator": "transcript-line:269",
+          "text": "GUID: Q@0IEIGf]G; štítky: bi-eha::p01 bi-ib::14."
+        },
+        {
+          "locator": "transcript-line:271",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:273",
+          "text": "Describe the threat modelling phase of the Penetration Test Execution Standard (PTES)."
+        },
+        {
+          "locator": "transcript-line:275",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:277",
+          "text": "The threat modelling phase of the Penetration Test Execution Standard (PTES) focuses on creating a high-level overview using the gathered information to identify potential threats and vulnerabilities. This includes:"
+        },
+        {
+          "locator": "transcript-line:279",
+          "text": "- business asset analysis,"
+        },
+        {
+          "locator": "transcript-line:280",
+          "text": "- business process analysis,"
+        },
+        {
+          "locator": "transcript-line:281",
+          "text": "- construction of a threat model."
+        },
+        {
+          "locator": "transcript-line:283",
+          "text": "## Poznámka Anki 1717851807482"
+        },
+        {
+          "locator": "transcript-line:285",
+          "text": "Karty Anki: 1717851807482"
+        },
+        {
+          "locator": "transcript-line:286",
+          "text": "GUID: ArNUO@xaW%; štítky: bi-eha::p01 bi-ib::14."
+        },
+        {
+          "locator": "transcript-line:288",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:290",
+          "text": "Describe the vulnerability analysis phase of the Penetration Test Execution Standard (PTES)."
+        },
+        {
+          "locator": "transcript-line:292",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:294",
+          "text": "The vulnerability analysis phase of the Penetration Test Execution Standard (PTES) focuses on identifying vulnerabilities within the target system. This includes:"
+        },
+        {
+          "locator": "transcript-line:296",
+          "text": "- banner grabbing,"
+        },
+        {
+          "locator": "transcript-line:297",
+          "text": "- port scanning,"
+        },
+        {
+          "locator": "transcript-line:298",
+          "text": "- searching vulnerability databases."
+        },
+        {
+          "locator": "transcript-line:300",
+          "text": "This phase can use active, passive, automated, and manual approaches based on the format of the penetration test."
+        },
+        {
+          "locator": "transcript-line:302",
+          "text": "## Poznámka Anki 1717852010279"
+        },
+        {
+          "locator": "transcript-line:304",
+          "text": "Karty Anki: 1717852010279"
+        },
+        {
+          "locator": "transcript-line:305",
+          "text": "GUID: wb/}Ty3t0c; štítky: bi-eha::p01 bi-ib::14."
+        },
+        {
+          "locator": "transcript-line:307",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:309",
+          "text": "Describe the exploitation phase of the Penetration Test Execution Standard (PTES)."
+        },
+        {
+          "locator": "transcript-line:311",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:313",
+          "text": "The exploitation phase of the Penetration Test Execution Standard (PTES) focuses on attempting to exploit the identified vulnerabilities to confirm their existence and demonstrate their impact. This includes:"
+        },
+        {
+          "locator": "transcript-line:315",
+          "text": "- exploit customization,"
+        },
+        {
+          "locator": "transcript-line:316",
+          "text": "- reverse engineering,"
+        },
+        {
+          "locator": "transcript-line:317",
+          "text": "- zero-day approach."
+        },
+        {
+          "locator": "transcript-line:319",
+          "text": "## Poznámka Anki 1717852263653"
+        },
+        {
+          "locator": "transcript-line:321",
+          "text": "Karty Anki: 1717852263653"
+        },
+        {
+          "locator": "transcript-line:322",
+          "text": "GUID: P[fBTTNsaU; štítky: bi-eha::p01 bi-ib::14."
+        },
+        {
+          "locator": "transcript-line:324",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:326",
+          "text": "Describe the post-exploitation phase of the Penetration Test Execution Standard (PTES)."
+        },
+        {
+          "locator": "transcript-line:328",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:330",
+          "text": "The intelligence gathering phase of the Penetration Test Execution Standard (PTES) focuses on exploring the compromised environment and pivoting to other systems. This includes:"
+        },
+        {
+          "locator": "transcript-line:332",
+          "text": "- establishment of persistence,"
+        },
+        {
+          "locator": "transcript-line:333",
+          "text": "- data exfiltration,"
+        },
+        {
+          "locator": "transcript-line:334",
+          "text": "- cleanup."
+        },
+        {
+          "locator": "transcript-line:336",
+          "text": "## Poznámka Anki 1717852398891"
+        },
+        {
+          "locator": "transcript-line:338",
+          "text": "Karty Anki: 1717852398891"
+        },
+        {
+          "locator": "transcript-line:339",
+          "text": "GUID: cRZw&)u%5c; štítky: bi-eha::p01 bi-ib::14."
+        },
+        {
+          "locator": "transcript-line:341",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:343",
+          "text": "Describe the reporting phase of the Penetration Test Execution Standard (PTES)."
+        },
+        {
+          "locator": "transcript-line:345",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:347",
+          "text": "The reporting phase of the Penetration Test Execution Standard (PTES) focuses on documenting the results of the penetration test and providing recommendations. The outcome of this phase is:"
+        },
+        {
+          "locator": "transcript-line:349",
+          "text": "- **executive summary** - high-level summarization for executives,"
+        },
+        {
+          "locator": "transcript-line:351",
+          "text": "- **technical report** - detailed report including exploitation steps and remediation recommendations."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.657897+00:00",
+      "transcript_file": "sources/anki-prednaska-01-v1/transcript/anki-prednaska-01-v1.md",
+      "transcript_sha256": "d14351dcbfc0af3457b012f4709423172ae6fdc68642db058c6397304af61010"
+    },
+    "anki-prednaska-02-v1": {
+      "subject_id": "bi-eha",
+      "source_id": "anki-prednaska-02-v1",
+      "title": "FIT ČVUT Anki – BI-EHA – Přednáška 02",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-eha/anki-prednaska-02-v1/anki-prednaska-02-v1.zip",
+      "file": "sources/anki-prednaska-02-v1/anki-prednaska-02-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "eb0043812fefddee7c9f78929cc416936f8825115a1e111f8d6ccd50bfbd9b8b",
+      "topic_ids": [
+        "prednaska-02"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg, SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-EHA – Přednáška 02"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg; APKG SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 5c983498accbbf883eb18eb0e5351b8f14653c14dcca6e88ff363b189b4adf5b."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-EHA"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 7 poznámek, 7 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1677836344306"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1677836344306"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: kVuAQTMNe/; štítky: bi-eha::p02 bi-ib::11 bi-ib::21."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "What is the difference between a packet sniffer and a packet analyzer?"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "A **packet sniffer** only captures and records all selected packets that pass through the network. Whereas **packet analyzer **decodes, processes and analyses the captured packets and structures them into human readable format."
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "## Poznámka Anki 1677836549425"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Karty Anki: 1677836549425"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "GUID: jJZ6oa_C~;; štítky: bi-eha::p02 bi-ib::11 bi-ib::21."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "What is ARP spoofing? How can it be mitigated?"
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "ARP spoofing (ARP cache poisoning or ARP poison routing) is an attack with the goal to associate the attacker's MAC address with the IP address of another host. The attack usually goes as follows:"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "- The attacker monitors the network for ARP requests."
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "- Once the attacker detects an ARP request, they generate an ARP reply with their own MAC address."
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "- The victim updates their ARP cache with the attacker's MAC address, associating it with the targeted IP."
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "ARP spoofing can be mitigated using the following methods:"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "- tools to detect ARP spoofing such as an IDS or IPS,"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "- static ARP entries,"
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "- ARP filtering."
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "## Poznámka Anki 1677836640030"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "Karty Anki: 1677836640030"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "GUID: AS(AdXgh5c; štítky: bi-eha::p02 bi-ib::11 bi-ib::21."
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "What is MAC flooding? How can it be mitigated?"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "MAC flooding is an attack aimed at network switches. The attack usually goes as follows:"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "- The attacker feeds the switch a large amount of frames with different MAC addresses causing its MAC table to fill up forcing out legitimate records."
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "- The switch has to resort to broadcasting frames to all its interfaces in order to relearn the forced-out records of its MAC table."
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "- The attacker may use a packet analyzer to capture the data being transmitted."
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "MAC flooding can usually be mitigated using port-based network access control (802.1X)."
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "## Poznámka Anki 1677844866733"
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "Karty Anki: 1677844866733"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "GUID: qX_6xN-1il; štítky: bi-eha::p02 bi-ib::11 bi-ib::21 bi-spol::25."
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "What is DNS spoofing? How can it be mitigated?"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "DNS spoofing is a group of attacks with the goal to associate a domain name with an IP address injected by the attacker. One of the ways to carry out a DNS spoofing attack is using a MITM approach:"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "- The attacker monitors the network for DNS requests."
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "- Once the attacker detects a DNS query, they generate a DNS reply with an altered IP address."
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "- On the victims machine, the DNS query gets resolved to the IP address injected by the attacker."
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "DNS spoofing attacks can be usually mitigated using DNSSEC."
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "## Poznámka Anki 1685709781052"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "Karty Anki: 1685709781069"
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "GUID: gI${@_7Epn; štítky: bi-eha::p02 bi-ib::11 bi-ib::21."
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "What are the differences between packet sniffing on an interface, hub, or switch?"
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": "Sniffing on an **interface** is usually used to analyse network activity of a single device. Traffic that is directed towards other network nodes won't be caputured using this method. However, a packet sniffer attached to a **hub **will be able to capture all packets passing through it, since a hub replicates inbound data to all ports. If a packet sniffer is attached to a **switch**, it'll only be able to capture data in the corresponding network node."
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "## Poznámka Anki 1685709996319"
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "Karty Anki: 1685709996319"
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "GUID: qonIPB/m[j; štítky: bi-eha::p02 bi-ib::11 bi-ib::21."
+        },
+        {
+          "locator": "transcript-line:105",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:107",
+          "text": "What is promiscuous mode?"
+        },
+        {
+          "locator": "transcript-line:109",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "Promiscuous mode is a mode of the network interface controller (NIC) that causes the controller to pass all traffic it receives to the OS, rather than only the traffic that is specifically addressed to it."
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "## Poznámka Anki 1685712316891"
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "Karty Anki: 1685712316891"
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "GUID: vu5`nGG^8b; štítky: bi-eha::p02 bi-ib::11 bi-ib::21 bi-spol::25."
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "What is DNS cache poisoning?"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "DNS cache poisoning is a form of DNS spoofing. This attack can be carried out as follows:"
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "- The attacker issues a request to a DNS resolver for a domain."
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "- The attacker forges a response from the authoritative nameserver of this domain and injects an arbitrary IP address."
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "- The DNS server saves the association into its cache and serves it to other clients."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.678679+00:00",
+      "transcript_file": "sources/anki-prednaska-02-v1/transcript/anki-prednaska-02-v1.md",
+      "transcript_sha256": "49c380a7e5d0e3ecc0ef4b3ede243511ad272b8ac14d2f555e3fd79261bcf13b"
+    },
+    "anki-prednaska-03-v1": {
+      "subject_id": "bi-eha",
+      "source_id": "anki-prednaska-03-v1",
+      "title": "FIT ČVUT Anki – BI-EHA – Přednáška 03",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-eha/anki-prednaska-03-v1/anki-prednaska-03-v1.zip",
+      "file": "sources/anki-prednaska-03-v1/anki-prednaska-03-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "0713581dc6adf0d1d5ca7c49a813a7d11787e516a658a88abe8ecb043b2ef6dc",
+      "topic_ids": [
+        "prednaska-03"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg, SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-EHA – Přednáška 03"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg; APKG SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 5c983498accbbf883eb18eb0e5351b8f14653c14dcca6e88ff363b189b4adf5b."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-EHA"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 8 poznámek, 8 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1678438293028"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1678438293028"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: EkJV|oz#vB; štítky: bi-eha::p03."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "What is the difference between the \\(\\mathtt{GET}\\) and \\(\\mathtt{POST}\\) HTTP methods? What other HTTP methods are there?"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "The \\(\\mathtt{GET}\\) method is used to request data from the server and shouldn't change its state. The \\(\\mathtt{POST}\\) method on the other hand, is used for creating, updating, or deleting a resource on the server. Other HTTP methods include \\(\\mathtt{HEAD}\\), \\(\\mathtt{PUT}\\), or \\(\\mathtt{DELETE}\\)."
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "## Poznámka Anki 1678438591626"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Karty Anki: 1678438591627"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "GUID: mo;Obgvo]h; štítky: bi-eha::p03 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "What is same-origin policy (SOP)?"
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Same-origin policy is a web browser policy that permits scripts contained in a first web page to access data in a second web page, but only if both web pages have the same origin. Origin is defined as a combination of the URL scheme, host name and port number."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "## Poznámka Anki 1678441235041"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Karty Anki: 1678441235041"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "GUID: w_5Yt2kHYA; štítky: bi-eha::p03 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "What is session management? How does it work in HTTP?"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "Session management is the process of securely handling multiple requests to web-based applications from a single user. Because HTTP is a stateless protocol, session management is usually done using a session identifier or token."
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "## Poznámka Anki 1678450087561"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "Karty Anki: 1678450087561"
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "GUID: B~x9wSz~0<; štítky: bi-eha::p03 bi-ib::10 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "What is cross-site request forgery (CSRF)? How can it be mitigated?"
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "Cross-site request forgery is an attack that forces an user to execute unwanted actions on a web application in which they're currently authenticated. CSRF can usually be mitigated using the following methods:"
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "- CSRF token - secret unique token is embedded to every form, an attacker cannot reliably predict this token;"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "- \\(\\mathtt{SameSite}\\) cookie atribute - prevents sending cookies along with the unwanted requests;"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "- verification of the origin header."
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "## Poznámka Anki 1685712836843"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "Karty Anki: 1685712836843"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "GUID: F7%t6u$fWP; štítky: bi-eha::p03 bi-ib::12."
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "What is Server Name Indication (SNI)?"
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "Server Name Indication is an extension of the TLS protocol, that allows a client to indicate which hostname they are attempting to connect to at the start of the handshake process. This way the server can present one of many possible certificates on the same IP address and port, allowing multiple HTTPS websites to be served on the same IP address."
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "## Poznámka Anki 1685713991202"
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "Karty Anki: 1685713991202"
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "GUID: J/M.;T|LVz; štítky: bi-eha::p03 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "What is a Uniform Resource Locator (URL)? Describe its structure."
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "A Uniform Resource Locator (URL) is a reference to a web resource that specifies its location and a mechanism for retreiving it. It has the following structure:"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "\\[\\underbrace{\\mathtt{http}}_\\text{scheme}"
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "\\, \\mathtt{://} \\,"
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "\\underbrace{"
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": "\t\\underbrace{\\mathtt{name:pass}}_\\text{user info} "
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "\t\\, \\mathtt @ \\, "
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "\t\\underbrace{\\mathtt{example.com}}_\\text{host}"
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "\t\\mathtt :"
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "\t\\underbrace{\\mathtt{80}}_\\text{port}"
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "}_\\text{authority}"
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "\\mathtt / \\,"
+        },
+        {
+          "locator": "transcript-line:105",
+          "text": "\\underbrace{\\mathtt{index.php}}_\\text{path}"
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "\\, \\mathtt ? \\,"
+        },
+        {
+          "locator": "transcript-line:107",
+          "text": "\\underbrace{\\mathtt{par1=val1\\&par2=val2}}_\\text{query}"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "\\, \\mathtt \\#"
+        },
+        {
+          "locator": "transcript-line:109",
+          "text": "\\underbrace{\\mathtt{home}}_\\text{fragment}\\]"
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "## Poznámka Anki 1685714855156"
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "Karty Anki: 1685714855156"
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "GUID: JYdIMizsv}; štítky: bi-eha::p03 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "What is cross-origin resource sharing (CORS)?"
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "Cross-origin resource sharing (CORS) is an HTTP-header-based mechanism that allows a server to indicate origins from which a web browser should permit loading resources. This introduces flexibility to the same-origin policy."
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "## Poznámka Anki 1717947693840"
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "Karty Anki: 1717947693840"
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "GUID: g,_32Qa9|K; štítky: bi-eha::p03 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "Describe insecure direct object references (IDOR)."
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "Insecure direct object references (IDOR) is a type of access control vulnerability that arises when a web application uses an identifier for direct access to an object but does not check for access control or authentication. For example the URL"
+        },
+        {
+          "locator": "transcript-line:136",
+          "text": "\\[\\texttt{https://example.com/static/121.txt}\\]suggests that access to other files may be possible by incrementing the number contained in the filename."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.699791+00:00",
+      "transcript_file": "sources/anki-prednaska-03-v1/transcript/anki-prednaska-03-v1.md",
+      "transcript_sha256": "e513f448baa33ecf55050374020957113f06280bce113a081de63faaae7ebf47"
+    },
+    "anki-prednaska-04-v1": {
+      "subject_id": "bi-eha",
+      "source_id": "anki-prednaska-04-v1",
+      "title": "FIT ČVUT Anki – BI-EHA – Přednáška 04",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-eha/anki-prednaska-04-v1/anki-prednaska-04-v1.zip",
+      "file": "sources/anki-prednaska-04-v1/anki-prednaska-04-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "54d5258e70e7c6f0931a90d8f0864489c9bf91b931591c40999967df4433538a",
+      "topic_ids": [
+        "prednaska-04"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg, SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-EHA – Přednáška 04"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg; APKG SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 5c983498accbbf883eb18eb0e5351b8f14653c14dcca6e88ff363b189b4adf5b."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-EHA"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 6 poznámek, 6 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1679041663589"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1679041663589"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: qy,a1):b,z; štítky: bi-eha::p04 bi-ib::10 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Describe cross-site scripting (XSS). What types are there? How can it be mitigated?"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Cross-site scripting (XSS) attacks are a type of injection attack in which"
+        },
+        {
+          "locator": "transcript-line:25",
+          "text": "malicious scripts are injected into otherwise trusted"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "websites. We discern:"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "- reflected XSS,"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "- stored XSS,"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "- DOM-based XSS."
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "XSS can usually be mitigated using the following methods:"
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "- escaping dangerous characters,"
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "- encoding data on output,"
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "- allow-listing only selected tags and attributes,"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "- using Content Security Policy (CSP) and other HTTP headers."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "## Poznámka Anki 1679042136640"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Karty Anki: 1679042136640"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "GUID: C9^[[*7qGP; štítky: bi-eha::p04 bi-ib::10 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "Describe stored (persistent) cross-site scripting (XSS)."
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "Stored (persistent) cross-site scripting (XSS) attack is an XSS attack where the injected script is permanently stored on the target server, such as in a database, message forum, visitor log, or comment field. The malicious script gets exectuted when a victim retireves the stored data."
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "## Poznámka Anki 1679042410701"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "Karty Anki: 1679042410701"
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "GUID: O9+KB+$!Ke; štítky: bi-eha::p04 bi-ib::10 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "Describe reflected (non-persistent) cross-site scripting (XSS)."
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "Reflected (non-persistent) cross-site scripting (XSS) attack is an XSS attack where the injected script is reflected off the web server, such as in an error message, search result, loaded image, or any other response that includes or is influenced by user input sent to the server."
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "## Poznámka Anki 1679043354962"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "Karty Anki: 1679043354962"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "GUID: nfR={Gs45g; štítky: bi-eha::p04 bi-ib::10 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "Describe DOM-based cross-site scripting (XSS)."
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "DOM-based cross-site scripting (XSS) attack is an XSS attack, where the payload is executed as a result of modifying the DOM environment in the victim's browser. It typically arises when unvalidated input is passed to JavaScript functions that either support dynamic code execution (i.e. \\(\\texttt{eval}\\)) or write their results back into the DOM (i.e. the \\(\\texttt{innerHTML}\\) attribute)."
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "## Poznámka Anki 1685718558404"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "Karty Anki: 1685718558404"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "GUID: hJF~v|ySmR; štítky: bi-eha::p04 bi-ib::10 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "Describe SQL injection. How can it be mitigated?"
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "SQL injection is a type of injection attack in which malicious SQL queries are entered into an application and executed on the underlying database server as a result of improper input validation. This attack can be usually mitigated using the following methods:"
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "- principle of least privilege,"
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "- input validation,"
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "- escaping of characters that could disrupt the structure of the SQL query,"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "- parameterized (prepared) statements,"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "- specialized tools (\\(\\texttt{sqlmap}\\), application firewall)."
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "## Poznámka Anki 1717686773067"
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "Karty Anki: 1717686773067"
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "GUID: KgLmxrqo4.; štítky: bi-eha::p04 bi-ib::10 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "Describe command injection."
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "Command injection is a type of injection attack in which malicious shell commands are entered into an application and executed by the operating system as a result of improper input validation. This attack can be usually mitigated using the following methods:"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "- input validation,"
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "- allow-listing permitted values."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.722330+00:00",
+      "transcript_file": "sources/anki-prednaska-04-v1/transcript/anki-prednaska-04-v1.md",
+      "transcript_sha256": "a8a1bdbe810b82dbefcf9969f9b1c563ce6e6d8a2fa3748af3bc931096248820"
+    },
+    "anki-prednaska-05-v1": {
+      "subject_id": "bi-eha",
+      "source_id": "anki-prednaska-05-v1",
+      "title": "FIT ČVUT Anki – BI-EHA – Přednáška 05",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-eha/anki-prednaska-05-v1/anki-prednaska-05-v1.zip",
+      "file": "sources/anki-prednaska-05-v1/anki-prednaska-05-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "34fbd7fb2e4e3281a4adea96753d4301523415819ffa96414ea9ba9bc2105473",
+      "topic_ids": [
+        "prednaska-05"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg, SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-EHA – Přednáška 05"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg; APKG SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 5c983498accbbf883eb18eb0e5351b8f14653c14dcca6e88ff363b189b4adf5b."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-EHA"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 10 poznámek, 10 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1680250594824"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1680250594824"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: uc28:GY3Wz; štítky: bi-eha::p05 bi-ib::10 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "What is a server-side request forgery (SSRF) attack? How can it be mitigated?"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Server-side request forgery (SSRF) attack is an attack where the attacker can abuse"
+        },
+        {
+          "locator": "transcript-line:25",
+          "text": "functionality on the server to read or update internal resources that weren't otherwise publicly available, or execute requests to arbitrary locations. SSRF can usually be mitigated using the following methods:"
+        },
+        {
+          "locator": "transcript-line:27",
+          "text": "- limit the network access of the server (using a firewall),"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "- principle of least privilege,"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "- input validation."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "## Poznámka Anki 1680250818203"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Karty Anki: 1680250818203"
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "GUID: g?)EsWk$41; štítky: bi-eha::p05 bi-ib::10 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:38",
+          "text": "Describe XML external entity (XXE) attack."
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "XML external entity (XXE) attack is a type of injection attack. This attack occurs when XML input containing a reference to an external entity is processed by a weakly configured parser. This may lead to information disclosure, DoS, or SSRF."
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "## Poznámka Anki 1685719951110"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "Karty Anki: 1685719951110"
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "GUID: +Rw;q%`WW; štítky: bi-eha::p05."
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "Metadata původního zdroje pro kartu 1685719951110: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "What is a file inclusion attack? How can it be mitigated?"
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "A file inclusion attack is an attack targeted at applications that internally operate with files that can be selected using unvalidated user input. We discern:"
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "- **local file inclusion** (LFI) - the attacker executes or displays a locally available file (typically leads to information disclosure),"
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "- **remote file inclusion** (RFI) - the attacker executes or displays a file that isn't availabe on the vulnerable machine, instead, it may be hosted externally by the attacker (typically leads to remote code execution or information disclosure)."
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "File inclusion vulnerabilities can usually be mitigated using the following methods:"
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "- avoid directly using filenames and URLs,"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "- consider using a \\(\\mathtt{chroot}\\) jail,"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "- use an allow-list of includable files."
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "## Poznámka Anki 1717948410504"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "Karty Anki: 1717948410504"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "GUID: MByR#t[%Dq; štítky: bi-eha::p05 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "List commonly used HTTP security headers."
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "Commonly used HTTP security headers include:"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "- \\(\\texttt{Strict-Transport-Security}\\),"
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "- \\(\\texttt{X-Frame-Options}\\),"
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "- \\(\\texttt{X-Content-Type-Options}\\),"
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "- \\(\\texttt{Content-Security-Policy}\\)"
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "and others."
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "## Poznámka Anki 1717948639958"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "Karty Anki: 1717948639959"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "GUID: K94HwX_3Pv; štítky: bi-eha::p05."
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "Metadata původního zdroje pro kartu 1717948639959: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "Describe the HTTP \\(\\texttt{Strict-Transport-Security}\\) (HSTS) header."
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:105",
+          "text": "The HTTP \\(\\texttt{Strict-Transport-Security}\\) header (HSTS) indicates, that a given page should only be accessed via HTTPS and all further HTTP requests should be converted to HTTPS."
+        },
+        {
+          "locator": "transcript-line:107",
+          "text": "## Poznámka Anki 1717948827289"
+        },
+        {
+          "locator": "transcript-line:109",
+          "text": "Karty Anki: 1717948827289"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "GUID: r7Ri=Rsb!+; štítky: bi-eha::p05 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "Describe the HTTP \\(\\texttt{X-Frame-Options}\\) header."
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "The HTTP \\(\\texttt{X-Frame-Options}\\) header controls whether the content of the webpage can be displayed within frames (such as \\(\\texttt{<frame>}\\), \\(\\texttt{<embed>}\\), or \\(\\texttt{<object>}\\)). This is used to prevent clickjacking."
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "## Poznámka Anki 1717949003071"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "Karty Anki: 1717949003071"
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "GUID: h~xyW5s~e5; štítky: bi-eha::p05 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:125",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "Describe the HTTP \\(\\texttt{X-Content-Type-Options}\\) header."
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "The HTTP \\(\\texttt{X-Content-Type-Options}\\) header prevents the browser from interpreting files as a different MIME type to what is specified in the \\(\\texttt{Content-Type}\\) header. This is used to ensure that non-executable MIME types aren't interpreted as executable MIME types."
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "## Poznámka Anki 1717949839136"
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "Karty Anki: 1717949839136"
+        },
+        {
+          "locator": "transcript-line:136",
+          "text": "GUID: d}0`Kw7=!c; štítky: bi-eha::p05."
+        },
+        {
+          "locator": "transcript-line:138",
+          "text": "Metadata původního zdroje pro kartu 1717949839136: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:140",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:142",
+          "text": "Describe the HTTP \\(\\texttt{Content-Security-Policy}\\) (CSP) header."
+        },
+        {
+          "locator": "transcript-line:144",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:146",
+          "text": "The HTTP \\(\\texttt{Content-Security-Policy}\\) header restricts which resources can be loaded on a given webpage and the URLs that they can be loaded from. The CSP header is used in place of the \\(\\texttt{X-XSS-Protection}\\) header as a protection against cross-site scripting. Possible attributes of this header include \\(\\texttt{script-src}\\), \\(\\texttt{img-src}\\), or \\(\\texttt{font-src}\\)."
+        },
+        {
+          "locator": "transcript-line:148",
+          "text": "## Poznámka Anki 1717950717233"
+        },
+        {
+          "locator": "transcript-line:150",
+          "text": "Karty Anki: 1717950717233"
+        },
+        {
+          "locator": "transcript-line:151",
+          "text": "GUID: N2a[~oE3rp; štítky: bi-eha::p05 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:153",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:155",
+          "text": "Describe server-side template injection (SSTI)."
+        },
+        {
+          "locator": "transcript-line:157",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:159",
+          "text": "Server-side template injection (SSTI) is a type of injection attack in which malicious payloads are injected into a template and executed on the server by a template engine as a result of improper input validation. This attack can be usually mitigated using the following methods:"
+        },
+        {
+          "locator": "transcript-line:161",
+          "text": "- using a \"logic-less\" template engine (such as Mustache),"
+        },
+        {
+          "locator": "transcript-line:162",
+          "text": "- running the template engine in a virtualized environment."
+        },
+        {
+          "locator": "transcript-line:164",
+          "text": "## Poznámka Anki 1717950912035"
+        },
+        {
+          "locator": "transcript-line:166",
+          "text": "Karty Anki: 1717950912035"
+        },
+        {
+          "locator": "transcript-line:167",
+          "text": "GUID: Jv*nXppKti; štítky: bi-eha::p05 bi-ib::16."
+        },
+        {
+          "locator": "transcript-line:169",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:171",
+          "text": "Describe open redirection."
+        },
+        {
+          "locator": "transcript-line:173",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:175",
+          "text": "Open redirection vulnerabilities arise when unvalidated input is passed to JavaScript functions that trigger redirections. This can be used to mount phishing attacks."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.745198+00:00",
+      "transcript_file": "sources/anki-prednaska-05-v1/transcript/anki-prednaska-05-v1.md",
+      "transcript_sha256": "d577313ed37c706e6af63ad0b7d7d7a1b82c4bbf6085fcaba96131e56b486160"
+    },
+    "anki-prednaska-06-v1": {
+      "subject_id": "bi-eha",
+      "source_id": "anki-prednaska-06-v1",
+      "title": "FIT ČVUT Anki – BI-EHA – Přednáška 06",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-eha/anki-prednaska-06-v1/anki-prednaska-06-v1.zip",
+      "file": "sources/anki-prednaska-06-v1/anki-prednaska-06-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "261f72670621a35b7e0dcc1ce9dcb7708145e1e329258b9c4b7b65600129ad77",
+      "topic_ids": [
+        "prednaska-06"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg, SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-EHA – Přednáška 06"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg; APKG SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 5c983498accbbf883eb18eb0e5351b8f14653c14dcca6e88ff363b189b4adf5b."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-EHA"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 8 poznámek, 8 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1678450179707"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1678450179707"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: i%N2ZbYp/0; štítky: bi-eha::p06 bi-ib::07 bi-ib::15 bi-ib::16 bi-ib::25."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "What is privilege escalation? What types are there?"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Privilege escalation is the act of exploiting a security flaw in order to gain elevated access to resources that are normally protected. There are two types of privilege escalation:"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "- **horizontal** - gaining access to resources of another user with the same level of privilege,"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "- **vertical** - gaining access to resources of a more pivileged user."
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "## Poznámka Anki 1679646861423"
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "Karty Anki: 1679646861423"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "GUID: d~~U[)[cP6; štítky: bi-eha::p06 bi-ib::18 bi-ib::25 ni-pb::21."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "What is an authentication factor? What factor groups are there?"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "An authentication factor is a piece of information used to authenticate an identity. There are three common factor groups:"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "- **knowledge** - something the user knows,"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "- **possesion** - something the user has,"
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "- **inherence** - something the user is."
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "## Poznámka Anki 1679648504007"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "Karty Anki: 1679648504007"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "GUID: t![q$D>JML; štítky: bi-eha::p06."
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "What types of authentication attacks are there?"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "The attacker can attempt to:"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "- **obtain plaintext credentials** (brute-force, dictionary attack, rainbow tables),"
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "- **avoid entering credentials** (replay attack, authentication bypass)."
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "## Poznámka Anki 1679649603464"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "Karty Anki: 1679649603464"
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "GUID: fFvaX^]1;A; štítky: bi-eha::p06."
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "What is the difference between online and offline password cracking?"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "**Online** password cracking means running an attack against a running process or remote system. It is inherently imited due to round-trip time. **Offline** password cracking entails computations on locally stored data and mainly consists of recovering passwords from stored hashes. It can leverage parallel processing."
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "## Poznámka Anki 1679650603020"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "Karty Anki: 1679650603020"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "GUID: f6rwu7V+Rc; štítky: bi-eha::p06."
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "What is password entropy?"
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "Password entropy is a measurement of the randomness or unpredictability of a password. It can usually be calculated as the number of bits it takes to effectively encode the password:"
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "\\[\\log_2(L^N),\\]where \\(L\\) is the number of all the possible characters in the password and \\(N\\) is its length."
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "## Poznámka Anki 1685798526950"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "Karty Anki: 1685798526950"
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "GUID: nI9-0@X6G9; štítky: bi-eha::p06."
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": "Metadata původního zdroje pro kartu 1685798526950: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "What is the difference between authentication and authorization?"
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "**Authentication** is the process of verifying the identity of an user. **Authorization** on the other hand, is the process of verifying whether a given user has sufficient permissions to execute a given operation."
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "## Poznámka Anki 1685799092437"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "Karty Anki: 1685799092437"
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "GUID: MhPJ?1{aS1; štítky: bi-eha::p06 bi-ib::21."
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "What is the difference between a brute-force attack and a dictionary attack?"
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "A **brute-force attack** is a method that involves exhaustive systematic checking of all possible combinations of characters. However, these combinations may be limited by password policy. A **dictionary attack** is a more targeted approach that utilizes a pre-constructed list of possible passwords which is called a wordlist."
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "## Poznámka Anki 1685799280722"
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "Karty Anki: 1685799280723"
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "GUID: Q?)4,-6|^L; štítky: bi-eha::p06."
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "Describe rainbow tables?"
+        },
+        {
+          "locator": "transcript-line:130",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:132",
+          "text": "Rainbow tables are precomputed tables for caching the outputs of a hash function that are usually used for cracking password hashes. While taking up more storage they use much less processing time than a normal brute-force attack."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.769618+00:00",
+      "transcript_file": "sources/anki-prednaska-06-v1/transcript/anki-prednaska-06-v1.md",
+      "transcript_sha256": "0450f0799f9cf63b57406bed0f0175860891cdc14349b3eadb2271a4397ff50a"
+    },
+    "anki-prednaska-07-v1": {
+      "subject_id": "bi-eha",
+      "source_id": "anki-prednaska-07-v1",
+      "title": "FIT ČVUT Anki – BI-EHA – Přednáška 07",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-eha/anki-prednaska-07-v1/anki-prednaska-07-v1.zip",
+      "file": "sources/anki-prednaska-07-v1/anki-prednaska-07-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "ce75734d2ba18dfddf04db69f7517a3dcdeccb206f30e9c663efb6d786a1c475",
+      "topic_ids": [
+        "prednaska-07"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg, SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-EHA – Přednáška 07"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg; APKG SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 5c983498accbbf883eb18eb0e5351b8f14653c14dcca6e88ff363b189b4adf5b."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-EHA"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 7 poznámek, 7 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1681461466402"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1681461466402"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: BS0ngn1JZJ; štítky: bi-eha::p07 bi-ib::07 bi-ib::15."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Describe the OWASP risk rating methodology."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "According to OWASP, risk is calculated using the following formula:"
+        },
+        {
+          "locator": "transcript-line:25",
+          "text": "\\[\\text{risk} = \\text{likelihood} \\cdot \\text{impact}.\\]Risk rating should follow these steps:"
+        },
+        {
+          "locator": "transcript-line:27",
+          "text": "- identifying a risk,"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "- factors for estimating likelihood,"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "- factors for estimating impact,"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "- determining the severity of the risk,"
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "- deciding what to fix,"
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "- customizing your risk rating model."
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "## Poznámka Anki 1681461891414"
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "Karty Anki: 1681461891414"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "GUID: O1Hd[WrrBX; štítky: bi-eha::p07 bi-ib::07 bi-ib::14 bi-ib::15 bi-ib::26."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Describe the Common Vulnerability Scoring System (CVSS)."
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "Common Vulnerability Scoring System (CVSS) is a widely used industry standard which determines the severity of a vulnerability based on three categories of metrics:"
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "- **base metrics** - characteristics of the vulnerability itself (exploitability, impact),"
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "- **temporal metrics** - characteristics that evolve over time,"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "- **environmental metrics** - characteristics that are implementation or enviroment-dependent."
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "## Poznámka Anki 1681462001639"
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "Karty Anki: 1681462001639"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "GUID: PC{P#@T6Ow; štítky: bi-eha::p07 bi-ib::07 bi-ib::14 bi-ib::15 bi-ib::26."
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "What risk rating methodologies exist?"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "Risks can be scored based on the following methodologies:"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "- **basic scoring**,"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "- **DREAD**,"
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "- **OWASP**,"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "- **CVSS**."
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "## Poznámka Anki 1685799996547"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "Karty Anki: 1685799996548"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "GUID: hsXg{A`b7D; štítky: bi-eha::p07."
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "Metadata původního zdroje pro kartu 1685799996548: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "Describe the DREAD risk rating methodology."
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "DREAD rates risks based on the following categories:"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "- **damage potential**,"
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "- **reproducibility**,"
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "- **exploitability**,"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "- **affected users**,"
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "- **discoverability**."
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "In each of these categories the risk is assigned a rating from \\(1\\) to \\(10\\). The final score is then calculated as:"
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "\\[\\text{risk} = \\frac {D + R + E + A + D} 5.\\]"
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "## Poznámka Anki 1685800505261"
+        },
+        {
+          "locator": "transcript-line:105",
+          "text": "Karty Anki: 1685800505261"
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "GUID: L1^A%Tv@0g; štítky: bi-eha::p07 bi-ib::07 bi-ib::14 bi-ib::15 bi-ib::26."
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "What is the difference between CVE and NVD?"
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "The Common Vulnerabilities and Exposures (**CVE**) database is a database maintained by MITRE that offers a standardized of identifying known vulnerabilities. The National Vulnerability Database (**NVD**) is maintained by a U.S. government-funded organization. It incorporates the CVE database and provides more information on top of it, such as impact assesments, or remediation guidance."
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "## Poznámka Anki 1717854792608"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "Karty Anki: 1717854792608"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "GUID: O@=F=s)wif; štítky: bi-eha::p07 bi-ib::15 bi-ib::26."
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "Describe the base metrics of the Common Vulnerability Scoring System Version 3.1 (CVSSv3.1)."
+        },
+        {
+          "locator": "transcript-line:125",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "The base metrics of the Common Vulnerability Scoring System Version 3.1 (CVSSv3.1) are further split into exploitability metrics and impact metrics. The exploitability metrics include:"
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "- **attack vector** - physical, local, adjacent network, network;"
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "- **attack complexity** - low, high;"
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "- **privileges required **- none, low, high;"
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "- **user interaction** - none, required;"
+        },
+        {
+          "locator": "transcript-line:137",
+          "text": "- **scope** - unchanged, changed."
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "The impact metrics include:"
+        },
+        {
+          "locator": "transcript-line:141",
+          "text": "- **confidentiality impact** - none, low, high;"
+        },
+        {
+          "locator": "transcript-line:143",
+          "text": "- **integrity impact** - none, low, high;"
+        },
+        {
+          "locator": "transcript-line:144",
+          "text": "- **availability impact** - none, low, high."
+        },
+        {
+          "locator": "transcript-line:146",
+          "text": "## Poznámka Anki 1717855441641"
+        },
+        {
+          "locator": "transcript-line:148",
+          "text": "Karty Anki: 1717855441641"
+        },
+        {
+          "locator": "transcript-line:149",
+          "text": "GUID: wQb@}+3+jP; štítky: bi-eha::p07 bi-ib::15."
+        },
+        {
+          "locator": "transcript-line:151",
+          "text": "Metadata původního zdroje pro kartu 1717855441641: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:153",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:155",
+          "text": "Describe the changes made by the Common Vulnerability Scoring System Version 4 (CVSSv4)."
+        },
+        {
+          "locator": "transcript-line:157",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:159",
+          "text": "The Common Vulnerability Scoring System Version 4 (CVSSv4) introduces the following changes:"
+        },
+        {
+          "locator": "transcript-line:161",
+          "text": "- added attack requirements as a base metric,"
+        },
+        {
+          "locator": "transcript-line:162",
+          "text": "- enhanced user interaction metric granularity (none, active, passive),"
+        },
+        {
+          "locator": "transcript-line:163",
+          "text": "- added safety metrics to support operational technology (OT) systems,"
+        },
+        {
+          "locator": "transcript-line:164",
+          "text": "- separated impact metrics to vulnerable system metrics and subsequent system metrics"
+        },
+        {
+          "locator": "transcript-line:166",
+          "text": "and others."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.795460+00:00",
+      "transcript_file": "sources/anki-prednaska-07-v1/transcript/anki-prednaska-07-v1.md",
+      "transcript_sha256": "ed845f144227d542c9d2bcd6e270f50396c8ebf49b8b9daecb8babba6f6ff4ec"
+    },
+    "anki-prednaska-08-v1": {
+      "subject_id": "bi-eha",
+      "source_id": "anki-prednaska-08-v1",
+      "title": "FIT ČVUT Anki – BI-EHA – Přednáška 08",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-eha/anki-prednaska-08-v1/anki-prednaska-08-v1.zip",
+      "file": "sources/anki-prednaska-08-v1/anki-prednaska-08-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "4f0d58a262b0116174ed79886d6b40d386275b5bc768cfb170b0e19691552d26",
+      "topic_ids": [
+        "prednaska-08"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg, SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-EHA – Přednáška 08"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg; APKG SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 5c983498accbbf883eb18eb0e5351b8f14653c14dcca6e88ff363b189b4adf5b."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-EHA"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 8 poznámek, 8 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1682065068945"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1682065068945"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: x.)%NEz^5`; štítky: bi-eha::p08 bi-ib::13."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "List examples of Wi-Fi management frames and their uses."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Some examples of Wi-Fi management frames are:"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "- **association request** - a station requests to join a BSS via an AP,"
+        },
+        {
+          "locator": "transcript-line:27",
+          "text": "- **probe request** - a station queries other active stations and APs on a frequency,"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "- **beacon **- an AP advertises an SSID."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "## Poznámka Anki 1682065321027"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Karty Anki: 1682065321027"
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "GUID: CC],+]_$Y(; štítky: bi-eha::p08 bi-ib::13."
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:38",
+          "text": "What does BSS, SSID, ESS and ESSID stand for?"
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "The abbreviations stand for the following:"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "- **Basic Service Set **(BSS) - a group of devices that are connected to the same AP,"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "- **Service Set Identifier** (SSID) - an unique string identifying an AP,"
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "- **Extended Service Set** (ESS) - a group of APs and their users belonging to the same service set,"
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "- **Extended Service Set Identifier** (ESSID) - an unique string identifying the APs that belong in an ESS."
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "## Poznámka Anki 1682065850819"
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "Karty Anki: 1682065850819"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "GUID: y{u[-P1Ye^; štítky: bi-eha::p08 bi-ib::13."
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "Describe Wired Equivalent Privacy (WEP)."
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "Wired Equivalent Privacy (WEP) is an obsolete security algorithm for Wi-Fi networks that uses the RC4 cipher and CRC32. The authentication process is as follows:"
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "- The station sends an authentication request to the AP."
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "- The AP replies with a plaintext challenge."
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "- The station encrypts the challenge using a pre-shared key and sends it back."
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "- The AP decrypts the response and if it matches the challenge text, the station is allowed to connect."
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "## Poznámka Anki 1682080078840"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "Karty Anki: 1682080078840"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "GUID: Q6_f$G.6>A; štítky: bi-eha::p08 bi-ib::13."
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "Describe Wi-Fi Protected Access 2 (WPA2)."
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "Wi-Fi Protected Access (WPA) is a security algorithm for Wi-Fi networks. It is based on AES with CTR and CBC-MAC modes. Before the authentication process starts, both the station an the AP have to be in possesion of **pairwise master key** (PMK) - in the context of WPA-Personal this is the pre-shared key. Then the authentication process is as follows:"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "1. The AP sends an **ANONCE** value (a random value that the AP produced)."
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "2. The station generates a **SNONCE **value and derives the **pairwise transit key** (PTK)."
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "3. The station sends a **SNONCE** value and a **MIC** (Message Integrity Code). From now on all messages contain a MIC."
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "4. The AP derives its own PTK."
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "5. The AP sends an encrypted **group transit key** (GTK) and instructs the station to install the keys."
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "6. The station installs the keys and sends back a confirmation."
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "## Poznámka Anki 1682080260947"
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "Karty Anki: 1682080260947"
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "GUID: zDl99r6MzG; štítky: bi-eha::p08 bi-ib::13."
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "What is the difference between WPA-Personal and WPA-Enterprise?"
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "WPA-Personal uses a pre-shared key as the **pairwise master key** (PMK). In contrast to that, when using WPA-Enterprise the PMK is pulled from an external server (such as a radius server) following an authentiaction process."
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "## Poznámka Anki 1682102472853"
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "Karty Anki: 1682102472854"
+        },
+        {
+          "locator": "transcript-line:105",
+          "text": "GUID: C{}NR}0<@V; štítky: bi-eha::p08 bi-ib::13."
+        },
+        {
+          "locator": "transcript-line:107",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:109",
+          "text": "From which parameters is the pairwise transit key (PTK) derived?"
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "PTK is derived from:"
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "- pairwise master key (PMK),"
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "- ANONCE,"
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "- SNONCE,"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "- MAC address of the AP,"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "- MAC addres of the station."
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "## Poznámka Anki 1685906425523"
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "Karty Anki: 1685906425524"
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "GUID: Ey!:IM+X:N; štítky: bi-eha::p08 bi-ib::13."
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "How can Wired Equivalent Privacy (WEP) be cracked?"
+        },
+        {
+          "locator": "transcript-line:130",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:132",
+          "text": "Because WEP uses RC4, a stream cipher, the same keystream must never be used twice. For this reason, WEP uses a 24-bit initialization vector, which is transmitted as plaintext. However, due to the limited keyspace WEP often reuses IVs. In as little as few minutes (on a busy network) an attacker can capture IV collisions and recover the key using statistical analysis."
+        },
+        {
+          "locator": "transcript-line:134",
+          "text": "## Poznámka Anki 1685907117073"
+        },
+        {
+          "locator": "transcript-line:136",
+          "text": "Karty Anki: 1685907117073"
+        },
+        {
+          "locator": "transcript-line:137",
+          "text": "GUID: y2T}Q;dmcp; štítky: bi-eha::p08 bi-ib::13."
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:141",
+          "text": "What are some weaknesses of Wi-Fi Protected Access (WPA)?"
+        },
+        {
+          "locator": "transcript-line:143",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:145",
+          "text": "Wi-Fi Protected Access (WPA) has the following weaknesses:"
+        },
+        {
+          "locator": "transcript-line:147",
+          "text": "- weak pre-shared keys are vulnerable to dictionary attacks,"
+        },
+        {
+          "locator": "transcript-line:148",
+          "text": "- rainbow tables for most used SSIDs,"
+        },
+        {
+          "locator": "transcript-line:149",
+          "text": "- weak WPS (Wi-Fi Protected Setup) PINs and implementation flaws,"
+        },
+        {
+          "locator": "transcript-line:150",
+          "text": "- Dragonblood attack - downgrade and side-channel attack,"
+        },
+        {
+          "locator": "transcript-line:151",
+          "text": "- KRACK (Key Reinstallation Attack)."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.822624+00:00",
+      "transcript_file": "sources/anki-prednaska-08-v1/transcript/anki-prednaska-08-v1.md",
+      "transcript_sha256": "b00de7f55f0f069ee3082308ada7be32c0f9ec140e7ffac15cea878edd790d53"
+    },
+    "anki-prednaska-09-v1": {
+      "subject_id": "bi-eha",
+      "source_id": "anki-prednaska-09-v1",
+      "title": "FIT ČVUT Anki – BI-EHA – Přednáška 09",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-eha/anki-prednaska-09-v1/anki-prednaska-09-v1.zip",
+      "file": "sources/anki-prednaska-09-v1/anki-prednaska-09-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "f1e4f09716d29746306083bbb65a1b7005d0fdfe251202be2ea466d4e01e1c83",
+      "topic_ids": [
+        "prednaska-09"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg, SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-EHA – Přednáška 09"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg; APKG SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 5c983498accbbf883eb18eb0e5351b8f14653c14dcca6e88ff363b189b4adf5b."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-EHA"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 4 poznámek, 4 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1682667795587"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1682667795587"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: 1#J5RFRcE; štítky: bi-eha::p09."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "What are the typical phases of OS pentesting?"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "The typical phases of OS pentesting are:"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "- reconnaissance,"
+        },
+        {
+          "locator": "transcript-line:27",
+          "text": "- enumeration,"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "- exploitation,"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "- privilege escalation."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "## Poznámka Anki 1685909611540"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Karty Anki: 1685909611540"
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "GUID: F`eg3PKjWr; štítky: bi-eha::p09."
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "Metadata původního zdroje pro kartu 1685909611540: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:38",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "Describe the methodology used for testing Server Message Block (SMB)."
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "Testing SMB usually follows these steps:"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "- **reconnaissance** - gather information about the SMB implementation;"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "- **enumeration** - identify SMB-related services and potential attack vectors such as unnecessary SMB shares;"
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "- **exploitation **and **privilege escalation** - test for insecure permissions, weak authentication, or unpatched SMB implementations;"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "- **lateral movement **and **persistance** - search for other vulnerable SMB-enabled systems and create backdoors."
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "## Poznámka Anki 1685909818672"
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "Karty Anki: 1685909818672"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "GUID: HpKwerTk?n; štítky: bi-eha::p09."
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "What are some common ways to escalate privileges on Linux?"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "On Linux, privileges can be commonly escalated using the following methods:"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "- kernel exploits,"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "- vulnerable software,"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "- weak credentials or credentials stored in plaintext,"
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "- \\(\\mathtt{SUID}\\) and \\(\\mathtt{SGID}\\) binaries,"
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "- exploiting \\(\\mathtt{sudo}\\)."
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "## Poznámka Anki 1685909964502"
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "Karty Anki: 1685909964502"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "GUID: hJOEpaFg<e; štítky: bi-eha::p09."
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "What are some common ways to escalate privileges on Windows?"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "On Windows, privileges can be commonly escalated using the following methods:"
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "- kernel exploits,"
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "- vulnerable software,"
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "- weak credentials or credentials stored in plaintext,"
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "- the \\(\\mathtt{AlwaysInstallElevated}\\) policy,"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "- DLL hijacking."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.850824+00:00",
+      "transcript_file": "sources/anki-prednaska-09-v1/transcript/anki-prednaska-09-v1.md",
+      "transcript_sha256": "c869c389e35f73a21dd8a1b0ebbd108a757575516b88cb8782af292fb8a2609d"
+    },
+    "anki-prednaska-10-v1": {
+      "subject_id": "bi-eha",
+      "source_id": "anki-prednaska-10-v1",
+      "title": "FIT ČVUT Anki – BI-EHA – Přednáška 10",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-eha/anki-prednaska-10-v1/anki-prednaska-10-v1.zip",
+      "file": "sources/anki-prednaska-10-v1/anki-prednaska-10-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "7760ea2776bfcce85d47dda2dd2096c26c0f3f2301e46620e039c21555d6ef44",
+      "topic_ids": [
+        "prednaska-10"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg, SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-EHA – Přednáška 10"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg; APKG SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 5c983498accbbf883eb18eb0e5351b8f14653c14dcca6e88ff363b189b4adf5b."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-EHA"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 11 poznámek, 11 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1683272181496"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1683272181496"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: Q[!%L5-<TA; štítky: bi-eha::p10."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "What is Active Directory?"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Active Directory is a directory service developed by Microsoft for Windows domain networks. It uses Kerberos 5 as an authentication protocol."
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "## Poznámka Anki 1683272352855"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Karty Anki: 1683272352855"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "GUID: Mj)Xx;WdR*; štítky: bi-eha::p10."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "What is a Key Distribution Center and what are its components?"
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "The Key Distribution Center is the main Kerberos service. It consists of:"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "- **authentication server** - issues ticket-granting tickets,"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "- **ticket-granting server** - issues service tickets,"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "- **database**."
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "## Poznámka Anki 1683273091414"
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "Karty Anki: 1683273091414"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "GUID: kd}R^J+Lm1; štítky: bi-eha::p10 ni-pb::21."
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "Describe the process of Kerberos authentication."
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "The Kerberos authentication process goes as follows:"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "- The client sends an authentication server request to the domain controller. This request contains an encrypted timestamp."
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "- The domain controller replies with an authentication server reply** **containing a ticket-granting ticket."
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "- The client sends a ticket-granting server request to the domain controller. This request contains the ticket-granting ticket."
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "- The domain controller replies with a ticket-granting server reply containing a service ticket."
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "- Using the service ticket the client may issue application server requests to the application server."
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "- The application server may reply with application server replies if mutual authentication is required."
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": " [Obrázek: paste-ed493e989608f0682037ca8a4a16004f7b1c16e5.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "## Poznámka Anki 1683274117711"
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "Karty Anki: 1683274117711"
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "GUID: EJJVcn@D<); štítky: bi-eha::p10."
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "What is Kerberos delegation?"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "Kerberos delegation is a feature of the Kerberos authentication protocol that allows a service to forward the credentials of a client to another service on behalf of the client. This way the client is able to access additional resources without the need for reauthentication."
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "## Poznámka Anki 1683274696928"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "Karty Anki: 1683274696928"
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "GUID: e*dyhvi?e!; štítky: bi-eha::p10."
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "What types of Kerberos delegation are there?"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "Kerberos supports the following types of delegation:"
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "- **unconstrained delegation** - ticket-granting tickets get stored in memory so that the service can authenticate on behalf of the client without any limitations,"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "- **constrained delegation **- allows the client to configure which services their account can be delegated to,"
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "- **resource-based constrained delegation** - allows the service  to configure trusted sources of delegation."
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "## Poznámka Anki 1685910327191"
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "Karty Anki: 1685910327191"
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "GUID: CJ7hwqd)i=; štítky: bi-eha::p10."
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "Metadata původního zdroje pro kartu 1685910327191: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "Describe the methodology used for testing Lightweight Directory Access Protocol (LDAP)."
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "Testing LDAP usually follows these steps:"
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "- **reconnaissance** - gather information about the LDAP implementation,"
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "- **enumeration** - gather information about the directory structure, user accounts and groups,"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "- **exploitation** and **privilege escalation** - test for LDAP injection, data manipulation, or server-side vulnerabilities."
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "## Poznámka Anki 1685912485538"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "Karty Anki: 1685912485538"
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "GUID: s#>^ULrF)n; štítky: bi-eha::p10 ni-pb::21."
+        },
+        {
+          "locator": "transcript-line:125",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "How can Kerberos delegation be exploited?"
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "Kerberos delegation can be exploited in the following ways:"
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "- misconfigured delegation settings may allow unauthorized services to request delegated credentials,"
+        },
+        {
+          "locator": "transcript-line:134",
+          "text": "- an attacker may extract credentials stored for delegation from the service's memory."
+        },
+        {
+          "locator": "transcript-line:136",
+          "text": "## Poznámka Anki 1685913099627"
+        },
+        {
+          "locator": "transcript-line:138",
+          "text": "Karty Anki: 1685913099627"
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "GUID: Ii2`c6RBvY; štítky: bi-eha::p10 ni-pb::21."
+        },
+        {
+          "locator": "transcript-line:141",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:143",
+          "text": "What is ASREPRoasting?"
+        },
+        {
+          "locator": "transcript-line:145",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:147",
+          "text": "ASREPRoasting is an attack that is associated with the Kerberos authentication protocol. It is targeted at accounts that have preauthentication disabled which means that they don't have to verify their identity in the authentication process. The attack can be carried out as follows:"
+        },
+        {
+          "locator": "transcript-line:149",
+          "text": "- The attacker seeks out (guesses) an account with preauthentication disabled."
+        },
+        {
+          "locator": "transcript-line:150",
+          "text": "- The attacker requests the AS-REP (authentication server reply) from the domain controller for the account."
+        },
+        {
+          "locator": "transcript-line:151",
+          "text": "- The attacker receives the message which contains an encrypted hash of the account's password."
+        },
+        {
+          "locator": "transcript-line:152",
+          "text": "- The attacker proceeds to recover the password using an offline brute-force or dictionary attack."
+        },
+        {
+          "locator": "transcript-line:154",
+          "text": "## Poznámka Anki 1685913875770"
+        },
+        {
+          "locator": "transcript-line:156",
+          "text": "Karty Anki: 1685913875771"
+        },
+        {
+          "locator": "transcript-line:157",
+          "text": "GUID: mDCW8F8O?W; štítky: bi-eha::p10 ni-pb::21."
+        },
+        {
+          "locator": "transcript-line:159",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:161",
+          "text": "What is Kerberoasting?"
+        },
+        {
+          "locator": "transcript-line:163",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:165",
+          "text": "Kerberoasting is an attack that is associated with the Kerberos authentication protocol. It is targeted at accounts that have Service Principal Names (SPN) registered, because these accounts often have non-expiring passwords. The attack can be carried out as follows:"
+        },
+        {
+          "locator": "transcript-line:167",
+          "text": "- The attacker enumerates accounts with associated SPNs and chooses a target."
+        },
+        {
+          "locator": "transcript-line:168",
+          "text": "- The attacker requests a service ticket from the domain controller for the account."
+        },
+        {
+          "locator": "transcript-line:169",
+          "text": "- The attacker receives the message which contains an encrypted hash of the account's password."
+        },
+        {
+          "locator": "transcript-line:170",
+          "text": "- The attacker proceeds to recover the password using an offline brute-force or dictionary attack."
+        },
+        {
+          "locator": "transcript-line:172",
+          "text": "## Poznámka Anki 1685914266540"
+        },
+        {
+          "locator": "transcript-line:174",
+          "text": "Karty Anki: 1685914266540"
+        },
+        {
+          "locator": "transcript-line:175",
+          "text": "GUID: u7iMBHRgzO; štítky: bi-eha::p10 ni-pb::21."
+        },
+        {
+          "locator": "transcript-line:177",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:179",
+          "text": "What is a silver ticket in Kerberos? How can it be obtained?"
+        },
+        {
+          "locator": "transcript-line:181",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:183",
+          "text": "A silver ticket is a forged Kerberos ticket that allows the attacker to authenticate as a specific service on a compromised system. It can be obtained as follows:"
+        },
+        {
+          "locator": "transcript-line:185",
+          "text": "- First, the attacker needs to retrieve a hash of a service account and crack it."
+        },
+        {
+          "locator": "transcript-line:186",
+          "text": "- Then the attacker can forge a service ticket that allows them to authenticate as the compromised service."
+        },
+        {
+          "locator": "transcript-line:188",
+          "text": "## Poznámka Anki 1685914725910"
+        },
+        {
+          "locator": "transcript-line:190",
+          "text": "Karty Anki: 1685914725910"
+        },
+        {
+          "locator": "transcript-line:191",
+          "text": "GUID: id1A1VR/>R; štítky: bi-eha::p10 ni-pb::21."
+        },
+        {
+          "locator": "transcript-line:193",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:195",
+          "text": "What is a golden ticket in Kerberos? How can it be obtained?"
+        },
+        {
+          "locator": "transcript-line:197",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:199",
+          "text": "A golden ticket is a forged Kerberos ticket that provides the highest level of access within an Active Directory environment allowing an attacker to impersonate any user account in the domain. It can be obtained as follows:"
+        },
+        {
+          "locator": "transcript-line:201",
+          "text": "- First, the attacker needs to compromise the domain controller."
+        },
+        {
+          "locator": "transcript-line:202",
+          "text": "- The attacker then needs to crack the hash of the \\(\\mathtt{krbtgt}\\) account which is a default account used to authenticate Kerberos tickets."
+        },
+        {
+          "locator": "transcript-line:203",
+          "text": "- Thereafter, the attacker can forge a service ticket that has a long duration (typically 10 years)."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.880386+00:00",
+      "transcript_file": "sources/anki-prednaska-10-v1/transcript/anki-prednaska-10-v1.md",
+      "transcript_sha256": "c5c0f6ffb30bcf3c0eb70e8f7d2400ba7b4e8a3166e470fdd26532ea4da0bb8a"
+    },
+    "anki-prednaska-11-v1": {
+      "subject_id": "bi-eha",
+      "source_id": "anki-prednaska-11-v1",
+      "title": "FIT ČVUT Anki – BI-EHA – Přednáška 11",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-eha/anki-prednaska-11-v1/anki-prednaska-11-v1.zip",
+      "file": "sources/anki-prednaska-11-v1/anki-prednaska-11-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "01a5b7ed688bc95c7707725ed3893e6bd5dbc6c7f085d91d3d1719d94e87a65d",
+      "topic_ids": [
+        "prednaska-11"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg, SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-EHA – Přednáška 11"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg; APKG SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 5c983498accbbf883eb18eb0e5351b8f14653c14dcca6e88ff363b189b4adf5b."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-EHA"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 3 poznámek, 3 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1683877723050"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1683877723050"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: h57jd~+a}>; štítky: bi-eha::p11."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "What are the typical parts of an in-vehicle controller area network (CAN) network?"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "A typical in-vehicle controller area network (CAN) contains the following parts:"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "- **powertrain **- engine, transmission;"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "- **chassis** - AC, doors, windows;"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "- **media** - infotainment, modem."
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "These parts are connected using **gateways**."
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "## Poznámka Anki 1683879711604"
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "Karty Anki: 1683879711605"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "GUID: hh)o*)r4k^; štítky: bi-eha::p11."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "What is a controller area network (CAN) bus?"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "Controller area network (CAN) bus is a vehicle bus that allows the systems of a vehicle to communicate using a message-based protocol that runs on the physical and link layers. All messages sent on the CAN bus are broadcasted and therefore received by all of the connected systems, including the sender. The messages are differentiated using identifiers with lower identifiers having higher transmission priority."
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "## Poznámka Anki 1683880329807"
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "Karty Anki: 1683880329807"
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "GUID: dZ4+!Onq!/; štítky: bi-eha::p11."
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "What are Unified Diagnostic Services (UDS)?"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "Unified Diagnostic Services (UDS) is a session and application layer protocol based on the request/response architecture. UDS runs on top of the controller area network (CAN) bus protocol and is commonly used in automotive to configure and diagnose vehicle electronic control units (ECU)."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.911356+00:00",
+      "transcript_file": "sources/anki-prednaska-11-v1/transcript/anki-prednaska-11-v1.md",
+      "transcript_sha256": "9499fafc526787885e11f51a7201ca79c5219be6b280fcc032e0c367157bd116"
+    },
+    "anki-prednaska-12-v1": {
+      "subject_id": "bi-eha",
+      "source_id": "anki-prednaska-12-v1",
+      "title": "FIT ČVUT Anki – BI-EHA – Přednáška 12",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-eha/anki-prednaska-12-v1/anki-prednaska-12-v1.zip",
+      "file": "sources/anki-prednaska-12-v1/anki-prednaska-12-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "4eed7ed194aaaf6f708157ee8102eeb3799051fb168efc70c36ebe3a6224e4b9",
+      "topic_ids": [
+        "prednaska-12"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg, SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-EHA – Přednáška 12"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg; APKG SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 5c983498accbbf883eb18eb0e5351b8f14653c14dcca6e88ff363b189b4adf5b."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-EHA"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 5 poznámek, 5 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1684484272331"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1684484272336"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: c0xB)EE2DK; štítky: bi-eha::p12."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "What is forensic science?"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Forensic science is the application of science to criminal and civil laws mainly during criminal investigation."
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "## Poznámka Anki 1684484486830"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Karty Anki: 1684484486830"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "GUID: m1^E%^A%*(; štítky: bi-eha::p12 bi-ib::23 ni-pb::20."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "What are the stages of forensic analysis?"
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Forensic analysis usually consists of the following stages:"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "- **identification** - finding evidence,"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "- **preservation** - isolating data and ensuring preservation of its initial state,"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "- **analysis** - reconstructing data and drawing conclusions,"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "- **documentation** - documenting the process for future reproduction and non-repudiation,"
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "- **presentation** - presenting the results to a non-professional audience."
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "## Poznámka Anki 1684484980219"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "Karty Anki: 1684484980219"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "GUID: HNW6#6Ni!V; štítky: bi-eha::p12 bi-ib::24 ni-pb::20."
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "What is file carving?"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "File carving is the process of recovering files in the absence of their metadata. This is generally done by searching the file system for magic numbers (file headers). The drawback of this method is that it is not usually possible to restore the metadata along with the files."
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "## Poznámka Anki 1684485069288"
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "Karty Anki: 1684485069289"
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "GUID: w(U=YP6RG,; štítky: bi-eha::p12 bi-ib::24 ni-pb::20."
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "What is slack space?"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "Slack space refers to unused space in a file cluster (allocation unit). This space may hold residual data of a deleted file that was allocated in this cluster before being overwritten."
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": " [Obrázek: paste-ac40ed3ec323b1c4b6dbeabf3cfd21a6e58f9a42.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "## Poznámka Anki 1684485229314"
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "Karty Anki: 1684485229314"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "GUID: F/[L+_s4^d; štítky: bi-eha::p12 bi-ib::24 ni-pb::20."
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "Metadata původního zdroje pro kartu 1684485229314: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "What are forensic artifacts? List examples."
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "Forensic artifacts are data that are generated or left behind by activities of a user on a digital device. This includes logs, browsing history, swap, or hibernation files."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.941797+00:00",
+      "transcript_file": "sources/anki-prednaska-12-v1/transcript/anki-prednaska-12-v1.md",
+      "transcript_sha256": "925491f69475bfa871e692a7daa686b67dfe4b6b5065a081e5f5636b93981541"
+    },
+    "anki-zakladni-sada-otazek-v1": {
+      "subject_id": "bi-eha",
+      "source_id": "anki-zakladni-sada-otazek-v1",
+      "title": "FIT ČVUT Anki – BI-EHA – Základní sada otázek",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-eha/anki-zakladni-sada-otazek-v1/anki-zakladni-sada-otazek-v1.zip",
+      "file": "sources/anki-zakladni-sada-otazek-v1/anki-zakladni-sada-otazek-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "3910b4a4c5b7b70032b867fb885a8ed024bec59d1b650ff84d328c09e3c175b5",
+      "topic_ids": [
+        "zakladni-sada-otazek"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg, SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-EHA – Základní sada otázek"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-eha/BI-EHA.apkg; APKG SHA-256 c1faeda627c79eb61a7fd805476dd25213c149be4f50abfcbce04d85b2c27853. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 5c983498accbbf883eb18eb0e5351b8f14653c14dcca6e88ff363b189b4adf5b."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-EHA"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 1 poznámek, 1 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1728477699497"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1728477699498"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: tZ/z@r;a|S; štítky: ni-sbf::p03."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Metadata původního zdroje pro kartu 1728477699498: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "What are the stages of forensic analysis?"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "Forensic analysis usually consists of the following stages:"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "- **identification** - finding evidence,"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "- **preservation** - isolating data and ensuring preservation of its initial state,"
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "- **analysis** - reconstructing data and drawing conclusions,"
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "- **documentation** - documenting the process for future reproduction and non-repudiation,"
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "- **presentation** - presenting the results to a non-professional audience."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.974285+00:00",
+      "transcript_file": "sources/anki-zakladni-sada-otazek-v1/transcript/anki-zakladni-sada-otazek-v1.md",
+      "transcript_sha256": "1a0b1507036c4293bfbf5126984af26035afac36bac00a9595e6a86970c9aec8"
+    }
+  },
+  "checkpoints": []
+}

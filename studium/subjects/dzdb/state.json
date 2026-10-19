@@ -1,0 +1,1696 @@
+{
+  "schema_version": 1,
+  "subject_id": "dzdb",
+  "name": "DZDB – Dobývání znalostí",
+  "goals": [
+    "Porozumět dobývání znalostí podle dodaných prezentací."
+  ],
+  "created_at": "2026-10-15T15:24:59.025950+00:00",
+  "topics": {
+    "uvod-a-proces": {
+      "subject_id": "dzdb",
+      "topic_id": "uvod-a-proces",
+      "title": "Úvod, pojmy a postup dobývání znalostí",
+      "objectives": [
+        "Vysvětlit základní úlohy dobývání znalostí a proces podle CRISP-DM."
+      ],
+      "prerequisites": [],
+      "status": "practicing",
+      "misconceptions": [],
+      "review_on": "2026-10-20"
+    },
+    "databaze-a-olap": {
+      "subject_id": "dzdb",
+      "topic_id": "databaze-a-olap",
+      "title": "Databáze, OLAP a datové sklady",
+      "objectives": [
+        "Rozlišit relační databáze, OLAP, datové krychle a datové sklady."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "asociacni-pravidla": {
+      "subject_id": "dzdb",
+      "topic_id": "asociacni-pravidla",
+      "title": "Asociační pravidla a analýza nákupního košíku",
+      "objectives": [
+        "Interpretovat podporu, spolehlivost a zlepšení pravidla a popsat algoritmus APRIORI."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "rozhodovaci-stromy": {
+      "subject_id": "dzdb",
+      "topic_id": "rozhodovaci-stromy",
+      "title": "Rozhodovací stromy",
+      "objectives": [
+        "Vysvětlit indukci rozhodovacího stromu, výběr atributů, klasifikaci a prořezávání."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "metoda-guha": {
+      "subject_id": "dzdb",
+      "topic_id": "metoda-guha",
+      "title": "Metoda GUHA",
+      "objectives": [
+        "Popsat princip GUHA, vztah dat a tvrzení a orientovat se v procedurách 4ft-Miner, CF Miner a KL Miner."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    }
+  },
+  "sources": {
+    "uvod-v1": {
+      "subject_id": "dzdb",
+      "source_id": "uvod-v1",
+      "title": "Úvod, pojmy a postup dobývání znalostí",
+      "version": "1",
+      "priority": "primary",
+      "original_path": "/home/grogy/osu_repository/1-uvod-data-mining.ppt",
+      "file": "sources/uvod-v1/1-uvod-data-mining.ppt",
+      "ingest_mode": "move",
+      "sha256": "ff213cdc93deebfb2a5df34f7d9197069c53b866a0b4183a8326e47e8bb03959",
+      "topic_ids": [
+        "uvod-a-proces"
+      ],
+      "indexed": true,
+      "extraction_note": "Text indexed through a temporary LibreOffice PPT-to-PPTX conversion; original PPT retained as the reference. Graphics and formulas need visual review.",
+      "note": "Uživatel při dodání výslovně přiřadil tuto prezentaci k DZDB – Dobývání znalostí. Převzatý originál ve formátu PPT; 59 snímků. Textový index byl vytvořen pomocí dočasného převodu LibreOffice Impress do PPTX. Odkazy slide:N zachovávají pořadí snímků prezentace; odvozený PPTX není uloženým studijním materiálem. Obrázky, diagramy, tabulky a vzorce zůstávají v původním PPT a při výuce vyžadují vizuální ověření. Uvedené softwarové verze, dostupnost nástrojů a historická srovnání nepředstavují ověřený aktuální stav. Názvy témat a orientační cíle vycházejí z obsahu, nejde o potvrzené požadavky ke zkoušce. Literatura a odkazy uvnitř prezentace nejsou další samostatně dodané zdroje. Mapa obsahu: Pojmy, úlohy a aplikace sn. 1–24; metodiky 5A, SEMMA a CRISP-DM sn. 25–39; PMML a API sn. 40–44; systémy a nástroje sn. 45–58; zdroje sn. 59.",
+      "passages": [
+        {
+          "locator": "slide:1",
+          "text": "Dobývání znalostí\nÚvod, pojmy, postup dobývání znalostí"
+        },
+        {
+          "locator": "slide:2",
+          "text": "Dobývání znalostí, data mining\nKnowledge Discovery in Databases\nData Mining\nKnowledge Destilery\nNon-trivial process of identifying valid, novel, potentially useful and ultimately understandable patterns from data (Fayyad a kol., 1996)\nData mining involves the use of sophisticated data analysis tools to discover previously unknown, valid patterns and relationships in large data sets (Adriaans, Zantinge, 1999)"
+        },
+        {
+          "locator": "slide:3",
+          "text": "Dobývání znalostí, data mining\nAnalysis of observational data sets to find unsuspected relationships and summarize data in novel ways that are both understandable and useful to the data owner (Hand, Manilla, Smyth, 2001)\nData mining is the process of analyzing hidden patterns of data from different perspectives and categorizing them into useful information (techopedia.org, 2011)"
+        },
+        {
+          "locator": "slide:4",
+          "text": "Zdroje\ndatabáze (dotazovací jazyky, OLAP)\nstatistika (analýza dat)\numělá inteligence (strojové učení) "
+        },
+        {
+          "locator": "slide:5",
+          "text": "Související pojmy\nMachine learning \n(strojové učení) – část procesu DZD (modelování), zabývá se technikami a algoritmy umožňující systému „se učit“ \nData science \n– teoretický základ pro data mining, analýzu big dat, data-driven decision making e.t.c) \nUmělá inteligence \n– schopnost strojů vykazovat inteligentní chování; v současné době buzzword, tento termín je (neprávem) spojován především s celou řadou aplikací hlubokých neuronových sítí"
+        },
+        {
+          "locator": "slide:6",
+          "text": "Související pojmy\nBusiness intelligence \n– proces analyzování a reportování historických firemních dat \nData analytics - \nanalýza firemních dat cílená do budoucnosti (na řešení úloh optimalizace, predikce, …) \nBig Data – \ndata, která nelze zpracovat běžnými databázovými a analytickými systémy kvůli jejich rozsahu, heterogenitě a rychlosti jejich sbírání "
+        },
+        {
+          "locator": "slide:7",
+          "text": "Úlohy dobývání znalostí"
+        },
+        {
+          "locator": "slide:8",
+          "text": "Deskripce dat a sumarizace "
+        },
+        {
+          "locator": "slide:9",
+          "text": "Klasifikace\nhledání znalostí, které umožní klasifikovat (zařazovat do tříd) nové příklady \ncílem je vytvořit systém pro (automatizovanou) podporu rozhodování \npřesnost klasifikace má přednost před srozumitelností modelu \nPříklad: \nPC, notebook, telefon = elektronika\nStůl, židle = nábytek"
+        },
+        {
+          "locator": "slide:10",
+          "text": "Deskripce konceptů\nhledání srozumitelných popisů konceptů (např. jak vypadá bonitní klient)\núloha se podobá klasifikaci ale důležitou roli hraje srozumitelnost nalezených znalostí "
+        },
+        {
+          "locator": "slide:11",
+          "text": "Segmentace\nhledání zajímavých a smysluplných skupin (segmentů, shluků) navzájem si podobných příkladů \ntypickou technikou je shluková analýza \nPříklad: \nSegment významných zákazníků (často nakupují, mají objednávky vysokých hodnot, atd.)"
+        },
+        {
+          "locator": "slide:12",
+          "text": "Predikce\nhledání znalostí, které umožní odhadnout vývoj nějaké numerické veličiny v čase \nanalyzovaná data mají často podobu časových řad \nvýsledek predikce může být kategoriální (vzrůst vs. pokles hodnot) nebo numerický (následující hodnota) "
+        },
+        {
+          "locator": "slide:13",
+          "text": "Predikce"
+        },
+        {
+          "locator": "slide:14",
+          "text": "Analýza závislostí\nhledání významných závislostí (asociací) mezi datovými položkami nebo událostmi "
+        },
+        {
+          "locator": "slide:15",
+          "text": "Detekce odchylek\nhledání nejvýznamnějších změn oproti dříve zjištěným nebo standardním hodnotám "
+        },
+        {
+          "locator": "slide:16",
+          "text": "Hrubší členění\nklasifikace/predikce:\n cílem je nalézt znalosti použitelné pro klasifikaci nových případů\ndeskripce:\n cílem je nalézt dominantní strukturu nebo vazby\nhledání „nugetů“: \ncílem je nalézt dílčí překvapivé znalosti"
+        },
+        {
+          "locator": "slide:17",
+          "text": "Aplikační oblasti pro dobývání znalostí \nSegmentace a klasifikace klientů banky (např. rozpoznání problémových nebo naopak vysoce bonitních klientů)\nPredikce vývoje kursů akcií\nPredikce spotřeby elektrické energie\nAnalýza příčin poruch v telekomunikačních sítích"
+        },
+        {
+          "locator": "slide:18",
+          "text": "Aplikační oblasti pro dobývání znalostí \nAnalýza důvodů změny poskytovatele nějakých služeb (internet, mobilní telefony)\nSegmentace a klasifikace klientů pojišťovny\nUrčení příčin poruch automobilů\nRozbor databáze pacientů v nemocnici\nAnalýza nákupního košíku (Market Basket Analysis)"
+        },
+        {
+          "locator": "slide:19",
+          "text": "Aplikační oblasti pro dobývání znalostí, výsledky ankety"
+        },
+        {
+          "locator": "slide:20",
+          "text": "Aplikační oblasti pro dobývání znalostí, výsledky ankety\nCRM/Consumer analytics, 16.8% \nFinance, 15.2% \nBanking, 14.1% \nHealth care, 13.2% \nFraud Detection, 13.0% "
+        },
+        {
+          "locator": "slide:21",
+          "text": "Data mining jako „loupání cibule“ \nvýsledky aktuální analýzy vedou k formulování nové (často detailnější) úlohy \nodkrýváme další a další vrstvy znalostí"
+        },
+        {
+          "locator": "slide:22",
+          "text": "Analýza nákupního košíku: pohled na data "
+        },
+        {
+          "locator": "slide:23",
+          "text": "Analýza nákupního košíku: deskripce"
+        },
+        {
+          "locator": "slide:24",
+          "text": "Analýza nákupního košíku: klasifikace"
+        },
+        {
+          "locator": "slide:25",
+          "text": "Standardy pro dobývání znalostí"
+        },
+        {
+          "locator": "slide:26",
+          "text": "Metodiky"
+        },
+        {
+          "locator": "slide:27",
+          "text": " \nMetodika 5A\nMetodiku „5A“ nabízí firma SPSS jako svůj pohled na proces dobývání znalostí. Název metodiky je akronymem pro jednotlivé prováděné kroky: \nAssess\n – posouzení potřeb projektu, \nAccess\n – shromáždění potřebných dat, \nAnalyze\n – provedení analýz, \nAkt\n – přeměna znalostí na akční znalosti, \nAutomate\n – převedení výsledků analýzy do praxe"
+        },
+        {
+          "locator": "slide:28",
+          "text": "Metodika SEMMA\nNavržená pro Enterprise Miner firmy SAS: \nSample\n (vybrání vhodných objektů), \nExplore\n (vizuální explorace a redukce dat), \nModify\n (seskupování objektů a hodnot atributů, datové transformace), \nModel\n (analýza dat: neuronové sítě, rozhodovací stromy, statistické techniky, asociace a shlukování), \nAssess\n (porovnání modelů a interpretace). "
+        },
+        {
+          "locator": "slide:29",
+          "text": "Metodika SEMMA"
+        },
+        {
+          "locator": "slide:30",
+          "text": "Metodika CRISP-DM\nCRoss-Industry Standard Process for Data Mining\nVznik v rámci evropského výzkumného projektu\nCíl:\nNavrhnout univerzální postup použitelný v nejrůznějších komerčních aplikacích\nStandardní model procesu dobývání znalostí (z databází)\n+ „průvodce“ možnými problémy a jejich řešením v reálných aplikacích"
+        },
+        {
+          "locator": "slide:31",
+          "text": "Metodika CRISP-DM\nProces dobývání znalostí má 6 fází, pořadí fází není přesně určeno\nVýsledky získané v jedné fázi ovlivňují volbu dalších kroků\nNěkteré kroky a fáze je třeba provádět opakovaně"
+        },
+        {
+          "locator": "slide:32",
+          "text": "Metodika CRISP-DM\nV současnosti de-facto standard podporovaný většinou systémů pro dobývání znalostí "
+        },
+        {
+          "locator": "slide:33",
+          "text": "Metodika CRISP-DM"
+        },
+        {
+          "locator": "slide:34",
+          "text": "Porozumění problematice\nPochopení cílů úlohy a požadavků na řešení(formulovaných z pohledu manažera)\nManažerskou formulaci je nutné převést na zadání úlohy pro dobývání znalostí z databází\n„\nRevize“ zdrojů (datových, výpočetních i lidských), hodnotí se možná rizika, náklady a přínos\nStanoví se předběžný plán prací"
+        },
+        {
+          "locator": "slide:35",
+          "text": "Porozumění datům\nPrvotní sběr dat\nZískání základní představy o datech\nPosouzení kvality dat, vytipování zajímavých podmnožin záznamů v databázi, …\nVýpočet deskriptivních charakteristik dat\nČetnost atributů, průměrné hodnoty, …\nVýhodou jsou vizualizační techniky"
+        },
+        {
+          "locator": "slide:36",
+          "text": "Příprava dat\nVytvoření datového souboru, který bude zpracováván jednotlivými analytickými metodami\nData by měla obsahovat údaje podstatné pro danou úlohu a měla by být ve tvaru vyžadovaném algoritmy pro analýzu\nPříprava dat zahrnuje: Selekci dat, čištění dat, transformaci dat, vytváření dat, integrování dat, formátování dat, …\nJednotlivé úkony se obvykle provádějí opakovaně a v nejrůznějším pořadí"
+        },
+        {
+          "locator": "slide:37",
+          "text": "Modelování\nPoužití analytických metod pro dobývání znalostí \nZ možných metod vybrat ty nejvhodnější a adekvátně nastavit jejich parametry\nIterativní činnost \nOpakovaná aplikace algoritmů s různými parametry \nMůže vést k potřebě modifikovat data \nOvěření nalezených znalostí"
+        },
+        {
+          "locator": "slide:38",
+          "text": "Vyhodnocení výsledků\nZ pohledu manažerů\nByly splněny cíle formulované při zadání úlohy?\nRozhodnutí o způsobu využití výsledků"
+        },
+        {
+          "locator": "slide:39",
+          "text": "Využití výsledků\nUpravit získané znalosti do podoby použitelné pro zákazníka (manažera, zadavatele)\nZákazník musí pochopit, co je třeba učinit pro efektivní využití dosažených výsledků!\nImplementace klasifikačního algoritmu v user-friendly podobě\nPříprava uživatelského manuálu \nInstalace programu na pobočkách banky a zaškolení uživatelů\nZměna metodiky poskytování úvěrů a příslušná změna vnitřních předpisů banky"
+        },
+        {
+          "locator": "slide:40",
+          "text": "Standard pro zápis modelů"
+        },
+        {
+          "locator": "slide:41",
+          "text": "Predictive Modeling Markup Language \nStandard na bázi XML vyvinutý v Data Mining Group (www.dmg.org), který slouží pro popis dat, datových transformací, i vytvořených modelů. \nZákladní části PMML dokumentu: \nHeader \nData Dictionary \nData Transformations \nModel "
+        },
+        {
+          "locator": "slide:42",
+          "text": "Predictive Modeling Markup Language "
+        },
+        {
+          "locator": "slide:43",
+          "text": "Predictive Modeling Markup Language "
+        },
+        {
+          "locator": "slide:44",
+          "text": "Programovací standardy (API) \nSQL/MM Data Mining \nStandardní rozhranní umožňující přístup z relačních databází k algoritmům pro data mining \nOLE DB for Data Mining \nAPI vyvinuté firmou Microsoft \nJava Data Mining "
+        },
+        {
+          "locator": "slide:45",
+          "text": "Systémy pro DZD\npokrývají celý proces dobývání znalostí (od předzpracování po interpretaci), \nnabízejí více algoritmů pro analýzu (než „jednoúčelové” systémy strojového učení), \nkladou důraz na vizualizaci (ve způsobu práce se systémem i při interpretaci výsledků)"
+        },
+        {
+          "locator": "slide:46",
+          "text": "Data miningové systémy"
+        },
+        {
+          "locator": "slide:47",
+          "text": "Data miningové systémy\nSamostatné systémy, které implementují řadu algoritmů pro data mining i předzpracování dat \n• \nKomerční \nŽádná kontrola nad implementací \nPlná kontrola nad instalací \nPlná kontrola nad daty \nPlný přístup k podpoře "
+        },
+        {
+          "locator": "slide:48",
+          "text": "Data miningové systémy\nVolně dostupné/Open Source \nŽádná kontrola nad implementací \nPlná kontrola nad instalací \nPlná kontrola nad daty \nŽádný/omezený přístup k podpoře \nwww.kdnuggets.com uvádí asi 90 komerčních a asi 30 volně dostupných systémů "
+        },
+        {
+          "locator": "slide:49",
+          "text": "Weka"
+        },
+        {
+          "locator": "slide:50",
+          "text": "Rapid Miner"
+        },
+        {
+          "locator": "slide:51",
+          "text": "SAS Enterprise Miner "
+        },
+        {
+          "locator": "slide:52",
+          "text": "IBM SPSS Modeler (Clementine) "
+        },
+        {
+          "locator": "slide:53",
+          "text": "Gartner Magic Quadrant 2018 "
+        },
+        {
+          "locator": "slide:54",
+          "text": "KDnuggets Poll "
+        },
+        {
+          "locator": "slide:55",
+          "text": "Nové systémy"
+        },
+        {
+          "locator": "slide:56",
+          "text": "Nové systémy"
+        },
+        {
+          "locator": "slide:57",
+          "text": "Nástroj pro výuku - LISp-Miner"
+        },
+        {
+          "locator": "slide:58",
+          "text": "KNIME Analytics platform, verze zdarma\nKe stažení na: https://www.knime.com/downloads"
+        },
+        {
+          "locator": "slide:59",
+          "text": "Zdroje\nPetr Berka 2020, Dobývání znalostí z databází\nDoc. RNDr. Iveta Mrázová, CSc., Dobývání znalostí z databází"
+        }
+      ],
+      "created_at": "2026-10-15T15:25:01.425979+00:00"
+    },
+    "databaze-v1": {
+      "subject_id": "dzdb",
+      "source_id": "databaze-v1",
+      "title": "Databáze, OLAP a datové sklady",
+      "version": "1",
+      "priority": "primary",
+      "original_path": "/home/grogy/osu_repository/2-data-mining-databaze.ppt",
+      "file": "sources/databaze-v1/2-data-mining-databaze.ppt",
+      "ingest_mode": "move",
+      "sha256": "dd1f647e3f1d4796d411e2e2b74611179d82efb5c254323777926d5247541162",
+      "topic_ids": [
+        "databaze-a-olap"
+      ],
+      "indexed": true,
+      "extraction_note": "Text indexed through a temporary LibreOffice PPT-to-PPTX conversion; original PPT retained as the reference. Graphics and formulas need visual review.",
+      "note": "Uživatel při dodání výslovně přiřadil tuto prezentaci k DZDB – Dobývání znalostí. Převzatý originál ve formátu PPT; 31 snímků. Textový index byl vytvořen pomocí dočasného převodu LibreOffice Impress do PPTX. Odkazy slide:N zachovávají pořadí snímků prezentace; odvozený PPTX není uloženým studijním materiálem. Obrázky, diagramy, tabulky a vzorce zůstávají v původním PPT a při výuce vyžadují vizuální ověření. Uvedené softwarové verze, dostupnost nástrojů a historická srovnání nepředstavují ověřený aktuální stav. Názvy témat a orientační cíle vycházejí z obsahu, nejde o potvrzené požadavky ke zkoušce. Literatura a odkazy uvnitř prezentace nejsou další samostatně dodané zdroje. Mapa obsahu: Relační databáze a SQL sn. 2–6; OLAP, datové krychle, MOLAP a ROLAP sn. 7–22; datové sklady sn. 23–26; dotazy pro dobývání znalostí sn. 27–30; zdroje sn. 31.",
+      "passages": [
+        {
+          "locator": "slide:1",
+          "text": "Dobývání znalostí\nDatabáze"
+        },
+        {
+          "locator": "slide:2",
+          "text": "Relační databáze\nDatový soubor je rozdělen do řady relací(tabulek)\nMnožina relací\nRelace je reprezentovaná dvourozměrnou tabulkou (řádky odpovídají záznamům, sloupce odpovídají atributům)\nJednotlivé záznamy jsou jednoznačně identifikovány pomocí primárního klíče"
+        },
+        {
+          "locator": "slide:3",
+          "text": "Relační databáze\nOperace pro manipulaci s tabulkami\nSelekce:slouží k výběru záznamů(~řádků) tabulky\nProjekce:slouží k výběru atributů(~sloupců) tabulky\nSpojení:slouží k propojovánítabulek –spojují se řádky se stejnou hodnotou atributu, obvykle klíče\nKladení dotazů\nQBE (~QueryBy Example)\nSQL (~StructuredQueryLanguage)"
+        },
+        {
+          "locator": "slide:4",
+          "text": "Relační databáze\nQBE \n– uživatel vyplní (vybere) ve formuláři, co ho zajímá\nzadá „masku“, které by měly odpovídat nalezené záznamy\nRelativně jednoduchý, intuitivní způsob kladení dotazů\nVhodnější pro méně zkušené uživatele\nSQL \n– jednoduchý programovací jazyk pro definování dat a manipulaci s nimi\nUrčeno pro zkušenější uživatele"
+        },
+        {
+          "locator": "slide:5",
+          "text": "Příklad relační databáze"
+        },
+        {
+          "locator": "slide:6",
+          "text": "Příklad dotazu v jazyce SQL\nSELECT klient.jmeno, klient.prijmeni, \nklient.adresa_ulice, klient.adresa_mesto, ucet.cislo_uctu, transakce.zustatek\nFROM klient, ucet, transakce\nWHERE klient.id_klient = ucet.id_klient;\nAND transakce.id_ucet = ucet.id_ucet; \nAND transakce.zustatek < 100;\nGROUP BY klient.adresa_mesto"
+        },
+        {
+          "locator": "slide:7",
+          "text": "OLAP\nOLAP ~ On-Line Analytical Processing:\n(E. F. Codd – 80. léta 20. století)\nRychlost a flexibilita\nIntuitivní ovládání\nMožnost vizualizace\nGrafické rozhraní \nNahlížení na data v numerické podobě i v podobě grafů"
+        },
+        {
+          "locator": "slide:8",
+          "text": "OLAP\nMultidimenzionální koncept ukládání i manipulace s daty\nIntuitivní manipulace s daty\nPráce s daty z heterogenních datových zdrojů\nProvádí se konverze dat\nPoužití analytických metod \nStatistické přehledy\nWhat-if analýzy"
+        },
+        {
+          "locator": "slide:9",
+          "text": "OLAP\nclient/server architektura\nPodpora multiuživatelského pohledu\nUkládání výsledků OLAP mimo zdrojová data\nDynamická manipulace s řídkými maticemi\nZpracování chybějících hodnot\nNeomezený počet dimenzí a agregačních úrovní"
+        },
+        {
+          "locator": "slide:10",
+          "text": "OLAP\nZáklad OLAP  = pohled na data jako na mnoharozměrnou tabulku - datová krychle (data cube)\nPříklad jednoduché databáze:\nÚdaje o prodeji různých výrobků v jednotlivých měsících v různých obchodech "
+        },
+        {
+          "locator": "slide:11",
+          "text": "OLAP\nPřevod databáze na datovou krychli\nSledované atributy tvoří dimenze krychle\nZáznamům v databázi odpovídají buňky krychle\nrůzné pohledy na data\nplýtvá se místem\n- řada buněk je prázdná"
+        },
+        {
+          "locator": "slide:12",
+          "text": "OLAP\nPříklad – záznamy v databázi PRODEJ:"
+        },
+        {
+          "locator": "slide:13",
+          "text": "OLAP\nŘídká matice:"
+        },
+        {
+          "locator": "slide:14",
+          "text": "OLAP\nDatová krychle"
+        },
+        {
+          "locator": "slide:15",
+          "text": "OLAP\nHodnoty atributů lze sdružovat do hierarchií:\nÚrovní v hierarchii může být více\nPř.:obchod →oblast →kraj →země\nOperace:Roll-up\npřechod na hierarchicky vyšší–obecnější–úroveň\nZobrazované údaje mají podobu \nsouhrnů\nDrill-down\nPodrobnější pohled\nRůzné úrovně - \ngranularita"
+        },
+        {
+          "locator": "slide:16",
+          "text": "OLAP\nImplementace \n(datové krychle):\nrychlý přístup k datům klade vysoké nároky na datový server (a jeho cenu)\nNamísto OLAP (MOLAP - Multidimenzionální OLAP) použít ROLAP - Relační OLAP (založený na klasické relační databázi)\nDotazy OLAP se převádějí do klasických dotazů SQL"
+        },
+        {
+          "locator": "slide:17",
+          "text": "OLAP\nMOLAP\n„\nklasický“ OLAP\n+ vhodné pro středně velké, statistické aplikace\nnapř. analýza historických dat o prodeji nějakého výrobku\nNehodí se pro dynamické aplikace s průběžnou aktualizací dat (výpočty souhrnů!)"
+        },
+        {
+          "locator": "slide:18",
+          "text": "OLAP\nROLAP\nrelační OLAP\n+ vhodné pro rozsáhlé aplikace využívající transakční data\n+ zpracování rozsáhlých dat za použití existujících databázových technologií\nnepoužívá se příliš pro obchodní aplikace"
+        },
+        {
+          "locator": "slide:19",
+          "text": "Implementace ROLAP\nSchéma hvězdy (starschema)\nVychází z jedné centrální \ntabulky faktů\n, která obsahuje složený \nprimární klíč\n(jeden segment klíče pro každou dimenzi) a \ndetailní data \n(např. objem prodeje daného výrobku v daném obchodu za dané období)\nMůže obsahovat i \nagregovaná data"
+        },
+        {
+          "locator": "slide:20",
+          "text": "Implementace ROLAP\nPro každou dimenzi existuje jedna tabulka s údaji na různé úrovni příslušné hierarchie \n→ tabulka dimenzí\nÚroveň v hierarchii (level) \nse zaznamenává jako další indikátor do tabulky dimenzí\nnutná při dotazování do tabulky, která obsahuje současně data detailní i agregovaná\nKlady: \nsrozumitelnost, snadné definování hierarchií jednoduchá metadata, rychlý přístup k datům\nNevýhody: \nproblémy s velkými tabulkami dimenzí, předpokládá statická data neaktualizovaná on-line"
+        },
+        {
+          "locator": "slide:21",
+          "text": "Příklad \nDatabáze má 3 dimenze: prodejna, výrobek, čas\nDimenze prodejen je tvořena hierarchií: obchod → okres → region\nDimenze výrobku je tvořena hierarchií: výrobek → značka → výrobce\nDimenze času je tvořena hierarchií: datum →měsíc → čtvrtletí → rok"
+        },
+        {
+          "locator": "slide:22",
+          "text": "Příklad "
+        },
+        {
+          "locator": "slide:23",
+          "text": "Datové sklady a datová tržiště\nOLAP - \nnástroj pro analýzu a vizualizaci dat o firmě\nDatový sklad - \nmísto, kde jsou analyzovaná data uložena\nOrientován na subjekty, kterými se daná firma zabývá \nNapř.: zákazník, dodavatel, produkt, aktivita\nneuchovává data, která nejsou vhodná pro podporu \nrozhodování na manažerské úrovni\nIntegrace a sjednocení dat \nNapř.: názvů stejných ukazatelů, měřítek, kódování, …"
+        },
+        {
+          "locator": "slide:24",
+          "text": "Datový sklad\nČasově proměnný\nZafixování dat z produkčních databází\nOff-line aktualizace v určitých časových intervalech (měsíčně, ročně, …)\nAnalýza odděleně od produkčních databází\nNešetrný zásah neovlivní operativní řízení firmy\nRychlejší odezva na položený dotaz\nnevýhodou je zastarávání dat\nČasové údaje jsou v datovém skladu explicitně přítomny jako jedna z důležitých informací\nStálý\ndotazy, které do datového skladu směřují uživatelé, nezpůsobují změnu zde uložených dat\nDatový sklad - \nmísto, kde jsou analyzovaná data uložena\nOrientován na subjekty, kterými se daná firma zabývá \nNapř.: zákazník, dodavatel, produkt, aktivita\nneuchovává data, která nejsou vhodná pro podporu \nrozhodování na manažerské úrovni\nIntegrace a sjednocení dat \nNapř.: názvů stejných ukazatelů, měřítek, kódování, …"
+        },
+        {
+          "locator": "slide:25",
+          "text": "Struktura datového skladu"
+        },
+        {
+          "locator": "slide:26",
+          "text": "Třívrstvá architektura datového skladu"
+        },
+        {
+          "locator": "slide:27",
+          "text": "Dotazovací jazyky pro dobývání znalostí\nMINE RULE\nUmožňuje klást dotazy na asociační pravidla: Implikace typu „Jestliže platí předpoklad, platí i závěr“ doplněné o kvantitativní charakteristiky odvozené z počtu záznamů v databázi splňujících předpoklad, resp. závěr pravidla\nPříkazy:\n \nFROM, WHERE, GROUP BY, CLUSTER BY,\n SELECT, EXTRACTING RULES\nPříklad: IF produkt_1 &produkt_2 &…& produkt_n THEN produkt (SUPPORT, CONFIDENCE)"
+        },
+        {
+          "locator": "slide:28",
+          "text": "Dotazovací jazyky pro dobývání znalostí\nMINE RULE\nSUPPORT (podpora)\npodíl počtu záznamů, ve kterých současně platí předpoklad i závěr pravidla, a celkového počtu záznamů vybraných na  základě podmínky WHERE \nCONFIDENCE (spolehlivost)\npodíl počtu záznamů, ve kterých současně platí předpoklad i závěr pravidla, a počtu záznamů, ve kterých platí pouze předpoklad"
+        },
+        {
+          "locator": "slide:29",
+          "text": "Příklad dotazu v MINE RULE\nMINE RULE Priklad AS\nSELECT DISTINCT 1..n produkt AS BODY, 1..1 \nprodukt AS HEAD, SUPPORT, CONFIDENCE\nFROM Prodej\nWHERE BODY.město = HEAD.město\nAND BODY.datum = HEAD.datum\nEXTRACTING RULES WITH SUPPORT: 0.1, \nCONFIDENCE: 0.5"
+        },
+        {
+          "locator": "slide:30",
+          "text": "Příklad dotazu v MS SQL\nOdvodit podle věku a pohlaví, jaké má daný zaměstnanec auto\nEmp(Id,Age,Sex,Salary,Position,Car)\nGetRules(Emp)\ninto R\nwhere support > 0.1 and confidence > 0.9\nSelectRules(R)\nwhere body has {(Age=*),(Sex=*)}\nand head is {(Car=*)}"
+        },
+        {
+          "locator": "slide:31",
+          "text": "Zdroje\nPetr Berka 2020, Dobývání znalostí z databází\nDoc. RNDr. Iveta Mrázová, CSc., Dobývání znalostí z databází"
+        }
+      ],
+      "created_at": "2026-10-15T15:25:03.295242+00:00"
+    },
+    "asociacni-pravidla-v1": {
+      "subject_id": "dzdb",
+      "source_id": "asociacni-pravidla-v1",
+      "title": "Asociační pravidla a analýza nákupního košíku",
+      "version": "1",
+      "priority": "primary",
+      "original_path": "/home/grogy/osu_repository/3-data-mining-asociacni-pravidla.ppt",
+      "file": "sources/asociacni-pravidla-v1/3-data-mining-asociacni-pravidla.ppt",
+      "ingest_mode": "move",
+      "sha256": "98592a0f3326ab4bfa03b89d67539ced8112997077a2e6e2d9d3092d1997f31f",
+      "topic_ids": [
+        "asociacni-pravidla"
+      ],
+      "indexed": true,
+      "extraction_note": "Text indexed through a temporary LibreOffice PPT-to-PPTX conversion; original PPT retained as the reference. Graphics and formulas need visual review.",
+      "note": "Uživatel při dodání výslovně přiřadil tuto prezentaci k DZDB – Dobývání znalostí. Převzatý originál ve formátu PPT; 27 snímků. Textový index byl vytvořen pomocí dočasného převodu LibreOffice Impress do PPTX. Odkazy slide:N zachovávají pořadí snímků prezentace; odvozený PPTX není uloženým studijním materiálem. Obrázky, diagramy, tabulky a vzorce zůstávají v původním PPT a při výuce vyžadují vizuální ověření. Uvedené softwarové verze, dostupnost nástrojů a historická srovnání nepředstavují ověřený aktuální stav. Názvy témat a orientační cíle vycházejí z obsahu, nejde o potvrzené požadavky ke zkoušce. Literatura a odkazy uvnitř prezentace nejsou další samostatně dodané zdroje. Mapa obsahu: Analýza nákupního košíku sn. 2–8; podpora, spolehlivost a zlepšení sn. 9–12; příprava položek sn. 13–18; APRIORI sn. 19–22; disociační pravidla a časové řady sn. 23–24; přínosy a omezení sn. 25–26; zdroje sn. 27.",
+      "passages": [
+        {
+          "locator": "slide:1",
+          "text": "Dobývání znalostí\nAsociační pravidla"
+        },
+        {
+          "locator": "slide:2",
+          "text": "Analýza nákupního košíku\nAnalýza prodeje:\nKteré položky jsou v “košíku” pohromadě?\nVýsledky: \nvyjádřené formou pravidel\nLze bezprostředně použít\nPoužití: \nplánování a rozvržení obchodu\nNabídka kupónů, omezení slev\n“\nbalení” produktů"
+        },
+        {
+          "locator": "slide:3",
+          "text": "Asociační pravidla\nJak spolu jednotlivé produkty navzájem souvisí?\nAsociační pravidla by měla být:\nSnadno pochopitelná: jakmile je nějaký vztah nalezen, lze ho snadno ověřit\npoužitelná: obsahují užitečné informace, které mohou vést k dalším intervencím"
+        },
+        {
+          "locator": "slide:4",
+          "text": "Asociační pravidla\nAsociační pravidla by neměla být:\ntriviální: výsledky už stejně každý zná\nnevysvětlitelná: neexistuje k nim žádné vysvětlení a nevedou k žádné akci"
+        },
+        {
+          "locator": "slide:5",
+          "text": "MBA (Market Basket Analysis) pro porovnání obchodů\nVirtuální položky:\nIndikují typ obchodu, v němž proběhla daná transakce\nNeodpovídají žádnému výrobku ani službě\nPorovnání nových a stávajících obchodů:\nPořídit data za určité období z nového obchodu\nPořídit zhruba stejné množství dat ze stávajících obchodů\nPoužít MBA k nalezení asociačních pravidel v obou sadách\nUvažovat především asociační pravidla s virtuálními položkami"
+        },
+        {
+          "locator": "slide:6",
+          "text": "MBA – jak se to dělá?\nPoložka \n- produkt nebo nabídka služeb\nTransakce\n obsahuje jednu nebo více položek\nTabulka četností\nUdává počet výskytů libovolných dvou položek v některé z provedených transakcí(t.j. kolikrát byly tyto dva produkty zakoupeny najednou)\nHodnoty na diagonále odpovídají počtu transakcí obsahujících příslušnou položku"
+        },
+        {
+          "locator": "slide:7",
+          "text": "MBA – příklad\nTransakce v potravinách   Četnost produktů\nTyp prodeje patrný z tabulky četností:\nChléb a máslo se nejspíš nakupují najednou.\nMléko se nikdy nekupuje společně s kávou."
+        },
+        {
+          "locator": "slide:8",
+          "text": "MBA – asociační pravidla\nPravidlo \nOtázky:\nJak dobrá jsou nalezená asociační pravidla?\npodpora\nspolehlivost\nzlepšení\nJak hledat asociační pravidla automaticky? "
+        },
+        {
+          "locator": "slide:9",
+          "text": "Podpora a spolehlivost"
+        },
+        {
+          "locator": "slide:10",
+          "text": "Podpora a spolehlivost - příklad\nPodpora ( Pravidlo_1 ) = 3 / 5 • 100 % = 60 %\nSpolehlivost ( Pravidlo_1 ) = 3 / 4 • 100 % = 75 %\nPodpora ( Pravidlo_2 ) = 2 / 5 • 100 % = 40 %\nSpolehlivost ( Pravidlo_2 ) = 2 / 3 • 100 % = 66 %"
+        },
+        {
+          "locator": "slide:11",
+          "text": "Zlepšení pravidla\nPokud je Zlepšení < 1:\nPravidlo je při predikci horší než náhodná volba\nNEGACE\n výsledku může vést k lepšímu pravidlu"
+        },
+        {
+          "locator": "slide:12",
+          "text": "Zlepšení pravidla - příklad\nPodpora ( Pravidlo_1 ) = 1 / 5 • 100 % = 20 % \nSpolehlivost ( Pravidlo_1 ) = 1 / 1 • 100 % = 100 %\nZlepšení ( Pravidlo_1 ) = ( 1 / 5 ) / ( ( 1 / 5 ) • ( 4 / 5 ) ) = 5 / 4 = 1.25"
+        },
+        {
+          "locator": "slide:13",
+          "text": "Hlavní kroky MBA\nZvolte \nodpovídající \npoložky \nna adekvátní úrovni\nVytvořte pravidla \nna základě údajů z tabulky četností\nspočítejte (podmíněné) pravděpodobnosti výskytu položek a jejich kombinací v transakcích\nomezte prohledávání prahovou hodnotou pro podporu\nUrčete nejlepší pravidla \nanalýzou vypočtených pravděpodobností \npřekonejte omezení daná počtem položek a jejich kombinací v “zajímavých” transakcích"
+        },
+        {
+          "locator": "slide:14",
+          "text": "MBA – volba vhodných položek\nPořízení transakčních dat:\nČasto horší kvalita, vyžaduje rozsáhlejší předzpracování\nRelevance položek se časem může změnit\nAdekvátní úroveň zpracování: \nrostoucí počet kombinací jednotlivých položek\nvýsledky lze bezprostředně použít(specifické položky)\npravidla s dostatečně vysokou podporou(častý výskyt v množině dat)"
+        },
+        {
+          "locator": "slide:15",
+          "text": "Taxonomie – hierarchie kategorií\nMBA - Složitost generovaných pravidel:\nNa začátku použít obecnější položky\nPozději generovat pravidla pro specifické položky výlučně na základě transakcí, které tyto položky obsahují\nMBA - Použitelné výsledky:\nPoložky by měly být ve zhruba stejném počtu transakcí:\nPřesunout řídké položky do vyšších úrovní taxonomie(kde budou častější)\nObvyklejší položky nechat na nižších úrovních(aby pravidlům nedominovaly nejčastější položky)"
+        },
+        {
+          "locator": "slide:16",
+          "text": "Virtuální položky – přesahují rámec tradiční taxonomie \nStírají hranice mezi jednotlivými typy výrobků u původních položek \nnapř. (firemní) značky - Calvin Klein\nMohou obsahovat informace o transakci samotné \nanonymní \n(den v týdnu, čas, atd.)\nSignované \n(informace o zákaznících a jejich chování)\nMohou vést k redundancím v pravidlech \npoložkám z taxonomie odpovídá jen jedna jediná virtuální položka(“\nIf výrobek_Škoda then Škoda\n.”)\nVirtuální a obecné položky se v pravidle objeví najednou (“\nIf výrobek_Škoda a malé auto then stan\n” namísto “\nIf Fabia then stan\n”)"
+        },
+        {
+          "locator": "slide:17",
+          "text": "MBA – generování pravidel\nVýpočet tabulky četností:\nUdává informace o tom, které kombinace jednotlivých položek se v transakcích vyskytují nejčastěji\nLze použít k určení základních pravděpodobností potřebných k posouzení významu generovaných pravidel\nZískat užitečná pravidla:\nZlepšení by mělo být větší než 1\nMalé zlepšení lze zvětšit negací pravidel\nNegovaná pravidla mohou být hůře použitelná než ta původní\nRedukce počtu generovaných pravidel - \nPROŘEZÁVÁNÍ"
+        },
+        {
+          "locator": "slide:18",
+          "text": "Prořezávání podle minimální podpory\nEliminace méně častých položek\nPodniknuté akce by se měly \ntýkat dostatečného počtu transakcí\nDvě možnosti: \neliminace řídkých položek (a následná eliminace příslušných asociačních pravidel)\nPoužití taxonomie k vytvoření obecných položek (generalizované položky by měly vyhovovat nastaveným kritériím-prahu)\nVariabilní minimální podpora \n- kaskádový efekt"
+        },
+        {
+          "locator": "slide:19",
+          "text": "Algoritmus APRIORI (R. Agrawal)\nGenerování asociačních pravidel\nHledání často se opakujících množin položek\n~ Frequent itemsets:\nKombinace (~konjunkce) kategorií, které dosahují předem zadané četnosti na datech \n~´minsup´podpora\nPři hledání kombinací délky \nk \nvyužíváme znalosti kombinací délky \nk –1 \n~generování kombinací do šířky\nPro vytvoření kombinace délky \nk \npožadujeme, aby všechny její podkombinace délky \nk –1 \nsplňovaly požadavek na četnost"
+        },
+        {
+          "locator": "slide:20",
+          "text": "Algoritmus APRIORI\nFrequent itemsets (pokračování):\nPo nalezení kombinací, které vyhovují četností, se vytvářejí asociační pravidla \n( \nčetnost_nadkombinace≤četnost_kombinace\n)\n→ \nKaždá kombinace \nComb \nse rozdělí na všechny možné dvojice podkombinací \nAnt \na \nSuc \ntakové, že\nSuc = Comb – Ant\n( \nAnt \n∩ \nSuc = {} \na \nAnt \n∧ \nSuc = Comb )\n→ \nUvažované pravidlo \nAnt = > Suc \npak má \npodporu\n odpovídající četnosti kombinace \nComb \n, jeho \nspolehlivost \nodpovídá podílu četností kombinací \nComb \na \nAnt"
+        },
+        {
+          "locator": "slide:21",
+          "text": "Algoritmus APRIORI\nKrok 1: \nDo \nL1 \npřiřaď všechny kategorie, které dosahují \nalespoň požadované četnosti\nKrok 2: \nPolož \nk = 2\nKrok 3: \nDokud \nLk-1 \n≠\n{}\nKrok 3.1: \nPomocí funkce \nAPRIORI-GEN \n \nvygeneruj na základě \nLk-1 \nmnožinu  kandidátů \nCk\nKrok 3.2: \nDo \nLk \nzařaď ty kombinace z \nCk \n, které dosáhly alespoň požadovanou četnost \nKrok 3.3: \nZvětši počítadlo \nk"
+        },
+        {
+          "locator": "slide:22",
+          "text": "Funkce APRIORI-GEN ( \nL\nk-1\n \n)"
+        },
+        {
+          "locator": "slide:23",
+          "text": "Disociační pravidla\nPravidlo:\nZavést nové položky inverzní k původním položkám\nV případě, že transakce neobsahuje původní položku, bude obsahovat položku znegovanou\nNevýhody:\nDvojnásobný počet položek\nNarůstá velikost transakcí\nNegované položky se vyskytují častěji než ty původní(pravidla se všemi položkami negovanými lze hůř využít: “IF NOT \nA \nAND NOT \nB \nTHEN NOT \nC \n.”)"
+        },
+        {
+          "locator": "slide:24",
+          "text": "Analýza časových řad pomocí MBA\nAnalýza příčin a následků:\ninformace o čase, resp. Sledu událostí k určení toho, kdy transakce nastaly (jedna vzhledem ke druhé)\nobvykle vyžaduje nějakou identifikaci zákazníka\nPřevedení problému na MBA:\nZavedení nových položek do transakcí před sledovanou událostí (pro \npříčiny\n) a po sledované události (pro \nnásledky\n); následně odstranění duplicitních položek z transakcí\nokénko\n: “snímek” veškerých údajů, které se vyskytly během určitého období\n(např. všechny transakce za uplynulý měsíc) \ntrendy pro řídké položky"
+        },
+        {
+          "locator": "slide:25",
+          "text": "Výhody MBA\nDává jasné a srozumitelné výsledky \nIF -THEN –pravidla s bezprostředním použitím\nDobývání znalostí \n(bez požadovaných výstupů) \ndůležité při zpracovávání velkého množství dat bez dalších apriorních znalostí\nUmožňuje zpracovávat \ndata s variabilní délkou\nSnadné a srozumitelné \nvýpočty \nVýpočetní \nnároky rostou exponenciálně \ns počtem položek!"
+        },
+        {
+          "locator": "slide:26",
+          "text": "Nevýhody MBA\nExponenciální nárůst výpočetních nároků\npotřeba taxonomií a virtuálních položek\nOmezená podpora některých položek\nprořezávání méně použitelných obecných položek\nObtížné určení adekvátního počtu položek\npoložky by měly mít zhruba stejnou četnost\nZnevýhodňuje řídké položky\nvariabilní hodnoty prahu při prořezávání podle minimální podpory\nvyšší úrovně položek v taxonomii"
+        },
+        {
+          "locator": "slide:27",
+          "text": "Zdroje\nPetr Berka 2020, Dobývání znalostí z databází\nDoc. RNDr. Iveta Mrázová, CSc., Dobývání znalostí z databází"
+        }
+      ],
+      "created_at": "2026-10-15T15:25:05.239679+00:00"
+    },
+    "rozhodovaci-stromy-v1": {
+      "subject_id": "dzdb",
+      "source_id": "rozhodovaci-stromy-v1",
+      "title": "Rozhodovací stromy",
+      "version": "1",
+      "priority": "primary",
+      "original_path": "/home/grogy/osu_repository/4-data-mining-rozhodovaci-stromy.ppt",
+      "file": "sources/rozhodovaci-stromy-v1/4-data-mining-rozhodovaci-stromy.ppt",
+      "ingest_mode": "move",
+      "sha256": "ea7e5103edafdc5b6b1bb8e049d906aa58be5462ffce46af48f4ef789b96474f",
+      "topic_ids": [
+        "rozhodovaci-stromy"
+      ],
+      "indexed": true,
+      "extraction_note": "Text indexed through a temporary LibreOffice PPT-to-PPTX conversion; original PPT retained as the reference. Graphics and formulas need visual review.",
+      "note": "Uživatel při dodání výslovně přiřadil tuto prezentaci k DZDB – Dobývání znalostí. Převzatý originál ve formátu PPT; 32 snímků. Textový index byl vytvořen pomocí dočasného převodu LibreOffice Impress do PPTX. Odkazy slide:N zachovávají pořadí snímků prezentace; odvozený PPTX není uloženým studijním materiálem. Obrázky, diagramy, tabulky a vzorce zůstávají v původním PPT a při výuce vyžadují vizuální ověření. Uvedené softwarové verze, dostupnost nástrojů a historická srovnání nepředstavují ověřený aktuální stav. Názvy témat a orientační cíle vycházejí z obsahu, nejde o potvrzené požadavky ke zkoušce. Literatura a odkazy uvnitř prezentace nejsou další samostatně dodané zdroje. Mapa obsahu: Motivace a definice sn. 2–9; indukce, TDIDT a entropie sn. 10–14; klasifikace a převod na pravidla sn. 15–16; příklad úvěru sn. 17–26; faktory indukce a prořezávání sn. 27–31; zdroje sn. 32.",
+      "passages": [
+        {
+          "locator": "slide:1",
+          "text": "Dobývání znalostí\nRozhodovací stromy"
+        },
+        {
+          "locator": "slide:2",
+          "text": "Motivace"
+        },
+        {
+          "locator": "slide:3",
+          "text": "Motivace"
+        },
+        {
+          "locator": "slide:4",
+          "text": "Rozhodovací stromy (decision trees)\nŘešení klasifikačních úloh\nVytvářený strom modeluje proces klasifikace\nEfektivní vytváření stromů\nDělení příznakového prostoru do pravoúhlých oblastí\nKlasifikace vzorů podle oblasti, ve které se nacházejí"
+        },
+        {
+          "locator": "slide:5",
+          "text": "Rozhodovací stromy (decision trees)\nCílem rozhodovacích stromů je identifikovat objekty, popsané různými atributy, do tříd\nPředstavit si je můžeme jako řádky v tabulce, kde jednotlivé sloupce jsou atributy (barva očí, pohlaví)"
+        },
+        {
+          "locator": "slide:6",
+          "text": "Rozhodovací stromy\nDefinice:\nMějme databázi\nDále mějme atributy \n{A1 , A2 , …, An } \na množinu tříd \nC = { C1 , …, Cm }\n.\nRozhodovací strom \npro \nD \nje strom, kde:\nKaždý vnitřní uzel je ohodnocen atributem \nAi\nKaždá hrana je ohodnocena predikátem (použitelným na atribut rodičovského uzlu)\nKaždý list je ohodnocen třídou \nCj"
+        },
+        {
+          "locator": "slide:7",
+          "text": "Rozhodovací stromy\nŘešení klasifikačních úloh pomocí rozhodovacích stromů vyžaduje dva kroky:\nIndukce rozhodovacího stromu\nPodle trénovacích dat\n               \npoužij rozhodovací strom a urči třídu\nVýhody:\nJednoduché\nEfektivní\nExtrakce jednoduchých pravidel\nPoužitelné i pro velké databáze"
+        },
+        {
+          "locator": "slide:8",
+          "text": "Rozhodovací stromy\nNevýhody:\nObtížnější zpracování spojitých dat (kategorizace atributů ~ rozdělení příznakového prostoru do pravoúhlých oblastí)\n→\nnelze použít vždy - Příklad: \nPůjčka\nObtížné zpracování při chybějících údajích\nPřeučení („over-fitting“) \n→ \nPROŘEZÁVÁNÍ\nVzájemná korelace mezi atributy se nebere v úvahu"
+        },
+        {
+          "locator": "slide:9",
+          "text": "Rozhodovací stromy\nAtributy pro dělení:\nOhodnocení uzlů vytvářeného stromu\nDělicí predikáty:\nOhodnocení hran vytvářeného stromu\nUkončovací kritérium:\nNapř. příslušnost všech vzorů z redukované množiny ke stejné třídě"
+        },
+        {
+          "locator": "slide:10",
+          "text": "Rozhodovací stromy\nIndukce rozhodovacího stromu – algoritmus:\nVSTUP: D // trénovací data\nVÝSTUP: T // rozhodovací strom\nVytvoření rozhodovacího stromu:\n// základní algoritmus\nT = {};\nurči nejlepší kritérium pro dělení;\nT = vytvoř kořen a ohodnoť ho atributem pro dělení;\nT = přidej hranu pro každý dělicí predikát a ohodnoť ji;"
+        },
+        {
+          "locator": "slide:11",
+          "text": "Rozhodovací stromy\nIndukce rozhodovacího stromu – algoritmus:\n// pokračování\nFOR každou hranu DO\nD´ = databáze vytvořená použitím dělicího predikátu na D;\nIF ukončovací kritérium splněno pro danou cestu\nTHEN\nT´ = vytvoř list a ohodnoť ho příslušnou třídou;\n     \nELSE\nT´ = vytvoření rozhodovacího stromu ( D´);\nT = připoj T´ k hraně"
+        },
+        {
+          "locator": "slide:12",
+          "text": "Rozhodovací stromy\nAlgoritmus TDIDT:\n(~ Top Down Induction of Decision Trees)\nIndukce stromů metodou shora dolů(rozděl a panuj)\nAlgoritmus TDIDT:\n1. Zvol jeden atribut jako kořen dílčího stromu\n2. Rozděl data v tomto uzlu na podmnožiny podle hodnot zvoleného atributu a přidej uzel pro každou podmnožinu\n3. existuje-li uzel, pro který nepatří všechna data do téže třídy, opakuj pro tento uzel postup od bodu 1; jinak skonči"
+        },
+        {
+          "locator": "slide:13",
+          "text": "Rozhodovací stromy\nVýběr vhodného atributu pro větvení stromu:\nCíl: vybrat atribut, který od sebe nejlépe odliší příklady z různých tříd\nEntropie ~ míra neuspořádanosti systému\npt \n…pravděpodobnost výskytu třídy \nt \n(~ relativní četnost třídy \nt \npočítaná na určité množině příkladů)\nt \n…počet tříd\n( Pozn.: log\nb\nx= log\na\nx/ log\na\nb)"
+        },
+        {
+          "locator": "slide:14",
+          "text": "Rozhodovací stromy\nVýpočet entropie pro jeden atribut:\nPro každou hodnotu \nv\n, které může nabýt uvažovaný atribut \nA\n, spočítej entropii \nH ( A ( v ) ) \nna skupině příkladů, které jsou pokryty kategorií \nA ( v )\nSpočítej střední entropii \nH ( A ) \njako vážený součet entropií \nH ( A ( v ) )"
+        },
+        {
+          "locator": "slide:15",
+          "text": "Rozhodovací stromy\nPoužití rozhodovacího stromu pro klasifikaci nových případů:\nV nelistových uzlech stromu jsou uvedeny atributy použité při větvení\nHrany stromu odpovídají hodnotám těchto atributů\nV listech stromu je informace o přiřazení ke třídě\nOd kořene stromu se postupně zjišťují hodnoty příslušných atributů"
+        },
+        {
+          "locator": "slide:16",
+          "text": "Rozhodovací stromy\nPřevod stromu na pravidla:\nKaždé cestě stromem od kořene k listu odpovídá jedno pravidlo\nNelistové uzly (atributy) se (spolu s hodnotou pro příslušnou hranu) objeví v předpokladech pravidla\nListový uzel (cíl) bude v závěru pravidla"
+        },
+        {
+          "locator": "slide:17",
+          "text": "Rozhodovací stromy – příklad žádost o úvěr"
+        },
+        {
+          "locator": "slide:18",
+          "text": "Rozhodovací stromy – příklad žádost o úvěr\nČtyřpolní tabulka pro příjem a úvěr:\nVolba atributu pro větvení podle nejnižší entropie: \nPŘÍJEM:"
+        },
+        {
+          "locator": "slide:19",
+          "text": "Rozhodovací stromy – příklad žádost o úvěr\nVolba atributu pro větvení podle nejnižší entropie:\nPŘÍJEM (pokračování):"
+        },
+        {
+          "locator": "slide:20",
+          "text": "Rozhodovací stromy – příklad žádost o úvěr\nVolba atributu pro větvení podle nejnižší entropie: \nKONTO:"
+        },
+        {
+          "locator": "slide:21",
+          "text": "Rozhodovací stromy – příklad žádost o úvěr\nVolba atributu pro větvení podle nejnižší entropie:\nPOHLAVÍ:"
+        },
+        {
+          "locator": "slide:22",
+          "text": "Rozhodovací stromy – příklad žádost o úvěr\nVolba atributu pro větvení podle nejnižší entropie:\nNEZAMĚSTNANÝ:"
+        },
+        {
+          "locator": "slide:23",
+          "text": "Rozhodovací stromy – příklad žádost o úvěr\nVolba atributu pro větvení podle nejnižší entropie:\n→ \nPrvní větvení pro atribut \nPRIJEM\n:2 třídy\nPRIJEM ( VYSOKY ): UVER ( ANO ) pro všechny vzory\nPRIJEM ( NIZKY ): 7 klientů+ větvení\nKONTO:\nPOHLAVÍ: H ( POHLAVI ) = 0.965\nNEZAMĚSTNANÝ: H ( NEZAMESTNANY ) = 0.9792"
+        },
+        {
+          "locator": "slide:24",
+          "text": "Rozhodovací stromy – příklad žádost o úvěr\nVolba atributu pro větvení podle nejnižší entropie: \n→ \nDruhé větvení podle atributu \nKONTO\n:3 třídy\nKONTO ( VYSOKE ): UVER ( ANO ) pro všechny vzory\nKONTO ( NIZKE ): UVER (NE ) pro všechny vzory\nKONTO ( STREDNI ): 3klienti + větvení\nPOHLAVÍ:\nNEZAMĚSTNANÝ: \nH ( NEZAMESTNANY ) = 0\nTřetí větvení podle atributu \nNEZAMESTNANY"
+        },
+        {
+          "locator": "slide:25",
+          "text": "Rozhodovací stromy – příklad žádost o úvěr\nIndukovaný rozhodovací strom"
+        },
+        {
+          "locator": "slide:26",
+          "text": "Rozhodovací stromy – příklad žádost o úvěr\nPřevod indukovaného stromu na pravidla:\nIF PRIJEM ( VYSOKY ) THEN \nUVER (ANO)\nIF PRIJEM ( NIZKY ) ∧ KONTO ( VYSOKE )\n\t\nTHEN \nUVER (ANO)\nIF PRIJEM ( NIZKY ) ∧ KONTO ( NIZKE )\n\t\nTHEN \nUVER (NE)\nIF PRIJEM ( NIZKY ) ∧ KONTO ( STREDNI ) ∧\nNEZAMESTNANY ( ANO ) \nTHEN UVER (NE)\nIF PRIJEM ( NIZKY ) ∧ KONTO ( STREDNI ) ∧\nNEZAMESTNANY ( NE ) \nTHEN UVER (ANO)"
+        },
+        {
+          "locator": "slide:27",
+          "text": "Rozhodovací stromy\nFaktory důležité při indukci rozhodovacího stromu:\nVolba atributů pro dělení\nVliv na efektivitu vytvářeného stromu\n„\ninformovaný“ vstup experta pro danou oblast\nUspořádání atributů pro dělení\nOmezit zbytečná porovnávání\nDělení\nPočet potřebných dělení\nObtížnější pro spojité hodnoty anebo velký počet hodnot"
+        },
+        {
+          "locator": "slide:28",
+          "text": "Rozhodovací stromy\nFaktory důležité při indukci rozhodovacího stromu:\nTvar vytvořeného stromu\nVhodnější jsou vyvážené stromy s co nejmenším počtem úrovní x složitější porovnávání\nNěkteré algoritmy vytvářejí jen binární stromy (často hlubší)\nUkončovací kritéria\nSprávná klasifikace trénovacích dat\nPředčasné ukončení zabraňuje vytváření velkých stromů a přeučení\n→ \npřesnost x efektivita\nOccam´s razor\n(William of Occam – 1320)\npreference nejjednodušší hypotézy pro D"
+        },
+        {
+          "locator": "slide:29",
+          "text": "Rozhodovací stromy\nFaktory důležité při indukci rozhodovacího stromu:\nTrénovací data a jejich množství\nMálo → vytvořený strom nemusí být dostatečně spolehlivý pro obecnější data\nPříliš mnoho → nebezpečí přeučení\nProřezávání\nVyšší přesnost a efektivita pro testovaná data\nOdstranit redundantní porovnávání, případně celé podstromy, resp. Nepodstatné atributy\nPřeučení → odstranění celých podstromů na nižších úrovních"
+        },
+        {
+          "locator": "slide:30",
+          "text": "Rozhodovací stromy\nFaktory důležité při indukci rozhodovacího stromu:\nProřezávání(pokračování)\nLze provést již během indukce stromu\n→ \nomezí vytváření příliš velkých stromů\nJiný přístup –prořezávání již vytvořených stromů\nČasová a prostorová složitost\nZávisí na množství trénovacích dat \nq\n, počtu atributů \nh\n a tvaru indukovaného stromu –hloubka, větvení\nČasová složitost pro indukci stromu: \nO ( h q log q )\nČasová složitost klasifikace \nn\n vzorů stromem hloubky \nO ( log q ): O ( n log q )"
+        },
+        {
+          "locator": "slide:31",
+          "text": "Rozhodovací stromy\nProřezávání\nNěkteré algoritmy ukončí včas generování stromu (prepruning)\nVětšina nejdříve vygeneruje strom a pak ho ořeže (postpruning)\nProřezávání zvyšuje chybu na učící množině, ale doufáme, že na reálných datech chybu zmenší "
+        },
+        {
+          "locator": "slide:32",
+          "text": "Zdroje\nPetr Berka 2020, Dobývání znalostí z databází\nDoc. RNDr. Iveta Mrázová, CSc., Dobývání znalostí z databází"
+        }
+      ],
+      "created_at": "2026-10-15T15:25:07.157428+00:00"
+    },
+    "guha-v1": {
+      "subject_id": "dzdb",
+      "source_id": "guha-v1",
+      "title": "Metoda GUHA",
+      "version": "1",
+      "priority": "primary",
+      "original_path": "/home/grogy/osu_repository/5-data-mining-metoda-guha.ppt",
+      "file": "sources/guha-v1/5-data-mining-metoda-guha.ppt",
+      "ingest_mode": "move",
+      "sha256": "43ba89375186451d4f95e079a2915e4d2f215bc82fe00c8119cb5844ec1b728c",
+      "topic_ids": [
+        "metoda-guha"
+      ],
+      "indexed": true,
+      "extraction_note": "Text indexed through a temporary LibreOffice PPT-to-PPTX conversion; original PPT retained as the reference. Graphics and formulas need visual review.",
+      "note": "Uživatel při dodání výslovně přiřadil tuto prezentaci k DZDB – Dobývání znalostí. Převzatý originál ve formátu PPT; 28 snímků. Textový index byl vytvořen pomocí dočasného převodu LibreOffice Impress do PPTX. Odkazy slide:N zachovávají pořadí snímků prezentace; odvozený PPTX není uloženým studijním materiálem. Obrázky, diagramy, tabulky a vzorce zůstávají v původním PPT a při výuce vyžadují vizuální ověření. Uvedené softwarové verze, dostupnost nástrojů a historická srovnání nepředstavují ověřený aktuální stav. Názvy témat a orientační cíle vycházejí z obsahu, nejde o potvrzené požadavky ke zkoušce. Literatura a odkazy uvnitř prezentace nejsou další samostatně dodané zdroje. Mapa obsahu: Princip GUHA sn. 2–4; GUHA procedury a tvrzení sn. 5–13; výsledky 4ft-Miner, CF Miner a KL Miner sn. 14–19; ilustrační aplikace sn. 20–27; zdroje sn. 28.",
+      "passages": [
+        {
+          "locator": "slide:1",
+          "text": "Dobývání znalostí\nMetoda GUHA"
+        },
+        {
+          "locator": "slide:2",
+          "text": "Metoda GUHA\nVyvinuta skupinou českých vědců kolem Petra Hájka v 60 letech 20. století\nPrvní publikace o metodě pocházejí z roku 1966\nGUHA (General Unary Hypotheses Automaton)\nOd devadesátých let minulého století je metoda rozvíjena a aplikována jako nástroj pro dobývání znalostí z databází"
+        },
+        {
+          "locator": "slide:3",
+          "text": "Metoda GUHA\nZákladní myšlenkou bylo nalézt v datech veškeré zajímavé souvislosti a nabídnout je uživateli\nPůvodně se metoda řadila k explorativním statistickým metodám\nCílem metody GUHA nebylo pouze ověřovat statistické hypotézy, ale také je generovat\nPostupem času bylo vytvořeno několik typů hypotéz a s tím souvisejících typů algoritmů pro jejich generování"
+        },
+        {
+          "locator": "slide:4",
+          "text": "Metoda GUHA\nMetoda je realizována pomocí GUHA procedur\nVstupem procedury je analyzovaná matice dat a několik parametrů definujících rozsáhlou množinu relevantních vztahů\nVýstupem jsou všechny prosté vztahy, tedy vztahy pravdivé v dané matici dat a zároveň nejkratší možné"
+        },
+        {
+          "locator": "slide:5",
+          "text": "GUHA procedury\nVýchodiskem je situace, kdy nás zajímá nějaká, potenciálně nekonečná množina objektů (osob, pacientů, výrobků, …) a máme k dispozici výsledek pozorování konečné podmnožiny celé množiny\nVýsledky pozorování jsou ve formě matice dat"
+        },
+        {
+          "locator": "slide:6",
+          "text": "GUHA procedury"
+        },
+        {
+          "locator": "slide:7",
+          "text": "GUHA procedury\nNaším cílem je získat z napozorovaných dat všechny zajímavé vztahy pravdivé pro celou množinu objektů\nVyužijeme přitom statistické testy hypotéz, které umožňují přijmout na základě platnosti vhodného tvrzení o napozorovaných datech jisté zajímavé tvrzení o celé množině dat"
+        },
+        {
+          "locator": "slide:8",
+          "text": "GUHA procedury\nTvrzení pravdivé o celých datech nazýváme v této souvislosti \nverifikovaným teoretickým tvrzením\nTvrzení o napozorovaných datech nazýváme \nobservačním tvrzením\nDůležité je, že mezi teoretickými a observačními tvrzeními obvykle platí vztah 1:1\nTento vztah je zprostředkován statistickými testy hypotéz"
+        },
+        {
+          "locator": "slide:9",
+          "text": "GUHA procedury\nChceme-li tedy znát všechna zajímavá verifikovaná teoretická tvrzení, stačí nalézt všechna vhodná observační tvrzení pravdivá v daných datech\nÚkolem GUHA procedury je poskytnout všechna vhodná pravdivá tvrzení o observačních datech"
+        },
+        {
+          "locator": "slide:10",
+          "text": "GUHA procedury"
+        },
+        {
+          "locator": "slide:11",
+          "text": "GUHA procedury"
+        },
+        {
+          "locator": "slide:12",
+          "text": "GUHA procedury\nNa vstupu GUHA procedury jsou jednak analyzovaná data a jednak několik parametrů zadávajících rozsáhlou množinu relevantních observačních tvrzení\nGUHA procedura generuje všechna relevantní observační tvrzení a verifikuje je v daných datech\nNa výstupu jsou všechna prostá tvrzení\nRelevantní tvrzení je prosté, je-li pravdivé v daných datech a zároveň neplyne zjevným způsobem z jiného, kratšího a ve výstupu již uvedeného tvrzení"
+        },
+        {
+          "locator": "slide:13",
+          "text": "GUHA procedury\n4ft-Miner\n pracující s GUHA asociačními pravidly a s podmíněnými GUHA asociačními pravidly \nφ≈ψ/χ\nSD4ft-Miner\n pracující s SD4ft-pravidly \nα×β:φ∼ψ \na s podmíněnými SD4ft-pravidly \nα×β:φ∼ψ/χ\nCF-Miner\n pracující s CF-výrazy A/\nχ \nodpovídajícími histogramům A/\nχ\nSDCF-Miner\n pracující s SDCF-výrazy odpovídajícími dvojicím histogramů A/\nα∧χ \na A/\nβ∧χ\nKL-Miner\n pracující s KL-vztahy R≈C/\nχ \nkde R a C jsou kategoriální atributy a \nχ \nje booleovský atribut\nSDKL-Miner\n pracující s SDKL-vztahy \nα×β:\nR≈C/\nχ \nkde R a C jsou kategoriální atributy a \nα,β,χ \njsou booleovské atributy\nAc4ft-Miner\n pracující s akčními pravidly"
+        },
+        {
+          "locator": "slide:14",
+          "text": "Výsledky 4ft-Miner"
+        },
+        {
+          "locator": "slide:15",
+          "text": "4ft-Miner – detailní zobrazení pravidla"
+        },
+        {
+          "locator": "slide:16",
+          "text": "Výsledky CF Miner"
+        },
+        {
+          "locator": "slide:17",
+          "text": "Detailní zobrazení CF-výrazu"
+        },
+        {
+          "locator": "slide:18",
+          "text": "Výsledky KL Miner"
+        },
+        {
+          "locator": "slide:19",
+          "text": "Detailní zobrazení KL vztahu"
+        },
+        {
+          "locator": "slide:20",
+          "text": "Analýza dat pacientů s epilepsií\n214 pacientů rozdělených do několika skupin\nVlastnosti:\nOnset\n: věk při nástupu nemoci \nOL\n - Přítomnost organických lézí – ANO/NE\nINV\n - Invalidita – ANO/NE\nFGM -\n frekvence velkých záchvatů za měsíc\nEDU\n - Vzdělání – ANO – s maturitou, NE – bez maturity"
+        },
+        {
+          "locator": "slide:21",
+          "text": "Analýza dat pacientů s epilepsií – asociace různých proměnných a jejich kombinací\nVěk pacientů < 6 a přítomnost OL => vyšší invalidita a FGM"
+        },
+        {
+          "locator": "slide:22",
+          "text": "Vlastnosti řidičů\nSběr digitálních dat z vozidel – poloha pedálu plynu, rychlost vozidla atd., celkem \n94 3800 měření\nHlavní otázky:\nKteré vlastnosti, nazývané také atributy, odlišují řidiče od ostatních řidičů?\nSrovnání jednoho řidiče samostatně s dvojicemi obsahujícími kombinace všech ostatních řidičů a hledání nejvíce rozlišujících vlastnosti?\nPorovnání jednoho řidiče samostatně s dvojicemi obsahujícími kombinace všech ostatních řidičů, a hledání vlastností, které označují významné rozdíly mezi řidiči?"
+        },
+        {
+          "locator": "slide:23",
+          "text": "Vlastnosti řidičů\nKategorizace atributů\nAtributy\nAcceleration Speed Lateral (extra low)\nSteering Wheel-Angel (higher)\nVehicle Speed (lower)\nDriver (D)"
+        },
+        {
+          "locator": "slide:24",
+          "text": "Vlastnosti řidičů"
+        },
+        {
+          "locator": "slide:25",
+          "text": "Vlastnosti řidičů"
+        },
+        {
+          "locator": "slide:26",
+          "text": "Vlastnosti řidičů – otázka 2"
+        },
+        {
+          "locator": "slide:27",
+          "text": "Vlastnosti řidičů – otázka 3"
+        },
+        {
+          "locator": "slide:28",
+          "text": "Zdroje\nPetr Berka 2020, Dobývání znalostí z databází\nMetoda GUHA a systém LISP-Miner - \nhttps://lispminer.vse.cz/guhate/doku.php?id=lm_guha_te_kl_interpretace\nZvárová, J., Preiss, J., & Sochorová, A. (1997). Analysis of data about epileptic patients using the GUHA method. International journal of medical informatics, 45(1-2), 59-64\nTurunen, E., & Dolos, K. (2021). Revealing driver’s natural behavior—A GUHA data mining approach. Mathematics, 9(15), 1818."
+        }
+      ],
+      "created_at": "2026-10-15T15:25:09.016439+00:00"
+    }
+  },
+  "checkpoints": [
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-18-01-dotaz-vzory",
+      "activity_kind": "diagnostic",
+      "activity": "Rozlišit dva požadavky e-shopu: (1) spočítat počet objednávek minulý měsíc, (2) odhalit vlastnosti zákazníků související s ukončením nakupování; určit, který představuje dobývání znalostí, a zdůvodnit.",
+      "learner_answer": "1. jsou jednoduché statistiky nad daty zákazníků\n2. to je úloho pro strojové učení kdy musím identifikovat událost \"přestal nakupovat\" a tu použít jako target. Pomocí ML pak hledám vzory v chování techto zákazníků",
+      "evaluation": "Splněno bez nápovědy: první požadavek správně označen jako statistický souhrn, druhý jako hledání vzorů; samostatně navržena cílová proměnná pro úlohu s učitelem. Kritérium: rozlišit předem určený souhrn od objevování vztahů a rozdíl zdůvodnit. Ověřen pouze tento úzký rozdíl; nikoli celá definice dobývání znalostí, všechny úlohy ani metodiky. Target je podmínkou navržené úlohy s učitelem, nikoli všech úloh dobývání znalostí; doplněno až po odpovědi.",
+      "result": "passed",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:2"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:3"
+        }
+      ],
+      "next_step": "Vysvětlit vztah modelování a celého procesu; převést záměr omezit odchod zákazníků na konkrétní zadání s vyhodnotitelným úspěchem.",
+      "review_on": "2026-10-21",
+      "created_at": "2026-10-18T15:50:47.802464+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-18-02-proces-uvod",
+      "activity_kind": "material",
+      "activity": "Krátký výklad: strojové učení jako modelování, vedle něj vyjasnění cíle, příprava dat, vyhodnocení a využití výsledků; CRISP-DM začíná porozuměním problému a určením úspěchu. Doplněno, že existují úlohy bez targetu, např. shlukování. Rozsah: vybrané základní principy sn. 5, 11, 34, 36, 38 a 39; nejde o dokončený výklad všech těchto snímků ani šesti fází CRISP-DM.",
+      "learner_answer": "",
+      "evaluation": "Výklad zobrazen s citací; samostatné použití zatím neověřeno. Zadána navazující otevřená otázka: převést přání majitele e-shopu snížit odchod zákazníků na konkrétní zadání projektu s vyhodnotitelným úspěchem ve 2–3 větách. Na tuto otázku dosud není odpověď a není hodnocena.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:5"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:11"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:34"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:36"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:38"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:39"
+        }
+      ],
+      "next_step": "Vyčkat na vlastní zadání projektu e-shopu; hodnotit, zda konkretizuje záměr, cílový jev a ověřitelné kritérium úspěchu. Případné chybějící časové vymezení doplnit cílenou otázkou.",
+      "review_on": "2026-10-19",
+      "created_at": "2026-10-18T15:50:47.886554+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-19-01-zadani-target",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Převést záměr majitele e-shopu „Chci, aby mi odcházelo méně zákazníků“ na konkrétní zadání projektu s vyhodnotitelným úspěchem ve 2–3 větách. Procvičovaný rozsah: převod obchodního záměru na zadání a vazba na vyhodnocení přínosu, Úvod sn. 34 a 38; nikoli celý CRISP-DM.",
+      "learner_answer": "definuji událost \"klient odešel\", to může být například klient odešel | aktivní nakupující náhle přestane nakupvat a už znovu nezačne apod. definice targetu by se měla konstruovat společně s bussines zadavatelem, aby se předešlo vytvoření milného targetu",
+      "evaluation": "Částečně splněno. Správně samostatně požaduje definici odchodu a její dohodu s obchodním zadavatelem. Kritérium úplného úspěchu: navrhnout konkrétní zadání včetně ověřitelného přínosu pro firmu. V odpovědi zatím není měřítko úspěchu projektu ani časové vymezení odchodu; výraz „už znovu nezačne“ nelze ověřit z konečné historie. Z toho nelze vyvozovat, že uživatel obchodnímu přínosu nerozumí; je potřeba doplnění. Po odpovědi vysvětlen rozdíl targetu a obchodního kritéria, jako vlastní ilustrační příklad mimo konkrétní obsah snímků uvedeno okno 90 dnů bez nákupu. Tento příklad nebyl vydáván za obsah prezentace.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [
+        "Navržené vymezení „už znovu nezačne nakupovat“ potřebuje konečný pozorovatelný časový horizont."
+      ],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:34"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:38"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď: formulovat jednou větou obchodní cíl e-shopu s výchozí odchodovostí, požadovanou změnou a časovým horizontem, čísla jsou vlastní. Před tímto dalším pokusem byla poskytnuta jedna podstatná metodická nápověda: explicitní struktura výchozí stav–změna–horizont a rozlišení obchodního kritéria od targetu. V dalším hodnocení tohoto doplnění zohlednit hints_used=1; dosud neodeslanou odpověď nehodnotit.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-19T02:27:01.410785+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-19-02-retence-obchodni-cil",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Doplnit obchodní cíl projektu e-shopu s výchozí odchodovostí, požadovanou změnou a časovým horizontem; hodnoty vlastní. Rozsah: konkretizace zadání a kritérium obchodního vyhodnocení, Úvod sn. 34 a 38. Před pokusem vysvětlen rozdíl targetu a obchodního cíle a poskytnuta struktura výchozí stav–změna–horizont.",
+      "learner_answer": "Cíl je odchotí oslovit s věrnostní slevou a snířit retenci zákazníků. Target je, klient během 60 plovoucích dní uskutečnil alespon 5 nákupů a zárovenv navazujících 30 dnech neuskutečnil žádný nákup.",
+      "evaluation": "Částečně splněno s jednou předchozí metodickou nápovědou. Uživatel nově přesně ohraničil definici odchodu: alespoň 5 nákupů v 60 dnech a žádný v navazujících 30 dnech; navrhl věrnostní slevu jako zásah. Chybí velikost žádoucí změny, výchozí stav a termín dosažení obchodního přínosu, proto kritérium úplného úspěchu této aktivity zatím nesplněno. Výraz „snížit retenci“ obrací žádoucí směr: retence je udržení a má růst, odchodovost má klesat. Po odpovědi zobrazena oprava a hotový ilustrační obchodní cíl: za šest měsíců snížit 30denní odchodovost vymezené skupiny z 20 % na 15 %. Tento vzor dodal asistent, není samostatným výkonem uživatele ani číselným příkladem převzatým z prezentace. Doložený rozsah stále zahrnuje jen část úvodní prezentace; ostatní zdroje zůstávají neprobrané.",
+      "result": "needs-practice",
+      "hints_used": 1,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [
+        "Formulace „snížit retenci“ zaměňuje směr žádoucí změny: retence má růst, odchodovost klesat."
+      ],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:34"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:38"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď k nové aplikační otázce: po šesti měsících model výrazně lépe předpovídá odchody, ale odchodovost zůstala 20 % místo cílových 15 %; je splněn obchodní cíl a proč? Kritérium: samostatně odlišit kvalitu predikce a skutečné dosažení obchodního cíle. Před otázkou ukázán hotový vzor obchodního cíle a přímo vysvětlen rozdíl, proto pro tuto bezprostřední kontrolu započítat jednu podstatnou nápovědu; později ověřit bez pomoci v jiném kontextu. Odpověď dosud není odeslaná a nebyla hodnocena. Při další práci také ověřit směr retence a odchodovosti.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-19T02:33:25.982199+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-03-cil-vs-predikce",
+      "activity_kind": "material",
+      "activity": "Posoudit, zda je splněn obchodní cíl snížit odchodovost za šest měsíců z 20 % na 15 %, když se predikce modelu zlepší, ale odchodovost zůstane 20 %. Rozsah: obchodní vyhodnocení Úvod sn. 38 ve vazbě na zadání sn. 34. Uživatel navíc spontánně zpochybnil dosažitelnost asistentem zvolených ilustračních hodnot.",
+      "learner_answer": "\"**Během šesti měsíců snížit pomocí cílených nabídek 30denní odchodovost této skupiny z 20 % na 15 %**  \" ale jak výš, že je tohle dosažitelný výsledek? neměl by bý cíl odhadnutý na základě dat?\n\"**&#x20;Po šesti měsících model předpovídá odchody výrazně přesněji, ale odchodovost zákazníků zůstala na 20 %. Splnil projekt uvedený obchodní cíl? Proč?**  \" nesplnil ale nemusí to být vina samotného modelu, spíš bude na vině špatně zvolnený target nebo nedostatečná nabídka před odchodem",
+      "evaluation": "Splněno po předchozí metodické pomoci. Kritérium: odlišit lepší kvalitu predikce od dosažení vymezeného obchodního výsledku a výsledek zdůvodnit. Správně uvádí, že obchodní cíl splněn není, a rozlišuje tento závěr od příčiny nesplnění; navrhuje hypotézy chybný target nebo nedostatečná nabídka. Z dostupných údajů nelze tyto příčiny seřadit podle pravděpodobnosti, což bylo ve zpětné vazbě upřesněno. Samostatně a bez nápovědy k této vlastní námitce také požaduje datové podložení dosažitelnosti cíle, což dokládá uvažování o proveditelnosti. Asistent výslovně uznal, že 15 % byl pouze příklad měřitelného cíle a nikoli odhad z dat. Ověřen jen tento úzký cíl, nikoli celý proces CRISP-DM; směr retence nebyl tímto pokusem znovu testován.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-aplikacni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:34"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:38"
+        }
+      ],
+      "next_step": "Vysvětlit předběžné obchodní zadání, datové posouzení proveditelnosti a návraty mezi fázemi CRISP-DM. Na uživatelovu námitku navázat doplňujícím praktickým ověřením účinku nabídky; později samostatně ověřit obchodní versus predikční výsledek v jiném kontextu.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-19T02:52:25.988228+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-04-proveditelnost-iterace",
+      "activity_kind": "material",
+      "activity": "Krátký výklad k námitce uživatele: rozlišení požadovaného obchodního přínosu a odhadu dosažitelnosti; předběžná dohoda cíle a její zpřesnění podle dat, možností zásahu a pilotu; návaznost na iterativnost CRISP-DM. Konkrétní rozsah: princip návratů mezi fázemi ze sn. 31, zohlednění zdrojů, rizik, nákladů a přínosu ze sn. 34 a prvotní poznávání dat ze sn. 35. Nejde o úplný výklad těchto snímků ani celé metodiky.",
+      "learner_answer": "",
+      "evaluation": "Výklad zobrazen a citován. Navíc výslovně jako doplnění mimo prezentaci vysvětleno, že přesná předpověď odchodu sama neurčuje účinek slevy; správný target ani přesný model nezaručují ovlivnitelnost zákazníka. Samostatné navržení pilotu zatím neověřeno. Podle porovnání všech 5 zdrojů a úplné historie (4 předchozí checkpointy plus tento tah) zůstává velká část úvodní prezentace i všechny další prezentace neprobraná; nejde o přechod na opakování všech materiálů.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:31"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:34"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:35"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď k výslovně doplňující otázce mimo prezentaci: navrhnout malý pilot, který ověří účinek věrnostní slevy na odchodovost. Při vyhodnocení použít activity_kind supplement. Hledat srovnání se skupinou bez nabídky, srovnatelnost skupin (ideálně náhodné přiřazení) a stejný časový horizont výsledku. Řešení ani uspořádání skupin nebylo napovězeno, pouze vysvětlen rozdíl predikce a účinku. Dosud neodeslanou odpověď nehodnotit. Poté se vrátit k přehledu fází CRISP-DM a dalším neprobraným částem zdroje.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-19T02:52:26.055890+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-19-05-pilot-kontrolni-skupina",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "supplement",
+      "activity": "Doplňující úloha mimo dodané prezentace: navrhnout základní uspořádání malého pilotu, který ověří, zda věrnostní sleva snižuje odchodovost, nikoli jen kvalitu předpovědi. Uspořádání kontrolní skupiny ani randomizace nebyly před pokusem napovězeny.",
+      "learner_answer": "musím mít kontrolní skupinu klientů, kterí splnují target, ale na kterou nebudu vést komunikac. Rozdíl v odchodovosti těchto dvou skupin je reálný přínos komunikace",
+      "evaluation": "Splněno pro základní kritérium této otázky: samostatně navrhl kontrolní skupinu bez komunikace a porovnání odchodovostí s oslovenou skupinou. hints_used=0 pro návrh kontrolního uspořádání. Neověřuje to úplný návrh kauzální studie: randomizaci, časovou souslednost a nejistotu odhadu doplnil až asistent po odpovědi. Formulace „splňují target“ je nejednoznačná a není sama o sobě důkazem, že by uživatel vybíral podle budoucího výsledku. Bylo výslovně upřesněno vybírat před sledovaným obdobím podle způsobilosti či předpovězeného rizika a teprve později měřit skutečný target; doporučeno náhodné rozdělení stejného způsobilého souboru a rozdíl označen jako odhad účinku s nejistotou. Tato doplnění byla označena jako látka mimo prezentaci. Základ kontrolního porovnání doložen, samostatné použití doplněných zásad zatím neověřeno. Celý předmět ani úvodní prezentace tím nejsou probrané: známý katalog obsahuje stále 5 zdrojů a kompletní známá historie dosud pokrývá jen vybrané části úvodu a tento doplněk.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "aplikacni",
+      "misconceptions": [],
+      "source_refs": [],
+      "next_step": "Zobrazena jedna navazující diagnostická úloha k Úvodu sn. 9 a 11: e-shop nejdřív bez známého členství objeví skupiny podobných zákazníků, potom jejich označení použije jako target dalšího modelu pro nové zákazníky; určit typ každého kroku a vysvětlit rozdíl. Očekávat segmentaci/shlukování a klasifikaci. Výklad tohoto rozdílu ani jeho řešení v tomto tahu poskytnuty nebyly, uživatel může využít dřívější obecné vymezení úloh s targetem a bez něj. Zatím nehodnotit ani neoznačovat obsah sn. 9 a 11 za dokončený. Později samostatně ověřit časové pořadí tvorby skupin a měření targetu, randomizaci a význam nejistoty účinku.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-19T02:56:13.512376+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-06-segmentace-klasifikace",
+      "activity_kind": "material",
+      "activity": "Určit a vysvětlit dva kroky: (1) bez předem známého členství objevit skupiny podobných zákazníků, (2) použít nalezená označení jako target dalšího modelu pro přiřazení nových zákazníků. Rozsah: základní princip segmentace ze sn. 11 a klasifikace nových případů ze sn. 9, včetně propojení obou úloh.",
+      "learner_answer": "1. je clustering což je unsuperviosed learning metoda, která slouží k nacházení clusterů v datech. Clustery se tvoří na základě podobnosti (geometricky je to vzdálenost) v datech.\n2. je kategorizace což je supervised learning, kdy model učím samotné patterny skupin aby model mohl štítkovat nové data do těchto skupin",
+      "evaluation": "Splněno bez nápovědy k řešení této úlohy. Kritérium: rozlišit objevení dosud neoznačených skupin podle podobnosti od učení přiřazení nových případů ze známých označení. Správně uvedl clustering jako učení bez učitele, princip podobnosti a následné učení s učitelem z označených skupin. Termín kategorizace je věcně přijatelný; ve zpětné vazbě sjednocen s názvem klasifikace používaným prezentací. Tvrzení o geometrické vzdálenosti je přijato jako popis geometrického pohledu na podobnost, nikoli jako doložené tvrzení o univerzální eukleidovské metrice. Probrán a samostatně použit základní rozdíl sn. 9 a 11; neověřeny konkrétní shlukovací algoritmy ani všechny aspekty těchto snímků. Nejde o doložení zvládnutí celého tématu Úvod a proces.",
+      "result": "passed",
+      "difficulty": "aplikacni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:9"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:11"
+        }
+      ],
+      "next_step": "Krátce představit odlišný cíl deskripce konceptů oproti klasifikaci a ověřit požadovaný výstup na zadání popsat vracející se zákazníky.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-19T03:01:16.553474+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-07-deskripce-konceptu-uvod",
+      "activity_kind": "material",
+      "activity": "Výklad rozdílu mezi klasifikací a deskripcí konceptů: klasifikace se zaměřuje na správné zařazování nových případů, deskripce konceptů na srozumitelný popis vlastností dané skupiny. Obě mohou využít stejné příklady, ale liší se požadovaným výstupem a důrazem na srozumitelnost. Konkrétně probráno jádro sn. 10 a jeho vztah ke sn. 9; neprobrány algoritmy vysvětlování modelů.",
+      "learner_answer": "",
+      "evaluation": "Výklad zobrazen s citací Úvod sn. 9–11. Samostatné použití rozdílu deskripce a klasifikace zatím neověřeno. Před volbou další aktivity porovnán úplný katalog 5 zdrojů a historie všech 7 dosavadních checkpointů, k nimž přibývá tento tah: stále zbývají další úlohy v úvodu, metodiky a další části první prezentace i všechny čtyři ostatní prezentace. Proto pokračujeme novou látkou, nikoli opakováním celého rozsahu.",
+      "result": "introduced",
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:9"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:10"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď k úloze: firma chce pochopit typické vlastnosti vracejících se zákazníků, dostane pouze přesný predikční model bez srozumitelného popisu; je zadání splněno a jaký výstup doplnit? Kritérium: rozlišit popis konceptu od samotné klasifikace/predikce, navrhnout srozumitelný popis typických vlastností nebo pravidla. Jde o první bezprostřední aplikaci po výkladu, nikoli ověření s odstupem. K otázce dosud není odpověď a nebyla hodnocena. Poté navázat zbývajícími úlohami, např. predikcí, analýzou závislostí a detekcí odchylek.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-19T03:01:16.618826+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-19-08-deskripce-navaznost-oprava",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Posoudit, zda je splněno zadání pochopit typické vlastnosti vracejících se zákazníků, když firma dostane jen přesný predikční model bez srozumitelného popisu, a navrhnout chybějící výstup. Rozsah: deskripce konceptů sn. 10 ve vztahu ke klasifikaci sn. 9 a segmentaci sn. 11.",
+      "learner_answer": "není, náávrat není vysvětlen. Předpokládám, že proběhla klasifikace a pak kategorizace, cluster vtiklý klasifikací je potřeba dopolnit o model desktipce konceptů této skupiny",
+      "evaluation": "Částečně splněno. Správně uvedl nesplnění zadání i potřebu deskripce konceptu. Kritérium plného úspěchu: rozlišit požadovaný srozumitelný popis od samotného zařazování a vysvětlit, jaký výstup chybí. V doplnění ale používá klasifikaci a kategorizaci jako různé navazující kroky a mluví o clusteru vzniklém klasifikací; je potřeba upevnit rozdíl známé třídy a hledání shluků. Předchozí úloha skutečně používala shlukování následované klasifikací, což může tuto návaznost evokovat; nejde o nutný postup pro deskripci. Po odpovědi vysvětleno, že klasifikace/kategorizace zde znamená stejnou úlohu, shlukování hledá skupiny podle podobnosti a deskripce může přímo popisovat skupinu známou z historie. Ukázána častější volba osobního odběru jako výslovně vymyšlený příklad typické vlastnosti. Upřesněno, že takový popis sám nedokazuje příčinu návratu; uživateli není automaticky připisováno kauzální neporozumění jen na základě slova vysvětlen. Před tímto pokusem neobdržel dodatečnou metodickou nápovědu, jen předchozí základní výklad.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [
+        "V aktuální odpovědi zaměňuje klasifikaci/kategorizaci jako dva následné kroky a označuje skupinu vytvořenou klasifikací za cluster; potřebuje rozlišit přiřazení známé třídy a hledání shluků.",
+        "Při deskripci konceptu je třeba ověřit, že nepožaduje předchozí shlukování ani další samostatný model, pokud už je skupina známa."
+      ],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:9"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:10"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:11"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď k opravné otázce: z historie máme zákazníky již označené vrátil se / nevrátil se; potřebujeme k popisu vracející se skupiny nejdřív shlukování a proč? Kritérium: rozpoznat známé členství a možnost přímo popisovat vlastnosti této skupiny, bez nutného clusteringu. Před tímto bezprostředním opravným pokusem byla poskytnuta jedna podstatná nápověda: přímé vysvětlení, že známou skupinu lze popisovat bez předchozího shlukování. Při hodnocení další odpovědi zohlednit hints_used=1 a později ověřit samostatně v jiném kontextu. Dosud neodeslanou odpověď nehodnotit. Žádná další část materiálů v tomto tahu dokončena nebyla.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-19T03:24:01.650578+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-09-znama-trida-bez-shlukovani",
+      "activity_kind": "material",
+      "activity": "Opravná otázka: z historie už známe označení zákazníků vrátil se / nevrátil se; potřebujeme k popisu vracející se skupiny nejdřív shlukování a proč? Rozsah: známé členství a přímá deskripce konceptu sn. 10 ve vztahu ke klasifikaci a segmentaci sn. 9 a 11.",
+      "learner_answer": "ne, protožee cluster už vytváří samotný štítek \"vrátil se\"",
+      "evaluation": "Splněno pro úzké kritérium po jedné podstatné nápovědě z předchozího tahu: rozpoznat, že známý štítek už vymezuje členství a shlukování není potřebným předkrokem deskripce. Správná odpověď ne a správné zdůvodnění známým štítkem. Přetrvává nepřesné pojmenování známé třídy jako clusteru; ve zpětné vazbě opraven termín na třída, shluk vyhrazen pro skupinu objevenou podle podobnosti. Z této terminologické nepřesnosti samotné nevyvozujeme další koncepční neporozumění. Nejde o samostatné ověření bez pomoci ani s odstupem. Později je třeba v jiném kontextu ověřit rozlišení známé třídy a shluku i příklad výstupu deskripce.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:9"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:10"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:11"
+        }
+      ],
+      "next_step": "Přejít k úvodním definicím predikce, analýzy závislostí a detekce odchylek; s odstupem samostatně ověřit známou třídu oproti nalezenému shluku.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-19T03:26:09.235172+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-10-predikce-asociace-odchylky",
+      "activity_kind": "material",
+      "activity": "Výklad zbývajících tří základních úloh v této části úvodní prezentace: predikce jako odhad budoucího vývoje veličiny, často z časové řady (sn. 12); analýza závislostí jako hledání souvislostí mezi položkami či událostmi, např. společných nákupů (sn. 14); detekce odchylek jako hledání výrazných změn oproti běžným nebo dříve zjištěným hodnotám (sn. 15). Nevykládán obrázek či jiný obsah sn. 13 ani konkrétní algoritmy.",
+      "learner_answer": "",
+      "evaluation": "Výklad zobrazen se zdrojem a jedním navazujícím cvičením obsahujícím tři krátké případy. Samostatné přiřazení úloh zatím neověřeno. Kontrola pokrytí provedena porovnáním celého katalogu pěti zdrojů s úplnou historií total=10 před tímto tahem; všechny relevantní checkpointy přečteny včetně konkrétního rozsahu aktivity a hodnocení. Přibývají pouze uvedené definice sn. 12, 14 a 15. Zůstávají neprobrané jiné části úvodu včetně grafických příkladů, dalších souvisejících pojmů, úplného výkladu metodik, PMML/API a nástrojů, stejně jako všechny další čtyři prezentace. Není důvod hlásit přechod na opakování celého rozsahu.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:12"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:14"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:15"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď ke třem požadavkům: A odhadnout počet objednávek příští týden; B zjistit produkty často kupované společně; C upozornit na den s nezvykle vysokým podílem vrácených objednávek. Požadováno přiřazení typu úlohy a krátké zdůvodnění u každého. Očekávat predikci, analýzu závislostí/asociací a detekci odchylek. Jde o první aplikaci přímo po výkladu, nikoli opakování s odstupem. Dosud neodeslanou odpověď nehodnotit.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-19T03:26:09.304931+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "review_on": "2026-10-22",
+      "checkpoint_id": "dzdb-2026-10-19-11-tri-typy-uloh",
+      "activity_kind": "material",
+      "activity": "Přiřadit a zdůvodnit typ úlohy: A odhad počtu objednávek příští týden; B produkty často kupované společně; C den s nezvykle vysokým podílem vrácených objednávek. Rozsah: základní rozlišení predikce, analýzy závislostí a detekce odchylek, Úvod sn. 12, 14 a 15.",
+      "learner_answer": "A) - predikce, sanžím se odhadnout budoucnost\nB) - analýza závislostí, snažím se zjistit, jak jedno souvisí s druhým\nC) - detekce odchylek, dívám se na něco nezvyklého",
+      "evaluation": "Splněno bez nápovědy v první aplikaci po výkladu. Kritérium: správně určit všechny tři úlohy a zdůvodnit budoucím vývojem, souvislostí položek a neobvyklou hodnotou. Všechny odpovědi i zdůvodnění správně. Ověřeno základní rozpoznání typů, nikoli jejich algoritmy nebo samostatné použití s odstupem.",
+      "result": "passed",
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:12"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:14"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:15"
+        }
+      ],
+      "next_step": "Představit všech šest fází CRISP-DM a rozlišit porozumění datům od jejich přípravy.",
+      "created_at": "2026-10-19T03:31:31.316798+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "review_on": "2026-10-22",
+      "checkpoint_id": "dzdb-2026-10-19-12-crisp-dm-sest-fazi",
+      "activity_kind": "material",
+      "activity": "Přehled šesti fází CRISP-DM: porozumění problematice (obchodní cíl, požadavky, proveditelnost), porozumění datům (přehled a kvalita), příprava dat (výběr, čištění, propojení, úpravy), modelování (metody, učení, parametry), vyhodnocení (obchodní cíle), využití (nasazení či jiné uplatnění). Vysvětlena možnost návratů mezi fázemi. Rozsah: základní funkce fází sn. 34–39 a iterativnost sn. 31; nikoli úplné detaily snímků, grafika sn. 33, historie ani jiné metodiky.",
+      "learner_answer": "",
+      "evaluation": "Přehled zobrazen v tabulce s citací. Samostatné přiřazování činností k fázím zatím neověřeno. Porovnání známého katalogu všech pěti zdrojů a celé historie načtené v předchozím tahu (10 checkpointů) doplněné o dva vlastní následné záznamy a aktuálně dokončenou úlohu stále dokládá velký zbývající rozsah v úvodní prezentaci i všech čtyřech dalších zdrojích. Pokračujeme novou látkou; nejde o opakování celého předmětu.",
+      "result": "introduced",
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:31"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:34"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:35"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:36"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:37"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:38"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:39"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď: při prohlížení dat zjistíme stejného zákazníka pod dvěma ID, potom záznamy sloučíme a přepočítáme historii nákupů; ke kterým fázím patří odhalení problému a následná úprava, a proč? Očekávat porozumění datům a přípravu dat, s vysvětlením zjišťování stavu oproti změně datasetu. Jde o první aplikaci po výkladu, bez další nápovědy. Odpověď ještě není odeslaná ani hodnocená.",
+      "created_at": "2026-10-19T03:31:31.399884+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-13-porozumeni-priprava-a-audit",
+      "activity_kind": "material",
+      "activity": "Přiřadit odhalení stejného zákazníka pod dvěma ID a následné sloučení a přepočítání historie ke správným fázím CRISP-DM a vysvětlit rozdíl. Rozsah: porozumění datům sn. 35 a příprava dat sn. 36. Uživatel navíc výslovně upozornil na skok k pozdějším snímkům a zeptal se na přeskočený obsah.",
+      "learner_answer": "Odhalení do porozumnění datům -> je duplicita klienta feature nebo bug, je to jediný výskyt? apod. podle toho musím při přípravě dat provést vhodné úpravy.\n\nZminuješ strany 30 a více, nepřeskočili jsme obsah materiálů?",
+      "evaluation": "Splněno bez dodatečné nápovědy. Kritérium: odlišit zjištění stavu a kvality dat od úprav datasetu. Správně přiřadil odhalení k porozumění datům a zásah k přípravě; navíc samostatně navrhl posoudit význam a rozsah duplicity před rozhodnutím o opravě. Ověřeny tyto dvě fáze, nikoli samostatná znalost všech šesti fází. Na dotaz o přeskočeném obsahu asistent potvrdil, že tematické pořadí ponechalo mezery a měly být uživateli průběžně ukazovány. Audit: přečten kompletní katalog pěti zdrojů, všechny pasáže úvodní prezentace (59/59) a úplná historie (14/14 předchozích checkpointů). Historie dokládá dílčí definici sn. 2–3 a roli ML ze sn. 5; jádro úloh sn. 9–12 a 14–15; přehled a vybrané aplikace CRISP-DM sn. 31 a 34–39. Nedokládá celý obsah těchto snímků, ostatní části úvodu ani jiné čtyři prezentace. Grafické snímky dosud nebyly vizuálně prošlé. Uživatel byl o rozsahu a mezerách výslovně informován.",
+      "result": "passed",
+      "difficulty": "aplikacni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:35"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:36"
+        }
+      ],
+      "next_step": "V reakci na uživatelovu obavu doplňovat mezery v pořadí úvodní prezentace a průběžně uvádět aktuální snímky. Začít nedoplněnými požadavky na vzory ze sn. 2–3; poté základy a související pojmy sn. 4–6, vizuálně ověřit sn. 7–8 a další obsah s indexem obsahujícím jen nadpis (např. 13), doplnit hrubší členění sn. 16 a aplikace a příklady sn. 17–24; standardy/metodiky sn. 25–30 včetně 5A a SEMMA, neprobrané souvislosti a diagramy CRISP-DM; poté PMML/API sn. 40–44 a systémy/nástroje sn. 45–58. Údaje o softwaru a historických anketách podávat v kontextu prezentace, nikoli jako ověřený dnešní stav. Bibliografie sn. 59 neznamená samostatně dodané zdroje. Neoznačovat vše za probrané podle citací nebo stavu tématu.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-19T03:37:06.166416+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-14-definice-pozadavky-na-vzory",
+      "activity_kind": "material",
+      "activity": "Doplnění první mezery v úvodních definicích sn. 2–3: nalezené vzory mají být platné, nové, potenciálně užitečné a srozumitelné. Vysvětleno, že novost vztahujeme k dosavadním znalostem a platnost ke spolehlivosti vztahu; samotná překvapivost nestačí. Tento obsah nebyl dříve pokryt pouhým rozlišením statistického souhrnu a hledání vzorů.",
+      "learner_answer": "",
+      "evaluation": "Výklad zobrazen s citací. Požadavky ze sn. 2 byly představeny, nikoli zatím samostatně ověřeny. Navazující příklad pravidla selhávajícího na novém vzorku ze stejné populace je vlastní výuková aplikace, nikoli doslovný příklad prezentace. Nejde o dokončení všech úvodních definic ani materiálů.",
+      "result": "introduced",
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:2"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:3"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď: překvapivé pravidlo funguje dokonale na trénovacích datech, ale ne na dalším vzorku stejné populace; který požadavek to zpochybňuje a proč? Očekávat platnost/spolehlivost a vysvětlení, že nález může být náhodný či přizpůsobený danému vzorku. Nevyžadovat termín overfitting. Po odpovědi pokračovat v doplňování raných částí sn. 2–6, místo dalšího přesunu dopředu. Odpověď dosud nebyla odeslána ani hodnocena.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-19T03:37:06.229962+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-15-platnost-vzoru",
+      "activity_kind": "material",
+      "activity": "Určit, který požadavek na vzory je zpochybněn, když překvapivé pravidlo funguje dokonale na trénovacích datech, ale ne na dalším vzorku stejné populace. Rozsah: platnost ve čtveřici platné, nové, potenciálně užitečné a srozumitelné vzory, Úvod sn. 2–3.",
+      "learner_answer": "platnost, očividně se na vztah nemůžeme spolehnout",
+      "evaluation": "Splněno bez dodatečné nápovědy v první aplikaci po výkladu. Kritérium: označit platnost a spojit selhání na jiném vzorku s nedoloženou spolehlivostí vztahu. Obojí správně. Samostatně ověřena pouze platnost; ostatní požadavky byly představeny, nikoli jednotlivě procvičeny.",
+      "result": "passed",
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:2"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:3"
+        }
+      ],
+      "next_step": "Pokračovat v doplňování mezer podle pořadí prezentace: sn. 4–6, oblasti původu DZD a související pojmy.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-19T03:45:39.311936+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-16-zdroje-a-souvisejici-pojmy",
+      "activity_kind": "material",
+      "activity": "Doplnění hlavních pojmů ze sn. 4–6: propojení databází (dotazy a OLAP), statistiky a AI/ML; AI jako inteligentní chování strojů zahrnující více než hluboké neuronové sítě; ML jako metody učení modelů při modelování; data science jako teoretické zázemí v terminologii prezentace; BI jako analýza/reportování historických firemních dat, data analytics jako orientace na budoucí predikci/optimalizaci; Big Data vymezená obtížností zpracování běžnými systémy kvůli objemu, různorodosti či rychlosti vzniku. Použité vymezení BI a data analytics je výslovně rámováno jako terminologie dodané prezentace.",
+      "learner_answer": "",
+      "evaluation": "Přehled zobrazen s uvedením snímků a tabulkou. Hlavní obsah sn. 4–6 představen; samostatné rozlišení nových pojmů zatím neověřeno. Hodnotící soud autora o soudobém marketingovém používání AI nebyl vydáván za aktuální fakt. Pokrytí posouzeno proti kompletnímu katalogu a úplné historii 14 checkpointů načtené při předchozím auditu, doplněné o dva vlastní následné záznamy a tuto aktivitu. Mnoho dalších částí první prezentace a všechny čtyři další zdroje stále čekají. Zachován postup doplňování mezer v pořadí prezentace, nikoli skok k dalšímu vzdálenému tématu.",
+      "result": "introduced",
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:4"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:5"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:6"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď: běžná firemní databáze data bez potíží zvládá, firma chce report minulých tržeb a odhad příští měsíční poptávky; použít pojmy BI, data analytics a Big Data podle prezentace. Očekávat BI pro report minulosti, data analytics pro predikci a vysvětlení, že zpracování běžnými systémy zde nedává důvod označit data jako Big Data v uvedeném vymezení. Jde o první aplikaci po výkladu. Odpověď ještě není odeslaná ani hodnocená. Potom v pořadí prezentace ověřit vizuální obsah sn. 7–8 a doplnit deskripci dat a sumarizaci; již probrané části nezaměňovat za pokrytí grafických příkladů.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-19T03:45:39.387739+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-17-bi-analytics-big-data",
+      "activity_kind": "material",
+      "activity": "Použít termíny BI, data analytics a Big Data podle sn. 6 na případ: data bez problémů zvládá běžná firemní databáze, firma chce report minulých tržeb a odhad příští měsíční poptávky.",
+      "learner_answer": "Firma má data, která bez potíží zvládá běžná firemní databáze. -> Big Data není potřeba\n Chce report minulých tržeb->BI\n a odhad poptávky na příští měsíc. -> Data analytics",
+      "evaluation": "Splněno bez další nápovědy v první aplikaci po výkladu. Kritérium: přiřadit historický report k BI a budoucí predikci k data analytics a nepovažovat tato data podle zadaného vymezení automaticky za Big Data. Všechny tři části správně. Formulace Big Data není potřeba je interpretována v kontextu otázky jako správné rozpoznání, že zde nejsou uvedeny potíže s běžným zpracováním. Neověřuje tím samostatnou znalost AI, data science ani všech dalších pojmů ze sn. 4–5.",
+      "result": "passed",
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:6"
+        }
+      ],
+      "next_step": "Pokračovat podle pořadí: ověřit skutečný obrazový obsah sn. 7–8 a doplnit deskripci dat a sumarizaci.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-19T03:52:56.179168+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-18-deskripce-dat-sumarizace",
+      "activity_kind": "material",
+      "activity": "Doplnění sn. 7–8 po kontrole obrazového obsahu. Sn. 7 je pouze nadpis oddílu Úlohy dobývání znalostí. Sn. 8: deskripce dat a sumarizace pro základní přehled o datech, často při porozumění datům; obrazové příklady obsahují bodový graf, histogramy, krabicové grafy a křivky rozdělení. Ve výkladu jmenovány a vysvětlen jejich obecný účel. Vlastní výukové doplnění: vliv extrémní hodnoty na průměr a medián jako prostřední hodnota seřazených dat.",
+      "learner_answer": "",
+      "evaluation": "Textový index sn. 8 obsahoval jen nadpis, proto nebyl použit k odhadu dalšího obsahu. Původní PPT dočasně převeden LibreOffice do PPTX; ověřeno pořadí všech 59 snímků, sn. 7 obsahuje pouze nadpis a sn. 8 jeden vložený obrázek a nadpis bez dalších grafických rámců. Obrázek skutečně otevřen a vizuálně přečten, včetně odrážek o základním přehledu a fázi porozumění datům. Teprve potom zobrazen výklad s citací sn. 8. Vlastní příklad útrat a definice mediánu jsou označeným výukovým doplněním, nikoli číselnými údaji z originálu. Samostatná interpretace sumarizace zatím neověřena. Proti známému katalogu a úplné auditované historii doplněné vlastními následnými checkpointy stále zbývají další mezery první prezentace i čtyři další zdroje; nejde o dokončení materiálů.",
+      "result": "introduced",
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:8"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď k vlastnímu příkladu útrat 100, 100, 100, 100 a 9600 Kč, průměr 2000 Kč: zda průměr vystihuje typickou útratu a jakou další statistiku a graf doplnit a proč. Očekávat vliv extrému, medián 100 Kč (či jiné věcně zdůvodněné robustní doplnění) a vhodný graf, např. bodový, histogram nebo krabicový s vysvětlením. Zhodnotit skutečně navržený graf, nevyžadovat jediný typ; u pěti hodnot je bodový graf přirozený a histogram závisí na koších. Odpověď dosud nebyla odeslána ani hodnocena. Potom v pořadí snímků krátce ověřit nevyřešené rozlišení známé třídy a shluku v novém kontextu (sn. 9–11), doplnit numerický i kategoriální výsledek predikce ze sn. 12, vizuálně ověřit sn. 13 a následně doplnit sn. 16 a další mezery. Dočasný převod a profil po této práci odstranit; originál zůstává beze změny.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-19T03:52:56.248250+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-19-19-median-boxplot",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Vlastní aplikační příklad k deskripci dat a sumarizaci (obrázkový přehled Úvod sn. 8): útraty 100, 100, 100, 100 a 9600 Kč, průměr 2000 Kč. Posoudit reprezentativnost průměru a navrhnout další statistiku a graf s důvodem.",
+      "learner_answer": "ne, doplnil bych medián, lépe vyjarřuje střední hodnotu, ještě bych zahrnul box plot, protože dobře demonstrujie distribuci cleých čísel",
+      "evaluation": "Splněno bez dodatečné nápovědy v první aplikaci po výkladu. Kritérium: rozpoznat problém průměru při extrémní hodnotě a navrhnout vhodnou doplňující statistiku i graf. Správně odmítá průměr jako typickou útratu, volí medián a boxplot. Důvod mediánu formulován obecně jako lepší střední hodnota, v daném příkladu vhodný. Číselnou hodnotu mediánu sám neuvedl, doplnil ji asistent jako 100 Kč s vysvětlením čtyř z pěti pozorování. Ve zpětné vazbě upřesněno, že boxplot poskytuje souhrn pomocí mediánu, kvartilů a vousů, nikoli úplný tvar rozdělení. Formulace distribuce celých čísel je nejednoznačná, proto z ní nevyvozujeme tvrzení, že boxplot lze použít jen pro celá čísla. Základ sumarizace a její interpretace procvičen, nikoli všechny podrobnosti konstrukce grafů. Při volbě další aktivity porovnán doplněný rozsah sn. 8 s kompletním katalogem a již úplně auditovanou historií včetně vlastních následných záznamů: dosud zůstávají neprobrané části první prezentace a všechny čtyři další zdroje.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:8"
+        }
+      ],
+      "next_step": "Zobrazena samostatná kontrola dřívější nejasnosti sn. 9–11 na novém kontextu: výrobce má známé štítky vadný / bezvadný a chce srozumitelně popsat typické vlastnosti vadných dílů; určit úlohu, zda potřebuje předchozí shlukování, a dát jeden vymyšlený příklad výstupu. Očekávat deskripci konceptu, známé členství bez nutnosti shlukování, srozumitelný profil či pravidlo jako výstup. Před touto novou úlohou nebyla zopakována definice ani napovězeno řešení; při vyhodnocení hints_used=0, pokud nepřijde další pomoc. Odpověď dosud není odeslána ani hodnocena. Poté pokračovat v pořadí: doplnit numerický i kategoriální výstup predikce ze sn. 12, vizuálně ověřit sn. 13 a následně doplnit sn. 16 a další mezery. Neodbočovat bez oznámení k pozdějším blokům.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-19T04:08:47.007625+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-20-deskripce-zname-tridy-vyrobku",
+      "activity_kind": "material",
+      "activity": "Samostatná kontrola rozlišení úloh na novém kontextu sn. 9–11: výrobce má díly označené vadný / bezvadný a chce popsat typické vlastnosti vadných. Určit úlohu, zda potřebuje předchozí shlukování, a uvést vlastní příklad srozumitelného výstupu.",
+      "learner_answer": "klasifikace nutná není, štítek již data ohraničuje dostatečně. Provedu nad daty deskriptivní model / analýzu ta účelem zjištění vztahů. Řeší se tím porozumění vlastností vadných výrobků -> následná možnost tyto vlastnosti mitigovat",
+      "evaluation": "Částečně splněno bez nápovědy v novém kontextu. Samostatně správně rozpoznal známé členství díky štítku a potřebu deskriptivní analýzy pro porozumění vlastnostem skupiny. Výrok o nepotřebnosti klasifikace je pro tento cíl věcně přijatelný; na otázku o shlukování odpovídá nepřímo správným zdůvodněním známého členství. Tím je doložen pokrok oproti předchozímu zaměňování třídy a shluku. Kritérium celého zadání ale zahrnovalo vlastní konkrétní příklad výstupu, který v odpovědi chybí; proto není celý pokus označen jako plně splněný a nesmí být tvrzeno neporozumění základnímu principu. Název deskriptivní analýza je přijat věcně a ve zpětné vazbě sjednocen s deskripcí konceptu. Asistent doplnil výslovně vymyšlený příklad: vadné kusy častěji pocházejí ze stroje A než bezvadné; tento konkrétní výstup tedy zatím není samostatným výkonem uživatele. Možnost mitigace uživatel zmiňuje jako následnou možnost, nikoli jako doloženou příčinu; bez připsání chyby upřesněno, že účinek zásahu ověřujeme zvlášť.",
+      "result": "needs-practice",
+      "difficulty": "aplikacni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:9"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:10"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:11"
+        }
+      ],
+      "next_step": "Základ deskripce známé třídy byl samostatně rozpoznán; později ještě vyžádat skutečný vlastní konkrétní příklad popisu či pravidla. Nyní podle pořadí doplnit kategoriální a numerický výsledek predikce ze sn. 12, který v dřívějším přehledu chyběl.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-19T04:13:43.566292+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-21-predikce-typ-vystupu",
+      "activity_kind": "material",
+      "activity": "Doplnění zbývajícího textového obsahu predikce ze sn. 12: výstup může být numerická budoucí hodnota nebo kategoriální růst/pokles. Ve vazbě na sn. 9 vysvětleno, že odhad budoucí kategorie může být současně klasifikační úlohou; predikce a klasifikace se tak mohou překrývat.",
+      "learner_answer": "",
+      "evaluation": "Výklad zobrazen s citací a dvojicí vlastních příkladů spotřeby elektřiny. Samostatné použití rozdílu ještě neověřeno. Při volbě aktivity posouzen rozsah proti úplnému auditovanému katalogu a historii doplněné všemi vlastními následnými záznamy: stále zůstává vizuální obsah sn. 13, hrubší členění sn. 16, další aplikace, metodiky a závěrečné části první prezentace i všechny čtyři další zdroje. Nejde o dokončení materiálů. Dodržen ohlášený postup doplňování mezer v pořadí snímků.",
+      "result": "introduced",
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:9"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:12"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď: A odhad zítřejší spotřeby v kWh, B odhad zda zítřejší spotřeba oproti dnešku vzroste nebo klesne; určit typ každého výstupu a která úloha může být klasifikací. Očekávat numerický výstup A a kategoriální B, které je současně klasifikací. Jde o první aplikaci po výkladu; další metodická nápověda k otázce zatím neposkytnuta. Odpověď dosud není odeslaná ani hodnocená. Následně před výukou vizuálně ověřit skutečný obsah sn. 13 a postupovat dál podle doplňovaných mezer.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-19T04:13:43.634801+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-22-regrese-klasifikace-predikce",
+      "activity_kind": "material",
+      "activity": "Určit typ výstupu a překryv s klasifikací pro A odhad zítřejší spotřeby elektřiny v kWh a B odhad růst/pokles oproti dnešku. Rozsah: numerická a kategoriální predikce, Úvod sn. 12 ve vztahu ke klasifikaci sn. 9.",
+      "learner_answer": "A) Regrese\nB) Klasifikace",
+      "evaluation": "Splněno bez dodatečné nápovědy. Kritérium: rozlišit číselný odhad A od kategoriálního výsledku B a rozpoznat B jako klasifikaci. Termíny regrese a klasifikace správně vyjadřují požadovaný rozdíl, i když výstupy neopisuje jako numerické/kategoriální. Ve zpětné vazbě potvrzeno, že obě úlohy jsou současně předpovědí budoucnosti. Termín regrese dodal uživatel samostatně. Ověřeno rozlišení základních úloh, nikoli regresní algoritmy.",
+      "result": "passed",
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:9"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:12"
+        }
+      ],
+      "next_step": "Pokračovat skutečným obrazovým příkladem časové predikce ze sn. 13, nikoli jej přeskočit podle textového nadpisu.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-19T04:17:24.281206+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-23-predikce-posuvne-okno",
+      "activity_kind": "material",
+      "activity": "Výklad obrazového příkladu sn. 13: převod časové řady na trénovací tabulku pomocí posuvných oken, minulé hodnoty jako vstupy a pozdější hodnota jako target, opakované posouvání okna; příklad používá lineární regresi a Sliding Window Validation. Vysvětlen požadavek chronologické validace, učení na minulosti a ověřování na pozdějších datech. Vlastní příklad s oknem tří hodnot je zjednodušený výukový příklad, nikoli přesný přepis původních čísel.",
+      "learner_answer": "",
+      "evaluation": "Před výukou původní PPT dočasně převeden do PPTX, ověřeno pořadí 59 snímků a sn. 13 s jedním vloženým obrázkem plus nadpisem bez dalších grafických rámců. Obrázek skutečně otevřen. Ukazuje proces Get data, Set Role, Windowing for Training, Sliding Window Validation, Select Attributes, tabulku lagovaných atributů Measure-5 až Measure-0 a label i koeficienty lineární regrese. Nevymýšlen přesný časový horizont z malých tabulkových dat ani přesná návaznost čísel; vyložen princip okna a časové validace, ne konkrétní GUI nastavení a interpretace všech koeficientů. Samostatná tvorba řádků ještě neověřena. Před volbou aktivity přečten nový úsek history start=14 limit=100, total=23; spolu s předchozím úplným auditem všech 14 starších záznamů pokrývá celou historii. Proti katalogu všech pěti zdrojů stále zbývají další části první prezentace a všechny čtyři další zdroje. V témže dočasném převodu byly předběžně vizuálně prohlédnuty i obrázky sn. 14–15 a ověřeno, že sn. 16 je textový; jejich obsah tím ještě nebyl uživateli vyložen ani procvičen a nelze jej označit jako probraný.",
+      "result": "introduced",
+      "difficulty": "zakladni-aplikacni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:13"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď k řadě 10, 12, 11, 15, 14 s oknem tří po sobě jdoucích vstupů a targetem bezprostředně následující hodnoty. Očekávat (10,12,11) -> 15 a (12,11,15) -> 14. Odpověď ještě není odeslaná ani hodnocená. Potom doplnit skutečný obrazový obsah sn. 14–15 (základní definice již dříve zvládl): sn. 14 má transakční tabulku nákupního košíku, agregaci položek po transakcích, FP-Growth a Create Association Rules s výstupem antecedent/závěr a mírami pravidel; sn. 15 má chemické vlastnosti vín, normalizaci, X-Means a Detect Outlier (LOF), přičemž explicitní text vztahuje LOF k lokální hustotě, a výstupní skóre odlehlosti. Oba obrázky byly skutečně prohlédnuty v tomto tahu, ale dosud nevyloženy. Přesná drobná čísla a detailní vzorce z obrázků neodhadovat. Následuje neprobrané hrubší členění sn. 16. Dočasný převod a profil po této práci odstranit.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-19T04:17:24.350710+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-24-posuvne-okno-radky",
+      "activity_kind": "material",
+      "activity": "Pro vlastní časovou řadu 10, 12, 11, 15, 14 sestavit oba trénovací řádky s třemi po sobě jdoucími vstupy a targetem v bezprostředně následujícím kroku. Aplikace principu posuvného okna z obrazového příkladu Úvod sn. 13.",
+      "learner_answer": "(10,12,11) -> 15\n(12,11,15) -> 14",
+      "evaluation": "Splněno bez metodické nápovědy. Kritérium: správně sestavit oba vstupní bloky a následující target, posun o jeden krok. Oba řádky přesně správně. Předchozí osamocená čárka nebyla považována za dokončený pokus a nebyla hodnocena ani zapsána; následné zopakování formátu zadání bez řešení není nápověda. Ověřena tvorba základních okének, nikoli samostatný návrh časové validace.",
+      "result": "passed",
+      "difficulty": "zakladni-aplikacni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:13"
+        }
+      ],
+      "next_step": "Pokračovat obrazovým příkladem analýzy nákupního košíku na sn. 14, zejména převodem položkových řádků na transakce.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-19T04:37:31.215934+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-25-nakupni-kosik-ukazka",
+      "activity_kind": "material",
+      "activity": "Doplnění obrazového příkladu analýzy závislostí ze sn. 14: seskupit položkové řádky podle čísla účtenky na transakce/sady položek, najít časté společné sady pomocí FP-Growth a z nich vytvořit asociační pravidla. Příklad káva ⇒ filtry je vlastní ilustrace. Zdůrazněno, že pravidlo může mít výjimky a má hodnocenou sílu.",
+      "learner_answer": "",
+      "evaluation": "Výklad zobrazen s citací sn. 14, jehož skutečný vložený obrázek byl vizuálně otevřen v předchozím tahu, nikoli obsah odhadnut z textového nadpisu. Probrán obecný tok načtení položek, agregace po transakcích, FP-Growth, vytvoření pravidel a existence měr; ne detailní fungování FP-Growth, GUI parametry ani výpočty podpor/spolehlivosti/liftu. Podrobný výklad měr je výslovně plánován u dodané prezentace Asociační pravidla. Základní definice asociací byla dříve procvičena, nyní doplněn konkrétní obrazový pracovní postup. Vlastní práce s transakcemi zatím neověřena. Při volbě aktivity posouzen skutečný doložený rozsah proti katalogu všech pěti zdrojů a celé historii (dřívější audit 14 záznamů plus nový úplný konec do total=23 a dva vlastní následné záznamy). Další neprobrané části první prezentace i ostatní čtyři prezentace zůstávají; materiály nejsou dokončené.",
+      "result": "introduced",
+      "difficulty": "zakladni-aplikacni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:14"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď: položkové řádky (A,káva), (A,filtry), (B,káva), (C,filtry); vytvořit tři košíky a určit, v kolika jsou káva a filtry společně. Očekávat A={káva,filtry}, B={káva}, C={filtry}, společně v jednom košíku ze tří. Odpověď dosud nebyla odeslána ani hodnocena. Následuje obrazový příklad detekce anomálií na sn. 15: chemické vlastnosti vín, normalizace, X-Means, Detect Outlier (LOF) s explicitním principem lokální hustoty a výstupním skóre odlehlosti. Tento obrázek už byl skutečně vizuálně prohlédnut, ale nebyl vyložen; přesné drobné hodnoty neodhadovat. Potom hrubší členění sn. 16 a další dosud neprobrané části v pořadí prezentace.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-19T04:37:31.281247+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-26-kosiky-oprava-prirazeni",
+      "activity_kind": "material",
+      "activity": "Z řádků (A,káva), (A,filtry), (B,káva), (C,filtry) vytvořit tři transakční košíky a uvést počet košíků obsahujících kávu i filtry. Aplikace agregace po účtence z obrazového příkladu Úvod sn. 14.",
+      "learner_answer": "A: kávy, filtry\nB: filtry\nC: káva",
+      "evaluation": "Částečně splněno. Kritérium: správně přiřadit položky ke všem třem účtenkám a určit společný výskyt v jednom košíku. A správně obsahuje obě položky, ale u B a C se prohodily položky; počet společných výskytů uživatel výslovně neuvedl. Jde o konkrétní chybu přiřazení; z ní nelze vyvozovat obecné neporozumění principu transakce. Ve zpětné vazbě zobrazeno úplné správné přiřazení A={káva,filtry}, B={káva}, C={filtry} i počet jednoho společného košíku ze tří. Tento počet doplnil asistent a nebyl dosud samostatně ověřen.",
+      "result": "needs-practice",
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:14"
+        }
+      ],
+      "next_step": "Přesnou agregaci a počítání výskytů ještě později ověřit na jiných transakcích, nejpozději při podpoře a spolehlivosti v části asociačních pravidel. Nyní postupovat po pořadí k doplnění obrazového příkladu detekce odchylek sn. 15.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-19T05:15:14.250886+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-19-01",
+      "topic_id": "uvod-a-proces",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-19-27-odchylky-normalizace-lof",
+      "activity_kind": "material",
+      "activity": "Doplnění skutečného obrazového příkladu sn. 15: odchylky chemického složení vín, normalizace kvůli měřítkům atributů, shlukování X-Means a detektor LOF jako porovnání lokální hustoty okolí bodu a jeho sousedů, výsledné skóre a výběr odlehlých případů, návrat na původní měřítko pro interpretaci. Nevykládány konkrétní algoritmické detaily X-Means, přesný vzorec LOF ani drobné číselné hodnoty screenshotu.",
+      "learner_answer": "",
+      "evaluation": "Výklad zobrazen s citací; původní vložený obrázek sn. 15 byl již skutečně vizuálně otevřen v dřívějším tahu a jeho popis nyní znovu ověřen v zachovaných poznámkách. Samotný textový index obsahuje jen obecnou definici a nebyl vydáván za celý obrázek. Vyloženy hlavní role pracovního postupu, nikoli tvrzení, že každá metoda detekce vyžaduje shlukování. Samostatný důvod normalizace a princip LOF zatím neověřeny. Čtecí audit kolegy načetl celý aktuální katalogový kontext a všech 27 checkpointů před tímto tahem (total=27, returned=27): sn. 16–24 stále nemají doložený konkrétní výklad ani procvičení; sn. 19 a 22–24 vyžadují vizuální ověření, sn. 20 ověření kontextu ankety. Ve spojení s dřívějším úplným katalogem všech pěti zdrojů to dokládá další zbývající rozsah, nikoli dokončení materiálů.",
+      "result": "introduced",
+      "difficulty": "zakladni-aplikacni",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:15"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď: jednu chemickou veličinu převedeme z g/l na mg/l, ostatní necháme; proč se bez normalizace může změnit vzdálenostní detekce, ačkoli vína jsou stejná? Očekávat tisícinásobné numerické měřítko jedné souřadnice, změnu její váhy ve vzdálenostech a případně sousedství/skóre. Nevyžadovat přesný faktor, pokud správně vysvětlí vliv jednotek. Odpověď ještě není odeslaná ani hodnocená. Potom sn. 16: hrubší členění klasifikace/predikce, deskripce a hledání dílčích překvapivých nugetů. Celý sn. 16 byl dříve ověřen jako textový, ale ještě nevyložen. Následují aplikace 17–18, historická anketa 19–20 s ověřením kontextu, loupání cibule 21 a vizuální košíkové příklady 22–24. Prohlédnutí obrázku asistentem samo o sobě nepočítat za probrání uživatelem.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-19T05:15:14.313964+00:00"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Studijní paměť"
+  short_description: "Ukládání a obnovení postupu pro každý předmět"

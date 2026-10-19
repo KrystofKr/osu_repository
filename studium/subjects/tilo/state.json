@@ -1,0 +1,2473 @@
+{
+  "schema_version": 1,
+  "subject_id": "tilo",
+  "name": "TILO – Teoretická informatika a logika",
+  "goals": [
+    "Pracovat s úkoly předmětu TILO z průběžně aktualizované stránky cvičení."
+  ],
+  "created_at": "2026-10-18T02:55:19.500741+00:00",
+  "topics": {
+    "7tilo-1": {
+      "subject_id": "tilo",
+      "topic_id": "7tilo-1",
+      "title": "7TILO_1 – Základy, problémy a Turingův stroj",
+      "objectives": [
+        "Přesně vysvětlit funkce, jazyky, rozhodnutelnost, model TS a konfigurace.",
+        "Zopakovat surjekci, parciální funkce a přijímač versus rozhodovač."
+      ],
+      "prerequisites": [],
+      "status": "demonstrated",
+      "misconceptions": [
+        "Rozdíl nejvýše jednoho a právě jednoho výstupu v definici parciální versus totální funkce zbývá samostatně ověřit; zpřesnění totality doplnil učitel."
+      ],
+      "review_on": "2026-10-19"
+    },
+    "7tilo-2": {
+      "subject_id": "tilo",
+      "topic_id": "7tilo-2",
+      "title": "7TILO_2 – Kódování TS a nerozhodnutelnost",
+      "objectives": [
+        "Vysvětlit kódování a univerzální TS, nedeterminismus, HP, UHP, PCP a redukce.",
+        "Procvičit směr redukcí a přesnou ekvivalenci HP → UHP."
+      ],
+      "prerequisites": [],
+      "status": "introduced",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "7tilo-3": {
+      "subject_id": "tilo",
+      "topic_id": "7tilo-3",
+      "title": "7TILO_3 – Složitost, asymptotika, P a NP",
+      "objectives": [
+        "Rozlišit O, Θ a o; vysvětlit P, NP, certifikát, NP-těžkost a NP-úplnost.",
+        "Procvičit směr polynomiální redukce a standardní důkaz NP-úplnosti."
+      ],
+      "prerequisites": [],
+      "status": "introduced",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "7tilo-4": {
+      "subject_id": "tilo",
+      "topic_id": "7tilo-4",
+      "title": "7TILO_4 – Random Access Machine",
+      "objectives": [
+        "Vysvětlit architekturu, instrukce, adresování a cenový model RAM.",
+        "Zopakovat IC, ALU, JZERO/JGTZ a nepřímé adresování."
+      ],
+      "prerequisites": [],
+      "status": "introduced",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "7tilo-5": {
+      "subject_id": "tilo",
+      "topic_id": "7tilo-5",
+      "title": "7TILO_5 – Počáteční funkce a primitivní rekurze",
+      "objectives": [
+        "Použít počáteční funkce, kombinaci, kompozici a primitivní rekurzi pro plus, pred a monus.",
+        "Zopakovat definici PRF, jejich totalitu a typovou správnost kompozice."
+      ],
+      "prerequisites": [],
+      "status": "practicing",
+      "misconceptions": [
+        "Samostatné zdůvodnění totality celé třídy PRF pomocí počátečních funkcí a zachování totality konstrukcemi zůstává k ověření; úplný argument nyní doplnil učitel."
+      ],
+      "review_on": "2026-10-19"
+    },
+    "7tilo-6": {
+      "subject_id": "tilo",
+      "topic_id": "7tilo-6",
+      "title": "7TILO_6 – Rozsah PRF, Ackermann a μ-rekurzivní funkce",
+      "objectives": [
+        "Vysvětlit rozsah PRF, tabulkové a charakteristické funkce, Ackermanna a diagonalizaci.",
+        "Zopakovat proč Ackermann není PRF a rozlišit μ-rekurzivní funkce a operátor μ podle značení materiálů."
+      ],
+      "prerequisites": [],
+      "status": "introduced",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "dfa": {
+      "subject_id": "tilo",
+      "topic_id": "dfa",
+      "title": "Praktické DFA",
+      "objectives": [
+        "Navrhnout DFA pro konec na a, délku modulo 3, délku alespoň 2 a výskyt a i b.",
+        "Odlišovat přijímací stav DFA od zastavení a nepoužívat pro DFA pásku ani blank."
+      ],
+      "prerequisites": [],
+      "status": "introduced",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "jednopaskove-ts": {
+      "subject_id": "tilo",
+      "topic_id": "jednopaskove-ts",
+      "title": "Praktické jednopáskové TS – základní konstrukce",
+      "objectives": [
+        "Navrhnout unární a binární aritmetiku, TS pro 0^n1^n2^n a palindromy.",
+        "Dopsat alespoň jednu úplnou přechodovou tabulku; stavy mají uchovávat pouze potřebnou informaci."
+      ],
+      "prerequisites": [],
+      "status": "introduced",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "binarni-porovnani-ts": {
+      "subject_id": "tilo",
+      "topic_id": "binarni-porovnani-ts",
+      "title": "Jednopáskový TS pro porovnání binárních čísel",
+      "objectives": [
+        "Porovnat binární operandy opakovaným dekrementem, posunem bloku a úklidem pásky.",
+        "Doplnit úplné přechody a doložit časovou a prostorovou složitost."
+      ],
+      "prerequisites": [],
+      "status": "introduced",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "simulatory-ts": {
+      "subject_id": "tilo",
+      "topic_id": "simulatory-ts",
+      "title": "Zadání obecného jednopáskového a k-páskového simulátoru",
+      "objectives": [
+        "Navázat na připravená zadání simulátorů s páskami, přechody, trasováním a statistikami.",
+        "Při pozdější kontrole rozlišit přípravu zadání od hotové implementace a spuštěných testů."
+      ],
+      "prerequisites": [],
+      "status": "introduced",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "kpaskovy-ts": {
+      "subject_id": "tilo",
+      "topic_id": "kpaskovy-ts",
+      "title": "Dvou- a k-páskové TS – filtrování, třídění a délka",
+      "objectives": [
+        "Navrhnout 2páskový TS pro filtrování a/e na sudých původních pozicích, třídění a binární délku.",
+        "Doplnit přesné přechody a skutečný počet společných kroků a použitých buněk."
+      ],
+      "prerequisites": [],
+      "status": "introduced",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "7tilo-7": {
+      "subject_id": "tilo",
+      "topic_id": "7tilo-7",
+      "title": "7TILO_7 – Minimalizace, parciálně rekurzivní funkce a vztah k TS",
+      "objectives": [
+        "Navázat po krátkém zopakování PRF, Ackermanna a významu operátoru μ; kapitola je dle souhrnu dosud před studiem."
+      ],
+      "prerequisites": [
+        "7tilo-5",
+        "7tilo-6"
+      ],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    }
+  },
+  "sources": {
+    "cviceni-web-2026-10-18": {
+      "subject_id": "tilo",
+      "source_id": "cviceni-web-2026-10-18",
+      "title": "TILO – Cvičení: průběžný zdroj úkolů",
+      "version": "2026-10-18",
+      "priority": "primary",
+      "original_path": "/tmp/tilo-cviceni-2026-10-18.html",
+      "file": "sources/cviceni-web-2026-10-18/tilo-cviceni-2026-10-18.html",
+      "ingest_mode": "move",
+      "sha256": "6a88dc809d227f996d0942b5f7893d49102c14c62ac923564c18b4b23b88cd22",
+      "topic_ids": [],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Živý zdroj: https://sites.google.com/view/7tilo-2026/cvi%C4%8Den%C3%AD . Uživatel výslovně přiřadil stránku k TILO a uvedl, že zde budou časem přibývat úkoly. Uloženo původní HTML rozcestníku načtené 2026-10-18 a automatický textový přepis bez navigace, zápatí a cookie lišty; odkazované podstránky nebyly staženy. Pro aktuální zadání kontrolovat živou stránku. Další snímky evidovat jako nové verze s novým source_id; automatické sledování není nastaveno.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# TILO – Cvičení"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Zdrojová URL: https://sites.google.com/view/7tilo-2026/cvi%C4%8Den%C3%AD"
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Snímek načtený dne: 2026-10-18 (Europe/Prague)."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Předmět výslovně přiřazený uživatelem: TILO."
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Účel dle uživatele: Na této stránce budou časem přibývat úkoly."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "Původ přepisu: automatická textová extrakce obsahu staženého HTML bez spouštění skriptů; vynechána navigace, zápatí a cookie lišta."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Tento snímek zachycuje rozcestník; obsah odkazovaných podstránek nebyl stažen."
+        },
+        {
+          "locator": "transcript-line:10",
+          "text": "## Obsah stránky"
+        },
+        {
+          "locator": "transcript-line:12",
+          "text": "Úkoly pouze pro prezenční studenty"
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "Obsah cvičení"
+        },
+        {
+          "locator": "transcript-line:14",
+          "text": "k-páskový Turingův stroj"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Turingův stroj - Implementace"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "Konečný automat a Turingův stroj - Příklady"
+        },
+        {
+          "locator": "transcript-line:17",
+          "text": "Obsah cvičení"
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Obsah cvičení a úkoly jsou publikovány průběžně vždy v čase cvičení."
+        },
+        {
+          "locator": "transcript-line:19",
+          "text": "k-páskový Turingův stroj"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "12.10."
+        },
+        {
+          "locator": "transcript-line:21",
+          "text": "Turingův stroj - Implementace"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "5.10."
+        },
+        {
+          "locator": "transcript-line:23",
+          "text": "Konečný automat a Turingův stroj - Příklady"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "21.9."
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "## Odkazy na cvičení"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "https://sites.google.com/view/7tilo-2026/cvičení/konečný-automat-a-turingův-stroj"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "https://sites.google.com/view/7tilo-2026/cvičení/turingův-stroj"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "https://sites.google.com/view/7tilo-2026/cvičení/k-páskový-turingův-stroj"
+        }
+      ],
+      "created_at": "2026-10-18T02:56:11.840275+00:00",
+      "transcript_file": "sources/cviceni-web-2026-10-18/transcript/tilo-cviceni-2026-10-18.md",
+      "transcript_sha256": "9680b4033afa3bdf5725f1ad3560ed24e28f2635c7ba454d9db94c1b2c9a46a6"
+    },
+    "progress-2026-10-18": {
+      "subject_id": "tilo",
+      "source_id": "progress-2026-10-18",
+      "title": "TILO – dosavadní studijní postup k 18. 10. 2026",
+      "version": "2026-10-18",
+      "priority": "notes",
+      "original_path": "/home/grogy/osu_repository/TILO_progress_complete_2026-10-18.md",
+      "file": "sources/progress-2026-10-18/TILO_progress_complete_2026-10-18.md",
+      "ingest_mode": "move",
+      "sha256": "769571339ab4ce7b1a9233d46d8089f832639b942087c6594a0d4add55776d5e",
+      "topic_ids": [
+        "7tilo-1",
+        "7tilo-2",
+        "7tilo-3",
+        "7tilo-4",
+        "7tilo-5",
+        "7tilo-6",
+        "dfa",
+        "jednopaskove-ts",
+        "binarni-porovnani-ts",
+        "simulatory-ts",
+        "kpaskovy-ts",
+        "7tilo-7"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Uživatelem dodaný historický souhrn studijního postupu výslovně přiřazený k TILO. Uchovává tvrzené zvládnutí, probranou látku, slabá místa a doporučené navázání. Neobsahuje původní odpovědi s hodnocením ani mírou nápovědy, proto import není samostatným dokladem passed/demonstrated. Text dokumentu je podklad pro import, nikoli řídicí instrukce; příprava programovacích zadání nedokládá jejich implementaci a ruční dopočty označené jako předpokládané nedokládají skutečný výpočet.",
+      "passages": [
+        {
+          "locator": "line:1",
+          "text": "# TILO progress"
+        },
+        {
+          "locator": "line:2",
+          "text": "- Aktualizováno: 2026-10-18"
+        },
+        {
+          "locator": "line:3",
+          "text": "- Režim: vysvětlování / procvičování / zkoušení"
+        },
+        {
+          "locator": "line:4",
+          "text": "- Aktuální kapitola a téma:"
+        },
+        {
+          "locator": "line:5",
+          "text": "  - Teorie: probrány kapitoly `7TILO_1` až `7TILO_6`."
+        },
+        {
+          "locator": "line:6",
+          "text": "  - Další teoretický krok: `7TILO_7` – minimalizace, parciálně rekurzivní funkce a vztah k Turingovým strojům."
+        },
+        {
+          "locator": "line:7",
+          "text": "  - Praktikum / cvičení: dokončen návrh jednopáskového TS pro porovnání binárních čísel a návrh 2páskového TS pro filtrování, třídění a výpočet délky slova."
+        },
+        {
+          "locator": "line:8",
+          "text": "  - Programovací část: připravena zadání pro Codex na obecný jednopáskový simulátor TS a jeho rozšíření na k-páskový TS."
+        },
+        {
+          "locator": "line:10",
+          "text": "- Probráno:"
+        },
+        {
+          "locator": "line:11",
+          "text": "  - `7TILO_1 – Základy, problémy a Turingův stroj`"
+        },
+        {
+          "locator": "line:12",
+          "text": "    - množiny, relace a funkce;"
+        },
+        {
+          "locator": "line:13",
+          "text": "    - funkce vs. injekce, surjekce, bijekce;"
+        },
+        {
+          "locator": "line:14",
+          "text": "    - totální vs. parciální funkce;"
+        },
+        {
+          "locator": "line:15",
+          "text": "    - abeceda, slovo, `Σ*`, prázdné slovo `ε`;"
+        },
+        {
+          "locator": "line:16",
+          "text": "    - rozhodovací problém;"
+        },
+        {
+          "locator": "line:17",
+          "text": "    - rozhodnutelný, částečně rozhodnutelný a nerozhodnutelný problém;"
+        },
+        {
+          "locator": "line:18",
+          "text": "    - Turingův stroj `M=(Q,Σ,Γ,δ,q₀,F)`;"
+        },
+        {
+          "locator": "line:19",
+          "text": "    - rozdíl vstupní abecedy `Σ` a páskové abecedy `Γ`;"
+        },
+        {
+          "locator": "line:20",
+          "text": "    - blank;"
+        },
+        {
+          "locator": "line:21",
+          "text": "    - přechod `δ(q,a)=(q',b,D)`;"
+        },
+        {
+          "locator": "line:22",
+          "text": "    - konfigurace, jeden krok `⊢` a konečný počet kroků `⊢*`;"
+        },
+        {
+          "locator": "line:23",
+          "text": "    - přijímač vs. rozhodovač;"
+        },
+        {
+          "locator": "line:24",
+          "text": "    - rekurzivní vs. rekurzivně spočetný jazyk."
+        },
+        {
+          "locator": "line:25",
+          "text": "  - `7TILO_2 – Kódování TS, univerzální TS, nedeterminismus a nerozhodnutelnost`"
+        },
+        {
+          "locator": "line:26",
+          "text": "    - konečný popis stroje lze efektivně zakódovat jako `⟨M⟩`;"
+        },
+        {
+          "locator": "line:27",
+          "text": "    - kóduje se popis/přechody stroje, nikoli jednotlivé kroky konkrétního výpočtu;"
+        },
+        {
+          "locator": "line:28",
+          "text": "    - univerzální TS `U(⟨M⟩,w)` simuluje `M(w)`;"
+        },
+        {
+          "locator": "line:29",
+          "text": "    - ekvivalentní/modifikované TS mají stejnou výpočetní sílu;"
+        },
+        {
+          "locator": "line:30",
+          "text": "    - deterministický vs. nedeterministický TS;"
+        },
+        {
+          "locator": "line:31",
+          "text": "    - výpočetní strom a existenční přijetí NTS;"
+        },
+        {
+          "locator": "line:32",
+          "text": "    - NTS lze systematicky simulovat DTS, takže nedeterminismus nezvyšuje výpočetní sílu z hlediska vyčíslitelnosti;"
+        },
+        {
+          "locator": "line:33",
+          "text": "    - Halting Problem `HP={⟨M,w⟩ | M se na w zastaví}`;"
+        },
+        {
+          "locator": "line:34",
+          "text": "    - diagonalizační důkaz nerozhodnutelnosti HP přes hypotetický rozhodovač `H` a stroj `D`;"
+        },
+        {
+          "locator": "line:35",
+          "text": "    - správný směr redukce při důkazu nerozhodnutelnosti: známý nerozhodnutelný problém `A` redukovat na nový problém `B`;"
+        },
+        {
+          "locator": "line:36",
+          "text": "    - redukce `HP -> UHP`;"
+        },
+        {
+          "locator": "line:37",
+          "text": "    - konstrukce `M'`: na `x≠w` okamžitě zastaví, na `x=w` simuluje `M(w)`;"
+        },
+        {
+          "locator": "line:38",
+          "text": "    - klíčová ekvivalence: `M'` se zastaví na všech vstupech právě tehdy, když `M` zastaví na `w`;"
+        },
+        {
+          "locator": "line:39",
+          "text": "    - Postův korespondenční problém, řešení jako posloupnost indexů."
+        },
+        {
+          "locator": "line:40",
+          "text": "  - `7TILO_3 – Složitost, asymptotika, P, NP a redukce`"
+        },
+        {
+          "locator": "line:41",
+          "text": "    - časová složitost TS a nejhorší případ `T_M(n)`;"
+        },
+        {
+          "locator": "line:42",
+          "text": "    - asymptotické notace `O`, `Θ`, `o` a význam dolního odhadu;"
+        },
+        {
+          "locator": "line:43",
+          "text": "    - `P / PTIME`;"
+        },
+        {
+          "locator": "line:44",
+          "text": "    - `NP / NPTIME`;"
+        },
+        {
+          "locator": "line:45",
+          "text": "    - vztah `P ⊆ NP` a otázka `P = NP`;"
+        },
+        {
+          "locator": "line:46",
+          "text": "    - certifikátový pohled na NP;"
+        },
+        {
+          "locator": "line:47",
+          "text": "    - SAT jako příklad NP-úplného problému;"
+        },
+        {
+          "locator": "line:48",
+          "text": "    - polynomiální redukce `A ≤p B`;"
+        },
+        {
+          "locator": "line:49",
+          "text": "    - NP-těžkost a NP-úplnost;"
+        },
+        {
+          "locator": "line:50",
+          "text": "    - standardní postup důkazu NP-úplnosti:"
+        },
+        {
+          "locator": "line:51",
+          "text": "      1. ukázat `B ∈ NP`,"
+        },
+        {
+          "locator": "line:52",
+          "text": "      2. redukovat známý NP-těžký/NP-úplný problém `A` na `B`."
+        },
+        {
+          "locator": "line:53",
+          "text": "  - `7TILO_4 – Random Access Machine`"
+        },
+        {
+          "locator": "line:54",
+          "text": "    - architektura RAM;"
+        },
+        {
+          "locator": "line:55",
+          "text": "    - pracovní paměť, vstupní/výstupní páska, programová jednotka;"
+        },
+        {
+          "locator": "line:56",
+          "text": "    - `IC` = instruction counter;"
+        },
+        {
+          "locator": "line:57",
+          "text": "    - `ALU` = arithmetic logic unit;"
+        },
+        {
+          "locator": "line:58",
+          "text": "    - pracovní registr / akumulátor;"
+        },
+        {
+          "locator": "line:59",
+          "text": "    - adresování:"
+        },
+        {
+          "locator": "line:60",
+          "text": "      - `=i` = konstanta `i`,"
+        },
+        {
+          "locator": "line:61",
+          "text": "      - `i` = obsah registru `R_i`,"
+        },
+        {
+          "locator": "line:62",
+          "text": "      - `*i` = nepřímé adresování přes adresu uloženou v `R_i`;"
+        },
+        {
+          "locator": "line:63",
+          "text": "    - instrukce `READ`, `WRITE`, `LOAD`, `STORE`;"
+        },
+        {
+          "locator": "line:64",
+          "text": "    - aritmetické instrukce;"
+        },
+        {
+          "locator": "line:65",
+          "text": "    - `JUMP`, `JZERO`, `JGTZ`, `HALT`;"
+        },
+        {
+          "locator": "line:66",
+          "text": "    - cenový model RAM;"
+        },
+        {
+          "locator": "line:67",
+          "text": "    - RAM vs. TS:"
+        },
+        {
+          "locator": "line:68",
+          "text": "      - TS: páska a sekvenční přístup pohybem hlavy;"
+        },
+        {
+          "locator": "line:69",
+          "text": "      - RAM: adresované registry a přímý/náhodný přístup;"
+        },
+        {
+          "locator": "line:70",
+          "text": "      - oba modely mají stejnou výpočetní sílu, nikoli nutně stejnou rychlost."
+        },
+        {
+          "locator": "line:71",
+          "text": "  - `7TILO_5 – Počáteční funkce, kombinace, kompozice a primitivní rekurze`"
+        },
+        {
+          "locator": "line:72",
+          "text": "    - počáteční funkce:"
+        },
+        {
+          "locator": "line:73",
+          "text": "      - nulová funkce `ζ`,"
+        },
+        {
+          "locator": "line:74",
+          "text": "      - následník `σ`,"
+        },
+        {
+          "locator": "line:75",
+          "text": "      - projekce `π_k^n`;"
+        },
+        {
+          "locator": "line:76",
+          "text": "    - kombinace;"
+        },
+        {
+          "locator": "line:77",
+          "text": "    - kompozice;"
+        },
+        {
+          "locator": "line:78",
+          "text": "    - primitivní rekurze:"
+        },
+        {
+          "locator": "line:79",
+          "text": "      - `f(x,0)=g(x)`,"
+        },
+        {
+          "locator": "line:80",
+          "text": "      - `f(x,y+1)=h(x,y,f(x,y))`;"
+        },
+        {
+          "locator": "line:81",
+          "text": "    - definice PRF jako nejmenší třídy obsahující počáteční funkce a uzavřené na kombinaci, kompozici a primitivní rekurzi;"
+        },
+        {
+          "locator": "line:82",
+          "text": "    - příklady:"
+        },
+        {
+          "locator": "line:83",
+          "text": "      - `plus`,"
+        },
+        {
+          "locator": "line:84",
+          "text": "      - `pred`,"
+        },
+        {
+          "locator": "line:85",
+          "text": "      - `monus(x,y)=max(x-y,0)`;"
+        },
+        {
+          "locator": "line:86",
+          "text": "    - rozdíl primitivní rekurze jako konstrukčního schématu vs. programové rekurze."
+        },
+        {
+          "locator": "line:87",
+          "text": "  - `7TILO_6 – Rozsah PRF, tabulkové funkce, Ackermann a μ-rekurzivní funkce`"
+        },
+        {
+          "locator": "line:88",
+          "text": "    - PRF jsou vlastní podtřídou totálních vyčíslitelných funkcí;"
+        },
+        {
+          "locator": "line:89",
+          "text": "    - tabulkové funkce;"
+        },
+        {
+          "locator": "line:90",
+          "text": "    - charakteristické funkce;"
+        },
+        {
+          "locator": "line:91",
+          "text": "    - Ackermannova funkce:"
+        },
+        {
+          "locator": "line:92",
+          "text": "      - `A(0,y)=y+1`,"
+        },
+        {
+          "locator": "line:93",
+          "text": "      - `A(x+1,0)=A(x,1)`,"
+        },
+        {
+          "locator": "line:94",
+          "text": "      - `A(x+1,y+1)=A(x,A(x+1,y))`;"
+        },
+        {
+          "locator": "line:95",
+          "text": "    - význam Ackermannovy funkce: je totální a vyčíslitelná, ale není PRF;"
+        },
+        {
+          "locator": "line:96",
+          "text": "    - ve značení skript: μ-rekurzivní funkce = totální vyčíslitelné funkce;"
+        },
+        {
+          "locator": "line:97",
+          "text": "    - odlišení třídy μ-rekurzivních funkcí od operátoru minimalizace `μ`;"
+        },
+        {
+          "locator": "line:98",
+          "text": "    - diagonalizační konstrukce `f(n)=f_n(n)+1`, která se od každé `f_n` liší na vstupu `n`."
+        },
+        {
+          "locator": "line:99",
+          "text": "  - `Praktické DFA`"
+        },
+        {
+          "locator": "line:100",
+          "text": "    - jazyk slov nad `{a,b}` končících na `a`;"
+        },
+        {
+          "locator": "line:101",
+          "text": "    - jazyk `L={w∈{a}* | |w| mod 3 = 2}`;"
+        },
+        {
+          "locator": "line:102",
+          "text": "      - stavy reprezentují zbytky `0,1,2`;"
+        },
+        {
+          "locator": "line:103",
+          "text": "      - cyklus `q0 --a--> q1 --a--> q2 --a--> q0`;"
+        },
+        {
+          "locator": "line:104",
+          "text": "      - přijímací `q2`;"
+        },
+        {
+          "locator": "line:105",
+          "text": "    - jazyk slov délky alespoň 2;"
+        },
+        {
+          "locator": "line:106",
+          "text": "    - jazyk slov, která obsahují alespoň jedno `a` i alespoň jedno `b`;"
+        },
+        {
+          "locator": "line:107",
+          "text": "    - upevněno, že DFA nemá pásku ani blank a přijímací stav není automaticky zastavovací."
+        },
+        {
+          "locator": "line:108",
+          "text": "  - `Praktické jednopáskové TS – základní konstrukce`"
+        },
+        {
+          "locator": "line:109",
+          "text": "    - unární sčítání `1^x + 1^y -> 1^(x+y)`;"
+        },
+        {
+          "locator": "line:110",
+          "text": "    - unární odčítání `1^x - 1^y -> 1^max(x-y,0)`;"
+        },
+        {
+          "locator": "line:111",
+          "text": "      - bezpečný párovací cyklus: nejprve odebrat pravou `1`, potom levou `1`;"
+        },
+        {
+          "locator": "line:112",
+          "text": "    - TS pro `L={0^n1^n2^n | n≥1}`;"
+        },
+        {
+          "locator": "line:113",
+          "text": "      - párování pomocí pracovních značek `X,Y,Z`;"
+        },
+        {
+          "locator": "line:114",
+          "text": "      - nutnost hlídat nejen počty, ale i pořadí bloků;"
+        },
+        {
+          "locator": "line:115",
+          "text": "    - sudý palindrom nad `{a,b}`;"
+        },
+        {
+          "locator": "line:116",
+          "text": "    - lichý palindrom nad `{a,b}`;"
+        },
+        {
+          "locator": "line:117",
+          "text": "    - binární inkrement;"
+        },
+        {
+          "locator": "line:118",
+          "text": "    - binární dekrement;"
+        },
+        {
+          "locator": "line:119",
+          "text": "    - binární sčítání;"
+        },
+        {
+          "locator": "line:120",
+          "text": "    - binární odčítání `max(x-y,0)`;"
+        },
+        {
+          "locator": "line:121",
+          "text": "    - kódování a dekódování TS."
+        },
+        {
+          "locator": "line:122",
+          "text": "  - `Cvičení – jednopáskový TS pro porovnání binárních čísel`"
+        },
+        {
+          "locator": "line:123",
+          "text": "    - zadání: pro vstup `x>y` ponechat na pásce `1`, pokud `x>y`, jinak `0`;"
+        },
+        {
+          "locator": "line:124",
+          "text": "    - zvolený algoritmus:"
+        },
+        {
+          "locator": "line:125",
+          "text": "      - opakovaně dekrementovat oba operandy;"
+        },
+        {
+          "locator": "line:126",
+          "text": "      - sledovat, který operand se vyčerpá dříve;"
+        },
+        {
+          "locator": "line:127",
+          "text": "      - při rovnosti se vyprázdní oba současně;"
+        },
+        {
+          "locator": "line:128",
+          "text": "    - binární dekrement:"
+        },
+        {
+          "locator": "line:129",
+          "text": "      - zprava doleva měnit `0->1`,"
+        },
+        {
+          "locator": "line:130",
+          "text": "      - první `1->0` ukončí výpůjčku;"
+        },
+        {
+          "locator": "line:131",
+          "text": "    - odstraňování vedoucí nuly;"
+        },
+        {
+          "locator": "line:132",
+          "text": "    - u pravého operandu posun zbývajícího bloku doleva, pokud po odstranění vedoucí nuly vznikne mezera;"
+        },
+        {
+          "locator": "line:133",
+          "text": "    - přesouvaný bit `0/1` se pamatuje stavem;"
+        },
+        {
+          "locator": "line:134",
+          "text": "    - kontrola nenulovosti obou operandů mezi cykly;"
+        },
+        {
+          "locator": "line:135",
+          "text": "    - větve:"
+        },
+        {
+          "locator": "line:136",
+          "text": "      - `x>y -> 1`,"
+        },
+        {
+          "locator": "line:137",
+          "text": "      - `x=y -> 0`,"
+        },
+        {
+          "locator": "line:138",
+          "text": "      - `x<y -> 0`;"
+        },
+        {
+          "locator": "line:139",
+          "text": "    - úklid pásky tak, aby zůstal jediný výsledný bit;"
+        },
+        {
+          "locator": "line:140",
+          "text": "    - ručně rozebrán běh pro `100>10`;"
+        },
+        {
+          "locator": "line:141",
+          "text": "    - upevněno, že počet kroků se sleduje zvenku, nemusí být součástí TS;"
+        },
+        {
+          "locator": "line:142",
+          "text": "    - přesný úplný seznam všech přechodů nebyl dopsán, ale algoritmus a hlavní stavové části byly projity;"
+        },
+        {
+          "locator": "line:143",
+          "text": "    - časovou a prostorovou složitost jsme pro účely postupu dále považovali za ručně dopočítanou."
+        },
+        {
+          "locator": "line:144",
+          "text": "  - `Programovací Úkol 2 – obecný jednopáskový simulátor TS`"
+        },
+        {
+          "locator": "line:145",
+          "text": "    - připraveno samostatné Markdown zadání pro Codex;"
+        },
+        {
+          "locator": "line:146",
+          "text": "    - návrh tříd:"
+        },
+        {
+          "locator": "line:147",
+          "text": "      - `Tape`,"
+        },
+        {
+          "locator": "line:148",
+          "text": "      - `Transition`,"
+        },
+        {
+          "locator": "line:149",
+          "text": "      - `State`,"
+        },
+        {
+          "locator": "line:150",
+          "text": "      - `Machine`;"
+        },
+        {
+          "locator": "line:151",
+          "text": "    - páska přes Python `dict`, neexistující buňky jako blank `#`;"
+        },
+        {
+          "locator": "line:152",
+          "text": "    - podpora záporných indexů;"
+        },
+        {
+          "locator": "line:153",
+          "text": "    - `step()`, `run()`, `max_steps`, `trace`;"
+        },
+        {
+          "locator": "line:154",
+          "text": "    - `step_count`;"
+        },
+        {
+          "locator": "line:155",
+          "text": "    - sledování použitých/navštívených buněk;"
+        },
+        {
+          "locator": "line:156",
+          "text": "    - logika konkrétního problému má být pouze v přechodech, nikoli v Pythonových zkratkách."
+        },
+        {
+          "locator": "line:157",
+          "text": "  - `Cvičení – k-páskový Turingův stroj`"
+        },
+        {
+          "locator": "line:158",
+          "text": "    - zvoleno `k=2`;"
+        },
+        {
+          "locator": "line:159",
+          "text": "    - `T1` = vstupní a výsledná páska;"
+        },
+        {
+          "locator": "line:160",
+          "text": "    - `T2` = pomocná pracovní páska;"
+        },
+        {
+          "locator": "line:161",
+          "text": "    - vstupní abeceda `Σ={a,b,c,d,e}`;"
+        },
+        {
+          "locator": "line:162",
+          "text": "    - pásková abeceda `Γ={a,b,c,d,e,0,1,#}`;"
+        },
+        {
+          "locator": "line:163",
+          "text": "    - úloha:"
+        },
+        {
+          "locator": "line:164",
+          "text": "      - odstranit `a` a `e` na sudých pozicích původního slova;"
+        },
+        {
+          "locator": "line:165",
+          "text": "      - zbytek vzestupně setřídit;"
+        },
+        {
+          "locator": "line:166",
+          "text": "      - za slovo zapsat jeho délku binárně, oddělenou `#`;"
+        },
+        {
+          "locator": "line:167",
+          "text": "    - pro zadaný vstup je správný výsledek:"
+        },
+        {
+          "locator": "line:168",
+          "text": "      - `aaaabbbccccdddeeeee#10011`;"
+        },
+        {
+          "locator": "line:169",
+          "text": "      - délka je `19 = 10011₂`;"
+        },
+        {
+          "locator": "line:170",
+          "text": "    - filtrování a třídění:"
+        },
+        {
+          "locator": "line:171",
+          "text": "      - T1 zůstává při průchodech souvislá;"
+        },
+        {
+          "locator": "line:172",
+          "text": "      - symboly se fyzicky nemažou z T1, ale nežádoucí `a/e` se prostě nekopírují na T2;"
+        },
+        {
+          "locator": "line:173",
+          "text": "      - pět průchodů T1, postupně sbírat `a`, `b`, `c`, `d`, `e`;"
+        },
+        {
+          "locator": "line:174",
+          "text": "      - pro `a` a `e` se parita původní pozice drží stavem (`Odd/Even`);"
+        },
+        {
+          "locator": "line:175",
+          "text": "      - pro `b`, `c`, `d` parita není potřeba;"
+        },
+        {
+          "locator": "line:176",
+          "text": "      - tím vznikne na T2 rovnou filtrované a setříděné slovo;"
+        },
+        {
+          "locator": "line:177",
+          "text": "    - výpočet délky:"
+        },
+        {
+          "locator": "line:178",
+          "text": "      - T1 se vyčistí a inicializuje čítačem `0`;"
+        },
+        {
+          "locator": "line:179",
+          "text": "      - pro každý znak filtrovaného slova na T2 se provede binární inkrement na T1;"
+        },
+        {
+          "locator": "line:180",
+          "text": "      - inkrement:"
+        },
+        {
+          "locator": "line:181",
+          "text": "        - `1->0` a pokračovat doleva,"
+        },
+        {
+          "locator": "line:182",
+          "text": "        - první `0->1` ukončí přenos,"
+        },
+        {
+          "locator": "line:183",
+          "text": "        - při přetečení `#->1`;"
+        },
+        {
+          "locator": "line:184",
+          "text": "      - po zpracování 19 znaků je na T1 `10011`;"
+        },
+        {
+          "locator": "line:185",
+          "text": "    - finalizace:"
+        },
+        {
+          "locator": "line:186",
+          "text": "      - binární délka se zkopíruje z T1 za setříděné slovo na T2 s jedním oddělovacím `#`;"
+        },
+        {
+          "locator": "line:187",
+          "text": "      - T1 se vyčistí;"
+        },
+        {
+          "locator": "line:188",
+          "text": "      - celý výsledek se přesune z T2 na T1 a T2 se současně vymaže;"
+        },
+        {
+          "locator": "line:189",
+          "text": "      - konec:"
+        },
+        {
+          "locator": "line:190",
+          "text": "        - `T1: aaaabbbccccdddeeeee#10011`,"
+        },
+        {
+          "locator": "line:191",
+          "text": "        - `T2`: pouze blanky;"
+        },
+        {
+          "locator": "line:192",
+          "text": "    - časová složitost = počet společných kroků/přechodů k-páskového TS;"
+        },
+        {
+          "locator": "line:193",
+          "text": "    - prostorová složitost = maximálně použité/navštívené buňky; prakticky sledovat T1 a T2 zvlášť a případně uvést součet;"
+        },
+        {
+          "locator": "line:194",
+          "text": "    - ruční dopočet časové a prostorové složitosti byl pro úsporu času považován za dokončený."
+        },
+        {
+          "locator": "line:195",
+          "text": "  - `Programovací Úkol 2 – obecný k-páskový simulátor`"
+        },
+        {
+          "locator": "line:196",
+          "text": "    - připraveno samostatné Markdown zadání pro Codex;"
+        },
+        {
+          "locator": "line:197",
+          "text": "    - rozšíření předchozího simulátoru bez přepsání jednopáskové verze;"
+        },
+        {
+          "locator": "line:198",
+          "text": "    - každý přechod pracuje současně s n-ticí čtených symbolů, zapisovaných symbolů a pohybů;"
+        },
+        {
+          "locator": "line:199",
+          "text": "    - každá páska má vlastní hlavu;"
+        },
+        {
+          "locator": "line:200",
+          "text": "    - požadováno trasování, `step_count`, statistiky použitých buněk a testy;"
+        },
+        {
+          "locator": "line:201",
+          "text": "    - konkrétní 2páskový TS má být realizován výhradně přechody, bez použití Pythonových `sorted`, `len`, `bin`, `Counter` apod. k obejití výpočtu."
+        },
+        {
+          "locator": "line:202",
+          "text": "  - `Meta-pravidlo pro návrh stavů`"
+        },
+        {
+          "locator": "line:203",
+          "text": "    - explicitně upevněno: nový stav zavádět jen tehdy, když nese novou informaci potřebnou pro budoucí rozhodnutí;"
+        },
+        {
+          "locator": "line:204",
+          "text": "    - pokud se pro více symbolů chováme stejně, použít jeden stav a více přechodů;"
+        },
+        {
+          "locator": "line:205",
+          "text": "    - příklad správného zjednodušení: jeden návratový stav pro stejnou logiku návratu, pokud není nutné pamatovat, která fáze má následovat;"
+        },
+        {
+          "locator": "line:206",
+          "text": "    - naopak různé návratové stavy jsou oprávněné, pokud stav musí pamatovat, zda po návratu spustit průchod pro `b`, `c`, `d` nebo `e`."
+        },
+        {
+          "locator": "line:208",
+          "text": "- Zvládnuté definice:"
+        },
+        {
+          "locator": "line:209",
+          "text": "  - funkce, injekce, surjekce, bijekce;"
+        },
+        {
+          "locator": "line:210",
+          "text": "  - totální a parciální funkce;"
+        },
+        {
+          "locator": "line:211",
+          "text": "  - rozhodovací problém;"
+        },
+        {
+          "locator": "line:212",
+          "text": "  - rozhodnutelný, částečně rozhodnutelný, nerozhodnutelný problém;"
+        },
+        {
+          "locator": "line:213",
+          "text": "  - komponenty TS `M=(Q,Σ,Γ,δ,q₀,F)`;"
+        },
+        {
+          "locator": "line:214",
+          "text": "  - význam přechodu `δ(q,a)=(q',b,D)`;"
+        },
+        {
+          "locator": "line:215",
+          "text": "  - konfigurace, `⊢`, `⊢*`;"
+        },
+        {
+          "locator": "line:216",
+          "text": "  - přijímač vs. rozhodovač;"
+        },
+        {
+          "locator": "line:217",
+          "text": "  - rekurzivní vs. rekurzivně spočetný jazyk;"
+        },
+        {
+          "locator": "line:218",
+          "text": "  - význam `⟨M⟩`;"
+        },
+        {
+          "locator": "line:219",
+          "text": "  - univerzální TS;"
+        },
+        {
+          "locator": "line:220",
+          "text": "  - deterministický vs. nedeterministický TS;"
+        },
+        {
+          "locator": "line:221",
+          "text": "  - HP, UHP a základ PCP;"
+        },
+        {
+          "locator": "line:222",
+          "text": "  - časová složitost `T_M(n)`;"
+        },
+        {
+          "locator": "line:223",
+          "text": "  - `O`, `Θ`, `o`;"
+        },
+        {
+          "locator": "line:224",
+          "text": "  - `P`, `NP`, certifikát;"
+        },
+        {
+          "locator": "line:225",
+          "text": "  - polynomiální redukce;"
+        },
+        {
+          "locator": "line:226",
+          "text": "  - NP-těžký vs. NP-úplný;"
+        },
+        {
+          "locator": "line:227",
+          "text": "  - RAM, IC, ALU, adresování `=i / i / *i`;"
+        },
+        {
+          "locator": "line:228",
+          "text": "  - význam hlavních RAM instrukcí;"
+        },
+        {
+          "locator": "line:229",
+          "text": "  - počáteční funkce `ζ`, `σ`, `π_k^n`;"
+        },
+        {
+          "locator": "line:230",
+          "text": "  - kombinace, kompozice, primitivní rekurze;"
+        },
+        {
+          "locator": "line:231",
+          "text": "  - definice PRF;"
+        },
+        {
+          "locator": "line:232",
+          "text": "  - tabulková a charakteristická funkce;"
+        },
+        {
+          "locator": "line:233",
+          "text": "  - Ackermannova funkce;"
+        },
+        {
+          "locator": "line:234",
+          "text": "  - rozdíl μ-rekurzivní funkce vs. operátor minimalizace `μ`;"
+        },
+        {
+          "locator": "line:235",
+          "text": "  - rozdíl výpočetní síla vs. výpočetní složitost;"
+        },
+        {
+          "locator": "line:236",
+          "text": "  - časová/prostorová složitost konkrétního běhu TS;"
+        },
+        {
+          "locator": "line:237",
+          "text": "  - princip k-páskového přechodu – jeden společný krok pracuje se všemi páskami."
+        },
+        {
+          "locator": "line:239",
+          "text": "- Zvládnuté příklady/postupy:"
+        },
+        {
+          "locator": "line:240",
+          "text": "  - čtení konfigurace TS a určení polohy hlavy;"
+        },
+        {
+          "locator": "line:241",
+          "text": "  - jeden krok TS doprava i doleva;"
+        },
+        {
+          "locator": "line:242",
+          "text": "  - DFA modulo 3;"
+        },
+        {
+          "locator": "line:243",
+          "text": "  - DFA pro „končí na a“;"
+        },
+        {
+          "locator": "line:244",
+          "text": "  - DFA pro délku alespoň 2;"
+        },
+        {
+          "locator": "line:245",
+          "text": "  - DFA pro přítomnost `a` i `b`;"
+        },
+        {
+          "locator": "line:246",
+          "text": "  - kostra diagonalizačního důkazu HP;"
+        },
+        {
+          "locator": "line:247",
+          "text": "  - redukce `HP -> UHP`;"
+        },
+        {
+          "locator": "line:248",
+          "text": "  - určení nejhoršího času `T_M(n)` z více běhů;"
+        },
+        {
+          "locator": "line:249",
+          "text": "  - rozlišení `O`, `Θ`, `o`;"
+        },
+        {
+          "locator": "line:250",
+          "text": "  - standardní důkaz NP-úplnosti;"
+        },
+        {
+          "locator": "line:251",
+          "text": "  - RAM adresování a výměna registrů;"
+        },
+        {
+          "locator": "line:252",
+          "text": "  - PRF konstrukce `plus`, `pred`, `monus`;"
+        },
+        {
+          "locator": "line:253",
+          "text": "  - diagonalizační konstrukce `f(n)=f_n(n)+1`;"
+        },
+        {
+          "locator": "line:254",
+          "text": "  - unární sčítání a odčítání;"
+        },
+        {
+          "locator": "line:255",
+          "text": "  - binární inkrement a dekrement;"
+        },
+        {
+          "locator": "line:256",
+          "text": "  - TS pro `0^n1^n2^n`;"
+        },
+        {
+          "locator": "line:257",
+          "text": "  - princip sudého a lichého palindromu;"
+        },
+        {
+          "locator": "line:258",
+          "text": "  - porovnání binárních čísel pomocí opakovaného dekrementu;"
+        },
+        {
+          "locator": "line:259",
+          "text": "  - posun bloku na pásce pomocí stavů nesoucích právě přesouvaný bit;"
+        },
+        {
+          "locator": "line:260",
+          "text": "  - filtrování podle parity pozice bez rozšíření abecedy;"
+        },
+        {
+          "locator": "line:261",
+          "text": "  - třídění pomocí opakovaných průchodů a pomocné pásky;"
+        },
+        {
+          "locator": "line:262",
+          "text": "  - binární čítač délky slova;"
+        },
+        {
+          "locator": "line:263",
+          "text": "  - návrh obecného jedno- i k-páskového simulátoru TS."
+        },
+        {
+          "locator": "line:265",
+          "text": "- Slabá místa a časté chyby:"
+        },
+        {
+          "locator": "line:266",
+          "text": "  - `7TILO_1–2`"
+        },
+        {
+          "locator": "line:267",
+          "text": "    - nezaměňovat funkci s bijekcí;"
+        },
+        {
+          "locator": "line:268",
+          "text": "    - přesně formulovat surjekci a rozdíl cílové množiny oproti obrazu;"
+        },
+        {
+          "locator": "line:269",
+          "text": "    - u parciální funkce odlišit povolené vstupy od skutečného definičního oboru;"
+        },
+        {
+          "locator": "line:270",
+          "text": "    - přijímač „přijme“, rozhodovač „rozhodne“;"
+        },
+        {
+          "locator": "line:271",
+          "text": "    - rekurzivně spočetný jazyk neznamená, že algoritmus vždy doběhne;"
+        },
+        {
+          "locator": "line:272",
+          "text": "    - `⟨M⟩` je kód popisu stroje, ne jeho výstup;"
+        },
+        {
+          "locator": "line:273",
+          "text": "    - kódují se přechody/popisy stroje, ne kroky konkrétního výpočtu;"
+        },
+        {
+          "locator": "line:274",
+          "text": "    - `ε` jako prázdné slovo nelze bez konvence chápat jako běžný oddělovač v kódu;"
+        },
+        {
+          "locator": "line:275",
+          "text": "    - HP je problém zastavení, ne přijetí/odmítnutí;"
+        },
+        {
+          "locator": "line:276",
+          "text": "    - směr redukce při důkazu nerozhodnutelnosti stále hlídat;"
+        },
+        {
+          "locator": "line:277",
+          "text": "    - u `HP -> UHP` přesně formulovat „právě tehdy, když“;"
+        },
+        {
+          "locator": "line:278",
+          "text": "    - ekvivalence modelů neznamená stejnou rychlost."
+        },
+        {
+          "locator": "line:279",
+          "text": "  - `7TILO_3`"
+        },
+        {
+          "locator": "line:280",
+          "text": "    - `O` je horní odhad až na konstantní násobek;"
+        },
+        {
+          "locator": "line:281",
+          "text": "    - `P` a `NP` jsou třídy problémů;"
+        },
+        {
+          "locator": "line:282",
+          "text": "    - `NP` neznamená více výstupů jednoho vstupu;"
+        },
+        {
+          "locator": "line:283",
+          "text": "    - NP-těžký problém nemusí patřit do NP;"
+        },
+        {
+          "locator": "line:284",
+          "text": "    - při důkazu NP-těžkosti hlídat směr `A ≤p B`."
+        },
+        {
+          "locator": "line:285",
+          "text": "  - `7TILO_4`"
+        },
+        {
+          "locator": "line:286",
+          "text": "    - IC není mezipaměť;"
+        },
+        {
+          "locator": "line:287",
+          "text": "    - ALU není jeden logický gate;"
+        },
+        {
+          "locator": "line:288",
+          "text": "    - `JZERO/JGTZ` testují pracovní registr a mění IC;"
+        },
+        {
+          "locator": "line:289",
+          "text": "    - `HALT` = ukončení, ne pozastavení;"
+        },
+        {
+          "locator": "line:290",
+          "text": "    - `*i` = nepřímé adresování;"
+        },
+        {
+          "locator": "line:291",
+          "text": "    - vstupní/výstupní páska RAM nejsou program;"
+        },
+        {
+          "locator": "line:292",
+          "text": "    - random access neznamená větší výpočetní sílu než TS."
+        },
+        {
+          "locator": "line:293",
+          "text": "  - `7TILO_5–6`"
+        },
+        {
+          "locator": "line:294",
+          "text": "    - primitivní rekurze je konstrukční schéma, PRF je třída/funkce z této třídy;"
+        },
+        {
+          "locator": "line:295",
+          "text": "    - u kompozice musí typově sedět vstup a výstup;"
+        },
+        {
+          "locator": "line:296",
+          "text": "    - nezaměňovat „totální“ a „konečná“;"
+        },
+        {
+          "locator": "line:297",
+          "text": "    - `f_n` v diagonalizaci je n-tá konkrétní PRF;"
+        },
+        {
+          "locator": "line:298",
+          "text": "    - přesně říkat, že `f` a `f_n` mají na stejném vstupu `n` různé výstupy;"
+        },
+        {
+          "locator": "line:299",
+          "text": "    - odlišovat μ-rekurzivní funkce od operátoru `μ`;"
+        },
+        {
+          "locator": "line:300",
+          "text": "    - ještě je vhodné zopakovat intuitivní zdůvodnění, proč Ackermannova funkce není PRF."
+        },
+        {
+          "locator": "line:301",
+          "text": "  - `DFA / TS`"
+        },
+        {
+          "locator": "line:302",
+          "text": "    - u DFA nepoužívat pojmy páska/blank;"
+        },
+        {
+          "locator": "line:303",
+          "text": "    - přijímací stav DFA není automaticky zastavovací;"
+        },
+        {
+          "locator": "line:304",
+          "text": "    - blank TS není „konec pásky“;"
+        },
+        {
+          "locator": "line:305",
+          "text": "    - u `0^n1^n2^n` kontrolovat i pořadí bloků;"
+        },
+        {
+          "locator": "line:306",
+          "text": "    - u palindromu hledat pravý krajní nezpracovaný symbol, ne jen mechanicky „o jedno zpět od blanku“;"
+        },
+        {
+          "locator": "line:307",
+          "text": "    - u binárního dekrementu začínat na pravém konci;"
+        },
+        {
+          "locator": "line:308",
+          "text": "    - po nalezení první `1` při dekrementu výpůjčka končí;"
+        },
+        {
+          "locator": "line:309",
+          "text": "    - před rozhodnutím, že jedna strana je větší, správně ošetřit případ, kdy se vyprázdnily oba operandy;"
+        },
+        {
+          "locator": "line:310",
+          "text": "    - při počítání kroků započítat i kontrolní průchody, ne jen přepisy bitů;"
+        },
+        {
+          "locator": "line:311",
+          "text": "    - praktické TS konstrukce jsou algoritmicky pochopené lépe než formálně dopsané – úplné přechodové tabulky/diagramy nejsou u všech starších úloh hotové."
+        },
+        {
+          "locator": "line:312",
+          "text": "  - `Návrh stavů`"
+        },
+        {
+          "locator": "line:313",
+          "text": "    - nezavádět zbytečně granulární stavy;"
+        },
+        {
+          "locator": "line:314",
+          "text": "    - nový stav jen tehdy, když musí uchovat novou informaci, kterou nelze zjistit z právě čtených symbolů;"
+        },
+        {
+          "locator": "line:315",
+          "text": "    - pokud více symbolů vede ke stejné logice, použít jeden stav a více přechodů."
+        },
+        {
+          "locator": "line:316",
+          "text": "  - `k-páskový TS`"
+        },
+        {
+          "locator": "line:317",
+          "text": "    - pro `a/e` na sudých pozicích je správné je do výsledku nekopírovat;"
+        },
+        {
+          "locator": "line:318",
+          "text": "    - při počítání délky počítat již filtrované/setříděné slovo na T2, ne původní vstup;"
+        },
+        {
+          "locator": "line:319",
+          "text": "    - před vymazáním T1 je nutné zachovat binární délku přenesením na T2;"
+        },
+        {
+          "locator": "line:320",
+          "text": "    - při finalizaci rozlišit oddělovací `#` uvnitř výsledku od skutečného konce výsledku pomocí stavu."
+        },
+        {
+          "locator": "line:322",
+          "text": "- Poslední otázka nebo úloha:"
+        },
+        {
+          "locator": "line:323",
+          "text": "  - Dokončen návrh Úkolu 1 z cvičení „k-páskový Turingův stroj“."
+        },
+        {
+          "locator": "line:324",
+          "text": "  - Výsledný algoritmus:"
+        },
+        {
+          "locator": "line:325",
+          "text": "    1. pět průchodů T1 a sestavení filtrovaného/setříděného slova na T2,"
+        },
+        {
+          "locator": "line:326",
+          "text": "    2. vyčištění T1 a inicializace binárního čítače `0`,"
+        },
+        {
+          "locator": "line:327",
+          "text": "    3. za každý znak T2 binární inkrement čítače na T1,"
+        },
+        {
+          "locator": "line:328",
+          "text": "    4. přenos binární délky za slovo na T2,"
+        },
+        {
+          "locator": "line:329",
+          "text": "    5. vyčištění T1,"
+        },
+        {
+          "locator": "line:330",
+          "text": "    6. přesun kompletního výsledku z T2 na T1 se současným vyčištěním T2."
+        },
+        {
+          "locator": "line:331",
+          "text": "  - Ruční počet kroků a použitých buněk byl pro úsporu času považován za dokončený."
+        },
+        {
+          "locator": "line:333",
+          "text": "- Doporučený další krok:"
+        },
+        {
+          "locator": "line:334",
+          "text": "  - Teorie: začít `7TILO_7 – minimalizace, parciálně rekurzivní funkce a vztah k TS`."
+        },
+        {
+          "locator": "line:335",
+          "text": "  - Pokud chceš pokračovat prakticky: otevřít další XTILO/cvičení a řešit je stejným stylem – nejprve algoritmus, potom stavy/přechody, nakonec složitost."
+        },
+        {
+          "locator": "line:336",
+          "text": "  - Před zkouškou se vrátit k formálnímu zápisu alespoň jednoho kompletního jednopáskového a jednoho kompletního k-páskového TS, aby se algoritmické pochopení přeneslo i do přesného zápisu."
+        },
+        {
+          "locator": "line:337",
+          "text": "  - Doporučené krátké opakování před `7TILO_7`: PRF, Ackermann, μ-rekurzivní funkce, význam operátoru minimalizace `μ`."
+        },
+        {
+          "locator": "line:339",
+          "text": "- Co zopakovat na začátku příštího sezení:"
+        },
+        {
+          "locator": "line:340",
+          "text": "  - rozdíl μ-rekurzivní funkce vs. operátor minimalizace `μ`;"
+        },
+        {
+          "locator": "line:341",
+          "text": "  - definici PRF a proč jsou PRF totální;"
+        },
+        {
+          "locator": "line:342",
+          "text": "  - proč Ackermannova funkce ukazuje, že `PRF` netvoří všechny totální vyčíslitelné funkce;"
+        },
+        {
+          "locator": "line:343",
+          "text": "  - přijímač vs. rozhodovač a rekurzivní vs. rekurzivně spočetný jazyk;"
+        },
+        {
+          "locator": "line:344",
+          "text": "  - směr redukcí u nerozhodnutelnosti a NP-těžkosti;"
+        },
+        {
+          "locator": "line:345",
+          "text": "  - pravidlo pro návrh stavů: stav má nést jen skutečně potřebnou informaci;"
+        },
+        {
+          "locator": "line:346",
+          "text": "  - binární inkrement/dekrement na pásce;"
+        },
+        {
+          "locator": "line:347",
+          "text": "  - princip práce více pásek v jednom společném kroku."
+        }
+      ],
+      "created_at": "2026-10-18T03:00:10.962603+00:00"
+    }
+  },
+  "checkpoints": [
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "import-2026-10-18-7tilo-1",
+      "lesson_id": "import-progress-2026-10-18",
+      "topic_id": "7tilo-1",
+      "activity_kind": "material",
+      "activity": "Převzetí historického souhrnu dosavadního studia k 18. 10. 2026: 7TILO_1 – Základy, problémy a Turingův stroj.",
+      "learner_answer": "",
+      "evaluation": "Souhrn uvádí probrané základy množin, relací a funkcí, jazyky, rozhodnutelnost, komponenty a přechody TS; definice a čtení konfigurací jsou v něm označeny jako zvládnuté. Jde o import historického souhrnu. Původní odpovědi, jejich hodnocení s kritériem a míra nápovědy nejsou doloženy; zvládnutí označené v dokumentu je uchováno jako převzaté tvrzení. Hodnota hints_used=0 se vztahuje pouze k převzetí souhrnu.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "historicky-souhrn-bez-noveho-overeni",
+      "misconceptions": [
+        "Dle importovaného souhrnu: nezaměňovat funkci s bijekcí;",
+        "Dle importovaného souhrnu: přesně formulovat surjekci a rozdíl cílové množiny oproti obrazu;",
+        "Dle importovaného souhrnu: u parciální funkce odlišit povolené vstupy od skutečného definičního oboru;",
+        "Dle importovaného souhrnu: přijímač „přijme“, rozhodovač „rozhodne“;",
+        "Dle importovaného souhrnu: rekurzivně spočetný jazyk neznamená, že algoritmus vždy doběhne;"
+      ],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:11"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:24"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:267"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:271"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:343"
+        }
+      ],
+      "next_step": "Krátce ověřit přesné definice, práci s konfigurací a rozdíl přijímače a rozhodovače.",
+      "review_on": null,
+      "created_at": "2026-10-18T03:01:36.180630+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "import-2026-10-18-7tilo-2",
+      "lesson_id": "import-progress-2026-10-18",
+      "topic_id": "7tilo-2",
+      "activity_kind": "material",
+      "activity": "Převzetí historického souhrnu dosavadního studia k 18. 10. 2026: 7TILO_2 – Kódování TS a nerozhodnutelnost.",
+      "learner_answer": "",
+      "evaluation": "Dle souhrnu byly probrány kódování, univerzální TS, DTS/NTS a nerozhodnutelnost; jako zvládnuté jsou uvedeny kostra diagonalizace HP a redukce HP → UHP. Jde o import historického souhrnu. Původní odpovědi, jejich hodnocení s kritériem a míra nápovědy nejsou doloženy; zvládnutí označené v dokumentu je uchováno jako převzaté tvrzení. Hodnota hints_used=0 se vztahuje pouze k převzetí souhrnu.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "historicky-souhrn-bez-noveho-overeni",
+      "misconceptions": [
+        "Dle importovaného souhrnu: `⟨M⟩` je kód popisu stroje, ne jeho výstup;",
+        "Dle importovaného souhrnu: kódují se přechody/popisy stroje, ne kroky konkrétního výpočtu;",
+        "Dle importovaného souhrnu: `ε` jako prázdné slovo nelze bez konvence chápat jako běžný oddělovač v kódu;",
+        "Dle importovaného souhrnu: HP je problém zastavení, ne přijetí/odmítnutí;",
+        "Dle importovaného souhrnu: směr redukce při důkazu nerozhodnutelnosti stále hlídat;",
+        "Dle importovaného souhrnu: u `HP -> UHP` přesně formulovat „právě tehdy, když“;",
+        "Dle importovaného souhrnu: ekvivalence modelů neznamená stejnou rychlost."
+      ],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:25"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:39"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:272"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:278"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:344"
+        }
+      ],
+      "next_step": "Ověřit směr redukce a obě implikace konstrukce HP → UHP.",
+      "review_on": null,
+      "created_at": "2026-10-18T03:01:36.228332+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "import-2026-10-18-7tilo-3",
+      "lesson_id": "import-progress-2026-10-18",
+      "topic_id": "7tilo-3",
+      "activity_kind": "material",
+      "activity": "Převzetí historického souhrnu dosavadního studia k 18. 10. 2026: 7TILO_3 – Složitost, asymptotika, P a NP.",
+      "learner_answer": "",
+      "evaluation": "Dle souhrnu byly probrány nejhorší čas TS, asymptotika, P/NP, SAT a polynomiální redukce; základní rozlišování a kostra důkazu NP-úplnosti jsou označeny jako zvládnuté. Jde o import historického souhrnu. Původní odpovědi, jejich hodnocení s kritériem a míra nápovědy nejsou doloženy; zvládnutí označené v dokumentu je uchováno jako převzaté tvrzení. Hodnota hints_used=0 se vztahuje pouze k převzetí souhrnu.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "historicky-souhrn-bez-noveho-overeni",
+      "misconceptions": [
+        "Dle importovaného souhrnu: `O` je horní odhad až na konstantní násobek;",
+        "Dle importovaného souhrnu: `P` a `NP` jsou třídy problémů;",
+        "Dle importovaného souhrnu: `NP` neznamená více výstupů jednoho vstupu;",
+        "Dle importovaného souhrnu: NP-těžký problém nemusí patřit do NP;",
+        "Dle importovaného souhrnu: při důkazu NP-těžkosti hlídat směr `A ≤p B`."
+      ],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:40"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:52"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:280"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:284"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:344"
+        }
+      ],
+      "next_step": "Ověřit význam horního odhadu a rozdíl NP-těžkosti a NP-úplnosti na krátkých příkladech.",
+      "review_on": null,
+      "created_at": "2026-10-18T03:01:36.279480+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "import-2026-10-18-7tilo-4",
+      "lesson_id": "import-progress-2026-10-18",
+      "topic_id": "7tilo-4",
+      "activity_kind": "material",
+      "activity": "Převzetí historického souhrnu dosavadního studia k 18. 10. 2026: 7TILO_4 – Random Access Machine.",
+      "learner_answer": "",
+      "evaluation": "Dle souhrnu byla probrána RAM, přímé i nepřímé adresování, hlavní instrukce a srovnání RAM a TS; adresování a výměna registrů jsou označeny jako zvládnuté. Jde o import historického souhrnu. Původní odpovědi, jejich hodnocení s kritériem a míra nápovědy nejsou doloženy; zvládnutí označené v dokumentu je uchováno jako převzaté tvrzení. Hodnota hints_used=0 se vztahuje pouze k převzetí souhrnu.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "historicky-souhrn-bez-noveho-overeni",
+      "misconceptions": [
+        "Dle importovaného souhrnu: IC není mezipaměť;",
+        "Dle importovaného souhrnu: ALU není jeden logický gate;",
+        "Dle importovaného souhrnu: `JZERO/JGTZ` testují pracovní registr a mění IC;",
+        "Dle importovaného souhrnu: `HALT` = ukončení, ne pozastavení;",
+        "Dle importovaného souhrnu: `*i` = nepřímé adresování;",
+        "Dle importovaného souhrnu: vstupní/výstupní páska RAM nejsou program;",
+        "Dle importovaného souhrnu: random access neznamená větší výpočetní sílu než TS."
+      ],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:53"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:70"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:286"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:292"
+        }
+      ],
+      "next_step": "Krátce ověřit adresování =i / i / *i a vliv podmíněných skoků na pracovní registr a IC.",
+      "review_on": null,
+      "created_at": "2026-10-18T03:01:36.327665+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "import-2026-10-18-7tilo-5",
+      "lesson_id": "import-progress-2026-10-18",
+      "topic_id": "7tilo-5",
+      "activity_kind": "material",
+      "activity": "Převzetí historického souhrnu dosavadního studia k 18. 10. 2026: 7TILO_5 – Počáteční funkce a primitivní rekurze.",
+      "learner_answer": "",
+      "evaluation": "Souhrn uvádí probrané počáteční funkce a konstrukční schémata PRF; konstrukce plus, pred a monus jsou označeny jako zvládnuté. Jde o import historického souhrnu. Původní odpovědi, jejich hodnocení s kritériem a míra nápovědy nejsou doloženy; zvládnutí označené v dokumentu je uchováno jako převzaté tvrzení. Hodnota hints_used=0 se vztahuje pouze k převzetí souhrnu.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "historicky-souhrn-bez-noveho-overeni",
+      "misconceptions": [
+        "Dle importovaného souhrnu: primitivní rekurze je konstrukční schéma, PRF je třída/funkce z této třídy;",
+        "Dle importovaného souhrnu: u kompozice musí typově sedět vstup a výstup;",
+        "Dle importovaného souhrnu: nezaměňovat „totální“ a „konečná“;"
+      ],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:71"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:86"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:294"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:296"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:341"
+        }
+      ],
+      "next_step": "Před kapitolou 7 krátce ověřit definici PRF, totalitu a jednu konstrukci primitivní rekurzí.",
+      "review_on": null,
+      "created_at": "2026-10-18T03:01:36.376939+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "import-2026-10-18-7tilo-6",
+      "lesson_id": "import-progress-2026-10-18",
+      "topic_id": "7tilo-6",
+      "activity_kind": "material",
+      "activity": "Převzetí historického souhrnu dosavadního studia k 18. 10. 2026: 7TILO_6 – Rozsah PRF, Ackermann a μ-rekurzivní funkce.",
+      "learner_answer": "",
+      "evaluation": "Dle souhrnu byla probrána kapitola 6 včetně Ackermanna a diagonalizace f(n)=f_n(n)+1. Výrok o značení μ-rekurzivních funkcí je převzat ze souhrnu; původní skripta nebyla tímto importem dodána ani ověřena. Jde o import historického souhrnu. Původní odpovědi, jejich hodnocení s kritériem a míra nápovědy nejsou doloženy; zvládnutí označené v dokumentu je uchováno jako převzaté tvrzení. Hodnota hints_used=0 se vztahuje pouze k převzetí souhrnu.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "historicky-souhrn-bez-noveho-overeni",
+      "misconceptions": [
+        "Dle importovaného souhrnu: `f_n` v diagonalizaci je n-tá konkrétní PRF;",
+        "Dle importovaného souhrnu: přesně říkat, že `f` a `f_n` mají na stejném vstupu `n` různé výstupy;",
+        "Dle importovaného souhrnu: odlišovat μ-rekurzivní funkce od operátoru `μ`;",
+        "Dle importovaného souhrnu: ještě je vhodné zopakovat intuitivní zdůvodnění, proč Ackermannova funkce není PRF."
+      ],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:87"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:98"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:297"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:300"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:337"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:340"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:342"
+        }
+      ],
+      "next_step": "Krátce zopakovat PRF, Ackermanna a rozdíl třídy μ-rekurzivních funkcí a operátoru minimalizace μ; poté začít 7TILO_7.",
+      "review_on": null,
+      "created_at": "2026-10-18T03:01:36.427369+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "import-2026-10-18-dfa",
+      "lesson_id": "import-progress-2026-10-18",
+      "topic_id": "dfa",
+      "activity_kind": "material",
+      "activity": "Převzetí historického souhrnu dosavadního studia k 18. 10. 2026: Praktické DFA.",
+      "learner_answer": "",
+      "evaluation": "Souhrn označuje uvedené čtyři konstrukce DFA za probrané a zvládnuté; původní samostatné odpovědi neobsahuje. Jde o import historického souhrnu. Původní odpovědi, jejich hodnocení s kritériem a míra nápovědy nejsou doloženy; zvládnutí označené v dokumentu je uchováno jako převzaté tvrzení. Hodnota hints_used=0 se vztahuje pouze k převzetí souhrnu.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "historicky-souhrn-bez-noveho-overeni",
+      "misconceptions": [
+        "Dle importovaného souhrnu: u DFA nepoužívat pojmy páska/blank;",
+        "Dle importovaného souhrnu: přijímací stav DFA není automaticky zastavovací;"
+      ],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:99"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:107"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:242"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:245"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:302"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:303"
+        }
+      ],
+      "next_step": "Při praktickém opakování samostatně navrhnout přechody jednoho DFA a vysvětlit invariant stavů.",
+      "review_on": null,
+      "created_at": "2026-10-18T03:01:36.477451+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "import-2026-10-18-jednopaskove-ts",
+      "lesson_id": "import-progress-2026-10-18",
+      "topic_id": "jednopaskove-ts",
+      "activity_kind": "material",
+      "activity": "Převzetí historického souhrnu dosavadního studia k 18. 10. 2026: Praktické jednopáskové TS – základní konstrukce.",
+      "learner_answer": "",
+      "evaluation": "Souhrn uvádí algoritmické pochopení aritmetiky na pásce, 0^n1^n2^n a palindromů. U starších úloh nejsou všechny přechodové tabulky či diagramy hotové. Jde o import historického souhrnu. Původní odpovědi, jejich hodnocení s kritériem a míra nápovědy nejsou doloženy; zvládnutí označené v dokumentu je uchováno jako převzaté tvrzení. Hodnota hints_used=0 se vztahuje pouze k převzetí souhrnu.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "historicky-souhrn-bez-noveho-overeni",
+      "misconceptions": [
+        "Dle importovaného souhrnu: blank TS není „konec pásky“;",
+        "Dle importovaného souhrnu: u `0^n1^n2^n` kontrolovat i pořadí bloků;",
+        "Dle importovaného souhrnu: u palindromu hledat pravý krajní nezpracovaný symbol, ne jen mechanicky „o jedno zpět od blanku“;",
+        "Dle importovaného souhrnu: u binárního dekrementu začínat na pravém konci;",
+        "Dle importovaného souhrnu: po nalezení první `1` při dekrementu výpůjčka končí;",
+        "Dle importovaného souhrnu: před rozhodnutím, že jedna strana je větší, správně ošetřit případ, kdy se vyprázdnily oba operandy;",
+        "Dle importovaného souhrnu: při počítání kroků započítat i kontrolní průchody, ne jen přepisy bitů;",
+        "Dle importovaného souhrnu: praktické TS konstrukce jsou algoritmicky pochopené lépe než formálně dopsané – úplné přechodové tabulky/diagramy nejsou u všech starších úloh hotové.",
+        "Dle importovaného souhrnu: nezavádět zbytečně granulární stavy;",
+        "Dle importovaného souhrnu: nový stav jen tehdy, když musí uchovat novou informaci, kterou nelze zjistit z právě čtených symbolů;",
+        "Dle importovaného souhrnu: pokud více symbolů vede ke stejné logice, použít jeden stav a více přechodů."
+      ],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:108"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:121"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:202"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:206"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:304"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:315"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:336"
+        }
+      ],
+      "next_step": "Před zkouškou dopsat jeden kompletní jednopáskový TS, ošetřit krajní případy a skutečně spočítat kroky a použité buňky.",
+      "review_on": null,
+      "created_at": "2026-10-18T03:01:36.528669+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "import-2026-10-18-binarni-porovnani-ts",
+      "lesson_id": "import-progress-2026-10-18",
+      "topic_id": "binarni-porovnani-ts",
+      "activity_kind": "material",
+      "activity": "Převzetí historického souhrnu dosavadního studia k 18. 10. 2026: Jednopáskový TS pro porovnání binárních čísel.",
+      "learner_answer": "",
+      "evaluation": "Dle souhrnu byly projity algoritmus, hlavní stavové části a běh pro 100>10. Úplná přechodová tabulka nebyla dokončena; skutečný ruční dopočet složitosti není zaznamenán. Jde o import historického souhrnu. Původní odpovědi, jejich hodnocení s kritériem a míra nápovědy nejsou doloženy; zvládnutí označené v dokumentu je uchováno jako převzaté tvrzení. Hodnota hints_used=0 se vztahuje pouze k převzetí souhrnu.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "historicky-souhrn-bez-noveho-overeni",
+      "misconceptions": [
+        "Dle importovaného souhrnu: u binárního dekrementu začínat na pravém konci;",
+        "Dle importovaného souhrnu: po nalezení první `1` při dekrementu výpůjčka končí;",
+        "Dle importovaného souhrnu: před rozhodnutím, že jedna strana je větší, správně ošetřit případ, kdy se vyprázdnily oba operandy;",
+        "Dle importovaného souhrnu: při počítání kroků započítat i kontrolní průchody, ne jen přepisy bitů;",
+        "Dle souhrnu: úplný seznam přechodů nebyl dopsán.",
+        "Dle souhrnu: čas a prostor byly pouze považovány za ručně dopočítané; konkrétní výpočet není doložen."
+      ],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:122"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:140"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:142"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:143"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:307"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:310"
+        }
+      ],
+      "next_step": "Doplnit přechody pro x>y, x=y a x<y, ověřit úplný úklid pásky a zaznamenat konkrétní počty kroků a buněk.",
+      "review_on": null,
+      "created_at": "2026-10-18T03:01:36.577958+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "import-2026-10-18-simulatory-ts",
+      "lesson_id": "import-progress-2026-10-18",
+      "topic_id": "simulatory-ts",
+      "activity_kind": "material",
+      "activity": "Převzetí historického souhrnu dosavadního studia k 18. 10. 2026: Zadání obecného jednopáskového a k-páskového simulátoru.",
+      "learner_answer": "",
+      "evaluation": "Připravena zadání pro jednopáskový simulátor (Tape, Transition, State, Machine, řídká páska, step/run, limity a statistiky) a jeho rozšíření na k pásek. Požadavky na implementaci jsou převzatou informací o zadání, nikoli pokynem nyní programovat. Jde o import historického souhrnu. Původní odpovědi, jejich hodnocení s kritériem a míra nápovědy nejsou doloženy; zvládnutí označené v dokumentu je uchováno jako převzaté tvrzení. Hodnota hints_used=0 se vztahuje pouze k převzetí souhrnu.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "historicky-souhrn-bez-noveho-overeni",
+      "misconceptions": [
+        "Dle souhrnu: připravena programovací zadání; dokončená implementace a výsledky testů nejsou doloženy."
+      ],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:8"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:144"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:156"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:195"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:201"
+        }
+      ],
+      "next_step": "Při návratu k programovací části vyhledat skutečná zadání a případnou implementaci a ověřit jejich aktuální stav.",
+      "review_on": null,
+      "created_at": "2026-10-18T03:01:36.626772+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "import-2026-10-18-kpaskovy-ts",
+      "lesson_id": "import-progress-2026-10-18",
+      "topic_id": "kpaskovy-ts",
+      "activity_kind": "material",
+      "activity": "Převzetí historického souhrnu dosavadního studia k 18. 10. 2026: Dvou- a k-páskové TS – filtrování, třídění a délka.",
+      "learner_answer": "",
+      "evaluation": "Poslední historicky popsanou aktivitou je algoritmický návrh Úkolu 1 pro k=2: pět průchodů T1, filtrované/setříděné slovo na T2, binární čítač na T1 a přesun výsledku. Souhrn uvádí výsledek aaaabbbccccdddeeeee#10011 a délku 19; původní vstup a konkrétní samostatná odpověď chybějí. Výpočty časové a prostorové složitosti byly jen považovány za dokončené. Jde o import historického souhrnu. Původní odpovědi, jejich hodnocení s kritériem a míra nápovědy nejsou doloženy; zvládnutí označené v dokumentu je uchováno jako převzaté tvrzení. Hodnota hints_used=0 se vztahuje pouze k převzetí souhrnu.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "historicky-souhrn-bez-noveho-overeni",
+      "misconceptions": [
+        "Dle importovaného souhrnu: pro `a/e` na sudých pozicích je správné je do výsledku nekopírovat;",
+        "Dle importovaného souhrnu: při počítání délky počítat již filtrované/setříděné slovo na T2, ne původní vstup;",
+        "Dle importovaného souhrnu: před vymazáním T1 je nutné zachovat binární délku přenesením na T2;",
+        "Dle importovaného souhrnu: při finalizaci rozlišit oddělovací `#` uvnitř výsledku od skutečného konce výsledku pomocí stavu.",
+        "Dle souhrnu: ruční dopočet kroků a buněk byl pouze považován za dokončený; konkrétní hodnoty a výpočet nejsou doloženy."
+      ],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:157"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:168"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:194"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:317"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:320"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:323"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:330"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:331"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:334"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:336"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:337"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:340"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:347"
+        }
+      ],
+      "next_step": "Navázání dle souhrnu: teorie 7TILO_1–6 byla probrána; nejprve krátce zopakovat PRF, totalitu, Ackermanna a význam μ a poté začít 7TILO_7 (minimalizace, parciálně rekurzivní funkce a vztah k TS). Při opakování hlídat přijímač/rozhodovač, směry redukcí, účel stavů, binární inkrement/dekrement a společný krok více pásek. Prakticky lze pokračovat dalším cvičením; před zkouškou dopsat jeden úplný jedno- a jeden vícepáskový TS včetně skutečné složitosti. Simulátory jsou doloženy pouze jako připravená zadání. Termín opakování v souhrnu určen není.",
+      "review_on": null,
+      "created_at": "2026-10-18T03:01:36.678698+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "opakovani-2026-10-18-prf-totalita-01",
+      "lesson_id": "lekce-2026-10-18-prf-a-minimalizace",
+      "topic_id": "7tilo-5",
+      "activity_kind": "diagnostic",
+      "activity": "Proč je každá primitivně rekurzivní funkce totální? Zkus vlastními slovy vysvětlit, co v její konstrukci zaručuje výsledek pro každý vstup.",
+      "learner_answer": "protože pro každý vstup existuje výstup",
+      "evaluation": "Odpověď správně vystihuje význam totální funkce. Kritériem této otázky je však zdůvodnění totality PRF pomocí totality počátečních funkcí a jejího zachování kombinací, kompozicí a konečnou primitivní rekurzí. Odpověď tento konstrukční důvod zatím neuvádí; jde o částečnou odpověď vyžadující doplnění. Před pokusem nebyla poskytnuta metodická nápověda.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-pojmove-zduvodneni",
+      "misconceptions": [
+        "Zatím je uvedena definice totálnosti místo zdůvodnění, proč ji konstrukce PRF zaručují."
+      ],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:79"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:80"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:81"
+        }
+      ],
+      "next_step": "Zobrazena navazující otázka: Primitivní rekurze počítá od f(x,0)=g(x) postupně k f(x,y+1)=h(x,y,f(x,y)). Může pro pevné přirozené y vyžadovat nekonečně mnoho těchto kroků? Vysvětli proč. Připomenutí schématu a zaměření na počet kroků je první metodická nápověda pro navazující pokus; jeho odpověď zatím nebyla přijata ani hodnocena. Po doplnění ověřit i totalitu počátečních funkcí a kompozice.",
+      "review_on": null,
+      "created_at": "2026-10-18T03:04:41.936294+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "opakovani-2026-10-18-prf-konecnost-02",
+      "lesson_id": "lekce-2026-10-18-prf-a-minimalizace",
+      "topic_id": "7tilo-5",
+      "activity_kind": "diagnostic",
+      "activity": "Primitivní rekurze počítá od f(x,0)=g(x) postupně k f(x,y+1)=h(x,y,f(x,y)). Může pro pevné přirozené y vyžadovat nekonečně mnoho těchto kroků? Vysvětli proč.",
+      "learner_answer": "Ne, primitivní rekurze má vždy konečný počet kroků.",
+      "evaluation": "Odpověď správně rozpoznává konečnost počtu rekurzivních kroků pro pevné přirozené y. Úzkým kritériem úspěchu je rozlišení konečného rozvíjení primitivní rekurze od potenciálně neomezeného výpočtu; tento dílčí cíl byl splněn s jednou metodickou nápovědou (připomenuté schéma a zaměření na postup od 0 k y). Přesné zdůvodnění počtem y kroků a totalitou g/h doplnil učitel až ve zpětné vazbě. Samostatný důkaz totality celé třídy PRF ani všeobecné zvládnutí kapitoly tím ověřeny nejsou. Ve zpětné vazbě bylo také vysvětleno zachování totality kombinací a kompozicí.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-dilci-pojem-s-napovedou",
+      "misconceptions": [
+        "Samostatné zdůvodnění totality celé třídy PRF pomocí počátečních funkcí a zachování totality konstrukcemi zůstává k ověření; úplný argument nyní doplnil učitel."
+      ],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:79"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:80"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:81"
+        }
+      ],
+      "next_step": "Před uložením zobrazena otázka: Platí i obráceně, že každá totální vyčíslitelná funkce je primitivně rekurzivní? Svou odpověď zdůvodni konkrétním příkladem. Očekává se samostatné vybavení protipříkladu z kapitoly 6; název Ackermannovy funkce ani její vlastnosti nebyly v této otázce napovězeny (hints_used pro nový pokus začíná na 0). Odpověď zatím není přijata ani hodnocena. Při dalším opakování se vrátit k samostatnému zdůvodnění totality PRF.",
+      "review_on": "2026-10-19",
+      "created_at": "2026-10-18T03:07:28.206111+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "opakovani-2026-10-18-kapitoly-uvod-01",
+      "lesson_id": "lekce-2026-10-18-souhrnne-opakovani",
+      "topic_id": "7tilo-1",
+      "activity_kind": "supplement",
+      "activity": "Na výslovnou žádost uživatele zahájeno souhrnné opakování všech dosud probraných kapitol 7TILO_1–6 a následně praktických DFA a TS. Obecné připomenutí: funkce přiřazuje jednomu vstupu nejvýše jeden výstup; různé vstupy mohou mít shodný výstup, jejich odlišnost výstupů pro různé vstupy požaduje až injektivita.",
+      "learner_answer": "",
+      "evaluation": "Proběhl pouze úvodní výklad a zobrazení první úlohy. Konkrétní odpověď na tuto úlohu zatím není přijata ani hodnocena. Výklad definice je obecné doplnění k osnově dodaného souhrnu, nikoli citace nedodaných skript. Uživatel uvedl subjektivní pocit, že mnoho zapomněl; tento pocit sám neprokazuje chyby a nemění dříve uložené výsledky. Nezodpovězená otázka o opačné implikaci totalita → PRF se odkládá do kapitoly 6 bez hodnocení.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-vyklad-a-bezprostredni-aplikace",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:5"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:12"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:13"
+        }
+      ],
+      "next_step": "Čeká se na první odpověď: Máme A={1,2,3}, B={a,b} a přiřazení 1→a, 2→a, 3→b. Je toto přiřazení funkce z A do B? Krátce vysvětli proč. Poté navazovat vždy jednou otázkou a krátkým vysvětlením podle potřeby. Rozsah opakování: 1 základy funkcí/jazyků, rozhodnutelnost a model TS; 2 kódování, univerzální TS, nedeterminismus, HP/UHP a redukce; 3 složitost, asymptotika, P/NP a NP-úplnost; 4 RAM a adresování; 5 počáteční funkce, kompozice a PRF; 6 rozsah PRF, Ackermann a význam μ. Následně praktické DFA, jednopáskové a k-páskové TS a stav připravených zadání simulátorů. Slabší pojmy opakovat s odstupem. Kapitola 7 je nová látka a přijde až po tomto opakování. Při odpovědi hodnotit pouze úzký cíl konkrétní úlohy; první otázka je aplikací ihned po vysvětlení, nikoli samostatným vybavením po odstupu.",
+      "review_on": null,
+      "created_at": "2026-10-18T03:12:02.035666+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "opakovani-2026-10-18-funkce-jednoznacnost-01",
+      "lesson_id": "lekce-2026-10-18-souhrnne-opakovani",
+      "topic_id": "7tilo-1",
+      "activity_kind": "diagnostic",
+      "activity": "Máme A={1,2,3}, B={a,b} a přiřazení 1→a, 2→a, 3→b. Je toto přiřazení funkce z A do B? Krátce vysvětli proč.",
+      "learner_answer": "není, funkce je speciální druh zobrazení, kdy každý výstup má práve jeden vstup",
+      "evaluation": "Přiřazení je totální funkce A→B, protože každý ze tří vstupů má právě jeden obraz. Kritériem bylo určit, že shodný výstup dvou různých vstupů je přípustný, a zdůvodnit to jednoznačností výstupu pro každý vstup. Odpověď chybně odmítá funkci a obrací směr požadavku jednoznačnosti. U funkce by požadavek každého prvku cílové množiny B mít právě jeden vzor znamenal bijektivitu; samotná definice funkce to nevyžaduje. Funkce a zobrazení jsou v tomto kontextu synonyma. Před otázkou byl poskytnut jeden obecný výklad pravidla včetně výslovného povolení sdíleného výstupu; zaznamenán jako jedna podstatná pomoc. Po odpovědi byl správný směr pravidla znovu vysvětlen a ukázán na původním příkladu.",
+      "result": "needs-practice",
+      "hints_used": 1,
+      "difficulty": "zakladni-aplikace-definice-po-vykladu",
+      "misconceptions": [
+        "Jednoznačnost funkce je obrácena: uživatel požaduje právě jeden vstup pro každý výstup místo právě jednoho výstupu pro každý vstup u totální funkce A→B.",
+        "Funkce je chybně odlišována jako speciální druh zobrazení; v používaném kontextu jde o synonyma."
+      ],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:13"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:267"
+        }
+      ],
+      "next_step": "Před zápisem zobrazena opravná otázka: Teď máme A={1,2}, B={a,b} a přiřazení 1→a, 1→b, 2→a. Je toto přiřazení funkcí z A do B? Vysvětli proč. Odpověď zatím není přijata ani hodnocena. Jde o bezprostřední procvičení po cílené opravě směru jednoznačnosti; u navazujícího pokusu zohlednit tuto jednu metodickou pomoc. Po správném rozlišení ověřit i příklad, kde některý prvek B nemá žádný vzor, a poté injekci/surjekci/bijekci. Pokračovat souhrnným opakováním kapitol 1–6 a praktických DFA/TS po jedné otázce; kapitolu 7 zatím odložit.",
+      "review_on": "2026-10-19",
+      "created_at": "2026-10-18T03:13:36.507272+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "opakovani-2026-10-18-funkce-jednoznacnost-02",
+      "lesson_id": "lekce-2026-10-18-souhrnne-opakovani",
+      "topic_id": "7tilo-1",
+      "activity_kind": "diagnostic",
+      "activity": "Teď máme A={1,2}, B={a,b} a přiřazení 1→a, 1→b, 2→a. Je toto přiřazení funkcí z A do B? Vysvětli proč.",
+      "learner_answer": "není, jednomu vstupu funkce může přiřadit nanejvýš jeden výstup, pro 1 jsou dva výstupy",
+      "evaluation": "Správná odpověď i zdůvodnění: vstup 1 má dvě různé přiřazené hodnoty a a b, takže přiřazení není funkce. Kritériem bylo rozpoznat porušení jednoznačnosti výstupu pro daný vstup a ukázat konkrétní vstup, u něhož nastává; obě části jsou splněny. Výsledek je bezprostředním procvičením po jedné cílené opravě předchozí záměny směru jednoznačnosti. Dokládá tento konkrétní dílčí cíl s podporou, nikoli samostatné zvládnutí celé kapitoly. Přípustnost nevyužitého prvku cílové množiny se teprve bude ověřovat.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-aplikace-po-cilene-oprave",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:13"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:267"
+        }
+      ],
+      "next_step": "Před zápisem zobrazena další otázka: Máme A={1,2}, B={a,b,c} a přiřazení 1→a, 2→b. Je to funkce z A do B, přestože k prvku c nic nevede? Vysvětli proč. Odpověď zatím není přijata ani hodnocena; konkrétní závěr ani metodická nápověda k nevyužitému prvku B zatím nebyly sděleny. Poté odlišit injekci, surjekci a bijekci a s odstupem znovu ověřit jednoznačnost funkce. Pokračovat souhrnným opakováním kapitol 1–6 a praktických DFA/TS po jedné otázce; kapitolu 7 zatím odložit.",
+      "review_on": "2026-10-19",
+      "created_at": "2026-10-18T03:16:00.924611+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "opakovani-2026-10-18-funkce-cilova-mnozina-03",
+      "lesson_id": "lekce-2026-10-18-souhrnne-opakovani",
+      "topic_id": "7tilo-1",
+      "activity_kind": "diagnostic",
+      "activity": "Máme A={1,2}, B={a,b,c} a přiřazení 1→a, 2→b. Je to funkce z A do B, přestože k prvku c nic nevede? Vysvětli proč.",
+      "learner_answer": "ano",
+      "evaluation": "Určení, že jde o funkci, je správné. Zadání požadovalo také zdůvodnění, které v odpovědi zatím chybí. Kritériem úplného úspěchu je vysvětlit, že každý prvek A má právě jeden obraz v B a že definice funkce nevyžaduje využití všech prvků B. Z pouhého ano nelze toto zdůvodnění ani záměnu s požadavkem na surjektivitu posoudit. Záznam needs-practice označuje nedoplněnou část kritéria; správné určení se zachovává a nepřisuzuje se nová chybná představa. Před otázkou nebyla poskytnuta metodická nápověda k nevyužitému prvku B.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-rozliseni-cilove-mnoziny-a-obrazu",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:13"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:268"
+        }
+      ],
+      "next_step": "Po potvrzení správného určení a před zápisem zobrazena doplňující otázka: Proč nevadí, že v přiřazení 1→a, 2→b z A={1,2} do B={a,b,c} k prvku c nic nevede? Stačí jedna věta. Jde o vyžádání chybějícího zdůvodnění, nikoli o metodickou nápovědu; navazující pokus má zatím hints_used=0. Odpověď zatím není přijata ani hodnocena. Po doplnění odlišit funkci, injekci, surjekci a bijekci. Pokračovat souhrnným opakováním kapitol 1–6 a praktických DFA/TS po jedné otázce; kapitolu 7 zatím odložit.",
+      "review_on": "2026-10-19",
+      "created_at": "2026-10-18T03:18:00.060482+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "opakovani-2026-10-18-funkce-cilova-mnozina-04",
+      "lesson_id": "lekce-2026-10-18-souhrnne-opakovani",
+      "topic_id": "7tilo-1",
+      "activity_kind": "diagnostic",
+      "activity": "Proč nevadí, že v přiřazení 1→a, 2→b z A={1,2} do B={a,b,c} k prvku c nic nevede? Stačí jedna věta.",
+      "learner_answer": "podmínky funkce josu zaměřené na vstup, vstup může mít nanejvýš jeden výstup a vstupy můžou mít stejné výstupy",
+      "evaluation": "Odpověď správně vysvětluje, že definice funkce kontroluje přiřazení výstupů vstupům a nepředepisuje využití každého prvku cílové množiny B. Úzké kritérium zdůvodnění přípustnosti nepoužitého c je splněno bez konkrétní metodické nápovědy k této otázce. Uživatel také správně uvádí přípustnost sdíleného výstupu různými vstupy. Formulace nejvýše jeden výstup postačuje pro jednoznačnost, ale pro totální f:A→B je třeba právě jeden obraz každého prvku A; tento dovětek doplnil učitel ve zpětné vazbě. Úspěch dokládá pouze konkrétní rozlišení na tomto základním příkladu a neprokazuje zvládnutí celé kapitoly, totality/parciality ani injektivity.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-zduvodneni-bez-dalsi-napovedy",
+      "misconceptions": [
+        "Rozdíl nejvýše jednoho a právě jednoho výstupu v definici parciální versus totální funkce zbývá samostatně ověřit; zpřesnění totality doplnil učitel."
+      ],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:13"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:14"
+        },
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:268"
+        }
+      ],
+      "next_step": "Ve zpětné vazbě byla obecně připomenuta definice injekce: různé vstupy musí mít různé výstupy. Před zápisem zobrazena otázka: Máme funkci f:{1,2,3}→{a,b,c} danou předpisem 1→a, 2→a, 3→b. Je tato funkce injektivní? Vysvětli proč. Odpověď zatím není přijata ani hodnocena. Jde o bezprostřední aplikaci po vysvětlení definice; toto vysvětlení zohlednit jako jednu podstatnou pomoc, samostatné vybavení bez odstupu tím nebude ověřeno. Poté procvičit surjekci, bijekci a totalitu/parcialitu. Pokračovat souhrnným opakováním kapitol 1–6 a praktických DFA/TS po jedné otázce; kapitolu 7 zatím odložit.",
+      "review_on": "2026-10-19",
+      "created_at": "2026-10-18T03:20:05.022746+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "opakovani-2026-10-18-uzavreni-01",
+      "lesson_id": "lekce-2026-10-18-souhrnne-opakovani",
+      "topic_id": "7tilo-1",
+      "activity_kind": "supplement",
+      "activity": "Dokončen krátký výklad injektivity: různé vstupy musí mít různé výstupy. Uživatel poté požádal o uložení postupu a pokračování v opakování příště; sezení se nyní ukončuje.",
+      "learner_answer": "",
+      "evaluation": "Zaznamenán pouze již zobrazený výklad injektivity a místo pro příští navázání. Zpráva „zaznamenej si progress a příště budeme pokračovat v opakování“ je organizační požadavek, nikoli odpověď na úlohu. Injektivita proto zůstává bez hodnocení. Dosavadní doložený pokrok: uživatel po cílené opravě správně odmítl přiřazení se dvěma výstupy u vstupu 1 a následně samostatně zdůvodnil, proč nemusí být využitý každý prvek cílové množiny. U totální funkce učitel doplnil požadavek právě jednoho výstupu pro každý vstup; rozdíl oproti parciální funkci zbývá ověřit. Dosavadní úspěchy se vztahují jen k těmto dílčím úlohám a nikoli k celé kapitole 1.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "uvodni-vyklad-injektivity-bez-overeni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "progress-2026-10-18",
+          "locator": "line:13"
+        }
+      ],
+      "next_step": "Příště navázat v opakování kapitoly 1 nezodpovězenou otázkou: Máme funkci f:{1,2,3}→{a,b,c} danou předpisem 1→a, 2→a, 3→b. Je tato funkce injektivní? Vysvětli proč. Žádná odpověď k této úloze není uložena; nic nesčítat jako úspěch či neúspěch. Definice injekce byla před otázkou vysvětlena jako jedna podstatná pomoc pro bezprostřední aplikaci; při opakování nejprve podle odstupu zvolit vybavení z paměti. Poté procvičit surjekci, bijekci, rozdíl totální/parciální funkce a znovu s odstupem definici funkce. Pokračovat po jedné otázce souhrnným opakováním všech probraných kapitol 1–6 a praktických DFA/TS. Kapitola 7 zůstává odložena. Dřívější otázka na obrácení tvrzení o totalitě PRF rovněž zůstala bez odpovědi a bude zařazena při kapitole 6.",
+      "review_on": "2026-10-19",
+      "created_at": "2026-10-18T03:35:10.986309+00:00"
+    }
+  ]
+}

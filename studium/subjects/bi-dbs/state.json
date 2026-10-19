@@ -1,0 +1,3762 @@
+{
+  "schema_version": 1,
+  "subject_id": "bi-dbs",
+  "name": "BI-DBS",
+  "goals": [
+    "Porozumět obsahu balíčku BI-DBS, vysvětlovat odpovědi a samostatně řešit jeho otázky a úlohy."
+  ],
+  "created_at": "2026-10-17T14:26:40.524662+00:00",
+  "topics": {
+    "prednaska-01": {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-01",
+      "title": "Přednáška 01",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 01“ předmětu BI-DBS."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-02": {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-02",
+      "title": "Přednáška 02",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 02“ předmětu BI-DBS."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-03": {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-03",
+      "title": "Přednáška 03",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 03“ předmětu BI-DBS."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-05": {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-05",
+      "title": "Přednáška 05",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 05“ předmětu BI-DBS."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-06": {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-06",
+      "title": "Přednáška 06",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 06“ předmětu BI-DBS."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-07": {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-07",
+      "title": "Přednáška 07",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 07“ předmětu BI-DBS."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-08": {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-08",
+      "title": "Přednáška 08",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 08“ předmětu BI-DBS."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-09": {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-09",
+      "title": "Přednáška 09",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 09“ předmětu BI-DBS."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-10": {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-10",
+      "title": "Přednáška 10",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 10“ předmětu BI-DBS."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-11": {
+      "subject_id": "bi-dbs",
+      "topic_id": "prednaska-11",
+      "title": "Přednáška 11",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 11“ předmětu BI-DBS."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    }
+  },
+  "sources": {
+    "anki-prednaska-01-v1": {
+      "subject_id": "bi-dbs",
+      "source_id": "anki-prednaska-01-v1",
+      "title": "FIT ČVUT Anki – BI-DBS – Přednáška 01",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-dbs/anki-prednaska-01-v1/anki-prednaska-01-v1.zip",
+      "file": "sources/anki-prednaska-01-v1/anki-prednaska-01-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "001ae23a9ca85d7178a725bbd9bad80e2b145cfb308520a11b62b06efcf22d9c",
+      "topic_ids": [
+        "prednaska-01"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg, SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-DBS – Přednáška 01"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg; APKG SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 7f054157e2673745662b1c45d22f99de1a01232f0420fd85b7b7f7c2b095d969."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-DBS"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 10 poznámek, 10 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1644910440738"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1644910440739"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: qOmFvx%eeH; štítky: bi-dbs::p01 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Popište databázi."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Databáze je soubor záznamů (zpráv), jako jsou znaky, čísla, diagramy, jejichž systematická struktura umožňuje, aby tyto zprávy mohly být vyhledávány pomocí počítače."
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "## Poznámka Anki 1644910503179"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Karty Anki: 1644910503179"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "GUID: oW3T)m#cy$; štítky: bi-dbs::p01 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Popište databázový systém (DBS)."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Databázový systém (DBS) se skládá z:"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "- databáze (DB),"
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "- database management system (DBMS)."
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "## Poznámka Anki 1644910724329"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "Karty Anki: 1644910724330"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "GUID: s7%q[HW^8h; štítky: bi-dbs::p01 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "Popište vlastnosti databázové technologie."
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "Databázová technologie se zabývá řízením **velkého množství**, **perzistentních**, **spolehlivých** a **sdílených **dat. Přičemž jednotlivá slovní spojení znamenají:"
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "- „**velkého množství**“ - pro data nestačí operační paměť;"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "- „**perzistentních**“ - data přetrvávají od zpracování ke zpracování;"
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "- „**spolehlivých**“ - data lze rekonstruovat po chybě;"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "- „**sdílených**“ - data jsou přístupná více uživatelům."
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "## Poznámka Anki 1644911076957"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "Karty Anki: 1644911076957"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "GUID: Qe%R&V=Q9B; štítky: bi-dbs::p01 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "Popište Structured Query Language (SQL) a rozdělení jeho příkazů."
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "Structured Query Language (SQL) je jazyk vyšší úrovně používaný pro dotazování databází. Na místo způsobu provedení dotazu specifikuje pouze požadované výsledky. Některé jeho části byly inspirovány relační algebrou a na rozdíl od ní je standardizován. Jeho příkazy se dělí do následujících skupin:"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "- Data Definition Language (DDL),"
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "- Data Manipulation Language (DML),"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "- Transaction Control Language (TCL),"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "- Data Control Language (DCL)."
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "## Poznámka Anki 1716470848732"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "Karty Anki: 1716470848732"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "GUID: hbqct|R~8G; štítky: bi-dbs::p01 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "Popište Data Definition Language (DDL)."
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "Data Definition Language (DDL) je skupina příkazů Structured Query Language (SQL), která slouží pro vytváření a úpravu databázových objektů, jako jsou tabulky, pohledy a integritní omezení. Typickými příkazy DDL jsou \\(\\texttt{CREATE}\\), \\(\\texttt{ALTER}\\) nebo \\(\\texttt{DROP}\\), např."
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "\\[\\texttt{CREATE TABLE teachers (id int, name varchar(255));}.\\]"
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "## Poznámka Anki 1716471044171"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "Karty Anki: 1716471044171"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "GUID: O*57:=a:K&; štítky: bi-dbs::p01 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "Popište Data Manipulation Language (DML)."
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "Data Manipulation Language (DML) je skupina příkazů Structured Query Language (SQL), která slouží pro dotazování a úpravu dat. Typickými příkazy DML jsou \\(\\mathtt{SELECT}\\), \\(\\mathtt{INSERT}\\) nebo \\(\\mathtt{UPDATE}\\) např."
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "\\[\\texttt{SELECT name FROM teachers WHERE id = 1;}.\\]"
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "## Poznámka Anki 1716471272885"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "Karty Anki: 1716471272885"
+        },
+        {
+          "locator": "transcript-line:109",
+          "text": "GUID: GP(z6YJHGQ; štítky: bi-dbs::p01 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "Popište Transaction Control Language (TCL)."
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "Transaction Control Language (TCL) je skupina příkazů Structured Query Language (SQL), která slouží pro řízení transakcí. Typickými příkazy TCL jsou \\(\\texttt{COMMIT}\\), \\(\\mathtt{ROLLBACK}\\) a \\(\\mathtt{SAVEPOINT}\\)."
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "## Poznámka Anki 1716471550215"
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "Karty Anki: 1716471550215"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "GUID: ns/f(^s[HN; štítky: bi-dbs::p01 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "Popište Data Control Language (DCL)."
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:130",
+          "text": "Data Control Language (DCL) je skupina příkazů Structured Query Language (SQL), která slouží pro řízení přístupových práv. Typickými příkazy DCL jsou \\(\\mathtt{GRANT}\\), \\(\\texttt{REVOKE}\\) a \\(\\mathtt{ROLE}\\) např."
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "\\[\\texttt{GRANT INSERT,UPDATE ON teachers TO 'user';}.\\]"
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "## Poznámka Anki 1716472883485"
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "Karty Anki: 1716472883485"
+        },
+        {
+          "locator": "transcript-line:136",
+          "text": "GUID: J(;7r[dv61; štítky: bi-dbs::p01 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:138",
+          "text": "Metadata původního zdroje pro kartu 1716472883485: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:140",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:142",
+          "text": "Definujte relaci a schéma relace."
+        },
+        {
+          "locator": "transcript-line:144",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:146",
+          "text": "Mějme \\(n \\in \\mathbb N\\) a \\(i \\in \\hat n\\). Relace \\(R\\) je množina \\(n\\)-tic tvaru \\[(a_1, a_2, \\dots, a_n) \\in D_1 \\times D_2 \\times \\dots \\times D_n,\\]kde \\(a_i\\) nazýváme hodnotami atributu a \\(D_i\\) doménami atributu. Schéma relace zapisujeme"
+        },
+        {
+          "locator": "transcript-line:147",
+          "text": "\\[R(A_1 : D_1, A_2 : D_2, \\dots, A_n : D_n),\\]kde \\(R\\) je jméno relace a \\(A_i\\) jsou jména atributů. Zápis schématu relace můžeme zkrátit na \\(R(A)\\)."
+        },
+        {
+          "locator": "transcript-line:149",
+          "text": "## Poznámka Anki 1716472993613"
+        },
+        {
+          "locator": "transcript-line:151",
+          "text": "Karty Anki: 1716472993613"
+        },
+        {
+          "locator": "transcript-line:152",
+          "text": "GUID: Dv|L(Xk!H#; štítky: bi-dbs::p01 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:154",
+          "text": "Metadata původního zdroje pro kartu 1716472993613: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:156",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:158",
+          "text": "Popište základní paradigma databázových systémů (DBS)."
+        },
+        {
+          "locator": "transcript-line:160",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:162",
+          "text": "Základním paradigmatem databázových systémů (DBS) je, že existence dat v databázi je nezávislá na aplikačních programech."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.397359+00:00",
+      "transcript_file": "sources/anki-prednaska-01-v1/transcript/anki-prednaska-01-v1.md",
+      "transcript_sha256": "31da0844bb7c2b75d7bc2e9fcc9d091507eb0d5a8e2d971c23c50e1e83ee1177"
+    },
+    "anki-prednaska-02-v1": {
+      "subject_id": "bi-dbs",
+      "source_id": "anki-prednaska-02-v1",
+      "title": "FIT ČVUT Anki – BI-DBS – Přednáška 02",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-dbs/anki-prednaska-02-v1/anki-prednaska-02-v1.zip",
+      "file": "sources/anki-prednaska-02-v1/anki-prednaska-02-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "e48e99fd022107f4a5654cdee91845f51c1bcc5a2f454fe3ef64a03b3223660a",
+      "topic_ids": [
+        "prednaska-02"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg, SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-DBS – Přednáška 02"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg; APKG SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 7f054157e2673745662b1c45d22f99de1a01232f0420fd85b7b7f7c2b095d969."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-DBS"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 4 poznámek, 4 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1645516867011"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1645516867012"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: b_F(c1gg|o; štítky: bi-dbs::p02."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Definujte kardinalitu."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Kardinalita vztahu je jeho násobnost. Udává maximální počet instancí jedné enitity, která se může účastnit vztahu s druhou entitou."
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "## Poznámka Anki 1645516967559"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Karty Anki: 1645516967559"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "GUID: P^)(!(r?V4; štítky: bi-dbs::p02."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Definujte parcialitu."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Parcialita označuje povinnost entity účastnit se ve vztahu. "
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "- povinná (plná čára)"
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "- nepovinná (přerušovaná čára)"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "## Poznámka Anki 1645517360617"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "Karty Anki: 1645517360618"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "GUID: IF3;AajO2/; štítky: bi-dbs::p02."
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "Definujte identifikační závislost a slabou entitu. Jaké mohou nastat situace?"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "Slabá entita je identifikována (částečně nebo plně) vztahem k jiné entitě."
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "- slabá entita má vlastní atribut podílející se na identifikaci (možná kardinalita 1:N)"
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": " [Obrázek: paste-91da3ba616489fa9b16c10fd7341ddf352a5e83d.jpg; soubor je v media/ v doprovodném ZIP] "
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "- slabá entita má nemá vlastní atribut podílející se na identifikaci (možná kardinalita 1:1)"
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": " [Obrázek: paste-492fc8ae76ed24c7b4fa1a4825025a92f183f4c4.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "## Poznámka Anki 1645517451326"
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "Karty Anki: 1645517451326"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "GUID: fQ9P]psBdb; štítky: bi-dbs::p02 bi-dbs::transformace."
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "Metadata původního zdroje pro kartu 1645517451326: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "K čemu se využívá rekurzivní vztah?"
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "Používá se k vyjádření vztahu mezi instancemi stejné entity."
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": " [Obrázek: paste-141b1965fc11202434250905618b9ab7a51b65c8.jpg; soubor je v media/ v doprovodném ZIP]"
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.416454+00:00",
+      "transcript_file": "sources/anki-prednaska-02-v1/transcript/anki-prednaska-02-v1.md",
+      "transcript_sha256": "e81dbd775e2322e3a7e19e5e2f3d091a229e58b0ad14a2822934fc51ea30105f"
+    },
+    "anki-prednaska-03-v1": {
+      "subject_id": "bi-dbs",
+      "source_id": "anki-prednaska-03-v1",
+      "title": "FIT ČVUT Anki – BI-DBS – Přednáška 03",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-dbs/anki-prednaska-03-v1/anki-prednaska-03-v1.zip",
+      "file": "sources/anki-prednaska-03-v1/anki-prednaska-03-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "f6c6a94a77e8a391e2e41209a50a14769f8d7c123d25f9778d1268736ed499c6",
+      "topic_ids": [
+        "prednaska-03"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg, SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-DBS – Přednáška 03"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg; APKG SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 7f054157e2673745662b1c45d22f99de1a01232f0420fd85b7b7f7c2b095d969."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-DBS"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 14 poznámek, 14 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1646073860619"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1646073860619"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: c-eW6G1nku; štítky: bi-dbs::p03 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Metadata původního zdroje pro kartu 1646073860619: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Popište podobnosti a odlišnosti tabulek a relací."
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "Tabulky a relace si jsou podobné 1:1 v následujích aspektech:"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "      **tabulky** | "
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "      **relace** | "
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "      schéma | "
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "      záhlaví | "
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "      atribut | sloupec | "
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "      jméno atributu | "
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "      jméno sloupce | "
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "      \\(n\\)-tice"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": " | "
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "      řádek | "
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "Liší se však v následujících bodech:"
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "- v relacích nezáleží na pořadí \\(n\\)-tic,"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "- relace neobsahují duplicitní \\(n\\)-tice."
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "## Poznámka Anki 1646073946842"
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "Karty Anki: 1646073946842"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "GUID: f5ELC+7QEx; štítky: bi-dbs::p03 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "Definujte schéma relační databáze."
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "Schéma relační databáze je dvojice \\((R, I)\\), kde"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "- \\(R = \\{R_1, R_2, \\dots, R_n\\}\\) je množina relací,"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "- \\(I\\) je množina integritních omezení."
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "## Poznámka Anki 1646074049858"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "Karty Anki: 1646074049858"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "GUID: yunqQBt,oT; štítky: bi-dbs::p03 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "Metadata původního zdroje pro kartu 1646074049858: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "Definujte přípustnou relační databázi."
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "Relační databázi se schématem \\((R, I)\\) nazveme přípustnou, právě když \\(n\\)-tice jejích relací \\(\\{ R_1, R_2, \\dots, R_n \\}\\) vyhovují integritním omezením z \\(I\\)."
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "## Poznámka Anki 1646074160584"
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "Karty Anki: 1646074160584"
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "GUID: IEdYF*Z9qh; štítky: bi-dbs::p03 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "Definujte klíč schématu."
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "Klíč \\(K\\) schématu \\(R(A)\\) je taková minimální podmnožina atributů z \\(A\\), která jednoznačně určí každou \\(n\\)-tici relace \\(R\\)."
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": "## Poznámka Anki 1646074227358"
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "Karty Anki: 1646074227358"
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "GUID: d$kB%/.b|J; štítky: bi-dbs::p03 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "Metadata původního zdroje pro kartu 1646074227358: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:105",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:107",
+          "text": "Definujte minimalitu klíče."
+        },
+        {
+          "locator": "transcript-line:109",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "Neexistuje takové \\(K' \\subset K\\), které jednoznačně určuje každou \\(n\\)-tici \\(R(A)\\)."
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "## Poznámka Anki 1646074360884"
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "Karty Anki: 1646074360885"
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "GUID: E:n&F&{M:~; štítky: bi-dbs::p03 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "Metadata původního zdroje pro kartu 1646074360885: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "Definujte databázový dotaz, jeho definiční obor a obor hodnot."
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "Databázový dotaz nad schématem \\(S\\) je výraz, který vrací odpověď se schématem \\(T\\), přičemž:"
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "- definičním oborem jsou všechna úložiště se schématem \\(S\\),"
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "- oborem hodnot jsou všechny relace se schématem \\(T\\),"
+        },
+        {
+          "locator": "transcript-line:130",
+          "text": "- data v odpovědi pocházejí z databáze,"
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "- odpověď nezávisí na fyzickém uložení dat."
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "## Poznámka Anki 1646074389658"
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "Karty Anki: 1646074389659"
+        },
+        {
+          "locator": "transcript-line:136",
+          "text": "GUID: x+*Z{SEiSv; štítky: bi-dbs::p03 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:138",
+          "text": "Metadata původního zdroje pro kartu 1646074389659: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:140",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:142",
+          "text": "Definujte dotazovací jazyk."
+        },
+        {
+          "locator": "transcript-line:144",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:146",
+          "text": "Dotazovací jazyk je množina všech použitelných výrazů pro konstrukci dotazu."
+        },
+        {
+          "locator": "transcript-line:148",
+          "text": "## Poznámka Anki 1646074617633"
+        },
+        {
+          "locator": "transcript-line:150",
+          "text": "Karty Anki: 1646074617633"
+        },
+        {
+          "locator": "transcript-line:151",
+          "text": "GUID: Cws7>]qw~Q; štítky: bi-dbs::p03 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:153",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:155",
+          "text": "Popište selekci v relační algebře."
+        },
+        {
+          "locator": "transcript-line:157",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:159",
+          "text": "Selekce je operace relační algebry, která omezuje výslednou relaci na \\(n\\)-tice splňující danou podmínku, např."
+        },
+        {
+          "locator": "transcript-line:160",
+          "text": "\\[\\texttt{teachers}(\\texttt{id}=\\texttt{1}).\\]"
+        },
+        {
+          "locator": "transcript-line:162",
+          "text": "## Poznámka Anki 1646074755963"
+        },
+        {
+          "locator": "transcript-line:164",
+          "text": "Karty Anki: 1646074755964"
+        },
+        {
+          "locator": "transcript-line:165",
+          "text": "GUID: u%DOHAZL3V; štítky: bi-dbs::p03 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:167",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:169",
+          "text": "Popište projekci a přejmenování v relační algebře."
+        },
+        {
+          "locator": "transcript-line:171",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:173",
+          "text": "**Projekce** je operace relační algebry, která omezuje atributy \\(n\\)-tic výsledné relace na dané atributy, např."
+        },
+        {
+          "locator": "transcript-line:174",
+          "text": "\\[\\texttt{teachers}[\\texttt{id}, \\texttt{name}].\\]Projekci lze kombinovat s **přejmenováním**, které umožňuje změnit název atributu ve výsledné relaci, např."
+        },
+        {
+          "locator": "transcript-line:175",
+          "text": "\\[\\texttt{teachers}[\\texttt{id}, \\texttt{name} \\to \\texttt{jmeno}].\\]"
+        },
+        {
+          "locator": "transcript-line:177",
+          "text": "## Poznámka Anki 1716475109414"
+        },
+        {
+          "locator": "transcript-line:179",
+          "text": "Karty Anki: 1716475109414"
+        },
+        {
+          "locator": "transcript-line:180",
+          "text": "GUID: z::ZCuTv=/; štítky: bi-dbs::p03 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:182",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:184",
+          "text": "Popište relační algebru a operace, které poskytuje."
+        },
+        {
+          "locator": "transcript-line:186",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:188",
+          "text": "Relační algebra je jazyk vyšší úrovně používaný pro dotazování databází. Namísto způsobu provedení dotazu specifikuje pouze požadované výsledky. Byla vzorem při návrhu příkazu \\(\\mathtt{SELECT}\\) ve Structured Query Language (SQL), který na rozdíl od relační algebry umožňuje i vytváření nových objektů databáze (DDL) a jejich úpravu (DML). Relační algebra poskytuje následující operace:"
+        },
+        {
+          "locator": "transcript-line:190",
+          "text": "- selekce, projekce a přejmenování;"
+        },
+        {
+          "locator": "transcript-line:191",
+          "text": "- množinové operace;"
+        },
+        {
+          "locator": "transcript-line:192",
+          "text": "- spojení (přirozené, obecné, anti-join);"
+        },
+        {
+          "locator": "transcript-line:193",
+          "text": "- relační dělení."
+        },
+        {
+          "locator": "transcript-line:195",
+          "text": "## Poznámka Anki 1716476396548"
+        },
+        {
+          "locator": "transcript-line:197",
+          "text": "Karty Anki: 1716476396548"
+        },
+        {
+          "locator": "transcript-line:198",
+          "text": "GUID: P0RvY)>>cP; štítky: bi-dbs::p03 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:200",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:202",
+          "text": "Popište spojení v relační algebře."
+        },
+        {
+          "locator": "transcript-line:204",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:206",
+          "text": "Relační algebra umožňuje následující typy spojení:"
+        },
+        {
+          "locator": "transcript-line:208",
+          "text": "- **přirozené **- výsledkem je množina kombinací \\(n\\)-tic shodujících se ve společném atributu\\[R_1 * R_2\\]"
+        },
+        {
+          "locator": "transcript-line:210",
+          "text": "- **obecné** (\\(\\Theta\\)) - výsledkem je množina kombinací \\(n\\)-tic spojených na základě podmínky"
+        },
+        {
+          "locator": "transcript-line:212",
+          "text": "\\[R_1 [R_1.a < R_2.b] R_2,\\]Dále lze libovolný typ spojení zkombinovat s projekcí, čímž vzniká **levé **nebo **pravé** spojení, např."
+        },
+        {
+          "locator": "transcript-line:214",
+          "text": "\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:215",
+          "text": "R_1 < \\kern-0.3em * \\kern0.4em R_2,\\\\"
+        },
+        {
+          "locator": "transcript-line:216",
+          "text": "R_1[R_1.a < R_2.b \\kern-0.2em > \\kern-0.2em R_2."
+        },
+        {
+          "locator": "transcript-line:217",
+          "text": "\\end{matrix}\\]Speciálním případem spojení je **anti-join**, jehož výsledkem je množina všech \\(n\\)-tic z jedné relace, které nejsou spojitelné s žádnou \\(n\\)-ticí z druhé relace"
+        },
+        {
+          "locator": "transcript-line:219",
+          "text": "\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:220",
+          "text": "R_1 \\overline{< \\kern-0.3em *} R_2,\\\\"
+        },
+        {
+          "locator": "transcript-line:221",
+          "text": "R_1 \\overline{* \\kern-0.3em >} R_2."
+        },
+        {
+          "locator": "transcript-line:222",
+          "text": "\\end{matrix}\\]"
+        },
+        {
+          "locator": "transcript-line:224",
+          "text": "## Poznámka Anki 1716476680994"
+        },
+        {
+          "locator": "transcript-line:226",
+          "text": "Karty Anki: 1716476680994"
+        },
+        {
+          "locator": "transcript-line:227",
+          "text": "GUID: c6F1+:f,4); štítky: bi-dbs::p03 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:229",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:231",
+          "text": "Popište relační dělení v relační algebře."
+        },
+        {
+          "locator": "transcript-line:233",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:235",
+          "text": "Relační dělení je operace relační algebry, jejímž výsledkem je množina všech \\(n\\)-tic z první relace, které jsou spojitelné s každou \\(n\\)-ticí druhé relace"
+        },
+        {
+          "locator": "transcript-line:236",
+          "text": "\\[R_1 \\div R_2.\\]"
+        },
+        {
+          "locator": "transcript-line:238",
+          "text": "## Poznámka Anki 1716478457124"
+        },
+        {
+          "locator": "transcript-line:240",
+          "text": "Karty Anki: 1716478457124"
+        },
+        {
+          "locator": "transcript-line:241",
+          "text": "GUID: q>00.5vq=L; štítky: bi-dbs::p03 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:243",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:245",
+          "text": "Popište integritní omezení."
+        },
+        {
+          "locator": "transcript-line:247",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:249",
+          "text": "Integritní omezení jsou pravidla omezující procesy v databázi (např. vkládání a upravování) tak, aby byla zajištěna integrita a kvalita dat. Existují následující možnosti vyjádření a kontroly integritních omezení:"
+        },
+        {
+          "locator": "transcript-line:251",
+          "text": "- **deklarativní** - stanoveny při vytvoření relace, automaticky kontrolované DBMS;"
+        },
+        {
+          "locator": "transcript-line:253",
+          "text": "- **procedurální** - na straně klienta nebo serveru."
+        },
+        {
+          "locator": "transcript-line:255",
+          "text": "## Poznámka Anki 1716478982610"
+        },
+        {
+          "locator": "transcript-line:257",
+          "text": "Karty Anki: 1716478982610"
+        },
+        {
+          "locator": "transcript-line:258",
+          "text": "GUID: qr,iE.,?;[; štítky: bi-dbs::p03 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:260",
+          "text": "Metadata původního zdroje pro kartu 1716478982610: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:262",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:264",
+          "text": "Popište možnosti vyjádření integritních omezení pomocí Structured Query Language (SQL)."
+        },
+        {
+          "locator": "transcript-line:266",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:268",
+          "text": "Structured Query Language (SQL) umožňuje definovat integritní omezení pro sloupce i tabulky. Využívá k tomu specifikátory \\(\\texttt{NOT NULL}\\), \\(\\texttt{DEFAULT}\\), \\(\\texttt{UNIQUE}\\), \\(\\texttt{PRIMARY KEY}\\), \\(\\texttt{REFERENCES}\\) a \\(\\texttt{CHECK}\\), např."
+        },
+        {
+          "locator": "transcript-line:269",
+          "text": "\\[\\texttt{CREATE TABLE cars (name varchar(255) NOT NULL, CONSTRAINT CAR_PK PRIMARY_KEY (name));}\\]SQL navíc umožňuje specifikovat čas provedení kontroly nebo ji dočasně vypnout."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.435615+00:00",
+      "transcript_file": "sources/anki-prednaska-03-v1/transcript/anki-prednaska-03-v1.md",
+      "transcript_sha256": "85a93a148ae2d09aa0ccc5e6f7bafc8399ceb7885094f4649531fa79ab2997e6"
+    },
+    "anki-prednaska-05-v1": {
+      "subject_id": "bi-dbs",
+      "source_id": "anki-prednaska-05-v1",
+      "title": "FIT ČVUT Anki – BI-DBS – Přednáška 05",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-dbs/anki-prednaska-05-v1/anki-prednaska-05-v1.zip",
+      "file": "sources/anki-prednaska-05-v1/anki-prednaska-05-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "b8d9cd6fbe6a01302a468c297bf65432e1277c449bf3c1a438adbbe0e148ec9d",
+      "topic_ids": [
+        "prednaska-05"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg, SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-DBS – Přednáška 05"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg; APKG SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 7f054157e2673745662b1c45d22f99de1a01232f0420fd85b7b7f7c2b095d969."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-DBS"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 15 poznámek, 15 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1647282710591"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1647282710591"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: gKFmMgr4L1; štítky: bi-dbs::p05."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Metadata původního zdroje pro kartu 1647282710591: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Jak přetransformujeme entitu z konceptuálního modelu do relačního?"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "Namapujeme:"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "- název entity na název relace"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "- atributy entity na atributy realce"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "- domény atributů na domény relačních atributů"
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "- povinnost atributů entity na \\(\\mathtt{NOT\\ NULL}\\) na relační úrovni"
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "- atributy identifikátoru entity na \\(\\mathtt{PRIMARY\\ KEY}\\)"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "- alernativní klíče na \\(\\mathtt{UNIQUE}\\) + \\(\\mathtt{NOT\\ NULL}\\)"
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "U slabých entit je nutno do klíče přibrat identifikátory identifikačních vlastníků."
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "## Poznámka Anki 1647282824490"
+        },
+        {
+          "locator": "transcript-line:38",
+          "text": "Karty Anki: 1647282824491"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "GUID: u8nkadeAAR; štítky: bi-dbs::p05 bi-dbs::transformace."
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Metadata původního zdroje pro kartu 1647282824491: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "Transformujte silnou entitu."
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": " [Obrázek: paste-88d95bed1be44af64cd508e6383984daf9b46000.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "[Obrázek: paste-4cafe2628d6923f11cd4a8bc46f68e2165c59f26.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "## Poznámka Anki 1647282867360"
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "Karty Anki: 1647282867360"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "GUID: H/BC~Ll+Ay; štítky: bi-dbs::p05 bi-dbs::transformace."
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "Metadata původního zdroje pro kartu 1647282867360: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "Transformujte vztah 1:1, povinný z obou stran."
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": " [Obrázek: paste-5eb22f1e95d05b96d55b35208d824925be4d07bd.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "[Obrázek: paste-113b4adde910508ff71cb5ad5fffc3c1273d921c.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "## Poznámka Anki 1647282992180"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "Karty Anki: 1647282992180"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "GUID: c$KzVOa&-}; štítky: bi-dbs::p05 bi-dbs::transformace."
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "Metadata původního zdroje pro kartu 1647282992180: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "Transformujte vztah 1:1, povinný jen pro jednu entitu."
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": " [Obrázek: paste-2760a1c6c3272eb12e0a768863a04cd83cff8d13.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "[Obrázek: paste-e343d9607c6f803ba482e5d6e5912dc1117935b5.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "## Poznámka Anki 1647283057351"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "Karty Anki: 1647283057351"
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "GUID: NG;m8]!9s{; štítky: bi-dbs::p05 bi-dbs::transformace."
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "Metadata původního zdroje pro kartu 1647283057351: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "Transformujte vztah 1:1 nepovinný z obou stran."
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": " [Obrázek: paste-b6f6b503207dddeb0248ccdf0d58a3139a7fbfcb.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "[Obrázek: paste-bf30b1d7e21aa686a972129cac8f395cd3d6ddf8.jpg; soubor je v media/ v doprovodném ZIP] "
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": " [Obrázek: paste-cd652f2e2cd582a68feb7cbcabb1e0ee560e5542.jpg; soubor je v media/ v doprovodném ZIP] "
+        },
+        {
+          "locator": "transcript-line:105",
+          "text": "Odkazovaný předchozí případ:"
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": " [Obrázek: paste-e343d9607c6f803ba482e5d6e5912dc1117935b5.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "## Poznámka Anki 1647283103573"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "Karty Anki: 1647283103573"
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "GUID: s&x<2lmP<}; štítky: bi-dbs::p05 bi-dbs::transformace."
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "Metadata původního zdroje pro kartu 1647283103573: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "Transformujte vzah 1:N s povinnou účastí determinantu."
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": " [Obrázek: paste-00931987c61e6af7754f24227d8ec17f02862531.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "[Obrázek: paste-0957af61d0df86e8ca375c577719088853df68e7.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:125",
+          "text": "## Poznámka Anki 1647283182872"
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "Karty Anki: 1647283182872"
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "GUID: Q&}N7bF&Er; štítky: bi-dbs::p05 bi-dbs::transformace."
+        },
+        {
+          "locator": "transcript-line:130",
+          "text": "Metadata původního zdroje pro kartu 1647283182872: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:132",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:134",
+          "text": "Transformujte vztah 1:N s nepovinnou účastí determinantu."
+        },
+        {
+          "locator": "transcript-line:136",
+          "text": " [Obrázek: paste-c40efaae22eeb101ed1b2b94df3b43544cf6424f.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:138",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:140",
+          "text": "[Obrázek: paste-29e8eb0480c18129c5fd9385915671b5d8fffdc1.jpg; soubor je v media/ v doprovodném ZIP] "
+        },
+        {
+          "locator": "transcript-line:142",
+          "text": "Odkazovaný předchozí případ:"
+        },
+        {
+          "locator": "transcript-line:143",
+          "text": " [Obrázek: paste-0957af61d0df86e8ca375c577719088853df68e7.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:145",
+          "text": "## Poznámka Anki 1647283214482"
+        },
+        {
+          "locator": "transcript-line:147",
+          "text": "Karty Anki: 1647283214482"
+        },
+        {
+          "locator": "transcript-line:148",
+          "text": "GUID: ov!w%mT)S^; štítky: bi-dbs::p05 bi-dbs::transformace."
+        },
+        {
+          "locator": "transcript-line:150",
+          "text": "Metadata původního zdroje pro kartu 1647283214482: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:152",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:154",
+          "text": "Transformujte rekurzivní vztah."
+        },
+        {
+          "locator": "transcript-line:156",
+          "text": " [Obrázek: paste-e793182b7c50724b26550187cc2e9347ec23c639.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:158",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:160",
+          "text": "[Obrázek: paste-294dfd492edb3a8617a0a1aee667bf4159060789.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:162",
+          "text": "## Poznámka Anki 1647283245107"
+        },
+        {
+          "locator": "transcript-line:164",
+          "text": "Karty Anki: 1647283245107"
+        },
+        {
+          "locator": "transcript-line:165",
+          "text": "GUID: x&_~.dGe<Y; štítky: bi-dbs::p05 bi-dbs::transformace."
+        },
+        {
+          "locator": "transcript-line:167",
+          "text": "Metadata původního zdroje pro kartu 1647283245107: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:169",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:171",
+          "text": "Transformujte vtrah M:N s tím, že každý film v každém kině hrají právě jednou."
+        },
+        {
+          "locator": "transcript-line:173",
+          "text": " [Obrázek: paste-fb4c29a0d36616cd0466bec336e33ff3a3faf89c.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:175",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:177",
+          "text": "[Obrázek: paste-421147992c31cf514b72389fb2bdb0b08eb1a367.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:179",
+          "text": "## Poznámka Anki 1647283319669"
+        },
+        {
+          "locator": "transcript-line:181",
+          "text": "Karty Anki: 1647283319669"
+        },
+        {
+          "locator": "transcript-line:182",
+          "text": "GUID: s7Cg_2[$u; štítky: bi-dbs::p05 bi-dbs::transformace."
+        },
+        {
+          "locator": "transcript-line:184",
+          "text": "Metadata původního zdroje pro kartu 1647283319669: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:186",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:188",
+          "text": "Dekomponujte vztah M:N se silnou entitou."
+        },
+        {
+          "locator": "transcript-line:190",
+          "text": " [Obrázek: paste-7b014b1d100c2ccd2f4221d6c84ccbf5fa3aa84c.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:192",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:194",
+          "text": "[Obrázek: paste-077313d057fcf545d283e69b4dc7c2014704b95f.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:196",
+          "text": "## Poznámka Anki 1647283353230"
+        },
+        {
+          "locator": "transcript-line:198",
+          "text": "Karty Anki: 1647283353230"
+        },
+        {
+          "locator": "transcript-line:199",
+          "text": "GUID: elh&w2Z:nq; štítky: bi-dbs::p05 bi-dbs::transformace."
+        },
+        {
+          "locator": "transcript-line:201",
+          "text": "Metadata původního zdroje pro kartu 1647283353230: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:203",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:205",
+          "text": "Dekomponujte vztah M:N se slabou entitou."
+        },
+        {
+          "locator": "transcript-line:207",
+          "text": " [Obrázek: paste-2b9c5535528cfb58f724704093b1a53d6244ab2e.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:209",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:211",
+          "text": "[Obrázek: paste-8011b08a2e972f49afe01320679e2c14cb79088e.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:213",
+          "text": "## Poznámka Anki 1647283389627"
+        },
+        {
+          "locator": "transcript-line:215",
+          "text": "Karty Anki: 1647283389627"
+        },
+        {
+          "locator": "transcript-line:216",
+          "text": "GUID: c4yBPp$VHz; štítky: bi-dbs::p05 bi-dbs::transformace."
+        },
+        {
+          "locator": "transcript-line:218",
+          "text": "Metadata původního zdroje pro kartu 1647283389627: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:220",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:222",
+          "text": "Transformujte slabou entitu a identifikační závislost."
+        },
+        {
+          "locator": "transcript-line:224",
+          "text": " [Obrázek: paste-946b8af6d7ead56d9f71265810532334a395f3e5.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:226",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:228",
+          "text": "[Obrázek: paste-c58cb9766753b0e6f8cc1693290fc0372aa8b64d.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:230",
+          "text": "## Poznámka Anki 1647283434415"
+        },
+        {
+          "locator": "transcript-line:232",
+          "text": "Karty Anki: 1647283434415"
+        },
+        {
+          "locator": "transcript-line:233",
+          "text": "GUID: t^eDwpiZgE; štítky: bi-dbs::p05 bi-dbs::transformace."
+        },
+        {
+          "locator": "transcript-line:235",
+          "text": "Metadata původního zdroje pro kartu 1647283434415: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:237",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:239",
+          "text": "Transformujte ISA hierarchii."
+        },
+        {
+          "locator": "transcript-line:241",
+          "text": " [Obrázek: paste-087f7e3193ae9a79af4ed51f00dc7dd80b132c89.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:243",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:245",
+          "text": "[Obrázek: paste-77565e510c04440ab2c5e80e551b7fa0a237c7a7.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:247",
+          "text": "## Poznámka Anki 1647283477133"
+        },
+        {
+          "locator": "transcript-line:249",
+          "text": "Karty Anki: 1647283477133"
+        },
+        {
+          "locator": "transcript-line:250",
+          "text": "GUID: o$&!b6/M(h; štítky: bi-dbs::p05 bi-dbs::transformace."
+        },
+        {
+          "locator": "transcript-line:252",
+          "text": "Metadata původního zdroje pro kartu 1647283477133: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:254",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:256",
+          "text": "Transformujte schéma:"
+        },
+        {
+          "locator": "transcript-line:258",
+          "text": " [Obrázek: paste-b404ae4994826aafb06d061e86b6a6f3fd37062e.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:260",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:262",
+          "text": "[Obrázek: paste-8ec45b7192a871d27e048dc2cd00d0832391c769.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:264",
+          "text": "## Poznámka Anki 1647283507841"
+        },
+        {
+          "locator": "transcript-line:266",
+          "text": "Karty Anki: 1647283507841"
+        },
+        {
+          "locator": "transcript-line:267",
+          "text": "GUID: hC}I-}f*J8; štítky: bi-dbs::p05 bi-dbs::transformace."
+        },
+        {
+          "locator": "transcript-line:269",
+          "text": "Metadata původního zdroje pro kartu 1647283507841: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:271",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:273",
+          "text": "Transformujte smyčku."
+        },
+        {
+          "locator": "transcript-line:275",
+          "text": " [Obrázek: paste-e410d1015eda498255f5ab606786f9942ac6d725.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:277",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:279",
+          "text": "[Obrázek: paste-929069fb625929a3dfe02f8597dc255ac6b1f99d.jpg; soubor je v media/ v doprovodném ZIP]"
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.457999+00:00",
+      "transcript_file": "sources/anki-prednaska-05-v1/transcript/anki-prednaska-05-v1.md",
+      "transcript_sha256": "8d6642477d277492fb748349a31ba56c9923a00fab689cd9d6d2b3d34012c58e"
+    },
+    "anki-prednaska-06-v1": {
+      "subject_id": "bi-dbs",
+      "source_id": "anki-prednaska-06-v1",
+      "title": "FIT ČVUT Anki – BI-DBS – Přednáška 06",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-dbs/anki-prednaska-06-v1/anki-prednaska-06-v1.zip",
+      "file": "sources/anki-prednaska-06-v1/anki-prednaska-06-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "00699f3df848039be2b4bf94883b227f777376565d7b9258bfbcb8f60bcb92b8",
+      "topic_ids": [
+        "prednaska-06"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg, SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-DBS – Přednáška 06"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg; APKG SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 7f054157e2673745662b1c45d22f99de1a01232f0420fd85b7b7f7c2b095d969."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-DBS"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 4 poznámek, 4 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1718384237426"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1718384237426"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: m1P?npy=n*; štítky: bi-dbs::p06 bi-spol::09."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Popište základní syntaxi příkazu \\(\\texttt{SELECT}\\) v Structured Query Language (SQL)."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Základní syntaxe příkazu \\(\\texttt{SELECT}\\) je:"
+        },
+        {
+          "locator": "transcript-line:25",
+          "text": "\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "\\texttt{SELECT} \\text{ columns}\\\\"
+        },
+        {
+          "locator": "transcript-line:27",
+          "text": "\\texttt{FROM} \\text{ source}\\\\"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "\\texttt{[WHERE} \\text{ condition} \\texttt ]\\\\"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "\\texttt{[ORDER BY} \\text{ ordering} \\texttt {];}"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "\\end{matrix}\\]kde:"
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "- \\(\\texttt{SELECT}\\) určuje sloupce výstupu;"
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "- \\(\\texttt{FROM}\\) určuje zdrojovu tabulku, pohled nebo dotaz;"
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "- \\(\\texttt{WHERE}\\) klade podmínku na \\(n\\)-tice výstupu a může obsahovat porovnávací, Booleovské a další (např. \\(\\texttt{BETWEEN}\\), \\(\\texttt{LIKE}\\), \\(\\texttt{IN}\\)) operátory;"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "- \\(\\texttt{ORDER BY}\\) určuje řazení výstupu."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "Tedy na příklad:"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "\\texttt{SELECT} \\text{ *}\\\\"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "\\texttt{FROM} \\text{ films}\\\\"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "\\texttt{WHERE} \\text{ year} \\geq 2000 \\texttt{ AND } \\texttt{year} \\leq 2020 \\\\"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "\\texttt{ORDER BY} \\text{ name } \\texttt {ASC;}"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "\\end{matrix}\\]"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "## Poznámka Anki 1718385550300"
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "Karty Anki: 1718385550300"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "GUID: mlPH)Hy6P|; štítky: bi-dbs::p06 bi-spol::09."
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "Popište spojení v Structured Query Language (SQL)."
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "Structured Query Language (SQL) umožňuje následující typy spojení:"
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "- \\(\\texttt{NATURAL JOIN}\\) (**přirozené**) - výsledkem je množina kombinací  \\(n\\)-tic shodujících se ve společném atributu"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "\\[\\dots \\texttt{FROM } T_1 \\texttt{ NATURAL JOIN } T_2 \\texttt ; \\]"
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "- \\(\\texttt{INNER JOIN}\\) (**vnitřní**) - výsledkem je množina kombinací  \\(n\\)-tic spojených na základě podmínky"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "\\[\\dots \\texttt{FROM } T_1 \\texttt{ [INNER] JOIN } T_2 \\texttt{ ON (} T_1.a < T_2.b \\texttt{);}\\]"
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "- \\(\\texttt{OUTER JOIN}\\) (**vnější**) - výsledkem je množina kombinací \\(n\\)-tic spojených na základě podmínky, která navíc obsahuje i \\(n\\)-tice z levé, pravé nebo obou tabulek, které nejsou spojitelné s žádnou \\(n\\)-ticí z protější tabulky"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "\\[\\dots \\texttt{FROM } T_1 \\texttt{ LEFT/RIGHT/FULL [OUTER] JOIN } T_2 \\texttt{ ON (} T_1.a < T_2.b \\texttt{);}\\]"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "- \\(\\texttt{CROSS JOIN}\\) (**kartézský součin**) - výsledkem je množina všech kombinací \\(n\\)-tic obou tabulek"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "\\dots \\texttt{FROM } T_1 \\texttt{ CROSS JOIN } T_2 \\texttt ;\\\\"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "\\dots \\texttt{FROM } T_1, T_2 \\texttt ;"
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "\\end{matrix}\\]V případě, že ve spojení používáme podmínku rovnosti, může být tato podmínka nahrazena klíčovým slovem \\(\\texttt{USING}\\), na příklad:"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "\\[\\dots \\texttt{FROM } T_1 \\texttt{ [INNER] JOIN } T_2 \\texttt{ USING } \\texttt( \\text{name} \\texttt{);}\\]"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "## Poznámka Anki 1718388440255"
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "Karty Anki: 1718388440255"
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "GUID: HD-$xYIwHg; štítky: bi-dbs::p06 bi-spol::09."
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "Popište agregační funkce a klauzule \\(\\texttt{HAVING}\\) a \\(\\texttt{GROUP BY}\\) v Structured Query Language (SQL)."
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "**Agregační funkce** umožňují dále zpracovávat sloupce klauzule \\(\\texttt{SELECT}\\). Mezi příklady agregačních funkcí patří \\(\\texttt{AVG}\\), \\(\\texttt{COUNT}\\) nebo \\(\\texttt{SUM}\\). **Klauzule **\\(\\texttt{GROUP BY}\\) seskupuje \\(n\\)-tice na základě společné hodnoty atributu a **klauzule **\\(\\texttt{HAVING}\\) na seskupené a případně agregované \\(n\\)-tice aplikuje podmínku. Na příklad"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "\\texttt{SELECT} \\text{ film}, \\texttt{COUNT(} \\text{actor} \\texttt )\\\\"
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "\\texttt{FROM} \\text{ films}\\\\"
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "\\texttt{GROUP BY} \\text{ film}\\\\"
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": "\\texttt{HAVING COUNT(} \\text{actor} \\texttt ) > 2 \\texttt;"
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "\\end{matrix}\\]zobrazí jména filmů a počty jejich herců, pokud mají více než dva."
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "## Poznámka Anki 1718540552561"
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "Karty Anki: 1718540552561"
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "GUID: sNx^eV~bKx; štítky: bi-dbs::p06 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "Metadata původního zdroje pro kartu 1718540552561: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "Popište pořadí vyhodnocování příkazu \\(\\texttt{SELECT}\\) s klauzulemi \\(\\texttt{WHERE}\\), \\(\\texttt{GROUP BY}\\), \\(\\texttt{HAVING}\\) a \\(\\texttt{ORDER BY}\\) a agregační funkcí v Structured Query Language (SQL)."
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "Příkaz \\(\\texttt{SELECT}\\) s klauzulemi \\(\\texttt{WHERE}\\), \\(\\texttt{GROUP BY}\\), \\(\\texttt{HAVING}\\) a \\(\\texttt{ORDER BY}\\) a agregační funkcí se vyhodnocuje v následujícím pořadí:"
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "- klauzule \\(\\texttt{FROM}\\),"
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "- klauzule \\(\\texttt{WHERE}\\),"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "- klauzule \\(\\texttt{GROUP BY}\\),"
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "- klauzule \\(\\texttt{SELECT}\\) společně s agregační funkcí,"
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "- klauzule \\(\\texttt{HAVING}\\),"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "- klauzule \\(\\texttt{ORDER BY}\\)."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.484299+00:00",
+      "transcript_file": "sources/anki-prednaska-06-v1/transcript/anki-prednaska-06-v1.md",
+      "transcript_sha256": "272ed7765c74f8f0bfb570931790a2dc549d418a8a89dfea97824c15583d7f06"
+    },
+    "anki-prednaska-07-v1": {
+      "subject_id": "bi-dbs",
+      "source_id": "anki-prednaska-07-v1",
+      "title": "FIT ČVUT Anki – BI-DBS – Přednáška 07",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-dbs/anki-prednaska-07-v1/anki-prednaska-07-v1.zip",
+      "file": "sources/anki-prednaska-07-v1/anki-prednaska-07-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "903a03838588e9d7e5598963335abc649cdae97b059b3a9aff74bc89b5e823a4",
+      "topic_ids": [
+        "prednaska-07"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg, SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-DBS – Přednáška 07"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg; APKG SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 7f054157e2673745662b1c45d22f99de1a01232f0420fd85b7b7f7c2b095d969."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-DBS"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 1 poznámek, 1 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1648500538039"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1648500538039"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: kV9Dp6Vq.B; štítky: bi-dbs::p07."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Metadata původního zdroje pro kartu 1648500538039: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Co je to vnější spojení (outer join)?"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "Jde o normální join, ale levá/pravá/obě relace ještě dodají n-tice, které na druhé straně spojení nemají partnera."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.513789+00:00",
+      "transcript_file": "sources/anki-prednaska-07-v1/transcript/anki-prednaska-07-v1.md",
+      "transcript_sha256": "a355e9893e14db5efdfff89b0431aafef82ce36f179487dfadbd5dba4ed903d0"
+    },
+    "anki-prednaska-08-v1": {
+      "subject_id": "bi-dbs",
+      "source_id": "anki-prednaska-08-v1",
+      "title": "FIT ČVUT Anki – BI-DBS – Přednáška 08",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-dbs/anki-prednaska-08-v1/anki-prednaska-08-v1.zip",
+      "file": "sources/anki-prednaska-08-v1/anki-prednaska-08-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "ff6401e812c652b07b82b11ef6d461f3745b01fc8e274b5f9dff5b0c2e9d9298",
+      "topic_ids": [
+        "prednaska-08"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg, SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-DBS – Přednáška 08"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg; APKG SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 7f054157e2673745662b1c45d22f99de1a01232f0420fd85b7b7f7c2b095d969."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-DBS"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 1 poznámek, 1 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1716567682093"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1716567682093"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: JR^:skhbsx; štítky: bi-dbs::p08 bi-spol::05."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Popište databázový pohled (database view)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Databázový pohled (database view) je virtuální relace ukládaná ve formě \\(\\mathtt{SELECT}\\) příkazu, který ji definuje. Využívá se za účelem odstínění informací pro uživatele nebo zpřehlednění dotazů. Obyčejné pohledy neposkytují výkonnostní zrychlení, za tímto účelem se používají materializované pohledy (materialized views)."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.545434+00:00",
+      "transcript_file": "sources/anki-prednaska-08-v1/transcript/anki-prednaska-08-v1.md",
+      "transcript_sha256": "def3b335787327c22874dbaf1235898dbd396161f55c65cc27310d7682aa06d3"
+    },
+    "anki-prednaska-09-v1": {
+      "subject_id": "bi-dbs",
+      "source_id": "anki-prednaska-09-v1",
+      "title": "FIT ČVUT Anki – BI-DBS – Přednáška 09",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-dbs/anki-prednaska-09-v1/anki-prednaska-09-v1.zip",
+      "file": "sources/anki-prednaska-09-v1/anki-prednaska-09-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "9a40d938661166aca09c54ce231d0eb6574d6ff185156c37de7cd95acbc738a5",
+      "topic_ids": [
+        "prednaska-09"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg, SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-DBS – Přednáška 09"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg; APKG SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 7f054157e2673745662b1c45d22f99de1a01232f0420fd85b7b7f7c2b095d969."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-DBS"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 6 poznámek, 6 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1649694980833"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1649694980834"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: l6uCR2R~=Q; štítky: bi-dbs::p09."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Metadata původního zdroje pro kartu 1649694980834: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Co je to funkční závislost?"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "Funkční závislost nastává, když hodnoty některých atributů funkčně závisí na hodnotách jiných atributů. Lze pomocí nich vyjadřovat IO. Zapisujeme"
+        },
+        {
+          "locator": "transcript-line:27",
+          "text": "\\(\\mathtt{NAZEV\\_K} \\to \\mathtt{ADRESA}\\)"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "## Poznámka Anki 1649695491210"
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "Karty Anki: 1649695491210"
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "GUID: OKP(^}b^hI; štítky: bi-dbs::p09."
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "Metadata původního zdroje pro kartu 1649695491210: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:38",
+          "text": "Vyjmenujte Armstrongova pravidla."
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "Mějme \\(R(A)\\) a nechť \\(X \\subseteq A, Y \\subseteq A, Z \\subseteq A\\)."
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "1. triviální funkční závislosti - jestliže \\(Y \\subseteq X\\), pak \\(X \\to Y\\)"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "2. tranzitivita - jestliže \\(X \\to Y\\) a \\(Y \\to Z\\), tak \\(X \\to Z\\)"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "3. kompozice pravé strany - jestliže \\(X \\to Y\\) a \\(X \\to Z\\), pak \\(X \\to YZ\\)"
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "4. dekompozice pravé strany - jestliže \\(X \\to YZ\\), pak \\(X \\to Y\\) a \\(X \\to Z\\)"
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "## Poznámka Anki 1649695676264"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "Karty Anki: 1649695676265"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "GUID: GTh1;a1Xxz; štítky: bi-dbs::p09."
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "Metadata původního zdroje pro kartu 1649695676265: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "Co je to tranzitivní uzávěr množiny atributů \\(X\\) a jaký je jeho postup výpočtu?"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "Je to množina všech atributů funkčně závislých na \\(X\\). Značíme \\(X^+\\)."
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "Postup výpočtu:"
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "1. do \\(X^+\\) přidáme \\(X\\)"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "2. procházíme funkční závislosti, je-li levá strana už v \\(X^+\\), přidáme pravou stranu"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "3. opakujeme dokud do \\(X^+\\) něco přibývá"
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "## Poznámka Anki 1649695755697"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "Karty Anki: 1649695755697"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "GUID: EPwJXG/w-{; štítky: bi-dbs::p09."
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "Metadata původního zdroje pro kartu 1649695755697: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "Co je to klíč relace?"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "Mějme \\(R(A)\\) a nechť \\(K \\subseteq A\\). \\(K\\) je klíčem schématu, jestliže splňuje"
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "- \\(K \\to A\\)"
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "- neexistuje \\(K' \\subset K\\) taková, že \\(K' \\to A\\)."
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "## Poznámka Anki 1649695939482"
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "Karty Anki: 1649695939482"
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "GUID: P-C&eVAL`J; štítky: bi-dbs::p09."
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "Metadata původního zdroje pro kartu 1649695939482: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "Kdy je schéma v třetí normální formě (3NF)?"
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "Řekneme, že schéma relace \\(R\\) je v 3. normální formě, jestliže žádný neklíčový atribut schématu \\(R\\) není tranzitivně závislý na žádném klíči schématu."
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "**Jinými slovy**: Každý neklíčový atribut je na (každém) klíči schématu závislý přímo, nikoliv tranzitivně."
+        },
+        {
+          "locator": "transcript-line:105",
+          "text": "## Poznámka Anki 1649695997081"
+        },
+        {
+          "locator": "transcript-line:107",
+          "text": "Karty Anki: 1649695997081"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "GUID: Gf_lrOPgg:; štítky: bi-dbs::p09."
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "Metadata původního zdroje pro kartu 1649695997081: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "Definujte BCNF."
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "Řekneme, že schéma relace \\(R\\) je v Boyce-Coddově normální formě (BCNF), jesliže pro každou netriviální závislost \\(X \\to Y\\) platí, že \\(X\\) obsahuje klíč schématu \\(R\\)."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.574103+00:00",
+      "transcript_file": "sources/anki-prednaska-09-v1/transcript/anki-prednaska-09-v1.md",
+      "transcript_sha256": "fe8ad8a668542eb6d3ba3db0228d95bc84a1a965a4d033ca353c127ee7cc3fbe"
+    },
+    "anki-prednaska-10-v1": {
+      "subject_id": "bi-dbs",
+      "source_id": "anki-prednaska-10-v1",
+      "title": "FIT ČVUT Anki – BI-DBS – Přednáška 10",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-dbs/anki-prednaska-10-v1/anki-prednaska-10-v1.zip",
+      "file": "sources/anki-prednaska-10-v1/anki-prednaska-10-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "fa2fae1283b5ddfd072406e7a698b0761a265fd3eb08e7ad6c78884a48c84039",
+      "topic_ids": [
+        "prednaska-10"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg, SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-DBS – Přednáška 10"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg; APKG SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 7f054157e2673745662b1c45d22f99de1a01232f0420fd85b7b7f7c2b095d969."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-DBS"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 17 poznámek, 17 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1650902933268"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1650902933269"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: EfRuJ=hJs%; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Popište transakci."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Transakce je sekvence akcí měnících stav databáze, které spolu logicky souvisí."
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "## Poznámka Anki 1650902973051"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Karty Anki: 1650902973051"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "GUID: LuR6x@CVaf; štítky: bi-dbs::p10."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "Metadata původního zdroje pro kartu 1650902973051: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "Co znamená, že databáze je konzistentní?"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "Znamená to, že platí všechna IO definovaná ve schématu."
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "## Poznámka Anki 1650903136887"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "Karty Anki: 1650903136887"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "GUID: z(.wr-RP5o; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "Vyjmenujte vlastnosti transakcí."
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "Transakce splňují následující vlastnosti:"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "- **atomicity** - transakce musí buď proběhnout celá nebo neproběhne vůbec,"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "- **consistency** - transakce transformuje databázi z konzistentního stavu do jiného konzistentního stavu,"
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "- **independence** - dílčí efekty jedné transakce nejsou viditelné jiným transakcím,"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "- **durability** - efekty úspěšně ukončené (potvrzené) transakce jsou trvale uloženy."
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "## Poznámka Anki 1716482602833"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "Karty Anki: 1716482602833"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "GUID: ip,%-t|<*W; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "Metadata původního zdroje pro kartu 1716482602833: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "Popište moduly transakčního zpracování."
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "Existují následující moduly transakčního zpracování:"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "- **modul řízení souběžného zpracování** - zajišťuje konzistentní stav databáze pro všechny uživatele, kteří mohou současně pracovat se stejnými daty;"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "- **modul zotavení z chyb** - zajišťuje konzistentní stav databáze i v případě chyby."
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "## Poznámka Anki 1716482979835"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "Karty Anki: 1716482979835"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "GUID: QJI`z.X(^o; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "Metadata původního zdroje pro kartu 1716482979835: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "Popište stavy transakce."
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "Transakce se může nacházet v následujících stavech:"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "- **active** - transakce probíhá,"
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "- **partially commited** - všechny operace transakce jsou dokončeny,"
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "- **comitted** - transakce byla potvrzena (příkaz \\(\\mathtt{COMMIT}\\)),"
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "- **failed** - transakce selhala a nemůže pokračovat,"
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "- **aborted** - transakce byla zrušena (příkaz \\(\\texttt{ROLLBACK}\\))."
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": " [Obrázek: paste-f1768fe828a2b8599ee92c62377ce1a7c2e79801.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:105",
+          "text": "## Poznámka Anki 1716484256523"
+        },
+        {
+          "locator": "transcript-line:107",
+          "text": "Karty Anki: 1716484256523"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "GUID: cnf%yb%%a^; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "Metadata původního zdroje pro kartu 1716484256523: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "Popište transakční žurnál (transaction journal)."
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "Transakční žurnál (transaction journal) obsahuje záznamy o prováděných transakcích, které slouží k zotavení databáze v případě chyby. Záznamy jsou ukládány ve formě změnových vektorů. Žurnál a přidružená infrastruktura umožňuje dodržení vlastností atomicity a durability."
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "## Poznámka Anki 1716485055735"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "Karty Anki: 1716485055735"
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "GUID: I22BNJ05-o; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:125",
+          "text": "Metadata původního zdroje pro kartu 1716485055735: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "Popište rozvrh transakcí."
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "Rozvrh transakcí stanovuje pořadí provádění jednotlivých operací transakcí. Pro dosažení vyššího výkonu může být žádoucí prokládat operace různých transakcí. Z tohoto pohledu rozdělujeme rozvrhy na:"
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "- **sériové **- operace každé transakce jsou prováděny vždy pospolu,"
+        },
+        {
+          "locator": "transcript-line:137",
+          "text": "- **paralelní** - operace různých transakcí mohou být prokládány."
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "## Poznámka Anki 1716485522510"
+        },
+        {
+          "locator": "transcript-line:141",
+          "text": "Karty Anki: 1716485522511"
+        },
+        {
+          "locator": "transcript-line:142",
+          "text": "GUID: OTr!,Z&X84; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:144",
+          "text": "Metadata původního zdroje pro kartu 1716485522511: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:146",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:148",
+          "text": "Popište anomálie vznikající při paralelním zpracování transakcí."
+        },
+        {
+          "locator": "transcript-line:150",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:152",
+          "text": "Při paralelním zpracování transakcí může dojít k anomáliím plynoucím z prokládání operací různých transakcí. Mezi tyto anomálie patří:"
+        },
+        {
+          "locator": "transcript-line:154",
+          "text": "- **ztráta aktualizace **- transakce \\(T_1\\) provede aktualizaci dat, která je následně přepsána aktualizací provedenou transakcí \\(T_2\\);"
+        },
+        {
+          "locator": "transcript-line:156",
+          "text": "- **neopakovatelné čtení** - transakce \\(T_1\\) získá z dvou stejných dotazů různý výsledek, protože data byla mezitím upravena transakcí \\(T_2\\);"
+        },
+        {
+          "locator": "transcript-line:158",
+          "text": "- **fantom** - transakce \\(T_1\\) získá z dvou stejných dotazů různý výsledek, protože transakce \\(T_2\\) mezitím vložila nová data nebo některá data smazala."
+        },
+        {
+          "locator": "transcript-line:160",
+          "text": "## Poznámka Anki 1716486363231"
+        },
+        {
+          "locator": "transcript-line:162",
+          "text": "Karty Anki: 1716486363231"
+        },
+        {
+          "locator": "transcript-line:163",
+          "text": "GUID: oiaQ>c/2Y%; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:165",
+          "text": "Metadata původního zdroje pro kartu 1716486363231: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:167",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:169",
+          "text": "Popište metody řešení problémů paralelního zpracování transakcí."
+        },
+        {
+          "locator": "transcript-line:171",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:173",
+          "text": "Problémy plynoucí z paralelního zpracování transakcí lze řešit následujícími způsoby:"
+        },
+        {
+          "locator": "transcript-line:175",
+          "text": "- **testování uspořádatelnosti rozvrhů **- kontrola, zda je rozvrh uspořádatelný, nepoužívá se kvůli časové náročnosti;"
+        },
+        {
+          "locator": "transcript-line:177",
+          "text": "- **konstrukce uspořádatelných rozvrhů** - konstrukce rozvrhů tak, aby byly uspořádatelné, používá uzamykací protokoly."
+        },
+        {
+          "locator": "transcript-line:179",
+          "text": "## Poznámka Anki 1716486413867"
+        },
+        {
+          "locator": "transcript-line:181",
+          "text": "Karty Anki: 1716486413867"
+        },
+        {
+          "locator": "transcript-line:182",
+          "text": "GUID: LuW.X0I(Db; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:184",
+          "text": "Metadata původního zdroje pro kartu 1716486413867: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:186",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:188",
+          "text": "Popište uzamykací protokol a dvoufázový uzamykací protokol."
+        },
+        {
+          "locator": "transcript-line:190",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:192",
+          "text": "**Uzamykací protokol** je množina pravidel, které udávají, kdy transakce bude uzamykat a odemykat objekty databáze. **Dvoufázovým uzamykacím** protokolem je uzamykací protokol tehdy, když používá dvoufázové transakce."
+        },
+        {
+          "locator": "transcript-line:194",
+          "text": "## Poznámka Anki 1716486549798"
+        },
+        {
+          "locator": "transcript-line:196",
+          "text": "Karty Anki: 1716486549798"
+        },
+        {
+          "locator": "transcript-line:197",
+          "text": "GUID: y>/dqIaoHU; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:199",
+          "text": "Metadata původního zdroje pro kartu 1716486549798: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:201",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:203",
+          "text": "Popište dobře formovanou transakci."
+        },
+        {
+          "locator": "transcript-line:205",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:207",
+          "text": "Transakci nazveme dobře formovanou, jesliže:"
+        },
+        {
+          "locator": "transcript-line:209",
+          "text": "- zamyká objekt, pokud k němu chce přistupovat;"
+        },
+        {
+          "locator": "transcript-line:210",
+          "text": "- nezamyká objekt, pokud ho již zamkla,"
+        },
+        {
+          "locator": "transcript-line:211",
+          "text": "- neodemyká objekt, pokud jej nezamkla;"
+        },
+        {
+          "locator": "transcript-line:212",
+          "text": "- po jejím skončení nezůstane žádný objekt zamčený."
+        },
+        {
+          "locator": "transcript-line:214",
+          "text": "## Poznámka Anki 1716486730769"
+        },
+        {
+          "locator": "transcript-line:216",
+          "text": "Karty Anki: 1716486730769"
+        },
+        {
+          "locator": "transcript-line:217",
+          "text": "GUID: Bu5BC}{3xb; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:219",
+          "text": "Metadata původního zdroje pro kartu 1716486730769: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:221",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:223",
+          "text": "Popište legální rozvrh transakcí."
+        },
+        {
+          "locator": "transcript-line:225",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:227",
+          "text": "Rozvrh transakcí nazveme legální, jestliže:"
+        },
+        {
+          "locator": "transcript-line:229",
+          "text": "- v případě, že chce transakce přistoupit k objektu, musí jej uzamknout;"
+        },
+        {
+          "locator": "transcript-line:230",
+          "text": "- v případě, že je objekt již uzamčen jinou transakcí, čeká transakce na jeho odemčení."
+        },
+        {
+          "locator": "transcript-line:232",
+          "text": "## Poznámka Anki 1716487038521"
+        },
+        {
+          "locator": "transcript-line:234",
+          "text": "Karty Anki: 1716487038521"
+        },
+        {
+          "locator": "transcript-line:235",
+          "text": "GUID: em0t<T(Y|X; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:237",
+          "text": "Metadata původního zdroje pro kartu 1716487038521: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:239",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:241",
+          "text": "Popište dvoufázovou transakci."
+        },
+        {
+          "locator": "transcript-line:243",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:245",
+          "text": "Transakci nazveme dvoufázovou, jestliže se skládá z následujících dvou fází:"
+        },
+        {
+          "locator": "transcript-line:247",
+          "text": "- **1. fáze** - transakce uzamyká objekty a provádí operace;"
+        },
+        {
+          "locator": "transcript-line:249",
+          "text": "- **2. fáze** - transakce odemyká objekty a nesmí již žádné objekty zamykat."
+        },
+        {
+          "locator": "transcript-line:251",
+          "text": "## Poznámka Anki 1716487209323"
+        },
+        {
+          "locator": "transcript-line:253",
+          "text": "Karty Anki: 1716487209323"
+        },
+        {
+          "locator": "transcript-line:254",
+          "text": "GUID: n#xq}XRKr<; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:256",
+          "text": "Metadata původního zdroje pro kartu 1716487209323: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:258",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:260",
+          "text": "Popište konstrukci uspořádatelného transakčního rozvrhu."
+        },
+        {
+          "locator": "transcript-line:262",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:264",
+          "text": "Jestliže jsou všechny transakce dobře formované a dvoufázové, pak je každý jejich legální transakční rozvrh uspořádatelný."
+        },
+        {
+          "locator": "transcript-line:266",
+          "text": "## Poznámka Anki 1716487372549"
+        },
+        {
+          "locator": "transcript-line:268",
+          "text": "Karty Anki: 1716487372549"
+        },
+        {
+          "locator": "transcript-line:269",
+          "text": "GUID: j),T9Dz2@j; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:271",
+          "text": "Metadata původního zdroje pro kartu 1716487372549: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:273",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:275",
+          "text": "Popište uspořádatelný rozvrh transakcí."
+        },
+        {
+          "locator": "transcript-line:277",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:279",
+          "text": "Rozvrh transakcí je uspořádatelný, pokud k němu existuje ekvivalentní sériový rozvrh. Uspořádatelné rozvrhy umožňují dodržení vlastnosti independence."
+        },
+        {
+          "locator": "transcript-line:281",
+          "text": "## Poznámka Anki 1716487753435"
+        },
+        {
+          "locator": "transcript-line:283",
+          "text": "Karty Anki: 1716487753435"
+        },
+        {
+          "locator": "transcript-line:284",
+          "text": "GUID: p09CaueKag; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:286",
+          "text": "Metadata původního zdroje pro kartu 1716487753435: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:288",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:290",
+          "text": "Popište stupně izolace."
+        },
+        {
+          "locator": "transcript-line:292",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:294",
+          "text": "Stupně izolace udávají, které z anomálií vznikajících kvůli paralelnímu zpracování transakcí jsou v databázi přípustné. Standard nařizuje nejvyšší úroveň izolace serializable, která nepřipouští žádnou z anomálií. V praxi se nicméně často používá úroveň read commited, která povoluje neopakovatelné čtení a fantom."
+        },
+        {
+          "locator": "transcript-line:296",
+          "text": "## Poznámka Anki 1716487861270"
+        },
+        {
+          "locator": "transcript-line:298",
+          "text": "Karty Anki: 1716487861270"
+        },
+        {
+          "locator": "transcript-line:299",
+          "text": "GUID: i`OZ1Uy6U,; štítky: bi-dbs::p10 bi-spol::06."
+        },
+        {
+          "locator": "transcript-line:301",
+          "text": "Metadata původního zdroje pro kartu 1716487861270: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:303",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:305",
+          "text": "Jak je zajištěna vlastnost consistency transakcí?"
+        },
+        {
+          "locator": "transcript-line:307",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:309",
+          "text": "Consistency je zajištěna přímo v interních algoritmech Data Manipulation Language (DML) a tím, že transakce smí obsahovat více DML příkazů."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.602438+00:00",
+      "transcript_file": "sources/anki-prednaska-10-v1/transcript/anki-prednaska-10-v1.md",
+      "transcript_sha256": "ece58f600e7815414e79b336bb6b514ebda1261facd0f53ca89d0b9aae4cd56f"
+    },
+    "anki-prednaska-11-v1": {
+      "subject_id": "bi-dbs",
+      "source_id": "anki-prednaska-11-v1",
+      "title": "FIT ČVUT Anki – BI-DBS – Přednáška 11",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-dbs/anki-prednaska-11-v1/anki-prednaska-11-v1.zip",
+      "file": "sources/anki-prednaska-11-v1/anki-prednaska-11-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "f6f134af8c83c992d7328ff7ed40e83ceedb29857c8b8fa1a6c2665569d11d97",
+      "topic_ids": [
+        "prednaska-11"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg, SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-DBS – Přednáška 11"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-dbs/BI-DBS.apkg; APKG SHA-256 2adef415f377fbe4eac7b4dd1e452577d8eedea5e207be2be6c2aeb0e90cf4eb. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: 7f054157e2673745662b1c45d22f99de1a01232f0420fd85b7b7f7c2b095d969."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-DBS"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 4 poznámek, 4 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1651509330500"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1651509330500"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: wL/:_{it!9; štítky: bi-dbs::p11."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Metadata původního zdroje pro kartu 1651509330500: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Co je to ROWID?"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "Je to unikátní identifikátor řádku. Využívá se pro implementaci indexů."
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "## Poznámka Anki 1651509553820"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "Karty Anki: 1651509553821"
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "GUID: vrv7l9-/}$; štítky: bi-dbs::p11."
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Metadata původního zdroje pro kartu 1651509553821: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Co je to index a jaké jsou jeho typy? Co je to selektivita klíče indexu?"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Je to pomocná struktura umožňující rychlý přístup k datům podle klíče indexu."
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "**Selektivita **(kardinalita) **klíče **se získá jako \\(\\frac{\\#\\text{různých hodnot}}{\\#\\text{řádků tabulky}}\\)"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "**Typy:**"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "- indexy založené na struktuře B-stromu (vysoká selektivita - blízko 1)"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "- bitmapové indexy (velmi nízká selektivita)"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "## Poznámka Anki 1651510223713"
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "Karty Anki: 1651510223713"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "GUID: mGwMo/)e>L; štítky: bi-dbs::p11."
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "Metadata původního zdroje pro kartu 1651510223713: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "Co je to OLTP? Jaký typ indexu používá?"
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "Online Transaction Processing znamená, že s databází pracuje velké množství uživatelů, vykonávají malé transakce a přístupují náhodně. Používá B-stromové indexy."
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "## Poznámka Anki 1651510309246"
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "Karty Anki: 1651510309246"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "GUID: o?fW7X7Uu{; štítky: bi-dbs::p11."
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "Metadata původního zdroje pro kartu 1651510309246: v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "Co je to DSS a OLAP? Jaké typy indexů používají?"
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "- **DSS** - Decision Support Systems"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "- **OLAP** - Online Analytical Processing"
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "Používají bitmapové indexy."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:42.632628+00:00",
+      "transcript_file": "sources/anki-prednaska-11-v1/transcript/anki-prednaska-11-v1.md",
+      "transcript_sha256": "c0e725178eead3dc719291fb4aa34f1c66205570250cdc5503c59b1635b7290e"
+    }
+  },
+  "checkpoints": []
+}

@@ -1,0 +1,347 @@
+# TILO progress
+- Aktualizováno: 2026-10-18
+- Režim: vysvětlování / procvičování / zkoušení
+- Aktuální kapitola a téma:
+  - Teorie: probrány kapitoly `7TILO_1` až `7TILO_6`.
+  - Další teoretický krok: `7TILO_7` – minimalizace, parciálně rekurzivní funkce a vztah k Turingovým strojům.
+  - Praktikum / cvičení: dokončen návrh jednopáskového TS pro porovnání binárních čísel a návrh 2páskového TS pro filtrování, třídění a výpočet délky slova.
+  - Programovací část: připravena zadání pro Codex na obecný jednopáskový simulátor TS a jeho rozšíření na k-páskový TS.
+
+- Probráno:
+  - `7TILO_1 – Základy, problémy a Turingův stroj`
+    - množiny, relace a funkce;
+    - funkce vs. injekce, surjekce, bijekce;
+    - totální vs. parciální funkce;
+    - abeceda, slovo, `Σ*`, prázdné slovo `ε`;
+    - rozhodovací problém;
+    - rozhodnutelný, částečně rozhodnutelný a nerozhodnutelný problém;
+    - Turingův stroj `M=(Q,Σ,Γ,δ,q₀,F)`;
+    - rozdíl vstupní abecedy `Σ` a páskové abecedy `Γ`;
+    - blank;
+    - přechod `δ(q,a)=(q',b,D)`;
+    - konfigurace, jeden krok `⊢` a konečný počet kroků `⊢*`;
+    - přijímač vs. rozhodovač;
+    - rekurzivní vs. rekurzivně spočetný jazyk.
+  - `7TILO_2 – Kódování TS, univerzální TS, nedeterminismus a nerozhodnutelnost`
+    - konečný popis stroje lze efektivně zakódovat jako `⟨M⟩`;
+    - kóduje se popis/přechody stroje, nikoli jednotlivé kroky konkrétního výpočtu;
+    - univerzální TS `U(⟨M⟩,w)` simuluje `M(w)`;
+    - ekvivalentní/modifikované TS mají stejnou výpočetní sílu;
+    - deterministický vs. nedeterministický TS;
+    - výpočetní strom a existenční přijetí NTS;
+    - NTS lze systematicky simulovat DTS, takže nedeterminismus nezvyšuje výpočetní sílu z hlediska vyčíslitelnosti;
+    - Halting Problem `HP={⟨M,w⟩ | M se na w zastaví}`;
+    - diagonalizační důkaz nerozhodnutelnosti HP přes hypotetický rozhodovač `H` a stroj `D`;
+    - správný směr redukce při důkazu nerozhodnutelnosti: známý nerozhodnutelný problém `A` redukovat na nový problém `B`;
+    - redukce `HP -> UHP`;
+    - konstrukce `M'`: na `x≠w` okamžitě zastaví, na `x=w` simuluje `M(w)`;
+    - klíčová ekvivalence: `M'` se zastaví na všech vstupech právě tehdy, když `M` zastaví na `w`;
+    - Postův korespondenční problém, řešení jako posloupnost indexů.
+  - `7TILO_3 – Složitost, asymptotika, P, NP a redukce`
+    - časová složitost TS a nejhorší případ `T_M(n)`;
+    - asymptotické notace `O`, `Θ`, `o` a význam dolního odhadu;
+    - `P / PTIME`;
+    - `NP / NPTIME`;
+    - vztah `P ⊆ NP` a otázka `P = NP`;
+    - certifikátový pohled na NP;
+    - SAT jako příklad NP-úplného problému;
+    - polynomiální redukce `A ≤p B`;
+    - NP-těžkost a NP-úplnost;
+    - standardní postup důkazu NP-úplnosti:
+      1. ukázat `B ∈ NP`,
+      2. redukovat známý NP-těžký/NP-úplný problém `A` na `B`.
+  - `7TILO_4 – Random Access Machine`
+    - architektura RAM;
+    - pracovní paměť, vstupní/výstupní páska, programová jednotka;
+    - `IC` = instruction counter;
+    - `ALU` = arithmetic logic unit;
+    - pracovní registr / akumulátor;
+    - adresování:
+      - `=i` = konstanta `i`,
+      - `i` = obsah registru `R_i`,
+      - `*i` = nepřímé adresování přes adresu uloženou v `R_i`;
+    - instrukce `READ`, `WRITE`, `LOAD`, `STORE`;
+    - aritmetické instrukce;
+    - `JUMP`, `JZERO`, `JGTZ`, `HALT`;
+    - cenový model RAM;
+    - RAM vs. TS:
+      - TS: páska a sekvenční přístup pohybem hlavy;
+      - RAM: adresované registry a přímý/náhodný přístup;
+      - oba modely mají stejnou výpočetní sílu, nikoli nutně stejnou rychlost.
+  - `7TILO_5 – Počáteční funkce, kombinace, kompozice a primitivní rekurze`
+    - počáteční funkce:
+      - nulová funkce `ζ`,
+      - následník `σ`,
+      - projekce `π_k^n`;
+    - kombinace;
+    - kompozice;
+    - primitivní rekurze:
+      - `f(x,0)=g(x)`,
+      - `f(x,y+1)=h(x,y,f(x,y))`;
+    - definice PRF jako nejmenší třídy obsahující počáteční funkce a uzavřené na kombinaci, kompozici a primitivní rekurzi;
+    - příklady:
+      - `plus`,
+      - `pred`,
+      - `monus(x,y)=max(x-y,0)`;
+    - rozdíl primitivní rekurze jako konstrukčního schématu vs. programové rekurze.
+  - `7TILO_6 – Rozsah PRF, tabulkové funkce, Ackermann a μ-rekurzivní funkce`
+    - PRF jsou vlastní podtřídou totálních vyčíslitelných funkcí;
+    - tabulkové funkce;
+    - charakteristické funkce;
+    - Ackermannova funkce:
+      - `A(0,y)=y+1`,
+      - `A(x+1,0)=A(x,1)`,
+      - `A(x+1,y+1)=A(x,A(x+1,y))`;
+    - význam Ackermannovy funkce: je totální a vyčíslitelná, ale není PRF;
+    - ve značení skript: μ-rekurzivní funkce = totální vyčíslitelné funkce;
+    - odlišení třídy μ-rekurzivních funkcí od operátoru minimalizace `μ`;
+    - diagonalizační konstrukce `f(n)=f_n(n)+1`, která se od každé `f_n` liší na vstupu `n`.
+  - `Praktické DFA`
+    - jazyk slov nad `{a,b}` končících na `a`;
+    - jazyk `L={w∈{a}* | |w| mod 3 = 2}`;
+      - stavy reprezentují zbytky `0,1,2`;
+      - cyklus `q0 --a--> q1 --a--> q2 --a--> q0`;
+      - přijímací `q2`;
+    - jazyk slov délky alespoň 2;
+    - jazyk slov, která obsahují alespoň jedno `a` i alespoň jedno `b`;
+    - upevněno, že DFA nemá pásku ani blank a přijímací stav není automaticky zastavovací.
+  - `Praktické jednopáskové TS – základní konstrukce`
+    - unární sčítání `1^x + 1^y -> 1^(x+y)`;
+    - unární odčítání `1^x - 1^y -> 1^max(x-y,0)`;
+      - bezpečný párovací cyklus: nejprve odebrat pravou `1`, potom levou `1`;
+    - TS pro `L={0^n1^n2^n | n≥1}`;
+      - párování pomocí pracovních značek `X,Y,Z`;
+      - nutnost hlídat nejen počty, ale i pořadí bloků;
+    - sudý palindrom nad `{a,b}`;
+    - lichý palindrom nad `{a,b}`;
+    - binární inkrement;
+    - binární dekrement;
+    - binární sčítání;
+    - binární odčítání `max(x-y,0)`;
+    - kódování a dekódování TS.
+  - `Cvičení – jednopáskový TS pro porovnání binárních čísel`
+    - zadání: pro vstup `x>y` ponechat na pásce `1`, pokud `x>y`, jinak `0`;
+    - zvolený algoritmus:
+      - opakovaně dekrementovat oba operandy;
+      - sledovat, který operand se vyčerpá dříve;
+      - při rovnosti se vyprázdní oba současně;
+    - binární dekrement:
+      - zprava doleva měnit `0->1`,
+      - první `1->0` ukončí výpůjčku;
+    - odstraňování vedoucí nuly;
+    - u pravého operandu posun zbývajícího bloku doleva, pokud po odstranění vedoucí nuly vznikne mezera;
+    - přesouvaný bit `0/1` se pamatuje stavem;
+    - kontrola nenulovosti obou operandů mezi cykly;
+    - větve:
+      - `x>y -> 1`,
+      - `x=y -> 0`,
+      - `x<y -> 0`;
+    - úklid pásky tak, aby zůstal jediný výsledný bit;
+    - ručně rozebrán běh pro `100>10`;
+    - upevněno, že počet kroků se sleduje zvenku, nemusí být součástí TS;
+    - přesný úplný seznam všech přechodů nebyl dopsán, ale algoritmus a hlavní stavové části byly projity;
+    - časovou a prostorovou složitost jsme pro účely postupu dále považovali za ručně dopočítanou.
+  - `Programovací Úkol 2 – obecný jednopáskový simulátor TS`
+    - připraveno samostatné Markdown zadání pro Codex;
+    - návrh tříd:
+      - `Tape`,
+      - `Transition`,
+      - `State`,
+      - `Machine`;
+    - páska přes Python `dict`, neexistující buňky jako blank `#`;
+    - podpora záporných indexů;
+    - `step()`, `run()`, `max_steps`, `trace`;
+    - `step_count`;
+    - sledování použitých/navštívených buněk;
+    - logika konkrétního problému má být pouze v přechodech, nikoli v Pythonových zkratkách.
+  - `Cvičení – k-páskový Turingův stroj`
+    - zvoleno `k=2`;
+    - `T1` = vstupní a výsledná páska;
+    - `T2` = pomocná pracovní páska;
+    - vstupní abeceda `Σ={a,b,c,d,e}`;
+    - pásková abeceda `Γ={a,b,c,d,e,0,1,#}`;
+    - úloha:
+      - odstranit `a` a `e` na sudých pozicích původního slova;
+      - zbytek vzestupně setřídit;
+      - za slovo zapsat jeho délku binárně, oddělenou `#`;
+    - pro zadaný vstup je správný výsledek:
+      - `aaaabbbccccdddeeeee#10011`;
+      - délka je `19 = 10011₂`;
+    - filtrování a třídění:
+      - T1 zůstává při průchodech souvislá;
+      - symboly se fyzicky nemažou z T1, ale nežádoucí `a/e` se prostě nekopírují na T2;
+      - pět průchodů T1, postupně sbírat `a`, `b`, `c`, `d`, `e`;
+      - pro `a` a `e` se parita původní pozice drží stavem (`Odd/Even`);
+      - pro `b`, `c`, `d` parita není potřeba;
+      - tím vznikne na T2 rovnou filtrované a setříděné slovo;
+    - výpočet délky:
+      - T1 se vyčistí a inicializuje čítačem `0`;
+      - pro každý znak filtrovaného slova na T2 se provede binární inkrement na T1;
+      - inkrement:
+        - `1->0` a pokračovat doleva,
+        - první `0->1` ukončí přenos,
+        - při přetečení `#->1`;
+      - po zpracování 19 znaků je na T1 `10011`;
+    - finalizace:
+      - binární délka se zkopíruje z T1 za setříděné slovo na T2 s jedním oddělovacím `#`;
+      - T1 se vyčistí;
+      - celý výsledek se přesune z T2 na T1 a T2 se současně vymaže;
+      - konec:
+        - `T1: aaaabbbccccdddeeeee#10011`,
+        - `T2`: pouze blanky;
+    - časová složitost = počet společných kroků/přechodů k-páskového TS;
+    - prostorová složitost = maximálně použité/navštívené buňky; prakticky sledovat T1 a T2 zvlášť a případně uvést součet;
+    - ruční dopočet časové a prostorové složitosti byl pro úsporu času považován za dokončený.
+  - `Programovací Úkol 2 – obecný k-páskový simulátor`
+    - připraveno samostatné Markdown zadání pro Codex;
+    - rozšíření předchozího simulátoru bez přepsání jednopáskové verze;
+    - každý přechod pracuje současně s n-ticí čtených symbolů, zapisovaných symbolů a pohybů;
+    - každá páska má vlastní hlavu;
+    - požadováno trasování, `step_count`, statistiky použitých buněk a testy;
+    - konkrétní 2páskový TS má být realizován výhradně přechody, bez použití Pythonových `sorted`, `len`, `bin`, `Counter` apod. k obejití výpočtu.
+  - `Meta-pravidlo pro návrh stavů`
+    - explicitně upevněno: nový stav zavádět jen tehdy, když nese novou informaci potřebnou pro budoucí rozhodnutí;
+    - pokud se pro více symbolů chováme stejně, použít jeden stav a více přechodů;
+    - příklad správného zjednodušení: jeden návratový stav pro stejnou logiku návratu, pokud není nutné pamatovat, která fáze má následovat;
+    - naopak různé návratové stavy jsou oprávněné, pokud stav musí pamatovat, zda po návratu spustit průchod pro `b`, `c`, `d` nebo `e`.
+
+- Zvládnuté definice:
+  - funkce, injekce, surjekce, bijekce;
+  - totální a parciální funkce;
+  - rozhodovací problém;
+  - rozhodnutelný, částečně rozhodnutelný, nerozhodnutelný problém;
+  - komponenty TS `M=(Q,Σ,Γ,δ,q₀,F)`;
+  - význam přechodu `δ(q,a)=(q',b,D)`;
+  - konfigurace, `⊢`, `⊢*`;
+  - přijímač vs. rozhodovač;
+  - rekurzivní vs. rekurzivně spočetný jazyk;
+  - význam `⟨M⟩`;
+  - univerzální TS;
+  - deterministický vs. nedeterministický TS;
+  - HP, UHP a základ PCP;
+  - časová složitost `T_M(n)`;
+  - `O`, `Θ`, `o`;
+  - `P`, `NP`, certifikát;
+  - polynomiální redukce;
+  - NP-těžký vs. NP-úplný;
+  - RAM, IC, ALU, adresování `=i / i / *i`;
+  - význam hlavních RAM instrukcí;
+  - počáteční funkce `ζ`, `σ`, `π_k^n`;
+  - kombinace, kompozice, primitivní rekurze;
+  - definice PRF;
+  - tabulková a charakteristická funkce;
+  - Ackermannova funkce;
+  - rozdíl μ-rekurzivní funkce vs. operátor minimalizace `μ`;
+  - rozdíl výpočetní síla vs. výpočetní složitost;
+  - časová/prostorová složitost konkrétního běhu TS;
+  - princip k-páskového přechodu – jeden společný krok pracuje se všemi páskami.
+
+- Zvládnuté příklady/postupy:
+  - čtení konfigurace TS a určení polohy hlavy;
+  - jeden krok TS doprava i doleva;
+  - DFA modulo 3;
+  - DFA pro „končí na a“;
+  - DFA pro délku alespoň 2;
+  - DFA pro přítomnost `a` i `b`;
+  - kostra diagonalizačního důkazu HP;
+  - redukce `HP -> UHP`;
+  - určení nejhoršího času `T_M(n)` z více běhů;
+  - rozlišení `O`, `Θ`, `o`;
+  - standardní důkaz NP-úplnosti;
+  - RAM adresování a výměna registrů;
+  - PRF konstrukce `plus`, `pred`, `monus`;
+  - diagonalizační konstrukce `f(n)=f_n(n)+1`;
+  - unární sčítání a odčítání;
+  - binární inkrement a dekrement;
+  - TS pro `0^n1^n2^n`;
+  - princip sudého a lichého palindromu;
+  - porovnání binárních čísel pomocí opakovaného dekrementu;
+  - posun bloku na pásce pomocí stavů nesoucích právě přesouvaný bit;
+  - filtrování podle parity pozice bez rozšíření abecedy;
+  - třídění pomocí opakovaných průchodů a pomocné pásky;
+  - binární čítač délky slova;
+  - návrh obecného jedno- i k-páskového simulátoru TS.
+
+- Slabá místa a časté chyby:
+  - `7TILO_1–2`
+    - nezaměňovat funkci s bijekcí;
+    - přesně formulovat surjekci a rozdíl cílové množiny oproti obrazu;
+    - u parciální funkce odlišit povolené vstupy od skutečného definičního oboru;
+    - přijímač „přijme“, rozhodovač „rozhodne“;
+    - rekurzivně spočetný jazyk neznamená, že algoritmus vždy doběhne;
+    - `⟨M⟩` je kód popisu stroje, ne jeho výstup;
+    - kódují se přechody/popisy stroje, ne kroky konkrétního výpočtu;
+    - `ε` jako prázdné slovo nelze bez konvence chápat jako běžný oddělovač v kódu;
+    - HP je problém zastavení, ne přijetí/odmítnutí;
+    - směr redukce při důkazu nerozhodnutelnosti stále hlídat;
+    - u `HP -> UHP` přesně formulovat „právě tehdy, když“;
+    - ekvivalence modelů neznamená stejnou rychlost.
+  - `7TILO_3`
+    - `O` je horní odhad až na konstantní násobek;
+    - `P` a `NP` jsou třídy problémů;
+    - `NP` neznamená více výstupů jednoho vstupu;
+    - NP-těžký problém nemusí patřit do NP;
+    - při důkazu NP-těžkosti hlídat směr `A ≤p B`.
+  - `7TILO_4`
+    - IC není mezipaměť;
+    - ALU není jeden logický gate;
+    - `JZERO/JGTZ` testují pracovní registr a mění IC;
+    - `HALT` = ukončení, ne pozastavení;
+    - `*i` = nepřímé adresování;
+    - vstupní/výstupní páska RAM nejsou program;
+    - random access neznamená větší výpočetní sílu než TS.
+  - `7TILO_5–6`
+    - primitivní rekurze je konstrukční schéma, PRF je třída/funkce z této třídy;
+    - u kompozice musí typově sedět vstup a výstup;
+    - nezaměňovat „totální“ a „konečná“;
+    - `f_n` v diagonalizaci je n-tá konkrétní PRF;
+    - přesně říkat, že `f` a `f_n` mají na stejném vstupu `n` různé výstupy;
+    - odlišovat μ-rekurzivní funkce od operátoru `μ`;
+    - ještě je vhodné zopakovat intuitivní zdůvodnění, proč Ackermannova funkce není PRF.
+  - `DFA / TS`
+    - u DFA nepoužívat pojmy páska/blank;
+    - přijímací stav DFA není automaticky zastavovací;
+    - blank TS není „konec pásky“;
+    - u `0^n1^n2^n` kontrolovat i pořadí bloků;
+    - u palindromu hledat pravý krajní nezpracovaný symbol, ne jen mechanicky „o jedno zpět od blanku“;
+    - u binárního dekrementu začínat na pravém konci;
+    - po nalezení první `1` při dekrementu výpůjčka končí;
+    - před rozhodnutím, že jedna strana je větší, správně ošetřit případ, kdy se vyprázdnily oba operandy;
+    - při počítání kroků započítat i kontrolní průchody, ne jen přepisy bitů;
+    - praktické TS konstrukce jsou algoritmicky pochopené lépe než formálně dopsané – úplné přechodové tabulky/diagramy nejsou u všech starších úloh hotové.
+  - `Návrh stavů`
+    - nezavádět zbytečně granulární stavy;
+    - nový stav jen tehdy, když musí uchovat novou informaci, kterou nelze zjistit z právě čtených symbolů;
+    - pokud více symbolů vede ke stejné logice, použít jeden stav a více přechodů.
+  - `k-páskový TS`
+    - pro `a/e` na sudých pozicích je správné je do výsledku nekopírovat;
+    - při počítání délky počítat již filtrované/setříděné slovo na T2, ne původní vstup;
+    - před vymazáním T1 je nutné zachovat binární délku přenesením na T2;
+    - při finalizaci rozlišit oddělovací `#` uvnitř výsledku od skutečného konce výsledku pomocí stavu.
+
+- Poslední otázka nebo úloha:
+  - Dokončen návrh Úkolu 1 z cvičení „k-páskový Turingův stroj“.
+  - Výsledný algoritmus:
+    1. pět průchodů T1 a sestavení filtrovaného/setříděného slova na T2,
+    2. vyčištění T1 a inicializace binárního čítače `0`,
+    3. za každý znak T2 binární inkrement čítače na T1,
+    4. přenos binární délky za slovo na T2,
+    5. vyčištění T1,
+    6. přesun kompletního výsledku z T2 na T1 se současným vyčištěním T2.
+  - Ruční počet kroků a použitých buněk byl pro úsporu času považován za dokončený.
+
+- Doporučený další krok:
+  - Teorie: začít `7TILO_7 – minimalizace, parciálně rekurzivní funkce a vztah k TS`.
+  - Pokud chceš pokračovat prakticky: otevřít další XTILO/cvičení a řešit je stejným stylem – nejprve algoritmus, potom stavy/přechody, nakonec složitost.
+  - Před zkouškou se vrátit k formálnímu zápisu alespoň jednoho kompletního jednopáskového a jednoho kompletního k-páskového TS, aby se algoritmické pochopení přeneslo i do přesného zápisu.
+  - Doporučené krátké opakování před `7TILO_7`: PRF, Ackermann, μ-rekurzivní funkce, význam operátoru minimalizace `μ`.
+
+- Co zopakovat na začátku příštího sezení:
+  - rozdíl μ-rekurzivní funkce vs. operátor minimalizace `μ`;
+  - definici PRF a proč jsou PRF totální;
+  - proč Ackermannova funkce ukazuje, že `PRF` netvoří všechny totální vyčíslitelné funkce;
+  - přijímač vs. rozhodovač a rekurzivní vs. rekurzivně spočetný jazyk;
+  - směr redukcí u nerozhodnutelnosti a NP-těžkosti;
+  - pravidlo pro návrh stavů: stav má nést jen skutečně potřebnou informaci;
+  - binární inkrement/dekrement na pásce;
+  - princip práce více pásek v jednom společném kroku.

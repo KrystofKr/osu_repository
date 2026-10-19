@@ -1,0 +1,1278 @@
+{
+  "schema_version": 1,
+  "subject_id": "apai",
+  "name": "APAI – Architektury počítačů umělé inteligence",
+  "goals": [
+    "Porozumět látce předmětu APAI podle dodaných studijních materiálů."
+  ],
+  "created_at": "2026-10-15T14:41:25.504876+00:00",
+  "topics": {
+    "ai-a-specificky-hardware": {
+      "subject_id": "apai",
+      "topic_id": "ai-a-specificky-hardware",
+      "title": "Proč AI potřebuje specifický hardware",
+      "objectives": [
+        "Vysvětlit vztah AI úloh, trénování, inference a výpočetní infrastruktury."
+      ],
+      "prerequisites": [],
+      "status": "demonstrated",
+      "misconceptions": [
+        "Přetrvává pouze neověřené upřesnění z předchozí aktivity: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "review_on": "2026-10-17"
+    },
+    "vykon-a-efektivita": {
+      "subject_id": "apai",
+      "topic_id": "vykon-a-efektivita",
+      "title": "Jak správně měřit výkon a efektivitu",
+      "objectives": [
+        "Rozlišit latenci, propustnost, přesnost výpočtů a energetickou efektivitu."
+      ],
+      "prerequisites": [],
+      "status": "practicing",
+      "misconceptions": [
+        "Na poskytnutém scénáři nyní správně vypočítal, proč dvojnásobné zrychlení akcelerátoru nezaručuje poloviční čas celé aplikace. Samostatné vytvoření konkrétního protipříkladu k odvozování výkonu aplikace z TOPS zůstává pro opakování s odstupem."
+      ],
+      "review_on": "2026-10-20"
+    },
+    "cpu-a-isa": {
+      "subject_id": "apai",
+      "topic_id": "cpu-a-isa",
+      "title": "CPU a jejich instrukční architektury",
+      "objectives": [
+        "Rozlišit CPU, instrukční architekturu, mikroarchitekturu a paměťovou hierarchii."
+      ],
+      "prerequisites": [],
+      "status": "demonstrated",
+      "misconceptions": [],
+      "review_on": "2026-10-20"
+    },
+    "gpu-tpu-npu-vpu": {
+      "subject_id": "apai",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "title": "GPU, TPU, NPU a VPU – přehled akcelerátorů",
+      "objectives": [
+        "Porovnat úlohy a principy hlavních AI akcelerátorů."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "integrovane-obvody-a-asic": {
+      "subject_id": "apai",
+      "topic_id": "integrovane-obvody-a-asic",
+      "title": "Integrované obvody a ASIC",
+      "objectives": [
+        "Vysvětlit princip ASIC a základní hlediska jejich návrhu a použití."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "fpga": {
+      "subject_id": "apai",
+      "topic_id": "fpga",
+      "title": "FPGA – programovatelný hardware",
+      "objectives": [
+        "Vysvětlit strukturu FPGA, konfiguraci, HDL a vhodnost pro AI."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "soc-som-mcu-mpu": {
+      "subject_id": "apai",
+      "topic_id": "soc-som-mcu-mpu",
+      "title": "SoC, SoM, MCU a MPU",
+      "objectives": [
+        "Rozlišit způsoby integrace a rozdíly mezi MCU a MPU."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "edge-ai": {
+      "subject_id": "apai",
+      "topic_id": "edge-ai",
+      "title": "Edge AI a nasazení modelů",
+      "objectives": [
+        "Porovnat cloud a edge a vysvětlit optimalizaci modelu pro zařízení."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "jetson-nano": {
+      "subject_id": "apai",
+      "topic_id": "jetson-nano",
+      "title": "NVIDIA Jetson Nano",
+      "objectives": [
+        "Popsat architekturu platformy Jetson Nano a výpočetní tok."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "coral-a-freertos": {
+      "subject_id": "apai",
+      "topic_id": "coral-a-freertos",
+      "title": "Google Coral a FreeRTOS",
+      "objectives": [
+        "Rozlišit zařízení Coral, Edge TPU a úlohu FreeRTOS a TinyML."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "iot-a-prumysl-4": {
+      "subject_id": "apai",
+      "topic_id": "iot-a-prumysl-4",
+      "title": "Internet věcí, komunikace a průmysl 4.0",
+      "objectives": [
+        "Vysvětlit IoT architekturu, komunikaci a využití AI v průmyslu."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "mobilni-ai": {
+      "subject_id": "apai",
+      "topic_id": "mobilni-ai",
+      "title": "AI v mobilních zařízeních",
+      "objectives": [
+        "Popsat využití AI a heterogenní architekturu mobilních zařízení."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "hpc": {
+      "subject_id": "apai",
+      "topic_id": "hpc",
+      "title": "Superpočítače a HPC pro AI",
+      "objectives": [
+        "Vysvětlit HPC, paralelní výpočty a význam výkonnostních benchmarků."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "kvantove-pocitace": {
+      "subject_id": "apai",
+      "topic_id": "kvantove-pocitace",
+      "title": "Kvantové počítače – potenciál a limity",
+      "objectives": [
+        "Vysvětlit qubit, superpozici, provázání a omezení kvantových výpočtů pro AI."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "srovnani-architektur": {
+      "subject_id": "apai",
+      "topic_id": "srovnani-architektur",
+      "title": "Srovnání a výběr architektury",
+      "objectives": [
+        "Zdůvodnit výběr architektury podle požadavků konkrétní úlohy."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "kontrolni-otazky": {
+      "subject_id": "apai",
+      "topic_id": "kontrolni-otazky",
+      "title": "Kontrolní otázky a odpovědi",
+      "objectives": [
+        "Ověřit porozumění látce pomocí kontrolních otázek."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "slovnicek-a-zdroje": {
+      "subject_id": "apai",
+      "topic_id": "slovnicek-a-zdroje",
+      "title": "Slovníček, poznámky a zdroje",
+      "objectives": [
+        "Orientovat se v terminologii, původu podkladů a věcných upřesněních."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    }
+  },
+  "sources": {
+    "studijni-skripta-v1": {
+      "subject_id": "apai",
+      "source_id": "studijni-skripta-v1",
+      "title": "Architektury počítačů umělé inteligence – studijní skripta",
+      "version": "1",
+      "priority": "primary",
+      "original_path": "/home/grogy/osu_repository/Architektury_pocitacu_AI_studijni_skripta.pdf",
+      "file": "sources/studijni-skripta-v1/Architektury_pocitacu_AI_studijni_skripta.pdf",
+      "sha256": "04544ad0e7f2c96ef20bdce16b128948ad2cc477f08b1e5a8f5b78e7ef896a85",
+      "topic_ids": [
+        "ai-a-specificky-hardware",
+        "vykon-a-efektivita",
+        "cpu-a-isa",
+        "gpu-tpu-npu-vpu",
+        "integrovane-obvody-a-asic",
+        "fpga",
+        "soc-som-mcu-mpu",
+        "edge-ai",
+        "jetson-nano",
+        "coral-a-freertos",
+        "iot-a-prumysl-4",
+        "mobilni-ai",
+        "hpc",
+        "kvantove-pocitace",
+        "srovnani-architektur",
+        "kontrolni-otazky",
+        "slovnicek-a-zdroje"
+      ],
+      "indexed": true,
+      "extraction_note": "Textový index obsahuje nečitelné znaky na stranách 1, 4, 5, 10, 13, 14, 18; matematické zápisy a příslušné stránky vyžadují vizuální kontrolu originálu.",
+      "note": "Uživatel při dodání výslovně přiřadil soubor k APAI – Architektury počítačů umělé inteligence. Převzatý originál; dřívější pracovní kopie odstraněna podle přání uživatele. Dokument uvádí zpracování v říjnu 2026, syntézu devíti přednáškových prezentací a vlastní výkladová doplnění; nejde podle jeho označení o oficiální publikaci vyučujícího. Původní prezentace uvedené v dokumentu nejsou součástí této dodávky a nebyly samostatně ověřeny. Produktové parametry jsou uvedeny jako historické příklady. PDF načteno projektovým virtuálním prostředím s pypdf; ověřeno 24 textových stran. Tematické členění vychází z obsahu a nadpisů; cíle témat jsou pracovní orientační formulace, nikoli potvrzené požadavky ke zkoušce. Rozsahy se překrývají, pokud kapitoly sdílejí stránku. Mapa kapitol: ai-a-specificky-hardware: s. 3; vykon-a-efektivita: s. 4–5; cpu-a-isa: s. 5–6; gpu-tpu-npu-vpu: s. 6–7; integrovane-obvody-a-asic: s. 8; fpga: s. 9–10; soc-som-mcu-mpu: s. 10–11; edge-ai: s. 11–12; jetson-nano: s. 12–13; coral-a-freertos: s. 13–14; iot-a-prumysl-4: s. 14–15; mobilni-ai: s. 16; hpc: s. 17–18; kvantove-pocitace: s. 18–19; srovnani-architektur: s. 19–20; kontrolni-otazky: s. 20–22; slovnicek-a-zdroje: s. 23–24",
+      "passages": [
+        {
+          "locator": "page:1",
+          "text": "STUDIJNÍ SKRIPTA / OSTRAVSKÁ UNIVERZITA\nArchitektury počítačů\numělé inteligence\nJednotný, tematicky uspořádaný výklad k devíti přednáškovým prezentacím.\nTÉMATA\nCPU, GPU, TPU, VPU, NPU · ASIC a FPGA · SoC a SoM · Jetson, Coral · Edge AI a IoT · HPC · kvantové počítače\nFORMA\nDefinice \u0000 princip \u0000 porovnání \u0000 praktické příklady \u0000 kontrolní otázky\nPODKLAD\nPrezentace 7APAI_01, 7APAI_02_s, 7APAI_03, 7APAI_ASIC, 7APAI_FPGA, 7APAI_Coral, 7APAI_Jetson_Nano, 7APAI_IoT a\n7APAI_Mob\nJak rozlišovat původ: běžný výklad syntetizuje přednášky. Modré boxy s názvem Vysvětlení navíc představují výkladové\ndoplnění. Žluté boxy označují upřesnění či upozornění. Číselné parametry konkrétních produktů jsou historickými příklady z\nprezentací, nikoli aktuálním nákupním srovnáním.\nZpracováno: říjen 2026 · Studijní materiál, nikoli oficiální publikace vyučujícího.\n"
+        },
+        {
+          "locator": "page:2",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n2\nObsah\nPro studium je vhodné postupovat od principů k architekturám a teprve pak ke konkrétním zařízením.\n3\nProč AI potřebuje specifický hardware\n4\nJak správně měřit výkon a efektivitu\n5\nCPU a jejich instrukční architektury\n6\nGPU, TPU, NPU a VPU – přehled akcelerátorů\n8\nIntegrované obvody a ASIC\n9\nFPGA – programovatelný hardware\n10\nSoC, SoM, MCU a MPU\n11\nEdge AI a nasazení modelů\n12\nNVIDIA Jetson Nano\n13\nGoogle Coral a FreeRTOS\n14\nInternet věcí, komunikace a průmysl 4.0\n16\nAI v mobilních zařízeních\n17\nSuperpočítače a HPC pro AI\n18\nKvantové počítače – potenciál a limity\n19\nSrovnání a výběr architektury\n20\nKontrolní otázky a odpovědi\n23\nSlovníček, poznámky a zdroje\nDOPORUČENÝ ZPŮSOB UČENÍ\n1. Nejprve si vysvětli pojmy vlastními slovy. 2. U každé architektury určete, co je programovatelné, co je pevně dáno a\njak se měří výkon. 3. Nakresli vlastní diagram. 4. Zkus kontrolní otázky bez nahlížení do odpovědí.\n"
+        },
+        {
+          "locator": "page:3",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n3\nKAPITOLA 01\nProč AI potřebuje specifický hardware\nOd matematických operací k požadavkům na výpočetní systém.\nZe zdrojů: 7APAI_01, snímky 2–11, 22–27.\n1.1 AI, strojové učení a hluboké učení\nUmělá inteligence (AI) je širší oblast metod umožňujících vykonávat úlohy vyžadující inteligentní zpracování\ninformací. Strojové učení (ML) zahrnuje metody, které odvozují pravidla nebo parametry z dat. Hluboké učení\n(DL) je podmnožinou ML založenou zejména na vícevrstvých neuronových sítích.\nPrezentace zdůrazňují, že AI nemusí obsahovat jednu extrémně komplikovanou operaci: typicky opakuje\nobrovské množství relativně jednoduchých výpočtů. V neuronové síti jsou to zejména násobení a sčítání při práci\ns vektory, maticemi a tenzory.\nHybridní ML podle výkladu přednášek kombinuje data, znalosti a kontext; například statistický prediktor\ndoplněný pravidly nebo znalostní reprezentací. Jde o přístup k návrhu řešení, nikoli o konkrétní typ procesoru.\n1.2 Trénování vs. inference\nTrénování (training)\nInference (nasazení modelu)\nParametry modelu se mění podle trénovacích dat.\nParametry jsou zpravidla pevné; pro nový vstup se počítá\nvýsledek.\nTypicky vysoké nároky na výpočetní výkon, paměť, datové\npipeline a komunikaci.\nČasto je kritická latence, energie, cena za dotaz a velikost modelu.\nObvykle GPU/TPU nebo distribuovaný cluster.\nCPU, GPU, NPU, VPU, Edge TPU či mikrokontrolér podle úlohy.\nPříklad: síť pro rozpoznání člověka v obraze se vytrénuje na velkém souboru dat, ale na dveřní kameře může\nběžet pouze její inference. Není nutné instalovat trénovací cluster do každé kamery.\nVstupní data\nobraz, text, senzor\nModel\nmaticové výpočty\nVýstup\nklasifikace, odhad\nZrychlení výpočtů bývá spojeno s paralelismem a pohybem dat.\nZjednodušený datový tok inference. Při trénování navíc existuje výpočet chyby a aktualizace parametrů.\n1.3 Výpočetní infrastruktura AI\n • Výpočet: CPU a akcelerátory provádějí operace.\n • Paměť a úložiště: drží data, váhy, mezivýsledky a checkpointy.\n • Síť: přenáší data a synchronizuje více uzlů; u lokálního edge zařízení může mít menší roli.\n "
+        },
+        {
+          "locator": "page:4",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n4\nVYSVĚTLENÍ NAVÍC\nTypické jádro výpočtu je násobení s akumulací MAC: akumulátor \u0000 akumulátor + (a × b). Například výpočet neuronu z =\nw₁x₁ + w₂x₂ + … + b obsahuje mnoho MAC. Akcelerátory nejsou „inteligentní“ samy o sobě; jejich zapojení odpovídá\noperacím, které algoritmy často vyžadují.\nZAPAMATUJ SI\nZásadní rozdíl: architektura říká, jak hardware pracuje; workload říká, co na něm počítáme. Dobrý výběr vyžaduje\nobojí.\nKAPITOLA 02\nJak správně měřit výkon a efektivitu\nCo vlastně znamenají FLOPS, TOPS, latence, propustnost a paměťová propustnost.\nZe zdrojů: 7APAI_01, sn. 3–4, 14–17, 30–49; 7APAI_03, sn. 4, 9, 16–18.\n2.1 Latence, throughput a paralelismus\n • Latence: čas pro jeden požadavek; typicky ms/inference.\n • Propustnost (throughput): počet úloh zpracovaných za sekundu, např. obrázků/s.\n • Paralelismus: současné provádění nezávislých operací nebo částí výpočtu.\n • Škálování: změna výkonu při přidání jader, akcelerátorů nebo serverů.\n Nízká latence a vysoká propustnost nejsou totéž. Velká GPU může dávkovým zpracováním (batching) výrazně\nzvýšit propustnost, aniž by zkrátila odezvu jednotlivého požadavku.\n2.2 FLOPS, TOPS a přesnost\nMetrika\nCo měří\nPozor\nFLOPS / GFLOPS / TFLOPS\nOperace s plovoucí řádovou čárkou za sekundu.\nZáleží na FP64, FP32, FP16, BF16 aj.\nTOPS\nBiliony (10¹²) operací/s; často celočíselné INT8.\nBez uvedení datového typu a metodiky\nnejde výkon srovnávat.\nRpeak\nTeoretický špičkový výkon.\nNení to skutečný výkon aplikace.\nRmax\nNaměřený výkon benchmarku LINPACK.\nMěří konkrétní výpočet; nikoli automaticky\nvýkon DL.\nPřednášky uvádějí například 4 TOPS (INT8) u Google Edge TPU a přibližně 0,5 TFLOPS (FP16) u Jetson Nano.\nTyto hodnoty se nedají přímo porovnat: liší se typy operací, přesnost, architektura i způsob vykazování.\nVYSVĚTLENÍ NAVÍC – PAMĚŤOVÁ ZEĎ\nPro výpočet záleží nejen na maximálních operacích/s, ale i na rychlosti přísunu dat. Operační intenzita = počet operací\n/ počet přečtených a zapsaných bajtů. Přibližný horní limit: výkon \u0000 min(špičkový výkon čipu, propustnost paměti ×\noperační intenzita). Tento princip se nazývá roofline model.\n"
+        },
+        {
+          "locator": "page:5",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n5\n2.3 Energie a celkové náklady\nMnoho edge zařízení se posuzuje pomocí wattů, energie na inferenci a nároků na chlazení. Hrubý odhad: E = P\n× t. Zařízení s příkonem 2 W, které úlohu provede za 0,5 s, spotřebuje na tuto operaci při tomto příkonu asi 1 J.\nCelková spotřeba se však liší podle dalších komponent a provozního režimu.\nU velkých clusterů se hodnotí výkon na watt (např. žebříček Green500), infrastruktura chlazení i cena přenosu\ndat. Vysoké TOPS bez dostatečné paměti nebo kompatibility modelu neznamenají kvalitní řešení.\nVYSVĚTLENÍ NAVÍC – OMEZENÍ PARALELIZACE\nAmdahlův zákon pro urychlení pomocí n jednotek: S(n) = 1 / ((1 \u0000 p) + p/n), kde p je paralelizovatelný podíl práce.\nPokud lze paralelizovat 90 % programu, ani nekonečný počet jader nepřinese více než 10× zrychlení.\n2.4 Otázky, které položit nad každým benchmarkem\n • Jaký datový typ a přesnost jsou použity?\n • Jde o teoretické maximum, měření kernelu nebo aplikace?\n • Jaká je velikost dávky (batch) a modelu?\n • Započítává výsledek přenos do zařízení a z něj?\n • Je dosažený výkon limitován výpočty, pamětí, nebo sítí?\n \nKAPITOLA 03\nCPU a jejich instrukční architektury\nProč jsou univerzální procesory stále nezbytné i v AI systémech.\nZe zdrojů: 7APAI_02_s, sn. 6–8, 23–31; 7APAI_03, sn. 10–18.\n3.1 CPU: řídicí a univerzální část systému\nCPU je univerzální procesor s rozsáhlou sadou instrukcí, hierarchií cache a řízením toku programu. V AI zajišťuje\npřípravu a přesuny dat, operační systém, I/O, serializační části programu i vlastní inferenci menších modelů.\nOproti specializovaným akcelerátorům nabízí širokou kompatibilitu a vysokou flexibilitu.\n3.2 ISA vs mikroarchitektura\nISA (Instruction Set Architecture) je instrukční rozhraní viditelné programátorovi a překladači.\nMikroarchitektura je konkrétní implementace (pipeline, cache, pořadí vykonávání, predikce větvení). ARM,\nMIPS a x86 jsou rodiny ISA; dvě CPU se stejnou ISA se výkonem i spotřebou mohou zásadně lišit.\nRodina\nTypické charakteristiky a příklady v podkladech\nARM\nRISC tradice, významné využití v mobilech, MCU, SoC, serverech; Cortex-M/A, Apple Silicon, Ampere.\nMIPS\nRISC ISA; historicky embedded systémy, konzole a síťová zařízení. Přednášky ukazují MIPS M62xx a\npipelining.\nx86\nVýznamné PC a servery; Intel Meteor Lake, AMD EPYC a Ryzen. Moderní implementace jsou interně\nvelmi pokročilé.\n"
+        },
+        {
+          "locator": "page:6",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n6\n3.3 RISC, CISC, pipeline a heterogenní jádra\nRISC a CISC jsou historické koncepce ISA. Není správné odvozovat výkon nebo energetickou účinnost pouze z\noznačení ARM/RISC proti x86/CISC. Rozhoduje konkrétní čip, výrobní technologie a software.\nPipelining rozděluje zpracování instrukce do etap (např. načtení, dekódování, vykonání, zápis). Více instrukcí se\nsoučasně nachází v různých etapách; zvyšuje se průchodnost, nikoli nutně latence jedné instrukce.\nHeterogenní CPU kombinují výkonná a úsporná jádra. Přednáška zmiňuje Intel Meteor Lake (dlaždicové\nuspořádání) a Apple Silicon s kombinací CPU, GPU a Neural Engine.\nPŘÍKLAD Z PREZENTACÍ\nApple M2 Ultra demonstruje integraci výkonných a úsporných CPU jader, GPU, paměti a Neural Engine; AMD EPYC a\nIntel Xeon demonstrují serverové platformy. Konkrétní počty jader, frekvence a procesy na slidech se vztahují k\nuvedeným generacím, nikoli k „typickému ARM či x86“.\n3.4 Paměťová hierarchie\nRegistry jsou nejrychlejší, ale velmi malé; následují cache L1/L2/L3, operační paměť a úložiště. Pokud data\nopakovaně čteme z pomalé paměti, může se snížit efektivní výkon i u výkonného CPU. Pro výpočty AI je proto\ndůležitá lokálnost dat, vektorové instrukce a dostupnost efektivních knihoven.\nKAPITOLA 04\nGPU, TPU, NPU a VPU – přehled\nakcelerátorů\nRozdíl mezi masivním paralelismem a výpočty prováděnými účelovými jednotkami.\nZe zdrojů: 7APAI_01, sn. 27–49; 7APAI_Mob, sn. 4, 13–22.\n4.1 GPU (Graphics Processing Unit)\nGPU vznikly pro grafické výpočty a disponují mnoha paralelně pracujícími výpočetními jednotkami. V DL se\npoužívají k operacím s tenzory, zejména násobení matic, konvolucím a gradientům. Jsou důležité pro trénování\nvelkých modelů i pro inferenci. Software může používat CUDA, knihovny neuronových sítí a frameworky typu\nPyTorch nebo TensorFlow.\nEfektivita GPU roste, když je práce dost velká a dobře paralelizovatelná. Krátké sekvenční úlohy mohou trpět\nrežiemi spouštění kernelů a přesuny dat. V prezentacích: NVIDIA A100/H100 a embedded řada Jetson.\n4.2 TPU (Tensor Processing Unit)\nTPU označuje specializované akcelerátory zaměřené na tensorové výpočty, často založené na masivní práci se\nsoučiny a akumulacemi. Je nutné odlišit cloudové TPU pro výkonné trénování/inferenci a Google Edge TPU pro\núspornou lokální inferenci v podporovaných modelech.\n"
+        },
+        {
+          "locator": "page:7",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n7\n4.3 NPU a VPU\nNPU (Neural Processing Unit) je obecnější název specializované jednotky pro neuronové sítě, typicky v\nmobilních SoC a embedded systémech. VPU (Vision Processing Unit) je zaměřena na obraz, kamery a\npočítačové vidění; v podkladech jsou Intel Movidius Myriad 2 a Myriad X.\nMovidius Myriad 2 podle prezentace obsahuje vektorové jednotky SHAVE a cílí na velmi nízký příkon; Myriad X\npřidává Neural Compute Engine a větší integrační možnosti senzorů. Technologie Intel OpenVINO je uvedena\njako součást vývojového ekosystému.\nJednotka\nSilná stránka\nTypický kompromis\nCPU\nUniverzálnost, řízení, snadná kompatibilita.\nNižší efektivita u masivně paralelních matic.\nGPU\nProgramovatelný paralelní výkon; trénování i\ninference.\nSpotřeba; režie; přenos dat.\nTPU / Edge TPU\nVysoce efektivní podporované tensorové operace.\nOmezení modelů, datových typů, nástrojů.\nNPU\nÚsporná AI uvnitř SoC.\nSilná závislost na ovladačích a podporovaných\noperátorech.\nVPU\nInferování a zpracování obrazu na edge.\nSpecifické doménové omezení a ekosystém.\nVYSVĚTLENÍ NAVÍC – DĚLENÍ PRÁCE\nCPU koordinuje aplikaci, GPU může zpracovat velké tensorové výpočty, specializovaná NPU zrychlí úspornou inferenci\na ISP předzpracuje obraz z kamery. V jedné aplikaci mohou pracovat současně. Akcelerátor není náhrada celého\npočítače.\nPOZOR NA ZOBECNĚNÍ\nTvrzení „TPU má vždy menší spotřebu než GPU“ není univerzální. Vhodnější je porovnat energii na skutečně\nvykonanou inferenci u daného modelu, přesnosti a dávky.\n"
+        },
+        {
+          "locator": "page:8",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n8\nKAPITOLA 05\nIntegrované obvody a ASIC\nOd křemíkového waferu k obvodu navrženému pro konkrétní účel.\nZe zdrojů: 7APAI_ASIC, sn. 2–20; 7APAI_01, sn. 50–52.\n5.1 Co je integrovaný obvod\nIntegrovaný obvod obsahuje elektronické prvky vytvořené na polovodičovém čipu. Prezentace rozlišuje\nanalogové a digitální, monolitické a hybridní obvody a uvádí stupně integrace SSI, MSI, LSI, VLSI, ULSI. Tyto\nzkratky popisují historické kategorie hustoty integrace; dnešní čipy je často mnohonásobně překračují.\n5.2 ASIC: Application-Specific Integrated Circuit\nASIC je integrovaný obvod navržený pro konkrétní účel nebo aplikaci. Výhoda je možnost přizpůsobit datové\ncesty, paměť a řízení dané práci; nevýhoda nákladného návrhu a nemožnosti zásadně změnit hotovou\nhardwarovou logiku pouhým přepsáním konfigurace.\n5.3 Jak se navrhují ASIC\nPřístup\nPrincip\nFull custom\nDetailní návrh na úrovni tranzistorů a všech relevantních masek; nejvyšší nároky na vývoj.\nStandard cells\nPoužití knihoven hotových logických buněk (hradla, registry); syntéza a fyzický návrh.\nGate array / MPGA\nPředpřipravené pole buněk, jejichž propojení se dokončuje maskami.\nStructured/platform ASIC\nPřipravené bloky a IP jádra, přizpůsobení konkrétnímu systému.\nIP blok představuje znovupoužitelnou část návrhu, například RAM, DSP, UART, procesorové jádro nebo\nrozhraní. Masky jsou fyzické výrobní vrstvy používané při fotolitografii. Výrobní náklady čipu, náklady na návrh\n(NRE) a objem výroby se musí posuzovat společně.\n5.4 ASIC vs FPGA při rozhodování\nPři malých sériích a rychlých změnách často vychází lépe FPGA; při velmi velkých sériích a stabilní specifikaci\nmůže být výhodnější ASIC. Prezentace FPGA uvádí hranici 400 000 kusů jako příklad; ve skutečnosti neexistuje\njedna univerzální hranice: závisí na technologickém procesu, velikosti čipu, ceně vývoje i cílové spotřebě.\nPRAKTICKÝ PŘÍKLAD\nObvod pro jedinou rutinu v milionu levných senzorů může být vhodný pro ASIC. Pro vývoj prototypu průmyslového\nakcelerátoru s častými změnami bývá výhodnější FPGA. TPU je příkladem účelové akcelerace; není však pravda, že\nkaždý ASIC musí být TPU.\n"
+        },
+        {
+          "locator": "page:9",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n9\nKAPITOLA 06\nFPGA – programovatelný hardware\nStruktura logických bloků, technologie konfigurace a vývojový postup.\nZe zdrojů: 7APAI_FPGA, sn. 2–29; 7APAI_ASIC, sn. 18–19.\n6.1 Co znamená „programovat FPGA“\nFPGA (Field-Programmable Gate Array) umožňuje nakonfigurovat strukturu digitálního obvodu po jeho\nvýrobě. Nejde pouze o spuštění běžného programu na CPU. Konfigurační data stanovují funkce logických bloků\na jejich fyzické propojení. FPGA může realizovat paralelní pipeline, vlastní datové cesty nebo celé systémové\nbloky.\nLUT\nLUT\nLUT\nLUT\nLUT\nLUT\nLUT\nLUT\nLUT\nLUT\nLUT\nLUT\nLUT\nLUT\nLUT\nLUT\nLUT\nLUT\nI/O\nI/O\nLogické bloky + programovatelné propoje\nSchematický pohled: bloky LUT a konfigurovatelná propojení. Skutečné FPGA navíc obsahuje registry, RAM, DSP bloky, hodiny a rozhraní.\n6.2 Stavební prvky\n • LUT (Lookup Table): malá pravdivostní tabulka implementující logickou funkci. Například čtyřvstupová LUT může\n kódovat 16 možných kombinací vstupů.\n• Flip-flop / registr: ukládá bit mezi hodinovými takty; umožňuje sekvenční logiku.\n • Routing / přepínače: přenos dat mezi bloky; přednáška rozlišuje PIP a SMIP.\n • DSP bloky a paměť: realizace násobení a akumulací, buffery a datové fronty.\n \n6.3 Volatilní a nevolatilní konfigurace\nVarianta\nVlastnosti\nKompromisy\nSRAM FPGA\nKonfigurace v energeticky závislé SRAM; lze\nopakovaně rekonfigurovat.\nTypicky vyžaduje načtení konfigurace po\nstartu; ochrana bitstreamu.\nFlash / EEPROM FPGA\nNevolatilní ukládání konfigurace, možné\npřeprogramování.\nOdlišné výrobní a výkonové vlastnosti,\nomezení počtu zápisů.\nAntifuse FPGA\nSpoj se jednorázově fyzicky vytvoří (OTP).\nTrvalá konfigurace; nelze rekonfigurovat.\n"
+        },
+        {
+          "locator": "page:10",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n10\n6.4 HDL a vývojový tok\nZákladními jazyky pro popis hardwaru jsou VHDL a Verilog; SystemVerilog rozšiřuje jazyk i verifikaci. Typický\ntok: specifikace \u0000 RTL návrh \u0000 simulace \u0000 syntéza \u0000 place & route \u0000 časová analýza \u0000 bitstream \u0000 programování\na testování. HDL popisuje logickou strukturu a časování; není vhodné ho chápat jako obyčejný sekvenční\nprogram.\nVYSVĚTLENÍ NAVÍC – KDE FPGA ZÍSKÁVÁ VÝKON\nPři streamování obrazu lze vytvořit hardware, který každý takt přijímá nový pixel. Jednotlivé fáze pipeline pracují\nsouběžně nad různými pixely. Díky tomu může být throughput vysoký i bez vysoké frekvence jádra. Latence průchodu\njedním pixelem může stále odpovídat více taktům.\n6.5 Kdy použít FPGA pro AI\nHodí se pro deterministické zpracování streamů, vlastní nízkobitovou aritmetiku, předzpracování obrazu a\nprototypování akcelerátorů. Limity tvoří náročnost RTL/HLS návrhu, kapacita paměti a logiky, délka vývoje a\npodpora frameworků.\nKAPITOLA 07\nSoC, SoM, MCU a MPU\nPozor na čtyři pojmy, které popisují různé vrstvy systému.\nZe zdrojů: 7APAI_02_s, sn. 2–6, 12–23, 33–39.\n7.1 System-on-Chip vs System-on-Module\nSoC (System-on-Chip) integruje na jednom čipu CPU, řadiče, periférie a často GPU, NPU, DSP nebo modem.\nSoM (System-on-Module) je fyzický modul/deska s SoC, pamětí, napájecími obvody a často i konektivitou. SoM\nse obvykle osazuje na nosnou desku zařízení (carrier board).\nSoC: jeden čip\nCPU | GPU | NPU | řadiče\nSoM: modul na desce\nSoC + RAM + flash + napájení\nintegrace\nna desku\nZjednodušené rozlišení: SoC je čip; SoM je obvykle modul s čipem a podpůrnými součástmi.\nSoC\nSoM\nVysoká integrace uvnitř pouzdra čipu.\nSjednocuje více součástek na modulu.\nNižší možnosti výměny jednotlivých bloků.\nModul lze v některých návrzích vyměnit nebo nahradit.\nPříklady: Kirin 9000, Apple M2, NXP i.MX 8M.\nPříklady: Coral SoM, Jetson Nano SoM, CL-SOM-iMX8Plus.\n"
+        },
+        {
+          "locator": "page:11",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n11\n7.2 MCU vs MPU\nMCU (mikrokontrolér) zpravidla spojuje procesorové jádro s vnitřní pamětí a perifériemi pro řízení zařízení v\nreálném čase; často používá RTOS nebo běží bez OS. MPU (mikroprocesor) typicky používá bohatší paměťový a\noperační systém (např. Linux). MCU/MPU popisují charakter výpočetního jádra/systému, nikoli alternativu k SoC\nči SoM.\nPřednášky uvádějí PSoC 5LP s ARM Cortex-M3, STM32 s Cortex-M7 a NXP i.MX v embedded AI. Tyto příklady se\nliší výkonnostní třídou i rozsahem periferií.\n7.3 Příklady integrace\n • Apple M2 / M2 Ultra: CPU, GPU, paměťové rozhraní a Neural Engine pro obecné a AI výpočty.\n • Raspberry Pi (Broadcom BCM2711 v podkladech): SoC jako jádro malého počítače.\n • Coral SoM: SoC NXP i.MX 8M, RAM, eMMC a Edge TPU na modulu.\n • Jetson Nano: modul s ARM CPU a NVIDIA GPU, používaný také na vývojové desce.\n \nZAPAMATUJ SI\nSlova SoC a SoM nejsou konkurenční typy procesorů. SoM může obsahovat SoC, který obsahuje CPU i NPU.\nKAPITOLA 08\nEdge AI a nasazení modelů\nProč část AI opouští datová centra a běží blízko senzorů.\nZe zdrojů: 7APAI_01, sn. 23–27, 43–49; 7APAI_IoT, sn. 3–11, 31.\n8.1 Cloud, edge a zařízení\nCloud centralizuje velké výpočetní zdroje, ukládání a správu. Edge computing zpracovává data blíže jejich\nvzniku (brána, lokální server, zařízení). On-device AI provádí inferenci přímo na koncovém zařízení. Mezi\núrovněmi je kontinuum, nikoli ostrá hranice.\nSenzor\nměření\nEdge / brána\ninference\nCloud\narchiv, trénink\nČást zpracování může zůstat lokální; cloud není vždy nutný.\nPříklad rozdělení práce mezi senzor, edge bránu a datové centrum.\n"
+        },
+        {
+          "locator": "page:12",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n12\n8.2 Výhody a nevýhody\nVýhody edge\nKompromisy\nNižší latence bez cesty do cloudu.\nOmezená RAM, kapacita baterie a chlazení.\nMenší síťový provoz; lokální ochrana dat.\nSložitější správa velkého množství zařízení.\nMožnost práce při výpadku konektivity.\nAktualizace, bezpečnost modelů a nejednotný hardware.\n8.3 Optimalizace modelu pro zařízení\nVolba hardwaru závisí na velikosti modelu, podpoře operátorů, požadované rychlosti snímkování, RAM a\nenergii. Nestačí, že akcelerátor teoreticky zvládá desítky TOPS: konkrétní model se musí podařit přeložit a\nspustit v podporovaném formátu.\nVYSVĚTLENÍ NAVÍC – KVANTIZACE\nKvantizace převádí váhy a/nebo aktivace například z FP32 na INT8. Cíl: menší paměť a rychlejší inference na\nkompatibilním hardware. Cena: možné zhoršení numerické přesnosti a nutnost ověřit kvalitu výstupů. Často se používá\npost-training quantization; někdy quantization-aware training.\n8.4 Praktické rozhodnutí\nKamera, která musí reagovat do desítek milisekund i při výpadku internetu, je kandidát na edge inference.\nSlužba trénující velmi rozsáhlý model nad miliony záznamů je kandidát na datové centrum. Často nejlépe\nfunguje kombinace: trénink v cloudu, inference na edge, centrální monitoring.\nKAPITOLA 09\nNVIDIA Jetson Nano\nKonkrétní příklad embedded GPU platformy pro AI.\nZe zdrojů: 7APAI_Jetson_Nano, sn. 2–11; 7APAI_01, sn. 38–42.\n9.1 Co je Jetson Nano\nJetson Nano je embedded platforma, která kombinuje čtyřjádrový procesor ARM Cortex-A57 s GPU NVIDIA\nMaxwell o 128 CUDA jádrech. Vývojové prostředí vychází z Linuxu a ekosystému NVIDIA JetPack, podporuje\nPython a nástroje pro práci s obrazem. Je určen pro výuku, robotiku, IoT i inferenci počítačového vidění.\n"
+        },
+        {
+          "locator": "page:13",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n13\n9.2 Parametry uváděné v přednášce\nParametr\nHodnota v podkladech\nGPU\n128 jader CUDA (Maxwell), cca 0,5 TFLOPS FP16\nCPU\n4× ARM Cortex-A57\nPaměť\n4 GB LPDDR4; propustnost přibližně 25,6 GB/s\nTypický příkon\nPro uváděnou variantu přibližně 5–10 W\nRozhraní\nUSB, HDMI, Ethernet, MIPI CSI pro kamery, GPIO\nPříklady použití\nKlasifikace a detekce objektů, segmentace, rozpoznávání gest, domácí automatizace\nNěkteré údaje ve snímcích odpovídají modulu, jiné vývojové sadě. Například dostupnost eMMC vs microSD\nzávisí na konkrétní variantě, a proto je třeba pro skutečný návrh ověřit přesné SKU a datasheet.\n9.3 Typický výpočetní tok\nKamera \u0000 načtení snímku \u0000 předzpracování (CPU/GPU) \u0000 inference CNN na GPU \u0000 výsledek (např. detekovaný\nobjekt) \u0000 akce. Reálnou propustnost ovlivňuje rozlišení, velikost sítě, dekódování videa a kopírování paměti.\nSROVNÁNÍ S CORAL\nJetson nabízí programovatelnější GPU a širší spektrum modelů v rámci kompatibilního software; Coral Edge TPU staví\nna podporovaných úsporných modelech, často kvantizovaných na INT8. Nerozhoduje samotná hodnota FLOPS/TOPS.\nKAPITOLA 10\nGoogle Coral a FreeRTOS\nVysvětlení Edge TPU, rozdílu mezi vývojovými deskami a mikrokontrolérem.\nZe zdrojů: 7APAI_Coral, sn. 2–15; 7APAI_01, sn. 45–49; 7APAI_02_s, sn. 12, 37–38.\n10.1 Co je Coral a Edge TPU\nRodina Google Coral zahrnuje vývojové desky, moduly a USB akcelerátory. Společným motivem je Edge TPU:\nspecializovaný ASIC pro úspornou inferenci podporovaných neuronových modelů. Prezentace uvádí orientační\nvýkon 4 TOPS při INT8 a energetickou efektivitu až 2 TOPS/W pro uvedenou generaci.\n"
+        },
+        {
+          "locator": "page:14",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n14\n10.2 Dvě odlišná zařízení\nCoral Dev Board\nCoral Dev Board Micro\nSystém s NXP i.MX 8M, Cortex-A53, GPU a Edge TPU.\nMikrokontrolérová platforma NXP i.MX RT1176 + Edge TPU.\nMá Linuxové/SoM uspořádání vhodné pro obecnější aplikace.\nMá Cortex-M7 @ 800 MHz, Cortex-M4 @ 400 MHz; používá\nFreeRTOS.\nRAM v přednášce 1/4 GB, eMMC a rozhraní pro periferie.\nPřibližně 64 MB SDRAM; kamera 324 × 324 px, PDM mikrofon.\nTypicky komplexnější edge počítač.\nTypicky nízkopříkonové vestavěné zařízení, snímání a inference.\n10.3 FreeRTOS a TinyML\nFreeRTOS je operační systém reálného času pro embedded zařízení. Umožňuje plánovat úlohy s omezenými\nzdroji a předvídatelnými reakcemi. TensorFlow Lite a TensorFlow Lite for Microcontrollers (TFLM),\nzmiňované na slidech, slouží pro nasazování kompatibilních ML modelů; konkrétní podporované operace\nzávisejí na zařízení a runtime.\nMicro má podle prezentace nízkou spotřebu (orientačně 2 W) a rozhraní pro senzory; je to vhodná demonstrační\nplatforma pro lokální detekci vizuálních a zvukových událostí.\nVYSVĚTLENÍ NAVÍC – CO PŘED SPUŠTĚNÍM ZKONTROLOVAT\nModel musí pasovat do paměti a splňovat požadavky runtime/kompilátoru Edge TPU. Jestli část sítě běží na CPU a část\nna akcelerátoru, výkon i energie se mohou výrazně změnit.\nKAPITOLA 11\nInternet věcí, komunikace a průmysl 4.0\nJak se propojují senzory, edge zařízení, sítě a rozhodovací logika.\nZe zdrojů: 7APAI_IoT, sn. 3–31.\n11.1 IoT architektura\nInternet of Things (IoT) označuje síť fyzických zařízení schopných sbírat data, komunikovat a případně aktivně\nřídit okolí. Prezentace rozlišuje senzory (odesílají data), akční členy (reagují) a zařízení kombinující obojí. Typický\nřetězec: senzor \u0000 lokální komunikace \u0000 gateway / edge \u0000 backend/cloud \u0000 uživatel či akční člen.\nPožadavky zahrnují sběr, ukládání, analýzu a sdílení dat, dostupnost a především zabezpečení. CIoT se týká\nspotřebitelských zařízení; IIoT průmyslového monitorování, energetiky, logistiky a automatizace.\n"
+        },
+        {
+          "locator": "page:15",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n15\n11.2 Komunikační technologie v souvislostech\nTechnologie\nObvyklá role\nDůležité hledisko\nWi‑Fi (802.11)\nLokální síť s vyšší datovou rychlostí; kamery.\nVyšší spotřeba, dostupnost přístupového\nbodu.\nBluetooth / BLE\nKrátká vzdálenost, wearables, blízké senzory.\nEnergeticky úsporné režimy; nelze všechny\nverze zaměňovat.\nZigbee\nNízkopříkonové senzory, automatizace a mesh.\nPotřeba odpovídajícího\nkoordinátoru/ekosystému.\nLoRa / LoRaWAN\nDlouhý dosah, malé zprávy, nízká spotřeba.\nNízká přenosová rychlost; LoRa je rádiová\nvrstva, LoRaWAN síťový protokol.\nSigfox\nJednoduchá telemetrie s nízkým datovým tokem.\nZávislost na pokrytí a poskytovateli.\nMobilní sítě, NB‑IoT\nSpravovaná konektivita na delší vzdálenost.\nTarify, pokrytí, režimy spotřeby.\nEthernet / RS‑485 / SPI / I²C\nDrátová síť nebo lokální propojení komponent.\nEthernet není totéž co I²C/SPI uvnitř zařízení.\nDŮLEŽITÉ UPŘESNĚNÍ\nDosahy a rychlosti ve snímcích jsou orientační. Závisejí na regionu, pásmu, anténách, překážkách, výkonových limitech\na konfiguraci. Například maxima 5G neznamenají běžnou odezvu pod 1 ms v libovolné síti.\n11.3 CPS, multiagentní a holonické systémy\nKyberfyzikální systém (CPS) propojuje software, senzory, řízení a fyzické procesy. Multiagentní systém\nobsahuje autonomně se rozhodující jednotky; agent může být i čistě softwarový. Holonický systém v prezentaci\npopisuje výrobu tvořenou spolupracujícími jednotkami (od čidla přes stroj až po výrobní celek). V Průmyslu 4.0\ntak vznikají distribuované řídicí systémy.\n11.4 AI uvnitř IoT – kdy přináší přidanou hodnotu\nJednoduchý termostat nepotřebuje nutně neuronovou síť. AI dává smysl tam, kde je úloha složitější než\npravidlo: diagnostika anomálií ve vibracích stroje, vizuální kontrola kvality nebo predikce poruch. Pro řízení v\nreálném čase musí výpočet splnit časový limit; jinak může AI systém zhoršit bezpečnost.\n"
+        },
+        {
+          "locator": "page:16",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n16\nKAPITOLA 12\nAI v mobilních zařízeních\nMobilní SoC jako souhra CPU, GPU, ISP, NPU, paměti a modemu.\nZe zdrojů: 7APAI_Mob, sn. 2–29; 7APAI_02_s, sn. 14–18.\n12.1 K čemu telefon používá AI\n • Foto/video: rozpoznání scén, segmentace, odstranění šumu, HDR, přibližování, OCR.\n • Řeč a jazyk: asistenti, přepis a překlady.\n • Bezpečnost: biometrie a detekce podezřelého chování.\n • Provoz telefonu: správa spotřeby, nabíjení, teploty a priorit procesů.\n • Wearables: detekce aktivit a pádů, monitorování signálů.\n \n12.2 Heterogenní SoC telefonu\nCPU spouští obecný kód a koordinuje procesy; GPU zpracovává grafiku a paralelní výpočty; NPU přebírá\npodporované modely; ISP realizuje obrazové zpracování od senzoru; DSP pomáhá se signály a modem se stará\no komunikaci. Paměťová hierarchie je pro výkon stejně důležitá jako počty jader.\n12.3 Příklady z prezentace\nSoC / rodina\nCo ukazuje\nHuawei Kirin 9000\nARM CPU, GPU Mali, AI akcelerace Da Vinci, ISP a 5G modem.\nSamsung Exynos\nIntegrace CPU, GPU, NPU, ISP a modemu do mobilního SoC.\nApple A17 / A17 Pro\nNeural Engine, GPU s grafickou akcelerací, pokročilý výrobní proces.\nSnapdragon 8 Gen 2 / Dimensity 9200+\nSrovnání heterogenních CPU jader, GPU, paměti a modemu.\nJAK ČÍST SROVNÁVACÍ TABULKY\nSamotná frekvence CPU nebo počet GPU jader neurčí nejlepší mobil pro AI. V praxi se sleduje konkrétní úloha, trvalý\nvýkon při zahřívání, energie, dostupnost API a přesnost modelu. Parametry ve snímcích se vztahují ke generacím z\ndoby vzniku prezentací.\n"
+        },
+        {
+          "locator": "page:17",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n17\nKAPITOLA 13\nSuperpočítače a HPC pro AI\nOd výpočetního uzlu k masivně distribuované infrastruktuře.\nZe zdrojů: 7APAI_03, sn. 2–24; 7APAI_01, sn. 11–17.\n13.1 HPC není jen silné GPU\nHigh-Performance Computing je oblast rozsáhlých výpočetních systémů. Superpočítač obvykle tvoří mnoho\nuzlů s CPU, někdy GPU, vysokorychlostní sítí, paralelním souborovým systémem, plánovačem úloh a\noptimalizovaným softwarem. Systém řeší numerické simulace, datovou analýzu i AI.\nCPU uzel\nřídicí logika\nGPU uzel\nakcelerace\nÚložiště\ndataset\nVýsledek závisí i na síti, paměti a distribuovaném software.\nZjednodušený HPC celek: propojené výpočetní a datové subsystémy.\n13.2 Paralelní, distribuované a vektorové výpočty\nParalelní výpočet znamená současné provádění úloh; může probíhat i uvnitř jediného čipu. Distribuovaný\nvýpočet používá více propojených uzlů s oddělenou pamětí a komunikací. Vektorový výpočet / SIMD aplikuje\nstejnou operaci na více datových elementů. Tyto vlastnosti se mohou kombinovat.\nPři trénování DL existuje data parallelism (repliky modelu na různých dávkách), model parallelism (části\nmodelu na různých zařízeních) i pipeline parallelism. Síťová synchronizace a rychlost úložiště často omezují\nškálování.\n13.3 TOP500, Green500 a LINPACK\nTOP500 porovnává systémy podle výsledků benchmarku HPL/LINPACK (Rmax). Green500 sleduje energetickou\nefektivitu. Rpeak je teoretický výkon, Rmax dosažená hodnota; oba nejsou automaticky měřítkem výkonu\ntrénování neuronových sítí.\n"
+        },
+        {
+          "locator": "page:18",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n18\n13.4 Případové studie z přednášek\nPříklad\nVýznam / údaje ze snímků\nFrontier (HPE Cray)\nExascale HPC; AMD EPYC + AMD Instinct akcelerátory; rozsáhlá síť a kapalinové\nchlazení. Uvedené výsledky odpovídají historickému stavu snímků.\nKarolina (IT4Innovations)\nČeský HPC systém z roku 2021; univerzální i GPU části, v prezentaci 576× NVIDIA A100;\nrychlá síť a paralelní úložiště.\nMeta AI Research SuperCluster\nPříklad infrastruktury zaměřené na náročné trénování AI.\nRCI ČVUT\nPříklad národního výzkumného clusteru s GPU NVIDIA V100 a sítí InfiniBand.\nPřednáška dále srovnává procesory AMD EPYC, Intel Xeon Max, IBM Power10, Ampere Altra a NVIDIA\nGrace. Není účelné memorovat jejich historické počty jader bez pochopení kompromisů: CPU výkon, paměťová\npropustnost, počet paměťových kanálů, PCIe, příkon, případné maticové akcelerátory.\nVYSVĚTLENÍ NAVÍC – PROČ MÁ SÍŤ VÝZNAM\nPři datovém paralelismu musí uzly sdílet aktualizace gradientů. Pokud výpočet jedné dávky trvá krátce, ale\nsynchronizace dlouho, přidání dalších GPU nemusí zrychlovat lineárně. Proto jsou InfiniBand a jiné rychlé propoje\nzásadní součástí HPC systému.\nKAPITOLA 14\nKvantové počítače – potenciál a limity\nZáklady qubitů a proč kvantový výpočet nelze chápat jako rychlejší klasickou GPU.\nZe zdrojů: 7APAI_03, sn. 25–36; 7APAI_01, sn. 18–20.\n14.1 Bit, qubit a superpozice\nKlasický bit nabývá hodnot 0 nebo 1. Qubit má obecně stav |ψ\u0000 = α|0\u0000 + β|1\u0000, kde α a β jsou komplexní\namplitudy. Při měření v této bázi získáme 0 s pravděpodobností |α|² a 1 s pravděpodobností |β|².\nDŮLEŽITÉ UPŘESNĚNÍ K PREZENTACI\nSprávná normalizace qubitu je |α|² + |β|² = 1, nikoli obecně α + β = 1. Superpozice neznamená, že můžeme jedním\nměřením přečíst všechny možnosti současně.\n14.2 Provázání a interference\nKvantové provázání (entanglement) znamená, že stav více qubitů nelze obecně popsat jako součin\njednotlivých nezávislých stavů. Interference umožňuje posilovat amplitudy některých výsledků a potlačovat\njiné. Tyto jevy jsou klíčové pro kvantové algoritmy, ale zároveň jsou kvantové systémy citlivé na šum a chyby.\n"
+        },
+        {
+          "locator": "page:19",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n19\n14.3 Vztah ke klasickému HPC a AI\nPrezentace zmiňují hybridní kvantově-klasické výpočty: klasický HPC systém řídí a zpracovává běžné výpočty,\nkvantový procesor řeší určitou specializovanou část. Není prokázáno, že by současné kvantové počítače obecně\nrychleji či přesněji trénovaly běžné neuronové sítě než GPU. Potenciální výhoda vždy závisí na konkrétním\nalgoritmu a podmínkách.\nZAPAMATUJ SI\nKvantový počítač není „GPU s qubity“. Rychlostní výhoda není univerzální a nelze ji odvodit samotným počtem qubitů.\nKAPITOLA 15\nSrovnání a výběr architektury\nPřehled pro rychlé opakování před zkoušením i praktické návrhy.\nZe zdrojů: Syntéza všech devíti prezentací; rozhodovací postup je doplněn pro výuku.\n15.1 Klíčová mapa architektur\nCPU\nflexibilita\nGPU\nparalelismus\nFPGA\nrekonfigurace\nASIC\nspecializace\nČím více specializace, tím důležitější je konkrétní zátěž a ekosystém.\nOrientace v návrhovém prostoru: kompromis mezi flexibilitou, specializací, cenou a spotřebou.\nArchitektura\nZměna funkce\nTypická volba\nCPU\nSoftware\nŘízení, univerzální aplikace, malé modely\nGPU\nSoftware/kernely\nVelké tensorové výpočty; training + inference\nTPU / NPU / VPU\nSoftware v rámci podporovaných operací\nEfektivní konkrétní ML inference nebo tensorové\núlohy\nFPGA\nPřekonfigurování hardwaru\nStreaming, determinismus, prototyp ASIC\nASIC\nPo výrobě zpravidla pevná logika\nVelké série, maximalizace efektivity\nSoC / SoM\nIntegrační úroveň, ne výpočetní ISA\nKompaktní embedded systémy\nHPC cluster\nKonfigurace a programy mnoha uzlů\nRozsáhlé modely, simulace, distribuovaný trénink\n"
+        },
+        {
+          "locator": "page:20",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n20\n15.2 Jak vybrat řešení – pět otázek\n • Co počítám? Trénování, jednorázová inference, video stream, řídicí smyčka?\n • Jak rychle to musí být? Přípustná latence, FPS nebo denní objem.\n • Jaká omezení mám? RAM, příkon, cena, chlazení, dostupná síť.\n • Co podporuje software? Framework, export modelu, operátory, INT8/FP16, ovladače.\n • Jaká je životnost řešení? Počet kusů, aktualizace, zabezpečení, servis.\n \n15.3 Tři řešené situace\nA. Kamera na stroji: musí detekovat poškozený kus offline s předvídatelnou latencí. Kandidáti: Coral Edge TPU\n(podporovaný INT8 model), Jetson (komplexnější vision pipeline), FPGA (specifická streamovací logika).\nZvažujeme FPS, senzory, podporu modelu a energii.\nB. Trénování rozsáhlé neuronové sítě: vysoký objem dat, týdny výpočtů. Kandidát: GPU/TPU cluster s\nvysokorychlostní sítí a úložištěm. Je třeba řešit paralelismus, checkpointy a náklady.\nC. Monitorování teploty v hale: měření každou minutu, bateriové čidlo. Kandidát: jednoduchý MCU +\nZigbee/LoRa/NB-IoT. Neuronová síť je volitelná jen tehdy, pokud pravidla nestačí.\nKAPITOLA 16\nKontrolní otázky a odpovědi\nPro aktivní opakování: nejdříve otázky, potom stručný klíč.\nZe zdrojů: Otázky sestavené k celé sadě prezentací.\n16.1 Otázky (zkus bez nápovědy)\n01. Proč se AI často dobře paralelizuje?\n02. Jak se liší trénování a inference?\n03. Co je MAC a proč je důležité?\n04. Proč nejsou 4 TOPS INT8 a 0,5 TFLOPS FP16 přímo srovnatelné?\n05. Jaký je rozdíl latence a propustnosti?\n06. Proč nepomůže nekonečně mnoho GPU vždy?\n07. Co odlišuje ISA od mikroarchitektury?\n08. Co je pipeline v CPU?\n09. Pro co je vhodná GPU?\n10. Jaký je rozdíl TPU a Edge TPU?\n11. Co znamená NPU a VPU?\n12. Co je ASIC a kdy se vyplácí?\n13. Jak se liší LUT a flip-flop ve FPGA?\n14. K čemu slouží PIP/SMIP ve FPGA?\n15. SRAM vs antifuse konfigurace FPGA?\n16. Jaké jsou hlavní kroky FPGA vývoje?\n17. Co je SoC a co SoM?\n18. Jak se liší MCU a MPU?\n"
+        },
+        {
+          "locator": "page:21",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n21\n19. Proč používat Edge AI?\n20. Co dělá kvantizace INT8?\n21. Jaké hlavní jednotky má Jetson Nano?\n22. Čím se liší Coral Dev Board a Dev Board Micro?\n23. Jak se rozlišuje CIoT a IIoT?\n24. Kdy volit LoRa místo Wi‑Fi?\n25. Co je kyberfyzikální systém?\n26. Jaké jednotky má moderní mobilní SoC?\n27. V čem je rozdíl Rpeak a Rmax?\n28. Co omezuje distribuovaný trénink?\n29. Jak se normalizuje stav qubitu?\n30. Zaručuje kvantový počítač rychlejší běžné DL?\n16.2 Stručný klíč\n01. Proč se AI často dobře paralelizuje?\n Mnoho stejných operací nad různými daty a tensorovými prvky lze počítat souběžně.\n02. Jak se liší trénování a inference?\n Trénování upravuje parametry; inference s naučenými parametry vytváří predikce.\n03. Co je MAC a proč je důležité?\n Multiply-accumulate: násobení s přičtením. Základ maticových operací a neuronových sítí.\n04. Proč nejsou 4 TOPS INT8 a 0,5 TFLOPS FP16 přímo srovnatelné?\n Jiný datový typ, jiná definice operace, metodika a podporované výpočty.\n05. Jaký je rozdíl latence a propustnosti?\n Latence: doba jedné úlohy; propustnost: počet úloh za čas.\n06. Proč nepomůže nekonečně mnoho GPU vždy?\n Sekvenční práce a režie komunikace omezují škálování (Amdahlův princip).\n07. Co odlišuje ISA od mikroarchitektury?\n ISA je softwarové instrukční rozhraní; mikroarchitektura je jeho fyzická implementace.\n08. Co je pipeline v CPU?\n Rozdělení zpracování instrukcí do etap, které se provádějí překrytě.\n09. Pro co je vhodná GPU?\n Pro vysoce paralelizovatelné tensorové a grafické výpočty, zejména DL.\n10. Jaký je rozdíl TPU a Edge TPU?\n Obecné cloudové TPU řeší výkonné tensorové úlohy; Edge TPU cílí na úspornou podporovanou inferenci.\n11. Co znamená NPU a VPU?\n NPU je akcelerátor neuronových sítí; VPU specializace na computer vision.\n12. Co je ASIC a kdy se vyplácí?\n Účelový čip; při stabilní funkci, velkých sériích nebo silných požadavcích na efektivitu.\n13. Jak se liší LUT a flip-flop ve FPGA?\n"
+        },
+        {
+          "locator": "page:22",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n22\nLUT realizuje kombinační logiku; flip-flop ukládá stav mezi hodinovými takty.\n14. K čemu slouží PIP/SMIP ve FPGA?\n Programovatelné body spojují logické bloky a segmenty propojovací sítě.\n15. SRAM vs antifuse konfigurace FPGA?\n SRAM je opakovaně konfigurovatelná, ale po ztrátě napájení se obnovuje; antifuse je jednorázová.\n16. Jaké jsou hlavní kroky FPGA vývoje?\n RTL/HDL, simulace, syntéza, place-and-route, časová analýza, bitstream a test.\n17. Co je SoC a co SoM?\n SoC je integrovaný čip; SoM modul/deska obsahující čip a podpůrné komponenty.\n18. Jak se liší MCU a MPU?\n MCU integruje řízení a periférie pro embedded/RT úlohy; MPU typicky slouží výkonnějším OS.\n19. Proč používat Edge AI?\n Nižší latence, provoz offline, menší přenos dat a lokální soukromí.\n20. Co dělá kvantizace INT8?\n Zmenšuje numerickou reprezentaci a výpočetní nároky; může ovlivnit přesnost modelu.\n21. Jaké hlavní jednotky má Jetson Nano?\n ARM Cortex-A57 CPU a GPU NVIDIA Maxwell se 128 CUDA jádry.\n22. Čím se liší Coral Dev Board a Dev Board Micro?\n Dev Board je robustnější SoM/MPU platforma; Micro mikrokontrolérová deska s FreeRTOS.\n23. Jak se rozlišuje CIoT a IIoT?\n Spotřebitelské vs průmyslové nasazení IoT.\n24. Kdy volit LoRa místo Wi‑Fi?\n Pro malé zprávy a dlouhý dosah při nízké energii, nikoli velké video soubory.\n25. Co je kyberfyzikální systém?\n Propojení fyzického procesu se senzory, softwarem a řízením.\n26. Jaké jednotky má moderní mobilní SoC?\n CPU, GPU, NPU, ISP, DSP a komunikační modem podle konkrétního čipu.\n27. V čem je rozdíl Rpeak a Rmax?\n Rpeak je teoretický strop; Rmax naměřený výkon benchmarku LINPACK.\n28. Co omezuje distribuovaný trénink?\n Síťová komunikace, synchronizace, úložiště, paměť a sekvenční části.\n29. Jak se normalizuje stav qubitu?\n Součet druhých mocnin velikostí amplitud |α|² + |β|² = 1.\n30. Zaručuje kvantový počítač rychlejší běžné DL?\n Ne; výhoda závisí na konkrétní úloze a známém kvantovém algoritmu.\n"
+        },
+        {
+          "locator": "page:23",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n23\nKAPITOLA 17\nSlovníček, poznámky a zdroje\nZávěrečná část pro rychlé vyhledávání a ověření původních snímků.\nZe zdrojů: Mapování všech 9 přiložených přednášek.\n17.1 Mini-slovníček\nTermín\nVýznam\nAI / ML / DL\numělá inteligence / strojové učení / hluboké učení\nMAC\nmultiply-accumulate, násobení s akumulací\nTensor\nvícerozměrné pole čísel\nInference\nvýpočet predikce z naučeného modelu\nFLOPS / TOPS\noperace v pohyblivé řádové čárce / biliony operací za sekundu\nThroughput / latency\npropustnost / odezva\nCPU / GPU\ncentrální / grafický procesor\nTPU / NPU / VPU\ntensorová / neuronová / obrazová akcelerační jednotka\nDSP / ISP\ndigitální signálový procesor / procesor obrazového signálu\nASIC / FPGA\núčelový čip / programovatelná hradlová pole\nLUT / RTL / HDL\nvyhledávací tabulka / návrh na úrovni registrů / jazyk pro popis HW\nSoC / SoM\nsystém na čipu / systém na modulu\nMCU / MPU\nmikrokontrolér / mikroprocesor\nEdge AI / IoT\nlokální AI na okraji sítě / internet věcí\nHPC / HPL\nvysoce výkonné výpočty / LINPACK benchmark\nRpeak / Rmax\nteoretické maximum / naměřená výkonnost v LINPACKu\nQubit\nkvantový bit, stav s amplitudami\nCPS\nkyberfyzikální systém\n"
+        },
+        {
+          "locator": "page:24",
+          "text": "ARCHITEKTURY POČÍTAČŮ UMĚLÉ INTELIGENCE  •  STUDIJNÍ SKRIPTA\n24\n17.2 Přehled původních souborů\nSoubor\nTémata / relevantní snímky\n7APAI_01.pdf\nZáklad AI HW; Edge AI; CPU/GPU/TPU/VPU; Jetson a Coral; ASIC — sn. 2–52.\n7APAI_02_s.pdf\nSoC, SoM, ARM/MIPS/x86, MCU, Apple, Raspberry Pi — sn. 2–39.\n7APAI_03.pdf\nHPC, CPU servery, Frontier, Karolina, kvantové výpočty — sn. 2–36.\n7APAI_ASIC.pdf\nIntegrované obvody, typy ASIC, PLD/CPLD — sn. 2–20.\n7APAI_FPGA.pdf\nKonfigurace FPGA, LUT, routing, HDL a Verilog — sn. 2–29.\n7APAI_Coral.pdf\nCoral Dev Board Micro, Cortex-M, FreeRTOS, TFLite — sn. 2–15.\n7APAI_Jetson_Nano.pdf\nPlatforma Jetson Nano, parametry, použití — sn. 2–11.\n7APAI_IoT.pdf\nIoT, sítě, IIoT a Průmysl 4.0 — sn. 3–31.\n7APAI_Mob.pdf\nMobilní AI, Kirin, Exynos, Apple A17 — sn. 2–29.\n17.3 Věcná upřesnění – co se neučit doslovně\n • Srovnání výkonu bez datového typu (FP16, INT8) je zavádějící.\n • Qubit: správná normalizace je |α|² + |β|² = 1.\n • Kvantový počítač není automaticky rychlejší pro jakoukoli AI úlohu.\n • Jednotlivé FPGA/ASIC technologie nemají univerzální ekonomický bod zlomu.\n • SoC, SoM, MCU, NPU a FPGA nejsou jedna vzájemně vylučující klasifikace.\n • Produktové parametry, postavení v TOP500 i podpora software se v čase mění.\n \nPOZNÁMKA K AUTORSTVÍ A ROZSAHU\nZákladem byly výhradně přiložené prezentace vyučujícího Mgr. Rostislava Fojtíka, Ph.D. (PřF OU). Učební vysvětlení,\nsyntéza, řešené situace, orientační výpočty, otázky a upozornění jsou vlastní doplnění pro lepší porozumění;\nnenahrazují aktuální datasheet ani oficiální požadavky ke zkoušce.\n"
+        }
+      ],
+      "created_at": "2026-10-15T14:41:26.769170+00:00",
+      "ingest_mode": "move"
+    }
+  },
+  "checkpoints": [
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-16-01-gpu",
+      "lesson_id": "lekce-2026-10-16-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "activity": "Proč se podle tebe pro trénování neuronových sítí často používá GPU místo CPU? Zkus odpověď propojit s tím, jaké výpočty síť provádí.",
+      "learner_answer": "NN převádí komplexní patterny na jednoduché patterny, které se na sebe řetězí skrze hidden layer. To je vhodné pro GPU, které je vhodné pro paralelizování mnoha jednoduchých opakujících se úkonů. CPU je vhondnější pro řízení ",
+      "evaluation": "Kritérium dílčí úvodní diagnostiky: propojit trénování neuronových sítí s velkým počtem podobných paralelizovatelných výpočtů a odlišit řídicí roli CPU. Uživatel samostatně správně vystihuje paralelismus mnoha jednoduchých opakujících se úkonů na GPU a vhodnost CPU pro řízení. Základní kritérium splněno bez nápovědy. Formulace převodu komplexních vzorů na jednoduché je nepřesná: ve zpětné vazbě rozlišeny naučené vzory od početních operací a vysvětleno skládání složité funkce z násobení a sčítání při práci s maticemi a tenzory. CPU popsáno jako vhodné pro řízení, větvení a koordinaci. Nejde o ověření celého cíle tématu; trénování versus inference, paměť a infrastruktura dosud nebyly testovány. Stav byl načten výhradně pro APAI; žádné výsledky z DEEP nebyly přeneseny.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [
+        "Nepřesná formulace o převodu složitých vzorů na jednoduché. Rozdíl mezi naučenými vzory a jednoduchými početními operacemi vysvětlen; samostatná přesná formulace dosud neověřena."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:7"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zadanou otázku: Chceš na GPU přesunout drobný výpočet nad deseti čísly, který CPU zvládne téměř okamžitě. Může být GPU ve výsledku pomalejší, i když má výrazně vyšší teoretický výpočetní výkon? Vysvětli proč. Podle odpovědi vysvětlit režii spouštění kernelů a přesuny dat (skripta s. 6). Vysvětlovat obvykle ve 3–5 větách; hodnocení a další otázku zobrazit před ukládáním.",
+      "review_on": "2026-10-17",
+      "created_at": "2026-10-16T04:50:10.365312+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-16-02-rezie-gpu",
+      "lesson_id": "lekce-2026-10-16-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "activity": "Chceš na GPU přesunout drobný výpočet nad deseti čísly, který CPU zvládne téměř okamžitě. Může být GPU ve výsledku pomalejší, i když má výrazně vyšší teoretický výpočetní výkon? Vysvětli proč.",
+      "learner_answer": "Ano, protože přesouvání mezi hardware stojí čas a zdroje",
+      "evaluation": "Kritérium: připustit pomalejší celkové zpracování malé úlohy na GPU a vysvětlit alespoň jeden relevantní režijní náklad. Uživatel samostatně správně uvádí čas a zdroje potřebné pro přenosy mezi hardwarem; to je dostačující příčinné vysvětlení. Splněno bez nápovědy. Zpětná vazba rozšířila vysvětlení o režii spuštění kernelu (funkce vykonávané GPU), význam dostatečně velké paralelizovatelné úlohy a měření celkového času včetně potřebných přenosů. Doloženo pochopení jedné příčiny, proč teoreticky výkonnější akcelerátor nemusí zrychlit konkrétní malou úlohu; nejde o ověření všech cílů tématu.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikace",
+      "misconceptions": [
+        "Přetrvává pouze neověřené upřesnění z předchozí aktivity: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zadanou otázku přecházející k tématu vykon-a-efektivita: Systém s GPU zvládne ve velkých dávkách zpracovat 1 000 snímků za sekundu, ale od příchodu jednoho snímku po jeho výsledek uplyne 200 ms. Kamera musí na překážku reagovat do 50 ms. Splňuje systém tento požadavek? Vysvětli, proč údaj 1 000 snímků za sekundu sám o sobě nestačí. Navázat rozlišením latence a propustnosti. Před použitím stránky 4 ověřit vizuálně originál kvůli hlášeným chybám textové extrakce. Vysvětlovat obvykle ve 3–5 větách a další otázku zobrazovat před zápisem postupu.",
+      "review_on": "2026-10-17",
+      "created_at": "2026-10-16T04:52:33.262882+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-16-03-latence",
+      "lesson_id": "lekce-2026-10-16-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Systém s GPU zvládne ve velkých dávkách zpracovat 1 000 snímků za sekundu, ale od příchodu jednoho snímku po jeho výsledek uplyne 200 ms. Kamera musí na překážku reagovat do 50 ms. Splňuje systém tento požadavek? Vysvětli, proč údaj 1 000 snímků za sekundu sám o sobě nestačí.",
+      "learner_answer": "Nesplnuje, zpracování pro kameru je příliš pomalé., kamera nepotřebuje zpracovávat dávky snímků, potřebuje zpracovat jen pro ni relevantní snímky. Potřebuje real time rychlost odezvy",
+      "evaluation": "Kritérium: odmítnout splnění časového požadavku 50 ms při odezvě 200 ms a vysvětlit, že vysoký počet snímků za sekundu nezaručuje rychlou odezvu jednotlivého požadavku. Uživatel správně rozpoznává příliš pomalou odezvu a potřebu reakce v reálném čase. Splněno samostatně bez nápovědy. Ve zpětné vazbě pojmenovány latence a propustnost a upřesněno, že kamerový systém může mít požadavky na obojí; dávkování není obecně zakázané, ale musí respektovat časový limit. Původní zadání nevyžadovalo zpracování všech snímků, proto uživatelovo zaměření na relevantní snímky nebylo označeno za chybu. Doložené je základní rozlišení rychlosti odezvy a celkové kapacity, nikoli všechny metriky výkonu. Stránka 4 byla načtena textově i vizuálně ověřena z dočasného výřezu původního PDF vykresleného místním LibreOffice; sekce 2.1 potvrzuje definice.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikace",
+      "misconceptions": [
+        "Výrok o nepotřebnosti dávek pro kameru nelze zobecnit na všechny kamerové aplikace. Upřesněno, že vhodnost dávkování záleží na požadované latenci a propustnosti; použití obou omezení společně ověří další úloha."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká se na skutečnou odpověď na již zadanou otázku: Kamera dodává 30 snímků za sekundu, potřebuje zpracovat každý z nich a výsledek každého získat nejpozději do 50 ms. Varianta A zvládne nejvýše 20 snímků/s s odezvou 30 ms; varianta B zvládne 200 snímků/s s odezvou 80 ms. Splní některá varianta oba požadavky? Zdůvodni pro každou zvlášť. Předchozí vysvětlení pojmů zohlednit jako výuku, nikoli nápovědu k nezadané odpovědi; nová úloha dosud nebyla řešena. Vysvětlovat obvykle ve 3–5 větách a zadání další otázky zobrazit před ukládáním. Vizuální náhled stránky 4 je v /tmp/apai-page4-preview/page4.png, originál je zachovaný.",
+      "review_on": "2026-10-17",
+      "created_at": "2026-10-16T04:57:14.718975+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-16-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zadanou otázku: Akcelerátor X uvádí 4 TOPS při INT8, akcelerátor Y uvádí 0,5 TFLOPS při FP16. Jak bys ověřil tvrzení, že X bude pro tvůj konkrétní model osmkrát rychlejší? Popiš, co bys potřeboval porovnat nebo změřit. Čísla jsou hypotetické zadání, nikoli aktuální produktové parametry. Podle odpovědi vysvětlit nesrovnatelnost samotných špičkových údajů s různými datovými typy a potřebu měření stejné úlohy při požadované kvalitě. Vysvětlovat obvykle ve 3–5 větách a další otázku zobrazit před ukládáním.",
+      "review_on": "2026-10-17",
+      "checkpoint_id": "pokus-2026-10-16-04-obe-omezeni",
+      "activity": "Kamera dodává 30 snímků za sekundu, potřebuje zpracovat každý z nich a výsledek každého získat nejpozději do 50 ms. Varianta A zvládne nejvýše 20 snímků/s s odezvou 30 ms; varianta B zvládne 200 snímků/s s odezvou 80 ms. Splní některá varianta oba požadavky? Zdůvodni pro každou zvlášť.",
+      "learner_answer": "Ne, Varianta nepojme všechny snímky za sekundu a varianta B má příliš velkou odezvu",
+      "evaluation": "Kritérium: posoudit oba požadavky současně a odmítnout obě varianty ze správných příčin. Uživatel správně uvádí, že první varianta nestačí množstvím snímků za sekundu a B má příliš velkou odezvu. V kontextu je chybějící označení A v první části jednoznačné a není věcnou chybou. Splněno samostatně bez nápovědy k této úloze. Ve zpětné vazbě vysvětlen vznik fronty u A při 30 příchozích a nejvýše 20 zpracovaných snímcích/s a překročení limitu 50 ms u B s odezvou 80 ms. Doloženo společné použití latence a propustnosti, nikoli dosud porovnání FLOPS/TOPS, přesnosti výpočtů či energie.",
+      "result": "passed",
+      "difficulty": "zakladni-aplikace",
+      "created_at": "2026-10-16T05:08:37.378970+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-16-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zadanou otázku: Akcelerátor X uvádí 4 TOPS při INT8, akcelerátor Y uvádí 0,5 TFLOPS při FP16. Jak bys ověřil tvrzení, že X bude pro tvůj konkrétní model osmkrát rychlejší? Popiš, co bys potřeboval porovnat nebo změřit. Čísla jsou hypotetické zadání, nikoli aktuální produktové parametry. Podle odpovědi vysvětlit nesrovnatelnost samotných špičkových údajů s různými datovými typy a potřebu měření stejné úlohy při požadované kvalitě. Vysvětlovat obvykle ve 3–5 větách a další otázku zobrazit před ukládáním.",
+      "review_on": "2026-10-17",
+      "checkpoint_id": "vyklad-2026-10-16-05-flops-tops",
+      "activity": "Úvod k metrikám FLOPS a TOPS: FLOPS jsou operace s plovoucí řádovou čárkou za sekundu, TOPS biliony operací za sekundu; u údajů je nutné znát datový typ, například FP16 nebo INT8, a metodiku měření.",
+      "learner_answer": "",
+      "evaluation": "Krátký výklad podle skript APAI, s. 4, vizuálně ověřené stránky. Představeny významy FLOPS a TOPS a potřeba uvést datový typ a metodiku. Význam předpon 10^12 a konkrétní omezení či kvalita INT8/FP16 nebyly samostatně procvičeny. Odpověď na následnou aplikační otázku ještě nepřišla; nové metriky se evidují výhradně jako introduced.",
+      "result": "introduced",
+      "difficulty": "uvodni-vyklad",
+      "created_at": "2026-10-16T05:08:37.605925+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-16-06-porovnani-tops",
+      "lesson_id": "lekce-2026-10-16-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Akcelerátor X uvádí 4 TOPS při INT8, akcelerátor Y uvádí 0,5 TFLOPS při FP16. Jak bys ověřil tvrzení, že X bude pro tvůj konkrétní model osmkrát rychlejší? Popiš, co bys potřeboval porovnat nebo změřit.",
+      "learner_answer": "pokud budu pracovat i celými čísly do 8 bitů, tak skutečně TOPS bude 8x rychlejší, ale pokud by operace měly pracovat s float nebo mít víc jak 8 bitů, TOPS se nebude realizovat",
+      "evaluation": "Kritérium: rozpoznat, že poměr udávaných výkonů s odlišnými typy operací a dat sám nezaručuje poměr rychlostí konkrétního modelu, a navrhnout relevantní měření stejné úlohy. Uživatel správně upozorňuje na platnost údaje X pro INT8 a nemožnost převzít jej pro jinou aritmetiku. Chybně však tvrdí, že při celočíselných datech do 8 bitů bude osminásobné zrychlení skutečně platit; nenavrhuje měření. Kritérium zatím nesplněno. V pěti větách zpětné vazby odlišena jednotka TOPS od podmínky INT8, vysvětlena nesrovnatelnost různých aritmetik a vliv skutečného využití hardwaru, paměti a přenosů. Doporučeno měřit latenci či propustnost stejné úlohy za srovnatelných podmínek při požadované kvalitě výsledků. Dřívější úspěchy v rozlišení latence a propustnosti zůstávají doložené; nynější slabina je interpretace udávaných aritmetických výkonů.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-interpretace-metrik",
+      "misconceptions": [
+        "Předpoklad, že použití INT8 samo zaručí osminásobnou rychlost konkrétního modelu podle poměru 4 TOPS (INT8) a 0,5 TFLOPS (FP16). Opraveno vysvětlením; aplikace dosud neověřena."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zadanou otázku: Oba akcelerátory splňují požadovanou kvalitu výsledků. Při stejné dávce trvá zpracování stejného modelu včetně přenosů na X 10 ms a na Y 25 ms. Jaké zrychlení X proti Y tato měření ukazují a proč pro tento závěr použiješ naměřené časy místo poměru 4 TOPS / 0,5 TFLOPS? Zohlednit jednu podstatnou nápovědu v podobě právě poskytnuté opravy interpretační chyby. Předložit hodnocení a další otázku před zápisem; vysvětlovat obvykle ve 3–5 větách.",
+      "review_on": "2026-10-17",
+      "created_at": "2026-10-16T05:12:38.977175+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-16-07-merene-zrychleni",
+      "lesson_id": "lekce-2026-10-16-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Oba akcelerátory splňují požadovanou kvalitu výsledků. Při stejné dávce trvá zpracování stejného modelu včetně přenosů na X 10 ms a na Y 25 ms. Jaké zrychlení X proti Y tato měření ukazují a proč pro tento závěr použiješ naměřené časy místo poměru 4 TOPS / 0,5 TFLOPS?",
+      "learner_answer": "výsledky ukazují zryhlení o 15 ms, závěr je lepší, protože jsem X a Y otestoval za stejných podmínek",
+      "evaluation": "Kritérium doloženého dílčího výsledku: určit skutečnou časovou výhodu X na základě měření a vysvětlit význam srovnatelných podmínek. Uživatel správně uvádí absolutní úsporu 15 ms a odůvodňuje použití měření stejnými podmínkami. Splněno po jedné předchozí podstatné opravě předpokladu osminásobné rychlosti z TOPS/TFLOPS. Původní otázka výslovně nežádala kolikrát, proto správné vyjádření úspory v ms není označeno za chybu. Poměrové zrychlení zatím uživatel nevyčíslil. Ve čtyřech větách zpětné vazby zaveden a na tomto příkladu vypočítán poměr původního a nového času 25/10=2,5. Samostatné použití tohoto výpočtu se ověří až další úlohou; výpočet asistenta se nepovažuje za uživatelův výkon.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-interpretace-mereni",
+      "misconceptions": [
+        "Původní závěr o zaručeném osminásobném výkonu při INT8 byl opraven; měření stejné úlohy nyní uživatel po pomoci použil správně. Nezávislé opakování bez pomoci zatím chybí."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zadanou úlohu: Ve dvou experimentech změříš: A zkrátí čas z 30 ms na 15 ms, B z 20 ms na 5 ms. Obě změny ušetří 15 ms. Vypočítej poměrové zrychlení u obou a urči, která změna přinesla větší zrychlení vyjádřené násobkem. Předchozí názorný výpočet 25/10=2,5 je jedna podstatná metodická pomoc k právě procvičovanému výpočtu poměru; následující bezprostřední aplikaci nevydávat za doložení dlouhodobého zvládnutí bez pomoci. Vysvětlovat obvykle ve 3–5 větách a další otázku zobrazit před zápisem.",
+      "review_on": "2026-10-17",
+      "created_at": "2026-10-16T05:21:22.441083+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-16-08-pomerove-zrychleni",
+      "lesson_id": "lekce-2026-10-16-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Ve dvou experimentech změříš: A zkrátí čas z 30 ms na 15 ms, B z 20 ms na 5 ms. Obě změny ušetří 15 ms. Vypočítej poměrové zrychlení u obou a urči, která změna přinesla větší zrychlení vyjádřené násobkem.",
+      "learner_answer": "A 2krát rychlejší\nB 4krát rchlejí",
+      "evaluation": "Kritérium: vypočítat poměry původního a nového času A=30/15=2 a B=20/5=4 a odlišit je od stejné absolutní úspory 15 ms. Uživatel správně uvádí oba násobky; větší násobek B je z odpovědi jednoznačný a nevyžaduje další slovní potvrzení. Splněno v bezprostřední návaznosti na jednu podstatnou metodickou pomoc, výklad poměru 25/10=2,5. Ve čtyřech větách zpětné vazby potvrzen výpočet, vysvětlen větší podíl ušetřeného času u B a připomenut vztah zrychlení ke konkrétní úloze a podmínkám. Poměrový výpočet doložen po výkladu; pro samostatné vybavení bez pomoci naplánovat opakování.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-vypocet",
+      "misconceptions": [
+        "Původní předpoklad zaručené osminásobné rychlosti podle údajů TOPS/TFLOPS byl vysvětlen a uživatel následně použil skutečná měření s pomocí; nové samostatné posouzení bez pomoci dosud chybí."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zadanou diagnostickou otázku k energetické efektivitě: Dvě zařízení zpracovávají stejný model se stejnou kvalitou výsledků. Při nepřetržitém zpracování má X průměrný příkon 10 W a zvládá 100 inferencí/s, Y má příkon 6 W a zvládá 20 inferencí/s. Které spotřebuje méně energie na jednu inferenci? Zdůvodni výpočtem. K energetické efektivitě ještě nebyl poskytnut vzorec ani cílená nápověda. Před použitím příslušných vzorců na straně 5 skript vizuálně ověřit originál kvůli hlášeným chybám textové extrakce. Vysvětlovat obvykle ve 3–5 větách a otázku předkládat před ukládáním.",
+      "review_on": "2026-10-17",
+      "created_at": "2026-10-16T05:24:20.557719+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-16-09-energie",
+      "lesson_id": "lekce-2026-10-16-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Dvě zařízení zpracovávají stejný model se stejnou kvalitou výsledků. Při nepřetržitém zpracování má X průměrný příkon 10 W a zvládá 100 inferencí/s, Y má příkon 6 W a zvládá 20 inferencí/s. Které spotřebuje méně energie na jednu inferenci? Zdůvodni výpočtem.",
+      "learner_answer": "X = 100/10 = 10 inferencí na 1W\nY = 20/6 = cca 3 inferencí na cca 1W\n\nX spotřebuje méně energie",
+      "evaluation": "Kritérium: porovnat energii na stejnou inferenci za zadaného nepřetržitého zpracování pomocí příkonu i propustnosti a správně určit X. Uživatel samostatně správně zvolil ekvivalentní porovnání propustnost/příkon a získal X=10 a Y přibližně 3 (přesněji 3,33), takže správně vybírá X. Základní kritérium splněno bez nápovědy. Jednotku chybně popsal jako inference na watt; při dělení (inferencí/s)/(J/s) je výsledkem inference na joule. V pěti větách zpětné vazby opravena jednotka, zpřesněno 3,33 a odvozeny reciproké hodnoty energie X=0,1 J/inference a Y=0,3 J/inference. Tyto reciproké hodnoty a jednotky byly doplněny asistentem a nejsou samostatným výkonem uživatele. Stránka 5, včetně vztahu E=P*t, byla textově načtena a vizuálně ověřena v /tmp/apai-page5-preview/page5.png.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-vypocet-a-interpretace",
+      "misconceptions": [
+        "Jednotka poměru propustnost/příkon byla označena inference/W místo inference/J; opraveno, samostatné použití správné jednotky ještě neověřeno.",
+        "Z dřívějších aktivit zbývá nezávislé zopakování, proč samotný poměr udávaných TOPS/TFLOPS nezaručuje poměr rychlostí konkrétního modelu."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zadanou otázku k omezení paralelizace: Program běží 100 ms: 20 ms zabere sériová část, kterou nemůžeš urychlit, a 80 ms výpočty na GPU. Můžeš dosáhnout desetinásobného zrychlení celého programu pouhým zrychlováním GPU? Urči teoretickou horní mez zrychlení a vysvětli proč. Vztah pro Amdahlův zákon dosud nebyl vyučován; nejprve vyhodnotit intuitivní práci se sériovým limitem. Na straně 5 je vysvětlený princip i příklad 90% paralelizovatelné práce s limitem 10×; v textové extrakci i náhledu LibreOffice chybí ve vzorci znak minus, proto necitovat poškozený zápis. Pro aktuální příklad lze odvodit mez z neurychlitelného času bez převzetí poškozeného vzorce. Vysvětlovat ve 3–5 větách a další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-17",
+      "created_at": "2026-10-16T05:32:58.622263+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-01-amdahl",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Program běží 100 ms: sériová část zabere 20 ms a výpočty na GPU 80 ms. Části probíhají postupně a sériovou část nelze urychlit. Lze pouhým zrychlováním GPU dosáhnout desetinásobného zrychlení celého programu? Jaká je teoretická horní mez zrychlení a proč?",
+      "learner_answer": "nelze, 10 násobná zrychlení by znamenalo, že by Program bežel 10ms, lae sériovou část nelze urychlit a ta má 20ms, teoretircká horní mez se limitně blíží 20 ms, kdybychom mohli GPU neomezeně urychlovat",
+      "evaluation": "Kritérium: samostatně vyloučit zrychlení 10× porovnáním požadovaných 10 ms s neurychlitelnou sériovou částí a určit mezní dobu běhu při neomezeném urychlování GPU. Uživatel toto kritérium splnil bez nápovědy: správně odvodil 10 ms, zdůvodnil nemožnost a určil limitní čas 20 ms. Číselný faktor horní meze zrychlení sám výslovně neuvedl. Ve zpětné vazbě asistent potvrdil úsudek a doplnil převod času na zrychlení 100/20 = 5×; tento převod je vysvětlení asistenta, nikoli samostatně doložený výkon uživatele. Obecný Amdahlův vzorec nebyl použit; poškozený zápis ve skriptech se nepřebírá. Další otázka byla zobrazena přes průběžný vstup před uložením tohoto checkpointu.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-uvaha-o-seriovem-limitu",
+      "misconceptions": [
+        "Z předchozí aktivity zbývá samostatně ověřit jednotku poměru propustnost/příkon: inference/J, nikoli inference/W.",
+        "Z dřívějších aktivit zbývá nezávislé zopakování, proč samotný poměr udávaných TOPS/TFLOPS nezaručuje poměr rychlostí konkrétního modelu."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Ve stejném programu trvá sériová část 20 ms a GPU část původně 80 ms; části běží postupně. GPU část nyní zrychlíme 4×. Jak dlouho poběží celý program a kolikrát bude rychlejší oproti původním 100 ms? Uveď krátký výpočet. Vyhodnotit samostatné sečtení 20 + 80/4 a převod výsledného času na faktor zrychlení. Poté dokončit splatné opakování jednotek energetické efektivity a omezení porovnávání TOPS/TFLOPS. Dosud nevyučován obecný Amdahlův vzorec. Další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T10:22:36.236848+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-02-amdahl",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Ve stejném programu trvá sériová část 20 ms a GPU část původně 80 ms; části běží postupně. GPU část nyní zrychlíme 4×. Jak dlouho poběží celý program a kolikrát bude rychlejší oproti původním 100 ms? Uveď krátký výpočet.",
+      "learner_answer": "GPU část bude trvat 20ms, celkové zrychlení je 100/40 = 2,5 krát rychlejší",
+      "evaluation": "Kritérium: samostatně určit dobu zrychlené GPU části 80/4 = 20 ms, započítat nezměněných 20 ms sériové části do celkových 40 ms a vypočítat celkové zrychlení 100/40 = 2,5×. Uživatel bez nápovědy správně uvedl dobu GPU části a poměr obsahující správný celkový čas 40 ms, a tím doložil správné započtení sériové části i převod času na faktor zrychlení. Kritérium splněno. Ve zpětné vazbě byl jen rozepsán již správný postup. Nejde o ověření znalosti obecného Amdahlova vzorce. Zpětná vazba a jedna další úloha byly zobrazeny před uložením tohoto checkpointu.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-vypocet-celkoveho-zrychleni",
+      "misconceptions": [
+        "Z předchozí aktivity zbývá samostatně ověřit jednotku poměru propustnost/příkon: inference/J, nikoli inference/W.",
+        "Z dřívějších aktivit zbývá nezávislé zopakování, proč samotný poměr udávaných TOPS/TFLOPS nezaručuje poměr rychlostí konkrétního modelu."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou úlohu: Zařízení při nepřetržitém provozu zvládá 60 inferencí za sekundu při průměrném příkonu 12 W. Kolik inferencí zpracuje na jednotku energie a kolik energie spotřebuje jedna inference? Uveď krátký výpočet a u obou výsledků správnou jednotku. Jde o opakování dřívější neověřené opravy jednotek; správné hodnoty ani konkrétní jednotky nebyly v tomto zadání prozrazeny. Poté zopakovat omezení porovnávání TOPS/TFLOPS. Pokud opakování uspěje, pokračovat na téma CPU a ISA. Obecný Amdahlův vzorec dosud nebyl vyučován. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T10:24:48.908915+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-03-jednotky",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Zařízení při nepřetržitém provozu zvládá 60 inferencí za sekundu při průměrném příkonu 12 W. Kolik inferencí zpracuje na jednotku energie a kolik energie spotřebuje jedna inference? Uveď krátký výpočet a u obou výsledků správnou jednotku.",
+      "learner_answer": "příkon je energie za jednotku času, jedna inference spotřebuje 0,2W, na 1W se provede 5 inferencí",
+      "evaluation": "Kritérium: správně vypočítat oba reciproké poměry a samostatně uvést jednotky energie na inferenci a inferencí na energii. Uživatel správně slovně definuje příkon jako energii za jednotku času a získává správné číselné hodnoty 0,2 a 5, ale opakuje dřívější záměnu W a J u obou výsledků. Kritérium jednotek nesplněno; skutečný výsledek needs-practice, bez nápovědy před tímto pokusem. Zpětná vazba výslovně ocenila správnou definici a čísla, převedla 12 W na 12 J/s a vysvětlila, že za tutéž sekundu vznikne 60 inferencí: 12/60 = 0,2 J na inferenci a 60/12 = 5 inferencí/J. Rozlišila rychlost spotřeby energie (W) a množství energie (J). Opravené jednotky poskytl asistent, jejich samostatné použití dosud neověřeno. Zpětná vazba a další konkrétní úloha byly zobrazeny před zápisem checkpointu.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-opakovani-energie-a-jednotek",
+      "misconceptions": [
+        "Opakovaně zaměňuje watt a joule při vyjádření energie jedné inference a inferencí na jednotku energie: napsal 0,2 W a 5 inferencí na W namísto 0,2 J na inferenci a 5 inferencí/J, přestože příkon správně slovně definuje. Správné jednotky nyní vysvětleny přes 12 W = 12 J/s; samostatné použití po opravě čeká na ověření.",
+        "Z dřívějších aktivit zbývá nezávislé zopakování, proč samotný poměr udávaných TOPS/TFLOPS nezaručuje poměr rychlostí konkrétního modelu."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou úlohu: Zařízení má stálý příkon 8 W a za 3 sekundy provede 60 inferencí. Kolik energie spotřebuje celkem a kolik připadá na jednu inferenci? Uveď výpočty a jednotky. Cílem je ověřit bezprostřední přenos vysvětlení W = J/s na nová čísla a časový interval, zejména jednotku J. Jde o procvičení po opravě, nikoli ještě o opakování s odstupem. Při přetrvávající záměně postupovat po jedné otázce přes energii za jednu sekundu a za tři sekundy. Po správném výsledku později ověřit i inference/J. Dále zbývá opakování omezení porovnávání TOPS/TFLOPS; poté CPU a ISA. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T10:28:20.037279+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-04-energie",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Zařízení má stálý příkon 8 W a za 3 sekundy provede 60 inferencí. Kolik energie spotřebuje celkem a kolik připadá na jednu inferenci? Uveď výpočty a jednotky.",
+      "learner_answer": "8 W = 8 J/s, 20 inf/s, na 60 inferencí spotrebuje celkem 24 W, na 1 inferenci připadá 2,5 J/s",
+      "evaluation": "Kritérium: ze stálého příkonu a doby určit celkovou energii 8 J/s × 3 s = 24 J a rozdělením mezi 60 inferencí určit 0,4 J na inferenci. Uživatel správně převedl 8 W na 8 J/s a správně odvodil propustnost 20 inferencí/s. Číselnou hodnotu celkové energie 24 určil správně, ale připsal W. U energie na inferenci uvedl 2,5 J/s; hodnota 2,5 odpovídá opačnému poměru inferencí k energii, správně 2,5 inference/J. Kritérium nesplněno, výsledek needs-practice. Během tohoto pokusu nebyla poskytnuta další nápověda; předchozí vysvětlení podobné úlohy je součástí bezprostředního procvičování. Ve čtyřech větách zpětné vazby potvrzeny správné dílčí kroky, rozepsáno krácení sekund, určeno 24 J a 0,4 J na inferenci a vysvětlen smysl opačného poměru 2,5 inference/J. Opravené výsledky dodal asistent. Před zápisem zobrazena jednodušší otázka pouze na příkon, dobu a celkovou energii.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "bezprostredni-prenos-po-oprave-jednotek",
+      "misconceptions": [
+        "Přes správně uvedený vztah W = J/s opakovaně označuje energii po dané době watty (24 W místo 24 J); použití jednotek po vynásobení příkonu časem není upevněné.",
+        "Zaměnil energii na inferenci s reciprokou veličinou: uvedl 2,5 J/s, číselně odpovídající 60/24, místo 24/60 = 0,4 J na inferenci. Potřebuje odděleně ověřit, co dělí čím a jaké jednotky zůstávají.",
+        "Z dřívějších aktivit zbývá nezávislé zopakování, proč samotný poměr udávaných TOPS/TFLOPS nezaručuje poměr rychlostí konkrétního modelu."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou jednodušší otázku: Zařízení má stálý příkon 5 W a běží 4 sekundy. Kolik energie za tuto dobu spotřebuje? Napiš výpočet i s jednotkami. Procvičovat po jednom kroku: nejprve pouze energii z příkonu a času včetně krácení s; až po úspěchu rozdělení energie mezi daný počet inferencí a později opačný poměr inference/J. Při přetrvávající chybě ověřit smysl J/s jako joulů za každou sekundu. Nepřeskočit opakované chyby v jednotkách na základě správných čísel. Opravené výsledky dosud nejsou samostatně doložené. Poté zbývá TOPS/TFLOPS, další splatné opakování a CPU/ISA. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T10:32:25.887322+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-05-prikon-energie",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Zařízení má stálý příkon 5 W a běží 4 sekundy. Kolik energie za tuto dobu spotřebuje? Napiš výpočet i s jednotkami.",
+      "learner_answer": "5 * 4 = 20 J/s",
+      "evaluation": "Kritérium: určit celkovou energii za dobu provozu včetně výsledné jednotky J, tj. 5 J/s × 4 s = 20 J. Uživatel bez další nápovědy během pokusu zvolil správné násobení a číselný výsledek 20, ale ponechal jednotku příkonu J/s. Kritérium práce s jednotkami nesplněno, needs-practice. Předchozí výklady podobných úloh se nepočítají jako další nápovědy během tohoto pokusu; jde ovšem o bezprostřední procvičování po více opravách, nikoli samostatné opakování s odstupem. Ve čtyřech větách zpětné vazby potvrzena správná aritmetika, ukázáno krácení sekund, vysvětleno, že 20 J/s by znamenalo 20 W, zatímco příkon podle zadání zůstává 5 W, a pojmenována celková spotřeba 20 J. Správnou výslednou jednotku poskytl asistent. Před uložením zobrazena jedna konceptuální otázka, která odděluje stálý příkon od energie hromadící se za dobu provozu.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-jednokrokova-energie-a-jednotka",
+      "misconceptions": [
+        "Po správném vynásobení příkonu dobou opakovaně ponechává jednotku příkonu: nyní 20 J/s místo 20 J. Potřebuje upevnit rozdíl mezi rychlostí spotřeby energie a celkovou energií za interval a ověřit krácení sekund.",
+        "Z dřívějšího pokusu zbývá opravit záměnu energie na inferenci s reciprokou veličinou; správné dělení celkové energie počtem inferencí zatím samostatně nedoloženo.",
+        "Z dřívějších aktivit zbývá nezávislé zopakování, proč samotný poměr udávaných TOPS/TFLOPS nezaručuje poměr rychlostí konkrétního modelu."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou konceptuální otázku: Zařízení má stále stejný příkon 5 W. Necháme ho běžet 8 sekund místo 4 sekund. Která veličina se zdvojnásobí — příkon, nebo celková spotřebovaná energie? Vysvětli vlastními slovy proč. Při správném zdůvodnění znovu ověřit samotnou výslednou jednotku při násobení J/s sekundami na novém příkladu; nevyvozovat zvládnutí jednotek pouze z výběru energie v nabídnuté dvojici. Při chybě použít názorné přirovnání stálého průtoku a nasbíraného množství, jasně označené jako didaktické doplnění. K energii na inferenci se vrátit až po upevnění celkové energie, teprve poté k opačnému poměru inference/J. Dále zbývá TOPS/TFLOPS a další splatné opakování před CPU/ISA. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T10:34:27.609893+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-06-energie-koncept",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Zařízení má stále stejný příkon 5 W. Necháme ho běžet 8 sekund místo 4 sekund. Která veličina se zdvojnásobí — příkon, nebo celková spotřebovaná energie? Vysvětli vlastními slovy proč.",
+      "learner_answer": "celková spotřeba energie, příkon by vyjadřuje energii za čas ale s časem neroste, roste dodadá energie",
+      "evaluation": "Kritérium této zjednodušené konceptuální aktivity: správně vybrat celkovou spotřebovanou energii a vlastními slovy odlišit stálou rychlost spotřeby od hromadící se energie při delší době provozu. Uživatel správně volí energii a vysvětluje, že příkon vyjadřuje energii za čas a při zadaném stálém příkonu se nemění, zatímco celková energie přibývá. Kritérium splněno bez další nápovědy během pokusu. Jde o bezprostřední procvičování po předchozích opravách a o výběr ze dvou veličin s vysvětlením; tato odpověď sama neověřuje správnou výslednou jednotku při výpočtu energie ani energii na inferenci. Tvrzení o neměnném příkonu se vztahuje k zadání se stálým příkonem, nikoli obecně ke všem zařízením. Ve třech větách zpětné vazby tento vztah potvrzen a zdůrazněna podmínka stálého příkonu. Před zápisem zobrazena další otázka na samostatný výpočet energie s jednotkami na nových číslech.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-konceptualni-rozliseni-po-oprave",
+      "misconceptions": [
+        "Slovně nyní správně rozlišuje stálý příkon a celkovou energii za dobu provozu. Přesto zbývá samostatně ověřit správnou jednotku energie ve výpočtu: v minulém pokusu po násobení příkonu časem ponechal J/s místo J.",
+        "Z dřívějšího pokusu zbývá opravit záměnu energie na inferenci s reciprokou veličinou; správné dělení celkové energie počtem inferencí zatím samostatně nedoloženo.",
+        "Z dřívějších aktivit zbývá nezávislé zopakování, proč samotný poměr udávaných TOPS/TFLOPS nezaručuje poměr rychlostí konkrétního modelu."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Zařízení má stálý příkon 6 W a běží 5 sekund. Kolik energie celkem spotřebuje? Napiš výpočet i s jednotkami. Cílem je samostatná správná výsledná jednotka po slovně správném rozlišení energie a příkonu; očekávaných 30 J ani jednotka výsledku nebyly v zadání prozrazeny. Platnou energetickou jednotku W·s nepovažovat za chybu; podle potřeby pouze převést na J. Při úspěchu zadat rozdělení známé celkové energie mezi počet inferencí, později opačný poměr inference/J a opakování s odstupem. Aktuální passed dokládá pouze tuto konceptuální otázku, nikoli odstranění dřívějších chyb s jednotkami. Dále zbývá TOPS/TFLOPS a další splatné opakování před CPU/ISA. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T10:35:56.899147+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-07-energie-jednotka",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Zařízení má stálý příkon 6 W a běží 5 sekund. Kolik energie celkem spotřebuje? Napiš výpočet i s jednotkami.",
+      "learner_answer": "6 W = 6J/s | 6 j /s * 5s => s se pokrátí -> 30J",
+      "evaluation": "Kritérium: samostatně vypočítat celkovou energii při stálém příkonu a správně určit její jednotku, tedy 6 J/s × 5 s = 30 J. Uživatel správně převádí W na J/s, násobí dobou, výslovně vysvětluje krácení sekund a dostává 30 J. Kritérium splněno bez další nápovědy během pokusu. Malé j v mezikroku je neformální zápis, uživatel používá správné J v převodu i konečném výsledku; není důkazem neporozumění. Jde o první správný výpočet s jednotkami po několika vysvětleních a jednodušší konceptuální otázce; dokládá bezprostřední použití opravy, nikoli ještě její udržení s odstupem. Zpětná vazba před uložením potvrdila správný výpočet a krácení jednotek. Před zápisem zobrazena jedna navazující otázka na rozdělení známé celkové energie mezi počet inferencí.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-jednokrokovy-vypocet-po-procviceni",
+      "misconceptions": [
+        "Dřívější záměnu J/s a J nyní v jednom výpočtu samostatně opravil včetně výslovného krácení sekund. Zbývá ověřit správné jednotky při opakování s odstupem a v širší úloze.",
+        "Z dřívějšího pokusu zbývá opravit záměnu energie na inferenci s reciprokou veličinou; správné dělení celkové energie počtem inferencí zatím samostatně nedoloženo.",
+        "Z dřívějších aktivit zbývá nezávislé zopakování, proč samotný poměr udávaných TOPS/TFLOPS nezaručuje poměr rychlostí konkrétního modelu."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Zařízení spotřebovalo celkem 30 J a provedlo 60 inferencí. Kolik energie připadá na jednu inferenci? Napiš výpočet i s jednotkou. Cílem je samostatně zvolit dělení energie počtem inferencí, získat 0,5 J na inferenci a nepřevrátit poměr. Výsledek ani postup tohoto konkrétního dělení nebyly předem prozrazeny. Poté ověřit opačný poměr inference/J, následně širší úlohu a pozdější opakování jednotek. Dále zbývá TOPS/TFLOPS a další splatné opakování před CPU/ISA. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T11:38:27.220126+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-08-energie-na-inferenci",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Zařízení spotřebovalo celkem 30 J a provedlo 60 inferencí. Kolik energie připadá na jednu inferenci? Napiš výpočet i s jednotkou.",
+      "learner_answer": "30/60 = 0,5 J",
+      "evaluation": "Kritérium: zvolit dělení celkové energie počtem inferencí a určit 0,5 J na jednu inferenci. Uživatel správně volí 30/60 a uvádí 0,5 J, což v kontextu otázky na jednu inferenci splňuje i požadavek jednotky; není nutné vyžadovat zápis J/inference místo přirozeného vyjádření energie jedné inference. Splněno bez další nápovědy během pokusu. Jde o bezprostřední jednodušší procvičení po předchozích opravách, nikoli zatím o samostatné řešení celé úlohy z příkonu, času a počtu inferencí nebo o retenci s odstupem. Zpětná vazba potvrdila výsledek, pořadí dělení a jednotku; další otázka na opačný poměr byla zobrazena před uložením.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-rozdeleni-energie-po-procviceni",
+      "misconceptions": [
+        "Dřívější záměnu J/s a J samostatně opravil v předchozím jednom výpočtu včetně krácení sekund; nyní správně zvolil i energii na inferenci 30/60 = 0,5 J. Obě dovednosti zbývá ověřit ve spojené úloze a s odstupem.",
+        "Opačný poměr inferencí na energii a jeho jednotku inference/J dosud po opravách samostatně neověřil.",
+        "Z dřívějších aktivit zbývá nezávislé zopakování, proč samotný poměr udávaných TOPS/TFLOPS nezaručuje poměr rychlostí konkrétního modelu."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Zařízení provedlo 60 inferencí a spotřebovalo celkem 30 J. Kolik inferencí tedy provede na 1 J spotřebované energie? Napiš výpočet i jednotku výsledku. Očekává se 60/30 = 2 inference/J; tento výsledek ani konkrétní postup dělení nebyly prozrazeny. Poté ověřit spojení příkonu, času, počtu inferencí a jednotek na nových číslech. Po úspěchu přejít k opakování TOPS/TFLOPS a později znovu ověřit jednotky energie s odstupem. Další splatné opakování zahrnuje AI a specifický hardware, poté CPU/ISA. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T11:40:34.255769+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-09-inference-na-joule",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Zařízení provedlo 60 inferencí a spotřebovalo celkem 30 J. Kolik inferencí tedy provede na 1 J spotřebované energie? Napiš výpočet i jednotku výsledku.",
+      "learner_answer": "60/30 = 2 inference za J",
+      "evaluation": "Kritérium: samostatně určit počet inferencí na jednotku energie správným pořadím dělení a uvést jednotku inference/J. Uživatel správně volí 60/30 a uvádí 2 inference za J. Kritérium splněno bez další nápovědy během pokusu. Tím doložil správné použití dříve chybně uváděné jednotky v jednoduchém příkladu. Jde o bezprostřední procvičování po výkladu a po otázce na reciprokou veličinu se stejnými čísly; ještě není ověřeno spojení všech kroků na nových číslech ani retence s odstupem. Zpětná vazba před zápisem potvrdila výsledek a shrnula doložené dílčí úspěchy. Další úloha byla zobrazena před zápisem checkpointu.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-opačný-pomer-po-procviceni",
+      "misconceptions": [
+        "Dřívější chyby v jednotkách J/s versus J a záměnu reciprokých poměrů nyní opravil v jednotlivých jednoduchých aktivitách. Zbývá ověřit spojenou úlohu na nových číslech a později opakování s odstupem.",
+        "Z dřívějších aktivit zbývá nezávislé zopakování, proč samotný poměr udávaných TOPS/TFLOPS nezaručuje poměr rychlostí konkrétního modelu."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou úlohu: Zařízení má stálý příkon 8 W a za 5 sekund provede 100 inferencí. Urči energii na jednu inferenci a počet inferencí na 1 J spotřebované energie. Napiš celý postup i s jednotkami. Očekává se samostatné propojení 8 J/s × 5 s = 40 J, 40/100 = 0,4 J na inferenci a 100/40 = 2,5 inference/J. Tyto hodnoty ani konkrétní mezikroky nebyly v zadání prozrazeny. Při úspěchu přejít k opakování omezení porovnávání TOPS/TFLOPS a naplánovat pozdější opakování energie. Zbývá také splatné opakování AI a specifického hardwaru, poté CPU/ISA. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T11:41:58.768784+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-10-energie-spojena",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Zařízení má stálý příkon 8 W a za 5 sekund provede 100 inferencí. Urči energii na jednu inferenci a počet inferencí na 1 J spotřebované energie. Napiš celý postup i s jednotkami.",
+      "learner_answer": "8W = 8J/s, 20 inf/s, totol energie = 8J/s *5s = 40J, 100/40 = 2,5 inference na J, 40/100 = 0,4 J na jednu inferenci",
+      "evaluation": "Kritérium: samostatně propojit stálý příkon, dobu provozu a počet inferencí, získat celkovou energii 40 J a oba reciproké poměry 0,4 J na inferenci a 2,5 inference/J se správnými jednotkami. Uživatel všechny kroky správně provedl, navíc správně odvodil 20 inferencí/s. Kritérium splněno bez dalších nápověd během pokusu. Prokazuje bezprostřední samostatné propojení dílčích dovedností po předchozím procvičení a opravách. Retence s odstupem dosud neověřena. Zpětná vazba potvrdila všechny výsledky a vymezila doložený pokrok. Před uložením byla zobrazena otázka k dříve neověřenému omezení porovnávání TOPS/TFLOPS; příslušná pasáž page:4 byla načtena nástrojem passages.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-spojena-uloha-po-procviceni",
+      "misconceptions": [
+        "Dřívější chyby J/s versus J a záměnu reciprokých poměrů nyní samostatně opravil i ve spojené úloze na nových číslech. Energie a jednotky vyžadují pozdější opakování s odstupem; nejde již o neopravenou chybu aktuálního pokusu.",
+        "Z dřívějších aktivit zbývá nezávislé zopakování, proč samotný poměr udávaných TOPS/TFLOPS nezaručuje poměr rychlostí konkrétního modelu."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Uvažuj dvě zařízení: A má udávaný výkon 4 TOPS při INT8, B má 0,5 TFLOPS při FP16. Můžeme z poměru 4 / 0,5 = 8 usoudit, že A provede inferenci stejného modelu osmkrát rychleji? Zdůvodni odpověď. Jde o hypotetické srovnání podle skript s. 4, nikoli tvrzení o aktuálních produktech. Vyhodnotit odlišení datových typů/operací a teoretické špičky od reálného výkonu konkrétní aplikace; podle odpovědi procvičit chybějící hledisko. Energii znovu ověřit s odstupem, doporučeně při návštěvě 2026-10-20 nebo později. Termín tématu nyní zůstává dnes kvůli nedokončenému opakování TOPS/TFLOPS. Zbývá také splatné opakování AI a specifického hardwaru, poté CPU/ISA. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T11:44:25.915747+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-11-tops-srovnani",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Uvažuj dvě zařízení: A má udávaný výkon 4 TOPS při INT8, B má 0,5 TFLOPS při FP16. Můžeme z poměru 4 / 0,5 = 8 usoudit, že A provede inferenci stejného modelu osmkrát rychleji? Zdůvodni odpověď.",
+      "learner_answer": "ne, můžeme usoudit, že provede 8x více operací, ale to nic neríká o jejich náročnosti, samotné datové typy přidávají další vrstvu komplexity",
+      "evaluation": "Kritérium: odmítnout automatické 8× zrychlení inference a zdůvodnit neporovnatelnost odlišných datových typů/operací i omezení přenosu udávaných maxim na skutečný běh modelu. Uživatel správně odmítá zaručené 8× zrychlení a zmiňuje rozdílné datové typy i náročnost operací. Tvrzení, že můžeme usoudit na 8× více skutečně provedených operací, ale není z těchto údajů doložené: poměr vyjadřuje pouze poměr udávaných maximálních rychlostí odlišně definovaných operací. Není jasné, zda uživatel myslel specifikované rychlosti nebo skutečný běh; proto nezaznamenávat plné zvládnutí a cíleně ověřit rozlišení špičky a výkonu modelu. Výsledek needs-practice, bez nápovědy během tohoto pokusu. Ve čtyřech větách zpětné vazby potvrzen správný závěr, přesně omezen význam poměru maxim, stručně vysvětlen INT8 versus FP16 a uvedena potřeba měření konkrétního modelu. Konkrétní důvody, proč může být zařízení s nižší špičkou rychlejší, zatím nebyly v této zpětné vazbě prozrazeny. Další otázka byla zobrazena před zápisem.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "opakovani-srovnatelnosti-metrik-a-realneho-vykonu",
+      "misconceptions": [
+        "Správně odmítá 8× zrychlení inference při srovnání INT8 a FP16, ale poměr specifikovaných maxim nepřesně převádí na 8× více provedených operací. Zbývá samostatně ověřit, že ani při sjednocení datového typu a metodiky maxima nezaručují poměr reálného výkonu modelu."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Obě zařízení mají stejný datový typ INT8 i stejný způsob počítání operací. A uvádí maximum 8 TOPS, B maximum 4 TOPS. Při měření stejného modelu A zvládne 40 inferencí/s a B 60 inferencí/s. Uveď jeden konkrétní důvod, který by mohl vysvětlit, proč je B v tomto měření rychlejší. Hodnotit věrohodnou hypotézu, například rozdíl v přísunu dat, využití výpočetních jednotek, podpoře operátorů nebo režii; ze zadaných čísel nelze určit skutečnou příčinu. Úloha konkrétní důvod předem neprozrazuje. Dřívější chyby v energii a jednotkách byly úspěšně opraveny i ve spojené úloze; zopakovat s odstupem při návštěvě 2026-10-20 nebo později. Po dokončení TOPS zbývá splatné opakování AI/specifického hardwaru a poté CPU/ISA. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T11:47:42.955731+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-12-tops-rezie",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Obě zařízení mají stejný datový typ INT8 i stejný způsob počítání operací. A uvádí maximum 8 TOPS, B maximum 4 TOPS. Při měření stejného modelu A zvládne 40 inferencí/s a B 60 inferencí/s. Uveď jeden konkrétní důvod, který by mohl vysvětlit, proč je B rychlejší.",
+      "learner_answer": "více maximálních operací zárověń přidává větší tehnický overhead a zpomaluje rychlost per operace",
+      "evaluation": "Kritérium: navrhnout konkrétní věrohodný důvod nižšího využití teoretické špičky A při skutečné inferenci. Uživatel zmiňuje režii, která by příčinou být mohla, ale nepodloženě ji automaticky odvozuje z vyššího maximálního počtu operací a tvrdí, že tím klesá rychlost na operaci. Vyšší TOPS samo neimplikuje vyšší režii ani zpomalení jednotlivé operace. Konkrétní mechanismus nebyl uveden, kritérium nesplněno. Výsledek needs-practice, bez nápovědy během tohoto pokusu. Ve třech větách zpětné vazby zachována použitelná myšlenka režie, opravena příčinná souvislost a vysvětlen možný limit přísunu dat z paměti, při němž výpočetní jednotky čekají. Tento konkrétní příklad dodal asistent, není samostatným výkonem uživatele. Další otázka na zásah do paměťově omezeného zařízení byla zobrazena před uložením.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "vysvetleni-rozdilu-spicky-a-vykonu-modelu",
+      "misconceptions": [
+        "Nepodloženě spojuje vyšší maximální TOPS s automaticky vyšší technickou režií a zpomalením jedné operace. Zbývá doložit konkrétní mechanismus, proč může zařízení nevyužít výpočetní špičku. Příklad čekání na data z paměti nyní vysvětlil asistent; uživatel jej dosud samostatně nepoužil."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Při měření zjistíme, že výpočetní jednotky zařízení A většinu času čekají na data z paměti. Která změna by pravděpodobně pomohla více: zvýšit maximální TOPS, nebo zvýšit paměťovou propustnost? Vysvětli proč. Jde o bezprostřední použití právě vysvětleného limitu, konkrétní limit je daný zadáním; očekává se volba paměťové propustnosti s vysvětlením přísunu dat a nevyužité výpočetní kapacity. Nevyvozovat z pouhé volby úplné zvládnutí srovnávání architektur; později ověřit vlastní vysvětlení rozdílu špičky a výkonu aplikace v nové situaci. Energii a jednotky již samostatně opravil i ve spojené úloze, zopakovat při návštěvě 2026-10-20 nebo později. Pak zbývá splatné opakování AI/specifického hardwaru a CPU/ISA. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T11:50:45.380251+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-13-pametovy-limit",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Při měření zjistíme, že výpočetní jednotky zařízení A většinu času čekají na data z paměti. Která změna by pravděpodobně pomohla více: zvýšit maximální TOPS, nebo zvýšit paměťovou propustnost? Vysvětli proč.",
+      "learner_answer": "svýšit pamětovou propustnost, maximum nevyužíváme, takže není potřeba jej nevyšovat",
+      "evaluation": "Kritérium: při zadaném čekání na data vybrat zvýšení paměťové propustnosti a vysvětlit, že další výpočetní špička nepomůže využít už dostupnou kapacitu. Uživatel správně volí paměťovou propustnost a zdůvodňuje, že výpočetní maximum se nevyužívá. Kritérium splněno bez další nápovědy během pokusu. Jde o bezprostřední použití právě vysvětleného příkladu se dvěma nabízenými zásahy a konkrétním limitem uvedeným v zadání, nikoli ještě o samostatnou analýzu neznámého omezení. Zpětná vazba potvrdila volbu, vysvětlila lepší zásobování daty a zdůraznila zásah do omezující části. Před zápisem zobrazena otázka bez konkrétního limitu, která žádá vlastní příklad pro rozlišení dvojnásobných TOPS a doby celé aplikace.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-volba-zasahu-pri-zadanem-limitu",
+      "misconceptions": [
+        "V konkrétní paměťově omezené situaci nyní správně rozlišuje nevyužitou výpočetní špičku a potřebný přísun dat. Po dřívějším nepodloženém spojení vyšších TOPS s automatickou režií zbývá ověřit vlastní konkrétní vysvětlení rozdílu špičky a výkonu aplikace bez pojmenování limitu v zadání."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Nový akcelerátor má při stejném datovém typu a stejné metodice dvojnásobné TOPS. Kolega tvrdí, že po jeho výměně bude celá aplikace určitě trvat polovinu času. Je tento závěr zaručený? Zdůvodni odpověď jedním konkrétním příkladem. Uznat například konkrétní omezení pamětí, přesuny dat, neurychlenou sériovou část či podporou operátorů, pokud vysvětlení správně ukáže, proč zvýšení špičky nezaručuje poloviční dobu celé aplikace. Paměť může znovu použít; neoprávněně nevyžadovat jiný typ příkladu. Po úspěchu přesunout opakování výkonu a energetických jednotek na 2026-10-20 a navázat splatným opakováním AI/specifického hardwaru, poté CPU/ISA. Energie a jednotky již byly samostatně správně použity ve spojené úloze. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T11:52:12.237258+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-14-tops-priklad",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Nový akcelerátor má při stejném datovém typu a stejné metodice dvojnásobné TOPS. Kolega tvrdí, že po jeho výměně bude celá aplikace určitě trvat polovinu času. Je tento závěr zaručený? Zdůvodni odpověď jedním konkrétním příkladem.",
+      "learner_answer": "není, ikdyby nové TOPS opět dosáhlo dvojnásobného limitu operací, nemáme zaručeno, že operace budou stejně náročné /rychlé",
+      "evaluation": "Kritérium: odmítnout zaručené zkrácení celé aplikace na polovinu a uvést konkrétní mechanismus nebo scénář, který závěr vyvrací. Uživatel správně odmítá záruku, ale zůstává u obecné neurčené náročnosti/rychlosti operací a konkrétní příklad nedodává. Odpověď sama neprokazuje, že umí spojit teoretickou špičku akcelerátoru s reálným časem celé aplikace. Odlišná náročnost konkrétních operací může být relevantní, takže ji nehodnotit paušálně jako nepravdivou; nesplněna je konkrétnost zdůvodnění. Výsledek needs-practice, bez další nápovědy během tohoto pokusu. Zpětná vazba potvrdila správné ne, pojmenovala chybějící příklad a dodala metodické vodítko v podobě neurychlené části aplikace, navazující na dřívější úspěšné výpočty sériového limitu. Před uložením nabídnuta konkrétně strukturovaná číselná úloha.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "vlastni-kontrapriklad-k-vykonove-zaruce",
+      "misconceptions": [
+        "Správně odmítá záruku poměru rychlostí podle TOPS, ale zatím sám nedodal konkrétní mechanismus/protipříklad; opakuje obecnou náročnost operací. Příklady paměťového omezení a nyní neurychlené části aplikace poskytl asistent."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Program původně běží 100 ms: 20 ms zabere CPU a potom 80 ms akcelerátor. Pro tento příklad předpokládej, že nový akcelerátor s dvojnásobnými TOPS skutečně zkrátí svou část na polovinu; CPU část zůstane stejná. Jak dlouho poběží celý program? Ukazuje výsledek zkrácení celé aplikace na polovinu? Očekává se 20 + 80/2 = 60 ms, což není polovina původního času. Dvojnásobné zrychlení části je explicitní hypotetický předpoklad, nikoli obecně odvozený důsledek TOPS. Strukturu protipříkladu dodal asistent jako jednu podstatnou metodickou nápovědu k původní otevřené úloze; při hodnocení dokončení této argumentace evidovat hints_used 1. Samostatný aritmetický výkon odlišit od samostatného vytvoření příkladu. Při úspěchu tuto část uzavřít jako procvičenou s poskytnutým scénářem, naplánovat návrat k výkonu a energetickým jednotkám na 2026-10-20 a pokračovat splatným opakováním AI/specifického hardwaru, poté CPU/ISA. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T11:54:53.724167+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-15-seriovy-priklad",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Program původně běží 100 ms: 20 ms zabere CPU a potom 80 ms akcelerátor. Pro tento příklad předpokládej, že nový akcelerátor s dvojnásobnými TOPS skutečně zkrátí svou část na polovinu; CPU část zůstane stejná. Jak dlouho poběží celý program? Ukazuje výsledek zkrácení celé aplikace na polovinu?",
+      "learner_answer": "není, poběží 60 ms, na jakých všech komponentech aplikace běží?",
+      "evaluation": "Kritérium: na poskytnutém scénáři rozpoznat, že ani skutečné dvojnásobné zrychlení akcelerátorové části nezkracuje celou aplikaci na polovinu, a určit dobu 60 ms. Uživatel správně odpovídá ne a uvádí 60 ms. Následující otázka na komponenty je žádost o výklad, nikoli chybná odpověď. Výpočet sám je správný. Strukturovaný scénář se sériovou částí dodal asistent jako jednu podstatnou metodickou nápovědu k původnímu požadavku na vlastní konkrétní protipříklad; proto passed s hints_used 1. Nezaznamenávat samostatné vytvoření protipříkladu. Zpětná vazba potvrdila 20 + 80/2 = 60 ms. Před zápisem byl zodpovězen dotaz na komponenty a zobrazena otázka k úloze CPU.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "konkretni-protipriklad-s-poskytnutym-scenarem",
+      "misconceptions": [
+        "Na poskytnutém scénáři nyní správně vypočítal, proč dvojnásobné zrychlení akcelerátoru nezaručuje poloviční čas celé aplikace. Samostatné vytvoření konkrétního protipříkladu k odvozování výkonu aplikace z TOPS zůstává pro opakování s odstupem."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Výkon, energetické jednotky a vlastní konkrétní zdůvodnění omezení TOPS zopakovat při návštěvě 2026-10-20 nebo později. Energie byla správně vyřešena i ve spojené úloze bez nápovědy, aktuální argument s neurychlenou částí aplikace uspěl s poskytnutým scénářem. Na uživatelův dotaz vysvětleny role CPU, akcelerátorů, pamětí, úložiště a přenosů; výuka pokračuje otázkou v tématu cpu-a-isa. Splatné opakování ai-a-specificky-hardware zůstává nedokončené. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-18T11:59:47.455412+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "vyklad-2026-10-18-16-role-komponent",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Na uživatelův dotaz, na jakých komponentách aplikace běží, vysvětlit rozdělení úloh v AI aplikaci: CPU řídí aplikaci, připravuje data a zpracovává výsledky; akcelerátor provádí vybrané výpočty sítě; paměti uchovávají data a parametry; úložiště, síť a rozhraní umožňují načítání a přenosy. Odlišit vykonávání instrukcí od čekání na paměť a přenosy, které ovlivňuje celkovou dobu aplikace. Konkrétní zapojení závisí na aplikaci a zařízení.",
+      "learner_answer": "",
+      "evaluation": "Výklad byl zobrazen v přehledné tabulce rolí komponent a doplněn vysvětlením jejich vlivu na celkovou dobu aplikace s citací skript s. 5–7. Jde pouze o introduced; pochopení nového výkladu dosud neověřeno. ISA a mikroarchitektura dosud nebyly vyloženy. Před zápisem zobrazena jedna navazující otázka na dvě konkrétní činnosti CPU v aplikaci s GPU.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "uvodni-role-cpu-a-ostatnich-komponent",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:7"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Aplikace načte fotografii a pomocí GPU v ní rozpozná objekt. Uveď dvě konkrétní činnosti, které v takové aplikaci může zajišťovat CPU. Uznat například přípravu vstupu, načtení či dekódování řízené CPU, řízení spuštění výpočtu, zpracování a prezentaci výsledku; nejde o povinné výlučné rozdělení na CPU/GPU. Hodnotit jako základní použití právě vysvětlených rolí, nikoli zvládnutí ISA a mikroarchitektury. Poté vysvětlit ISA versus mikroarchitekturu ze s. 5 a ověřit vhodnou otázkou. Splatné opakování ai-a-specificky-hardware stále čeká. Výkon a energetické jednotky naplánovány na 2026-10-20. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": null,
+      "created_at": "2026-10-18T11:59:47.634970+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-17-role-cpu",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Aplikace načte fotografii a pomocí GPU v ní rozpozná objekt. Uveď dvě konkrétní činnosti, které v takové aplikaci může zajišťovat CPU.",
+      "learner_answer": "CPU zajištuje řízení procesů a může dělat samotný deep learning, ale bude to mnohem méně efektivní nežGPU",
+      "evaluation": "Kritérium: uvést dvě konkrétní možné činnosti CPU v aplikaci, kde neuronovou síť počítá GPU. Uživatel správně zmiňuje řízení procesů/aplikace a správně ví, že CPU obecně může provádět deep learning. Druhá konkrétní činnost v zadaném scénáři však není pojmenována a výrok o mnohem nižší efektivitě CPU je příliš obecný; závisí na modelu, dávce, implementaci, režii a zvolené metrice. Nevyvozovat, že CPU inference je sama o sobě chybná: může být vhodná i v heterogenní aplikaci, ale konkrétní použití zde nebylo vysvětleno. Výsledek needs-practice kvůli neúplné konkretizaci a zobecnění výhodnosti GPU. Bez další nápovědy během pokusu. Zpětná vazba potvrdila správnou roli a schopnost CPU, doplnila příklady změny velikosti fotografie a zpracování výsledků a vysvětlila časovou režii GPU u malé úlohy. Další otázka byla zobrazena před zápisem.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-role-cpu-po-uvodnim-vykladu",
+      "misconceptions": [
+        "Příliš obecně předpokládá mnohem nižší efektivitu CPU oproti GPU pro deep learning. Je třeba odlišit samotný výpočet od celkové doby včetně režie a nevztahovat výhodnost GPU automaticky na malé modely. Konkrétní příklady přípravy vstupu a zpracování výsledku zatím dodal asistent."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Malý model zpracuje CPU za 4 ms. GPU potřebuje na samotný výpočet 1 ms, ale navíc 5 ms na přesuny dat a spuštění; tyto časy se nepřekrývají. Kterou variantu zvolíš pro nejkratší dobu jedné inference? Zdůvodni výpočtem. Kritérium: CPU 4 ms versus GPU celkem 6 ms, volba CPU pro nižší latenci. Nevztahovat výsledek automaticky na energetickou efektivitu, pro kterou chybí příkon. Při úspěchu přejít k výkladu ISA versus mikroarchitektury na s. 5; předchozí úspěch dokládá pouze role/latenci v příkladu, nikoli ISA. Výkon a energetické jednotky mají opakování 2026-10-20; splatné opakování ai-a-specificky-hardware zůstává otevřené. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T12:04:44.640069+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-18-cpu-gpu-latence",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Malý model zpracuje CPU za 4 ms. GPU potřebuje na samotný výpočet 1 ms, ale navíc 5 ms na přesuny dat a spuštění; tyto časy se nepřekrývají. Kterou variantu zvolíš pro nejkratší dobu jedné inference? Zdůvodni výpočtem.",
+      "learner_answer": "CPU, kvůli malému množství dat se nevyplatí výpočet přesouvat na GPU",
+      "evaluation": "Kritérium: správně vybrat CPU pro nižší celkovou latenci a v odůvodnění zohlednit režii přesunu/spuštění GPU. Uživatel volí CPU a vysvětluje nevýhodnost přesouvání malé úlohy na GPU; jádro kritéria splněno bez další nápovědy během pokusu. Výslovný požadovaný číselný výpočet neuvedl, srovnání 4 ms versus 1 + 5 = 6 ms doplnil asistent ve zpětné vazbě. Nejde tedy o samostatně zapsaný číselný postup ani o důkaz energetické výhodnosti CPU, pro niž chybí příkony. Jde o bezprostřední použití předchozího vysvětlení režie. Výsledek passed pro volbu a důvod. Před zápisem zobrazena zpětná vazba, úvodní výklad ISA versus mikroarchitektury a jedna navazující otázka.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-volba-podle-latence-po-vykladu",
+      "misconceptions": [
+        "Dřívější obecné tvrzení o výrazné nevýhodnosti CPU nyní korigoval správnou volbou CPU v daném příkladu s režií GPU; širší samostatné porovnání výkonu či energie zůstává pro pozdější procvičení."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Pokračovat právě představeným rozlišením ISA a mikroarchitektury a již zobrazenou otázkou na změnu pipeline/cache při zachování instrukcí. Správná volba CPU dokládá pouze zohlednění režie v tomto příkladu, nikoli znalost ISA ani obecné pravidlo o energetické efektivitě. Role přípravy fotografie a zpracování výsledku dosud byly vysvětleny asistentem. Výkon a energetické jednotky mají opakování 2026-10-20; splatné opakování ai-a-specificky-hardware stále čeká. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-18T12:45:33.429632+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "vyklad-2026-10-18-19-isa-mikroarchitektura",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Úvodní výklad: ISA je instrukční rozhraní procesoru, které určuje nabízené strojové instrukce a jejich chování. Mikroarchitektura je konkrétní realizace tohoto rozhraní uvnitř CPU, například pipeline a cache. Dva procesory mohou mít stejnou ISA, ale jiný výkon a spotřebu.",
+      "learner_answer": "",
+      "evaluation": "Tři věty výkladu zobrazeny s citací skript s. 5. Pouze introduced: uživatel dosud neodpověděl na otázku k ISA/mikroarchitektuře. Dosavadní passed v tématu cpu-a-isa se vztahuje k roli CPU a latenci malé úlohy, nikoli ke zvládnutí tohoto nového rozlišení. Navazující otázka zobrazena před zápisem.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "uvodni-rozliseni-isa-a-mikroarchitektury",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Výrobce upraví pipeline a velikost cache procesoru, ale zachová stejné strojové instrukce a jejich význam. Jde o změnu ISA, nebo mikroarchitektury? Zdůvodni. Očekává se mikroarchitektura, protože jde o vnitřní realizaci při nezměněném instrukčním rozhraní; odpověď zatím není odeslaná ani hodnocená. Při úspěchu ověřit opačný případ změny nabídky instrukcí a postupně další témata CPU ze s. 5–6. Obecný stav tématu demonstrated není důkazem zvládnutí ISA: právě tento obsah je zatím pouze introduced. Splatné opakování ai-a-specificky-hardware zůstává otevřené; výkon a energetické jednotky zopakovat 2026-10-20 nebo později. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": null,
+      "created_at": "2026-10-18T12:45:33.589979+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-20-mikroarchitektura",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Výrobce upraví pipeline a velikost cache procesoru, ale zachová stejné strojové instrukce a jejich význam. Jde o změnu ISA, nebo mikroarchitektury? Zdůvodni.",
+      "learner_answer": "mikro architektury, ISA udávám jaké isntukce má CPU k dispozici a jejich definici",
+      "evaluation": "Kritérium: určit změnu mikroarchitektury a zdůvodnit ji zachováním instrukcí a jejich významu, tedy ISA. Uživatel správně označuje mikroarchitekturu a správně definuje ISA jako nabídku instrukcí a jejich definici. Kritérium splněno bez nápovědy během pokusu. Jde o první základní použití právě vysvětleného rozlišení, nikoli o široké zvládnutí celé kapitoly CPU. Zpětná vazba potvrdila zachování ISA a vysvětlila, že pipeline/cache ovlivňují vnitřní vykonávání instrukcí. Jedna navazující otázka na přidání nové instrukce byla zobrazena před zápisem.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-rozliseni-po-uvodnim-vykladu",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Výrobce přidá novou strojovou instrukci, kterou mohou programy přímo použít. Je to pouze změna mikroarchitektury, nebo se rozšiřuje i ISA? Vysvětli proč. Očekává se rozšíření ISA, protože se mění instrukční rozhraní dostupné programu/překladači. Nevyžadovat tvrzení, že se při rozšíření ISA nemůže zároveň změnit její implementace. Po úspěchu pokračovat podle s. 5–6 s kompatibilitou a rodinami ISA nebo s pipeline/paměťovou hierarchií; hodnotit jen skutečně ověřené dílčí cíle. Dřívější přehnanou nevýhodnost CPU korigoval v konkrétním příkladu s režií GPU, širší volby ponechat na pozdější procvičení. Výkon a energetické jednotky i vlastní příklad omezení TOPS zopakovat 2026-10-20; splatné opakování ai-a-specificky-hardware stále čeká. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-18T12:50:34.814983+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-21-rozsireni-isa",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Výrobce přidá novou strojovou instrukci, kterou mohou programy přímo použít. Je to pouze změna mikroarchitektury, nebo se rozšiřuje i ISA? Vysvětli proč.",
+      "learner_answer": "Je to rozšířewí pouze ISA, mikroarchitektura ovlicněuje, jak je procesor technicky postavený)",
+      "evaluation": "Uživatel správně určil rozšíření ISA a správně chápe mikroarchitekturu jako technickou realizaci procesoru. Dodané pouze ISA však není ze zadání doložené: přidání instrukce nevylučuje současnou změnu implementace, ale ze samotného zadání také nelze tvrdit, že se mikroarchitektura nutně změní. Je třeba ověřit, zda uživatel skutečně chápe změny jako výlučné, nebo pouze stručně klasifikoval jistou změnu. Výsledek needs-practice pro toto upřesnění, nikoli pro chybné určení ISA. Bez nápovědy během pokusu. Ve třech větách zpětné vazby potvrzeno správné rozšíření ISA, přesně omezena jistota slova pouze a uveden možný současný zásah do mikroarchitektury. Příklad nové výpočetní jednotky je didaktická aplikace definic vrstev, nikoli citovaný konkrétní produkt. Před zápisem zobrazena otázka s explicitně popsanými změnami obou vrstev.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-rozsireni-isa-a-meze-zaveru",
+      "misconceptions": [
+        "Přidání instrukce správně označil jako rozšíření ISA, ale dodal pouze ISA; zbývá ověřit, že nevylučuje současnou změnu mikroarchitektury. Z původního zadání nebylo možné o změně implementace rozhodnout."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Nový procesor nabízí novou strojovou instrukci a výrobce pro její vykonávání zároveň přidá novou výpočetní jednotku. Co se změnilo: ISA, mikroarchitektura, nebo obojí? U každé změny stručně vysvětli proč. Očekává se obojí: rozšíření instrukčního rozhraní a změna konkrétní realizace. Jde o bezprostřední použití vysvětleného případu, ne obecné pravidlo, že každé rozšíření ISA nutně vyžaduje novou jednotku. Při úspěchu pokračovat dalším přiměřeným cílem CPU ze s. 5–6, například pipeline, a naplánovat zopakování rozdílu ISA/mikroarchitektury s odstupem na 2026-10-20. Dřívější role CPU a režie GPU byly procvičeny pouze v dílčích situacích. Výkon a energetické jednotky mají opakování 2026-10-20; splatné opakování ai-a-specificky-hardware stále čeká. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-18",
+      "created_at": "2026-10-18T12:52:56.291248+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-22-obe-vrstvy",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Nový procesor nabízí novou strojovou instrukci a výrobce pro její vykonávání zároveň přidá novou výpočetní jednotku. Co se změnilo: ISA, mikroarchitektura, nebo obojí? U každé změny stručně vysvětli proč.",
+      "learner_answer": "změilo se obojí, proč jsem vysvětlil již výše",
+      "evaluation": "Kritérium: rozpoznat změnu obou vrstev a chápat rozdíl nabídky instrukcí a technické realizace. Uživatel správně odpovídá obojí a odkazuje na své skutečně dříve uvedené správné definice: ISA udává dostupné instrukce a jejich definici, mikroarchitektura technickou stavbu procesoru. V kontextu doložených odpovědí je odůvodnění dostačující; nevyžadovat zbytečné opakování téhož vysvětlení. Tím koriguje předchozí možné chápání změn jako výlučných. Passed bez další nápovědy během této nové otázky, ale jde o bezprostřední procvičení právě vysvětleného případu, nikoli retenci s odstupem. Zpětná vazba uznala předchozí vysvětlení a potvrdila vazbu instrukce na ISA a jednotky na mikroarchitekturu. Před uložením zobrazen nový výklad pipeline a jedna navazující otázka.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-soucasna-zmena-vrstev-po-upresneni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Rozlišení ISA a mikroarchitektury úspěšně procvičeno včetně současné změny obou vrstev, zopakovat s odstupem 2026-10-20. Nežádat znovu totožné definice jen proto, že na ně uživatel odkáže, pokud jsou v doložené historii. Nyní pokračuje úvod pipeline a otázka na 3 instrukce. Dosavadní úspěch není důkazem zvládnutí celé kapitoly CPU. Výkon a energetické jednotky mají opakování 2026-10-20; splatné opakování ai-a-specificky-hardware stále čeká. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-18T12:55:10.536651+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "vyklad-2026-10-18-23-pipeline",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Úvod pipeline podle skript s. 6: instrukce prochází načtením, dekódováním, vykonáním a zápisem; různé instrukce mohou současně být v různých etapách. Roste průchodnost, aniž by každá instrukce přestala procházet všemi etapami. Zobrazen autorský ilustrační rozvrh dvou instrukcí: I1 v taktech 1–4, I2 v taktech 2–5. Každá etapa má jeden takt, definovaný jako časový krok, a nejsou žádná čekání.",
+      "learner_answer": "",
+      "evaluation": "Výklad a tabulka byly zobrazeny s citací skript s. 6. Tabulka je didaktický příklad odvozený z principu, nikoli přepis obrázku či vzorce z PDF. Pouze introduced: uživatel dosud neodpověděl na úlohu k pipeline. Dřívější demonstrated v tématu CPU dokládá jiné dílčí dovednosti, nikoli pipeline. Před zápisem zobrazena jedna úloha s novým počtem instrukcí.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "uvodni-idealni-pipeline-s-nazornym-rozvrhem",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Máme 3 nezávislé instrukce a pipeline se 4 etapami, každou na jeden takt. Pipeline je na začátku prázdná, každý takt může začít další instrukce a nic nezpůsobuje čekání. Kolik taktů potrvá dokončení všech 3 instrukcí s pipeline a kolik bez překrývání, tedy při vykonávání instrukcí jedné po druhé? Očekává se s pipeline 6 taktů (dokončení v taktech 4, 5 a 6), bez překrývání 12. V zadání výsledky nejsou; předchozí výklad ukázal analogický rozvrh dvou instrukcí. Po úspěchu ověřit rozdíl latence jedné instrukce a propustnosti plné pipeline, poté případně paměťovou hierarchii. Obecný stav tématu demonstrated není důkazem zvládnutí právě představené pipeline. ISA, výkon a energetické jednotky zopakovat 2026-10-20; splatné opakování ai-a-specificky-hardware stále čeká. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": null,
+      "created_at": "2026-10-18T12:55:10.709446+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-24-pipeline-tri-instrukce",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Máme 3 nezávislé instrukce a pipeline se 4 etapami, každou na jeden takt. Pipeline je na začátku prázdná, každý takt může začít další instrukce a nic nezpůsobuje čekání. Kolik taktů potrvá dokončení všech 3 instrukcí s pipeline a kolik bez překrývání, tedy při vykonávání instrukcí jedné po druhé?",
+      "learner_answer": "Bez překrytí 12 etap, s překrytím 6 etap",
+      "evaluation": "Kritérium: určit celkovou dobu tří instrukcí v ideální čtyřstupňové pipeline a bez překrývání. Uživatel správně určuje 12 a 6. Slovo etapy zde používá místo požadovaných taktů; vzhledem ke správným výsledkům není samo o sobě důkazem neporozumění překrývání a nesnižuje passed. Zpětná vazba potvrdila oba výsledky, rozlišila pevný počet etap jedné instrukce a takty jako uplynulý čas a uvedla dokončení v taktech 4, 5 a 6. Splněno bez další nápovědy během pokusu; předcházel úvodní výklad s analogickou tabulkou dvou instrukcí. Jde o první jednoduchý přenos na tři instrukce, nikoli zvládnutí reálných hazardů či závislostí. Před zápisem zobrazena další otázka na latenci versus propustnost.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-idealni-pipeline-po-nazornem-vykladu",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: V téže pipeline má instrukce 4 etapy, každou na jeden takt. Nová instrukce může začít každý takt a nic nezpůsobuje čekání. Jaká je latence jedné instrukce a kolik instrukcí se dokončí za takt, když je pipeline plná? Očekává se 4 takty na instrukci a 1 dokončená instrukce za takt při plném ustáleném provozu. Poslední zpětná vazba ukázala dokončení v taktech 4, 5 a 6 a rozlišila etapy od taktů; uživatel dosud tyto dvě metriky pro pipeline výslovně nepojmenoval. Po úspěchu lze navázat paměťovou hierarchií ze s. 6, podle potřeby později vysvětlit vliv čekání/závislostí; nedělat z ideálního modelu univerzální výkon CPU. ISA, výkon a energetické jednotky zopakovat 2026-10-20; splatné opakování ai-a-specificky-hardware stále čeká. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-18T13:04:41.925314+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-18-25-pipeline-metriky",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "V téže pipeline má instrukce 4 etapy, každou na jeden takt. Nová instrukce může začít každý takt a nic nezpůsobuje čekání. Jaká je latence jedné instrukce a kolik instrukcí se dokončí za takt, když je pipeline plná?",
+      "learner_answer": "latence je 4 takty, za takt se dokončí nanejvýš jedna instrukce a to když nastane pposlední takt instrukce",
+      "evaluation": "Kritérium: rozlišit latenci jedné instrukce 4 takty a dokončování 1 instrukce za takt v plné ideální pipeline. Uživatel správně uvádí 4 takty a nejvýše jednu dokončenou instrukci za takt při dosažení poslední etapy. Kritérium základního rozlišení splněno bez další nápovědy během pokusu. Zpětná vazba zpřesnila, že za daných podmínek plného provozu bez čekání jde o jednu dokončenou instrukci každý takt, protože poslední etapou postupně procházejí různé instrukce. Nejde o obecný limit všech CPU; mimo tento jednoduchý model mohou být jiné počty etap, čekání či více dokončených instrukcí za takt. To nebylo uživatelem ověřováno. Před zápisem zobrazen úvod paměťové hierarchie/cache a jedna navazující otázka.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-latence-a-propustnost-idealni-pipeline",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Přenos na tři instrukce a základní rozlišení latence/propustnosti ideální pipeline úspěšné. Zopakovat s odstupem; nevyvozovat znalost hazardů ani reálných víceinstrukčních CPU. Nyní pokračuje vysvětlení paměťové hierarchie/cache a otázka na opakované malé pole. ISA, výkon a energetické jednotky mají opakování 2026-10-20; splatné opakování ai-a-specificky-hardware zůstává otevřené. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-20",
+      "created_at": "2026-10-18T13:08:22.146813+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "vyklad-2026-10-18-26-pamet-cache",
+      "lesson_id": "lekce-2026-10-18-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Úvod paměťové hierarchie podle skript s. 6: registry, cache L1/L2/L3, RAM a úložiště. Bližší vrstvy jsou obvykle menší a rychlejší. Cache uchovává kopie dat, aby při jejich opakovaném použití CPU nemusel pokaždé čekat na pomalejší RAM.",
+      "learner_answer": "",
+      "evaluation": "Výklad byl zobrazen v krátkém odstavci s hierarchií a citací skript s. 6. Pouze introduced; samostatné pochopení přínosu cache zatím neověřeno. Dosavadní úspěchy v tématu CPU dokládají jiné dílčí cíle. Jedna otázka na opakované použití malého pole byla zobrazena před zápisem.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "uvodni-pametova-hierarchie-a-opakovane-pouziti-dat",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Program tisíckrát zpracuje stejné malé pole dat, které se vejde do cache. Proč může být zpracování po prvním načtení rychlejší, přestože se takt ani výpočetní jednotky CPU nezměnily? Očekává se opakované čtení z rychlejší cache a méně čekání na RAM; zrychlení není obecně zaručené pro každou úlohu. Jde o bezprostřední použití právě vysvětleného principu, ne ověření konkrétní cache organizace. Po úspěchu případně ověřit opačný případ velkých dat bez opakovaného použití a propojit s paměťovým limitem TOPS. Paměťová hierarchie zatím pouze introduced; obecný demonstrated tématu neznamená zvládnutí tohoto obsahu. CPU/ISA, pipeline, výkon a energetické jednotky zopakovat 2026-10-20; splatné opakování ai-a-specificky-hardware stále čeká. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": null,
+      "created_at": "2026-10-18T13:08:22.307161+00:00"
+    }
+  ]
+}

@@ -1,0 +1,1142 @@
+{
+  "status": "passed",
+  "subjects": 16,
+  "materials": 160,
+  "topics": 160,
+  "notes_verified": 3456,
+  "cards_verified": 3456,
+  "unique_media_files": 103,
+  "raster_images_verified": 102,
+  "missing_media": 0,
+  "source_hashes_verified": true,
+  "line_citations_verified": true,
+  "topic_searches_verified": 160,
+  "existing_library_materials_unchanged": true,
+  "concurrent_existing_state_changes": [
+    "subjects/udzk/state.json"
+  ],
+  "anki_files_unchanged": true,
+  "new_checkpoints": 0,
+  "search_samples": [
+    {
+      "subject_id": "bi-ag1",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Definujte neorientovaný graf a hranu.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ag1",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Definujte souvislý a nesouvislý neorientovaný graf.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ag1",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Dokažte část věty o charakterizaci stromů: \\(G\\) je strom \\(\\Longleftrightarrow\\) \\(G\\) je souvislý a vynecháním libovolné hrany vznikne nesouvislý graf.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ag1",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Definujte zakořeněný strom a s ním spojené pojmy (předek, potomek, otec, syn, hladina a hloubka).",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ag1",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Definujte binomiální strom.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ag1",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Definujte binární vyhledávací strom.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ag1",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Popište hashovací tabulku a kolizi.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ag1",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Zařaďte algoritmus \\(\\mathtt{MergeSort}\\).",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ag1",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Naznačte důkaz věty o časové složitosti algoritmu \\(\\mathtt{QuickSort}\\) s náhodnou volbou pivota.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ag1",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Popište problém hledání nejdelší rostoucí posloupnosti.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ag1",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Definujte hranově ohodnocený graf a váhu podgrafu.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ag1",
+      "topic_id": "prednaska-12",
+      "source_id": "anki-prednaska-12-v1",
+      "query": "Definujte vzdálenost dvou vrcholů v ohodnoceném orientovaném grafu.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-dml",
+      "topic_id": "zakladni-sada",
+      "source_id": "anki-zakladni-sada-v1",
+      "query": "Definujte prvotní výrok a prvotní formuli.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-la1",
+      "topic_id": "zakladni-sada",
+      "source_id": "anki-zakladni-sada-v1",
+      "query": "Definujte hodnost matice.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma1",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Vyslovte axiom úplnosti.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma1",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Definujte reálnou funkci.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma1",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Definujte klesající funkci.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma1",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Definujte limitu funkce.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma1",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Vyslovte větu o vztahu hromadných bodů množin a posloupností.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma1",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Čemu je rovno \\(\\lim \\limits_{n \\to \\infty} n^a\\)?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma1",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Definujte spojitou funkci v bodě (také zleva a zprava).",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma1",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Definujte derivaci funkce v bodě a funkci diferencovatelnou v bodě.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma1",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Vyslovte větu o derivaci složené funkce.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma1",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Definujte lokální extrémy funkce.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma1",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Definujte inflexní bod.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma1",
+      "topic_id": "prednaska-12",
+      "source_id": "anki-prednaska-12-v1",
+      "query": "Popište Newtonovu metodu.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma1",
+      "topic_id": "prednaska-13",
+      "source_id": "anki-prednaska-13-v1",
+      "query": "Definujte asymptotickou dolní mez \\(\\Omega\\) pro posloupnosti.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma1",
+      "topic_id": "zakladni-sada",
+      "source_id": "anki-zakladni-sada-v1",
+      "query": "Uveďte příklad nekonstantní posloupnosti, jejíž limita je rovna \\(0\\) a určí se pomocí věty o sevřené posloupnosti.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "balicek-extremy",
+      "source_id": "anki-balicek-extremy-v1",
+      "query": "Definice 9.1: Extrémy funkcí více proměnných",
+      "locator": "transcript-line:130"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "balicek-funkce-vice-promennych",
+      "source_id": "anki-balicek-funkce-vice-promennych-v1",
+      "query": "Definice 7.1: Euklidovská norma a vzdálenost",
+      "locator": "transcript-line:130"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "balicek-kvadraticke-formy",
+      "source_id": "anki-balicek-kvadraticke-formy-v1",
+      "query": "Definice 8.1: Kvadratická forma",
+      "locator": "transcript-line:130"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "balicek-linearni-rekurentni-rovnice",
+      "source_id": "anki-balicek-linearni-rekurentni-rovnice-v1",
+      "query": "Definice 6.1: Lineární rekurentní rovnice",
+      "locator": "transcript-line:130"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "balicek-primitivni-funkce",
+      "source_id": "anki-balicek-primitivni-funkce-v1",
+      "query": "Definice 2.1: Primitivní funkce",
+      "locator": "transcript-line:130"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "balicek-rady",
+      "source_id": "anki-balicek-rady-v1",
+      "query": "Definice 4.1: Číselná řada",
+      "locator": "transcript-line:130"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "balicek-riemannuv-integral-funkce-jedne-promenne",
+      "source_id": "anki-balicek-riemannuv-integral-funkce-jedne-promenne-v1",
+      "query": "Definice 3.1: Dělení intervalu",
+      "locator": "transcript-line:130"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "balicek-taylorovy-polynomy-a-veta",
+      "source_id": "anki-balicek-taylorovy-polynomy-a-veta-v1",
+      "query": "Definice 5.1: Polynom",
+      "locator": "transcript-line:130"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "balicek-vicerozmerna-integrace",
+      "source_id": "anki-balicek-vicerozmerna-integrace-v1",
+      "query": "Definice 10.1: Množiny typu 1 a 2",
+      "locator": "transcript-line:130"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Definujte primitivní funkci.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Vyslovte a dokažte větu o integraci per partes.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Definujte dělení, dělící body, částečné intervaly intervalu \\(\\langle a, b \\rangle\\) a normu dělení.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Vyslovte větu o per partes pro určitý integrál.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Popište lichoběžníkové pravidlo.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Definujte číselnou řadu.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Definujte exponenciální funkci.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Definujte Taylorův polynom.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Definujte Taylorův vzorec a zbytek v Taylorově vzorci.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Definujte linární rekurentní rovnici.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-12",
+      "source_id": "anki-prednaska-12-v1",
+      "query": "Definujte LRR s konstantními koeficienty.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-13",
+      "source_id": "anki-prednaska-13-v1",
+      "query": "Popište iterační metodu analýzy rekurentních rovnic.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-14",
+      "source_id": "anki-prednaska-14-v1",
+      "query": "Definujte okolí bodu \\(\\mathbf a \\in \\mathbb{R}^n\\).",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-15",
+      "source_id": "anki-prednaska-15-v1",
+      "query": "Definujte kvadratickou formu.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-16",
+      "source_id": "anki-prednaska-16-v1",
+      "query": "Definujte lokální extrémy funkce více proměnných.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-17",
+      "source_id": "anki-prednaska-17-v1",
+      "query": "Popište úlohu, kterou řeší spádová metoda.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "prednaska-18",
+      "source_id": "anki-prednaska-18-v1",
+      "query": "Zkonstruujte Riemannův integrál pro funkce dvou proměnných.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ma2",
+      "topic_id": "zakladni-sada",
+      "source_id": "anki-zakladni-sada-v1",
+      "query": "Uveďte vzorec pro rozklad \\(\\cos^2(x)\\).",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml1",
+      "topic_id": "balicek-01-zaklady-a-rozhodovaci-stromy",
+      "source_id": "anki-balicek-01-zaklady-a-rozhodovaci-stromy-v1",
+      "query": "Vysvětli pojmy **cílová proměnná**, **příznak**, **parametry** a **učení modelu**. Jak učení souvisí s optimalizací?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml1",
+      "topic_id": "balicek-02-hyperparametry-regresni-stromy-a-knn",
+      "source_id": "anki-balicek-02-hyperparametry-regresni-stromy-a-knn-v1",
+      "query": "Jak správně rozdělit data na **trénovací, validační a testovací** část a k čemu slouží křížová validace?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml1",
+      "topic_id": "balicek-03-evaluace-modelu",
+      "source_id": "anki-balicek-03-evaluace-modelu-v1",
+      "query": "Co je **generalizace**, proč nestačí výkon na trénovacích datech a proč je volba evaluační metriky součástí formulace úlohy?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml1",
+      "topic_id": "balicek-04-linearni-regrese-a-ols",
+      "source_id": "anki-balicek-04-linearni-regrese-a-ols-v1",
+      "query": "Jaký model předpokládá **lineární regrese**, co představuje chyba ε a intercept w<sub>0</sub>?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml1",
+      "topic_id": "balicek-05-ridge-bias-variance-a-bazove-funkce",
+      "source_id": "anki-balicek-05-ridge-bias-variance-a-bazove-funkce-v1",
+      "query": "Jaká je **geometrická interpretace OLS** a co je sloupcový prostor matice X?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml1",
+      "topic_id": "balicek-06-logisticka-regrese",
+      "source_id": "anki-balicek-06-logisticka-regrese-v1",
+      "query": "Co základní **binární logistická regrese** modeluje a proč nemůže použít lineární prediktor přímo jako pravděpodobnost?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml1",
+      "topic_id": "balicek-07-ensemble-random-forest-a-adaboost",
+      "source_id": "anki-balicek-07-ensemble-random-forest-a-adaboost-v1",
+      "query": "Co je **ensemble**, base/weak learner a jak se liší **bagging a boosting**?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml1",
+      "topic_id": "balicek-08-vyber-priznaku-a-lasso",
+      "source_id": "anki-balicek-08-vyber-priznaku-a-lasso-v1",
+      "query": "Co je **výběr příznaků**, jak se liší od redukce dimenzionality a co jsou nerelevantní a redundantní příznaky?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml1",
+      "topic_id": "balicek-09-nesupervizovane-uceni",
+      "source_id": "anki-balicek-09-nesupervizovane-uceni-v1",
+      "query": "Co je **nesupervizované učení**, jaký má geometrický cíl a proč je jeho evaluace obtížná?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml2",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Jak je formulována vícerozměrná lineární regrese a jak se získá řešení OLS?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml2",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Jak se binární lineární klasifikátor interpretuje geometricky v prostoru bázových příznaků?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml2",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Co je prokletí dimenzionality a jak je ilustruje objem okrajové slupky hyperkrychle?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml2",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Jak se pomocí matic V a U rozloží prostor, bod a jeho energie na ortogonální podprostory?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml2",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Jak funguje Bayesova MAP klasifikace a které veličiny v ní vystupují?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml2",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Jak se liší generativní a diskriminativní přístup ke klasifikaci?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml2",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Jak perceptron vznikl a jak počítá binární predikci?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml2",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Co je dopředná neuronová síť a jak se matematicky popisuje její vrstvená architektura?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml2",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Jak se liší full-batch, minibatchové a online gradientní učení a jak velikost dávky ovlivňuje gradient?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml2",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Co je CNN a jaké základní vlastnosti spojité konvoluce využívá?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml2",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Co řeší NLP, jaké roviny jazyka rozlišuje a proč se prosadil statistický přístup?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-ml2",
+      "topic_id": "prednaska-12",
+      "source_id": "anki-prednaska-12-v1",
+      "query": "Co je posilované učení a jak probíhá interakce agenta s prostředím?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-pa1",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Popište ukazatel (pointer), operace s ním spjaté a jeho využití.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-pa1",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Popište ukazatelovou aritmetiku (pointer arithmetic).",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-pa1",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Obecně popište časovou složitost algoritmu.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-pa1",
+      "topic_id": "zakladni-sada",
+      "source_id": "anki-zakladni-sada-v1",
+      "query": "ADT Set (množina) vs ADT List (seznam)",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-pa2",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Popište koncept zapouzdření (encapsulation).",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-pa2",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Popište objektově orientované programování (OOP).",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-pa2",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Popište specifikaci a implementaci abstraktního datového typu.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-pa2",
+      "topic_id": "zakladni-sada",
+      "source_id": "anki-zakladni-sada-v1",
+      "query": "Popište standardní datové proudy.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "01-optimalizace",
+      "source_id": "anki-01-optimalizace-v1",
+      "query": "Jak se formálně definuje optimalizační problém a jakou roli mají X̂, X, f, omezení a arg max?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "02-evolucni-vypocty",
+      "source_id": "anki-02-evolucni-vypocty-v1",
+      "query": "Co jsou evoluční algoritmy, proč používají populaci a jak probíhá jejich generační cyklus?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "03-planovani",
+      "source_id": "anki-03-planovani-v1",
+      "query": "Co je General Problem Solving (GPS), jaký má řetězec a proč by obecná AI neměla spoléhat na ručně vytvořené heuristiky?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "04-multiagentni-systemy",
+      "source_id": "anki-04-multiagentni-systemy-v1",
+      "query": "Co je multiagentní systém a proč se hodí pro distribuované, dynamické nebo nekooperativní problémy?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "05-teorie-her",
+      "source_id": "anki-05-teorie-her-v1",
+      "query": "Co studuje teorie her a jak je definována konečná hra v normální formě?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "06-neuronove-site",
+      "source_id": "anki-06-neuronove-site-v1",
+      "query": "Jak funguje umělý neuron a klasický perceptron a jaký význam mají váhy, bias a práh?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "07-herni-stromy",
+      "source_id": "anki-07-herni-stromy-v1",
+      "query": "Jak se liší normální a extenzivní forma hry a jak je konečná extenzivní hra formálně definována?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "08-robotika",
+      "source_id": "anki-08-robotika-v1",
+      "query": "Co je robotika a robot, jaká je základní řídicí smyčka a jaké jsou hlavní kategorie robotů?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "09-uvod-do-ai",
+      "source_id": "anki-09-uvod-do-ai-v1",
+      "query": "Jak je vymezena AI a jaké dvě osy vytvářejí její čtyři klasická pojetí?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "10-stavovy-prostor",
+      "source_id": "anki-10-stavovy-prostor-v1",
+      "query": "Co je stavový prostor a jak je formálně zadána úloha jeho prohledávání?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "11-heuristicke-prohledavani",
+      "source_id": "anki-11-heuristicke-prohledavani-v1",
+      "query": "Co je stavový prostor s ohodnocenými akcemi a jak se definuje cena a cíl cesty?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "12-agenti-mdp-pomdp",
+      "source_id": "anki-12-agenti-mdp-pomdp-v1",
+      "query": "Jak je uspořádán učící se agent a jak se liší jeho čtyři komponenty?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "13-kvantove-zihani-qubo",
+      "source_id": "anki-13-kvantove-zihani-qubo-v1",
+      "query": "Co je qubit a jak funguje adiabatický model kvantového výpočtu?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "14-csp",
+      "source_id": "anki-14-csp-v1",
+      "query": "Jak je formálně definován CSP, jeho omezení a řešení?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "15-vyrokova-logika-sat",
+      "source_id": "anki-15-vyrokova-logika-sat-v1",
+      "query": "Jaký je rozdíl mezi syntaxí a sémantikou výrokové logiky a jak vznikají formule?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "bi-zum",
+      "topic_id": "16-bdd-mdd",
+      "source_id": "anki-16-bdd-mdd-v1",
+      "query": "Jak výrokovou formuli reprezentuje uspořádaný binární rozhodovací strom BDT a proč je neefektivní?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "goodfellow",
+      "topic_id": "blok-01",
+      "source_id": "anki-blok-01-v1",
+      "query": "Co značí R v notaci knihy Deep Learning?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "goodfellow",
+      "topic_id": "blok-02",
+      "source_id": "anki-blok-02-v1",
+      "query": "Je matrix multiplication komutativní?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "goodfellow",
+      "topic_id": "blok-03",
+      "source_id": "anki-blok-03-v1",
+      "query": "Co je exponential distribution?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "goodfellow",
+      "topic_id": "blok-04",
+      "source_id": "anki-blok-04-v1",
+      "query": "Co je constrained optimization?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "goodfellow",
+      "topic_id": "blok-05",
+      "source_id": "anki-blok-05-v1",
+      "query": "Jaký vliv má minibatch size na gradient estimate?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "goodfellow",
+      "topic_id": "blok-06",
+      "source_id": "anki-blok-06-v1",
+      "query": "Jak lze norm penalty interpretovat jako constrained optimization?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "goodfellow",
+      "topic_id": "blok-07",
+      "source_id": "anki-blok-07-v1",
+      "query": "Jaká hlavní slabina AdaGrad?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "goodfellow",
+      "topic_id": "blok-08",
+      "source_id": "anki-blok-08-v1",
+      "query": "Co jsou simple cells v klasickém neuroscience modelu V1?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "goodfellow",
+      "topic_id": "blok-09",
+      "source_id": "anki-blok-09-v1",
+      "query": "Jak threshold classifieru typicky mění precision–recall trade-off?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "goodfellow",
+      "topic_id": "blok-10",
+      "source_id": "anki-blok-10-v1",
+      "query": "Jaký hlavní problém mají n-gram models?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "goodfellow",
+      "topic_id": "blok-11",
+      "source_id": "anki-blok-11-v1",
+      "query": "Zaručuje malý code dimensionality dobrou representation?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "goodfellow",
+      "topic_id": "blok-12",
+      "source_id": "anki-blok-12-v1",
+      "query": "Jaký benefit mají non-distributed local methods?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "goodfellow",
+      "topic_id": "blok-13",
+      "source_id": "anki-blok-13-v1",
+      "query": "Jaký meta-princip shrnuje structured probabilistic models?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "goodfellow",
+      "topic_id": "blok-14",
+      "source_id": "anki-blok-14-v1",
+      "query": "Jaký property musí mít noise distribution NCE?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "goodfellow",
+      "topic_id": "blok-15",
+      "source_id": "anki-blok-15-v1",
+      "query": "Co je Gaussian-Bernoulli RBM?",
+      "locator": "transcript-line:20"
+    },
+    {
+      "subject_id": "llms-whitepapers",
+      "topic_id": "puvodni-blok-01",
+      "source_id": "anki-puvodni-blok-01-v1",
+      "query": "Co je jazykový model a jak se moderní neurální LM liší od n-gramového modelu?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "llms-whitepapers",
+      "topic_id": "puvodni-blok-02",
+      "source_id": "anki-puvodni-blok-02-v1",
+      "query": "Jak vypadá typická vícefázová cesta k užitečnému LLM modelu?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "llms-whitepapers",
+      "topic_id": "puvodni-blok-03",
+      "source_id": "anki-puvodni-blok-03-v1",
+      "query": "Jak se liší training a inference transformeru a jak context length ovlivňuje jejich náklady?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "llms-whitepapers",
+      "topic_id": "puvodni-blok-04",
+      "source_id": "anki-puvodni-blok-04-v1",
+      "query": "Jak se připravují data a jak probíhá základní training loop transformeru?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "llms-whitepapers",
+      "topic_id": "puvodni-blok-05",
+      "source_id": "anki-puvodni-blok-05-v1",
+      "query": "Jak má vypadat systematický prompt-engineering workflow od zadání po produkční prompt?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "llms-whitepapers",
+      "topic_id": "puvodni-blok-06",
+      "source_id": "anki-puvodni-blok-06-v1",
+      "query": "Co je embedding, jakou informaci nese jeho geometrie a proč je závislý na modelu a úloze?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "llms-whitepapers",
+      "topic_id": "puvodni-blok-07",
+      "source_id": "anki-puvodni-blok-07-v1",
+      "query": "Co je AI agent, z jakých komponent se skládá a jak se liší od samotného foundation modelu?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "llms-whitepapers",
+      "topic_id": "puvodni-blok-08",
+      "source_id": "anki-puvodni-blok-08-v1",
+      "query": "Jak na sebe navazují DevOps, MLOps, FMOps, PromptOps, RAGOps a AgentOps a proč je AgentOps nutný pro přechod z POC do produkce?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "llms-whitepapers",
+      "topic_id": "puvodni-blok-09",
+      "source_id": "anki-puvodni-blok-09-v1",
+      "query": "Proč nestačí general-purpose LLM pro složité doménové problémy a jaký obecný návrhový vzor ukazují SecLM a MedLM?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mky",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Definujte grupu (group) a abelovskou (komutativní) grupu.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mky",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Definujte homomorfismus, monomorfismus, epiformismus a izomorfismus grupoidů.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mky",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Definujte okruh (ring) a komutativní okruh.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mky",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Definujte faktorokruh a dokažte, že se jedná o okruh.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mky",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Definujte vedoucí koeficient, konstantní člen a stupeň polynomu nad okruhem.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mky",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Definujte podtěleso, vlastní podtěleso a rozšíření tělesa.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mpi",
+      "topic_id": "cviceni-09",
+      "source_id": "anki-cviceni-09-v1",
+      "query": "Vyslovte větu o studentově snu (freshman's dream).",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mpi",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Definujte normu.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mpi",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Definujte Hessovu matici funkce v bodě.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mpi",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Vyslovte větu o implicitní funkci pro funkce dvou proměnných.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mpi",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Definujte dělení, dělící body, částečné intervaly intervalu \\(\\langle a, b \\rangle\\) a normu dělení.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mpi",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Popište numerickou matematiku.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mpi",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Popište přímou numerickou metodu. Uveďte příklad.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mpi",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Definujte grupoid (magma).",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mpi",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Definujte podgrupu (subgroup).",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mpi",
+      "topic_id": "prednaska-11",
+      "source_id": "anki-prednaska-11-v1",
+      "query": "Definujte homomorfismus, monomorfismus, epiformismus a izomorfismus grupoidů.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mpi",
+      "topic_id": "prednaska-12",
+      "source_id": "anki-prednaska-12-v1",
+      "query": "Definujte okruh (ring) a komutativní okruh.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mpi",
+      "topic_id": "prednaska-14",
+      "source_id": "anki-prednaska-14-v1",
+      "query": "Definujte dopřednou chybu (forward error) a zpětnou chybu (backward error).",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-mpi",
+      "topic_id": "prednaska-15",
+      "source_id": "anki-prednaska-15-v1",
+      "query": "Vyslovte lemma o načítání chyb.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-vsm",
+      "topic_id": "prednaska-01",
+      "source_id": "anki-prednaska-01-v1",
+      "query": "Vyslovte klasickou definici pravděpodobnosti.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-vsm",
+      "topic_id": "prednaska-02",
+      "source_id": "anki-prednaska-02-v1",
+      "query": "Definujte náhodnou veličinu.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-vsm",
+      "topic_id": "prednaska-03",
+      "source_id": "anki-prednaska-03-v1",
+      "query": "Vyslovte větu o marginálním rozdělení spojité náhodné veličiny.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-vsm",
+      "topic_id": "prednaska-04",
+      "source_id": "anki-prednaska-04-v1",
+      "query": "Definujte střední hodnotu náhodného vektoru.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-vsm",
+      "topic_id": "prednaska-05",
+      "source_id": "anki-prednaska-05-v1",
+      "query": "Definujte entropii diskrétní náhodné veličiny.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-vsm",
+      "topic_id": "prednaska-06",
+      "source_id": "anki-prednaska-06-v1",
+      "query": "Definujte kód a kódové slovo.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-vsm",
+      "topic_id": "prednaska-07",
+      "source_id": "anki-prednaska-07-v1",
+      "query": "Definujte diferenciální entropii.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-vsm",
+      "topic_id": "prednaska-08",
+      "source_id": "anki-prednaska-08-v1",
+      "query": "Vyslovte větu o charakteristikách součtu náhodných veličin.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-vsm",
+      "topic_id": "prednaska-09",
+      "source_id": "anki-prednaska-09-v1",
+      "query": "Definujte náhodný výběr.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "ni-vsm",
+      "topic_id": "prednaska-10",
+      "source_id": "anki-prednaska-10-v1",
+      "query": "Popište hypotézu.",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "pravdepodobnost-a-statistika",
+      "topic_id": "puvodni-blok-01",
+      "source_id": "anki-puvodni-blok-01-v1",
+      "query": "Jak se liší teorie pravděpodobnosti od matematické statistiky a jaký mají společný cíl?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "pravdepodobnost-a-statistika",
+      "topic_id": "puvodni-blok-02",
+      "source_id": "anki-puvodni-blok-02-v1",
+      "query": "Co je náhodná veličina, proč ji zavádíme a jak zní podmínka její měřitelnosti?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "pravdepodobnost-a-statistika",
+      "topic_id": "puvodni-blok-03",
+      "source_id": "anki-puvodni-blok-03-v1",
+      "query": "Co modeluje binomické rozdělení, jaká je jeho pravděpodobnostní funkce a odkud vzorec pochází?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "pravdepodobnost-a-statistika",
+      "topic_id": "puvodni-blok-04",
+      "source_id": "anki-puvodni-blok-04-v1",
+      "query": "Co je náhodný vektor a jak jej popisuje sdružená distribuční funkce?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "pravdepodobnost-a-statistika",
+      "topic_id": "puvodni-blok-05",
+      "source_id": "anki-puvodni-blok-05-v1",
+      "query": "Proč jsou limitní věty základem přechodu od pravděpodobnosti ke statistice?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "pravdepodobnost-a-statistika",
+      "topic_id": "puvodni-blok-06",
+      "source_id": "anki-puvodni-blok-06-v1",
+      "query": "Jak se liší pravděpodobnostní a statistický problém a jaký je základní postup statistického uvažování?",
+      "locator": "transcript-line:18"
+    },
+    {
+      "subject_id": "pravdepodobnost-a-statistika",
+      "topic_id": "puvodni-blok-07",
+      "source_id": "anki-puvodni-blok-07-v1",
+      "query": "Co je interval spolehlivosti, jak se interpretuje a jak se obecně konstruuje?",
+      "locator": "transcript-line:18"
+    }
+  ]
+}

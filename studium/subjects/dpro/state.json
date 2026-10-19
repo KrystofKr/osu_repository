@@ -1,0 +1,351 @@
+{
+  "schema_version": 1,
+  "subject_id": "dpro",
+  "name": "DPRO – Základy vědecké práce",
+  "goals": [
+    "Porozumět základům vědecké práce podle dodaných studijních materiálů."
+  ],
+  "created_at": "2026-10-15T15:03:20.410808+00:00",
+  "topics": {
+    "vedecke-uvazovani": {
+      "subject_id": "dpro",
+      "topic_id": "vedecke-uvazovani",
+      "title": "Vědecké uvažování a základní pojmy",
+      "objectives": [
+        "Rozlišit teorii, model, metodu, metodiku a metodologii a vysvětlit způsoby odvozování závěrů."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "otazky-a-hypotezy": {
+      "subject_id": "dpro",
+      "topic_id": "otazky-a-hypotezy",
+      "title": "Od tématu k otázce a hypotéze",
+      "objectives": [
+        "Sladit problém, cíl, otázku a hypotézu a operacionalizovat sledované proměnné."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "vyzkumne-pristupy-a-data": {
+      "subject_id": "dpro",
+      "topic_id": "vyzkumne-pristupy-a-data",
+      "title": "Volba přístupu a získávání dat",
+      "objectives": [
+        "Zdůvodnit volbu výzkumného přístupu a způsobu získání dat podle otázky a proveditelnosti."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "reserse-citace-a-ai": {
+      "subject_id": "dpro",
+      "topic_id": "reserse-citace-a-ai",
+      "title": "Rešerše, poznámky, citace a AI",
+      "objectives": [
+        "Plánovat rešerši, posuzovat zdroje a rozlišit práci s citacemi a využití AI."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "vzorek-a-experiment": {
+      "subject_id": "dpro",
+      "topic_id": "vzorek-a-experiment",
+      "title": "Vzorek, experiment a kvalita dat",
+      "objectives": [
+        "Vymezit populaci a vzorek a navrhnout srovnání s ohledem na kvalitu dat a možné zkreslení."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "popisna-statistika": {
+      "subject_id": "dpro",
+      "topic_id": "popisna-statistika",
+      "title": "Popis dat a vhodné zobrazení",
+      "objectives": [
+        "Volit popisné charakteristiky a grafy podle typu a rozdělení dat."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "pravdepodobnost-a-rozdeleni": {
+      "subject_id": "dpro",
+      "topic_id": "pravdepodobnost-a-rozdeleni",
+      "title": "Pravděpodobnost a rozdělení",
+      "objectives": [
+        "Vysvětlit rozdíl mezi pravděpodobností, četností a rozdělením náhodné veličiny."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "odhady-a-intervaly": {
+      "subject_id": "dpro",
+      "topic_id": "odhady-a-intervaly",
+      "title": "Bodový odhad a interval spolehlivosti",
+      "objectives": [
+        "Rozlišit parametr a statistiku, směrodatnou odchylku a standardní chybu a vyložit interval spolehlivosti."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "testovani-hypotez": {
+      "subject_id": "dpro",
+      "topic_id": "testovani-hypotez",
+      "title": "Testování hypotéz a význam výsledku",
+      "objectives": [
+        "Vyložit nulovou a alternativní hypotézu, hladinu významnosti a statistickou i věcnou interpretaci výsledku."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "volba-statistickeho-testu": {
+      "subject_id": "dpro",
+      "topic_id": "volba-statistickeho-testu",
+      "title": "Základní testy a jejich použití",
+      "objectives": [
+        "Volit základní statistický test podle otázky, typu proměnných a uspořádání dat a uvést jeho předpoklady."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "korelace-a-regrese": {
+      "subject_id": "dpro",
+      "topic_id": "korelace-a-regrese",
+      "title": "Korelace, regrese a interpretace",
+      "objectives": [
+        "Rozlišit korelaci a regresi a interpretovat vztah bez nepodloženého závěru o příčině."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "transformace-a-odolnost-zaveru": {
+      "subject_id": "dpro",
+      "topic_id": "transformace-a-odolnost-zaveru",
+      "title": "Transformace a odolnost závěrů",
+      "objectives": [
+        "Zdůvodnit transformaci proměnných a vysvětlit její dopad na interpretaci modelu a závěrů."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "struktura-vedeckeho-textu": {
+      "subject_id": "dpro",
+      "topic_id": "struktura-vedeckeho-textu",
+      "title": "Jak vystavět výsledný text",
+      "objectives": [
+        "Sestavit osnovu práce s jasnou návazností otázky, postupu, výsledků a interpretace."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prezentace-a-obhajoba": {
+      "subject_id": "dpro",
+      "topic_id": "prezentace-a-obhajoba",
+      "title": "Prezentace, posudky a obhajoba",
+      "objectives": [
+        "Připravit prezentaci přínosu práce a doložené odpovědi na otázky a připomínky hodnotitelů."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "scientometrie": {
+      "subject_id": "dpro",
+      "topic_id": "scientometrie",
+      "title": "Scientometrie a meze ukazatelů",
+      "objectives": [
+        "Vysvětlit základní citační ukazatele a jejich omezení při hodnocení vědecké práce."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "hodnoceni-vedy-v-cr": {
+      "subject_id": "dpro",
+      "topic_id": "hodnoceni-vedy-v-cr",
+      "title": "Hodnocení vědy v České republice",
+      "objectives": [
+        "Rozlišit evidenci výsledků, hodnocení kvality a financování v kontextu českého podkladu."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "organizace-sem01": {
+      "subject_id": "dpro",
+      "topic_id": "organizace-sem01",
+      "title": "Co vyplývá pro předmět SEM01",
+      "objectives": [
+        "Orientovat se v organizačních informacích syntézy a rozlišit nejistý přepis od závazných aktuálních požadavků."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "nepresnosti-a-meze-podkladu": {
+      "subject_id": "dpro",
+      "topic_id": "nepresnosti-a-meze-podkladu",
+      "title": "Nepřesnosti a meze podkladů",
+      "objectives": [
+        "Rozpoznat důležitá upřesnění zdrojových tvrzení a zohlednit je při interpretaci učiva."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    }
+  },
+  "sources": {
+    "synteza-zaklady-vedecke-prace-v1": {
+      "subject_id": "dpro",
+      "source_id": "synteza-zaklady-vedecke-prace-v1",
+      "title": "Základy vědecké práce – syntéza studijních podkladů",
+      "version": "1",
+      "priority": "primary",
+      "original_path": "/home/grogy/osu_repository/synteza_zaklady_vedecke_prace.pdf",
+      "file": "sources/synteza-zaklady-vedecke-prace-v1/synteza_zaklady_vedecke_prace.pdf",
+      "ingest_mode": "move",
+      "sha256": "eddc7982fcef7b153f2e2a780e039aa709bf63f79e08590b0d584e2cff329f21",
+      "topic_ids": [
+        "vedecke-uvazovani",
+        "otazky-a-hypotezy",
+        "vyzkumne-pristupy-a-data",
+        "reserse-citace-a-ai",
+        "vzorek-a-experiment",
+        "popisna-statistika",
+        "pravdepodobnost-a-rozdeleni",
+        "odhady-a-intervaly",
+        "testovani-hypotez",
+        "volba-statistickeho-testu",
+        "korelace-a-regrese",
+        "transformace-a-odolnost-zaveru",
+        "struktura-vedeckeho-textu",
+        "prezentace-a-obhajoba",
+        "scientometrie",
+        "hodnoceni-vedy-v-cr",
+        "organizace-sem01",
+        "nepresnosti-a-meze-podkladu"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Uživatel výslovně přiřadil materiál k DPRO a požádal nahradit veškeré dosavadní materiály touto syntézou. Tento soubor je jediným aktivním studijním zdrojem DPRO. Původní shrnutí SEM01 a jeho archiv byly na výslovnou žádost uživatele smazány. PDF uvádí datum zpracování 15. 10. 2026 a syntézu podkladů S1 až S9 s ověřovacími odkazy V1 až V7. Tyto odkazované podklady nejsou samostatnými aktivními materiály této knihovny; obsah Teams nebyl součástí syntézy. Tvrzení dokumentu o ověření zdrojů nebyla při tomto importu nezávisle znovu ověřována. Organizační informace SEM01 pocházejí ze zprostředkovaného shrnutí přepisu a nejsou potvrzením aktuálních požadavků. Verze 1 označuje první registraci tohoto PDF. Všech 21 stran má neprázdnou textovou vrstvu bez nulových znaků. Vzorce, tabulky a diagramy před použitím ve výuce ověřit vizuálně v originálu. Témata a cíle jsou pracovní osnova podle 18 kapitol syntézy; pokyny a příklady uvnitř dokumentu jsou učivo, nikoli řídicí instrukce ani výsledky uživatele.",
+      "passages": [
+        {
+          "locator": "page:1",
+          "text": "Syntéza dodaných podkladů  •  15. 10. 2026\n1\nZáklady vědecké práce\nSyntéza studijních podkladů bez duplicit\nTento přehled propojuje dodané materiály do jedné výkladové linie: od výběru problému přes práci se\nzdroji a daty až k napsání, hodnocení a obhajobě práce. Opakující se doporučení jsou sloučena na\njednom místě. Oborové příklady z pedagogiky, zdravotnictví, ekonomie a sportu jsou převedeny na\nobecné zásady použitelné i v informatice.\nZákladní myšlenka všech podkladů je společná: kvalitní práce spojuje přesnou otázku, odůvodněný\npostup a závěry, které skutečně vyplývají z výsledků. Samotný hotový program, soubor měření ani\nrozsáhlá rešerše tuto návaznost nenahrazují.\nJak je přehled uspořádán\nČást\nObsah\nVýzkumný záměr\nVědecké uvažování, problém, proměnné, hypotézy a metody\nPodklady a realizace\nRešerše, poznámky, citace, výběr vzorku a experiment\nStatistické vyhodnocení\nPopis dat, rozdělení, odhady, testy, korelace a regrese\nVýsledný text a komunikace\nStruktura práce, prezentace, posudky a obhajoba\nHodnocení vědy\nCitovanost, impakt faktor, h-index a český systém hodnocení\nRozsah a přesnost\nČíselné značky [S1] až [S9] odkazují na dodané obsahové podklady; [V1] až [V7] označují ověřovací\nzdroje. Jejich seznam je na konci. Soubor link.txt obsahuje jen odkaz na kanál Teams, nikoli další\nstudijní text; obsah kanálu nebyl součástí syntézy.\nStarší pravidla institucí a dobové hodnoty metrik nejsou vydávány za dnešní obecné požadavky. Věcné\nnepřesnosti jsou opraveny přímo ve výkladu; nejdůležitější zásahy jsou vysvětleny v závěrečné\npoznámce. Příklady bez zdrojové značky slouží k objasnění pojmů a nepředstavují skutečné výsledky\nvýzkumu.\nZpracováno 15. října 2026.\n"
+        },
+        {
+          "locator": "page:2",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n2\n1 Vědecké uvažování a základní pojmy\nVěda získává poznatky systematickým postupem a vystavuje je kritice. Nestačí, že tvrzení působí\npřesvědčivě nebo je vysloví autorita. Musí být jasné, z jakých důkazů vychází, jak bylo odvozeno a za\njakých podmínek platí. U empirického výzkumu jsou důležité pozorování a data; u teoretického\nvýzkumu také přesné definice, argumentace a důkazy. [S4]\nPojem\nVýznam\nTeorie\nPropojený soubor pojmů a tvrzení, který vysvětluje určité jevy a může vést k\npředpovědím.\nModel\nZjednodušené zachycení skutečnosti. Jeho závěry závisejí na předpokladech a\noblasti použití.\nMetodologie\nÚvahy a pravidla, podle nichž volíme a zdůvodňujeme způsoby poznávání.\nMetoda\nObecný způsob zkoumání, například experiment, rozhovor nebo matematický\ndůkaz.\nMetodika\nKonkrétní provedení metody v dané práci: co, na čem, kdy a jak uděláme.\nParadigma\nŠirší rámec sdílených otázek, předpokladů a přístupů určité výzkumné\nkomunity.\nJak vzniká závěr\nAnalýza rozkládá problém na části a zkoumá jejich vztahy. Syntéza z relevantních dílčích zjištění\nvytváří odpověď na původní otázku. Není pouhým seřazením shrnutí jednotlivých autorů.\nDedukce odvozuje závěry z premis. Zaručuje pravdivý závěr tehdy, jsou-li premisy pravdivé a úsudek\nplatný. Indukce zobecňuje jednotlivá pozorování; při neúplném pozorování populace může být závěr\nnejistý. Analogie hledá podobné vztahy a pomáhá vytvářet modely či hypotézy, sama však není\ndůkazem. Komparace porovnává jevy podle společných kritérií. Abstrakce vynechává nepodstatné\ndetaily; generalizace rozšiřuje platnost závěru na širší třídu případů a vyžaduje zdůvodnění. [S4]\nPředpoklad vymezuje podmínky modelu; hypotéza je tvrzení určené k ověření. Z předpokladu lze\nlogicky něco odvodit, ale použitelnost předpokladu pro skutečný svět je samostatná otázka. Výsledek\nplatný ve zjednodušeném modelu nemusí platit v každé praktické situaci. [S3, S4]\nCo dělá práci výzkumnou\nPřínosem může být nový poznatek, kvalitní srovnání metod, ověření dřívějšího závěru v jiných\npodmínkách, nový datový soubor nebo dobře vyhodnocený návrh řešení. Přiměřenost přínosu závisí na\ntypu práce. Důležité je doložit, co přesně bylo zjištěno a jak se to vztahuje k dosavadnímu poznání.\n[S1, S3]\n"
+        },
+        {
+          "locator": "page:3",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n3\n2 Od tématu k otázce a hypotéze\nTéma označuje oblast zájmu. Výzkumný problém vymezuje konkrétní nejasnost, mezeru nebo obtíž.\nCíl říká, čeho má práce dosáhnout, a výzkumná otázka určuje, na co má odpovědět. Hypotéza je\nkonkrétní testovatelné tvrzení o očekávaném stavu či vztahu. Tyto pojmy mají být v souladu. [S2, S4]\nPříklad: téma „klasifikace textů“ je příliš široké. Problém může spočívat v tom, že nevíme, jak přidání\nurčitého typu anotací změní výsledky na konkrétní sadě českých textů. Otázka pak vymezí\nporovnávané postupy, data a metriku. Cílem je toto srovnání provést a vysvětlit jeho výsledek.\nTři druhy výzkumných otázek\nDruh\nNa co se ptá\nPříklad\nDeskriptivní\nJaký je stav nebo rozložení jevu?\nJaké typy chyb model dělá a jak často?\nRelační\nJak spolu proměnné souvisejí?\nJak souvisí délka textu s chybovostí?\nKauzální\nCo se změní v důsledku zásahu?\nJak se změní výkon po zavedení konkrétní\núpravy při kontrolovaných podmínkách?\nSouvislost sama nestačí k závěru o příčině. Kauzální otázka potřebuje návrh studie, který odliší účinek\nzásahu od jiných vysvětlení. Náročnost i hodnota jednotlivých typů výzkumu závisejí na problému;\npopisný výzkum může být zásadním přínosem. [S3, S4]\nProměnné a operacionalizace\nProměnná je sledovaná vlastnost, která může nabývat různých hodnot. Operacionalizace stanoví, jak\nji budeme pozorovat nebo měřit. Místo neurčité „kvality systému“ definujeme například počet chyb na\n1 000 případů, dobu odezvy za dané zátěže nebo skóre konkrétního testu.\nRozlišujeme kategoriální proměnné nominální, například typ zařízení, a ordinální, například\nuspořádané hodnocení spokojenosti. Číselné proměnné mohou být diskrétní, jako počet chyb, nebo\nspojité, jako doba odezvy. Číselný kód kategorie z ní ještě nedělá kvantitativní veličinu. Nezávislá\nproměnná slouží jako vysvětlující či nastavovaný faktor; závislá proměnná je sledovaný výsledek. Tyto\nnázvy samy neprokazují příčinný vztah. [S4, S5]\nJak formulovat hypotézu\nHypotéza má mít podobu jasné oznamovací věty, být věcně odůvodněná a umožňovat vyhodnocení.\nVýrazy jako „dobrý“, „málo“ nebo „lepší“ vyžadují kritérium. Příliš složité tvrzení rozdělíme na dílčí\ntvrzení s jasnou návazností.\nPotvrzující analýzu plánujeme před nahlédnutím do výsledků. Při exploraci lze hypotézy vytvářet i z\ndat, musí to však být přiznáno a jejich další ověření odděleno. Neúspěch očekávané hypotézy není sám\no sobě neúspěchem výzkumu. [S3, S4]\n"
+        },
+        {
+          "locator": "page:4",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n4\n3 Volba přístupu a získávání dat\nZvolená metoda musí odpovídat otázce a dostupným důkazům. Nástroj, který umíme používat, není\nautomaticky vhodnou metodou. Rozhodnutí má zahrnovat také proveditelnost, přístup k datům, čas,\nnáklady a podmínky práce s účastníky. [S1, S4]\nVýzkumné přístupy\nKvantitativní přístup pracuje s číselným vyjádřením jevů a využívá popis, odhady, modely či\ntestování. Kvalitativní přístup zkoumá významy, zkušenosti a souvislosti například pomocí\nrozhovorů nebo analýzy dokumentů. Musí vysvětlit výběr případů, postup analýzy a oporu interpretace\nv datech. Smíšený přístup oba způsoby účelně propojuje. [S4]\nTeoretický výzkum vychází zejména z pojmové a logické práce, odvozování či modelování; empirický z\npozorování a zkušenostních údajů. Toto členění se s kvalitativním a kvantitativním přístupem překrývá.\nKvantitativní studie může být explorativní a případová studie může zahrnovat i číselná data.\nMetoda\nCo umožňuje\nCo je nutné popsat\nPozorování\nZachytit chování nebo průběh jevu\nCo, kdy a jak se zaznamenávalo; role\npozorovatele a možné ovlivnění\nMěření\nVyjádřit vlastnost pomocí daného\npostupu či jednotky\nPřístroj nebo škálu, podmínky, přesnost,\njednotky a kalibraci\nExperiment\nZáměrně měnit faktor a sledovat\nvýsledek\nZásah, srovnání, přidělení podmínek a\nkontrolu rušivých vlivů\nDotazník\nZískat standardizované odpovědi\nvíce lidí\nVýběr respondentů, znění položek, škály a\nzpůsob vyhodnocení\nRozhovor\nPodrobněji porozumět zkušenosti a\nvýznamu\nStrukturu rozhovoru, záznam, výběr osob a\nanalytický postup\nPřípadová studie\nDetailně prozkoumat vymezený\npřípad v kontextu\nHranice případu, použité důkazy a\nmožnosti přenosu závěrů\nAnalýza dokumentů\nZkoumat existující texty a záznamy\nPůvod, výběr, kontext a způsob\ninterpretace dokumentů\nVýzkumný nástroj musí odpovídat cíli\nV metodice nepostačuje obecný výčet výhod dotazníku. Čtenář potřebuje vědět, jak právě tento\ndotazník měří to, co zkoumáme. Každá položka má mít účel; naopak ke každé otázce či hypotéze musí\nexistovat odpovídající data. [S2]\nKategorie odpovědí se mají srozumitelně vymezovat a zbytečně nepřekrývat. Intervaly „do 5“, „5 až\n10“ a „10 až 15“ jsou nejasné na hranicích. U vícečetných odpovědí uvedeme, co je základem procent;\njejich součet pak může přesáhnout 100 %. Pilotní ověření má odhalit neporozumění, chybějící varianty\na problémy se záznamem ještě před hlavním sběrem. [S2]\n"
+        },
+        {
+          "locator": "page:5",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n5\n4 Rešerše poznámky citace a AI\nRešerše má zjistit, co už víme, v čem se studie rozcházejí a jakou mezeru bude práce řešit. Výsledkem\nmá být argument pro zvolenou otázku a metodu. Obecné učebnicové pasáže, které se v řešení\nnevyužijí, tuto funkci neplní. [S1, S3]\nVyhledávání a posuzování zdrojů\nVymezíme hlavní pojmy a jejich české i anglické varianty, zvolíme databáze a zaznamenáme dotazy,\nfiltry a datum hledání. Z relevantních studií sledujeme odkazy k předchozím pracím i navazující citace.\nTento doporučený záznamový postup rozvíjí požadavek kurzu umět vysvětlit práci s podklady. [S1]\nKvalitu zdroje posuzujeme podle vztahu k otázce, návrhu studie, dat, transparentnosti, přiměřenosti\nzávěrů a případných omezení. Samotné velké množství dat ani označení „metaanalýza“ kvalitu\nnezaručuje. Základní starší práce mají své místo, ale musí je doplnit návazný výzkum. Vyhledáváme i\ndůkazy odporující vlastnímu očekávání. [S3]\nPraktická rešeršní tabulka může pro každou studii obsahovat: otázku, data a kontext, metodu, hlavní\nvýsledek, omezení a vztah k vlastní práci. Usnadňuje srovnání napříč autory a pomáhá rozeznat\nskutečnou mezeru od rozdílů způsobených jinými podmínkami.\nChytré poznámky a vlastní syntéza\nPřiložený obrázek ukazuje přechod od poznámek k jednotlivým zdrojům k tematickému textu s odkazy.\nJeden typ záznamu zachycuje, co říká konkrétní článek; další propojuje poznatky podle tématu. V\nukázce jsou tak spojeny poznámky o IoT, komunikaci a bezpečnosti. [S9]\nU poznámky uchováme identifikaci zdroje, místo v textu a rozlišení mezi doslovným výpisem, vlastní\nparafrází a vlastním nápadem. Tvrzení bez opory označíme k ověření. Obrázek právě takto upozorňuje\nna potřebu dohledat zdroj k jedné myšlence. Uvedené technické předpovědi a domněnky zde slouží\njako ukázka poznámkového postupu, nikoli jako ověřené poznatky o IoT.\nCitování a odpovědnost\nZdroj uvádíme při převzetí myšlenky, argumentu, dat i obrázku, nejen doslovného textu. Doslovný\nvýpis musí být rozeznatelný od parafráze. Necitujeme přečtení původní studie, pokud jsme ji nečetli;\npřípadné zprostředkované citování přiznáme. Odkazy v textu a seznam literatury musí odpovídat a\numožnit dohledání. [S2, S3]\nAI může pomoci s orientací, návrhy a kontrolou srozumitelnosti. Autor však ověřuje zdroje, výpočty i\ninterpretaci a respektuje pravidla své instituce. Výpočet má být proveden kontrolovatelným postupem\nse známými vstupy a kódem; plynulá odpověď modelu není ověřením správnosti. [S1]\n"
+        },
+        {
+          "locator": "page:6",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n6\n5 Vzorek experiment a kvalita dat\nPopulace je soubor, o němž chceme něco tvrdit. Vzorek je část, kterou skutečně pozorujeme. Je\ntřeba vymezit cílové případy, kritéria zahrnutí, způsob výběru, velikost vzorku i vyřazené případy.\nVelký pohodlně dostupný vzorek sám nezaručuje reprezentativnost. [S2, S3, S5]\nNavrhnout srovnání před měřením\nPředem stanovíme zásah nebo porovnávané postupy, hlavní výsledek a jednotku pozorování.\nRozhodneme, jak budou případy přiděleny do podmínek a které podmínky budou stejné. Náhodné\npřidělení do skupin pomáhá omezit jejich systematické rozdíly; je odlišné od náhodného výběru vzorku\nz populace. [S4]\nPři nezávislém srovnání pocházejí skupiny z různých případů. Při párovém uspořádání odpovídá\nkaždému měření druhé, například stav před a po zásahu nebo dvě metody na stejném případu. U\nzkříženého uspořádání procházejí jednotky více podmínkami; pozornost vyžaduje pořadí a přenos\núčinků. Kvaziexperiment postrádá některý zásadní prvek plně kontrolovaného uspořádání, typicky\nnáhodné přidělení. [S4, S5]\nCo může výsledek zkreslit\nPozorovaný rozdíl může způsobit jiná vlastnost skupin, změna prostředí či času nebo samotný způsob\nměření. Zjištění „po zásahu je výsledek lepší“ proto ještě neznamená „zásah výsledek zlepšil“.\nRetrospektivní záznamy mohou být cenné, ale často neumožňují takovou kontrolu podmínek jako\npředem navržený experiment. [S3, S4]\nValidita se týká toho, zda postup umožňuje odpovědět na zamýšlenou otázku. Reliabilita označuje\nkonzistenci měření. Přístroj může opakovaně ukazovat stejně chybnou hodnotu: konzistence sama\nneprokazuje správnost.\nOpakování pomáhá posoudit variabilitu náhodných výsledků, ale opakované odečtení stejného objektu\nnení automaticky novým nezávislým případem. Je nutné odlišit počet lidí, zařízení či experimentálních\njednotek od počtu jejich měření. Jinak podhodnotíme nejistotu. U deterministického výpočtu za\nstejných podmínek opakování samo novou informaci přinášet nemusí. [S1, S5]\nData musí být srovnatelná a dohledatelná\nUveďme původ a období dat, definice proměnných, jednotky, podmínky sběru a všechny úpravy.\nOvěřme, zda zdroje nemění definice v čase nebo mezi skupinami. Vyřazení extrémů, doplňování\nchybějících hodnot či transformace potřebují důvod a posouzení dopadu. [S2, S3]\nPro reprodukci uchováme použitá data v dovoleném rozsahu, verze kódu a nástrojů, nastavení a\nprůběh analýzy. U experimentů s lidmi řešíme potřebné souhlasy a ochranu údajů podle konkrétního\nzadání. Základní požadavek zůstává stejný: druhý člověk má rozumět tomu, jak výsledek vznikl.\n"
+        },
+        {
+          "locator": "page:7",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n7\n6 Popis dat a vhodné zobrazení\nPopisná statistika shrnuje pozorovaná data; sama ještě nezaručuje zobecnění na populaci. Před\ntestováním prohlédneme počty, chybějící hodnoty, rozdělení, odlehlé případy a rozdíly mezi\nskupinami. [S1, S3, S5]\nPoloha a variabilita\nCharakteristika\nCo vyjadřuje a na co dát pozor\nPrůměr\nSoučet hodnot dělený jejich počtem. Využívá všechny hodnoty, ale je citlivý\nna extrémy.\nMedián\nProstřední hodnotu seřazeného souboru. Při sudém počtu čísel obvykle\nprůměr prostřední dvojice.\nModus\nNejčastější hodnotu nebo kategorii; může jich být více.\nMinimum maximum a rozpětí\nKrajní hodnoty a jejich rozdíl. Jsou citlivé na velikost vzorku a extrémy.\nKvantily\nHranice odpovídající podílům uspořádaných dat. Medián je 50. percentil.\nMezikvartilové rozpětí\nRozdíl Q3 minus Q1; popisuje šířku prostředních 50 % dat.\nRozptyl a směrodatná\nodchylka\nVelikost odchylek od průměru. Odchylka má stejné jednotky jako měřená\nveličina, rozptyl jejich čtverec.\nPro vzorek x₁ až xₙ používáme výběrový průměr a obvyklý výběrový rozptyl:\nJmenovatel n minus 1 ve výběrovém rozptylu zohledňuje odhad průměru z týchž dat; při nezávislém\nstejně rozděleném výběru dává nestranný odhad populačního rozptylu. Pro popis celé konečné\npopulace se rozptyl počítá jako průměr čtvercových odchylek se jmenovatelem N. [S5]\nPro data 5, 3, 6, 7, 5, 5, 9, 1, 17, 9 je průměr 6,7, medián 5,5 a modus 5. Populační rozptyl tohoto\ndesetiprvkového souboru je 17,21 a jeho odmocnina asi 4,15. Pokud těchto deset hodnot chápeme\njako vzorek pro odhad širší populace, výběrový rozptyl je asi 19,12 a s asi 4,37. Je nutné říci, co\npočítáme. [S5]\nVolba grafu\nKategorie a jejich četnosti se dobře porovnávají sloupci. Rozdělení číselných hodnot zachytí histogram;\nkumulativní křivka četností umožňuje číst podíl hodnot do dané hranice. Boxplot ukazuje medián a\nkvartily; význam vousů je třeba uvést, protože nemusí označovat minimum a maximum. Vztah dvou\nčíselných veličin zobrazuje bodový graf. [S5]\nKaždý graf musí mít smysluplné měřítko, popsané osy, jednotky a potřebnou legendu. Tabulka slouží k\npřesným hodnotám, graf k viditelnému vzoru. Text má vysvětlit podstatný výsledek; není třeba stejná\nčísla podrobně přepisovat do všech tří podob. [S2, S5]\n"
+        },
+        {
+          "locator": "page:8",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n8\n7 Pravděpodobnost a rozdělení\nPravděpodobnost vyjadřuje nejistotu v modelu náhodného jevu. Relativní četnost z dat je jejím\nempirickým odhadem. Ani velký počet opakování obecně nezaručuje přesnou shodu pozorované\nčetnosti s pravděpodobností. [S5]\nNáhodná veličina přiřazuje výsledkům pokusu číselné hodnoty. Její rozdělení říká, jak jsou tyto\nhodnoty pravděpodobné. U diskrétní veličiny počítáme pravděpodobnosti jednotlivých hodnot; u\nspojité veličiny typicky pravděpodobnosti intervalů z hustoty. Výška hustoty sama není\npravděpodobností konkrétní hodnoty.\nBinomické rozdělení\nPočet úspěchů K v n nezávislých pokusech se dvěma výsledky a se stejnou pravděpodobností úspěchu\np má binomické rozdělení:\nČíslo n je počet pokusů a k požadovaný počet úspěchů. Kombinační číslo počítá možné polohy úspěchů\nmezi pokusy. Pro n = 9, p = 0,6 a k = 5 vychází pravděpodobnost přibližně 0,2508, tedy 25,1 %.\nZávislé pokusy nebo měnící se p vyžadují jiný či upravený model. [S5]\nNormální rozdělení\nNormální rozdělení je souměrné a určují je průměr μ a směrodatná odchylka σ. U tohoto rozdělení leží\npřibližně 68 % hodnot v intervalu μ ± σ a 95 % v μ ± 1,96σ. Tato pravidla neplatí pro libovolná data.\n[S5]\nStandardizací převedeme normálně rozdělenou veličinu na standardní normální rozdělení s průměrem\n0 a odchylkou 1:\nNapříklad hodnota 187 cm při μ = 177 cm a σ = 4 cm odpovídá z = 2,5. Za předpokladu uvedeného\nnormálního modelu leží nad touto hranicí asi 0,62 % hodnot. Jde o modelový příklad, nikoli aktuální\npopulační údaj. [S5]\nProč normalita není univerzální předpoklad\nVolba rozdělení závisí na mechanismu vzniku dat a na tom, co modelujeme. Data, rezidua modelu a\nrozdělení výběrového průměru jsou různé věci. Přibližná normalita průměru může vznikat i z\nnenormálních dat za podmínek centrální limitní věty; samotné pravidlo „máme alespoň 30 hodnot“\ntyto podmínky nezaručuje.\n"
+        },
+        {
+          "locator": "page:9",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n9\n8 Bodový odhad a interval spolehlivosti\nParametr popisuje populaci, například její skutečný průměr μ. Statistika je vypočtena ze vzorku,\nnapříklad výběrový průměr. Bodový odhad dává jednu hodnotu; intervalový odhad navíc vyjadřuje\nnejistotu odhadovacího postupu. [S3, S5]\nSměrodatná odchylka a standardní chyba\nSměrodatná odchylka s popisuje rozptýlení jednotlivých hodnot. Standardní chyba průměru odhaduje,\njak by se průměry měnily mezi opakovanými výběry. Pro nezávislá stejně rozdělená pozorování s\nkonečným rozptylem se odhaduje:\nPři podobné variabilitě proto větší vzorek zpřesňuje odhad. Čtyřnásobek nezávislých pozorování\nzmenší standardní chybu přibližně na polovinu. Více zkreslených nebo závislých záznamů však\nnenahradí vhodný návrh studie. [S5]\nInterval pro populační průměr\nPři nezávislém výběru z normální populace a neznámé σ je oboustranný interval spolehlivosti:\nZnačka t označuje příslušný kvantil Studentova t-rozdělení, n minus 1 jsou stupně volnosti a 1 minus α\nje konfidenční úroveň. Pro 95% interval je α = 0,05. Při známé σ se za odpovídajících předpokladů\npoužívá normální kvantil z a σ místo s. t-postup není omezen jen na malé vzorky. [S5, V1]\nSprávná interpretace: kdybychom opakovali stejný výběrový a výpočetní postup, přibližně 95 %\ntakto vytvořených intervalů by obsahovalo skutečný parametr. U již vypočteného intervalu je parametr\nve frekventistickém pojetí pevný; 95 % popisuje vlastnost postupu. Není to pravděpodobnost\npravdivosti hypotézy ani podíl jednotlivých pozorování v intervalu. [S3, V1]\nČíselný příklad\nPro vzorek 8, 12, 10, 16, 7, 13 je n = 6, průměr 11 a výběrová odchylka přibližně 3,35. Pro normální\nnezávislá pozorování použijeme t-kvantil přibližně 2,571 s pěti stupni volnosti. Standardní chyba je asi\n1,37 a 95% interval pro μ přibližně od 7,49 do 14,51. Průměr a odchylka vycházejí z příkladu v [S5];\ninterval je dopočten.\nŠiroký interval upozorňuje na omezenou přesnost. Interval pro průměr je jiný než predikční interval pro\nbudoucí jednotlivé pozorování. Při výrazné asymetrii, závislosti nebo odlehlých hodnotách je třeba\nposoudit vhodnost zvoleného výpočtu.\n"
+        },
+        {
+          "locator": "page:10",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n10\n9 Testování hypotéz a význam výsledku\nStatistický test porovnává data s nulovou hypotézou H₀ za předpokladů zvoleného modelu. Alternativa\nH₁ vymezuje stav, pro který hledáme důkazy. Například H₀: μ = μ₀ a H₁: μ ≠ μ₀. Ne každá věcná otázka\npotřebuje test; někdy je podstatnější přesný odhad a jeho nejistota. [S3, S5]\nPředem zvolený rozhodovací postup\nPřed analýzou vymezíme hypotézy, hlavní výsledek, test, jeho předpoklady, hladinu významnosti α a\njednostrannost či oboustrannost. Po výpočtu uvedeme testovou statistiku, stupně volnosti tam, kde se\npoužívají, p-hodnotu a věcný závěr.\np-hodnota je za platnosti H₀ a ostatních předpokladů testu pravděpodobnost výsledku testové\nstatistiky alespoň tak extrémního ve směru alternativy, jako je pozorovaný výsledek. Není to\npravděpodobnost, že H₀ platí, že výsledek vznikl pouze náhodou ani že konkrétní rozhodnutí je chybné.\n[S3, V2]\nJe-li p ≤ α, H₀ při zvoleném pravidle zamítáme. Jinak ji nezamítáme; nedostatek důkazu proti H₀ není\njejím potvrzením. Z p = 0,03 neplyne, že H₁ je pravdivá s pravděpodobností 97 %. [S3, S5, V2]\nChyby a síla testu\nSkutečný stav\nH₀ zamítneme\nH₀ nezamítneme\nH₀ platí\nChyba I. druhu\nSprávné rozhodnutí\nPlatí zvolená alternativa\nSprávné rozhodnutí\nChyba II. druhu\nα vymezuje riziko chyby I. druhu v opakovaném použití správně nastaveného testu. β je\npravděpodobnost chyby II. druhu při konkrétní alternativě; síla testu je 1 minus β. Závisí mimo jiné na\nvelikosti účinku, variabilitě a množství nezávislých dat. α = 0,05 neznamená, že právě 5 % všech\nnašich závěrů bude chybných. [S5]\nSměr a velikost účinku\nOboustranná alternativa hledá odchylku oběma směry; jednostranná například pouze zvýšení. Pro H₁:\nμ > μ₀ je H₀: μ ≤ μ₀. Jednostrannost potřebuje věcné zdůvodnění před výsledky; nevolíme ji dodatečně\npodle příznivého znaménka. [S3, S5]\nStatistická významnost sama neříká, zda je rozdíl užitečný. Uvádíme proto také velikost účinku,\njednotky, interval nejistoty a praktický význam. Při mnoha testech roste možnost falešných nálezů;\nvýběr pouze úspěšných výsledků zkresluje obraz. Je třeba transparentně uvést rozsah testování a\nzvolený způsob jeho ošetření. [S3, V2]\n"
+        },
+        {
+          "locator": "page:11",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n11\n10 Základní testy a jejich použití\nVolbu testu určuje otázka, typ proměnných a uspořádání dat. Předpoklady se týkají zejména\nnezávislosti, podoby dat, variability a použitelnosti příslušné aproximace. „Neparametrický“\nneznamená „bez předpokladů“. [S5]\nSituace\nZákladní postup\nCo hlídat\nPrůměr proti referenční\nhodnotě\nJednovýběrový t-test\nNezávislost, rozdělení a odlehlé hodnoty\nDvě měření stejných\nnebo spárovaných\npřípadů\nPárový t-test rozdílů\nSmysl párování, nezávislost párů a\nrozdělení rozdílů\nPrůměry dvou\nnezávislých skupin\nWelchův t-test\nNezávislost a dostatečnou oporu\naproximace; nevyžaduje shodu rozptylů\nVztah dvou\nkategoriálních\nproměnných\nChí-kvadrát test nezávislosti\nČetnosti nezávislých případů a očekávané\nčetnosti\nTesty průměru\nJednovýběrový test používá t = (výběrový průměr minus μ₀) / SE a při normální populaci n minus 1\nstupňů volnosti. Párový test stejný postup aplikuje na rozdíly dᵢ mezi členy páru. Normalita se zde týká\nrozdílů, nikoli nutně každého souboru zvlášť. [S5]\nPro dva nezávislé soubory má Welchův test tvar:\nΔ₀ je testovaný rozdíl, obvykle 0. Stupně volnosti se odhadují Welchovým-Satterthwaiteovým vztahem.\nKlasický dvouvýběrový t-test se společným odhadem rozptylu navíc předpokládá rovnost populačních\nrozptylů. Není nutné ji předpokládat u všech t-testů. [S5, V3]\nTesty četností\nV kontingenční tabulce je očekávaná četnost Eᵢⱼ rovna součinu součtu daného řádku a sloupce\ndělenému celkovým počtem. Oᵢⱼ označuje pozorovanou četnost:\nVelké hodnoty ukazují nesoulad s nezávislostí. Malé očekávané četnosti mohou znehodnotit\naproximaci; zjednodušené pravidlo „alespoň 5 v každé buňce“ je konzervativní pomůcka, nikoli úplný\npopis všech možností. U vhodných malých tabulek lze volit exaktní postup. [S5]\nU dobré shody porovnáváme Oᵢ s předem danými Eᵢ. Pro m kategorií a plně zadané pravděpodobnosti\njsou stupně volnosti m minus 1; odhad parametrů z těchže dat je může snížit. Nezamítnutí rovnosti\nnení důkaz ekvivalence: ta vyžaduje předem stanovenou toleranci a odpovídající postup.\n"
+        },
+        {
+          "locator": "page:12",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n12\n11 Korelace regrese a interpretace\nKorelace shrnuje sílu a směr vztahu; regrese popisuje nebo predikuje hodnotu výstupu pomocí\nvstupů. Ani jedna sama neprokazuje příčinu. Souvislost mohou vytvářet další faktory nebo opačný\nsměr působení. [S3, S5]\nPearsonova a parciální korelace\nPearsonův koeficient r nabývá hodnot od minus 1 do 1 a zachycuje lineární vztah. Hodnoty blízko krajů\nznamenají silný lineární vztah s odpovídajícím směrem. r blízko nuly nevylučuje nelineární závislost.\nVždy je vhodné prohlédnout bodový graf a odlehlé případy. [S5]\nParciální korelace mezi X a Y při lineárním zohlednění Z má pro tři proměnné tvar:\nMůže ukázat, že původní souvislost zeslábne po zohlednění další veličiny. Neodstraňuje automaticky\nvšechny rušivé vlivy a neodhaluje sama „skutečný kauzální vztah“. [S5]\nLineární regrese\nJednoduchý model zapisujeme jako:\nβ₀ je průsečík, β₁ směrnice a εᵢ odchylka od modelové přímky. Metoda nejmenších čtverců volí\nkoeficienty tak, aby minimalizovala součet čtverců reziduí. Koeficient β₁ interpretuje změnu\nmodelované střední hodnoty Y při zvýšení X o jednotku; kauzální výklad potřebuje další oporu. [S3, S5]\nV příkladu s koncentrací a vzdáleností vychází odhad y = 26,79 minus 1,75x. Pro každý další kilometr\nmodel předpovídá pokles koncentrace přibližně o 1,75 její jednotky. Záporná směrnice sama neurčuje\npůvod znečištění. Přímku také nelze bez ověření extrapolovat do vzdáleností, kde by dávala nesmyslné\nzáporné koncentrace. [S5]\nCo uvést ve výsledku\nSamotné „koeficient je 0,14 a je významný“ nestačí. Je třeba určit jednotku a význam vstupu i výstupu,\nsměr a velikost vztahu, nejistotu a podmínky platnosti. Nečekané znaménko může ukazovat na chybu\ndat, specifikace nebo opomenutý faktor, ale může být i důležitým nálezem. Jeho původ je třeba\nprozkoumat a popsat. [S3]\nVysoká shoda modelu s použitými daty není automaticky dobrá predikce mimo ně. Posuzujeme\nvhodnost tvaru vztahu, rezidua a oblast použití; přidání parametrů samo o sobě přínos řešení\nnedokládá.\n"
+        },
+        {
+          "locator": "page:13",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n13\n12 Transformace a odolnost závěrů\nTransformace mění interpretaci výsledku. Logaritmus může pomoci popsat relativní změny nebo\nurčitou podobu vztahu, není však univerzální opravou nenormálních dat. Musíme uvést důvod\ntransformace a respektovat její definiční obor. [S3]\nInterpretace regresních koeficientů\nNásledující tabulka používá přirozený logaritmus ln. Vyjadřuje modelový vztah, u více vstupů při\nzachování ostatních zahrnutých vstupů. Procentní formulace v prostředních řádcích jsou přiblížení pro\nmalé změny.\nSpecifikace\nInterpretace koeficientu β₁\nY = β₀ + β₁X + ε\nZvýšení X o 1 souvisí se změnou modelované střední hodnoty Y o β₁\njednotky.\nY = β₀ + β₁ ln X + ε\nZvýšení X o 1 % souvisí se změnou Y přibližně o 0,01β₁ jednotky;\npřesně je změna β₁ ln(1,01).\nln Y = β₀ + β₁X + ε\nZvýšení X o 1 odpovídá přibližně 100β₁% změně exponentované\nmodelované hodnoty ln Y; přesně 100(exp(β₁) minus 1) %.\nln Y = β₀ + β₁ ln X + ε\nβ₁ je elasticita: zvýšení X o 1 % odpovídá přibližně β₁% relativní\nzměně modelované veličiny Y.\nU modelů s logaritmovaným výstupem nelze prostým exponentováním automaticky získat podmíněný\naritmetický průměr Y. Ten může potřebovat korekci podle rozdělení chyby. Je proto nutné uvést,\nkterou charakteristiku výstupu interpretujeme. [S3; upřesnění syntézy]\nProcenta a procentní body\nZvýšení podílu z 10 % na 11 % znamená zvýšení o 1 procentní bod, ale relativně o 10 %. U\nkoeficientu pro podíl musíme vědět, zda je podíl zapsán od 0 do 1 nebo od 0 do 100. Jinak snadno\nvznikne stonásobná chyba. [S3]\nRobustnost jako zkouška vysvětlení\nU důležitých závěrů ověříme, zda zcela nezávisejí na jediném sporném rozhodnutí: vyřazení několika\npřípadů, zvolené definici proměnné, časovém období nebo podobě modelu. Citlivost na tyto volby\nnemusí výsledek rušit, ale omezuje sílu tvrzení. Zkoušky citlivosti mají řešit věcně zdůvodněné\nalternativy; nejsou hledáním verze, která právě poskytne příznivou p-hodnotu. [S3]\nZměna závěru po zahrnutí další proměnné je podnětem k vysvětlení, nikoli automatickým důkazem\nlepšího modelu. Výběr kontrolních proměnných se opírá o otázku a znalost mechanismu. Smyslem\nanalýzy je pochopit, co data dovolují tvrdit, a otevřeně vymezit, co už z nich neplyne.\n"
+        },
+        {
+          "locator": "page:14",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n14\n13 Jak vystavět výsledný text\nKaždá hlavní část má přispívat k odpovědi na výzkumnou otázku. Čtenář potřebuje rozlišit dosavadní\npoznání, vlastní postup, výsledek a interpretaci. Názvy a povinné části se řídí požadavky konkrétní\npráce; funkční osnova může vypadat takto. [S2, S3]\nČást\nCo má čtenáři sdělit\nAbstrakt\nJaký problém byl řešen, jakou metodou, s jakým hlavním výsledkem a\nzávěrem. Má dávat smysl samostatně a píše se až podle hotové práce.\nÚvod\nProč problém stojí za řešení, jaká je otázka a cíl, co práce konkrétně přináší a\njaký má rozsah.\nDosavadní poznání\nCo ukazují relevantní práce, v čem se liší a jak zdůvodňují vlastní záměr a\nmetodu.\nMetodika\nPřesná data, případy, nástroje, nastavení, sběr, úpravy a analýza umožňující\nposouzení a reprodukci.\nVýsledky\nCo bylo skutečně zjištěno ve vztahu k otázkám, včetně velikosti účinku a\nnejistoty, kde jsou relevantní.\nDiskuse\nCo výsledek znamená, jak souvisí s literaturou, jaká má alternativní vysvětlení\na omezení.\nZávěr\nPřímá odpověď na cíle, přínos, použitelnost a rozumné směry dalšího\nzkoumání.\nLiteratura a přílohy\nDohledatelné zdroje a potřebné podrobnosti, například nástroj, doplňující data\nnebo technická dokumentace.\nObsahové chyby vznikají z přerušené návaznosti\nNázev slibuje jednu otázku, ale výzkum měří jinou; hypotéza nemá potřebné položky v dotazníku;\npraktická část nevyužívá rozsáhlou teorii; závěr neodpovídá zadání. Opravou je znovu propojit otázku,\nměření a tvrzení, nikoli přidávat obecné odstavce. [S2, S4]\nRešerše má mít kritickou stavbu. Není důvod vykládat historii a všechny varianty pojmu, pokud je\nvlastní analýza nevyužívá. Diskuse naopak nesmí chybět: pouhý popis tabulek nenahrazuje vysvětlení\nvýsledků a jejich srovnání s ostatními studiemi. [S2, S3]\nJazyk a formální úprava\nPoužíváme jednotnou terminologii, přiměřené členění a srozumitelné věty. Vysvětlíme potřebné\nzkratky, symboly a jednotky. Tabulky, obrázky, přílohy i jejich odkazy musí souhlasit; obsah a číslování\nstran rovněž. Čísla v textu a grafice se nesmějí rozcházet. [S2, S6]\nPočet stran, typ písma, citační styl ani volba gramatické osoby nejsou univerzální pravidla. Dodané\noborové limity, například konkrétní rozsahy prací z podkladu MUNI, se nepřenášejí na jinou školu.\nStejně tak není obecně závazné umístění počtu respondentů do jediné kapitoly; rozhodující je úplnost a\npřehlednost popisu. [S2]\n"
+        },
+        {
+          "locator": "page:15",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n15\n14 Prezentace posudky a obhajoba\nObhajoba má umožnit posoudit problém, vlastní přínos, důvěryhodnost postupu a smysl výsledků.\nVyprávění o tom, kolik úsilí práce stála, nenahrazuje odpověď na otázku, čeho dosáhla. [S3, S6]\nJak se připravit na hodnocení\nOblast hodnocení\nCo má být doloženo\nZadání a cíl\nCo bylo požadováno, co je splněno a kde jsou hranice výsledku\nPřístup studenta\nSamostatnost, iniciativa, komunikace a práce s konzultacemi; zná je\npředevším vedoucí\nLiteratura a originalita\nRelevantní zdroje, správné citování a rozlišení převzatého a vlastního přínosu\nPraktická a metodická část\nPřiměřenost metod, kvalita provedení, vyhodnocení a interpretace\nFormální kvalita\nJazyk, struktura, přehlednost, úplnost popisků a dodržení místních požadavků\nVýznam výsledků\nPřínos pro poznání nebo praxi, limity a možnosti pokračování\nDodané schéma rozděluje některá kritéria mezi vedoucího a oponenta. Je to orientační popis, nikoli\nuniverzální přidělení kompetencí. Metodiku či originalitu mohou posuzovat oba; procento textové\npodobnosti samo nerozhoduje o plagiátorství. Podmínky připuštění k obhajobě se řídí příslušnými\npravidly školy. [S6]\nPraktická osnova vystoupení\nNásledující osnova je redakční doporučení syntézy, nikoli přepis podrobného návodu z příloh. Úvod\nkrátce vymezí problém a cíl. Střed vysvětlí vlastní řešení a podstatné rozhodnutí v metodice. Největší\nprostor dostanou hlavní výsledky s jejich významem. Závěr pojmenuje přínos a zásadní omezení.\nProjev je třeba vyzkoušet v přiděleném čase a zkontrolovat čitelnost klíčových grafů. Snímek má\npodpořit výklad; přeplněný odstavec či celá tabulka z práce jej obvykle komplikuje. Pro poster je\nvhodné zvolit jedinou hlavní otázku, stručný postup, dominantní výsledek a zdrojové odkazy. Článek\npřizpůsobíme cílovému publiku a požadavkům konkrétního časopisu či konference.\nJak reagovat na připomínku\nKe každé důležité výhradě připravíme věcnou odpověď opřenou o práci. Rozlišíme skutečnou chybu,\nomezení zvoleného návrhu a případné nedorozumění v posudku. Chybu uznáme a vysvětlíme její\ndopad; u obhajitelného rozhodnutí uvedeme důvod a důkazy. [S6]\nJe rozumné umět stručně vysvětlit, proč byla zvolena daná metoda, co znamená hlavní koeficient či\nmetrika, jaká alternativní interpretace je možná a co by se změnilo při rozšíření dat. Silné tvrzení\nvyžaduje silnou oporu; přiměřeně formulované omezení zvyšuje věrohodnost odpovědi. [S3]\n"
+        },
+        {
+          "locator": "page:16",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n16\n15 Scientometrie a meze ukazatelů\nScientometrie zkoumá vědu pomocí kvantitativních údajů; bibliometrie se soustředí zejména na\npublikace a jejich vazby. Citační ukazatele zachycují určitou stránku ohlasu. Nelze je bez dalšího\nztotožnit s pravdivostí, kvalitou nebo společenským přínosem výsledku. [S7, S8]\nCitovanost a citační databáze\nPočet citací říká, kolik evidovaných prací na výstup odkazuje v určité databázi k určitému datu. Pojem\n„citační index“ může označovat i samotnou databázi. Citace mohou být kladné, neutrální i kritické.\nPokrytí databází se liší, proto musí být zdroj metriky a čas zjištění uveden. [S7]\nJournal Impact Factor\nJIF je ukazatel časopisu. Pro rok Y se základní výpočet vyjadřuje jako:\nC je počet citací v roce Y na obsah vydaný v předchozích dvou letech; N je počet započítávaných\npoložek vydaných v těchto dvou letech.\nČitatel a jmenovatel nemají totožné vymezení dokumentů: jmenovatel zahrnuje stanovené „citable\nitems“, zejména články a přehledové práce. Výpočet tedy není prostý průměr libovolných položek za\ntři publikační roky. [S7, V4]\nHodnota časopisu neříká, kolik citací získá konkrétní článek, a není přímou známkou kvality autora.\nSrovnání potřebuje oborový a časový kontext. Q1 označuje přibližně horní čtvrtinu pořadí časopisů\npodle zvoleného ukazatele v konkrétní kategorii; první decil horních 10 %. Je třeba uvést databázi,\nmetriku, kategorii a rok. AIS a SJR jsou jiné ukazatele časopisů, které rovněž nelze zaměňovat s\nhodnocením jednotlivého článku. [S7, S8, V4]\nHirschův index\nh-index je nejvyšší celé h, pro které má autor alespoň h publikací s nejméně h citacemi každá. V\nposloupnosti 80, 63, 56, 38, 22, 19, 9, 5, 2, 0 je h = 7: sedmá práce má alespoň sedm citací, osmá jich\nnemá osm. [S7, V5]\nVýpočet nepotřebuje impakt faktor časopisů a není ze své definice omezen jen na časopisy s IF. Závisí\nna zvoleném souboru publikací a citací. Zvýhodňuje delší kariéru a nepostihuje přímo podíl autora,\nkvalitu obsahu ani všechen mimořádný ohlas. [S7; upřesnění definice]\nDobové hodnoty IF a hrubé hranice „dobrého h-indexu“ ze starého podkladu proto nepřebíráme jako\ndnešní měřítka. Odpovědné hodnocení propojuje přiměřené indikátory s odborným posouzením\nobsahu, oboru a účelu hodnocení.\n"
+        },
+        {
+          "locator": "page:17",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n17\n16 Hodnocení vědy v České republice\nČeský podklad spojuje historické informace o vykazování výsledků s Metodikou 17+. Pro porozumění\nrozlišujme evidenci výsledků, hodnocení jejich kvality a rozhodování o financování. Jde o související,\nale odlišné činnosti. [S8]\nRIV a druhy výstupů\nRIV je Rejstřík informací o výsledcích v systému IS VaVaI. Eviduje údaje o výsledku a jeho\npředkladateli, například název, druh, rok, popis a instituci. Samotný záznam není dokladem vysoké\nkvality. Starší podklad ukazuje, že výsledkem může být publikace i nepublikační výstup. [S8]\nPro orientaci uvádí publikace typu J jako články, B jako knihy, C jako kapitoly a D jako stati ve sborníku.\nDalší příklady zahrnují patenty, technologie, prototypy, metodiky, software R, databáze či výzkumné\nzprávy. Jde o přehled pojmů z dodaného textu; pro skutečné vykazování je nutné použít aktuální\ndefinice druhů a poddruhů, nikoli tento historický seznam. [S8]\nHistorický rámec Metodiky 17+\nDodané materiály popisují pět modulů: M1 kvalita vybraných výsledků, M2 výkonnost výzkumu, M3\nspolečenská relevance, M4 životaschopnost a M5 strategie a koncepce. Podstatnou myšlenkou je\nposuzovat organizace v oborovém kontextu a využívat vedle metrik odborné hodnocení. [S8]\nOvěřená aktualizace k datu syntézy\nNa tento rámec navazuje Metodika hodnocení výzkumných organizací 2025+, schválená vládou\n18. června 2025 usnesením č. 458. Název „Metodika 17+“ tak nestačí k popisu novějšího národního\nrámce. [V6, V7]\nModul podle Metodiky\n2025+\nNázev\nM1\nKvalita vybraných výsledků\nM2\nKomentované statistiky\nM3\nSpolečenský význam výzkumné organizace\nM4\nŘízení výzkumné organizace\nM5\nStrategie a koncepce\nModuly tvoří společný rámec, jejich relativní význam závisí na oboru a poslání organizace. M1 využívá\nodborné posouzení vybraných výsledků a M2 oborově založené statistické podklady s komentářem.\n[V7]\nPro studenta je podstatné rozumět rozdílu mezi výsledkem práce, jeho odborným ohlasem a\nhodnocením organizace. Ani záznam v RIV, ani publikace v časopise určitého kvartilu samy nedokazují,\nže konkrétní výzkumný závěr je správný.\n"
+        },
+        {
+          "locator": "page:18",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n18\n17 Co vyplývá pro předmět SEM01\nTato část shrnuje organizační informace z dodaného shrnutí schůzky z 29. září 2026. Jde o\nzprostředkované shrnutí automatického přepisu, nikoli o závazné aktuální znění požadavků předmětu.\nNejistota původního podkladu je proto zachována. [S1]\nZpůsob ukončení a očekávaný výstup\nPodle shrnutí má ukončení proběhnout prezentací nebo obhajobou projektu či rozpracované diplomové\npráce ve vypsaném termínu ve zkouškovém období. Neuvádí se písemný test ani nutnost předložit\ndokončenou diplomovou práci. Pokud ještě není vybrané téma, zmiňuje se možnost náhradního\nprojektu na blízké výzkumné téma.\nHlavní důraz je na doložení postupu: jak student vymezil otázku, hledal a hodnotil zdroje, používal\nreference a navrhl vlastní řešení. U práce s daty má ukázat přiměřený plán experimentu a\nvyhodnocení. Starší výstupy v Teams mohou poskytnout inspiraci pro podobu prezentace, ale\nnenahrazují vlastní metodické zdůvodnění.\nPrakticky lze připravit krátký výzkumný záměr s otázkou a cílem, přehled relevantních zdrojů, záznam\nzpůsobu jejich hledání a návrh metodiky. Podle stavu práce doplníme první výsledky nebo vysvětlíme,\nco je ještě třeba ověřit. Tato podoba je doporučeným uspořádáním informací ze shrnutí, nikoli nově\nstanoveným povinným seznamem.\nTermíny a neuzavřené informace\nPřesné datum odevzdání ani přesné datum výběru diplomového tématu není v dodaném\nshrnutí uvedeno. Výběr tématu je zmíněn jen orientačně kolem listopadu. Tuto zmínku nelze převést\nna konkrétní den ani na potvrzený administrativní deadline.\nRozvržení dalších setkání a střídání výuky se samostudiem má být ještě upřesněno. Spolehlivě lze\npřevzít doporučení začít s tématem a komunikací s vedoucím včas; volná kapacita vedoucích může být\nomezená.\nCo dodané soubory navíc nepotvrzují\nMateriály o chybách, posudcích a scientometrii samy nestanovují nové termíny pro SEM01. Soubor\nlink.txt pouze odkazuje na kanál Teams. Bez obsahu tohoto kanálu z něj nelze vyvozovat další zadání,\ndatum ani potvrzení změn.\n"
+        },
+        {
+          "locator": "page:19",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n19\n18 Jak byly ošetřeny nepřesnosti zdrojů\nSyntéza zachovává témata podkladů, ale jejich problematické formulace nepřebírá jako pravidla.\nNásledující zásahy vysvětlují důležité rozdíly oproti doslovnému čtení.\nMísto v podkladech\nOšetření v syntéze\n[S4] odmítá otázky s odpovědí ano či\nne jako triviální\nForma odpovědi sama neurčuje vědeckou hodnotu. Rozhoduje\nvýznam, přesné vymezení a ověřitelnost otázky.\n[S4] omezuje hypotézy na vztah\nnejméně dvou proměnných\nJe to úzké didaktické pojetí. Statistická hypotéza se může týkat i\njediné veličiny či parametru, například μ = μ₀.\n[S4] staví typy výzkumu do obecného\nžebříčku hodnoty\nHodnota závisí na cíli a kvalitě návrhu. Popisný nebo kvalitativní\nvýzkum není automaticky méněcenný.\n[S5] tiskové strany 61 až 63 vykládají\ninterval jako pravděpodobnost\nparametru\nPoužit je frekventistický výklad pokrytí při opakování postupu,\npodpořený [S3] a [V1].\n[S5] opakovaně používá formulace o\n95% či 99% jistotě pravdivosti H₁\nJsou nahrazeny rozhodnutím o H₀ při daném α. p-hodnota ani α nejsou\npravděpodobností pravdivosti hypotézy. [V2]\n[S5] směšuje p-hodnotu s α a\nzjednodušuje hranici n = 30\nOba pojmy jsou rozlišeny a použití testu je podmíněno návrhem a\npředpoklady.\n[S5] tisková strana 79 vyvozuje\nvýznamnost z t = 1,66 při kritické\nhodnotě 1,73\nČíselně 1,66 nepřekračuje 1,73. Pro daný jednostranný test s 18\nstupni volnosti je p přibližně 0,058; na 5% hladině se H₀ nezamítá.\nVěcně to není důkaz zvýšení o více než 4 g.\n[S5] nazývá běžný párový test\ntestem ekvivalence\nNezamítnutí nulového rozdílu neprokazuje praktickou ekvivalenci.\n[S7] odvozuje h-index jen od\npublikací v časopisech s IF\nOmezení z definice h-indexu neplyne. Opraven je i výklad JIF; staré\nhodnoty a kariérní hranice nejsou převzaty. [V4, V5]\n[S2, S6] uvádějí školní či oborové\nzvyklosti jako obecné požadavky\nRozsah, osoba vyprávění, rozdělení rolí a podmínky obhajoby jsou\noznačeny za místně závislé.\n[S8] popisuje Metodiku 17+ a starší\nvykazování\nHistorický popis je oddělen od ověřené aktualizace Metodiky 2025+.\n[V6, V7]\nNázev dokumentu [S2] slibuje prezentace, poster a článek, ale jeho dodaný obsah tvoří především\nseznam chyb závěrečných prací. Praktické rady k vystoupení a posteru jsou proto výslovně označeny\njako doporučení syntézy. Výkladová doplnění zpřesňují souvislosti; nejsou vydávána za doslovný obsah\nvšech příloh.\n"
+        },
+        {
+          "locator": "page:20",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n20\nPoužité podklady a ověřovací zdroje\nDodané podklady\n[S1] shrnuti_SEM01_zaklady_vedecke_prace(1).txt. Shrnutí schůzky SEM01 z 29. září 2026.\nPoužito pro smysl předmětu, očekávaný postup, data, AI a organizační informace; zachována\nupozornění na nejistotu přepisu.\n[S2] Prezentace vědeckých výsledků(1).docx. Obsahový seznam chyb závěrečných prací,\nmetodiky, nástrojů, interpretace, formy a jazyka; v dokumentu uvedeno MUNI.\n[S3] Nejcastejsi_chyby_kvalifikacnich_praci_ZS_2011-1(1).pdf. Petr Houdek, Systematické\nchyby kvalifikačních prací, jejich obhajob, ZS 2011/2012. Osm stran; použito zejména pro\nargumentaci, rešerši, interpretaci a strukturu textu.\n[S4] Výzkumný problém(1).docx. Formulace problému a hypotéz, proměnné, metodologie a\nvýzkumné metody; v druhé části také příklady z kinantropologie. Obecné principy jsou sloučeny,\noborové odbočky zkráceny.\n[S5] part3(1).pdf. Part III Statistics in Research, kapitoly 8 až 11, tiskové strany 45 až 80; 36 stran\nsouboru. Statistický základ přehledu. Autor ani úplná bibliografická identifikace nejsou v dodaném\nvýřezu spolehlivě uvedeni.\n[S6] Jaká kritéria v posudcích hodnotí oponent a vedoucí(1).pdf. Tři strany; oblasti posuzování,\nrole vedoucího a oponenta a reakce na připomínky.\n[S7] Scientometrie_2013(1).pdf. Devět stran; citovanost, impakt faktor a h-index. Dobové příklady\nnejsou považovány za aktuální hodnoty.\n[S8] Hodnocení vědy v ČR(1).pdf. Tři strany; historický rámec, RIV, druhy výsledků a Metodika\n17+.\n[S9] chytré poznámky(1).png. Snímek práce se zdrojovými a tematicky propojenými poznámkami.\nPoužit jako příklad pracovního postupu, nikoli jako nezávislé ověření uvedených technických tvrzení.\nDoplňková příloha link.txt. Pouze odkaz na kanál Teams. Neposkytuje vlastní odborný obsah;\nodkazovaný kanál nebyl načten.\n"
+        },
+        {
+          "locator": "page:21",
+          "text": "ZÁKLADY VĚDECKÉ PRÁCE  /  STUDIJNÍ SYNTÉZA\nSyntéza dodaných podkladů  •  15. 10. 2026\n21\nOvěřovací zdroje\nNásledující primární zdroje byly použity cíleně pro opravu statistických výkladů, definic metrik a\naktualizaci českého hodnoticího rámce. Nejde o rozšířenou rešerši všech témat. Ověřeno 15. října\n2026.\n[V1] NIST/SEMATECH. Confidence Limits for the Mean. Interval spolehlivosti, jeho interpretace a\njednovýběrový t-test.\nhttps://itl.nist.gov/div898/handbook/eda/section3/eda352.htm\n[V2] American Statistical Association. Statement on Statistical Significance and P-Values.\n7. března 2016. Oficiální shrnutí principů interpretace p-hodnot a významnosti.\nhttps://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf\n[V3] NIST/SEMATECH. Two-Sample t-Test for Equal Means. Varianty testu a\nWelchův-Satterthwaiteův postup.\nhttps://www.itl.nist.gov/div898/handbook/eda/section3/eda353.htm\n[V4] Clarivate. Journal Citation Reports Learn the Basics. Definice čitatele, jmenovatele a\nkvartilů JIF.\nhttps://clarivate.libguides.com/jcr/basics\n[V5] Hirsch, J. E. An index to quantify an individual's scientific research output. 2005.\nAutorská verze článku, arXiv:physics/0508025; DOI publikace 10.1073/pnas.0507655102.\nhttps://arxiv.org/abs/physics/0508025\n[V6] Ministerstvo zemědělství. Sběr vybraných výsledků v aplikaci SKV. Oficiální oznámení z\n18. srpna 2026 potvrzující schválení Metodiky 2025+ usnesením vlády č. 458 ze dne 18. června 2025;\nzveřejněno v přehledu Poradenství a výzkum.\nhttps://mze.gov.cz/public/portal/mze/poradenstvi-a-vyzkum\n[V7] Metodika hodnocení výzkumných organizací 2025+. Oficiální metodický dokument,\nzejména kapitola 2; dostupná kopie v repozitáři webu FF UK.\nhttps://knihovna.ff.cuni.cz/wp-content/uploads/sites/91/2025/08/Metodika-hodnoceni-vyzkumnych-organizaci-2025.pdf\n"
+        }
+      ],
+      "created_at": "2026-10-15T18:28:35.447557+00:00"
+    }
+  },
+  "checkpoints": []
+}

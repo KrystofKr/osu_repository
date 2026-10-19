@@ -1,0 +1,4464 @@
+{
+  "schema_version": 1,
+  "subject_id": "bi-pst",
+  "name": "BI-PST",
+  "goals": [
+    "Porozumět obsahu balíčku BI-PST, vysvětlovat odpovědi a samostatně řešit jeho otázky a úlohy."
+  ],
+  "created_at": "2026-10-17T14:26:40.559210+00:00",
+  "topics": {
+    "cviceni-06": {
+      "subject_id": "bi-pst",
+      "topic_id": "cviceni-06",
+      "title": "Cvičení 06",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Cvičení 06“ předmětu BI-PST."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-01": {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-01",
+      "title": "Přednáška 01",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 01“ předmětu BI-PST."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-02": {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-02",
+      "title": "Přednáška 02",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 02“ předmětu BI-PST."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-03": {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-03",
+      "title": "Přednáška 03",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 03“ předmětu BI-PST."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-04": {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-04",
+      "title": "Přednáška 04",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 04“ předmětu BI-PST."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-05": {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-05",
+      "title": "Přednáška 05",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 05“ předmětu BI-PST."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-06": {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-06",
+      "title": "Přednáška 06",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 06“ předmětu BI-PST."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-07": {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-07",
+      "title": "Přednáška 07",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 07“ předmětu BI-PST."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-08": {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-08",
+      "title": "Přednáška 08",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 08“ předmětu BI-PST."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-09": {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-09",
+      "title": "Přednáška 09",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 09“ předmětu BI-PST."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-10": {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-10",
+      "title": "Přednáška 10",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 10“ předmětu BI-PST."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-11": {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-11",
+      "title": "Přednáška 11",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 11“ předmětu BI-PST."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-12": {
+      "subject_id": "bi-pst",
+      "topic_id": "prednaska-12",
+      "title": "Přednáška 12",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 12“ předmětu BI-PST."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    }
+  },
+  "sources": {
+    "anki-cviceni-06-v1": {
+      "subject_id": "bi-pst",
+      "source_id": "anki-cviceni-06-v1",
+      "title": "FIT ČVUT Anki – BI-PST – Cvičení 06",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-pst/anki-cviceni-06-v1/anki-cviceni-06-v1.zip",
+      "file": "sources/anki-cviceni-06-v1/anki-cviceni-06-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "11b8a77a2dbf749851fc77b8851cc10ad5f1f88888e90cae80c7c683199de350",
+      "topic_ids": [
+        "cviceni-06"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg, SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PST – Cvičení 06"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg; APKG SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: f340f7d8957f2d6990d7a07f7c5b81fd8545ba30cdcc33d3db6bbdc37238df22."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-PST"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 2 poznámek, 2 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1698856642248"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1698856642248"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: hJeN0C8Z~?; štítky: bi-pst::c06."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Vyslovte větu o transformaci diskrétní náhodné veličiny."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Mějme diskrétní náhodnou veličinu \\(X\\). Pro pravděpodobnostní funkci \\(Y = t(X)\\) platí"
+        },
+        {
+          "locator": "transcript-line:25",
+          "text": "\\[\\operatorname P(Y = y_k) = \\displaystyle \\sum_{x_k \\in t^{-1}(y_k)} \\operatorname P(X = x_k).\\]Tedy pravděpodobnost \\(y_k\\) získáme jako součet pravděpodobností \\(x_k\\), které se zobrazí na \\(y_k\\)."
+        },
+        {
+          "locator": "transcript-line:27",
+          "text": "## Poznámka Anki 1698857205389"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "Karty Anki: 1698857205389"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "GUID: O8IzO8tk79; štítky: bi-pst::c06."
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "Vyslovte větu o transformaci spojité náhodné veličiny."
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:38",
+          "text": "Mějme spojitou náhodnou veličinu \\(X\\) se spojitou distribuční funkcí \\(F\\) a nechť pro každé \\(x \\in \\mathbb R\\) s výjimkou nanejvýše konečně mnoha bodů existuje její derivace \\(F'(x)\\). Dále mějme spojitou ryze monotonní funkci \\(t\\), která má derivaci \\(t'(x)\\) pro všechna \\(x \\in \\mathbb R\\). Pak pro pravděpodobnostní funkci \\(Y = t(X)\\) platí"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "\\[f_Y(y) = f_X\\big(t^{-1}(y)\\big)\\cdot \\big|(t^{-1})'(y)\\big|\\]a navíc"
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "\\[F_Y(y) = \\begin{cases}"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "F_X \\big(t^{-1}(y) \\big), && \\text{pro } t \\text{ rostoucí}, \\\\"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "1 - F_X \\big(t^{-1}(y)\\big), && \\text{pro } t \\text{ klesající}."
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "\\end{cases}\\]"
+        }
+      ],
+      "created_at": "2026-10-17T14:26:44.466134+00:00",
+      "transcript_file": "sources/anki-cviceni-06-v1/transcript/anki-cviceni-06-v1.md",
+      "transcript_sha256": "824b70d20813fdf21dfb999e47d18fcee36bfbd667dcc5236cf15df7f13e8f4a"
+    },
+    "anki-prednaska-01-v1": {
+      "subject_id": "bi-pst",
+      "source_id": "anki-prednaska-01-v1",
+      "title": "FIT ČVUT Anki – BI-PST – Přednáška 01",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-pst/anki-prednaska-01-v1/anki-prednaska-01-v1.zip",
+      "file": "sources/anki-prednaska-01-v1/anki-prednaska-01-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "e6757032a4805b87cf535c08a0660b9d168e2431984bdc40eadd6d5a087c210d",
+      "topic_ids": [
+        "prednaska-01"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg, SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PST – Přednáška 01"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg; APKG SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: f340f7d8957f2d6990d7a07f7c5b81fd8545ba30cdcc33d3db6bbdc37238df22."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-PST"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 7 poznámek, 7 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1695806941884"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1695806941884"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: F3nN[)tsI!; štítky: bi-pst::p01 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Metadata původního zdroje pro kartu 1695806941884: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Vyslovte klasickou definici pravděpodobnosti."
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "Mějme konečný počet \\(n\\) vzájemně různých výsledků nějakého pokusu a předpokládejme, že jsou všechny stejně pravděpodobné. Jestliže \\(m\\) těchto výsledků odpovídá realizaci jevu \\(A\\), potom definujeme pravděpodobnost jevu \\(A\\) jako\\[\\operatorname P(A) = \\frac m n = \\frac {\\text{počet příznivých výsledků}} {\\text{počet všech možných výsledků}}.\\]"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "## Poznámka Anki 1695808566114"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "Karty Anki: 1695808566115"
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "GUID: P0GIM;OEm-; štítky: bi-pst::p01 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Metadata původního zdroje pro kartu 1695808566115: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Vyslovte geometrickou definici pravděpodobnosti."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Pokud výsledky nastávají v nějakém geometrickém objektu či množině \\(\\Omega\\) konečné „velikosti“ a každý výsledek je stejně pravděpodobný, pak pravděpodobnost jevu \\(A\\) definujeme jako „relativní velikost“ množiny \\(A\\):\\[\\operatorname P(A) = \\frac {\\text{\"velikost\" množiny příznivých výsledků}} {\\text{\"velikost\" množiny všech výsledků}} = \\frac {\\text{\"velikost\" } A} {\\text{\"velikost\" } \\Omega}.\\]a mluvíme o rovnoměrném rozložení výsledků experimentu."
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "## Poznámka Anki 1695809888478"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "Karty Anki: 1695809888478"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "GUID: oZ&4F<oEw); štítky: bi-pst::p01 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "Metadata původního zdroje pro kartu 1695809888478: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "Definuje pravděpodobnostní prostor (experiment)."
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "Pravděpodobnostní prostor (experiment) je trojice \\(\\mathcal E = (\\Omega, \\mathcal F, \\operatorname P)\\), kde"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "- \\(\\Omega\\) je prostor elementárních jevů (výběrový prostor),"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "- \\(\\mathcal F\\) je kolekce podmnožin \\(\\Omega\\) nazývaných náhodné jevy, kterým lze přiřadit pravděpodobnost \\(\\text P\\);"
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "- \\(\\operatorname P\\) je pravděpodobnostní míra."
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "## Poznámka Anki 1695810450803"
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "Karty Anki: 1695810450803"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "GUID: O*{Ur>^+{9; štítky: bi-pst::p01 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "Metadata původního zdroje pro kartu 1695810450803: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "Definujte \\(\\sigma\\)-algebru."
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "Kolekci \\(\\mathcal F\\) podmnožin prostoru elementárních jevů \\(\\Omega\\) nazýváme \\(\\sigma\\)-algebrou, jestliže jsou splněny následující podmínky:"
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "- **obsahuje nemožný jev **- \\(\\emptyset \\in \\mathcal F\\);"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "- **obsahuje opačný jev** - když \\(A \\in \\mathcal F\\), tak \\(A^c \\in \\mathcal F\\);"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "- **obsahuje spočetné sjednocení **- když \\(A_1, A_2, \\dots \\in \\mathcal F\\), tak \\(\\displaystyle \\bigcup_{i = 1}^\\infty A_i \\in \\mathcal F\\)."
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "## Poznámka Anki 1695813009800"
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "Karty Anki: 1695813009800"
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "GUID: L~MCKHxVv_; štítky: bi-pst::p01 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "Definujte pravděpodobnostní míru."
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "Pravděpodobnostní míra na \\((\\Omega, \\mathcal F)\\) je funkce \\(\\operatorname P : \\mathcal F \\to \\mathbb R\\) splňující:"
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "- **nezápornost** - pro každé \\(A \\in \\mathcal F\\) platí \\(\\operatorname P(A) \\geq 0\\),"
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": "- **normalizace **- \\(\\operatorname P(\\Omega) = 1\\),"
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "- \\(\\sigma\\)**-aditivita** - když jsou \\(A_1, A_2, \\dots \\in \\mathcal F\\) vzájemně disjunktní jevy, tak"
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "\\[\\operatorname P \\Bigg( \\displaystyle \\bigcup_{i = 1}^\\infty A_i \\Bigg) = \\displaystyle \\sum_{i = 1}^\\infty \\operatorname P(A_i).\\]"
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "## Poznámka Anki 1695813164764"
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "Karty Anki: 1695813164764"
+        },
+        {
+          "locator": "transcript-line:107",
+          "text": "GUID: DEctbB=@#z; štítky: bi-pst::p01 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:109",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "Vyslovte větu o vlastnostech pravděpodobnosti."
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "Nechť \\(A\\) a \\(B\\) jsou náhodné jevy na pravděpodobnostním prostoru s mírou \\(\\operatorname P\\). Pak platí:"
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "- \\(\\operatorname P(\\emptyset) = 0\\),"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "- jestliže \\(A\\) a \\(B\\) jsou vzájemně disjunktní, pak \\(\\operatorname P(A \\cup B) = \\operatorname P(A) + \\operatorname P(B)\\),"
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "- \\(\\operatorname P(A^c) = 1 - \\operatorname P(A)\\),"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "- jestliže \\(A\\) a \\(B\\) nejsou vzájmně disjunktní, pak \\(\\operatorname P(A \\cup B) = \\operatorname P(A) + \\operatorname P(B) - \\operatorname P(A \\cap B)\\),"
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "- pokud \\(A \\subset B\\), tak \\(\\operatorname P(A) \\leq \\operatorname P(B)\\)."
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "## Poznámka Anki 1695813364581"
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "Karty Anki: 1695813364581"
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "GUID: dw9JB_:MS-; štítky: bi-pst::p01 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "Vyslovte větu o spojitosti pravděpodobnosti."
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:137",
+          "text": "Nechť \\(A_1, A_2, \\dots\\) je posloupnost náhodných jevů rostoucí ve smyslu inkluze, tj. \\(A_1 \\subset A_2 \\subset A_3 \\subset \\dots\\), označme"
+        },
+        {
+          "locator": "transcript-line:138",
+          "text": "\\[A = \\displaystyle \\bigcup_{i = 1}^\\infty A_i,\\]pak platí \\(\\operatorname P(A) = \\displaystyle \\lim_{i \\to \\infty} \\text P(A_i)\\)."
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "Obdobně nechť \\(B_1, B_2 \\dots\\) je posloupnost náhodných jevů klesající ve smyslu inkluze, tj. \\(B_1 \\supset B_2 \\supset B_3 \\supset \\dots\\), označme"
+        },
+        {
+          "locator": "transcript-line:140",
+          "text": "\\[B = \\displaystyle \\bigcap_{i = 1}^\\infty B_i,\\]pak platí \\(\\operatorname P(B) = \\displaystyle \\lim_{i \\to \\infty} \\operatorname P(B_i)\\)."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:44.484664+00:00",
+      "transcript_file": "sources/anki-prednaska-01-v1/transcript/anki-prednaska-01-v1.md",
+      "transcript_sha256": "8073b04789ade09b3397082ec4cbea077532aa50b2ccb66d4df56fc1f0a951e9"
+    },
+    "anki-prednaska-02-v1": {
+      "subject_id": "bi-pst",
+      "source_id": "anki-prednaska-02-v1",
+      "title": "FIT ČVUT Anki – BI-PST – Přednáška 02",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-pst/anki-prednaska-02-v1/anki-prednaska-02-v1.zip",
+      "file": "sources/anki-prednaska-02-v1/anki-prednaska-02-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "fdb0328fd247e915c319afec5e0b884ddc42e0caeb3b939295a73bad53b9f4f8",
+      "topic_ids": [
+        "prednaska-02"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg, SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PST – Přednáška 02"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg; APKG SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: f340f7d8957f2d6990d7a07f7c5b81fd8545ba30cdcc33d3db6bbdc37238df22."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-PST"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 7 poznámek, 7 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1696412367186"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1696412367186"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: sKBHQa+L0_; štítky: bi-pst::p02 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Popište úplný rozklad pravděpodobnosti."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Mějme prostor elementárních jevů \\(\\Omega\\) takový, že \\(\\Omega = B_1 \\cup B_2 \\cup B_3\\), kde \\(B_1\\), \\(B_2\\) a \\(B_3\\) jsou vzájemně disjunktní, a pozorujme jev \\(A\\)."
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": " [Obrázek: paste-ed3ca23e1b8baf4283e302da627cdadb7f415a9c.jpg; soubor je v media/ v doprovodném ZIP] "
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Potom s použitím podmíněné pravděpodobnosti"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "\\operatorname P(A|B_i) = \\displaystyle \\frac {\\operatorname P(A \\cap B_i)} {\\operatorname P(B_i)} \\\\"
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "\\operatorname P(A \\cap B_i) = \\operatorname P(A|B_i) \\cdot \\operatorname P(B_i)"
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "\\end{matrix}\\]dostaneme, že"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "\\[\\operatorname P(A) = \\operatorname P(A|B_1) \\operatorname P(B_1) + \\operatorname P(A|B_2) \\operatorname P(B_2) + \\operatorname P(A|B_3) \\operatorname P(B_3).\\]"
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "## Poznámka Anki 1696412524277"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Karty Anki: 1696412524277"
+        },
+        {
+          "locator": "transcript-line:38",
+          "text": "GUID: f9{CRa!s6*; štítky: bi-pst::p02 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "Popište Bayesovu větu."
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "Mějme prostor elementárních jevů \\(\\Omega\\) takový, že \\(\\Omega = B_1 \\cup B_2 \\cup B_3\\), kde \\(B_1\\), \\(B_2\\) a \\(B_3\\) jsou vzájemně disjunktní, a pozorujme jev \\(A\\)."
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": " [Obrázek: paste-ed3ca23e1b8baf4283e302da627cdadb7f415a9c.jpg; soubor je v media/ v doprovodném ZIP] "
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "Potom s použitím úplného rozkladu pravděpodobnosti"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "\\[\\operatorname P(A) = \\operatorname P(A|B_1) \\operatorname P(B_1) + \\operatorname P(A|B_2) \\operatorname P(B_2) + \\operatorname P(A|B_3) \\operatorname P(B_3)\\]dostaneme, že"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "\\[\\text P(B_j|A) = \\frac {\\text P(A|B_j) \\text P(B_j)} {\\text P(A|B_1) \\text P(B_1) + \\text P(A|B_2) \\text P(B_2) + \\text P(A|B_3) \\text P(B_3)}.\\]"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "## Poznámka Anki 1696413261956"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "Karty Anki: 1696413261957"
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "GUID: vAt}?:{&09; štítky: bi-pst::p02 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "Metadata původního zdroje pro kartu 1696413261957: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "Vyslovte lemma o multiplikativním zákonu (řetězovém pravidle)."
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "Pro jevy \\(A_1, \\dots , A_n\\) splňující \\(\\operatorname P(A_1 \\cap \\dots \\cap A_n ) > 0\\) platí"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "\\[\\operatorname P(A_1 \\cap \\dots \\cap A_n) = \\operatorname P(A_1) \\cdot \\operatorname P(A_2|A_1) \\cdot \\operatorname P(A_3|A_1 \\cap A_2) \\cdots \\operatorname P(A_n|A_1 \\cap \\dots \\cap A_{n - 1}). \\]"
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "## Poznámka Anki 1696414152452"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "Karty Anki: 1696414152452"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "GUID: AuE;>ebx|?; štítky: bi-pst::p02 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "Metadata původního zdroje pro kartu 1696414152452: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "Definujte nezávislost náhodných jevů."
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "Náhodné jevy \\(A\\) a \\(B\\) se nazývají nezávislé, pokud\\[\\operatorname P(A \\cap B) = \\operatorname P(A) \\cdot \\operatorname P(B).\\]Obecně, soubor jevů \\(\\{ A_i : i \\in I \\}\\) se nazývá nezávislý, jestliže\\[\\operatorname P \\Big( \\displaystyle \\bigcap_{i \\in J} A_i \\Big) = \\displaystyle \\prod_{i \\in J} \\operatorname P(A_i)\\]pro všechny neprázdné konečné podmnožiny \\(J\\) indexové množiny \\(I\\)."
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "## Poznámka Anki 1696414922391"
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "Karty Anki: 1696414922391"
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "GUID: M=Nmsru#t;; štítky: bi-pst::p02 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "Metadata původního zdroje pro kartu 1696414922391: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "Definujte podmíněnou nezávislost."
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": "Nechť \\((\\Omega, \\mathcal F, \\operatorname P)\\) je pravděpodobnostní prostor a \\(C\\) je náhodný jev s \\(\\operatorname P(C) > 0\\). Náhodné jevy \\(A\\) a \\(B\\) se nazývají podmíněně nezávislé za podmínky \\(C\\), pokud\\[\\operatorname P(A \\cap B | C) = \\operatorname P(A|C) \\cdot \\operatorname P(B|C).\\]"
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "## Poznámka Anki 1696417650274"
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "Karty Anki: 1696417650274"
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "GUID: hfEi-!BlWw; štítky: bi-pst::p02 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:105",
+          "text": "Metadata původního zdroje pro kartu 1696417650274: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:107",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:109",
+          "text": "Definujte podmíněnou pravděpodobnost."
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "Mějme \\(A\\) a \\(B\\) náhodné jevy, kde \\(\\operatorname P(B) > 0\\). Podmíněnou pravděpodobnost jevu \\(A\\) za podmínky, že nastal jev \\(B\\) definujeme jako"
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "\\[\\operatorname P(A|B) = \\frac {\\operatorname P(A \\cap B)} {\\operatorname P(B)}.\\]Takto definovaná podmíněná pravděpodobnost \\(\\operatorname P( \\cdot | B)\\) je pravděpodobnostní mírou."
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "## Poznámka Anki 1740063548121"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "Karty Anki: 1740063548121"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "GUID: c8m%}z57O); štítky: bi-pst::p02."
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "Metadata původního zdroje pro kartu 1740063548121: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:125",
+          "text": "Vyslovte větu o doplňcích nezávislých jevů."
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "Jsou-li jevy \\(A\\) a \\(B\\) nezávislé, pak jsou nezávislé i jevy \\(A\\) a \\(B^c\\)."
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "### Doplňující pole (Extra)"
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "Obdobně věta platí i pro \\(A^c\\) a \\(B\\) či \\(A^c\\) a \\(B^c\\)."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:44.504269+00:00",
+      "transcript_file": "sources/anki-prednaska-02-v1/transcript/anki-prednaska-02-v1.md",
+      "transcript_sha256": "e2563bc0889b5312124b270c492eca1e5c938b63f629a07f7d437f56a0706215"
+    },
+    "anki-prednaska-03-v1": {
+      "subject_id": "bi-pst",
+      "source_id": "anki-prednaska-03-v1",
+      "title": "FIT ČVUT Anki – BI-PST – Přednáška 03",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-pst/anki-prednaska-03-v1/anki-prednaska-03-v1.zip",
+      "file": "sources/anki-prednaska-03-v1/anki-prednaska-03-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "203a20c6b8b358fcde3cfdb158760d74bc831a50c08fec8902e6b8206a8f94c3",
+      "topic_ids": [
+        "prednaska-03"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg, SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PST – Přednáška 03"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg; APKG SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: f340f7d8957f2d6990d7a07f7c5b81fd8545ba30cdcc33d3db6bbdc37238df22."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-PST"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 8 poznámek, 8 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1697015398933"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1697015398933"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: uINi7=URJ~; štítky: bi-pst::p03 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Metadata původního zdroje pro kartu 1697015398933: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Definujte náhodnou veličinu."
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "Náhodná veličina \\(X\\) na pravděpodobnostním prostoru \\((\\Omega, \\mathcal F, \\operatorname P)\\) je zobrazení \\(X : \\Omega \\to \\mathbb R\\), které každému výsledku experimentu \\(\\omega \\in \\Omega\\) přiřadí hodnotu \\(X(\\omega) \\in \\mathbb R\\) a pro které platí podmínka měritelnosti:\\[\\{ X \\leq x \\} = \\{ \\omega \\in \\Omega \\mid X(\\omega) \\in (-\\infty, x \\rangle \\}\\in \\mathcal F, \\quad \\forall x \\in \\mathbb R.\\]"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "## Poznámka Anki 1697015642841"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "Karty Anki: 1697015642842"
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "GUID: zJ(H_4WKkM; štítky: bi-pst::p03 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Metadata původního zdroje pro kartu 1697015642842: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Definujte distribuční funkci."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Distribuční funkce náhodné veličiny \\(X\\) je funkce \\(F_X: \\mathbb R \\to \\langle 0, 1 \\rangle\\) definovaná vztahem\\[F_X(x) = \\operatorname P(X \\leq x), \\quad \\forall x \\in \\mathbb R.\\]Distribuční funkce jednoznačně určuje pravděpodobnostní rozdělení náhodné veličiny."
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "## Poznámka Anki 1697017283252"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "Karty Anki: 1697017283252"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "GUID: k?!X1VS?,#; štítky: bi-pst::p03."
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "Vyslovte lemma o použití distribuční funkce."
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "Pomocí distribuční funkce \\(F\\) náhodné veličiny \\(X\\) můžeme vyjádřit:"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "- \\(\\operatorname P(X > x) = 1 - F(x)\\),"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "- \\(\\operatorname P(X \\in (x, y \\rangle) = \\operatorname P(x < X \\leq y) = F(y) - F(x)\\),"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "- \\(\\operatorname P(X < x) = \\displaystyle \\lim_{y \\to x-} F(y)\\),"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "- \\(\\operatorname P(X = x) = F(x) - \\displaystyle \\lim_{y \\to x-} F(y)\\)."
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "## Poznámka Anki 1697017653149"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "Karty Anki: 1697017653149"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "GUID: Lcy{vr)|,*; štítky: bi-pst::p03."
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "Metadata původního zdroje pro kartu 1697017653149: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "Definujte diskrétní náhodnou veličinu."
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "Náhodná veličina \\(X\\) se nazývá diskrétní, jesliže nabývá pouze hodnot z nejvýše spočetné množiny \\(\\mathcal X = \\{ x_1, x_2, \\dots \\}\\) takové, že platí\\[\\displaystyle \\sum_{x \\in \\mathcal X} \\operatorname P(X = x) = 1.\\]Pravděpodobnosti možných hodnot náhodné veličiny \\(X\\) potom jsou\\[\\operatorname P(X = x_k), \\quad k = 1, 2, \\dots.\\]"
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "## Poznámka Anki 1697018082071"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "Karty Anki: 1697018082071"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "GUID: w2oVqv`Tow; štítky: bi-pst::p03 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "Definujte spojitou náhodnou veličinu."
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "Náhodná veličina \\(X\\) se nazývá (absolutně) spojitá, jestliže existuje nezáporná funkce \\(f_X\\) taková, že pro každé \\(x \\in \\mathbb R\\) můžeme distribuční funkci \\(F_X\\) vyjádřit jako"
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "\\[F_X(x) = \\int_{-\\infty}^x f_X(t) \\, \\text dt.\\]Funkci \\(f_X\\) v takovém případě nazýváme hustotou pravděpodobnosti náhodné veličiny \\(X\\)."
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "## Poznámka Anki 1697018799880"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "Karty Anki: 1697018799880"
+        },
+        {
+          "locator": "transcript-line:96",
+          "text": "GUID: iQ^0hG%lK&; štítky: bi-pst::p03 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "Vyslovte větu o vlastnostech spojitých náhodných veličin."
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "Pro hustotu \\(f_X\\) spojité náhodné veličiny \\(X\\) platí:"
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "- \\(\\displaystyle \\int_{-\\infty}^{+\\infty} f_X(x) \\, \\text dx = 1\\);"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "- \\(\\operatorname P(X = x) = 0\\) pro všechna \\(x \\in \\mathbb R\\),"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "- \\(f_X(x) = \\frac {\\text d F_X}{\\text dx}(x)\\) v bodech, kde \\(F_X\\) má derivaci,"
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "- \\(\\operatorname P(a < X \\leq b) = \\displaystyle \\int_a^b f_X(x) \\, \\text dx = F_X(b) - F_X(a)\\),"
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "- \\(\\operatorname P(X \\in B) = \\displaystyle  \\int_B f_X(x) \\, \\text dx\\) pro všechny \\(B\\) v Borelovské \\(\\sigma\\)-algebře na \\(\\mathbb R\\)."
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "## Poznámka Anki 1697020158420"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "Karty Anki: 1697020158420"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "GUID: s{g5g6;+gr; štítky: bi-pst::p03."
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "Metadata původního zdroje pro kartu 1697020158420: původní příznak autora 7."
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:125",
+          "text": "Definujte kvantil a kvantilovou funkci."
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "Nechť \\(X\\) je náhodná veličina s distribuční funkcí \\(F_X\\). Nechť \\(\\alpha \\in (0, 1)\\). Hodnota \\(q_\\alpha\\) se nazývá \\(\\alpha\\)-kvantil náhodné veličiny \\(X\\) právě tehdy, když"
+        },
+        {
+          "locator": "transcript-line:130",
+          "text": "\\[q_\\alpha = \\inf \\{x \\mid F_X(x) \\geq \\alpha \\}.\\]Kvantil uvažovaný jako funkce \\(\\alpha\\) se nazývá kvantilová funkce a značí se \\(F_X^{-1}(\\alpha)\\)."
+        },
+        {
+          "locator": "transcript-line:132",
+          "text": "## Poznámka Anki 1697638916042"
+        },
+        {
+          "locator": "transcript-line:134",
+          "text": "Karty Anki: 1697638916043"
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "GUID: w23q_Mkq:b; štítky: bi-pst::p03 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:137",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "Vyslovte větu o vlastnostech distribuční funkce."
+        },
+        {
+          "locator": "transcript-line:141",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:143",
+          "text": "Distribuční funkce \\(F\\) náhodné veličiny \\(X\\) má následující vlastnosti:"
+        },
+        {
+          "locator": "transcript-line:145",
+          "text": "- **je neklesající** - když \\(x < y\\), pak \\(F(x) \\leq F(y)\\);"
+        },
+        {
+          "locator": "transcript-line:146",
+          "text": "- **„začíná v **\\(0\\)** a končí v **\\(1\\)**“** - \\(\\displaystyle \\lim_{x \\to -\\infty} F(x) = 0\\) a \\(\\displaystyle \\lim_{x \\to +\\infty} F(y) = 1\\),"
+        },
+        {
+          "locator": "transcript-line:147",
+          "text": "- **je spojitá zprava** - \\(\\displaystyle \\lim_{y \\to x+} = F(x)\\)."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:44.525985+00:00",
+      "transcript_file": "sources/anki-prednaska-03-v1/transcript/anki-prednaska-03-v1.md",
+      "transcript_sha256": "a72922b322f5966e291605b824fc8465efdb67b09990dd976584c3416bed4e39"
+    },
+    "anki-prednaska-04-v1": {
+      "subject_id": "bi-pst",
+      "source_id": "anki-prednaska-04-v1",
+      "title": "FIT ČVUT Anki – BI-PST – Přednáška 04",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-pst/anki-prednaska-04-v1/anki-prednaska-04-v1.zip",
+      "file": "sources/anki-prednaska-04-v1/anki-prednaska-04-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "1f4007ccf3eee3e51977964081b72da42a89f48caffd7d20a72c416051db85d3",
+      "topic_ids": [
+        "prednaska-04"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg, SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PST – Přednáška 04"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg; APKG SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: f340f7d8957f2d6990d7a07f7c5b81fd8545ba30cdcc33d3db6bbdc37238df22."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-PST"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 7 poznámek, 7 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1697620198189"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1697620198189"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: n;Du`z_?S|; štítky: bi-pst::p04 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Metadata původního zdroje pro kartu 1697620198189: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Definujte střední hodnotu spojité náhodné veličiny."
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "Střední hodnota spojité náhodné veličiny \\(X\\) s hustotou \\(f\\) je určena vztahem\\[\\operatorname E \\, X = \\displaystyle \\int_{-\\infty}^{+\\infty} x \\cdot f(x) \\, \\text dx.\\]Nutnou podmínkou je, že tento integrál absolutně konverguje. Jinak říkáme, že střední hodnota náhodné veličiny \\(X\\) neexistuje."
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "## Poznámka Anki 1697620507996"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "Karty Anki: 1697620507997"
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "GUID: EW`V^H)LK8; štítky: bi-pst::p04."
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Metadata původního zdroje pro kartu 1697620507997: zelený příznak autora: duplicita; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Definujte střední hodnotu diskrétní náhodné veličiny."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Střední hodnota diskrétní náhodné veličiny \\(X\\), nabývající hodnot \\(x_1, x_2, \\dots\\), je průměr všech hodnot veličiny \\(X\\) vážený pravděpodobnostmi příslušných elementárních jevů, tedy\\[\\operatorname E \\, X = \\displaystyle \\sum_{x \\in \\mathcal X} x \\cdot \\text P(X = x_k).\\]Nutnou podmínkou je, že uvedená suma konverguje. Jinak říkáme, že střední hodnota náhodné veličiny \\(X\\) neexistuje."
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "## Poznámka Anki 1697621034020"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "Karty Anki: 1697621034020"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "GUID: TwvP~MxhT; štítky: bi-pst::p04 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "Vyslovte větu o vlastnostech střední hodnoty."
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "Střední hodnota náhodné veličiny \\(X\\) splňuje následující vlastnosti:"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "- Je-li \\(X \\geq 0\\), pak \\(\\operatorname E(X) \\geq 0\\)."
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "- Je-li \\(a, b \\in \\mathbb R\\), pak \\(\\operatorname E(a X + b) = a \\operatorname E(X) + b\\)."
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "- Je-li \\(X = c \\in \\mathbb R\\), pak \\(\\operatorname E(X) = c\\)."
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "## Poznámka Anki 1697621501160"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "Karty Anki: 1697621501160"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "GUID: yKqfPItx@6; štítky: bi-pst::p04 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "Metadata původního zdroje pro kartu 1697621501160: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "Definujte rozptyl (varianci) náhodné veličiny."
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "Rozptyl (variance) náhodné veličiny \\(X\\) je definován vztahem\\[\\operatorname{var} X = \\operatorname  E \\big((X - \\operatorname E X)^2 \\big) = \\operatorname E X^2 - (\\operatorname E X)^2. \\]"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "## Poznámka Anki 1697621568161"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "Karty Anki: 1697621568161"
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "GUID: H3`?T]gF$u; štítky: bi-pst::p04 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "Metadata původního zdroje pro kartu 1697621568161: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "Definujte směrodatnou odchylku náhodné veličiny."
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "Směrodatná odchylka náhodné veličiny \\(X\\) je definována jako\\[\\operatorname{sd} X = \\sqrt{\\operatorname{var} X}.\\]"
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "## Poznámka Anki 1697623697021"
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "Karty Anki: 1697623697021"
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "GUID: y|#X6hPRJ5; štítky: bi-pst::p04."
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "Metadata původního zdroje pro kartu 1697623697021: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "Definujte \\(\\alpha\\)-kritickou hodnotu."
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "\\(\\alpha\\)-kritickou \\(c_\\alpha\\) hodnotou nazýváme \\((1 - \\alpha)\\)-kvantil, tedy\\[c_\\alpha = q_{1 - \\alpha}.\\]"
+        },
+        {
+          "locator": "transcript-line:105",
+          "text": "## Poznámka Anki 1716216154129"
+        },
+        {
+          "locator": "transcript-line:107",
+          "text": "Karty Anki: 1716216154130"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "GUID: owbn/?xu7[; štítky: bi-pst::p04 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "Metadata původního zdroje pro kartu 1716216154130: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "Definujte obecné momenty."
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "Pro \\(k \\in \\mathbb N\\), přirozené číslo, definujeme \\(k\\)-tý moment náhodné veličiny jako\\[\\mu_k = \\operatorname E(X^k) = \\begin{cases}"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "\\displaystyle \\sum_{x \\in \\mathcal X} x^k \\operatorname P(X = x) && \\text{pro } X \\text{ diskrétní},\\\\"
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "\\displaystyle \\int_{-\\infty}^{\\infty} x^k f_X(x) \\, \\mathrm dx && \\text{pro } X \\text{ spojitou}."
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "\\end{cases}\\]Podobně, \\(k\\)-tý centrální moment je\\[\\sigma_k = \\operatorname E(X - \\operatorname EX)^k = \\begin{cases}"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "\\displaystyle \\sum_{x \\in \\mathcal X} (x - \\mu_1)^k \\operatorname P(X = x) && \\text{pro } X \\text{ diskrétní},\\\\"
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "\\displaystyle \\int_{-\\infty}^{\\infty} (x - \\mu_1)^k f_X(x) \\, \\mathrm dx && \\text{pro } X \\text{ spojitou}."
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "\\end{cases}\\]"
+        }
+      ],
+      "created_at": "2026-10-17T14:26:44.549521+00:00",
+      "transcript_file": "sources/anki-prednaska-04-v1/transcript/anki-prednaska-04-v1.md",
+      "transcript_sha256": "74a06e1c581cfb30a3f2a0b28ad308d22e3f3810b39246350b0d867fda59d096"
+    },
+    "anki-prednaska-05-v1": {
+      "subject_id": "bi-pst",
+      "source_id": "anki-prednaska-05-v1",
+      "title": "FIT ČVUT Anki – BI-PST – Přednáška 05",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-pst/anki-prednaska-05-v1/anki-prednaska-05-v1.zip",
+      "file": "sources/anki-prednaska-05-v1/anki-prednaska-05-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "2a82ca5e89703f28d1bb70fc2d8e3d313ddb59e24195cd901b62eff8d48dc578",
+      "topic_ids": [
+        "prednaska-05"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg, SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PST – Přednáška 05"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg; APKG SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: f340f7d8957f2d6990d7a07f7c5b81fd8545ba30cdcc33d3db6bbdc37238df22."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-PST"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 8 poznámek, 8 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1698226140855"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1698226140855"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: M0HgL;^SE6; štítky: bi-pst::p05 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Metadata původního zdroje pro kartu 1698226140855: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Definujte Bernoulliho (alternativní) rozdělení."
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "Diskrétní náhodná veličina \\(X\\) má Bernoulliho (alternativní) rozdělení s parametrem \\(p \\in \\langle 0, 1 \\rangle\\), jestliže\\[\\operatorname P(X = 1) = p, \\quad \\operatorname P(X = 0) = 1 - p.\\]Značíme \\(X \\sim \\operatorname{Be}(p)\\) či \\(X \\sim \\operatorname{Bernoulli}(p)\\) nebo také \\(X \\sim \\operatorname{Alt}(p)\\). Pro střední hodnotu a rozptyl platí:\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:27",
+          "text": "\\operatorname E(X) = p, \\\\"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "\\operatorname{var}(X) = p(1-p)."
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "\\end{matrix}\\]"
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "### Doplňující pole (Extra)"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Bernoulliho (alternativní) rozdělení využijeme, pokud máme náhodný experiment se dvěma možnými výsledky a úspěch nastává s pravděpodobností \\(p\\)."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "## Poznámka Anki 1698226631708"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Karty Anki: 1698226631709"
+        },
+        {
+          "locator": "transcript-line:38",
+          "text": "GUID: p};L6-ZY[2; štítky: bi-pst::p05 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "Metadata původního zdroje pro kartu 1698226631709: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "Definujte binomické rozdělení."
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "Diskrétní náhodná veličina \\(X\\) má binomické rozdělení s parametry \\(n \\in \\mathbb N\\) a \\(p \\in \\langle 0, 1 \\rangle\\), jestliže\\[\\operatorname P(X = k) = {n \\choose k} p^k (1 - p)^{n - k}, \\quad k = 0, 1, \\dots, n.\\]Značíme \\(X \\sim \\operatorname{Binom}(n,p)\\) nebo \\(X \\sim \\operatorname{Bin}(n, p)\\). Pro střední hodnotu a rozptyl platí:\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "\\operatorname E(X) = np, \\\\"
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "\\operatorname{var}(X) = np(1-p)."
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "\\end{matrix}\\]"
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "### Doplňující pole (Extra)"
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "Binomické rozdělení využijeme, pokud uvažujeme \\(n\\) nezávislých pokusů se dvěma možnými výsledky, předpokládáme, že pravděpodobnost úspěchu je \\(p\\) a úspěch nastává právě \\(k\\)-krát."
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "## Poznámka Anki 1698226997267"
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "Karty Anki: 1698226997268"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "GUID: J(H&Cmu>oy; štítky: bi-pst::p05 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "Metadata původního zdroje pro kartu 1698226997268: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "Definujte geometrické rozdělení."
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "Diskrétní náhodná veličina \\(X\\) má geometrické rozdělení s parametrem \\(p \\in (0, 1)\\), jestliže\\[\\operatorname P(X = k) = (1 - p)^{k - 1} p, \\quad k = 1, 2, \\dots\\]Značíme \\(X \\sim \\operatorname{Geom}(p)\\). Pro střední hodnotu a rozptyl platí:\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "\\operatorname E(X) = \\displaystyle \\frac 1 p, \\\\"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "\\operatorname{var}(X) = \\displaystyle  \\frac {1 - p} {p^2}."
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "\\end{matrix}\\]"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "### Doplňující pole (Extra)"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "Geometrické rozdělení využijeme v případě, že uvažujeme posloupnost nezávislých pokusů se dvěma možnými výsledky. Předpokládáme, že pravděpodobnost úspěchu je \\(p\\) a zajímá nás pravděpodobnost, že první úspěšný pokus je \\(k\\)-tý pokus v pořadí."
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "## Poznámka Anki 1698227544833"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "Karty Anki: 1698227544833"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "GUID: sFpcH)$V>I; štítky: bi-pst::p05 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "Metadata původního zdroje pro kartu 1698227544833: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "Definujte Poissonovo rozdělení."
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "Diskrétní náhodná veličina \\(X\\) má Poissonovo rozdělení s parametrem \\(\\lambda > 0\\), jestliže\\[\\operatorname P(X = k) = \\frac {\\lambda^k} {k!} e^{- \\lambda}, \\quad k = 0, 1, \\dots.\\]Značíme \\(X \\sim \\operatorname{Poisson}(\\lambda)\\). Pro střední hodnotu a rozptyl platí:\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "\\operatorname E(X) = \\lambda, \\\\"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "\\operatorname{var}(X)= \\lambda."
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "\\end{matrix}\\]"
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "### Doplňující pole (Extra)"
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "Poissonovo rozdělení využijeme, pokud zkoumáme počet realizací náhodných údálostí řídkého jevu během určité doby. Počítá s výrazně vyšším počtem pokusů než realizací."
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "## Poznámka Anki 1698228733343"
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "Karty Anki: 1698228733344"
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "GUID: GFx:BF2Z=c; štítky: bi-pst::p05 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "Metadata původního zdroje pro kartu 1698228733344: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "Definujte rovnoměrné (uniformní) rozdělení."
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "Spojitá náhodná veličina \\(X\\) má rovnoměrné (uniformní) rozdělení na intervalu \\((a, b)\\), kde \\(a < b\\), jestliže\\[f_X(x) = \\begin{cases}"
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "\\displaystyle \\frac 1 {b - a} && \\text{pro } x \\in (a, b), \\\\"
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "0 && \\text{jinde}."
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "\\end{cases}\\]Značíme \\(X \\sim \\operatorname{Unif}(a, b)\\) nebo \\(X \\sim \\operatorname U(a, b)\\). Pro střední hodnotu a rozptyl platí:\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "\\operatorname E(X) = \\displaystyle  \\frac {a + b} 2, \\\\"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "\\operatorname{var}(X) = \\displaystyle \\frac{(b - a)^2} {12}."
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "\\end{matrix}\\]"
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "### Doplňující pole (Extra)"
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "Rovnoměrné rozdělení použijeme, pokud sledujeme jevy, jejichž pravděpodobnost je rovnoměrně rozdělena na intervalu \\((a, b)\\)."
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "## Poznámka Anki 1698229103080"
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "Karty Anki: 1698229103080"
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "GUID: jK-W3L++;C; štítky: bi-pst::p05 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "Metadata původního zdroje pro kartu 1698229103080: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "Definujte exponenciální rozdělení."
+        },
+        {
+          "locator": "transcript-line:137",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "Spojitá náhodná veličina \\(X\\) má exponenciální rozdělení s parametrem \\(\\lambda >0\\), jestliže:\\[f_X(x) = \\begin{cases}"
+        },
+        {
+          "locator": "transcript-line:140",
+          "text": "\\lambda e^{- \\lambda x} && \\text{pro } x \\in \\langle 0, +\\infty), \\\\"
+        },
+        {
+          "locator": "transcript-line:141",
+          "text": "0 && \\text{jinde}."
+        },
+        {
+          "locator": "transcript-line:142",
+          "text": "\\end{cases}\\]Značíme \\(X \\sim \\operatorname{Exp}(\\lambda)\\). Pro střední hodnotu a rozptyl platí:\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:143",
+          "text": "\\operatorname E(X) = \\displaystyle \\frac 1 \\lambda, \\\\"
+        },
+        {
+          "locator": "transcript-line:144",
+          "text": "\\operatorname{var}(X) = \\displaystyle \\frac 1 {\\lambda^2}."
+        },
+        {
+          "locator": "transcript-line:145",
+          "text": "\\end{matrix}\\]"
+        },
+        {
+          "locator": "transcript-line:147",
+          "text": "### Doplňující pole (Extra)"
+        },
+        {
+          "locator": "transcript-line:149",
+          "text": "Exponenciální rozdělení využijeme, pokud modelujeme čas mezi dvěma událostmi s Poissonovským rozdělením."
+        },
+        {
+          "locator": "transcript-line:151",
+          "text": "## Poznámka Anki 1698229752926"
+        },
+        {
+          "locator": "transcript-line:153",
+          "text": "Karty Anki: 1698229752927"
+        },
+        {
+          "locator": "transcript-line:154",
+          "text": "GUID: h:;,#t`#6D; štítky: bi-pst::p05 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:156",
+          "text": "Metadata původního zdroje pro kartu 1698229752927: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:158",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:160",
+          "text": "Definujte normální (Gaussovo) rozdělení."
+        },
+        {
+          "locator": "transcript-line:162",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:164",
+          "text": "Spojitá náhodná veličina \\(X\\) má normální (Gaussovo) rozdělení s parametry \\(\\mu \\in \\mathbb R\\) a \\(\\sigma^2 > 0\\), jestliže\\[f_X(x) = \\frac 1 {\\sqrt{2 \\pi \\sigma^2}} e^{- \\frac {(x - \\mu)^2} {2 \\sigma^2}}, \\quad x \\in (- \\infty, +\\infty).\\]Značíme \\(X \\sim \\operatorname N(\\mu, \\sigma^2)\\) a \\(\\operatorname N(0, 1) \\) nazýváme standardním normálním rozdělením. Pro střední hodnotu a rozptyl platí:\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:165",
+          "text": "\\operatorname E(X) = \\mu, \\\\"
+        },
+        {
+          "locator": "transcript-line:166",
+          "text": "\\operatorname{var}(X) = \\sigma^2."
+        },
+        {
+          "locator": "transcript-line:167",
+          "text": "\\end{matrix}\\]"
+        },
+        {
+          "locator": "transcript-line:169",
+          "text": "### Doplňující pole (Extra)"
+        },
+        {
+          "locator": "transcript-line:171",
+          "text": "Normální (Gaussovo) rozdělení využijeme, pokud modelujeme veličiny pozorovatelné v přírodě jako např. výška nebo váha."
+        },
+        {
+          "locator": "transcript-line:173",
+          "text": "## Poznámka Anki 1698833843557"
+        },
+        {
+          "locator": "transcript-line:175",
+          "text": "Karty Anki: 1698833843557"
+        },
+        {
+          "locator": "transcript-line:176",
+          "text": "GUID: p`4ASb,b?c; štítky: bi-pst::p05 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:178",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:180",
+          "text": "Vyslovte větu o standardizaci normální náhodné veličiny."
+        },
+        {
+          "locator": "transcript-line:182",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:184",
+          "text": "Mějme náhodnou veličinu \\(X\\) s normálním rozdělením \\(X \\sim \\operatorname N(\\mu, \\sigma^2)\\). Pak náhodná veličina"
+        },
+        {
+          "locator": "transcript-line:185",
+          "text": "\\[Z = \\frac {X - \\mu} \\sigma\\]má standardní normální rozdělení, tedy \\(Z \\sim \\operatorname N(0, 1)\\) a platí"
+        },
+        {
+          "locator": "transcript-line:186",
+          "text": "\\[F_X(x) = \\operatorname P\\Big(Z \\leq \\frac {x - \\mu} \\sigma\\Big) = \\Phi\\Big(\\frac {x - \\mu} \\sigma\\Big).\\]"
+        }
+      ],
+      "created_at": "2026-10-17T14:26:44.573619+00:00",
+      "transcript_file": "sources/anki-prednaska-05-v1/transcript/anki-prednaska-05-v1.md",
+      "transcript_sha256": "8a852473c851239f8c5d713ad800cbc7cceda0c2562f05d926e3219e0dbaec9f"
+    },
+    "anki-prednaska-06-v1": {
+      "subject_id": "bi-pst",
+      "source_id": "anki-prednaska-06-v1",
+      "title": "FIT ČVUT Anki – BI-PST – Přednáška 06",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-pst/anki-prednaska-06-v1/anki-prednaska-06-v1.zip",
+      "file": "sources/anki-prednaska-06-v1/anki-prednaska-06-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "1f716dfb92688969ea4ea55d2c0a1db810837a8d1dc6b61e5d49f2a2507ce011",
+      "topic_ids": [
+        "prednaska-06"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg, SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PST – Přednáška 06"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg; APKG SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: f340f7d8957f2d6990d7a07f7c5b81fd8545ba30cdcc33d3db6bbdc37238df22."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-PST"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 13 poznámek, 13 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1698834501139"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1698834501139"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: ne8c7tAzgd; štítky: bi-pst::p06 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Metadata původního zdroje pro kartu 1698834501139: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Definujte sdružené rozdělení (náhodný vektor a sdruženou distribuční funkci)."
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "Mějme \\(n \\in \\mathbb N\\) a náhodné veličiny \\(X_1, \\dots X_n\\) na stejném pravděpodobnostním prostoru \\((\\Omega, \\mathcal F, \\operatorname P)\\). Vektor \\(\\mathbf X = (X_1, \\dots, X_n)^T\\) nazýváme **náhodným vektorem** na \\((\\Omega, \\mathcal F, \\operatorname P)\\). Pravděpodobnostní rozělení vektoru \\(\\mathbf X\\) je popsáno **sdruženou distribuční funkcí** \\(F_\\mathbf X : \\mathbb R^n \\to \\langle 0, 1 \\rangle\\) definovanou vztahem\\[F_{\\mathbf X}(\\mathbf x) = \\operatorname P(\\mathbf X \\leq \\mathbf x) = \\operatorname P(X_1 \\leq x_1 \\cap \\dots \\cap X_n \\leq x_n)\\]pro každé \\(\\mathbf x = (x_1, \\dots, x_n)^T \\in \\mathbb R^n\\)."
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "## Poznámka Anki 1698834928635"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "Karty Anki: 1698834928635"
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "GUID: P-k$;^yH6L; štítky: bi-pst::p06 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "Vyslovte větu o vlastnostech sdružené distribuční funkce."
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "Distribuční funkce \\(F_{X, Y}\\) náhodných veličin \\(X\\) a \\(Y\\) má následující vlastnosti:"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "- pokud \\(x_1 < x_2\\) a \\(y_1 < y_2\\), tak \\(F_{X, Y}(x_1, y_1) \\leq F_{X, Y}(x_2, y_2)\\);"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "- \\(\\forall y \\in \\mathbb R, \\displaystyle \\lim_{x \\to -\\infty} F_{X, Y}(x, y) = 0\\) a \\(\\forall x \\in \\mathbb R, \\displaystyle \\lim_{y \\to -\\infty} F_{X, Y}(x, y) = 0\\);"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "- \\(\\forall y \\in \\mathbb R, \\displaystyle \\lim_{x \\to +\\infty} F_{X, Y}(x, y) = F_Y(y)\\) a \\(\\forall x \\in \\mathbb R, \\displaystyle \\lim_{y \\to +\\infty} F_{X, Y}(x, y) = F_X(x)\\)."
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "## Poznámka Anki 1698835242518"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "Karty Anki: 1698835242518"
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "GUID: I>3$9he)q0; štítky: bi-pst::p06."
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "Metadata původního zdroje pro kartu 1698835242518: oranžový příznak autora: určeno k odstranění; v původním balíčku pozastavená karta."
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "Definujte sdruženou pravděpodobnost diskrétních náhodných veličin."
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "Diskrétní náhodné veličiny \\(X\\) a \\(Y\\) mají sdružené pravděpodobnosti možných hodnot"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "\\[\\operatorname P(X = x \\cap Y = y) = \\operatorname P(\\{ X = x \\} \\cap \\{ Y = y \\}).\\]"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "## Poznámka Anki 1698835388149"
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "Karty Anki: 1698835388149"
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "GUID: m$/b|]Sau; štítky: bi-pst::p06."
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "Metadata původního zdroje pro kartu 1698835388149: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "Vyslovte větu o marginálním rozdělení diskrétní náhodné veličiny."
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "Mějme náhodné veličiny \\(X\\) a \\(Y\\) se sdruženým diskrétním rozdělením. Marginální rozdělení veličin \\(X\\) a \\(Y\\) jsou potom také diskrétní a určená pravděpodobnostmi\\[\\begin{align}"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "\\operatorname P(X = x) &= \\displaystyle \\sum_{y \\in \\mathcal Y} \\operatorname P(X = x \\cap Y = y),\\\\"
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "\\operatorname P(Y = y) &= \\displaystyle \\sum_{x \\in \\mathcal X} \\operatorname P(X = x \\cap Y = y)."
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "\\end{align}\\]"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "## Poznámka Anki 1698835857877"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "Karty Anki: 1698835857877"
+        },
+        {
+          "locator": "transcript-line:83",
+          "text": "GUID: H>zWh>rF}0; štítky: bi-pst::p06 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "Metadata původního zdroje pro kartu 1698835857877: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "Vyslovte větu o nezávislosti diskrétních náhodných veličin."
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "Diskrétní náhodné veličiny \\(X_1, \\dots, X_n\\) jsou nezávislé právě tehdy, když pro každé \\(\\mathbf x \\in \\mathbb R^n\\) platí\\[\\operatorname P(\\mathbf X = \\mathbf x) = \\displaystyle \\prod_{i = 1}^n \\operatorname P(X_i = x_i).\\]"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "## Poznámka Anki 1698836734885"
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "Karty Anki: 1698836734885"
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": "GUID: m&~,{tZT<j; štítky: bi-pst::p06."
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "Metadata původního zdroje pro kartu 1698836734885: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "Definujte podmíněnou distribuční funkci a podmíněnou pravděpodobnost diskrétních veličin."
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "Nechť \\(\\operatorname P(Y = y) > 0\\). Potom je **podmíněná distribuční funkce** \\(F_{X|Y}(\\cdot |y)\\) veličiny \\(X\\) dáno (za podmínky) \\(Y = y\\) určena vztahem\\[F_{X|Y}(x|y) = \\operatorname P(X \\leq x | Y = y) = \\frac{\\operatorname P(X \\leq x \\cap Y = y)} {\\operatorname P(Y = y)}.\\]**Podmíněné pravděpodobnosti **hodnot \\(X\\) dáno (za podmínky) \\(Y = y\\) jsou analogicky\\[\\operatorname P(X = x | Y = y) = \\frac{\\operatorname P(X = x \\cap Y = y)} {\\operatorname P(Y = y)}.\\]"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "## Poznámka Anki 1698836894978"
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "Karty Anki: 1698836894978"
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "GUID: G4wPb<mTt?; štítky: bi-pst::p06 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "Metadata původního zdroje pro kartu 1698836894978: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "Definujte podmíněnou střední hodnotu diskrétní náhodné veličiny."
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "Nechť \\(\\operatorname P(Y = y) > 0\\). Podmíněnou střední hodnotu \\(X\\) dáno (za podmínky) \\(\\{Y = y\\}\\) definujeme jako\\[\\operatorname E(X | Y = y) = \\displaystyle \\sum_{x \\in \\mathcal X} x \\cdot \\operatorname P(X = x | Y = y).\\]"
+        },
+        {
+          "locator": "transcript-line:125",
+          "text": "## Poznámka Anki 1698837860743"
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "Karty Anki: 1698837860743"
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "GUID: P|Ff!Th{L); štítky: bi-pst::p06."
+        },
+        {
+          "locator": "transcript-line:130",
+          "text": "Metadata původního zdroje pro kartu 1698837860743: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:132",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:134",
+          "text": "Definujte sdružené spojité rozdělení."
+        },
+        {
+          "locator": "transcript-line:136",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:138",
+          "text": "Náhodný vektor \\(\\mathbf X = (X_1, \\dots, X_n)^T\\) má sdružené (absolutně) spojité rozdělení, jestliže nezáporná funkce \\(f_\\mathbf X : \\mathbb R^n \\to \\mathbb R\\) taková, že pro každé \\(\\mathbf x \\in \\mathbb R^n\\) platí\\[F_\\mathbf X(\\mathbf x) = \\displaystyle \\int_{-\\infty}^{x_n} \\dots \\displaystyle \\int_{-\\infty}^{x_1} f_\\mathbf X(u) \\, \\mathrm d u_1 \\dots \\, \\mathrm d u_n.\\]Funkce \\(f_\\mathbf X\\) se pak nazývá sdruženou hustotou pravděpodobnosti náhodného vektoru \\(\\mathbf X\\)."
+        },
+        {
+          "locator": "transcript-line:140",
+          "text": "## Poznámka Anki 1698838030293"
+        },
+        {
+          "locator": "transcript-line:142",
+          "text": "Karty Anki: 1698838030293"
+        },
+        {
+          "locator": "transcript-line:143",
+          "text": "GUID: l#f[B|S_J-; štítky: bi-pst::p06."
+        },
+        {
+          "locator": "transcript-line:145",
+          "text": "Metadata původního zdroje pro kartu 1698838030293: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:147",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:149",
+          "text": "Vyslovte větu o marginálním rozdělení spojité náhodné veličiny."
+        },
+        {
+          "locator": "transcript-line:151",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:153",
+          "text": "Mějme náhodné veličiny \\(X\\) a \\(Y\\) se sdruženým spojitým rozdělením určeným hustotou \\(f_{X, Y}\\). Marginální rozdělení veličin \\(X\\) a \\(Y\\) jsou potom také spojitá a určená hustotami\\[\\begin{align}"
+        },
+        {
+          "locator": "transcript-line:154",
+          "text": "f_X(x) = \\displaystyle \\int_{-\\infty}^{+\\infty} f_{X, Y}(x, y) \\, \\text dy, \\\\"
+        },
+        {
+          "locator": "transcript-line:155",
+          "text": "f_Y(y) = \\displaystyle \\int_{-\\infty}^{+\\infty} f_{X, Y}(x, y) \\, \\text dx."
+        },
+        {
+          "locator": "transcript-line:156",
+          "text": "\\end{align}\\]"
+        },
+        {
+          "locator": "transcript-line:158",
+          "text": "## Poznámka Anki 1698838155302"
+        },
+        {
+          "locator": "transcript-line:160",
+          "text": "Karty Anki: 1698838155302"
+        },
+        {
+          "locator": "transcript-line:161",
+          "text": "GUID: $&^J;bt/K; štítky: bi-pst::p06."
+        },
+        {
+          "locator": "transcript-line:163",
+          "text": "Metadata původního zdroje pro kartu 1698838155302: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:165",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:167",
+          "text": "Vyslovte větu o nezávislosti spojitých náhodných veličin."
+        },
+        {
+          "locator": "transcript-line:169",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:171",
+          "text": "Spojité náhodné veličiny \\(X_1, \\dots, X_n\\) jsou nezávislé právě tehdy, když pro každé \\(\\mathbf x \\in \\mathbb R^n\\) platí\\[f_\\mathbf X(\\mathbf x) = \\displaystyle \\prod_{i = 1}^n f_{X_i}(x_i).\\]"
+        },
+        {
+          "locator": "transcript-line:173",
+          "text": "## Poznámka Anki 1698838385644"
+        },
+        {
+          "locator": "transcript-line:175",
+          "text": "Karty Anki: 1698838385644"
+        },
+        {
+          "locator": "transcript-line:176",
+          "text": "GUID: E`qQ8Yap?3; štítky: bi-pst::p06."
+        },
+        {
+          "locator": "transcript-line:178",
+          "text": "Metadata původního zdroje pro kartu 1698838385644: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:180",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:182",
+          "text": "Definujte podmíněnou hustotu a podmíněnou distribuční funkci spojité náhodné veličiny."
+        },
+        {
+          "locator": "transcript-line:184",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:186",
+          "text": "Nechť \\(f_Y(y) > 0\\). Potom je **podmíněná hustota** \\(f_{X|Y}(\\cdot|y)\\) veličiny \\(X\\) dáno (za podmínky) \\(Y = y\\) určena vztahem\\[f_{X|Y}(x|y) = \\frac{f_{X, Y}(x, y)} {f_Y(y)}.\\]**Podmíněná distribuční funkce **\\(F_{X|Y}(\\cdot|y)\\) veličiny \\(X\\) dáno (za podmínky) \\(Y = y\\) je pak\\[F_{X|Y}(x|y) = \\displaystyle \\int_{-\\infty}^x f_{X|Y}(u|y) \\, \\text du.\\]"
+        },
+        {
+          "locator": "transcript-line:188",
+          "text": "## Poznámka Anki 1698838864684"
+        },
+        {
+          "locator": "transcript-line:190",
+          "text": "Karty Anki: 1698838864684"
+        },
+        {
+          "locator": "transcript-line:191",
+          "text": "GUID: fRMCwrUvC2; štítky: bi-pst::p06 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:193",
+          "text": "Metadata původního zdroje pro kartu 1698838864684: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:195",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:197",
+          "text": "Definujte podmíněnou střední hodnotu spojité náhodné veličiny."
+        },
+        {
+          "locator": "transcript-line:199",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:201",
+          "text": "Nechť \\(f_Y(y) > 0\\). Podmíněnou střední hodnotu \\(X\\) dáno (za podmínky) \\(Y = y\\) definujeme jako\\[\\operatorname E(X | Y = y) = \\displaystyle \\int_{-\\infty}^{+\\infty} x \\cdot f_{X|Y}(x|y) \\, \\text dx.\\]"
+        },
+        {
+          "locator": "transcript-line:203",
+          "text": "## Poznámka Anki 1740493061652"
+        },
+        {
+          "locator": "transcript-line:205",
+          "text": "Karty Anki: 1740493061652"
+        },
+        {
+          "locator": "transcript-line:206",
+          "text": "GUID: v{.~i(AECA; štítky: bi-pst::p06."
+        },
+        {
+          "locator": "transcript-line:208",
+          "text": "Metadata původního zdroje pro kartu 1740493061652: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:210",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:212",
+          "text": "Definujte sdružené diskrétní rozdělení."
+        },
+        {
+          "locator": "transcript-line:214",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:216",
+          "text": "Náhodný vektor \\(\\mathbf X = (X_1, \\dots, X_n)^T\\) má sdružené diskrétní rozdělení, jestliže nabývá hodnot z nejvýše spočetné množiny \\(\\mathcal X = \\{ \\mathbf x_1, \\mathbf x_2, \\dots \\} \\subset \\mathbb R^n\\) takové, že platí\\[\\displaystyle \\sum_{\\mathbf x \\in \\mathcal X} \\operatorname P(\\mathbf X = \\mathbf x) = 1.\\]Pravděpodobnosti možných hodnot náhodného vektoru \\(\\mathbf X\\) potom jsou\\[\\operatorname P(\\mathbf X = \\mathbf x) = \\operatorname P(X_1 = x_1 \\cap \\dots \\cap X_n = x_n) = \\operatorname P(\\{ X_1 = x_1 \\} \\cap \\dots \\cap \\{ X_n = x_n \\}).\\]"
+        }
+      ],
+      "created_at": "2026-10-17T14:26:44.599047+00:00",
+      "transcript_file": "sources/anki-prednaska-06-v1/transcript/anki-prednaska-06-v1.md",
+      "transcript_sha256": "1420df402239cc1bf1bc0fcf6b23cf46b989e19a31dee5b6bfad0b5edf01e130"
+    },
+    "anki-prednaska-07-v1": {
+      "subject_id": "bi-pst",
+      "source_id": "anki-prednaska-07-v1",
+      "title": "FIT ČVUT Anki – BI-PST – Přednáška 07",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-pst/anki-prednaska-07-v1/anki-prednaska-07-v1.zip",
+      "file": "sources/anki-prednaska-07-v1/anki-prednaska-07-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "3869e1e65df093ca0466049d12b2c79677218b5c005d63ac602fb5d847afa305",
+      "topic_ids": [
+        "prednaska-07"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg, SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PST – Přednáška 07"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg; APKG SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: f340f7d8957f2d6990d7a07f7c5b81fd8545ba30cdcc33d3db6bbdc37238df22."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-PST"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 8 poznámek, 8 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1699439794185"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1699439794185"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: DT1O5&h88o; štítky: bi-pst::p07."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Metadata původního zdroje pro kartu 1699439794185: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Vyslovte větu o součtu diskrétních náhodných veličin (diskrétní konvoluci)."
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "Mějme nezávislé diskrétní náhodné veličiny \\(X \\) a \\(Y\\). Pak pro \\(Z = X + Y\\) platí\\[\\operatorname P(Z = z) = \\displaystyle \\sum_{x \\in \\mathcal X} \\operatorname P(X = x) \\cdot \\operatorname P(Y = z - x).\\]"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "## Poznámka Anki 1699439895867"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "Karty Anki: 1699439895867"
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "GUID: JbDptH15k{; štítky: bi-pst::p07."
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Metadata původního zdroje pro kartu 1699439895867: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Vyslovte větu o součtu spojitých náhodných veličin (konvoluci hustot)."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Mějme nezávislé spojité náhodné veličiny \\(X\\) a \\(Y\\). Pak pro \\(Z = X + Y\\) platí\\[f_Z(z) = \\displaystyle \\int_{-\\infty}^\\infty f_X(x) \\cdot f_Y(z - x) \\, \\text dx.\\]"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "## Poznámka Anki 1699440680492"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "Karty Anki: 1699440680492"
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "GUID: K(&c<iv_Ba; štítky: bi-pst::p07 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "Metadata původního zdroje pro kartu 1699440680492: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "Definujte kovarianci a korelační koeficient."
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "Mějme náhodné veličiny \\(X\\) a \\(Y\\) s konečnými druhými momenty. Pak definujeme **kovarianci** náhodných veličin \\(X\\) a \\(Y\\) vztahem\\[\\operatorname{cov}(X, Y) = \\operatorname E \\big((X - \\operatorname E X) \\cdot (Y - \\operatorname E Y) \\big) = \\operatorname E XY - \\operatorname E X \\cdot \\operatorname E Y.\\]Pokud mají \\(X\\) a \\(Y\\) kladné rozptyly, definujeme **korelační koeficient** jako\\[\\operatorname \\rho (X, Y) = \\frac {\\operatorname{cov}(X, Y)} {\\sigma_X \\sigma_Y} = \\frac {\\operatorname{cov}(X, Y)} {\\sqrt{\\operatorname{var} X } \\sqrt{\\operatorname{var} Y}}.\\]"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "## Poznámka Anki 1699441199126"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "Karty Anki: 1699441199127"
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "GUID: mprk-iM_+A; štítky: bi-pst::p07."
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "Metadata původního zdroje pro kartu 1699441199127: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "Definujte nekorelované náhodné veličiny."
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "Náhodné veličiny \\(X\\) a \\(Y\\) nazýváme nekorelované, pokud platí\\[\\operatorname{cov}(X, Y) = 0\\]nebo alternativně\\[\\operatorname E XY = \\operatorname E X \\operatorname E Y.\\]"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "## Poznámka Anki 1699441231844"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "Karty Anki: 1699441231844"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "GUID: LDADFG|J)q; štítky: bi-pst::p07."
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "Vyslovte větu o korelaci nezávislých náhodných veličin."
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "Jestliže jsou náhodné veličiny \\(X\\) a \\(Y\\) nezávislé, pak jsou i nekorelované."
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "## Poznámka Anki 1699441510664"
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "Karty Anki: 1699441510664"
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "GUID: P5e4CPGDHb; štítky: bi-pst::p07."
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "Metadata původního zdroje pro kartu 1699441510664: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "Vyslovte větu o střední hodnotě funkce diskrétních náhodných veličin."
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "Mějme diskrétní náhodné veličiny \\(X\\) a \\(Y\\). Pak platí\\[\\operatorname E h(X, Y) = \\displaystyle \\sum_{x \\in \\mathcal X, \\, y \\in \\mathcal Y} h(x, y) \\cdot \\operatorname P(X = x \\cap Y = y),\\]pokud řada absolutně konverguje."
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "## Poznámka Anki 1699441609788"
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "Karty Anki: 1699441609788"
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "GUID: N$4;Cc)iW<; štítky: bi-pst::p07."
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "Metadata původního zdroje pro kartu 1699441609788: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "Vyslovte větu o střední hodnotě funkce spojitých náhodných veličin."
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:114",
+          "text": "Mějme spojitné náhodné veličiny \\(X\\) a \\(Y\\). Pak platí\\[\\operatorname E h(X, Y) = \\displaystyle \\int_{-\\infty}^\\infty \\displaystyle \\int_{-\\infty}^\\infty h(x, y) \\cdot f_{X, Y}(x, y) \\, \\text dx \\, \\text dy,\\]pokud integrál absolutně konverguje."
+        },
+        {
+          "locator": "transcript-line:116",
+          "text": "## Poznámka Anki 1699441903790"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "Karty Anki: 1699441903790"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "GUID: PVd;k?>_(J; štítky: bi-pst::p07 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "Vyslovte větu o vlastnostech rozptylu (variance)."
+        },
+        {
+          "locator": "transcript-line:125",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "Rozptyl splňuje následující vlastnosti:"
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "- pro náhodnou veličinu \\(X\\) platí"
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "\\[\\operatorname{cov}(X, X) = \\operatorname{var} X,\\]"
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "- pro \\(X\\) a \\(Y\\) s konečnými druhými momenty platí"
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "\\[\\operatorname{var}(X \\pm Y) = \\operatorname{var} X + \\operatorname{var} Y \\pm 2 \\operatorname{cov}(X, Y),\\]"
+        },
+        {
+          "locator": "transcript-line:137",
+          "text": "- pro nekorelované náhodné veličiny platí"
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "\\[\\operatorname{var}(X \\pm Y) = \\operatorname{var} X + \\operatorname{var} Y,\\]"
+        },
+        {
+          "locator": "transcript-line:141",
+          "text": "- pro \\(a, b \\in \\mathbb R\\) platí"
+        },
+        {
+          "locator": "transcript-line:143",
+          "text": "\\[\\operatorname{var}(aX + bY) = a^2 \\operatorname{var} X + b^2 \\operatorname{var} Y + 2ab \\operatorname{cov}(X, Y).\\]"
+        }
+      ],
+      "created_at": "2026-10-17T14:26:44.627788+00:00",
+      "transcript_file": "sources/anki-prednaska-07-v1/transcript/anki-prednaska-07-v1.md",
+      "transcript_sha256": "0a7698249bddee11acf5445b989692181d3da41a14c50d6a3e6ed47790d02471"
+    },
+    "anki-prednaska-08-v1": {
+      "subject_id": "bi-pst",
+      "source_id": "anki-prednaska-08-v1",
+      "title": "FIT ČVUT Anki – BI-PST – Přednáška 08",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-pst/anki-prednaska-08-v1/anki-prednaska-08-v1.zip",
+      "file": "sources/anki-prednaska-08-v1/anki-prednaska-08-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "52e1866b463e8d48504ba4e7fc514793aafa46af52e3556448f703b0bc746c78",
+      "topic_ids": [
+        "prednaska-08"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg, SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PST – Přednáška 08"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg; APKG SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: f340f7d8957f2d6990d7a07f7c5b81fd8545ba30cdcc33d3db6bbdc37238df22."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-PST"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 8 poznámek, 8 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1700042916811"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1700042916811"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: i)cJ9SkhGJ; štítky: bi-pst::p08 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Vyslovte větu o Markovově nerovnosti."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Nechť \\(X\\) je náhodná veličina s konečnou střední hodnotou. Potom pro každé \\(a > 0\\) platí"
+        },
+        {
+          "locator": "transcript-line:25",
+          "text": "\\[\\operatorname P(|X| \\geq a) \\leq \\frac{\\operatorname E|X|} a.\\]"
+        },
+        {
+          "locator": "transcript-line:27",
+          "text": "## Poznámka Anki 1700043016158"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "Karty Anki: 1700043016158"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "GUID: Rd1s=1KB.}; štítky: bi-pst::p08 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "Vyslovte větu o Čebyševově nerovnosti."
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:38",
+          "text": "Nechť \\(X\\) je náhodná veličina s konečnou střední hodnotou a konečným rozptylem. Potom pro každé \\(\\varepsilon > 0\\) platí"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "\\[\\operatorname P(|X - \\operatorname EX| \\geq \\varepsilon) \\leq \\frac{\\operatorname{var} X} {\\varepsilon^2}.\\]"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "## Poznámka Anki 1700044796361"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "Karty Anki: 1700044796361"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "GUID: F*-*qnT[qw; štítky: bi-pst::p08 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "Vyslovte větu o slabém zákonu velkých čísel."
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "Nechť \\(X_1, X_2, \\dots\\) jsou i.i.d. náhodné veličiny s konečnou střední hodnotou \\(\\operatorname E X_i = \\mu\\) a konečným rozptylem \\(\\operatorname{var} X_i = \\sigma^2\\). Potom\\[\\bar X_n \\xrightarrow{\\operatorname P} \\mu \\quad \\text{pro} \\quad n \\to +\\infty.\\]To znamená, že pro každé \\(\\varepsilon > 0\\) platí\\[\\displaystyle \\lim_{n \\to \\infty} \\operatorname P(|\\bar X_n - \\mu| \\geq \\varepsilon) = 0.\\]"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "## Poznámka Anki 1700044994935"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "Karty Anki: 1700044994935"
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "GUID: oXU*kiT*T7; štítky: bi-pst::p08 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "Vyslovte větu o silném zákonu velkých čísel."
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "Nechť \\(X_1, X_2, \\dots\\) jsou i.i.d. náhodné veličiny s ne nutně konečnou střední hodnotou \\(\\operatorname E X_i = \\mu\\). Potom \\(\\bar X_n\\) konverguje k \\(\\mu\\) skoro jistě (almost surely):\\[\\bar X_n \\xrightarrow {\\text{a.s.}} \\mu \\quad \\text{pro} \\quad n \\to +\\infty.\\]To znamená, že množina \\(\\omega \\in \\Omega\\), kde \\(\\bar X_n(\\omega)\\) konverguje jako číselná posloupnost, má pravděpodobnost \\(1\\):\\[\\operatorname P(\\{ \\omega \\in \\Omega : \\bar X_n(\\omega) \\to \\mu \\text{ při } n \\to +\\infty \\}) = 1.\\]"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "## Poznámka Anki 1700045763217"
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "Karty Anki: 1700045763217"
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "GUID: lD3F0ME0QP; štítky: bi-pst::p08 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "Metadata původního zdroje pro kartu 1700045763217: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "Definujte konvergenci v distribuci."
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "Nechť \\(X_1, X_2, \\dots\\) je posloupnost náhodných veličin s distribučními funkcemi \\(F_{X_1}, F_{X_2}, \\dots\\) a \\(X\\) je náhodná veličina s distribuční funkcí \\(F_X\\). Říkáme, že veličiny \\(X_i\\) konvergují k \\(X\\) v distribuci,\\[X_n \\xrightarrow{\\mathcal D} X \\quad \\text{pro } n \\to +\\infty,\\]jestliže\\[\\displaystyle \\lim_{n \\to \\infty} F_{X_n}(x) = F_X(x)\\]ve všech bodech spojitosti distribuční funkce \\(F_X\\)."
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "## Poznámka Anki 1700046005844"
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "Karty Anki: 1700046005844"
+        },
+        {
+          "locator": "transcript-line:85",
+          "text": "GUID: QTUnh}w+R8; štítky: bi-pst::p08 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "Metadata původního zdroje pro kartu 1700046005844: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "Vyslovte centrální limitní větu."
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "Nechť \\(X_1, X_2, \\dots\\) je posloupnost i.i.d náhodných veličin s konečnou střední hodnotou \\(\\operatorname E X_i = \\mu\\) a konečným rozptylem \\(\\operatorname{var} X_i = \\sigma^2 > 0\\). Potom\\[\\frac{\\bar X_n - \\mu} {\\frac {\\sigma} {\\sqrt n}} \\xrightarrow {\\mathcal D} \\operatorname N(0, 1) \\quad \\text{pro} \\quad n \\to +\\infty,\\]a podobně\\[\\frac{S_n - n\\mu} {\\sigma \\sqrt n} \\xrightarrow {\\mathcal D} \\operatorname N(0, 1) \\quad \\text{pro} \\quad n \\to +\\infty.\\]"
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "## Poznámka Anki 1700046820023"
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "Karty Anki: 1700046820023"
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "GUID: IVUI@biX6G; štítky: bi-pst::p08 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "Metadata původního zdroje pro kartu 1700046820023: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "Vyslovte větu o charakteristikách průměru náhodných veličin."
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "Mějme \\(X_1, X_2, \\dots\\) náhodné i.i.d. veličiny s \\(\\operatorname E X_i = \\mu\\) a \\(\\operatorname{var} X_i = \\sigma^2\\) potom pro průměr\\[\\bar X_n = \\frac 1 n \\displaystyle \\sum_{i = 1}^n X_i\\]platí\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "\\operatorname E \\bar X_n = \\mu, \\\\"
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "\\operatorname{var} \\bar X_n = \\displaystyle \\frac {\\sigma^2} n."
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "\\end{matrix}\\]"
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "## Poznámka Anki 1700046893953"
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "Karty Anki: 1700046893954"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "GUID: nx}a[EC:Pg; štítky: bi-pst::p08 bi-spol::26."
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "Metadata původního zdroje pro kartu 1700046893954: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "Vyslovte větu o charakteristikách součtu náhodných veličin."
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "Mějme \\(X_1, X_2, \\dots\\) náhodné i.i.d. veličiny s \\(\\operatorname E X_i = \\mu\\) a \\(\\operatorname{var} X_i = \\sigma^2\\) potom pro součet\\[S_n = \\displaystyle \\sum_{i = 1}^n X_i\\]platí\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "\\operatorname E S_n = n \\mu, \\\\"
+        },
+        {
+          "locator": "transcript-line:130",
+          "text": "\\operatorname{var} S_n = n \\sigma^2."
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "\\end{matrix}\\]"
+        }
+      ],
+      "created_at": "2026-10-17T14:26:44.656310+00:00",
+      "transcript_file": "sources/anki-prednaska-08-v1/transcript/anki-prednaska-08-v1.md",
+      "transcript_sha256": "438bd7b7fd7ef253e43830135ea0ca1660b50dfffa6923f6fedc963dcb9da4f2"
+    },
+    "anki-prednaska-09-v1": {
+      "subject_id": "bi-pst",
+      "source_id": "anki-prednaska-09-v1",
+      "title": "FIT ČVUT Anki – BI-PST – Přednáška 09",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-pst/anki-prednaska-09-v1/anki-prednaska-09-v1.zip",
+      "file": "sources/anki-prednaska-09-v1/anki-prednaska-09-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "cbeb6ca4c478b635a6510ef437d88a78790cea85c8f073466332bcd9f70719e8",
+      "topic_ids": [
+        "prednaska-09"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg, SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PST – Přednáška 09"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg; APKG SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: f340f7d8957f2d6990d7a07f7c5b81fd8545ba30cdcc33d3db6bbdc37238df22."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-PST"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 12 poznámek, 12 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1700648566061"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1700648566061"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: KR-HqLVa^S; štítky: bi-pst::p09 bi-spol::26 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Definujte náhodný výběr."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Náhodným výběrem z rozdělení \\(F\\) nazveme \\(n\\)-tici i.i.d. náhodných veličin \\(X_1, \\dots, X_n\\) s distribuční funkcí \\(F\\)."
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "## Poznámka Anki 1700649791320"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Karty Anki: 1700649791320"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "GUID: Q&Tj6ghsa:; štítky: bi-pst::p09 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Definujte bodový odhad."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Bodový odhad parametru \\(\\theta\\) je funkce \\(\\hat \\theta_n(X_1, \\dots X_n)\\) náhodného výběru, která nezávisí na hodnotách \\(\\theta\\)."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "## Poznámka Anki 1700649906265"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Karty Anki: 1700649906266"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "GUID: Ap*F0k|dFk; štítky: bi-pst::p09 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "Metadata původního zdroje pro kartu 1700649906266: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "Definujte nestranný (nevychýlený) odhad."
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "Odhad \\(\\hat \\theta_n\\) parametru \\(\\theta\\) nazveme nestranný (nevychýlený), jestliže pro všechna \\(\\theta \\in \\Theta\\) platí\\[\\operatorname E \\hat \\theta_n = \\theta.\\]"
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "## Poznámka Anki 1700649996154"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "Karty Anki: 1700649996154"
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "GUID: F%LuFIEl</; štítky: bi-pst::p09 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "Metadata původního zdroje pro kartu 1700649996154: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "Definujte konzistentní odhad."
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "Odhad \\(\\hat \\theta_n\\) parametru \\(\\theta\\) se nazývá konzistentní, jestliže pro každé \\(\\theta \\in \\Theta\\) platí\\[\\hat \\theta_n \\xrightarrow{\\operatorname P} \\theta \\quad \\text{pro} \\quad n \\to +\\infty.\\]To znamená, že pro každé \\(\\varepsilon > 0\\) a \\(\\theta \\in \\Theta\\) platí\\[\\displaystyle \\lim_{n \\to +\\infty} \\operatorname P(|\\hat \\theta_n(X_1, \\dots, X_n) - \\theta| \\geq \\varepsilon) = 0.\\]"
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "## Poznámka Anki 1700651340841"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "Karty Anki: 1700651340842"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "GUID: ys=/X77k0k; štítky: bi-pst::p09 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "Metadata původního zdroje pro kartu 1700651340842: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "Definujte nejlepší nestranný odhad."
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "Odhad \\(\\hat \\theta_n^*(X_1, \\dots, X_n)\\) se nazývá nejlepší nestranný odhad parametru \\(\\theta\\), pokud je nestranný a pro každý jiný nestranný odhad \\(\\hat \\theta_n\\) platí, že pro všechna \\(\\theta \\in \\Theta\\)\\[\\operatorname{var}(\\hat \\theta_n) \\geq \\operatorname{var}(\\hat \\theta_n^*).\\]"
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "## Poznámka Anki 1700692788126"
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "Karty Anki: 1700692788126"
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "GUID: tK~C~Uos*f; štítky: bi-pst::p09 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "Popište metodu momentů."
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "Metoda momentů se používá k odhadu parametrů rozdělení. Mějme náhodný výběr \\(X_1, \\dots, X_n\\) z rozdělení určeného \\(d\\)-rozměrným parametrem \\(\\theta = (\\theta_1, \\dots, \\theta_d)\\). Potom je postup metody momentů následující:"
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "- napočteme teoretické momenty \\(\\operatorname E X_i^k, \\quad k = 1, \\dots, d\\);"
+        },
+        {
+          "locator": "transcript-line:98",
+          "text": "- vyjádříme parametry jako funkce momentů;"
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "- odhadneme teoretické momenty pomocí jejich výběrových verzí:"
+        },
+        {
+          "locator": "transcript-line:101",
+          "text": "\\[\\widehat{\\operatorname E X_i^k} = \\frac 1 n \\displaystyle \\sum_{i = 1}^n X_i^k\\]"
+        },
+        {
+          "locator": "transcript-line:103",
+          "text": "- dosadíme odhadnuté momenty do vztahů mezi parametry a teoretickými momenty;"
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "- vyřešíme soustavu rovnic a získáme tak odhady parametrů rozdělení."
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "## Poznámka Anki 1700693193168"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "Karty Anki: 1700693193168"
+        },
+        {
+          "locator": "transcript-line:109",
+          "text": "GUID: P#UrZz,e5O; štítky: bi-pst::p09 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:111",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "Definujte věrohodnostní funkci."
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "Uvažujme náhodný výběr \\(X_1, \\dots, X_n\\) se sdruženou hustotou, resp. pravděpodobností"
+        },
+        {
+          "locator": "transcript-line:118",
+          "text": "\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "f_\\theta = \\displaystyle \\prod_{i = 1}^n f_\\theta(x_i), \\\\"
+        },
+        {
+          "locator": "transcript-line:120",
+          "text": "p_\\theta = \\displaystyle \\prod_{i = 1}^n \\operatorname P_\\theta (X_i = x_i)"
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "\\end{matrix}\\]pro spojité, resp. diskrétní rozdělení. Při pevných pozorovaných hodnotách \\(\\mathbf x = (x_1, \\dots, x_n) \\) se \\(f_\\theta(\\mathbf x)\\), resp. \\(p_\\theta(\\mathbf x)\\) jakožto funkce \\(\\theta\\) nazývá věrohodnostní funkcí a značí se \\(L(\\theta; \\mathbf x)\\), případně pouze \\(L(\\theta)\\)."
+        },
+        {
+          "locator": "transcript-line:123",
+          "text": "## Poznámka Anki 1700693608606"
+        },
+        {
+          "locator": "transcript-line:125",
+          "text": "Karty Anki: 1700693608607"
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "GUID: K0pl|Baz&S; štítky: bi-pst::p09 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:128",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:130",
+          "text": "Popište metodu maximální věrohodnosti a definujte maximálně věrohodný odhad."
+        },
+        {
+          "locator": "transcript-line:132",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:134",
+          "text": "**Metoda maximální věrohodnosti** se používá k odhadu parametrů rozdělení, čehož dosahuje maximalizací věrohodnostní funkce. Hodnota \\(\\hat \\theta_n\\) parametru \\(\\theta\\), která maximalizuje věrohodnostní funkci \\(L(\\theta; \\mathbf x)\\) pro dané \\(\\mathbf X = \\mathbf x\\) se nazývá **maximálně věrohodný odhad **(MLE) parametru \\(\\theta\\). To znamená, že pro všechna \\(\\theta \\in \\Theta\\) platí"
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "\\[L(\\hat \\theta_n; \\mathbf x) \\geq L(\\theta; \\mathbf x).\\]"
+        },
+        {
+          "locator": "transcript-line:137",
+          "text": "## Poznámka Anki 1701096439082"
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "Karty Anki: 1701096439082"
+        },
+        {
+          "locator": "transcript-line:140",
+          "text": "GUID: As/H]2`b~9; štítky: bi-pst::p09 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:142",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:144",
+          "text": "Popište výběrový průměr."
+        },
+        {
+          "locator": "transcript-line:146",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:148",
+          "text": "Výběrový průměr se používá jako bodový odhad střední hodnoty \\(\\operatorname E X\\). Spočíst lze pomocí následujícího vzorce:\\[\\bar X_n = \\frac 1 n \\displaystyle \\sum_{i = 1}^n X_i.\\]"
+        },
+        {
+          "locator": "transcript-line:150",
+          "text": "## Poznámka Anki 1701096519605"
+        },
+        {
+          "locator": "transcript-line:152",
+          "text": "Karty Anki: 1701096519605"
+        },
+        {
+          "locator": "transcript-line:153",
+          "text": "GUID: b#$BP>*zKi; štítky: bi-pst::p09 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:155",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:157",
+          "text": "Popište výběrový rozptyl."
+        },
+        {
+          "locator": "transcript-line:159",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:161",
+          "text": "Výběrový rozptyl se používá jako bodový odhad rozptylu \\(\\operatorname{var} X\\). Spočíst lze pomocí následujícího vzorce:\\[s_n^2 = s_X^2 = \\frac 1 {n - 1} \\displaystyle \\sum_{i = 1}^n(X_i - \\bar X_n)^2 = \\frac 1 {n - 1} \\Big( \\displaystyle \\sum_{i = 1}^n X_i^2 - n\\bar X_n^2 \\Big).\\]"
+        },
+        {
+          "locator": "transcript-line:163",
+          "text": "## Poznámka Anki 1701096641950"
+        },
+        {
+          "locator": "transcript-line:165",
+          "text": "Karty Anki: 1701096641951"
+        },
+        {
+          "locator": "transcript-line:166",
+          "text": "GUID: K#3N!Z%$*u; štítky: bi-pst::p09 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:168",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:170",
+          "text": "Popište \\(k\\)-tý výběrový moment."
+        },
+        {
+          "locator": "transcript-line:172",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:174",
+          "text": "Jako bodový odhad \\(k\\)-tého momentu \\(\\mu_k = \\operatorname E X^k\\) můžeme použít \\(k\\)-tý výběrový moment. Spočíst lze pomocí následujícího vzorce:"
+        },
+        {
+          "locator": "transcript-line:175",
+          "text": "\\[m_k = \\frac 1 n \\displaystyle \\sum_{i = 1}^n X_i^k.\\]"
+        },
+        {
+          "locator": "transcript-line:177",
+          "text": "## Poznámka Anki 1701096813492"
+        },
+        {
+          "locator": "transcript-line:179",
+          "text": "Karty Anki: 1701096813492"
+        },
+        {
+          "locator": "transcript-line:180",
+          "text": "GUID: fN)9tpgJK_; štítky: bi-pst::p09 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:182",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:184",
+          "text": "Vyslovte větu o konzistenci odhadu."
+        },
+        {
+          "locator": "transcript-line:186",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:188",
+          "text": "Nechť \\(\\operatorname E \\hat \\theta_n^2 < +\\infty\\) pro každé \\(n\\). Pokud pro \\(n \\to +\\infty\\) platí"
+        },
+        {
+          "locator": "transcript-line:189",
+          "text": "\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:190",
+          "text": "\\operatorname E \\hat \\theta_n \\to \\theta, \\\\"
+        },
+        {
+          "locator": "transcript-line:191",
+          "text": "\\operatorname{var} \\hat \\theta_n \\to 0,"
+        },
+        {
+          "locator": "transcript-line:192",
+          "text": "\\end{matrix}\\]pak je \\(\\hat \\theta_n\\) konzistentní."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:44.688191+00:00",
+      "transcript_file": "sources/anki-prednaska-09-v1/transcript/anki-prednaska-09-v1.md",
+      "transcript_sha256": "469c33bc694f4ecc68220ca0da3c0751890fa30499787de3d8940035ba0f9f1f"
+    },
+    "anki-prednaska-10-v1": {
+      "subject_id": "bi-pst",
+      "source_id": "anki-prednaska-10-v1",
+      "title": "FIT ČVUT Anki – BI-PST – Přednáška 10",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-pst/anki-prednaska-10-v1/anki-prednaska-10-v1.zip",
+      "file": "sources/anki-prednaska-10-v1/anki-prednaska-10-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "4a627d1300d284ad75e33ef106d81bac2ed3de18968ce3e30e24cade98d040a3",
+      "topic_ids": [
+        "prednaska-10"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg, SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PST – Přednáška 10"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg; APKG SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: f340f7d8957f2d6990d7a07f7c5b81fd8545ba30cdcc33d3db6bbdc37238df22."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-PST"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 4 poznámek, 4 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1701252760047"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1701252760047"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: BZ+@t_0r|!; štítky: bi-pst::p10 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Metadata původního zdroje pro kartu 1701252760047: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Definujte interval spolehlivosti, jeho dolní a horní meze a hladinu spolehlivosti."
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "Nechť \\(X_1, \\dots, X_n\\) je náhodný výběr z rozdělení určeného parametrem \\(\\theta\\). Interval \\((L, U)\\) s krajními body určenými statistikami\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:27",
+          "text": "L \\equiv L(\\mathbf X) \\equiv L(X_1, \\dots, X_n), \\\\"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "U \\equiv U(\\mathbf X) \\equiv U(X_1, \\dots, X_n) \\\\"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "\\end{matrix}\\]splňující\\[\\operatorname P(L < \\theta < U) = 1 - \\alpha\\]se nazývá \\(100 \\cdot (1 - \\alpha)\\%\\) **interval spolehlivosti** (připadně konfidenční interval). Statistika \\(L\\) resp. \\(U\\) se nazývá **dolní** resp. **horní mez intervalu spolehlivosti**. Číslo \\((1 - \\alpha)\\) se nazývá **hladina spolehlivosti**."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "## Poznámka Anki 1701253229252"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Karty Anki: 1701253229252"
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "GUID: w.2m6Uvdjw; štítky: bi-pst::p10 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:38",
+          "text": "Vyslovte větu o oboustranném a jednostranném intervalu spolehlivosti pro střední hodnotu při známém rozptylu."
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "Mějme náhodný výběr \\(X_1, \\dots X_n\\) z normálního rozdělení \\(\\operatorname N(\\mu, \\sigma^2)\\) a předpokládejme, že známe rozptyl \\(\\sigma^2\\). **Oboustranný** \\(100 \\cdot (1 - \\alpha)\\%\\) **interval spolehlivosti** pro \\(\\mu\\) je\\[\\Big( \\bar X_n - z_{\\frac \\alpha 2} \\frac \\sigma {\\sqrt n}, \\bar X_n + z_{\\frac \\alpha 2} \\frac \\sigma {\\sqrt n} \\Big),\\]kde \\(z_{\\frac \\alpha 2} = \\Phi^{-1} \\big( 1 - \\frac \\alpha 2 \\big)\\) je kritická hodnota standardního normálního rozdělení, tj. číslo, pro které platí\\[\\operatorname P(Z > z_{\\frac \\alpha 2}) = \\frac \\alpha 2\\]pro \\(Z \\sim \\operatorname N(0, 1)\\). **Jednostranné **\\(100 \\cdot (1 - \\alpha)\\%\\) **intervaly spolehlivosti** pro \\(\\mu\\) jsou pak\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "\\Big( \\bar X_n - z_\\alpha \\frac \\sigma {\\sqrt n}, +\\infty \\Big), \\\\"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "\\Big( -\\infty, \\bar X_n + z_\\alpha \\frac \\sigma {\\sqrt n} \\Big)"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "\\end{matrix}\\]při stejném značení."
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "## Poznámka Anki 1701255557356"
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "Karty Anki: 1701255557357"
+        },
+        {
+          "locator": "transcript-line:50",
+          "text": "GUID: M*iJ>)x}k.; štítky: bi-pst::p10 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:52",
+          "text": "Metadata původního zdroje pro kartu 1701255557357: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "Vyslovte větu o oboustranném a jednostranném intervalu spolehlivosti pro střední hodnotu při neznámém rozptylu."
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "Mějme náhodný výběr \\(X_1, \\dots X_n\\) z normálního rozdělení \\(\\operatorname N(\\mu, \\sigma^2)\\). **Oboustranný** \\(100 \\cdot (1 - \\alpha)\\%\\) **interval spolehlivosti** pro \\(\\mu\\) je"
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "\\[\\Big( \\bar X_n - t_{\\frac \\alpha 2, n - 1} \\frac {s_n} {\\sqrt n}, \\bar X_n + t_{\\frac \\alpha 2, n - 1} \\frac {s_n} {\\sqrt n} \\Big),\\]kde \\(t_{\\frac \\alpha 2, n - 1} \\) je kritická hodnota Studentova \\(\\operatorname t\\)-rozdělení s \\(n - 1\\) stupni volnosti, tj. číslo, pro které platí"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "\\[\\operatorname P(X > t_{\\frac \\alpha 2, n - 1}) = \\frac \\alpha 2\\]"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "pro \\(X\\) se Studentovým \\(\\operatorname t\\)-rozdělením s \\(n - 1\\) stupni volnosti. **Jednostranné **\\(100 \\cdot (1 - \\alpha)\\%\\) **intervaly spolehlivosti** pro \\(\\mu\\) jsou pak\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "\\Big( \\bar X_n - t_{\\alpha, n - 1} \\frac {s_n} {\\sqrt n}, +\\infty \\Big), \\\\"
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "\\Big( -\\infty, \\bar X_n + t_{\\alpha, n - 1} \\frac {s_n} {\\sqrt n} \\Big)"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "\\end{matrix}\\]při stejném značení."
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "## Poznámka Anki 1701256764794"
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "Karty Anki: 1701256764794"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "GUID: QF++B!<bQK; štítky: bi-pst::p10 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "Vyslovte větu o oboustranném a jednostranném intervalu spolehlivosti pro rozptyl."
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "Mějme náhodný výběr \\(X_1, \\dots X_n\\) z normálního rozdělení \\(\\operatorname N(\\mu, \\sigma^2)\\). **Oboustranný** \\(100 \\cdot (1 - \\alpha)\\%\\) **interval spolehlivosti** pro \\(\\sigma^2\\) je\\[\\bigg( \\frac {(n - 1)s_n^2} {\\chi_{\\frac \\alpha 2, n - 1}^2 }, \\frac {(n - 1)s_n^2} {\\chi_{1 - \\frac \\alpha 2, n - 1}^2,  } \\bigg),\\]kde \\(\\chi_{\\frac \\alpha 2, n - 1}^2\\) je kritická hodnota rozdělení \\(\\chi^2\\) s \\(n - 1\\) stupni volnosti, tj. číslo, pro které platí\\[\\operatorname P(X > \\chi_{\\frac \\alpha 2, n - 1}^2) = \\frac \\alpha 2\\]pro \\(X \\sim \\chi_{n - 1}^2\\). **Jednostranné **\\(100 \\cdot (1 - \\alpha)\\%\\) **intervaly spolehlivosti** pro \\(\\sigma^2\\) jsou pak\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "\\Big( \\frac {(n - 1)s_n^2} {\\chi_{\\alpha, n - 1}^2 }, +\\infty \\Big), \\\\"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "\\Big( 0, \\frac {(n - 1)s_n^2} {\\chi_{1 - \\alpha, n - 1}^2,  } \\Big)"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "\\end{matrix}\\]při stejném značení."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:44.722164+00:00",
+      "transcript_file": "sources/anki-prednaska-10-v1/transcript/anki-prednaska-10-v1.md",
+      "transcript_sha256": "77ff276b03e4d23dd7181905a86c120727cc10be489be87156f0f529b9aedf96"
+    },
+    "anki-prednaska-11-v1": {
+      "subject_id": "bi-pst",
+      "source_id": "anki-prednaska-11-v1",
+      "title": "FIT ČVUT Anki – BI-PST – Přednáška 11",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-pst/anki-prednaska-11-v1/anki-prednaska-11-v1.zip",
+      "file": "sources/anki-prednaska-11-v1/anki-prednaska-11-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "bc9f9edc7e29c6e09a23c80cdaf7f3aa5b780b3d09fac12f6599d4220febd794",
+      "topic_ids": [
+        "prednaska-11"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg, SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PST – Přednáška 11"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg; APKG SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: f340f7d8957f2d6990d7a07f7c5b81fd8545ba30cdcc33d3db6bbdc37238df22."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-PST"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 5 poznámek, 5 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1701857807638"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1701857807638"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: AXKWNVJmn|; štítky: bi-pst::p11 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Popište hypotézu."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Mějme náhodný výběr z nějakého rozdělení. Tvrzení o tomto rozělení, která nemůžeme s jistotou potvrdit, nazýváme hypotézy. Rozlišujeme:"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "- **nulovou hypotézu** (\\(H_0\\)) - tvrzení, které chceme potvrdit nebo zamítnout;"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "- **alternativní hypotézu **(\\(H_A\\)) - opačné tvrzení, které stavíme proti \\(H_0\\)."
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "## Poznámka Anki 1701857948069"
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "Karty Anki: 1701857948069"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "GUID: E.,:M9&+i[; štítky: bi-pst::p11 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Popište chyby testování hypotéz."
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:41",
+          "text": "Při testování hypotéz se můžeme dopustit jedné ze dvou chyb:"
+        },
+        {
+          "locator": "transcript-line:43",
+          "text": "- **chyba prvního druhu** - zamítneme \\(H_0\\), přestože platí;"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "- **chyba druhého druhu** - nezamítneme \\(H_0\\), přestože neplatí, tedy platí \\(H_A\\)."
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "## Poznámka Anki 1701858035504"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "Karty Anki: 1701858035504"
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "GUID: JY[>4D9w[0; štítky: bi-pst::p11 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "Popište hladinu významnosti testu a sílu testu."
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "Chceme, aby pravděpodobnost chyby prvního druhu byla nejvýš rovna zvolené hodnotě \\(\\alpha\\), kterou nazýváme **hladinou významnosti testu**. **Sílou testu** pak nazýváme hodnotu \\(1 - \\operatorname P(\\text{chyba druhého druhu})\\)."
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "## Poznámka Anki 1701858167763"
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "Karty Anki: 1701858167763"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "GUID: E)C#&o=tC;; štítky: bi-pst::p11 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "Metadata původního zdroje pro kartu 1701858167763: modrý příznak autora: v poslední verzi upraveno."
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "Popište možné výsledky testování hypotéz. Jak volíme nulovou a alternativní hypotézu?"
+        },
+        {
+          "locator": "transcript-line:70",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:72",
+          "text": "Testování hypotéz může mít následující výsledky:"
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "- zamítáme hypotézu \\(H_0\\) ve prospěch \\(H_A\\) s možnou malou pravděpodobností chyby \\(\\alpha\\),"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "- nezamítáme \\(H_0\\)."
+        },
+        {
+          "locator": "transcript-line:77",
+          "text": "Nulovou hypotézu \\(H_0\\) volíme tak, aby její neoprávněné zamítnutí (tedy chyba prvního druhu) byla závažnější než chyba druhého druhu. Hypotézu, kterou potřebujeme prověřit, volíme jako alternativní hypotézu \\(H_A\\)."
+        },
+        {
+          "locator": "transcript-line:79",
+          "text": "## Poznámka Anki 1716292525979"
+        },
+        {
+          "locator": "transcript-line:81",
+          "text": "Karty Anki: 1716292525979"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "GUID: m9ahO!o!MY; štítky: bi-pst::p11 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "Popište typy hypotéz."
+        },
+        {
+          "locator": "transcript-line:88",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:90",
+          "text": "Hypotézy rozdělujeme na dva druhy:"
+        },
+        {
+          "locator": "transcript-line:92",
+          "text": "- **neparametrické** - tvrzení týkající se vlastností rozdělení nebo jeho tvaru (testy dobré shody), používají výběr z obecného rozdělení;"
+        },
+        {
+          "locator": "transcript-line:94",
+          "text": "- **parametrické** - tvrzení týkající se hodnoty parametru \\(\\theta \\in \\mathbb R^d\\), používají náhodný výběr z rozdělení s parametrem \\(\\theta\\)."
+        }
+      ],
+      "created_at": "2026-10-17T14:26:44.755263+00:00",
+      "transcript_file": "sources/anki-prednaska-11-v1/transcript/anki-prednaska-11-v1.md",
+      "transcript_sha256": "16a5695bd2b0b872569e0fe2fffd84296871aa63b58ce5cff4a7a4f6d04a8558"
+    },
+    "anki-prednaska-12-v1": {
+      "subject_id": "bi-pst",
+      "source_id": "anki-prednaska-12-v1",
+      "title": "FIT ČVUT Anki – BI-PST – Přednáška 12",
+      "version": "2026-10-17T16:26:38+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-package-study-5z75_huc/exports/bi-pst/anki-prednaska-12-v1/anki-prednaska-12-v1.zip",
+      "file": "sources/anki-prednaska-12-v1/anki-prednaska-12-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "d1905cfa421cba777863eac66d0e09732b4b6e6d8076beaa106ab7eaf4b093d8",
+      "topic_ids": [
+        "prednaska-12"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Odvozený export APKG /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg, SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11, verze 2026-10-17T16:26:38+02:00. ZIP obsahuje přesná původní pole, šablony, makra, média a metadata karet včetně autorových příznaků. Markdown je čitelný přepis přes HTMLParser; matematika a sub/sup zůstaly zachované. Citace jsou transcript-line:N. Před použitím vzorců, obrázků a tabulek provést vizuální kontrolu. Původní soubor APKG zůstal na místě; do knihovny se přesouvá vytvořený export a jeho přepis. Příznaky chyb a pozastavení jsou upozorněním autora; nepředstavují výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PST – Přednáška 12"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: FIT ČVUT Anki, /mnt/c/Users/kryst/Desktop/One drive-local/fit-cvut-anki-master/fit-cvut-anki-master/fit-cvut-anki-master/bi-pst/BI-PST.apkg; APKG SHA-256 1b0cea15a4362f71d40f74130e70b25176d8b28f02d0546ab2b515682157fa11. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:26:38+02:00. Původní kolekce SHA-256: f340f7d8957f2d6990d7a07f7c5b81fd8545ba30cdcc33d3db6bbdc37238df22."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: BI-PST"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 4 poznámek, 4 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "Příznaky a pozastavení patří autorovi zdroje, nikoli studijnímu postupu uživatele. Dle README: červená = chyba nebo kontrola, oranžová = určeno k odstranění, zelená = duplicita, modrá = poslední úprava. Tyto karty zůstaly zachované a označené."
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "## Poznámka Anki 1702462740630"
+        },
+        {
+          "locator": "transcript-line:15",
+          "text": "Karty Anki: 1702462740631"
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "GUID: P@.RaLBWh@; štítky: bi-pst::p12 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "Popište výběrovou kovarianci."
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "Výběrová kovariance se používá jako bodový odhad kovariance \\(\\operatorname{cov}(X, Y)\\). Spočíst ji lze pomocí následujícího vzorce:\\[s_{X, Y} = \\frac 1 {n - 1} \\displaystyle \\sum_{i = 1}^n (X_i - \\bar X_n)(Y_i - \\bar Y_n) = \\frac 1 {n - 1} \\Big( \\displaystyle \\sum_{i  =1}^n X_i Y_i - n \\bar X_n \\bar Y_n \\Big).\\]"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "## Poznámka Anki 1702464147224"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Karty Anki: 1702464147224"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "GUID: F^lR|Sc/@W; štítky: bi-pst::p12."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Popište lineární regresní model."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Lineární regresní model se používá pro popis lineární závislosti. Je dán vztahem"
+        },
+        {
+          "locator": "transcript-line:38",
+          "text": "\\[Y_i = \\alpha + \\beta x_i + \\varepsilon_i, \\quad i = 1, \\dots, n.\\]Předpokládáme, že"
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "- \\(x_i\\) jsou dané hodnoty,"
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "- \\(\\varepsilon_i\\) jsou i.i.d. náhodné veličiny s nulovou střední hodnotu (experimentální chyby) často s \\(\\operatorname N(0, \\sigma^2)\\),"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "- \\(\\alpha\\) a \\(\\beta\\) jsou neznámé parametry."
+        },
+        {
+          "locator": "transcript-line:46",
+          "text": "## Poznámka Anki 1702464396020"
+        },
+        {
+          "locator": "transcript-line:48",
+          "text": "Karty Anki: 1702464396020"
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "GUID: OmIr!I^gQL; štítky: bi-pst::p12."
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "Popište, jak odhadnout parametry \\(\\alpha\\) a \\(\\beta\\) lineárního regresního modelu."
+        },
+        {
+          "locator": "transcript-line:55",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:57",
+          "text": "Odhady \\(a\\) a \\(b\\) parametrů \\(\\alpha\\) a \\(\\beta\\) lineárního regresního modelu získáme metodou nejmenších čtverců jako"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "\\[\\begin{matrix}"
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "b = \\displaystyle \\frac{ \\sum_{i = 1}^n X_i Y_i - n \\bar X_n \\bar Y_n}{ \\sum_{i = 1}^n X_i^2 - n \\bar X_n^2} = \\frac {s_{X, Y}} {s_X^2} = r_{X, Y} \\frac {s_Y}{s_X}, \\\\"
+        },
+        {
+          "locator": "transcript-line:60",
+          "text": "a = \\bar Y_n - b \\bar X_n."
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "\\end{matrix}\\]Potom jsou hodnoty"
+        },
+        {
+          "locator": "transcript-line:62",
+          "text": "\\[\\hat Y_i = a + b \\cdot x_i\\]nejlepšími aproximacemi lineárního regresního modelu."
+        },
+        {
+          "locator": "transcript-line:64",
+          "text": "## Poznámka Anki 1702480539877"
+        },
+        {
+          "locator": "transcript-line:66",
+          "text": "Karty Anki: 1702480539883"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "GUID: LbCun8I+o/; štítky: bi-pst::p12 bi-spol::27."
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "Popište výběrový korelační koeficient."
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:75",
+          "text": "Výběrový korelační koeficient se používá jako bodový odhad korelačního koeficientu \\(\\operatorname \\rho(X, Y)\\). Spočíst ho lze pomocí následujícího vzorce:\\[r_{X, Y} = \\frac {s_{X, Y}} {s_X s_Y}.\\]"
+        }
+      ],
+      "created_at": "2026-10-17T14:26:44.790087+00:00",
+      "transcript_file": "sources/anki-prednaska-12-v1/transcript/anki-prednaska-12-v1.md",
+      "transcript_sha256": "b939e4316edc4769ea816e4b6cf86aa02febc52ec0ac593717d38a8a2f57e454"
+    }
+  },
+  "checkpoints": []
+}

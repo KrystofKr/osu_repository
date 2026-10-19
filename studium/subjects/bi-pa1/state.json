@@ -1,0 +1,3390 @@
+{
+  "schema_version": 1,
+  "subject_id": "bi-pa1",
+  "name": "BI-PA1",
+  "goals": [
+    "Porozumět obsahu Anki balíčku BI-PA1, vysvětlovat odpovědi a samostatně řešit jeho otázky a úlohy."
+  ],
+  "created_at": "2026-10-17T14:00:59.449200+00:00",
+  "topics": {
+    "prednaska-07": {
+      "subject_id": "bi-pa1",
+      "topic_id": "prednaska-07",
+      "title": "Přednáška 07",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 07“ z balíčku BI-PA1."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-08": {
+      "subject_id": "bi-pa1",
+      "topic_id": "prednaska-08",
+      "title": "Přednáška 08",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 08“ z balíčku BI-PA1."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "prednaska-09": {
+      "subject_id": "bi-pa1",
+      "topic_id": "prednaska-09",
+      "title": "Přednáška 09",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Přednáška 09“ z balíčku BI-PA1."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    },
+    "zakladni-sada": {
+      "subject_id": "bi-pa1",
+      "topic_id": "zakladni-sada",
+      "title": "Základní sada otázek",
+      "objectives": [
+        "Vysvětlit odpovědi a samostatně zodpovědět otázky sady „Základní sada otázek“ z balíčku BI-PA1."
+      ],
+      "prerequisites": [],
+      "status": "unseen",
+      "misconceptions": [],
+      "review_on": null
+    }
+  },
+  "sources": {
+    "anki-prednaska-07-v1": {
+      "subject_id": "bi-pa1",
+      "source_id": "anki-prednaska-07-v1",
+      "title": "Anki – BI-PA1 – Přednáška 07",
+      "version": "2026-10-17T16:00:56+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-study-import-zhtvc_y1/exports/bi-pa1/anki-prednaska-07-v1/anki-prednaska-07-v1.zip",
+      "file": "sources/anki-prednaska-07-v1/anki-prednaska-07-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "8d0bc4b81fefc3247107d59f6404b768462c5974814384496c6cba607f29a09f",
+      "topic_ids": [
+        "prednaska-07"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Export z místního Anki profilu User 1, kolekce /mnt/c/Users/kryst/AppData/Roaming/Anki2/User 1/collection.anki2, verze 2026-10-17T16:00:56+02:00. ZIP je původní strojový export polí HTML, identifikátorů, šablon a médií; Markdown je odvozený čitelný přepis pomocí HTMLParser, bez doplňování učiva. Podtržítka a horní indexy HTML zůstávají jako sub/sup, MathJax/TeX se zachovává. Přesný přepis se cituje transcript-line:N. Obrázky a vzorce vyžadují před výukou vizuální kontrolu. Odkazy na externí dokumenty nebyly načtené. Import nezapisuje výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PA1 – Přednáška 07"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: místní Anki, profil User 1. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:00:56+02:00. Původní kolekce SHA-256: 0d1f9aa982a5c3eaa31cfd838f48afceda879ae758526167d718d7f2d6347255."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: before OSU::BI-PA1"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 1 poznámek, 1 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "## Poznámka Anki 1718548827661"
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "Karty Anki: 1718548827661"
+        },
+        {
+          "locator": "transcript-line:14",
+          "text": "GUID: lJZ.gpYf2A; štítky: bi-pa1::p07 bi-spol::19."
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Popište ukazatel (pointer), operace s ním spjaté a jeho využití."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Ukazatel (pointer) je datový typ představující odkaz na objekt programovacího jazyka, který se používá jako abstrakce adresy. S ukazatelem se pojí operátory:"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "- **address-of** (reference) - získá adresu daného objektu"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "\\[\\texttt{ T *x_ptr = &x;}\\]"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "- **indirection** (dereference) - přistoupí k objektu odkazovanému ukazatelem"
+        },
+        {
+          "locator": "transcript-line:30",
+          "text": "\\[\\texttt{T y = *x_ptr;}\\]"
+        },
+        {
+          "locator": "transcript-line:32",
+          "text": "Speciální hodnotou ukazatele je \\(\\texttt{nullptr}\\), která vyjadřuje „prázdný“ ukazatel. Ukazatele jsou využívány při:"
+        },
+        {
+          "locator": "transcript-line:34",
+          "text": "- předávání výstupních parametrů funkcím,"
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "- předávání objektů, jejichž kopírování je náročné, jako parametry funkcí,"
+        },
+        {
+          "locator": "transcript-line:36",
+          "text": "- přístupu k dynamicky alokovaným objektům."
+        }
+      ],
+      "created_at": "2026-10-17T14:01:02.430721+00:00",
+      "transcript_file": "sources/anki-prednaska-07-v1/transcript/anki-prednaska-07-v1.md",
+      "transcript_sha256": "3f62fe84bd052aba1a6ef7fd972cf438d5145904d5f424dbee597c7c7d23274f"
+    },
+    "anki-prednaska-08-v1": {
+      "subject_id": "bi-pa1",
+      "source_id": "anki-prednaska-08-v1",
+      "title": "Anki – BI-PA1 – Přednáška 08",
+      "version": "2026-10-17T16:00:56+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-study-import-zhtvc_y1/exports/bi-pa1/anki-prednaska-08-v1/anki-prednaska-08-v1.zip",
+      "file": "sources/anki-prednaska-08-v1/anki-prednaska-08-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "f0878c9b18d825ecab6fc14a08b7c820384ac28b8b597c0ab73d891593fe5735",
+      "topic_ids": [
+        "prednaska-08"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Export z místního Anki profilu User 1, kolekce /mnt/c/Users/kryst/AppData/Roaming/Anki2/User 1/collection.anki2, verze 2026-10-17T16:00:56+02:00. ZIP je původní strojový export polí HTML, identifikátorů, šablon a médií; Markdown je odvozený čitelný přepis pomocí HTMLParser, bez doplňování učiva. Podtržítka a horní indexy HTML zůstávají jako sub/sup, MathJax/TeX se zachovává. Přesný přepis se cituje transcript-line:N. Obrázky a vzorce vyžadují před výukou vizuální kontrolu. Odkazy na externí dokumenty nebyly načtené. Import nezapisuje výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PA1 – Přednáška 08"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: místní Anki, profil User 1. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:00:56+02:00. Původní kolekce SHA-256: 0d1f9aa982a5c3eaa31cfd838f48afceda879ae758526167d718d7f2d6347255."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: before OSU::BI-PA1"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 1 poznámek, 1 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "## Poznámka Anki 1718549399893"
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "Karty Anki: 1718549399893"
+        },
+        {
+          "locator": "transcript-line:14",
+          "text": "GUID: t74$EeB,k$; štítky: bi-pa1::p08 bi-spol::19."
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Popište ukazatelovou aritmetiku (pointer arithmetic)."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Ukazatelová arimetika (pointer arithmetic) spočívá v použití aritmetických a porovnávacích operátorů na ukazetele. Konkrétně pro ukazatel \\(\\texttt p\\) typu \\(\\texttt{T*}\\) a proměnnou \\(\\texttt n\\) typu \\(\\texttt{int}\\) se operace"
+        },
+        {
+          "locator": "transcript-line:23",
+          "text": "\\[\\texttt{p + n} \\quad \\text{resp.} \\quad \\texttt{p - n}\\]provádí tak, že adresa uložená v \\(\\texttt p\\) je zvětšena resp. zmenšena o \\(\\texttt n \\cdot \\texttt{sizeof(T)}\\) bytů. Operaci přičítání s dereferencí (indirection) lze navíc nahradit subscript operátorem"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "\\[\\texttt{*(p + n)} \\equiv \\texttt{p[n]}.\\]Rozdílem dvou ukazatelů je však hodnota typu \\(\\texttt{std::ptrdiff_t}\\), která obsahuje počet prvků mezi danými ukazateli."
+        }
+      ],
+      "created_at": "2026-10-17T14:01:02.450391+00:00",
+      "transcript_file": "sources/anki-prednaska-08-v1/transcript/anki-prednaska-08-v1.md",
+      "transcript_sha256": "083285cac80908f061f0c1c4de5c63b2d2fc060fd3e4a622aa6f174bc901a3ee"
+    },
+    "anki-prednaska-09-v1": {
+      "subject_id": "bi-pa1",
+      "source_id": "anki-prednaska-09-v1",
+      "title": "Anki – BI-PA1 – Přednáška 09",
+      "version": "2026-10-17T16:00:56+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-study-import-zhtvc_y1/exports/bi-pa1/anki-prednaska-09-v1/anki-prednaska-09-v1.zip",
+      "file": "sources/anki-prednaska-09-v1/anki-prednaska-09-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "74435ac50ec0c1bc7382e8604978df2529ebfbee6df780e421be28abc7a1127e",
+      "topic_ids": [
+        "prednaska-09"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Export z místního Anki profilu User 1, kolekce /mnt/c/Users/kryst/AppData/Roaming/Anki2/User 1/collection.anki2, verze 2026-10-17T16:00:56+02:00. ZIP je původní strojový export polí HTML, identifikátorů, šablon a médií; Markdown je odvozený čitelný přepis pomocí HTMLParser, bez doplňování učiva. Podtržítka a horní indexy HTML zůstávají jako sub/sup, MathJax/TeX se zachovává. Přesný přepis se cituje transcript-line:N. Obrázky a vzorce vyžadují před výukou vizuální kontrolu. Odkazy na externí dokumenty nebyly načtené. Import nezapisuje výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PA1 – Přednáška 09"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: místní Anki, profil User 1. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:00:56+02:00. Původní kolekce SHA-256: 0d1f9aa982a5c3eaa31cfd838f48afceda879ae758526167d718d7f2d6347255."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: before OSU::BI-PA1"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 1 poznámek, 1 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "## Poznámka Anki 1718550414611"
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "Karty Anki: 1718550414611"
+        },
+        {
+          "locator": "transcript-line:14",
+          "text": "GUID: v)moy2-wqy; štítky: bi-pa1::p09 bi-spol::20."
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "Obecně popište časovou složitost algoritmu."
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Časová složitost vyjadřuje závislost času nutného pro provedení algoritmu na velikosti vstupních dat. Měří se v počtu provedených operací a obvykle je vyjádřena v asymptotické notaci pomocí \\(\\mathcal O\\), která označuje nejhorší případ, kromě něj je ale možné uvažovat i průměrný případ. Důležité je, že časová složitost algoritmu je nezávislá na:"
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "- implementaci,"
+        },
+        {
+          "locator": "transcript-line:25",
+          "text": "- programovacím jazyce,"
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "- počítačovém hardware."
+        }
+      ],
+      "created_at": "2026-10-17T14:01:02.469770+00:00",
+      "transcript_file": "sources/anki-prednaska-09-v1/transcript/anki-prednaska-09-v1.md",
+      "transcript_sha256": "2b4e941c579792aa64953c64731ce782223c1f8895e55a0bc132bd60d7cae0a5"
+    },
+    "anki-zakladni-sada-v1": {
+      "subject_id": "bi-pa1",
+      "source_id": "anki-zakladni-sada-v1",
+      "title": "Anki – BI-PA1 – Základní sada otázek",
+      "version": "2026-10-17T16:00:56+02:00",
+      "priority": "primary",
+      "original_path": "/tmp/anki-study-import-zhtvc_y1/exports/bi-pa1/anki-zakladni-sada-v1/anki-zakladni-sada-v1.zip",
+      "file": "sources/anki-zakladni-sada-v1/anki-zakladni-sada-v1.zip",
+      "ingest_mode": "move",
+      "sha256": "d856c0266f7d70995e743db525f83916806aeeb43b8fc381a466330406649c17",
+      "topic_ids": [
+        "zakladni-sada"
+      ],
+      "indexed": true,
+      "extraction_note": null,
+      "note": "Export z místního Anki profilu User 1, kolekce /mnt/c/Users/kryst/AppData/Roaming/Anki2/User 1/collection.anki2, verze 2026-10-17T16:00:56+02:00. ZIP je původní strojový export polí HTML, identifikátorů, šablon a médií; Markdown je odvozený čitelný přepis pomocí HTMLParser, bez doplňování učiva. Podtržítka a horní indexy HTML zůstávají jako sub/sup, MathJax/TeX se zachovává. Přesný přepis se cituje transcript-line:N. Obrázky a vzorce vyžadují před výukou vizuální kontrolu. Odkazy na externí dokumenty nebyly načtené. Import nezapisuje výsledky studenta.",
+      "passages": [
+        {
+          "locator": "transcript-line:1",
+          "text": "# BI-PA1 – Základní sada otázek"
+        },
+        {
+          "locator": "transcript-line:3",
+          "text": "Původ: místní Anki, profil User 1. Jde o export kartiček, nikoli ověřené znění učebnice."
+        },
+        {
+          "locator": "transcript-line:4",
+          "text": "Verze exportu: 2026-10-17T16:00:56+02:00. Původní kolekce SHA-256: 0d1f9aa982a5c3eaa31cfd838f48afceda879ae758526167d718d7f2d6347255."
+        },
+        {
+          "locator": "transcript-line:5",
+          "text": "Původní balíčky: before OSU::BI-PA1"
+        },
+        {
+          "locator": "transcript-line:6",
+          "text": "Rozsah: 87 poznámek, 87 karet."
+        },
+        {
+          "locator": "transcript-line:7",
+          "text": "ZIP zachovává přesná pole HTML, identifikátory, štítky, šablony a přiložená média."
+        },
+        {
+          "locator": "transcript-line:8",
+          "text": "Matematický zápis je zachovaný; před výukou vzorců, tabulek a obrázků ověřit originál vizuálně."
+        },
+        {
+          "locator": "transcript-line:9",
+          "text": "Existující odpovědi a případné chyby jsou obsahem zdroje; nepředstavují ověření znalostí studenta."
+        },
+        {
+          "locator": "transcript-line:11",
+          "text": "## Poznámka Anki 1641426159931"
+        },
+        {
+          "locator": "transcript-line:13",
+          "text": "Karty Anki: 1641426159932"
+        },
+        {
+          "locator": "transcript-line:14",
+          "text": "GUID: HE<I&`nmc$; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:16",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:18",
+          "text": "ADT Set (množina) vs ADT List (seznam)"
+        },
+        {
+          "locator": "transcript-line:20",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:22",
+          "text": "Množina by měla být bez duplicit a je neuspořádaná, je často reprezentována jako binární vyhledávací strom."
+        },
+        {
+          "locator": "transcript-line:24",
+          "text": "V seznamu se mohou objevit duplicity a má pořadí. Ve spojovém seznamu na sebe prvky navzájem odkazují."
+        },
+        {
+          "locator": "transcript-line:26",
+          "text": "## Poznámka Anki 1641426366384"
+        },
+        {
+          "locator": "transcript-line:28",
+          "text": "Karty Anki: 1641426366394"
+        },
+        {
+          "locator": "transcript-line:29",
+          "text": "GUID: DcOdxM9X,p; štítky: bi-pa1::ustni bi-spol::19."
+        },
+        {
+          "locator": "transcript-line:31",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:33",
+          "text": "Popište endianitu (little endian a big endian)."
+        },
+        {
+          "locator": "transcript-line:35",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:37",
+          "text": "Endianita označuje pořadí, ve kterém jsou jednotlivé byty vícebytových dat adresovány v paměti nebo přenášeny po komunikačním médiu. Rozlišujeme:"
+        },
+        {
+          "locator": "transcript-line:39",
+          "text": "- **little endian **- nejméně významný byte leží na nejnižší adrese (je přenášen jako první),"
+        },
+        {
+          "locator": "transcript-line:40",
+          "text": "- **big endian** - nejvíce významný byte leží na nejnižší adrese (je přenášen jako první)."
+        },
+        {
+          "locator": "transcript-line:42",
+          "text": "## Poznámka Anki 1641461296909"
+        },
+        {
+          "locator": "transcript-line:44",
+          "text": "Karty Anki: 1641461296910"
+        },
+        {
+          "locator": "transcript-line:45",
+          "text": "GUID: dsRQ]+!wl=; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:47",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:49",
+          "text": "Co je medián a jak souvisí s pojmem pivot? Kde se používají a jak se dají určit?"
+        },
+        {
+          "locator": "transcript-line:51",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:53",
+          "text": "Medián je střední hodnota dané množiny a dělí ji tak na dvě poloviny."
+        },
+        {
+          "locator": "transcript-line:54",
+          "text": "Pivot je kandidátem na střední hodnotu. Využívá se např. v Quicksortu. Zde ale není množina předem seřazena, a tak se vybírá ze tří náhodných prvků. Čím bíže je pivot ke skutečnému mediánu, tím rychlejší Quicksort je."
+        },
+        {
+          "locator": "transcript-line:56",
+          "text": "## Poznámka Anki 1641461515192"
+        },
+        {
+          "locator": "transcript-line:58",
+          "text": "Karty Anki: 1641461515193"
+        },
+        {
+          "locator": "transcript-line:59",
+          "text": "GUID: wy/J8d1X}2; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:61",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:63",
+          "text": "Co vyjadřuje asymptotická složitost algoritmu, proč bychom se jí měli zabývat?"
+        },
+        {
+          "locator": "transcript-line:65",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:67",
+          "text": "Asymptotická složitost vyjadřuje nejhorší možnou složitost programu vzhledem k velikosti vstupních dat."
+        },
+        {
+          "locator": "transcript-line:68",
+          "text": "Zanedbává aditivní a multiplikativní konstanty."
+        },
+        {
+          "locator": "transcript-line:69",
+          "text": "Vyjadřuje se jako: \\(O(f(n))\\)"
+        },
+        {
+          "locator": "transcript-line:71",
+          "text": "## Poznámka Anki 1641461996320"
+        },
+        {
+          "locator": "transcript-line:73",
+          "text": "Karty Anki: 1641461996320"
+        },
+        {
+          "locator": "transcript-line:74",
+          "text": "GUID: jE&pJxAbBp; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:76",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:78",
+          "text": "Jak je definována množina funkcí omikron \\(O(f(n))\\) pro nějakou funkci \\(f(n)\\)?"
+        },
+        {
+          "locator": "transcript-line:80",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:82",
+          "text": "Množina omikron \\(O(f(n))\\) je množina všech funkcí, které rostou pomaleji nebo stejně ryhle jako \\(f(n)\\). Jde tedy o nejhorší možnost složitosti algoritmu, která může pro libovolná vstupní data nastat."
+        },
+        {
+          "locator": "transcript-line:84",
+          "text": "## Poznámka Anki 1641462055831"
+        },
+        {
+          "locator": "transcript-line:86",
+          "text": "Karty Anki: 1641462055831"
+        },
+        {
+          "locator": "transcript-line:87",
+          "text": "GUID: IEVG>{Z]GN; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:89",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:91",
+          "text": "Jaké chyby mohou nastat při kopírování jednoho souboru do druhého a jak tyto chyby ošetříme?"
+        },
+        {
+          "locator": "transcript-line:93",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:95",
+          "text": "rozdílný typ souborů, soubor neexistuje, nemáme dostatečná práva, není dostatek místa na disku"
+        },
+        {
+          "locator": "transcript-line:97",
+          "text": "## Poznámka Anki 1641462256882"
+        },
+        {
+          "locator": "transcript-line:99",
+          "text": "Karty Anki: 1641462256883"
+        },
+        {
+          "locator": "transcript-line:100",
+          "text": "GUID: dg%HEWEo{I; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:102",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:104",
+          "text": "Jaké jsou typické operace pro ADT množinu?"
+        },
+        {
+          "locator": "transcript-line:106",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:108",
+          "text": "vložení prvku do množiny, odebrání prvku z množiny, dotaz na existenci prvku v množině, dotaz na počet prvků v množině, dotaz na shodnost dvou množin, typické množinové operace \\(\\cup, \\cap, \\backslash, \\times, \\subset, ...\\)"
+        },
+        {
+          "locator": "transcript-line:110",
+          "text": "## Poznámka Anki 1641462862432"
+        },
+        {
+          "locator": "transcript-line:112",
+          "text": "Karty Anki: 1641462862432"
+        },
+        {
+          "locator": "transcript-line:113",
+          "text": "GUID: uB|TJiJG%_; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:115",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:117",
+          "text": "K čemu slouží Eratosthénovo síto, jak se používá a jaká je jeho složitost ?"
+        },
+        {
+          "locator": "transcript-line:119",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:121",
+          "text": "Slouží k nalezení všech prvočísel menších než je zadaná horní mez. Na počátku máme seznam od 2 do zadané meze. Odebereme první číslo seznamu (uložíme jej jako pročíslo) a odstraníme všechny jeho násobky. Opakujeme dokud neodstraníme poslední číslo nebo dokud není za prvočíslo označeno číslo vyšší než odmocnina horní meze."
+        },
+        {
+          "locator": "transcript-line:122",
+          "text": "\\(O(n \\cdot \\log(\\log(n))\\)"
+        },
+        {
+          "locator": "transcript-line:124",
+          "text": "## Poznámka Anki 1641463104744"
+        },
+        {
+          "locator": "transcript-line:126",
+          "text": "Karty Anki: 1641463104744"
+        },
+        {
+          "locator": "transcript-line:127",
+          "text": "GUID: K=lq1U;EBU; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:129",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:131",
+          "text": "Co je to symetrická diference?"
+        },
+        {
+          "locator": "transcript-line:133",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:135",
+          "text": "[Obrázek: paste-6de5b89e4bcc221d15ed1d8f8000dc34e936a9ef.jpg; soubor je v media/ v doprovodném ZIP]"
+        },
+        {
+          "locator": "transcript-line:137",
+          "text": "## Poznámka Anki 1641463445788"
+        },
+        {
+          "locator": "transcript-line:139",
+          "text": "Karty Anki: 1641463445788"
+        },
+        {
+          "locator": "transcript-line:140",
+          "text": "GUID: QNTsfcus,9; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:142",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:144",
+          "text": "Co je a k čemu slouží abstraktní datový typ a jaké jsou jeho příklady?"
+        },
+        {
+          "locator": "transcript-line:146",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:148",
+          "text": "Abstraktní datový typ (**ADT**) je **datová struktura**, která je definována **svým chováním** (jaká operace se s ní dá provádět), ale **ne způsobem její implementace**."
+        },
+        {
+          "locator": "transcript-line:149",
+          "text": "Příklady: queue (fronta), stack (zásobník), array (pole), table/map (tabulka), list (seznam), tree (strom), set (množina), ..."
+        },
+        {
+          "locator": "transcript-line:151",
+          "text": "## Poznámka Anki 1641463523091"
+        },
+        {
+          "locator": "transcript-line:153",
+          "text": "Karty Anki: 1641463523092"
+        },
+        {
+          "locator": "transcript-line:154",
+          "text": "GUID: GcgbXRM8L7; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:156",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:158",
+          "text": "Co je a k čemu slouží binární strom?"
+        },
+        {
+          "locator": "transcript-line:160",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:162",
+          "text": "Binární vyhledávací strom je příklad ADT. Slouží např. pro reprezentaci množiny. Umožňuje efektivní vyhledávání."
+        },
+        {
+          "locator": "transcript-line:164",
+          "text": "## Poznámka Anki 1641463626653"
+        },
+        {
+          "locator": "transcript-line:166",
+          "text": "Karty Anki: 1641463626653"
+        },
+        {
+          "locator": "transcript-line:167",
+          "text": "GUID: n-NvXFLIn!; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:169",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:171",
+          "text": "Co je EOF a k čemu lze použít?"
+        },
+        {
+          "locator": "transcript-line:173",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:175",
+          "text": "EOF (End Of File) je příznak označující konec datového zdroje (běžně soubor nebo např. stdin). Lze použít jako ověření konce vstupu od uživatele programu."
+        },
+        {
+          "locator": "transcript-line:177",
+          "text": "## Poznámka Anki 1641463717410"
+        },
+        {
+          "locator": "transcript-line:179",
+          "text": "Karty Anki: 1641463717410"
+        },
+        {
+          "locator": "transcript-line:180",
+          "text": "GUID: L&zEP#V.P:; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:182",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:184",
+          "text": "Co je lineární spojová struktura? Ukažte její vytvoření pro hodnoty typu int."
+        },
+        {
+          "locator": "transcript-line:186",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:188",
+          "text": "Spojový seznam je příklad ADT. Skládá se ze struktur (node), které obsahují vždy vlastní hodnotu prvku v seznamu a podle toho, zda je seznam jednosměrně nebo obousměrně zřetězený, odkazy na následující a předcházející prvek."
+        },
+        {
+          "locator": "transcript-line:190",
+          "text": "## Poznámka Anki 1641463874632"
+        },
+        {
+          "locator": "transcript-line:192",
+          "text": "Karty Anki: 1641463874632"
+        },
+        {
+          "locator": "transcript-line:193",
+          "text": "GUID: bJL}219{oO; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:195",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:197",
+          "text": "Co je makro v C jak funguje? Uveďte příklad."
+        },
+        {
+          "locator": "transcript-line:199",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:201",
+          "text": "Makro je textová náhrada definovaná direktivou `#define`. Zpracuje ji preprocesor před samotnou kompilací. Ne každá direktiva preprocesoru je makro."
+        },
+        {
+          "locator": "transcript-line:203",
+          "text": "## Poznámka Anki 1641464061668"
+        },
+        {
+          "locator": "transcript-line:205",
+          "text": "Karty Anki: 1641464061668"
+        },
+        {
+          "locator": "transcript-line:206",
+          "text": "GUID: xx*}F}GBQ;; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:208",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:210",
+          "text": "Co je podmíněný překlad v C? Uveďte příklad."
+        },
+        {
+          "locator": "transcript-line:212",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:214",
+          "text": "Podmíněný překlad je řízen direktivami pro preprocesor, který zpracovává zdrojový kód před kompilací. Na základě zadané podmínky, kterou vyhodnotí, zpracuje kód v podmíněném překladu. Direktivy začínají **# **a příkladem je: **#ifdef** a **#endif**, **#ifndef**, **#endif**, **#if**, **#elif** a **#else**, ..."
+        },
+        {
+          "locator": "transcript-line:216",
+          "text": "## Poznámka Anki 1641464345933"
+        },
+        {
+          "locator": "transcript-line:218",
+          "text": "Karty Anki: 1641464345933"
+        },
+        {
+          "locator": "transcript-line:219",
+          "text": "GUID: z]riPX76IP; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:221",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:223",
+          "text": "Co je rekurze?"
+        },
+        {
+          "locator": "transcript-line:225",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:227",
+          "text": "Rekurzivní funkce je taková funkce, která volá sama sebe."
+        },
+        {
+          "locator": "transcript-line:229",
+          "text": "## Poznámka Anki 1641464402669"
+        },
+        {
+          "locator": "transcript-line:231",
+          "text": "Karty Anki: 1641464402669"
+        },
+        {
+          "locator": "transcript-line:232",
+          "text": "GUID: H.Pp@gQCBV; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:234",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:236",
+          "text": "Co je sekvenční přístup k souboru? Jaký by mohl být jiný a jak se liší?"
+        },
+        {
+          "locator": "transcript-line:238",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:240",
+          "text": "Sekvenční přístup přistupuje k záznamům popořadě (k jednomu za druhým) zatímco přímý přístup přistupuje zcela libovolně podle potřeby zpracování."
+        },
+        {
+          "locator": "transcript-line:242",
+          "text": "## Poznámka Anki 1641464493263"
+        },
+        {
+          "locator": "transcript-line:244",
+          "text": "Karty Anki: 1641464493263"
+        },
+        {
+          "locator": "transcript-line:245",
+          "text": "GUID: c])9R$Z}:U; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:247",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:249",
+          "text": "Co je sestavovač (linker) jazyka C a k čemu slouží."
+        },
+        {
+          "locator": "transcript-line:251",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:253",
+          "text": "Linker je program, který sestaví finální spustitelný soubor z více objektových souborů generovaných překladačem (připojí do něj knihovny atd.)."
+        },
+        {
+          "locator": "transcript-line:255",
+          "text": "## Poznámka Anki 1641464886731"
+        },
+        {
+          "locator": "transcript-line:257",
+          "text": "Karty Anki: 1641464886731"
+        },
+        {
+          "locator": "transcript-line:258",
+          "text": "GUID: kBy?Z6ZBIO; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:260",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:262",
+          "text": "Co je v C enum? Uveďte příklad."
+        },
+        {
+          "locator": "transcript-line:264",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:266",
+          "text": "Výčtový typ (enum) je datový typ, který vrací hodnoty konstant definovaných programátorem."
+        },
+        {
+          "locator": "transcript-line:268",
+          "text": "\\(\\mathtt{ enum\\ week\\{mon, tue, wed, thu, fri, sat, sun\\};}\\)"
+        },
+        {
+          "locator": "transcript-line:269",
+          "text": "\\(\\mathtt{ enum\\ week\\ day;}\\)"
+        },
+        {
+          "locator": "transcript-line:270",
+          "text": "\\(\\mathtt{ day = wed};\\)"
+        },
+        {
+          "locator": "transcript-line:271",
+          "text": "\\(\\mathtt{ printf (\\ ' \\%d',\\ day\\ );}\\)"
+        },
+        {
+          "locator": "transcript-line:272",
+          "text": "\\(>2\\)"
+        },
+        {
+          "locator": "transcript-line:274",
+          "text": "## Poznámka Anki 1641465245447"
+        },
+        {
+          "locator": "transcript-line:276",
+          "text": "Karty Anki: 1641465245447"
+        },
+        {
+          "locator": "transcript-line:277",
+          "text": "GUID: jvMKK<dap.; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:279",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:281",
+          "text": "Co je v C union a k čemu slouží. Uveďte příklad."
+        },
+        {
+          "locator": "transcript-line:283",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:285",
+          "text": "V jazyce C `union` (sjednocení) je speciální datová struktura, která umožňuje uložit **různé typy dat na stejném místě v paměti**."
+        },
+        {
+          "locator": "transcript-line:287",
+          "text": "- Na rozdíl od `struct`, kde **každá proměnná zabírá vlastní paměť**, v `union` všechny členy **sdílejí stejný paměťový prostor**."
+        },
+        {
+          "locator": "transcript-line:288",
+          "text": "- Velikost `union` je **dána největším členem** (ten s největší velikostí v bajtech)."
+        },
+        {
+          "locator": "transcript-line:289",
+          "text": "- V daném čase může být **aktivní pouze jedna hodnota**."
+        },
+        {
+          "locator": "transcript-line:291",
+          "text": "- #include <stdio.h>"
+        },
+        {
+          "locator": "transcript-line:292",
+          "text": "- "
+        },
+        {
+          "locator": "transcript-line:294",
+          "text": "- union Data {"
+        },
+        {
+          "locator": "transcript-line:295",
+          "text": "-     int i;"
+        },
+        {
+          "locator": "transcript-line:296",
+          "text": "-     float f;"
+        },
+        {
+          "locator": "transcript-line:297",
+          "text": "-     char str[20];"
+        },
+        {
+          "locator": "transcript-line:298",
+          "text": "- };"
+        },
+        {
+          "locator": "transcript-line:299",
+          "text": "- "
+        },
+        {
+          "locator": "transcript-line:301",
+          "text": "- int main() {"
+        },
+        {
+          "locator": "transcript-line:302",
+          "text": "-     union Data data;"
+        },
+        {
+          "locator": "transcript-line:303",
+          "text": "- "
+        },
+        {
+          "locator": "transcript-line:305",
+          "text": "-     data.i = 10;"
+        },
+        {
+          "locator": "transcript-line:306",
+          "text": "-     printf(\"data.i: %d\\n\", data.i);"
+        },
+        {
+          "locator": "transcript-line:307",
+          "text": "- "
+        },
+        {
+          "locator": "transcript-line:309",
+          "text": "-     data.f = 3.14;"
+        },
+        {
+          "locator": "transcript-line:310",
+          "text": "-     printf(\"data.f: %f\\n\", data.f);"
+        },
+        {
+          "locator": "transcript-line:311",
+          "text": "- "
+        },
+        {
+          "locator": "transcript-line:313",
+          "text": "-     // Přepisuje předchozí hodnoty"
+        },
+        {
+          "locator": "transcript-line:314",
+          "text": "-     snprintf(data.str, sizeof(data.str), \"Hello\");"
+        },
+        {
+          "locator": "transcript-line:315",
+          "text": "-     printf(\"data.str: %s\\n\", data.str);"
+        },
+        {
+          "locator": "transcript-line:316",
+          "text": "- "
+        },
+        {
+          "locator": "transcript-line:318",
+          "text": "-     // data.i i data.f jsou nyní neplatná, protože `data.str` přepsalo paměť"
+        },
+        {
+          "locator": "transcript-line:319",
+          "text": "-     return 0;"
+        },
+        {
+          "locator": "transcript-line:320",
+          "text": "- }"
+        },
+        {
+          "locator": "transcript-line:321",
+          "text": "-"
+        },
+        {
+          "locator": "transcript-line:323",
+          "text": "## Poznámka Anki 1641465402256"
+        },
+        {
+          "locator": "transcript-line:325",
+          "text": "Karty Anki: 1641465402256"
+        },
+        {
+          "locator": "transcript-line:326",
+          "text": "GUID: J*1[PJ5!q9; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:328",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:330",
+          "text": "Co je to bitový XOR?"
+        },
+        {
+          "locator": "transcript-line:332",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:334",
+          "text": "XOR je logická operace, která vrací 1 právě tehdy když pouze jeden ze vstupů je 1 a druhý 0. V ostatních případech vrací 0."
+        },
+        {
+          "locator": "transcript-line:336",
+          "text": "## Poznámka Anki 1641465489202"
+        },
+        {
+          "locator": "transcript-line:338",
+          "text": "Karty Anki: 1641465489202"
+        },
+        {
+          "locator": "transcript-line:339",
+          "text": "GUID: FbDe?t,eMa; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:341",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:343",
+          "text": "Jaké operace jsou v C povoleny s ukazateli a jaký mají význam?"
+        },
+        {
+          "locator": "transcript-line:345",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:347",
+          "text": "přičítání celých čísel k ukazateli (pohyb v poli), rozdíl dvou ukazatelů (počet prvků pole mezi nimi), porovnání ukazatelů, dereference"
+        },
+        {
+          "locator": "transcript-line:349",
+          "text": "## Poznámka Anki 1641465637737"
+        },
+        {
+          "locator": "transcript-line:351",
+          "text": "Karty Anki: 1641465637737"
+        },
+        {
+          "locator": "transcript-line:352",
+          "text": "GUID: G(t_6}/6Rx; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:354",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:356",
+          "text": "Jaký je rozdíl mezi interpretovanými a kompilovanými programovacími jazyky. Uveďte příklady těchto jazyků."
+        },
+        {
+          "locator": "transcript-line:358",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:360",
+          "text": "Kompilované jazyky jsou celé najednou přeloženy kompilátorem do spustielného souboru (C, C++, Pascal)."
+        },
+        {
+          "locator": "transcript-line:361",
+          "text": "Interpretované jazyky jsou překládány interpreterem až za běhu programu (Python)."
+        },
+        {
+          "locator": "transcript-line:363",
+          "text": "## Poznámka Anki 1641465806454"
+        },
+        {
+          "locator": "transcript-line:365",
+          "text": "Karty Anki: 1641465806454"
+        },
+        {
+          "locator": "transcript-line:366",
+          "text": "GUID: C/Ze~d8rJ,; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:368",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:370",
+          "text": "Jaký je rozdíl mezi syntaxí a sémantikou v programovacím jazyce."
+        },
+        {
+          "locator": "transcript-line:372",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:374",
+          "text": "Sémantika ve světě programování se týká významu kódu – to, co kód skutečně dělá, když je proveden. Na rozdíl od **syntaktické správnosti**, která zajišťuje, že kód je napsaný podle pravidel jazyka (např. správně napsané závorky, středníky atd.), **sémantika** se soustředí na to, zda kód skutečně provádí to, co je zamýšleno a zda chování odpovídá očekáváním."
+        },
+        {
+          "locator": "transcript-line:376",
+          "text": "## Poznámka Anki 1641465829571"
+        },
+        {
+          "locator": "transcript-line:378",
+          "text": "Karty Anki: 1641465829571"
+        },
+        {
+          "locator": "transcript-line:379",
+          "text": "GUID: G`<mgzA!-:; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:381",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:383",
+          "text": "Jakým způsobem měříme efektivitu algoritmu?"
+        },
+        {
+          "locator": "transcript-line:385",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:387",
+          "text": "Skrze jeho časovou a paměťovou složitost."
+        },
+        {
+          "locator": "transcript-line:389",
+          "text": "## Poznámka Anki 1641465920048"
+        },
+        {
+          "locator": "transcript-line:391",
+          "text": "Karty Anki: 1641465920048"
+        },
+        {
+          "locator": "transcript-line:392",
+          "text": "GUID: pWag_iVjD8; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:394",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:396",
+          "text": "Popište podmínky použití binárního vyhledávání a určete jeho složitost."
+        },
+        {
+          "locator": "transcript-line:398",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:400",
+          "text": "Vstup musí být setřízený a prvky musí být porovnatelné."
+        },
+        {
+          "locator": "transcript-line:401",
+          "text": "\\(O(\\log_{2}(n)\\)"
+        },
+        {
+          "locator": "transcript-line:403",
+          "text": "## Poznámka Anki 1641466063366"
+        },
+        {
+          "locator": "transcript-line:405",
+          "text": "Karty Anki: 1641466063366"
+        },
+        {
+          "locator": "transcript-line:406",
+          "text": "GUID: n!@EIS?_wc; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:408",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:410",
+          "text": "Co dělá funkce \\(\\mathtt{free()}\\)? Jaké má parametry?"
+        },
+        {
+          "locator": "transcript-line:412",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:414",
+          "text": "Funkce \\(\\mathtt{free()}\\) označuje dynamicky alokovanou paměť za uvolněnou. Má jeden vstupní parametr - ukazatel na paměť."
+        },
+        {
+          "locator": "transcript-line:416",
+          "text": "## Poznámka Anki 1641466220807"
+        },
+        {
+          "locator": "transcript-line:418",
+          "text": "Karty Anki: 1641466220807"
+        },
+        {
+          "locator": "transcript-line:419",
+          "text": "GUID: u4)hi8q&xf; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:421",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:423",
+          "text": "Co je Fibonacciho posloupnost?"
+        },
+        {
+          "locator": "transcript-line:425",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:427",
+          "text": "Fibonacciho posloupnost je posloupnost definována následujícímí pravidly:"
+        },
+        {
+          "locator": "transcript-line:428",
+          "text": "\\(F_{1}=0\\)"
+        },
+        {
+          "locator": "transcript-line:429",
+          "text": "\\(F_{2}=1\\)"
+        },
+        {
+          "locator": "transcript-line:430",
+          "text": "\\(F_{n}=F_{n-1} + F_{n-2}\\)"
+        },
+        {
+          "locator": "transcript-line:432",
+          "text": "## Poznámka Anki 1641466303511"
+        },
+        {
+          "locator": "transcript-line:434",
+          "text": "Karty Anki: 1641466303511"
+        },
+        {
+          "locator": "transcript-line:435",
+          "text": "GUID: fxm6@h#?{; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:437",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:439",
+          "text": "Co je \\(\\mathtt{NULL}\\) v C?"
+        },
+        {
+          "locator": "transcript-line:441",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:443",
+          "text": "\\(\\mathtt{NULL}\\) se používá jako hodnota 'prázdného' ukazatele, který neukazuje na žádnou paměť."
+        },
+        {
+          "locator": "transcript-line:445",
+          "text": "## Poznámka Anki 1641466396805"
+        },
+        {
+          "locator": "transcript-line:447",
+          "text": "Karty Anki: 1641466396805"
+        },
+        {
+          "locator": "transcript-line:448",
+          "text": "GUID: zda@kfNI=]; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:450",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:452",
+          "text": "Co je předpřekladač (preprocessor) jazyka C a k čemu slouží."
+        },
+        {
+          "locator": "transcript-line:454",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:456",
+          "text": "Zpracovává zdrojový kód před vlastní kompilací. Používá se pro připojení hlavičkových souborů a interpretaci maker."
+        },
+        {
+          "locator": "transcript-line:458",
+          "text": "## Poznámka Anki 1641466509725"
+        },
+        {
+          "locator": "transcript-line:460",
+          "text": "Karty Anki: 1641466509725"
+        },
+        {
+          "locator": "transcript-line:461",
+          "text": "GUID: LW}1F5Pr=`; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:463",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:465",
+          "text": "Co je překladač (compiler) jazyka C a k čemu slouží."
+        },
+        {
+          "locator": "transcript-line:467",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:469",
+          "text": "Kompilátor překládá zdrojový kód C (vyššího programovacího jazyka) na spustitelný strojový kód (nižžší programovací jazyk)."
+        },
+        {
+          "locator": "transcript-line:471",
+          "text": "## Poznámka Anki 1641466674629"
+        },
+        {
+          "locator": "transcript-line:473",
+          "text": "Karty Anki: 1641466674630"
+        },
+        {
+          "locator": "transcript-line:474",
+          "text": "GUID: yb>Z@dBGY`; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:476",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:478",
+          "text": "Co je soubor v C a jaký je rozdíl mezi textovým a binárním souborem?"
+        },
+        {
+          "locator": "transcript-line:480",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:482",
+          "text": "Soubor v C, typicky s příponou \\(\\mathtt{.c}\\) je zdrojový kód, který je později kompilátorem přeložen na spustitelný strojový kód uložený v binárním souboru."
+        },
+        {
+          "locator": "transcript-line:483",
+          "text": "Textový soubor (potažmo soubor v C) je soubor obsahující bílé znaky a je lehce čitelný pro člověka."
+        },
+        {
+          "locator": "transcript-line:484",
+          "text": "Binární soubor je zcela nečitelný a to proto, že obsahuje pouze bity a bajty."
+        },
+        {
+          "locator": "transcript-line:486",
+          "text": "## Poznámka Anki 1641466930201"
+        },
+        {
+          "locator": "transcript-line:488",
+          "text": "Karty Anki: 1641466930201"
+        },
+        {
+          "locator": "transcript-line:489",
+          "text": "GUID: E4jM(*NuGu; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:491",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:493",
+          "text": "Co je přetypování (cast)?"
+        },
+        {
+          "locator": "transcript-line:495",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:497",
+          "text": "Typecast změní datový typ dané proměnné."
+        },
+        {
+          "locator": "transcript-line:499",
+          "text": "## Poznámka Anki 1641466987400"
+        },
+        {
+          "locator": "transcript-line:501",
+          "text": "Karty Anki: 1641466987400"
+        },
+        {
+          "locator": "transcript-line:502",
+          "text": "GUID: rm6G;vdp9<; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:504",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:506",
+          "text": "Co je v C řetězec?"
+        },
+        {
+          "locator": "transcript-line:508",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:510",
+          "text": "String je pole charů (znaků), které může být ukončeno terminačním znakem \\(\\mathtt{\\backslash0}\\)."
+        },
+        {
+          "locator": "transcript-line:512",
+          "text": "## Poznámka Anki 1641467209882"
+        },
+        {
+          "locator": "transcript-line:514",
+          "text": "Karty Anki: 1641467209882"
+        },
+        {
+          "locator": "transcript-line:515",
+          "text": "GUID: b$A|L*7&:); štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:517",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:519",
+          "text": "Co je to algoritmus a jaké jsou jeho vlastnosti?"
+        },
+        {
+          "locator": "transcript-line:521",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:523",
+          "text": "Algoritmus je konečná posloupnost operací sloužící k řešení daného druhu problémů."
+        },
+        {
+          "locator": "transcript-line:525",
+          "text": "- hromadnost - řeší celou třídu problémů"
+        },
+        {
+          "locator": "transcript-line:526",
+          "text": "- determinovanost - stejná vstupní data vedou ke stejným výsledkům"
+        },
+        {
+          "locator": "transcript-line:527",
+          "text": "- resultativnost - každá vstupní data vedou k výsledku"
+        },
+        {
+          "locator": "transcript-line:528",
+          "text": "- konečnost - konečný počet kroků vede k výsledku"
+        },
+        {
+          "locator": "transcript-line:530",
+          "text": "## Poznámka Anki 1641467276808"
+        },
+        {
+          "locator": "transcript-line:532",
+          "text": "Karty Anki: 1641467276808"
+        },
+        {
+          "locator": "transcript-line:533",
+          "text": "GUID: K;ZzMTQFr4; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:535",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:537",
+          "text": "Co je v C ukazatel?"
+        },
+        {
+          "locator": "transcript-line:539",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:541",
+          "text": "Pointer je datový typ držící adresu paměti počítače."
+        },
+        {
+          "locator": "transcript-line:543",
+          "text": "## Poznámka Anki 1641467344407"
+        },
+        {
+          "locator": "transcript-line:545",
+          "text": "Karty Anki: 1641467344407"
+        },
+        {
+          "locator": "transcript-line:546",
+          "text": "GUID: uV$z31*h/9; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:548",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:550",
+          "text": "Co jsou .h soubory a k čemu slouží?"
+        },
+        {
+          "locator": "transcript-line:552",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:554",
+          "text": "Hlavičkové soubory slouží jako direktiva pro preprocesor pro zařazení již napsaných funkcí funkcí do programu."
+        },
+        {
+          "locator": "transcript-line:556",
+          "text": "## Poznámka Anki 1641467448224"
+        },
+        {
+          "locator": "transcript-line:558",
+          "text": "Karty Anki: 1641467448224"
+        },
+        {
+          "locator": "transcript-line:559",
+          "text": "GUID: k3z=KBNvD,; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:561",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:563",
+          "text": "Co znamená konstrukce \\(\\mathtt{p\\to a}\\) a jak ji lze nahradit?"
+        },
+        {
+          "locator": "transcript-line:565",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:567",
+          "text": "Jedná se o dereferenci ukazatele na strukturu \\(\\mathtt p\\) a přístupu k jejímu členu \\(\\mathtt a\\)."
+        },
+        {
+          "locator": "transcript-line:568",
+          "text": "Lze nahradit jako: \\(\\mathtt{(*p).a}\\)."
+        },
+        {
+          "locator": "transcript-line:570",
+          "text": "## Poznámka Anki 1641467607584"
+        },
+        {
+          "locator": "transcript-line:572",
+          "text": "Karty Anki: 1641467607584"
+        },
+        {
+          "locator": "transcript-line:573",
+          "text": "GUID: bnDh4?-Qa9; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:575",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:577",
+          "text": "Jaký je rozdíl mezi definicí a deklarací funkce, uveďte příklad."
+        },
+        {
+          "locator": "transcript-line:579",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:581",
+          "text": "Deklarace pouze udívá, že funkce existuje a bude někde definována. Defince potom určuje posloupnost kroků, kterou funkce vykonává."
+        },
+        {
+          "locator": "transcript-line:583",
+          "text": "## Poznámka Anki 1641467770282"
+        },
+        {
+          "locator": "transcript-line:585",
+          "text": "Karty Anki: 1641467770282"
+        },
+        {
+          "locator": "transcript-line:586",
+          "text": "GUID: DBN]Hp]bU;; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:588",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:590",
+          "text": "Popište rozsah platnosti identifikátorů v C."
+        },
+        {
+          "locator": "transcript-line:592",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:594",
+          "text": "Identifikátory smí obsahovat písmena (velká i malá), čísla a podtržítka. Prvním znakem identifikátoru smí být pouze písmeno nebo podtržítko. Identifikátory se nesmí shodovat s klíčovými slovy jako \\(\\mathtt{if}\\), \\(\\mathtt{char}\\), ..."
+        },
+        {
+          "locator": "transcript-line:596",
+          "text": "## Poznámka Anki 1641467885698"
+        },
+        {
+          "locator": "transcript-line:598",
+          "text": "Karty Anki: 1641467885698"
+        },
+        {
+          "locator": "transcript-line:599",
+          "text": "GUID: J+~)6r<?pp; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:601",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:603",
+          "text": "Proč je třeba nepoužívané dynamické proměnné uvolnit? Jak se to provede?"
+        },
+        {
+          "locator": "transcript-line:605",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:607",
+          "text": "Mohlo by se stát, že se by při delším běhu programu zabralo příliš mnoho paměti a program by byl ukončen. Uvolňujeme pomocí funkce \\(\\mathtt{free()}\\)."
+        },
+        {
+          "locator": "transcript-line:609",
+          "text": "## Poznámka Anki 1641468045644"
+        },
+        {
+          "locator": "transcript-line:611",
+          "text": "Karty Anki: 1641468045644"
+        },
+        {
+          "locator": "transcript-line:612",
+          "text": "GUID: OO#Qv*2j&S; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:614",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:616",
+          "text": "Co je bit, byte, kilobyte, kilobit?"
+        },
+        {
+          "locator": "transcript-line:618",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:620",
+          "text": "- **bit **- nejmenší paměťová jednotka, nabývá hodnot 1 nebo 0"
+        },
+        {
+          "locator": "transcript-line:621",
+          "text": "- **byte **- nejmenší jednotka, se kterou pracuje procesor"
+        },
+        {
+          "locator": "transcript-line:622",
+          "text": "\\(1\\ byte = 8\\ bit\\)"
+        },
+        {
+          "locator": "transcript-line:623",
+          "text": "\\(1\\ kilobit = 1000\\ bit\\)"
+        },
+        {
+          "locator": "transcript-line:624",
+          "text": "\\(1\\ kilobyte = 1024\\ byte\\)"
+        },
+        {
+          "locator": "transcript-line:626",
+          "text": "## Poznámka Anki 1641468164685"
+        },
+        {
+          "locator": "transcript-line:628",
+          "text": "Karty Anki: 1641468164685"
+        },
+        {
+          "locator": "transcript-line:629",
+          "text": "GUID: QeI*[RbM1X; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:631",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:633",
+          "text": "Co je globální proměnná, jak ji v programu poznám a na jakou hodnotu je nastavena?"
+        },
+        {
+          "locator": "transcript-line:635",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:637",
+          "text": "Globální proměnná je každá proměnná deklarovaná mimo funkci \\(\\mathtt{main()}\\) a je automaticky inicializována na 0."
+        },
+        {
+          "locator": "transcript-line:639",
+          "text": "## Poznámka Anki 1641468207652"
+        },
+        {
+          "locator": "transcript-line:641",
+          "text": "Karty Anki: 1641468207652"
+        },
+        {
+          "locator": "transcript-line:642",
+          "text": "GUID: `:+gr<H}^; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:644",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:646",
+          "text": "Co je lokální proměnná, jak ji v programu poznám a na jakou hodnotu je nastavena?"
+        },
+        {
+          "locator": "transcript-line:648",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:650",
+          "text": "Lokální proměnná je každá proměnná deklarovaná uvnitř funkce \\(\\mathtt{main()}\\) a její počáteční hodnota je nedefinována."
+        },
+        {
+          "locator": "transcript-line:652",
+          "text": "## Poznámka Anki 1641468289588"
+        },
+        {
+          "locator": "transcript-line:654",
+          "text": "Karty Anki: 1641468289588"
+        },
+        {
+          "locator": "transcript-line:655",
+          "text": "GUID: uHPv=e<zdm; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:657",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:659",
+          "text": "Co znamená zápis \\(\\mathtt{*(p+i)}\\) ? Jak ho nahradit?"
+        },
+        {
+          "locator": "transcript-line:661",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:663",
+          "text": "K pointeru \\(\\mathtt p\\) přičítáme index \\(\\mathtt i\\) a dereferencujeme, posouváme tedy pointer a přistupujeme k hodnotě paměti, na kterou ukazuje. Můžeme nahradit zápisem \\(\\mathtt{p[i]}\\)."
+        },
+        {
+          "locator": "transcript-line:665",
+          "text": "## Poznámka Anki 1641468451605"
+        },
+        {
+          "locator": "transcript-line:667",
+          "text": "Karty Anki: 1641468451605"
+        },
+        {
+          "locator": "transcript-line:668",
+          "text": "GUID: Q(3v$!Y=lu; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:670",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:672",
+          "text": "Vysvětlete k čemu slouží dynamické proměnné?"
+        },
+        {
+          "locator": "transcript-line:674",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:676",
+          "text": "Dynamická proměnná je taková proměnná, která zvládne přizpůsobit svou velikost podle potřeby. Využijeme ji v případě, kdy nevíme, jaká bude velikost dat v ní uložená."
+        },
+        {
+          "locator": "transcript-line:678",
+          "text": "## Poznámka Anki 1641468618306"
+        },
+        {
+          "locator": "transcript-line:680",
+          "text": "Karty Anki: 1641468618306"
+        },
+        {
+          "locator": "transcript-line:681",
+          "text": "GUID: PRuRGC(0.*; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:683",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:685",
+          "text": "Co to je \\(\\mathtt {NaN}\\) u desetinných čísel?"
+        },
+        {
+          "locator": "transcript-line:687",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:689",
+          "text": "\\(\\mathtt{NaN}\\) (Not A Number) je nečíselná hodnota."
+        },
+        {
+          "locator": "transcript-line:690",
+          "text": "Např. \\(x \\div 0 \\), \\(\\sqrt[2]{-x}\\), ..."
+        },
+        {
+          "locator": "transcript-line:692",
+          "text": "## Poznámka Anki 1641468766464"
+        },
+        {
+          "locator": "transcript-line:694",
+          "text": "Karty Anki: 1641468766464"
+        },
+        {
+          "locator": "transcript-line:695",
+          "text": "GUID: FTE!|nU7aL; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:697",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:699",
+          "text": "Chceme ukládat texty s českou diakritikou. Naším cílem je co nejkompaktnější uložení (z hlediska nároků na paměť). Které kódování je nejvýhodnější: utf-8, utf-16, utf-32, iso-8859-2 nebo windows-1250?"
+        },
+        {
+          "locator": "transcript-line:701",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:703",
+          "text": "ISO-8859-2 nebo Windows-1250, obě jsou schopné zakódovat jeden znat jako jeden byte."
+        },
+        {
+          "locator": "transcript-line:705",
+          "text": "## Poznámka Anki 1641473515841"
+        },
+        {
+          "locator": "transcript-line:707",
+          "text": "Karty Anki: 1641473515841"
+        },
+        {
+          "locator": "transcript-line:708",
+          "text": "GUID: FlvF8&kEHY; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:710",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:712",
+          "text": "Jaká je velikost a rozpětí \\(\\mathtt{char}\\)?"
+        },
+        {
+          "locator": "transcript-line:714",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:716",
+          "text": "- **Velikost:** 1 byte"
+        },
+        {
+          "locator": "transcript-line:717",
+          "text": "- **Rozpětí:** -128-127 nebo 0-255"
+        },
+        {
+          "locator": "transcript-line:719",
+          "text": "## Poznámka Anki 1641473564993"
+        },
+        {
+          "locator": "transcript-line:721",
+          "text": "Karty Anki: 1641473564993"
+        },
+        {
+          "locator": "transcript-line:722",
+          "text": "GUID: M0-Y$^LxhY; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:724",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:726",
+          "text": "Jaká je velikost a rozpětí \\(\\mathtt{unisgned\\ char}\\)?"
+        },
+        {
+          "locator": "transcript-line:728",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:730",
+          "text": "- **Velikost: **1 byte"
+        },
+        {
+          "locator": "transcript-line:731",
+          "text": "- **Rozpětí:** 0-255"
+        },
+        {
+          "locator": "transcript-line:733",
+          "text": "## Poznámka Anki 1641473617903"
+        },
+        {
+          "locator": "transcript-line:735",
+          "text": "Karty Anki: 1641473617903"
+        },
+        {
+          "locator": "transcript-line:736",
+          "text": "GUID: oKo-Ttbh(}; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:738",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:740",
+          "text": "Jaká je velikost a rozpětí \\(\\mathtt{signed\\ char}\\)?"
+        },
+        {
+          "locator": "transcript-line:742",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:744",
+          "text": "- **Velikost:** 1 byte"
+        },
+        {
+          "locator": "transcript-line:745",
+          "text": "- **Rozpětí:** -128-127"
+        },
+        {
+          "locator": "transcript-line:747",
+          "text": "## Poznámka Anki 1641473737570"
+        },
+        {
+          "locator": "transcript-line:749",
+          "text": "Karty Anki: 1641473737570"
+        },
+        {
+          "locator": "transcript-line:750",
+          "text": "GUID: u`zEIo/,MP; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:752",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:754",
+          "text": "Jaká je velikost a rozpětí \\(\\mathtt{int}\\)?"
+        },
+        {
+          "locator": "transcript-line:756",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:758",
+          "text": "- **Velikost:** 2 nebo 4 byte"
+        },
+        {
+          "locator": "transcript-line:759",
+          "text": "- **Rozpětí:** -32,768-32,767 nebo -2,147,483,648-2,147,483,647"
+        },
+        {
+          "locator": "transcript-line:761",
+          "text": "## Poznámka Anki 1641473806342"
+        },
+        {
+          "locator": "transcript-line:763",
+          "text": "Karty Anki: 1641473806342"
+        },
+        {
+          "locator": "transcript-line:764",
+          "text": "GUID: m$d)^q/2L>; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:766",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:768",
+          "text": "Jaká je velikost a rozpětí \\(\\mathtt{unisgned\\ int}\\)?"
+        },
+        {
+          "locator": "transcript-line:770",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:772",
+          "text": "- **Velikost:** 2 nebo 4 byte"
+        },
+        {
+          "locator": "transcript-line:773",
+          "text": "- **Rozpětí:** 0-65,535 nebo 0-4,294,967,295"
+        },
+        {
+          "locator": "transcript-line:775",
+          "text": "## Poznámka Anki 1641473956511"
+        },
+        {
+          "locator": "transcript-line:777",
+          "text": "Karty Anki: 1641473956511"
+        },
+        {
+          "locator": "transcript-line:778",
+          "text": "GUID: m.d>#|p}LN; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:780",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:782",
+          "text": "Jaká je velikost a rozpětí \\(\\mathtt{short}\\)?"
+        },
+        {
+          "locator": "transcript-line:784",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:786",
+          "text": "- **Velikost:** 2 byte"
+        },
+        {
+          "locator": "transcript-line:787",
+          "text": "- **Rozpětí:** -32,768-32,767"
+        },
+        {
+          "locator": "transcript-line:789",
+          "text": "## Poznámka Anki 1641473981726"
+        },
+        {
+          "locator": "transcript-line:791",
+          "text": "Karty Anki: 1641473981726"
+        },
+        {
+          "locator": "transcript-line:792",
+          "text": "GUID: LcB03Fk!nl; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:794",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:796",
+          "text": "Jaká je velikost a rozpětí \\(\\mathtt{unisgned\\ short}\\)?"
+        },
+        {
+          "locator": "transcript-line:798",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:800",
+          "text": "- **Velikost:** 2 byte"
+        },
+        {
+          "locator": "transcript-line:801",
+          "text": "- **Rozpětí:** 0-65,535"
+        },
+        {
+          "locator": "transcript-line:803",
+          "text": "## Poznámka Anki 1641474044895"
+        },
+        {
+          "locator": "transcript-line:805",
+          "text": "Karty Anki: 1641474044895"
+        },
+        {
+          "locator": "transcript-line:806",
+          "text": "GUID: J8Bb5i(@Ja; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:808",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:810",
+          "text": "Jaká je velikost \\(\\mathtt{long}\\)?"
+        },
+        {
+          "locator": "transcript-line:812",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:814",
+          "text": "8 byte (4 byte na 32-bit OS)"
+        },
+        {
+          "locator": "transcript-line:816",
+          "text": "## Poznámka Anki 1641474069103"
+        },
+        {
+          "locator": "transcript-line:818",
+          "text": "Karty Anki: 1641474069103"
+        },
+        {
+          "locator": "transcript-line:819",
+          "text": "GUID: M-i_HU<%y/; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:821",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:823",
+          "text": "Jaká je velikost \\(\\mathtt{unisgned\\ long}\\)?"
+        },
+        {
+          "locator": "transcript-line:825",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:827",
+          "text": "8 bytes"
+        },
+        {
+          "locator": "transcript-line:829",
+          "text": "## Poznámka Anki 1641474129838"
+        },
+        {
+          "locator": "transcript-line:831",
+          "text": "Karty Anki: 1641474129838"
+        },
+        {
+          "locator": "transcript-line:832",
+          "text": "GUID: q%M_w##vDP; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:834",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:836",
+          "text": "Jaká je velikost, rozpětí a přesnost \\(\\mathtt{float}\\)?"
+        },
+        {
+          "locator": "transcript-line:838",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:840",
+          "text": "- **Velikost:** 4 byte"
+        },
+        {
+          "locator": "transcript-line:841",
+          "text": "- **Rozpětí:** 1.2E-38-3.4E+38"
+        },
+        {
+          "locator": "transcript-line:842",
+          "text": "- **Přesnost:** 6 desetinných míst"
+        },
+        {
+          "locator": "transcript-line:844",
+          "text": "## Poznámka Anki 1641474185521"
+        },
+        {
+          "locator": "transcript-line:846",
+          "text": "Karty Anki: 1641474185521"
+        },
+        {
+          "locator": "transcript-line:847",
+          "text": "GUID: F=$WCFI_qo; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:849",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:851",
+          "text": "Jaká je velikost, rozpětí a přesnost \\(\\mathtt{double}\\)?"
+        },
+        {
+          "locator": "transcript-line:853",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:855",
+          "text": "- **Velikost:** 8 byte"
+        },
+        {
+          "locator": "transcript-line:856",
+          "text": "- **Rozpětí:** 2.3E-308-1.7E+308"
+        },
+        {
+          "locator": "transcript-line:857",
+          "text": "- **Přesnost:** 15 desetinných míst"
+        },
+        {
+          "locator": "transcript-line:859",
+          "text": "## Poznámka Anki 1641474214651"
+        },
+        {
+          "locator": "transcript-line:861",
+          "text": "Karty Anki: 1641474214651"
+        },
+        {
+          "locator": "transcript-line:862",
+          "text": "GUID: O^jb=GHA,[; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:864",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:866",
+          "text": "Jaká je velikost, rozpětí a přesnost \\(\\mathtt{long\\ double}\\)?"
+        },
+        {
+          "locator": "transcript-line:868",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:870",
+          "text": "- **Velikost:** 16 byte"
+        },
+        {
+          "locator": "transcript-line:871",
+          "text": "- **Rozpětí:** 3.4E-4932-1.1E+4932"
+        },
+        {
+          "locator": "transcript-line:872",
+          "text": "- **Přesnost:** 19 desetinných míst"
+        },
+        {
+          "locator": "transcript-line:874",
+          "text": "## Poznámka Anki 1641474386018"
+        },
+        {
+          "locator": "transcript-line:876",
+          "text": "Karty Anki: 1641474386018"
+        },
+        {
+          "locator": "transcript-line:877",
+          "text": "GUID: z&=n<:-)FV; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:879",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:881",
+          "text": "Jaká je velikost pointeru?"
+        },
+        {
+          "locator": "transcript-line:883",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:885",
+          "text": "4 bytes na 32-bit OS a 8 bytes na 64-bit OS"
+        },
+        {
+          "locator": "transcript-line:887",
+          "text": "## Poznámka Anki 1641475089014"
+        },
+        {
+          "locator": "transcript-line:889",
+          "text": "Karty Anki: 1641475089014"
+        },
+        {
+          "locator": "transcript-line:890",
+          "text": "GUID: f7KH_WUHd2; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:892",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:894",
+          "text": "Jak funguje interní reprezentace floating point čísel?"
+        },
+        {
+          "locator": "transcript-line:896",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:898",
+          "text": "\\(x=(-1)^s \\cdot m \\cdot b^e\\)"
+        },
+        {
+          "locator": "transcript-line:900",
+          "text": "- báze \\(b\\), typicky \\(b=2\\)"
+        },
+        {
+          "locator": "transcript-line:901",
+          "text": "- mantisa \\(m\\), \\(1 \\leq m < b\\)"
+        },
+        {
+          "locator": "transcript-line:902",
+          "text": "- exponent \\(e\\)"
+        },
+        {
+          "locator": "transcript-line:903",
+          "text": "- znaménko \\(s\\), \\(s \\in \\{0, 1\\}\\)"
+        },
+        {
+          "locator": "transcript-line:905",
+          "text": "## Poznámka Anki 1641475261446"
+        },
+        {
+          "locator": "transcript-line:907",
+          "text": "Karty Anki: 1641475261446"
+        },
+        {
+          "locator": "transcript-line:908",
+          "text": "GUID: O%dU}P+01Q; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:910",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:912",
+          "text": "Co je to skrytý bit u floating point čísel?"
+        },
+        {
+          "locator": "transcript-line:914",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:916",
+          "text": "Jedná se o první bit mantisy. Pokud je roven 1 je číslo normalizované."
+        },
+        {
+          "locator": "transcript-line:918",
+          "text": "## Poznámka Anki 1641476573965"
+        },
+        {
+          "locator": "transcript-line:920",
+          "text": "Karty Anki: 1641476573965"
+        },
+        {
+          "locator": "transcript-line:921",
+          "text": "GUID: K[P`pD)7Jj; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:923",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:925",
+          "text": "Jak funguje Bubble Sort a jaká je jeho složitost?"
+        },
+        {
+          "locator": "transcript-line:927",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:929",
+          "text": "Bubble Sort porovnává každé dva sousední prvky pole, když nejsou ve správném pořadí, tak je prohodí."
+        },
+        {
+          "locator": "transcript-line:931",
+          "text": "- nejhorší: \\(O(n^2)\\)"
+        },
+        {
+          "locator": "transcript-line:932",
+          "text": "- nejlepší: \\(O(n)\\)"
+        },
+        {
+          "locator": "transcript-line:934",
+          "text": "## Poznámka Anki 1641476727836"
+        },
+        {
+          "locator": "transcript-line:936",
+          "text": "Karty Anki: 1641476727836"
+        },
+        {
+          "locator": "transcript-line:937",
+          "text": "GUID: Ob%krc)A|Y; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:939",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:941",
+          "text": "Jak funguje Select Sort a jaká je jeho složitost?"
+        },
+        {
+          "locator": "transcript-line:943",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:945",
+          "text": "Najde nejmenší prvek ve zbytku pole a zamění jej s prvním prvkem. Poté pokračuje s polem o prvek menším."
+        },
+        {
+          "locator": "transcript-line:947",
+          "text": "- nejhorší \\(O(n^2)\\)"
+        },
+        {
+          "locator": "transcript-line:948",
+          "text": "- nejlepší \\(O(n^2)\\)"
+        },
+        {
+          "locator": "transcript-line:950",
+          "text": "## Poznámka Anki 1641476954689"
+        },
+        {
+          "locator": "transcript-line:952",
+          "text": "Karty Anki: 1641476954690"
+        },
+        {
+          "locator": "transcript-line:953",
+          "text": "GUID: lrw+%hWj3D; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:955",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:957",
+          "text": "Jak funguje Insert Sort a jaká je jeho složitost?"
+        },
+        {
+          "locator": "transcript-line:959",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:961",
+          "text": "Záčátkem je první prvek pole. Pokud uvažujeme jediný prvek jako samostatné pole, tak víme, že je vždy seřazeno. Poté vezme první prvek zbytku pole a zařadí jej do již seřazeného pole. Opakujeme dokud pole není seřazeno."
+        },
+        {
+          "locator": "transcript-line:963",
+          "text": "- nejhorší \\(O(n^2)\\)"
+        },
+        {
+          "locator": "transcript-line:964",
+          "text": "- nejlepší \\(O(n)\\)"
+        },
+        {
+          "locator": "transcript-line:966",
+          "text": "## Poznámka Anki 1641477281278"
+        },
+        {
+          "locator": "transcript-line:968",
+          "text": "Karty Anki: 1641477281278"
+        },
+        {
+          "locator": "transcript-line:969",
+          "text": "GUID: yEAGfkL^h8; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:971",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:973",
+          "text": "Jak funguje Merge Sort a jaká je jeho složitost?"
+        },
+        {
+          "locator": "transcript-line:975",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:977",
+          "text": "Pole o velikosti jednoho prvku je již seřazené. Pokud má pole více prvků, rozdělí se na dvě části. Rekurzivně zavoláme Merge Sort na obě poloviny a poté je sloučíme do jednoho seřazeného pole tak, že postupně vybíráme menší prvek z obou částí."
+        },
+        {
+          "locator": "transcript-line:978",
+          "text": "\\(O(n \\cdot \\log(n))\\)"
+        },
+        {
+          "locator": "transcript-line:980",
+          "text": "## Poznámka Anki 1641477659097"
+        },
+        {
+          "locator": "transcript-line:982",
+          "text": "Karty Anki: 1641477659098"
+        },
+        {
+          "locator": "transcript-line:983",
+          "text": "GUID: Jb5gD8OY.D; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:985",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:987",
+          "text": "Jak funguje Quick Sort a jaká je jeho složitost?"
+        },
+        {
+          "locator": "transcript-line:989",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:991",
+          "text": "Určí se pivot, ideálně na hodnotu mediánu, ten ale není znám, a tak je často určován jako medián ze tří náhodných prvků. Pak je pole rozděleno na dvě části (ideálně dvě poloviny) a prvky se prohazují tak, aby dolní část obsahovala prvky menší než pivot a horní část prvky větší než pivot. Na obě poloviny se volá rekurzivě algorimus znovu."
+        },
+        {
+          "locator": "transcript-line:993",
+          "text": "- nejhorší - špatný výběr pivota, pole se zmenší pouze o jeden prvek: \\(O(n^2)\\)"
+        },
+        {
+          "locator": "transcript-line:994",
+          "text": "- nejlepší \\(O(n \\cdot \\log(n)\\)"
+        },
+        {
+          "locator": "transcript-line:996",
+          "text": "## Poznámka Anki 1641478642801"
+        },
+        {
+          "locator": "transcript-line:998",
+          "text": "Karty Anki: 1641478642802"
+        },
+        {
+          "locator": "transcript-line:999",
+          "text": "GUID: I]{qb,*xC_; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:1001",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1003",
+          "text": "Na co přepíšeme \\(O(\\log(n!))\\)?"
+        },
+        {
+          "locator": "transcript-line:1005",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1007",
+          "text": "\\(O(n \\cdot log(n))\\)"
+        },
+        {
+          "locator": "transcript-line:1009",
+          "text": "## Poznámka Anki 1641564863288"
+        },
+        {
+          "locator": "transcript-line:1011",
+          "text": "Karty Anki: 1641564863298"
+        },
+        {
+          "locator": "transcript-line:1012",
+          "text": "GUID: CV^_#irB9W; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:1014",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1016",
+          "text": "Jaký je výsledek operace \\(\\mathtt{-12\\ \\%\\ 5}\\)"
+        },
+        {
+          "locator": "transcript-line:1018",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1020",
+          "text": "\\(-2\\)"
+        },
+        {
+          "locator": "transcript-line:1022",
+          "text": "## Poznámka Anki 1641564964624"
+        },
+        {
+          "locator": "transcript-line:1024",
+          "text": "Karty Anki: 1641564964624"
+        },
+        {
+          "locator": "transcript-line:1025",
+          "text": "GUID: dVzw3hF~L]; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:1027",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1029",
+          "text": "Jaký je výsledek operace \\(\\mathtt{!\\ x}\\), \\(\\forall x \\neq 0\\)"
+        },
+        {
+          "locator": "transcript-line:1031",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1033",
+          "text": "\\(0\\)"
+        },
+        {
+          "locator": "transcript-line:1035",
+          "text": "## Poznámka Anki 1641571520927"
+        },
+        {
+          "locator": "transcript-line:1037",
+          "text": "Karty Anki: 1641571520927"
+        },
+        {
+          "locator": "transcript-line:1038",
+          "text": "GUID: zlBBR40XAg; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:1040",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1042",
+          "text": "Jak jdou po sobě řády růstu funkcí v \\(O\\)?"
+        },
+        {
+          "locator": "transcript-line:1044",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1046",
+          "text": "\\(O(1)\\)"
+        },
+        {
+          "locator": "transcript-line:1047",
+          "text": "\\(O(\\log{\\log{n}})\\)"
+        },
+        {
+          "locator": "transcript-line:1048",
+          "text": "\\(O(log{\\ n})\\)"
+        },
+        {
+          "locator": "transcript-line:1049",
+          "text": "\\(O((\\log n )^c) = O(\\log^c n) \\)"
+        },
+        {
+          "locator": "transcript-line:1050",
+          "text": "\\(O(\\sqrt{n})\\)"
+        },
+        {
+          "locator": "transcript-line:1051",
+          "text": "\\(O(n)\\)"
+        },
+        {
+          "locator": "transcript-line:1052",
+          "text": "\\(O(n \\cdot log\\ n) = O( \\log\\ n!)\\)"
+        },
+        {
+          "locator": "transcript-line:1053",
+          "text": "\\(O(n^2)\\)"
+        },
+        {
+          "locator": "transcript-line:1054",
+          "text": "\\(O(n^3)\\)"
+        },
+        {
+          "locator": "transcript-line:1055",
+          "text": "\\(O(2^n)\\)"
+        },
+        {
+          "locator": "transcript-line:1056",
+          "text": "\\(O(n!)\\)"
+        },
+        {
+          "locator": "transcript-line:1057",
+          "text": "\\(O(n^n)\\)"
+        },
+        {
+          "locator": "transcript-line:1059",
+          "text": "## Poznámka Anki 1641601381079"
+        },
+        {
+          "locator": "transcript-line:1061",
+          "text": "Karty Anki: 1641601381080"
+        },
+        {
+          "locator": "transcript-line:1062",
+          "text": "GUID: I<0wq0|IQm; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:1064",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1066",
+          "text": "Jak vyjádříme \\(\\log_n{(x)}\\) pomocí \\(\\ln\\)?"
+        },
+        {
+          "locator": "transcript-line:1068",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1070",
+          "text": "\\(\\log_n{(x)} = \\frac{\\ln(x)}{\\ln(n)}\\)"
+        },
+        {
+          "locator": "transcript-line:1072",
+          "text": "## Poznámka Anki 1641601448101"
+        },
+        {
+          "locator": "transcript-line:1074",
+          "text": "Karty Anki: 1641601448101"
+        },
+        {
+          "locator": "transcript-line:1075",
+          "text": "GUID: j:Fpn[`%e6; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:1077",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1079",
+          "text": "Jak zjednodušíme \\(a^{\\log_a{(b)}}\\) ?"
+        },
+        {
+          "locator": "transcript-line:1081",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1083",
+          "text": "\\(a^{\\log_a{(b)}} = b\\)"
+        },
+        {
+          "locator": "transcript-line:1085",
+          "text": "## Poznámka Anki 1641765749453"
+        },
+        {
+          "locator": "transcript-line:1087",
+          "text": "Karty Anki: 1641765749453"
+        },
+        {
+          "locator": "transcript-line:1088",
+          "text": "GUID: exX6_Txr,3; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:1090",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1092",
+          "text": "Jak přetypujeme porovnávací funkci při volání qsortu?"
+        },
+        {
+          "locator": "transcript-line:1094",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1096",
+          "text": "\\(\\mathtt{(int(*)(const\\ void\\ *, const\\ void\\ *))}\\)"
+        },
+        {
+          "locator": "transcript-line:1098",
+          "text": "## Poznámka Anki 1642017631554"
+        },
+        {
+          "locator": "transcript-line:1100",
+          "text": "Karty Anki: 1642017631564"
+        },
+        {
+          "locator": "transcript-line:1101",
+          "text": "GUID: iVZU&:T-uE; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:1103",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1105",
+          "text": "Jaký je doporučený komparátor pro qsort?"
+        },
+        {
+          "locator": "transcript-line:1107",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1109",
+          "text": "\\(\\mathtt{(*b < *a) - (*a < *b)} \\)"
+        },
+        {
+          "locator": "transcript-line:1111",
+          "text": "## Poznámka Anki 1642017757774"
+        },
+        {
+          "locator": "transcript-line:1113",
+          "text": "Karty Anki: 1642017757774"
+        },
+        {
+          "locator": "transcript-line:1114",
+          "text": "GUID: qM[,&DR|pa; štítky: bi-pa1::ustni."
+        },
+        {
+          "locator": "transcript-line:1116",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1118",
+          "text": "Jak ideálně přiřadit \\(\\mathtt{mid}\\) v binárním vyhledávání?"
+        },
+        {
+          "locator": "transcript-line:1120",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1122",
+          "text": "\\(\\mathtt{mid = lo + ( hi - lo ) / 2}\\)"
+        },
+        {
+          "locator": "transcript-line:1124",
+          "text": "## Poznámka Anki 1716737711213"
+        },
+        {
+          "locator": "transcript-line:1126",
+          "text": "Karty Anki: 1716737711213"
+        },
+        {
+          "locator": "transcript-line:1127",
+          "text": "GUID: lPVTym2xMe; štítky: bi-pa1 bi-spol::19."
+        },
+        {
+          "locator": "transcript-line:1129",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1131",
+          "text": "Popište datový typ."
+        },
+        {
+          "locator": "transcript-line:1133",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1135",
+          "text": "Datový typ je vlastnost objektů, funkcí a výrazů programovacího jazyka, která definuje:"
+        },
+        {
+          "locator": "transcript-line:1137",
+          "text": "- interpretaci binární hodnoty objektu nebo výsledku výrazu,"
+        },
+        {
+          "locator": "transcript-line:1138",
+          "text": "- množinu možných hodnot,"
+        },
+        {
+          "locator": "transcript-line:1139",
+          "text": "- množinu použitelných operací."
+        },
+        {
+          "locator": "transcript-line:1141",
+          "text": "Datové typy dělíme do následujících kategorií:"
+        },
+        {
+          "locator": "transcript-line:1143",
+          "text": "- **primitivní typy** - \\(\\mathtt{int}\\), \\(\\mathtt{float}\\), \\(\\mathtt{char}\\);"
+        },
+        {
+          "locator": "transcript-line:1145",
+          "text": "- **strukturované typy** - pole, struktury;"
+        },
+        {
+          "locator": "transcript-line:1147",
+          "text": "- **ukazatele**,"
+        },
+        {
+          "locator": "transcript-line:1149",
+          "text": "- **jiné** - např. funkce."
+        },
+        {
+          "locator": "transcript-line:1151",
+          "text": "## Poznámka Anki 1716737798173"
+        },
+        {
+          "locator": "transcript-line:1153",
+          "text": "Karty Anki: 1716737798173"
+        },
+        {
+          "locator": "transcript-line:1154",
+          "text": "GUID: joXJa5;+l1; štítky: bi-pa1 bi-spol::19."
+        },
+        {
+          "locator": "transcript-line:1156",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1158",
+          "text": "Popište proměnnou."
+        },
+        {
+          "locator": "transcript-line:1160",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1162",
+          "text": "Proměnná je pojmenovaný objekt daného datového typu, jehož hodnota se může měnit."
+        },
+        {
+          "locator": "transcript-line:1164",
+          "text": "## Poznámka Anki 1716738316053"
+        },
+        {
+          "locator": "transcript-line:1166",
+          "text": "Karty Anki: 1716738316053"
+        },
+        {
+          "locator": "transcript-line:1167",
+          "text": "GUID: GH^<%KG^gL; štítky: bi-pa1 bi-spol::19."
+        },
+        {
+          "locator": "transcript-line:1169",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1171",
+          "text": "Popište statický a dynamický typový systém."
+        },
+        {
+          "locator": "transcript-line:1173",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1175",
+          "text": "V programovacím jazyku se **statickým typovým systémem** mají při kompilaci všechny proměnné známý typ. Příkladem takového jazyka je Rust, C nebo C++. Naopak v programovacích jazycích s **dynamickým typovým systémem** jsou typy přiřazovány až konkrétním hodnotám za běhu programu. Mezi takové jazyky patří Python, JavaScript nebo Perl."
+        },
+        {
+          "locator": "transcript-line:1177",
+          "text": "## Poznámka Anki 1716739058447"
+        },
+        {
+          "locator": "transcript-line:1179",
+          "text": "Karty Anki: 1716739058448"
+        },
+        {
+          "locator": "transcript-line:1180",
+          "text": "GUID: edC3=ux$NC; štítky: bi-pa1 bi-spol::19."
+        },
+        {
+          "locator": "transcript-line:1182",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1184",
+          "text": "Popište celočíselné datové typy."
+        },
+        {
+          "locator": "transcript-line:1186",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1188",
+          "text": "Celočíselné datové typy se používají pro reprezentaci celých čísel (\\(\\mathbb Z\\)). Typicky je rozlišujeme dle rozsahu jejich hodnot:"
+        },
+        {
+          "locator": "transcript-line:1190",
+          "text": "- **znaménkové** - \\(\\texttt{short}\\), \\(\\mathtt{int}\\), \\(\\mathtt{long}\\), \\(\\texttt{long long}\\);"
+        },
+        {
+          "locator": "transcript-line:1192",
+          "text": "- **neznaménkové** - \\(\\texttt{unsigned short}\\), \\(\\texttt{unsigned int}\\), \\(\\texttt{unsigned long}\\), \\(\\texttt{unsigned long long}\\)."
+        },
+        {
+          "locator": "transcript-line:1194",
+          "text": "Mezi celočíselné datové typy patří také typy \\(\\texttt{bool} \\) a \\(\\texttt{char}\\). Pro reprezentaci záporných hodnot je běžně používán doplňkový kód."
+        },
+        {
+          "locator": "transcript-line:1196",
+          "text": "## Poznámka Anki 1716739107268"
+        },
+        {
+          "locator": "transcript-line:1198",
+          "text": "Karty Anki: 1716739107268"
+        },
+        {
+          "locator": "transcript-line:1199",
+          "text": "GUID: hyY-`Cf|Tk; štítky: bi-pa1 bi-spol::19."
+        },
+        {
+          "locator": "transcript-line:1201",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1203",
+          "text": "Popište datový typ \\(\\mathtt{char}\\)."
+        },
+        {
+          "locator": "transcript-line:1205",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1207",
+          "text": "Datový typ \\(\\mathtt{char}\\) se používá pro reprezentaci znaků ASCII tabulky, které jsou kódovány jako celá čísla."
+        },
+        {
+          "locator": "transcript-line:1209",
+          "text": "## Poznámka Anki 1716739986117"
+        },
+        {
+          "locator": "transcript-line:1211",
+          "text": "Karty Anki: 1716739986117"
+        },
+        {
+          "locator": "transcript-line:1212",
+          "text": "GUID: P5#TaWdNY@; štítky: bi-pa1 bi-spol::19."
+        },
+        {
+          "locator": "transcript-line:1214",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1216",
+          "text": "Popište datové typy pohyblivé řádové čárky (floating point)."
+        },
+        {
+          "locator": "transcript-line:1218",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1220",
+          "text": "Datové typy pohyblivé řádové čárky (floating point) se používají pro aproximaci reálných čísel (\\(\\mathbb R\\)). Mají však omezenou přesnost a omezený rozsah. Na základě nich rozlišujeme datové typy \\(\\texttt{float}\\), \\(\\texttt{double}\\) a \\(\\texttt{long double}\\). Reprezentované jsou typicky pomocí následujících složek:"
+        },
+        {
+          "locator": "transcript-line:1222",
+          "text": "- základ (base) \\(b\\),"
+        },
+        {
+          "locator": "transcript-line:1223",
+          "text": "- mantisa \\(m\\),"
+        },
+        {
+          "locator": "transcript-line:1224",
+          "text": "- exponent \\(e\\),"
+        },
+        {
+          "locator": "transcript-line:1225",
+          "text": "- znaménko (signum) \\(s\\)."
+        },
+        {
+          "locator": "transcript-line:1227",
+          "text": "Číslo \\(x\\) pak vyjádříme jako"
+        },
+        {
+          "locator": "transcript-line:1229",
+          "text": "\\[x = (-1)^s \\cdot m \\cdot b^e,\\]kde \\(s \\in \\{ 0, 1 \\}\\) a běžně \\(b = 2\\)."
+        },
+        {
+          "locator": "transcript-line:1231",
+          "text": "## Poznámka Anki 1716740551495"
+        },
+        {
+          "locator": "transcript-line:1233",
+          "text": "Karty Anki: 1716740551495"
+        },
+        {
+          "locator": "transcript-line:1234",
+          "text": "GUID: u})sVOcP#w; štítky: bi-pa1 bi-spol::19."
+        },
+        {
+          "locator": "transcript-line:1236",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1238",
+          "text": "Popište rozdíl mezi staticky a dynamicky alokovaným objektem."
+        },
+        {
+          "locator": "transcript-line:1240",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1242",
+          "text": "Mezi staticky a dynamicky alokovaným objektem jsou následující rozdíly:"
+        },
+        {
+          "locator": "transcript-line:1244",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:1245",
+          "text": "      **staticky alokovaný objekt** | "
+        },
+        {
+          "locator": "transcript-line:1246",
+          "text": "      **dynamicky alokovaný objekt** | "
+        },
+        {
+          "locator": "transcript-line:1248",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:1249",
+          "text": "      vzniká deklarací | "
+        },
+        {
+          "locator": "transcript-line:1250",
+          "text": "      vzniká voláním specializované funkce (např. \\(\\texttt{malloc}\\)) nebo operátoru (např. \\(\\texttt{new}\\)) | "
+        },
+        {
+          "locator": "transcript-line:1252",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:1253",
+          "text": "      známá velikost při kompilaci | neznámá velikost při kompilaci | "
+        },
+        {
+          "locator": "transcript-line:1255",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:1256",
+          "text": "      alokován na zásobníku | "
+        },
+        {
+          "locator": "transcript-line:1257",
+          "text": "      alokován na haldě | "
+        },
+        {
+          "locator": "transcript-line:1259",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:1260",
+          "text": "      rychlejší správa paměti | "
+        },
+        {
+          "locator": "transcript-line:1261",
+          "text": "      pomalejší správa paměti | "
+        },
+        {
+          "locator": "transcript-line:1263",
+          "text": "| "
+        },
+        {
+          "locator": "transcript-line:1264",
+          "text": "      automatické uvolnění paměti | "
+        },
+        {
+          "locator": "transcript-line:1265",
+          "text": "      manuální uvolnění paměti (např. \\(\\texttt{free}\\) a \\(\\texttt{delete}\\)) |"
+        },
+        {
+          "locator": "transcript-line:1267",
+          "text": "## Poznámka Anki 1716740708209"
+        },
+        {
+          "locator": "transcript-line:1269",
+          "text": "Karty Anki: 1716740708209"
+        },
+        {
+          "locator": "transcript-line:1270",
+          "text": "GUID: sueg#vbSR8; štítky: bi-pa1 bi-spol::19."
+        },
+        {
+          "locator": "transcript-line:1272",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1274",
+          "text": "Popište modul."
+        },
+        {
+          "locator": "transcript-line:1276",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1278",
+          "text": "Modul je část programu, která poskytuje funkcionalitu pro zbytek programu. Skládá se ze dvou částí:"
+        },
+        {
+          "locator": "transcript-line:1280",
+          "text": "- **specifikace** - objekty poskytované modulem (datové typy, funkce, třídy);"
+        },
+        {
+          "locator": "transcript-line:1281",
+          "text": "- **implementace** - implementace poskytovaných objektů."
+        },
+        {
+          "locator": "transcript-line:1283",
+          "text": "V C a C++ jsou moduly definovány pomocí dvou typů souborů:"
+        },
+        {
+          "locator": "transcript-line:1285",
+          "text": "- **hlavičkové **(\\(\\texttt{.h}\\) a \\(\\texttt{.hpp}\\)) - specifikační část modulu;"
+        },
+        {
+          "locator": "transcript-line:1287",
+          "text": "- **implementační **(\\(\\texttt{.c}\\) a \\(\\texttt{.cpp}\\)) - implementační část modulu."
+        },
+        {
+          "locator": "transcript-line:1289",
+          "text": "## Poznámka Anki 1716741654709"
+        },
+        {
+          "locator": "transcript-line:1291",
+          "text": "Karty Anki: 1716741654709"
+        },
+        {
+          "locator": "transcript-line:1292",
+          "text": "GUID: qF8mMRDBji; štítky: bi-pa1 bi-spol::19."
+        },
+        {
+          "locator": "transcript-line:1294",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1296",
+          "text": "Popište funkci a proceduru."
+        },
+        {
+          "locator": "transcript-line:1298",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1300",
+          "text": "**Funkce **je podprogram řešící dílčí problém, který má definované rozhraní a lze jej volat opakovaně. Definována je zápisem"
+        },
+        {
+          "locator": "transcript-line:1301",
+          "text": "\\[\\texttt{type name (parameter list)}.\\]**Procedura** je podprogram, který nevrací žádnou hodnotu. V C a C++ jsou procedury definovány stejně jako funkce s použitím datového typu \\(\\texttt{void}\\)."
+        },
+        {
+          "locator": "transcript-line:1303",
+          "text": "## Poznámka Anki 1739041014075"
+        },
+        {
+          "locator": "transcript-line:1305",
+          "text": "Karty Anki: 1739041014075"
+        },
+        {
+          "locator": "transcript-line:1306",
+          "text": "GUID: A.hZs,GfcM; štítky: (žádné)."
+        },
+        {
+          "locator": "transcript-line:1308",
+          "text": "### Otázka (Front)"
+        },
+        {
+          "locator": "transcript-line:1310",
+          "text": "Regression to the mean"
+        },
+        {
+          "locator": "transcript-line:1312",
+          "text": "### Odpověď (Back)"
+        },
+        {
+          "locator": "transcript-line:1314",
+          "text": "Extrémní pozorování je následováno pozorováním bliže k průměru. Dávání přílišné váhy extrémnímu pozorování vede k selection bias."
+        }
+      ],
+      "created_at": "2026-10-17T14:01:02.489676+00:00",
+      "transcript_file": "sources/anki-zakladni-sada-v1/transcript/anki-zakladni-sada-v1.md",
+      "transcript_sha256": "708c54c32065d21b4d04e51810a3129a823e627a5cc69ccb99625063a5cb83b1"
+    }
+  },
+  "checkpoints": []
+}
