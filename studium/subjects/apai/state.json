@@ -17,9 +17,9 @@
       "prerequisites": [],
       "status": "demonstrated",
       "misconceptions": [
-        "Přetrvává pouze neověřené upřesnění z předchozí aktivity: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+        "V dřívějším dvouvstupovém číselném příkladu zřejmě prohodil přiřazení vah ke vstupům; správné řešení ukázáno, samostatná oprava na přání uživatele neověřována."
       ],
-      "review_on": "2026-10-17"
+      "review_on": "2026-10-24"
     },
     "vykon-a-efektivita": {
       "subject_id": "apai",
@@ -29,11 +29,9 @@
         "Rozlišit latenci, propustnost, přesnost výpočtů a energetickou efektivitu."
       ],
       "prerequisites": [],
-      "status": "practicing",
-      "misconceptions": [
-        "Na poskytnutém scénáři nyní správně vypočítal, proč dvojnásobné zrychlení akcelerátoru nezaručuje poloviční čas celé aplikace. Samostatné vytvoření konkrétního protipříkladu k odvozování výkonu aplikace z TOPS zůstává pro opakování s odstupem."
-      ],
-      "review_on": "2026-10-20"
+      "status": "demonstrated",
+      "misconceptions": [],
+      "review_on": "2026-10-26"
     },
     "cpu-a-isa": {
       "subject_id": "apai",
@@ -44,8 +42,11 @@
       ],
       "prerequisites": [],
       "status": "demonstrated",
-      "misconceptions": [],
-      "review_on": "2026-10-20"
+      "misconceptions": [
+        "RISC/CISC nazval implementacemi ISA; zpřesněno na koncepce ISA, samostatné terminologické ověření ještě neproběhlo.",
+        "Záměna uchování vstupů a vynechání výpočtu se při dnešním samostatném opakování vrátila; na následných explicitních příkladech ji opravil, nezávislé vybavení s odstupem zůstává k ověření."
+      ],
+      "review_on": "2026-10-24"
     },
     "gpu-tpu-npu-vpu": {
       "subject_id": "apai",
@@ -55,9 +56,12 @@
         "Porovnat úlohy a principy hlavních AI akcelerátorů."
       ],
       "prerequisites": [],
-      "status": "unseen",
-      "misconceptions": [],
-      "review_on": null
+      "status": "demonstrated",
+      "misconceptions": [
+        "MyriadX/OpenVINO na přímý dotaz neuměl přiřadit,řešení ukázáno; jinou dvojiciGPU/PyTorch již rozlišil správně, původní názvy dosud samostatně znovu neověřeny.",
+        "Rozlišení modelové operace aISA bylo opraveno a na příkladu nové softwarové verze správně aplikováno, retence zatím neověřena."
+      ],
+      "review_on": "2026-10-24"
     },
     "integrovane-obvody-a-asic": {
       "subject_id": "apai",
@@ -1273,6 +1277,1689 @@
       "next_step": "Čeká se na odpověď na již zobrazenou otázku: Program tisíckrát zpracuje stejné malé pole dat, které se vejde do cache. Proč může být zpracování po prvním načtení rychlejší, přestože se takt ani výpočetní jednotky CPU nezměnily? Očekává se opakované čtení z rychlejší cache a méně čekání na RAM; zrychlení není obecně zaručené pro každou úlohu. Jde o bezprostřední použití právě vysvětleného principu, ne ověření konkrétní cache organizace. Po úspěchu případně ověřit opačný případ velkých dat bez opakovaného použití a propojit s paměťovým limitem TOPS. Paměťová hierarchie zatím pouze introduced; obecný demonstrated tématu neznamená zvládnutí tohoto obsahu. CPU/ISA, pipeline, výkon a energetické jednotky zopakovat 2026-10-20; splatné opakování ai-a-specificky-hardware stále čeká. Zpětnou vazbu a další otázku zobrazovat před zápisem checkpointu.",
       "review_on": null,
       "created_at": "2026-10-18T13:08:22.307161+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-22-01-cache-data-vysledek",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Program tisíckrát zpracuje stejné malé pole dat, které se vejde do cache. Proč může být zpracování po prvním načtení rychlejší, přestože se takt ani výpočetní jednotky CPU nezměnily?",
+      "learner_answer": "jelikož se malé pole počítá opakovaně, je vhodné ho uložit do cache a již ho jen číst, ne počítat znovu, což je rychlejší",
+      "evaluation": "Kritérium: vysvětlit opakované načítání dat pole z rychlejší cache místo pomalejší RAM a menší čekání CPU, bez předpokladu, že cache sama nahrazuje opakovaný výpočet hotovým výsledkem. Uživatel správně spojuje malé opakovaně používané pole s cache a rychlejším čtením. Formulací ne počítat znovu však směšuje uchování vstupních dat s uchováním výsledku; rozdíl cache/RAM a opakovaného výpočtu nedoložil. Needs-practice pro toto konkrétní rozlišení, bez nápovědy během pokusu. Před zápisem zobrazena zpětná vazba: cache uchovává data pole a omezuje čtení z RAM, samotné zpracování se může opakovat. Pojem memoizace pro ukládání výsledku vysvětlen jako doplnění mimo skripta, nikoli jako citovaná látka s. 6. Přes průběžný vstup před zápisem zadána jedna nová otázka s opakovaným sčítáním a explicitně neukládaným výsledkem. Nejde o ověření celé kapitoly CPU a předchozí úspěchy ISA/pipeline zůstávají doložené.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-opakovane-pouziti-dat-cache-versus-vysledek",
+      "misconceptions": [
+        "Směšuje uchování vstupních dat pole v hardwarové cache s uchováním hotového výsledku a vynecháním opakovaného výpočtu; opraveno ve zpětné vazbě, samostatné rozlišení čeká."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: CPU má sečíst prvky stejného pole stokrát. Pole se vejde do cache, ale hotový součet si program neukládá. Co může cache ušetřit a co musí CPU při každém průchodu znovu provést? Očekává se méně načítání z pomalejší RAM díky datům v cache, ale nové provedení sčítání při každém průchodu. Jde o bezprostřední procvičení po opravě, ne retenci. Při úspěchu opačný případ jednorázových velkých dat, dále lokálnost, vektory a knihovny; mapu celých 24 stran a historii 35 předchozích checkpointů jsme obnovili v tomto chatu, nejde o dokončení všech materiálů. Zůstává splatné opakování AI základů, ISA/pipeline a výkonu/energetických jednotek, zejména vlastní konkrétní protipříklad TOPS. Chybějící znaky MAC/roofline/Amdahl/ket ve zdroji zůstávají konkrétní nejistotou. Zpětnou vazbu a jednu další otázku zobrazovat přes průběžný vstup před uložením.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-22T12:19:39.202843+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-22-02-cache-algoritmus",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "CPU má sečíst prvky stejného pole stokrát. Pole se vejde do cache, ale hotový součet si program neukládá. Co může cache ušetřit a co musí CPU při každém průchodu znovu provést?",
+      "learner_answer": "cache může využét trik ve stylu, udělám 10krát součet, ten uložím do cache a pak znovu 10krát sečtu co je v cache. udělám celkově 20 součtů místo 100",
+      "evaluation": "Kritérium: odlišit opakované načítání vstupních dat z rychlejší cache místo RAM od vykonávání sčítání podle nezměněného programu; uvést, že sčítání se stále provádí při každém průchodu. Uživatel navrhuje ukládat a opakovaně používat mezivýsledek, čímž mění zadaný postup, a přisuzuje tuto úpravu cache. Neuvádí úsporu načítání z RAM ani nutnost původního opakovaného sčítání; hlavní neporozumění přetrvává. Výsledek needs-practice, bez další nápovědy během pokusu; předchozí oprava byla součást předcházející aktivity. Tvrzení 20 součtů místo 100 není tímto zadáním doložené; neposuzovat ho jako správnou optimalizaci ani z něj vyvozovat neznalost aritmetiky. Před uložením zobrazena zpětná vazba: návrh je změna algoritmu, již musí zajistit program, cache ji sama nevymýšlí; v původním příkladu probíhají původní průchody a cache urychluje čtení hodnot pole. Doplněno, že i mezivýsledek může být v cache, ale jeho opakované využití řídí instrukce programu, takže cache není omezena pouze na vstupní data. Rozlišení algoritmické optimalizace označeno jako didaktické doplnění. Přes průběžný vstup před zápisem zadán jednodušší konkrétní příklad [2,3], bez dosud odeslané odpovědi.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-cache-versus-zmena-algoritmu-po-prvni-oprave",
+      "misconceptions": [
+        "Stále připisuje hardwarové cache samostatnou úpravu algoritmu a snížení počtu součtů ukládáním mezivýsledků; rozdíl mezi rychlejším načtením dat a opakovaným výpočtem nebyl samostatně doložen."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: V cache jsou hodnoty pole [2, 3], ale hotový součet tam uložený není. Program má tyto prvky znovu sečíst. Co CPU z cache načte a jak získá výsledek 5? Očekává se načíst 2 a 3 a provést sčítání; cache sama hotový výsledek nevypočítá ani nedodá při jeho nepřítomnosti. Jde o jednodušší bezprostřední procvičení po dvou opravách, nikoli ověření retence ani všech cílů CPU. Při úspěchu případně ověřit srovnání RAM/cache při stejném počtu výpočtů a později velká data bez opakovaného použití; dále lokálnost/vektory/knihovny a zbytek celé mapy. Zůstávají splatná opakování AI,ISA/pipeline a metrik/energetických jednotek i vlastní protipříklad TOPS. Celé skriptum dosud neprobrané. Zpětnou vazbu a jednu další otázku zobrazovat před ukládáním.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-22T12:24:26.569424+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-22-03-cache-nacteni-vypocet",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "V cache jsou hodnoty pole [2, 3], ale hotový součet tam uložený není. Program má tyto prvky znovu sečíst. Co CPU z cache načte a jak získá výsledek 5?",
+      "learner_answer": "načte zvlášt 2 a 3 a pak pomocí ISA příkazu hodnotry sečte",
+      "evaluation": "Kritérium této zjednodušené aktivity: určit, že CPU z cache získá obě vstupní hodnoty 2 a 3 a jejich součet vypočítá instrukcí sčítání, nikoli že cache automaticky dodá neuložený hotový součet. Uživatel obě části správně uvádí. Formulace ISA příkaz v tomto kontextu správně označuje instrukci z instrukční sady; není třeba ji zbytečně opravovat ani vyvozovat konkrétní ISA či implementaci. Passed bez další nápovědy během této otázky. Jde o první úspěšné rozlišení na velmi jednoduchém explicitním příkladu po dvou opravách; nedokládá retenci, samostatné vysvětlení zrychlení oproti RAM ani zvládnutí celé paměťové hierarchie. Zpětná vazba před zápisem potvrdila načtení hodnot a výpočet pomocí CPU a připomněla, že cache zkracuje čekání na data. Přes průběžný vstup před zápisem zobrazena jedna navazující otázka ke dvěma běhům se stejným počtem sčítání a různým zdrojem dat RAM/cache.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "velmi-zakladni-nacteni-dvou-hodnot-a-scitani-po-dvou-opravach",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Dva běhy programu provedou úplně stejná sčítání. V prvním běhu CPU opakovaně načítá hodnoty z RAM, ve druhém je najde v cache. Proč může být druhý běh rychlejší, i když provedl stejný počet sčítání? Očekává se rychlejší přístup k datům z cache a méně čekání na pomalejší RAM při nezměněném počtu výpočtů. Jde o bezprostřední procvičení po upřesnění, ne retenci; poslední správná odpověď opravuje záměnu na konkrétním příkladu [2,3]. Při úspěchu lze přejít na opačný případ velkých jednorázově použitých dat a propojit s lokálností, později vektory/knihovny. Paměťovou hierarchii zopakovat s odstupem 2026-10-23. Nadále splatné opakování AI základů,ISA/pipeline,výkonu/energetických jednotek a vlastní konkrétní protipříklad TOPS. Dříve obnovená mapa celých 24 stran zůstává platná, všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T12:27:50.487527+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-22-04-cache-ram-rychlost",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Dva běhy programu provedou úplně stejná sčítání. V prvním běhu CPU opakovaně načítá hodnoty z RAM, ve druhém je najde v cache. Proč může být druhý běh rychlejší, i když provedl stejný počet sčítání?",
+      "learner_answer": "protožr čtení z RAM je rychlejší než čtení z cache",
+      "evaluation": "Kritérium: vysvětlit rychlejší běh stejných výpočtů kratším čekáním na data při čtení z cache oproti pomalejší RAM. Uživatel volí relevantní hledisko rychlosti čtení, ale prohodil vztah obou pamětí: uvádí RAM rychlejší než cache. Kritérium zatím nesplněno, needs-practice; bez další nápovědy během pokusu. Z odpovědi nelze určit, zda jde o přepsání nebo trvalejší záměnu; nevyvozovat další neporozumění. Předchozí správné rozlišení načtení dvou hodnot a jejich sečtení zůstává doložené. Před zápisem zobrazena oprava: cache je obvykle rychlejší než RAM, malá a blízko výpočetních jednotek, takže může snížit čekání při stejných sčítáních. Přes průběžný vstup zadána jedna zjednodušená otázka s výslovně ilustračními časy RAM 80 ns/cache 4 ns. Čísla jsou didaktický příklad, nikoli parametry převzaté ze skript ani univerzální latence pamětí.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-vztah-rychlosti-cache-a-ram-pri-stejnem-vypoctu",
+      "misconceptions": [
+        "V odpovědi prohodil rychlost čtení z RAM a cache; správný vztah cache obvykle rychlejší než RAM opraven ve zpětné vazbě, nové použití čeká."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Ilustrační příklad: CPU čeká na hodnotu z RAM 80 ns, zatímco z cache 4 ns. Hodnota je dostupná v obou pamětech. Odkud ji získá rychleji a co se tím ušetří — čekání na data, nebo samotné sčítání? Očekává se z cache a kratší čekání na data; samotné sčítání zůstává. Čísla jsou jen didaktický model. Při úspěchu později ověřit vztah bez nabízených možností a s odstupem, pak opačný případ velkých jednorázových dat a lokálnost/vektory/knihovny. Nezaměnit drobné úspěchy s dokončením kapitoly nebo všech 24 stran. Ostatní splatná opakování AI,ISA/pipeline,výkon/energie a vlastní protipříklad TOPS zůstávají otevřená. Zpětnou vazbu a jednu další otázku zobrazovat před ukládáním.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-22T15:32:04.978539+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "cpu-a-isa",
+      "hints_used": 0,
+      "checkpoint_id": "pokus-2026-10-22-05-cache-volba",
+      "activity_kind": "material",
+      "activity": "Ilustrační příklad: CPU čeká na hodnotu z RAM 80 ns, zatímco z cache 4 ns. Hodnota je dostupná v obou pamětech. Odkud ji získá rychleji a co se tím ušetří — čekání na data, nebo samotné sčítání?",
+      "learner_answer": "takže cahche je na CPU?Z cache",
+      "evaluation": "Vyhodnocen pouze skutečně zodpovězený dílčí cíl: určit rychlejší zdroj hodnoty v explicitním modelu RAM 80 ns versus cache 4 ns. Uživatel správně volí cache, čímž na tomto jednoduchém scénáři opravuje předchozí obrácený vztah. Passed pro tuto dílčí volbu, bez nápovědy během pokusu, ale bezprostředně po opravě a s časy přímo v zadání. Druhou část o čekání versus počtu sčítání dosud výslovně nezodpověděl; nepřipsat ji jako zvládnutou ani neoznačovat otázku na umístění za chybnou odpověď. Dotaz cache je na CPU byl před zápisem zodpovězen samostatným krátkým doplněním o umístění cache a RAM. Zpětná vazba potvrdila cache, zopakovala ilustrační 4 versus 80 ns a nutnost samotného sčítání. Jedna navazující otázka cílená jen na dosud nezodpovězený rozdíl čekání/výpočet byla zobrazena přes průběžný vstup před zápisem.",
+      "result": "passed",
+      "difficulty": "velmi-zakladni-volba-cache-podle-explicitnich-casu-po-oprave",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Když CPU najde potřebné hodnoty v cache, co se oproti jejich čtení z RAM zkrátí: čekání na data, nebo počet potřebných sčítání? Očekává se čekání na data při stejných sčítáních. Uživatel správně vybral cache v číselném modelu, ale tuto druhou část původní otázky zatím výslovně nezodpověděl. Pochopení fyzického umístění zatím jen vysvětleno. Při úspěchu pokračovat konkrétním přenosem na opakované versus jednorázové použití dat a později ověřit bez možnosti výběru; neprodlužovat zbytečně stejné otázky po doloženém úspěchu. Nevyvozovat retenci z okamžitého procvičení. Mapa celých materiálů z tohoto chatu stále platí, všechny části nejsou probrané; ostatní splatná opakování zůstávají otevřená. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:02:16.700558+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "cpu-a-isa",
+      "hints_used": 0,
+      "checkpoint_id": "vyklad-2026-10-22-06-umisteni-cache",
+      "activity_kind": "supplement",
+      "activity": "Na uživatelův dotaz takže cache je na CPU vysvětleno: u běžných procesorů je cache přímo součástí CPU blízko výpočetních jader; RAM je větší samostatná paměť. Výklad výslovně označen jako doplnění hierarchie ze skript s. 6, nikoli jako přesný obsah této stránky.",
+      "learner_answer": "",
+      "evaluation": "Krátké doplnění o fyzickém umístění bylo skutečně zobrazeno. Introduced: uživatel položil dotaz, ale pochopení nové informace ještě nebylo samostatně ověřeno. Nevztahovat tvrzení bez výjimek na všechny procesorové a paměťové architektury. Zpětná vazba a jedna otázka na vliv rychlejšího čtení byly zobrazeny před zápisem. Tato otázka primárně ověřuje čekání versus výpočet, nikoli fyzické uspořádání cache.",
+      "result": "introduced",
+      "difficulty": "uvodni-fyzicke-umisteni-cache-a-ram",
+      "misconceptions": [],
+      "source_refs": [],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Když CPU najde potřebné hodnoty v cache, co se oproti jejich čtení z RAM zkrátí: čekání na data, nebo počet potřebných sčítání? Očekává se čekání na data při stejných sčítáních. Uživatel správně vybral cache v číselném modelu, ale tuto druhou část původní otázky zatím výslovně nezodpověděl. Pochopení fyzického umístění zatím jen vysvětleno. Při úspěchu pokračovat konkrétním přenosem na opakované versus jednorázové použití dat a později ověřit bez možnosti výběru; neprodlužovat zbytečně stejné otázky po doloženém úspěchu. Nevyvozovat retenci z okamžitého procvičení. Mapa celých materiálů z tohoto chatu stále platí, všechny části nejsou probrané; ostatní splatná opakování zůstávají otevřená. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-22T16:02:16.758084+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-22-07-cache-cekani",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Když CPU najde potřebné hodnoty v cache, co se oproti jejich čtení z RAM zkrátí: čekání na data, nebo počet potřebných sčítání?",
+      "learner_answer": "zkrátí se čekání na data",
+      "evaluation": "Kritérium tohoto dílčího ověření: správně vybrat zkrácení čekání na data, nikoli snížení počtu sčítání. Uživatel správně uvádí čekání na data. Passed bez další nápovědy během této otázky. Jde o jednoduchý výběr ze dvou možností bezprostředně po opakovaném vysvětlení, nikoli samostatné vysvětlení bez nabídek ani ověření s odstupem. Spolu s předchozími odpověďmi doloženo na zjednodušených scénářích rozlišení načtení vstupních dat a sčítání i volba rychlejší cache při zadaných časech. Nevyvozovat zvládnutí celé paměťové hierarchie nebo celého tématu CPU. Zpětná vazba před uložením potvrdila kratší čekání a stejný počet sčítání. Mapa všech 24 stran byla porovnána s původní historií i konkrétními aktivitami tohoto chatu: nově doložené jsou tyto úzké dovednosti, další lokálnost/vektory/knihovny ani zbývající kapitoly nejsou tímto pokryté. Přes průběžný vstup před zápisem zadána navazující aplikační otázka o opakovaném malém poli versus jednorázově použitých velkých datech.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "velmi-zakladni-vyber-cekani-versus-pocet-operaci-po-opravach",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Program A stokrát zpracuje stejné malé pole, které zůstává v cache. Program B jednou projde obrovské pole a každý prvek použije pouze jednou. U kterého programu očekáváš větší přínos z opakovaného používání dat v cache a proč? Očekává se A, protože další průchody využijí již načtené hodnoty a omezí opakované čtení z RAM. U B chybí opakované použití jednotlivých hodnot; nevyžadovat tvrzení, že cache u streamu nemůže vůbec pomoci, protože prostorová lokálnost/prefetch mohou hrát roli a nebyly dosud vyloženy. Jde o přenos na nový scénář, ne retenci s odstupem. Po úspěchu postupně lokálnost, vektorové instrukce a knihovny s.6; vrátit se ke splatnému opakování výkonu/energetických jednotek a samostatnému protipříkladu TOPS i ISA/pipeline a AI. Zopakovat jádro přínosu cache 2026-10-23 bez nabídky odpovědí. Všechny materiály dosud nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem checkpointu.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:04:12.261775+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "cpu-a-isa",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "pokus-2026-10-22-08-cache-opakovani-pole",
+      "activity_kind": "material",
+      "activity": "Program A stokrát zpracuje stejné malé pole, které zůstává v cache. Program B jednou projde obrovské pole a každý prvek použije pouze jednou. U kterého programu očekáváš větší přínos z opakovaného používání dat v cache a proč?",
+      "learner_answer": "A) zpracovávám furt dokola to samé, je v cache)",
+      "evaluation": "Kritérium: vybrat A a odůvodnit větší přínos opakovaným použitím stejných hodnot již dostupných v cache. Uživatel správně volí A a konkrétně uvádí opakované zpracování téhož, co je v cache. Passed bez další nápovědy během pokusu, v návaznosti na předchozí procvičování přínosu cache. Nejde o retenci s odstupem ani o úplné zvládnutí paměťové hierarchie. V odpovědi netvrdí, že cache u B nemůže vůbec pomáhat. Zpětná vazba před zápisem potvrdila opakované použití a omezení čtení z RAM; navazující vysvětlení časové/prostorové lokálnosti a bloků v cache bylo výslovně uvedeno jako doplnění pojmu ze skript s.6. Před zápisem zobrazena jedna otázka na oba nově zavedené druhy lokálnosti. Mapa rozsahu je aktualizována jen o toto skutečně doložené použití, ostatní obsah zůstává neprobraný.",
+      "result": "passed",
+      "difficulty": "zakladni-aplikace-opakovaneho-pouziti-maleho-pole-po-procviceni",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Urči druh lokálnosti a stručně vysvětli proč: 1. Program opakovaně čte stále stejnou hodnotu. 2. Program postupně čte sousední prvky pole. Kde jde o časovou a kde o prostorovou lokálnost? Očekává se 1 časová kvůli opakování stejné hodnoty, 2 prostorová kvůli blízkým adresám. Jde o první bezprostřední použití nově vysvětlených názvů, nikoli retenci či zvládnutí konkrétních cache line parametrů. Při úspěchu krátce aplikovat prostorovou lokálnost bez opakování totožných definic, pak zařadit splatné opakování energie/J versus W a vlastní konkrétní příklad omezení TOPS. Později stále zbývají vektorové instrukce/knihovny, rodiny ISA/RISC/CISC/heterogenní CPU i ostatní obsah obnovené mapy 24 stran. Přínos cache a lokálnost zopakovat 2026-10-23. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:07:41.983963+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "cpu-a-isa",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "vyklad-2026-10-22-09-casova-prostorova-lokalnost",
+      "activity_kind": "supplement",
+      "activity": "Rozvedení pojmu lokálnost dat zmíněného ve skriptech s.6: časová lokálnost je brzké opakované použití stejných dat, s vazbou na správně vyřešený program A; prostorová lokálnost je používání dat uložených blízko sebe. Vysvětleno, že cache obvykle načítá blok sousedních hodnot, takže může pomoci i jednorázovému postupnému průchodu velkým polem. Podrobnější rozlišení bylo označeno jako doplnění k pojmu ze skript.",
+      "learner_answer": "",
+      "evaluation": "Krátký výklad skutečně zobrazen před zápisem. Introduced pro nové názvy časová/prostorová a mechanismus bloku sousedních hodnot; správné předchozí zdůvodnění opakovaného použití dat samo neprokazuje znalost těchto názvů ani prostorové lokálnosti. Neuváděny konkrétní velikosti cache line ani tvrzení o zaručeném zrychlení každého průchodu. Jde o doplnění nad rámec stručného pojmu lokálnost na s.6, nikoli doslovný obsah této stránky. Přes průběžný vstup zadána jedna otázka na rozlišení dvou případů, dosud bez odpovědi.",
+      "result": "introduced",
+      "difficulty": "uvodni-rozliseni-casove-a-prostorove-lokalnosti",
+      "source_refs": [],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Urči druh lokálnosti a stručně vysvětli proč: 1. Program opakovaně čte stále stejnou hodnotu. 2. Program postupně čte sousední prvky pole. Kde jde o časovou a kde o prostorovou lokálnost? Očekává se 1 časová kvůli opakování stejné hodnoty, 2 prostorová kvůli blízkým adresám. Jde o první bezprostřední použití nově vysvětlených názvů, nikoli retenci či zvládnutí konkrétních cache line parametrů. Při úspěchu krátce aplikovat prostorovou lokálnost bez opakování totožných definic, pak zařadit splatné opakování energie/J versus W a vlastní konkrétní příklad omezení TOPS. Později stále zbývají vektorové instrukce/knihovny, rodiny ISA/RISC/CISC/heterogenní CPU i ostatní obsah obnovené mapy 24 stran. Přínos cache a lokálnost zopakovat 2026-10-23. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-22T16:07:42.042246+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-22-10-druhy-lokalnosti",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "supplement",
+      "activity": "Urči druh lokálnosti a stručně vysvětli proč: 1. Program opakovaně čte stále stejnou hodnotu. 2. Program postupně čte sousední prvky pole. Kde jde o časovou a kde o prostorovou lokálnost?",
+      "learner_answer": "1. časová lokálnost\n2. prosotrtová lokálnost",
+      "evaluation": "Kritérium skutečně doloženého dílčího výsledku: správně přiřadit názvy časová a prostorová lokálnost ke dvěma explicitním případům. Uživatel obě přiřazení určil správně; překlep prosotrtová nemění význam. Passed bez další nápovědy během pokusu, ale jde o bezprostřední jednoduché použití právě vysvětlených definic. Požadované vlastní zdůvodnění neuvedl: doplnil je asistent ve zpětné vazbě (stejná hodnota versus sousední prvky), proto je nepočítat jako samostatný výkon uživatele. Samostatné vysvětlení, aplikace na cache blok i retence s odstupem zůstávají k pozdějšímu ověření. Pojmy byly vyučovány jako doplnění stručné zmínky o lokálnosti na s.6, proto supplement bez přímé citace definic. Před zápisem zobrazeno potvrzení obou přiřazení a jejich důvodů a přes průběžný vstup jedna otázka na splatné opakování energie/příkonu ze s.5. Mapa celých materiálů zkontrolována vůči historii a novým aktivitám: rozlišení cache/načtení/výpočet a přínos opakovaného pole jsou nyní doložené na základních scénářích; fyzické umístění cache a blok sousedních dat pouze introduced; vektorové instrukce/knihovny i další kapitoly nadále neprobrané. Úspěch neznamená dokončení skript ani celého cíle CPU.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-prirazeni-dvou-prave-vysvetlenych-definic",
+      "misconceptions": [],
+      "source_refs": [],
+      "next_step": "Nyní již zobrazena otázka v tématu vykon-a-efektivita: Zařízení má stálý příkon 6 W a za 4 sekundy provede 48 inferencí. Kolik energie spotřebuje celkem a kolik připadá na jednu inferenci? Uveď výpočty i jednotky. Očekává se 6 J/s × 4 s = 24 J a 24 J / 48 inferencí = 0,5 J/inference. Jde o samostatné vybavení po posledním úspěšném energetickém příkladu 2026-10-18; nyní nebyl poskytnut vzorec ani převod jednotek. Odpověď ještě nepřišla, nehodnotit ji. Při úspěchu ověřit vlastní konkrétní protipříklad k odvozování času celé aplikace z TOPS. K paměťové hierarchii se vrátit: praktická prostorová lokálnost a vlastní zdůvodnění zatím čekají, stejně jako vektory/knihovny a další části CPU; cache/lokálnost zopakovat s odstupem 2026-10-23. Zachovat rozsah všech 24 stran, ostatní splatná opakování a konkrétní nečitelné symboly z průzkumu. Zpětnou vazbu a jednu další otázku zobrazovat před ukládáním.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:09:59.293108+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-22-11-energie-opakovani",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Zařízení má stálý příkon 6 W a za 4 sekundy provede 48 inferencí. Kolik energie spotřebuje celkem a kolik připadá na jednu inferenci? Uveď výpočty i jednotky.",
+      "learner_answer": "6 W = 6J/s | 6J/s * 4 s =24 J -> energie celkem | 24/48 -> 0,5 J na jednu inferenci",
+      "evaluation": "Kritérium: při stálém příkonu samostatně určit celkovou energii a energii na inferenci, včetně správných jednotek. Uživatel správně převádí 6 W na 6 J/s, násobí 4 s na 24 J a dělí 48 inferencemi na 0,5 J na jednu inferenci. Kritérium splněno bez nápovědy; vzorec ani převod nebyly nyní připomenuty před pokusem. Jde o úspěšné opakování dříve problematických jednotek se čtyřdenním odstupem od doloženého spojeného úspěchu 2026-10-18. Dokládá tento konkrétní výpočet při stálém příkonu, nikoli automaticky všechna měřítka výkonu/energie, proměnný příkon nebo složité provozní režimy. Zpětná vazba před uložením potvrdila oba výsledky i jednotky a úspěch s odstupem. Přes průběžný vstup zadána další otázka, která žádá vlastní konkrétní protipříklad k odvozování poloviční doby celé aplikace z dvojnásobných TOPS. Tentokrát nebyl dodán scénář ani mechanismus, který by protipříklad předem napověděl.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-spojeny-vypocet-energie-a-energie-na-inferenci-opakovani-po-4-dnech",
+      "misconceptions": [
+        "Přetrvává dosud neověřené vlastní konkrétní zdůvodnění, proč dvojnásobné TOPS nemusí zkrátit čas celé aplikace na polovinu; úspěch energetických jednotek tuto jinou dílčí obtíž neřeší."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Nový akcelerátor má při stejném datovém typu a stejné metodice dvojnásobné TOPS. Znamená to nutně poloviční dobu běhu celé aplikace? Uveď jeden konkrétní protipříklad, slovní nebo číselný. Očekává se ne a věrohodný konkrétní scénář, například paměťový limit, nezrychlené CPU/I/O, nepodporovaný operátor nebo nevyužitá špička; tyto příklady uživateli nyní nebyly zobrazeny. Uznat konkrétní správný slovní případ bez vyžadování čísel. Jde o opakování dřívější slabiny: 2026-10-18 zvládl poskytnutý sériový scénář, ale vlastní protipříklad nedodal. Energie/J versus W nyní samostatně správně s odstupem; další opakování této dovednosti navrhnuto na 2026-10-26, TOPS procvičit nyní. Pak splatné AI základy/ISA/pipeline nebo další neprobraný obsah podle celé mapy; lokálnost vlastní zdůvodnění a prostorový přenos, vektory/knihovny i ostatní kapitoly stále čekají. Všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před ukládáním.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-22T16:12:35.356280+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-22-12-tops-nezrychleny-zbytek",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Nový akcelerátor má při stejném datovém typu a stejné metodice dvojnásobné TOPS. Znamená to nutně poloviční dobu běhu celé aplikace? Uveď jeden konkrétní protipříklad, slovní nebo číselný.",
+      "learner_answer": "Ne, zrychluje se jen akcelerátor, zbytek hardware zůstává stejně rychlý",
+      "evaluation": "Kritérium skutečně doloženého dílčího výsledku: odmítnout zaručené poloviční trvání celé aplikace a samostatně identifikovat relevantní mechanismus, totiž nezrychlenou část mimo akcelerátor. Uživatel bez nápovědy během tohoto pokusu správně odmítá záruku a uvádí, že ostatní hardware zůstává stejně rychlý. Jde o věrohodný obecný princip pro aplikaci, která tráví čas i mimo akcelerátor; passed pro tento vlastní mechanismus po odstupu od předchozí lekce 2026-10-18. Nepřipisovat konkrétní činnost nebo číselný scénář, protože je dosud neuvedl. Odpověď sama neověřuje převod TOPS na skutečný čas akcelerátorové části; neinterpretovat ji jako záruku, že dvojnásobné TOPS vždy zkrátí vlastní část na polovinu. Před zápisem zpětná vazba správný důvod potvrdila a výslovně uvedla podmínku nenulové práce mimo akcelerátor. Přes průběžný vstup pak zadána jedna cílená otázka na konkrétní činnost; žádný příklad činnosti nebyl předem prozrazen. Jde o zpřesnění původního požadavku a uživatelova vlastního argumentu, nikoli novou metodickou nápovědu.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-vlastni-mechanismus-nezrychlene-casti-aplikace-s-odstupem",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Kterou konkrétní činnost v AI aplikaci nemusí výměna za rychlejší akcelerátor urychlit? Uveď jeden příklad. Uznat správný konkrétní scénář, například načítání dat z úložiště/sítě, předzpracování či řízení na nezměněném CPU nebo přenos dat přes nezměněné rozhraní; příklady uživateli v tomto tahu nebyly zobrazeny. Nyní již samostatně vybavil obecný relevantní mechanismus, takže netvrdit, že tento základ nadále neumí. Konkrétní činnost dosud čeká. Po vhodném příkladu není nutné znovu vynucovat číselnou Amdahlovu úlohu, dřívější výpočty i energie jsou doložené; lze přejít ke splatnému opakování AI základů/trénování-inference nebo k neprobraným částem CPU podle mapy. Energetické jednotky samostatně správně 2026-10-22, další review2026-10-26; cache/lokálnost review2026-10-23, vlastní důvody pro dvojici lokálností a prostorový přenos zatím neověřeny. Celé skriptum není probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-22T16:14:56.306658+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "checkpoint_id": "pokus-2026-10-22-13-tops-nacitani-dat",
+      "topic_id": "vykon-a-efektivita",
+      "activity_kind": "material",
+      "activity": "Kterou konkrétní činnost v AI aplikaci nemusí výměna za rychlejší akcelerátor urychlit? Uveď jeden příklad.",
+      "learner_answer": "načítání dat",
+      "evaluation": "Kritérium: k vlastnímu předchozímu správnému argumentu o nezrychleném zbytku hardwaru dodat konkrétní činnost, kterou samotná výměna akcelerátoru nemusí zrychlit. Uživatel uvádí načítání dat; jde o správný konkrétní příklad a postačující odpověď, není nutné vyžadovat číselný scénář ani další upřesňování. Bez nápovědy během pokusu; cílená předchozí otázka zpřesnila již původně požadovaný příklad a neposkytla konkrétní mechanismus, proto hints_used 0. V návaznosti na předchozí odpověď nyní doložen samostatný obecný argument i konkrétní činnost po odstupu od starší lekce, kde potřeboval dodaný scénář. Zpětná vazba před zápisem správný příklad uznala a pouze ilustrovala diskem nebo sítí; tyto konkrétní zdroje dodal asistent. Nevyvozovat, že načítání se nikdy nemůže zrychlit nebo překrývat s výpočtem; odpověď i otázka pracují s možností nezrychlené fáze. Před uložením představen dosud neprobraný základ trénování/inference ze s.3 a jedna otázka přes průběžný vstup. Celá mapa zdrojů porovnána s historií včetně nových aktivit: tato dílčí dřívější mezera je nyní doložená, celé skriptum tím není dokončené.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-vlastni-konretni-priklad-nezrychlene-cinnosti",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku v tématu ai-a-specificky-hardware: Systém dostane obrázky se správnými popisky, porovná své předpovědi s popisky a podle chyb upraví váhy sítě. Jde o trénování, nebo inferenci? Který krok je pro tvé rozhodnutí zásadní? Očekává se trénování kvůli aktualizaci vah, nikoli jen přítomnosti popisků nebo výpočtu předpovědi. První bezprostřední použití po výkladu. Při úspěchu ověřit opačný případ nových vstupů s pevnými vahami, pak doplnit celou tabulku1.2 nároků/hardwaru a ostatní neprobrané AI základy z mapy: AI/ML/DL/hybrid,MAC/workload. Starší nepřesnost komplexní vzory na jednoduché dosud samostatně neověřena. TOPS: nyní samostatně správně vybavil nezrychlený zbytek a uvedl načítání dat jako konkrétní činnost, neopakovat dále bez důvodu stejný požadavek. Výkon/energie další review2026-10-26,cache/lokálnost2026-10-23. CPU vektory/knihovny a další části celé mapy zůstávají v rozsahu; všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-22T16:17:27.768833+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "checkpoint_id": "vyklad-2026-10-22-14-trenovani-inference",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "activity": "Základ rozdílu trénování/inference ze s.3: trénování podle dat upravuje parametry modelu, například váhy neuronové sítě, zahrnuje výpočet chyby a aktualizaci parametrů. Inference vytváří výsledek pro nový vstup s parametry, které zpravidla nemění. Příklad centrálně vytrénovaného modelu rozpoznávání osob a následné inference v kameře.",
+      "learner_answer": "",
+      "evaluation": "Třívětý výklad skutečně zobrazen s citací skript s.3. Introduced pouze pro rozdíl změn parametrů a nový vstup, chybu/aktualizaci při trénování a kamerový příklad. Dosud nevyložena celá porovnávací tabulka nároků: trénování výpočty/paměť/pipeline/komunikace a obvyklý hardware, inference latence/energie/cena za dotaz/velikost modelu a možné typy zařízení. Ani AI/ML/DL a hybridní ML z téže stránky nebyly tímto vyloženy. Průzkum celé stránky ani citace nesmějí znamenat probrání všeho jejího obsahu. Přes průběžný vstup před zápisem položena jedna otázka s aktualizací vah, dosud bez odpovědi. Dřívější demonstrated v tématu dokládá paralelismus/režii, nikoli tento nový obsah.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "uvodni-rozliseni-trenovani-a-inference-podle-zmeny-parametru",
+      "misconceptions": [
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku v tématu ai-a-specificky-hardware: Systém dostane obrázky se správnými popisky, porovná své předpovědi s popisky a podle chyb upraví váhy sítě. Jde o trénování, nebo inferenci? Který krok je pro tvé rozhodnutí zásadní? Očekává se trénování kvůli aktualizaci vah, nikoli jen přítomnosti popisků nebo výpočtu předpovědi. První bezprostřední použití po výkladu. Při úspěchu ověřit opačný případ nových vstupů s pevnými vahami, pak doplnit celou tabulku1.2 nároků/hardwaru a ostatní neprobrané AI základy z mapy: AI/ML/DL/hybrid,MAC/workload. Starší nepřesnost komplexní vzory na jednoduché dosud samostatně neověřena. TOPS: nyní samostatně správně vybavil nezrychlený zbytek a uvedl načítání dat jako konkrétní činnost, neopakovat dále bez důvodu stejný požadavek. Výkon/energie další review2026-10-26,cache/lokálnost2026-10-23. CPU vektory/knihovny a další části celé mapy zůstávají v rozsahu; všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-22T16:17:27.830138+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-22-15-trenovani-zmena-vah",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "activity": "Systém dostane obrázky se správnými popisky, porovná své předpovědi s popisky a podle chyb upraví váhy sítě. Jde o trénování, nebo inferenci? Který krok je pro tvé rozhodnutí zásadní?",
+      "learner_answer": "trénování -> rozoduje to, že se upravují váhy modelu",
+      "evaluation": "Kritérium: určit trénování a zdůvodnit ho aktualizací vah, ne pouze přítomností dat nebo popisků. Uživatel obě části správně uvádí. Passed bez další nápovědy během pokusu; první jednoduchá aplikace právě vysvětleného rozdílu, nikoli retence s odstupem nebo zvládnutí celého tématu. Zpětná vazba před uložením potvrdila trénování a význam aktualizace parametrů. Přes průběžný vstup před zápisem zobrazena opačná situace s novou nahrávkou a pevnými vahami. Další požadavky/hardware trénování a inference i ostatní obsah stránky zůstávají neprobrané.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-urceni-trenovani-podle-aktualizace-vah-po-vykladu",
+      "misconceptions": [
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Hotový model dostane dosud neviděnou nahrávku a určí, zda obsahuje psí štěkot. Jeho váhy přitom zůstávají stejné. Jde o trénování, nebo inferenci? Vysvětli proč. Očekává se inference: používá naučené pevné parametry na novém vstupu, samotná novost dat není aktualizace vah. Při úspěchu doplnit tabulku 1.2: nároky trénování na výpočty/paměť/datové pipeline/komunikaci a typický hardware; inference latence/energie/cena za dotaz/velikost modelu a více možných hardwarových tříd. Nadále neprobrané AI/ML/DL/hybrid,MAC/workload a další části pracovní mapy celých 24 stran. Opakovat toto rozlišení s odstupem2026-10-24; cache/lokálnost2026-10-23 a výkon/energie2026-10-26 podle posledních záznamů. Dřívější úvodní formulace o vzorech ještě neověřena. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-22T16:45:57.185898+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        }
+      ],
+      "misconceptions": [
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "checkpoint_id": "pokus-2026-10-22-16-inference-pevne-vahy",
+      "activity": "Hotový model dostane dosud neviděnou nahrávku a určí, zda obsahuje psí štěkot. Jeho váhy přitom zůstávají stejné. Jde o trénování, nebo inferenci? Vysvětli proč.",
+      "learner_answer": "Inferenci -> používám model k predikci, váhy se němění",
+      "evaluation": "Kritérium: určit inferenci a vysvětlit ji použitím naučeného modelu pro predikci při neměnných vahách. Uživatel správně uvádí obě části; samotný nový vstup nepovažuje za změnu parametrů. Passed bez nápovědy během pokusu, první jednoduché použití právě vysvětlené definice v opačné situaci po předchozím správném rozpoznání trénování. Dokládá rozlišení obou základních případů, nikoli retenci s odstupem nebo znalost všech výpočetních nároků a architektur. Zpětná vazba před zápisem potvrdila inferenci a neměnné váhy. Pak zobrazen výklad nároků a hardwarových možností z tabulky1.2 a přes průběžný vstup jedna otázka na bateriovou kameru. Mapa všech zdrojů porovnána s historií: nyní probraný a základně procvičený rozdíl podle parametrů; tabulka nově jen introduced, ostatní části1.1/MAC/workload zůstávají neprobrané.",
+      "result": "passed",
+      "difficulty": "zakladni-urceni-inference-na-novem-vstupu-s-pevnymi-vahami",
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Bateriová kamera používá hotový model a musí na člověka zareagovat nejpozději do 50 ms. Které dvě vlastnosti inference jsou podle tohoto zadání zásadní a proč? Očekává se latence pro limit reakce50ms a nízká energetická náročnost kvůli baterii; uznat příkon/spotřeba s vysvětlením baterie bez zbytečného vyžadování přesného jednotkového výpočtu, ten není zadán. Jde o první aplikaci právě doplněných požadavků, ale latence/energie již byly dříve samostatně procvičeny. Po úspěchu zbývá prakticky ověřit i cenu za dotaz/velikost modelu nebo nároky trénování a pokračovat neprobranými AI/ML/DL/hybrid a MAC/workload podle mapy. NPU/VPU/TPU/MCU byly zde pouze vyjmenovány jako možnosti inference, jejich architektura tím není vyučena. Trénování versus inference nyní správně rozlišil v obou jednoduchých situacích bez nápovědy, retence čeká2026-10-24. Paměť/lokálnost review2026-10-23; výkon/energie2026-10-26. Dřívější formulace o naučených vzorech versus operacích zůstává neověřená. Všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-22T17:03:53.911529+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        }
+      ],
+      "misconceptions": [
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "checkpoint_id": "vyklad-2026-10-22-17-naroky-trenovani-inference",
+      "activity": "Výklad tabulky1.2 ze s.3: trénování má typicky vysoké nároky na výpočty,paměť,přísun dat a komunikaci při více zařízeních; často používá GPU/TPU/cluster. U inference bývají klíčové latence,energie,cena za dotaz,velikost modelu. Podle úlohy inference může běžet na CPU,GPU,NPU,VPU,EdgeTPU nebo mikrokontroléru; oznámeno, že jednotlivé typy ještě postupně rozebereme.",
+      "learner_answer": "",
+      "evaluation": "Výklad skutečně zobrazen s citací skript s.3. Introduced pro konkrétní celý seznam požadavků a možných hardwarových tříd z tabulky1.2. Nebyla tím vyučena architektura GPU/TPU/NPU/VPU ani MCU; neodvozovat probrání jejich kapitol z vyjmenování názvů. Základ trénování/inference je doložen předchozími aktivitami, nové nároky dosud nebyly aplikačně ověřeny. Přes průběžný vstup před zápisem jedna otázka na latenci a energii bateriové kamery, zatím bez odpovědi.",
+      "result": "introduced",
+      "difficulty": "uvodni-naroky-a-hardware-trenovani-versus-inference",
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Bateriová kamera používá hotový model a musí na člověka zareagovat nejpozději do 50 ms. Které dvě vlastnosti inference jsou podle tohoto zadání zásadní a proč? Očekává se latence pro limit reakce50ms a nízká energetická náročnost kvůli baterii; uznat příkon/spotřeba s vysvětlením baterie bez zbytečného vyžadování přesného jednotkového výpočtu, ten není zadán. Jde o první aplikaci právě doplněných požadavků, ale latence/energie již byly dříve samostatně procvičeny. Po úspěchu zbývá prakticky ověřit i cenu za dotaz/velikost modelu nebo nároky trénování a pokračovat neprobranými AI/ML/DL/hybrid a MAC/workload podle mapy. NPU/VPU/TPU/MCU byly zde pouze vyjmenovány jako možnosti inference, jejich architektura tím není vyučena. Trénování versus inference nyní správně rozlišil v obou jednoduchých situacích bez nápovědy, retence čeká2026-10-24. Paměť/lokálnost review2026-10-23; výkon/energie2026-10-26. Dřívější formulace o naučených vzorech versus operacích zůstává neověřená. Všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-22T17:03:53.974029+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-22-18-kamera-latence-baterie",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "activity": "Bateriová kamera používá hotový model a musí na člověka zareagovat nejpozději do 50 ms. Které dvě vlastnosti inference jsou podle tohoto zadání zásadní a proč?",
+      "learner_answer": "latence  inference a cena. inference musí proběhnout do 50ms a nesmí být moc drahá",
+      "evaluation": "Kritérium: vyvodit latenci z limitu reakce50ms a energetickou náročnost z bateriového provozu, s relevantním odůvodněním. Uživatel správně určuje latenci a časový limit. Jako druhý požadavek uvádí obecně cenu a nesmí být moc drahá, ale nepropojuje baterii s energií či výdrží; konkrétní druhý požadavek tak zatím nedoložil. Needs-practice pro výběr vlastnosti podle bateriového omezení, nikoli pro výpočty energie, které již zvládl samostatně. Bez další nápovědy během pokusu. Nepovažovat cenu za obecně nedůležitou ani předpokládat, že uživatel nerozumí energii; pouze ze skutečné odpovědi není vazba baterie–energie patrná. Před zápisem zpětná vazba potvrdila latenci, vysvětlila energii na inferenci a její vztah k výdrži baterie, uznala cenu jako další návrhové hledisko. Přes průběžný vstup před zápisem zadána aplikační volba mezi dvěma variantami splňujícími časový limit s rozdílnou energií; čísla jsou ilustrační zadání, nikoli produktové parametry.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-vyber-pozadavku-inference-z-casoveho-a-baterioveho-omezeni",
+      "misconceptions": [
+        "V bateriovém scénáři místo energetické náročnosti uvedl obecnou cenu; vazba baterie na energii a výdrž vysvětlena, samostatná aplikace čeká.",
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Dvě varianty kamery mají stejnou kvalitu výsledků. A zareaguje za20ms a spotřebuje0,8J na vyhodnocení; B za40ms a spotřebuje0,2J. Kterou zvolíš pro delší výdrž stejné baterie při požadované reakci do50ms a proč? Očekává se B: obě splňují limit, B má nižší energii na vyhodnocení; čtyřnásobný ideální počet vyhodnocení z téže energie je možné doplnění, není požadován. Nevyžadovat číselný násobek ani nehodnotit absolutní dobu baterie bez dalších provozních údajů. Jde o první aplikaci po upřesnění baterie–energie. Po úspěchu může pokračovat neprobraný obsah podle mapy: požadavky trénování/paměť/komunikace nebo AI/ML/DL/hybrid,MAC/workload. Rozlišení trénování/inference je procvičeno, jiné části nejsou automaticky zvládnuté. Cena za dotaz a velikost modelu byly zmíněny, zatím aplikačně neověřeny. Ostatní opakování a mezery z mapy zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-22T17:13:18.266976+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        }
+      ],
+      "misconceptions": [
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "checkpoint_id": "pokus-2026-10-22-19-baterie-volba-b",
+      "activity": "Dvě varianty kamery mají stejnou kvalitu výsledků. A zareaguje za 20 ms a spotřebuje 0,8 J na vyhodnocení; B za 40 ms a spotřebuje 0,2 J. Kterou zvolíš pro delší výdrž stejné baterie při požadované reakci do 50 ms a proč?",
+      "learner_answer": "B, latence splnuje limit a má 4x uspornější vyhodnocení než A",
+      "evaluation": "Kritérium: zvolit B a současně zohlednit splnění latence40ms≤50ms a menší energii0,2J místo0,8J na vyhodnocení. Uživatel správně vybírá B, uvádí časový limit a navíc samostatně správně určuje čtyřnásobnou energetickou úspornost na vyhodnocení. Passed bez další nápovědy během této otázky; předcházelo upřesnění, že bateriové omezení souvisí s energií, proto jde o bezprostřední aplikaci opravy, nikoli retenci. Nevyvozovat přesně čtyřnásobnou dobu celé baterie bez údajů o ostatní spotřebě. Zpětná vazba potvrdila čtvrtinovou energii a splnění limitu. Mapa zdrojů porovnána s historií: požadavky latence/energie nyní doložené v tomto scénáři, nikoli všechna ostatní návrhová hlediska. Před zápisem nově vysvětleny definice a vztah AI/ML/DL ze s.3 a přes průběžný vstup jedna otázka na zahrnutí oblastí.",
+      "result": "passed",
+      "difficulty": "zakladni-spolecne-posouzeni-latence-a-energie-po-upresneni",
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Systém používá vícevrstvou neuronovou síť, jejíž váhy se naučil z dat. Patří do AI, ML, DL, nebo do více z těchto oblastí? Vysvětli jejich vztah na tomto příkladu. Očekává se všechny tři: DL je podmnožina ML a ML podmnožina AI. První bezprostřední aplikace právě představených definic. Při úspěchu ověřit, že obrácené zahrnutí obecně neplatí, a pokračovat hybridním ML ze s.3. Dále neprobraný MAC/workload, zbytek infrastruktury a CPU podle celé mapy; nároky trénování/cena za dotaz/velikost modelu byly uvedeny, ne všechny aplikačně ověřeny. Bateriový požadavek nově správně aplikován po upřesnění, retence čeká2026-10-24; předchozí záměnu ceny za energii na této úloze opravil. Dřívější formulace o vzorech versus jednoduchých operacích stále neověřena. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-22T17:16:17.533847+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        }
+      ],
+      "misconceptions": [
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "checkpoint_id": "vyklad-2026-10-22-20-ai-ml-dl",
+      "activity": "Definice z1.1 s.3: AI jako široká oblast metod pro inteligentní zpracování informací; ML jako část AI odvozující pravidla nebo parametry z dat; DL jako část ML založená zejména na vícevrstvých neuronových sítích. Explicitně zobrazen vztah DL ⊂ ML ⊂ AI.",
+      "learner_answer": "",
+      "evaluation": "Třívětý výklad a zápis zahrnutí byly skutečně zobrazeny s citací skript s.3. Introduced pro konkrétní definice a hierarchii; dosavadní úspěchy trénování/inference a paralelismu je samy neověřují. Hybridní ML z téhož oddílu dosud nevyloženo. Před zápisem přes průběžný vstup zadána jedna otázka na vícevrstvou síť naučenou z dat a její příslušnost do oblastí, zatím bez odpovědi.",
+      "result": "introduced",
+      "difficulty": "uvodni-definice-a-zahrnuti-ai-ml-dl",
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Systém používá vícevrstvou neuronovou síť, jejíž váhy se naučil z dat. Patří do AI, ML, DL, nebo do více z těchto oblastí? Vysvětli jejich vztah na tomto příkladu. Očekává se všechny tři: DL je podmnožina ML a ML podmnožina AI. První bezprostřední aplikace právě představených definic. Při úspěchu ověřit, že obrácené zahrnutí obecně neplatí, a pokračovat hybridním ML ze s.3. Dále neprobraný MAC/workload, zbytek infrastruktury a CPU podle celé mapy; nároky trénování/cena za dotaz/velikost modelu byly uvedeny, ne všechny aplikačně ověřeny. Bateriový požadavek nově správně aplikován po upřesnění, retence čeká2026-10-24; předchozí záměnu ceny za energii na této úloze opravil. Dřívější formulace o vzorech versus jednoduchých operacích stále neověřena. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-22T17:16:17.590628+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-22-21-dl-ml-ai-zahrnuti",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "activity": "Systém používá vícevrstvou neuronovou síť, jejíž váhy se naučil z dat. Patří do AI, ML, DL, nebo do více z těchto oblastí? Vysvětli jejich vztah na tomto příkladu.",
+      "learner_answer": "do všech je to DL a platí DL ⊂ ML ⊂ AI",
+      "evaluation": "Kritérium: zahrnout systém do všech tří oblastí a zdůvodnit to hierarchií DL⊂ML⊂AI. Uživatel obě části správně uvádí. Passed bez další nápovědy během pokusu, první jednoduché použití právě vysvětleného zahrnutí. Dosud neověřuje opačný směr, konkrétní příklady ML mimo DL ani retenci s odstupem. Zpětná vazba před zápisem potvrdila všechny tři oblasti a vazbu vícevrstvé sítě na DL. Přes průběžný vstup před zápisem zadán explicitně ilustrační příklad jednoduchého rozhodovacího stromu naučeného z dat a vysvětleno, co zde znamená strom; tento příklad není citovaný text skript a je aplikací uvedených definic.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-zahrnuti-dl-do-ml-a-ai-po-vykladu",
+      "misconceptions": [
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Ilustrační příklad: model se z dat naučil jednoduchý rozhodovací strom, tedy větvící se rozhodovací pravidla. Nejde o neuronovou síť. Patří do ML a AI? Je zároveň příkladem DL? Zdůvodni. Očekává se ML a tím AI, protože pravidla se naučil z dat; popsaný jednoduchý strom není DL. Jde o didaktický příklad k definicím, ne doslovný příklad ze skript. Po úspěchu netřeba vynucovat znovu stejný zápis zahrnutí: pokračovat hybridním ML ze s.3, které kombinuje data/znalosti/kontext a není typem procesoru. Následně MAC/workload a další mezery mapy. Zachovat dřívější neověřenou formulaci o naučených vzorech versus početních operacích. Cache/lokálnost review2026-10-23,AI/trénování-inference/baterie2026-10-24,metriky/energie2026-10-26. Celé materiály stále nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-22T17:29:50.208931+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        }
+      ],
+      "misconceptions": [
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "checkpoint_id": "pokus-2026-10-22-22-ml-mimo-dl",
+      "activity": "Ilustrační příklad: model se z dat naučil jednoduchý rozhodovací strom, tedy větvící se rozhodovací pravidla. Nejde o neuronovou síť. Patří do ML a AI? Je zároveň příkladem DL? Zdůvodni.",
+      "learner_answer": "ML patrí do AI, ale není to DL protože nevyužívá více vrstvou neuronovu sít",
+      "evaluation": "Kritérium: na popsaném jednoduchém stromu naučeném z dat určit ML a tím AI a rozlišit jej od DL. Uživatel správně uvádí vztah ML do AI a vylučuje DL s odůvodněním, že příklad nepoužívá vícevrstvou neuronovou síť. V kontextu zadání je přiřazení stromu do ML z odpovědi jednoznačné a není třeba vynucovat doslovné opakování. Passed bez další nápovědy během pokusu; jednoduchá aplikace po výkladu, nikoli retence. Nevztahovat jeho zdůvodnění na univerzální formální charakteristiku všech možných metod hlubokého učení; hodnotí se tento konkrétní jednoduchý strom podle výkladu skript. Zpětná vazba potvrdila ML/AI a rozlišení od hluboké neuronové sítě. Před zápisem nově vysvětlen hybridní ML jako data/znalosti/kontext s ilustračním příkladem predikce poruch doplněné pravidly; přes průběžný vstup zadána jedna otázka. Mapa zdrojů porovnána s historií: definice a zahrnutí AI/ML/DL nyní vyloženy a procvičeny ve dvou směrech, hybrid nově introduced, jiné části zůstávají otevřené.",
+      "result": "passed",
+      "difficulty": "zakladni-ml-mimo-dl-na-jednoduchem-stromu",
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Systém předpovídá poruchy pomocí modelu naučeného z dat a jeho doporučení doplňuje pravidly od technika. Proč je to příklad hybridního ML a co zde pochází z dat a co ze znalostí? Očekává se kombinace naučené statistické predikce z dat a explicitních pravidel znalostí odborníka. Jde o první jednoduchou aplikaci právě vyloženého příkladu, ne retenci. Při úspěchu případně doplnit kontext provozu jako třetí složku a ověřit, že hybridníML neurčuje typ procesoru; vyhnout se opakování již zvládnutého zahrnutí AI/ML/DL bez důvodu. Poté zbývá MAC/workload s.4 a další infrastrukturní obsah či CPU podle celé mapy. Nečitelné symboly MAC/roofline/Amdahl/ket z průzkumu nadále neověřené; nepřebírat je doslovně. Dřívější nepřesnost o vzorech versus jednoduchých operacích zatím samostatně neověřena. Ostatní termíny opakování zachovat, všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-22T17:35:50.373362+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        }
+      ],
+      "misconceptions": [
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "checkpoint_id": "vyklad-2026-10-22-23-hybridni-ml",
+      "activity": "Hybridní ML podle1.1 s.3 kombinuje data,znalosti a kontext. Představen ilustrační příklad modelu naučeného z dat pro predikci poruch stroje doplněného pravidly založenými na znalostech odborníka. Vyjasněno, že jde o způsob návrhu řešení a samotný pojem neurčuje typ procesoru.",
+      "learner_answer": "",
+      "evaluation": "Krátký výklad byl skutečně zobrazen s citací skript s.3. Introduced pro definici, statistický prediktor+pravidla a oddělení návrhu od hardwarového typu. Konkrétní doména poruch stroje je didaktické zasazení obecného příkladu prediktor+pravidla ze skript. Kontext byl vyjmenován, ale jeho konkrétní použití dosud nebylo vysvětleno; ponechat jako otevřené upřesnění. Před zápisem přes průběžný vstup jedna otázka na zdroje jednotlivých složek hybridního řešení, dosud bez odpovědi.",
+      "result": "introduced",
+      "difficulty": "uvodni-hybridni-ml-data-znalosti-kontext-a-prediktor-pravidla",
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Systém předpovídá poruchy pomocí modelu naučeného z dat a jeho doporučení doplňuje pravidly od technika. Proč je to příklad hybridního ML a co zde pochází z dat a co ze znalostí? Očekává se kombinace naučené statistické predikce z dat a explicitních pravidel znalostí odborníka. Jde o první jednoduchou aplikaci právě vyloženého příkladu, ne retenci. Při úspěchu případně doplnit kontext provozu jako třetí složku a ověřit, že hybridníML neurčuje typ procesoru; vyhnout se opakování již zvládnutého zahrnutí AI/ML/DL bez důvodu. Poté zbývá MAC/workload s.4 a další infrastrukturní obsah či CPU podle celé mapy. Nečitelné symboly MAC/roofline/Amdahl/ket z průzkumu nadále neověřené; nepřebírat je doslovně. Dřívější nepřesnost o vzorech versus jednoduchých operacích zatím samostatně neověřena. Ostatní termíny opakování zachovat, všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-22T17:35:50.440430+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "hints_used": 0,
+      "misconceptions": [
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "checkpoint_id": "pokus-2026-10-22-24-hybrid-model-pravidla",
+      "activity_kind": "material",
+      "activity": "Systém předpovídá poruchy pomocí modelu naučeného z dat a jeho doporučení doplňuje pravidly od technika. Proč je to příklad hybridního ML a co zde pochází z dat a co ze znalostí?",
+      "learner_answer": "predikce je od ML, doplnující logika od odborníka",
+      "evaluation": "Kritérium: rozpoznat kombinaci predikce modelu naučeného z dat a pravidel od odborníka a správně přiřadit jejich původ. Uživatel obě složky správně přiřazuje; v kontextu je jejich kombinace jako důvod hybridního řešení patrná a není nutné zbytečně vynucovat opakování slova kombinace. Passed bez další nápovědy během pokusu; jde o první snadný příklad po výkladu. Neověřuje tím ještě konkrétní roli kontextu ani odlišení hybridního přístupu od typu procesoru. Zpětná vazba před zápisem potvrdila složky i kombinaci; kontext dále ilustrován provozním stavem stroje. Mapa zdrojů porovnána s historií: základ hybridního prediktoru+pravidel nyní procvičen, další praktické aspekty dosud neověřeny. Před zápisem nově vysvětlen MAC s příkladem a přes průběžný vstup jedna úloha na postupné akumulování.",
+      "result": "passed",
+      "difficulty": "zakladni-hybridni-model-a-znalostni-pravidla-po-vykladu",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Akumulátor začíná na hodnotě5. Nejprve do něj přičti součin2×4 a potom součin3×2. Jaká bude jeho konečná hodnota? Ukaž postup. Očekává se5+8=13, potom13+6=19. První jednoduché použití MAC po ukázce na10+2×3=16, ne retence. Při úspěchu propojit MAC s váženým součtem neuronu a ověřit, jaké jednoduché početní operace umožňují paralelismus GPU, čímž lze cíleně prověřit starší nepřesnou formulaci o převodu složitých vzorů na jednoduché. Nepřebírat chybějící symbol aktualizace z poškozeného zápisu na s.4: definice násobení s akumulací je čitelná i v klíči s.21 a příklad je vlastní didaktický výpočet. Kontext hybridního ML nově ilustrován startem/ustáleným chodem, samostatně neověřen; hybridní přístup neudává procesor bylo vyloženo, aplikace zatím neověřena. Dále architektura/workload, zbytek infrastruktury, CPU vektory/knihovny a ostatní mapa celých materiálů. Termíny opakování zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-22T17:40:02.134343+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "hints_used": 0,
+      "misconceptions": [
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "checkpoint_id": "vyklad-2026-10-22-25-kontext-stroje",
+      "activity_kind": "supplement",
+      "activity": "Ilustrační doplnění k hybridnímu ML: kontextem může být informace, zda stroj právě startuje, nebo už běží ustáleně.",
+      "learner_answer": "",
+      "evaluation": "Jednověté doplnění bylo skutečně zobrazeno a výslovně označeno jako ilustrace. Introduced pro konkrétní příklad kontextu; uživatel jeho roli ani aplikaci samostatně neověřil. Skripta na s.3 kontext vyjmenovávají, ale tento konkrétní provozní příklad je doplnění mimo doslovný zdroj.",
+      "result": "introduced",
+      "difficulty": "uvodni-priklad-provozniho-kontextu-v-hybridnim-ml",
+      "source_refs": [],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Akumulátor začíná na hodnotě5. Nejprve do něj přičti součin2×4 a potom součin3×2. Jaká bude jeho konečná hodnota? Ukaž postup. Očekává se5+8=13, potom13+6=19. První jednoduché použití MAC po ukázce na10+2×3=16, ne retence. Při úspěchu propojit MAC s váženým součtem neuronu a ověřit, jaké jednoduché početní operace umožňují paralelismus GPU, čímž lze cíleně prověřit starší nepřesnou formulaci o převodu složitých vzorů na jednoduché. Nepřebírat chybějící symbol aktualizace z poškozeného zápisu na s.4: definice násobení s akumulací je čitelná i v klíči s.21 a příklad je vlastní didaktický výpočet. Kontext hybridního ML nově ilustrován startem/ustáleným chodem, samostatně neověřen; hybridní přístup neudává procesor bylo vyloženo, aplikace zatím neověřena. Dále architektura/workload, zbytek infrastruktury, CPU vektory/knihovny a ostatní mapa celých materiálů. Termíny opakování zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-22T17:40:02.200202+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "hints_used": 0,
+      "misconceptions": [
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "checkpoint_id": "vyklad-2026-10-22-26-mac-akumulator",
+      "activity_kind": "material",
+      "activity": "MAC jako multiply-accumulate, násobení s přičtením do průběžného součtu nazvaného akumulátor. Příklad počáteční hodnoty10 a přičtení2×3 na16. Souvislost s mnoha násobeními a přičítáními ve výpočtech neuronových sítí.",
+      "learner_answer": "",
+      "evaluation": "Krátký výklad byl skutečně zobrazen s citací skript s.4 a21. Introduced pro definici MAC, akumulátor a jeden vlastní ilustrační číselný příklad, nikoli pro zvládnutí uživatele. Čitelná slovní definice a klíč s.21 byly při průzkumu načteny; nečitelný symbol aktualizace v původním vzorci s.4 se necituje ani neopravuje odhadem. Matematický příklad10+2×3=16 je vlastní didaktická aplikace slovní definice. Dosud nevyučeno konkrétní počítání neuronu jako vážený součet s biasem, operační metodika MAC versus počet FLOPS ani celá roofline/benchmarková část stránky. Před zápisem přes průběžný vstup jedna otázka na dvě postupná přičtení součinů, dosud bez odpovědi.",
+      "result": "introduced",
+      "difficulty": "uvodni-mac-a-akumulace-na-jednoduchem-prikladu",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:21"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Akumulátor začíná na hodnotě5. Nejprve do něj přičti součin2×4 a potom součin3×2. Jaká bude jeho konečná hodnota? Ukaž postup. Očekává se5+8=13, potom13+6=19. První jednoduché použití MAC po ukázce na10+2×3=16, ne retence. Při úspěchu propojit MAC s váženým součtem neuronu a ověřit, jaké jednoduché početní operace umožňují paralelismus GPU, čímž lze cíleně prověřit starší nepřesnou formulaci o převodu složitých vzorů na jednoduché. Nepřebírat chybějící symbol aktualizace z poškozeného zápisu na s.4: definice násobení s akumulací je čitelná i v klíči s.21 a příklad je vlastní didaktický výpočet. Kontext hybridního ML nově ilustrován startem/ustáleným chodem, samostatně neověřen; hybridní přístup neudává procesor bylo vyloženo, aplikace zatím neověřena. Dále architektura/workload, zbytek infrastruktury, CPU vektory/knihovny a ostatní mapa celých materiálů. Termíny opakování zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-22T17:40:02.266369+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "checkpoint_id": "pokus-2026-10-22-27-mac-vlastni-oprava",
+      "activity": "Akumulátor začíná na hodnotě5. Nejprve do něj přičti součin2×4 a potom součin3×2. Jaká bude jeho konečná hodnota? Ukaž postup.",
+      "learner_answer": "5+8 = 13  -> 13 + 6 = 19",
+      "evaluation": "Kritérium: správně vynásobit oba páry a postupně přičíst součiny k původní hodnotě5. Uživatel před hodnocením sám opravil původní aritmetický překlep13+6=21 na19; konečná odpověď5+8=13 a13+6=19 je správná. Passed bez nápovědy a bez asistentovy opravy. Původní nevyhodnocenou verzi nezapisovat jako neúspěch a nezaměňovat drobný samostatně opravený početní omyl za nepochopení MAC. Jde o první jednoduché použití po ilustračním výkladu, nikoli retenci. Zpětná vazba před zápisem potvrdila správný konečný postup a akumulování. Před zápisem nově vyložen vážený součet neuronu s biasem a přes průběžný vstup zadána jedna navazující číselná úloha. Ověřeno, že po přerušeném tahu nebyl zapsán jiný checkpoint této odpovědi; poslední dosavadní checkpoint byl výklad26.",
+      "result": "passed",
+      "difficulty": "zakladni-dve-mac-operace-s-vlastni-aritmetickou-opravou",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:21"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Neuron má vstupy x₁=3,x₂=4,váhy w₁=2,w₂=−1 a bias b=1. Vypočítej z=w₁x₁+w₂x₂+b postupným přičítáním součinů do akumulátoru. Ukaž postup. Očekává se například začít1, přičíst2×3=6 na7, pak přičíst−1×4=−4 na3. Uznat i jiné správné pořadí se stejným z=3; bias jako počáteční hodnota je ukázaná možnost, ne důvod odmítnout rovnocenný postup. První bezprostřední aplikace váženého součtu po výkladu. Při úspěchu cíleně ověřit vztah jednoduchých násobení/sčítání k paralelismu GPU a oddělení od naučených vzorů, čímž lze uzavřít starší neověřenou formulaci. Potom architektura/workload a zbytek infrastruktury či další CPU obsah podle mapy; všechny materiály stále neprobrané. MAC původní nečitelný symbol aktualizace ze s.4 zůstává neověřený, slovní definice a čitelný vzorec váženého součtu se vyučují bez něj. Termíny opakování zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-22T17:53:13.073723+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "checkpoint_id": "vyklad-2026-10-22-28-vazeny-soucet-bias",
+      "activity": "Rozvedení čitelného vzorce neuronu ze s.4: vstupy xᵢ násobíme vahami wᵢ, součiny sčítáme a přidáme bias b jako posun výsledku. Pro dva vstupy z=w₁x₁+w₂x₂+b. Bias lze použít jako počáteční hodnotu akumulátoru a potom přičítat jednotlivé součiny.",
+      "learner_answer": "",
+      "evaluation": "Třívětý výklad byl skutečně zobrazen s citací a označením rozvedení vzorce ze skript s.4. Introduced pro vážený součet, význam vstupů/vah/biasu a souvislost s postupnými MAC. Nevztahovat tento výklad na aktivační funkci ani plné fungování vrstvy; ty zde nebyly vyučovány. Nečitelný znak přiřazení v jiném zápisu MAC není převzat. Před zápisem přes průběžný vstup zadána jedna úloha s dvěma vstupy, jednou zápornou vahou a biasem, zatím bez odpovědi. Mapa všech zdrojů porovnána s historií: samotný MAC nyní základně použit, nový vážený součet teprve introduced, dřívější formulace o vzorech versus operacích stále neověřena.",
+      "result": "introduced",
+      "difficulty": "uvodni-vazeny-soucet-neuronu-a-bias-jako-pocatecni-akumulator",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Neuron má vstupy x₁=3,x₂=4,váhy w₁=2,w₂=−1 a bias b=1. Vypočítej z=w₁x₁+w₂x₂+b postupným přičítáním součinů do akumulátoru. Ukaž postup. Očekává se například začít1, přičíst2×3=6 na7, pak přičíst−1×4=−4 na3. Uznat i jiné správné pořadí se stejným z=3; bias jako počáteční hodnota je ukázaná možnost, ne důvod odmítnout rovnocenný postup. První bezprostřední aplikace váženého součtu po výkladu. Při úspěchu cíleně ověřit vztah jednoduchých násobení/sčítání k paralelismu GPU a oddělení od naučených vzorů, čímž lze uzavřít starší neověřenou formulaci. Potom architektura/workload a zbytek infrastruktury či další CPU obsah podle mapy; všechny materiály stále neprobrané. MAC původní nečitelný symbol aktualizace ze s.4 zůstává neověřený, slovní definice a čitelný vzorec váženého součtu se vyučují bez něj. Termíny opakování zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-22T17:53:13.131104+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-22-29-vahy-prirazeni",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "activity": "Neuron má vstupy x₁=3,x₂=4,váhy w₁=2,w₂=−1 a bias b=1. Vypočítej z=w₁x₁+w₂x₂+b postupným přičítáním součinů do akumulátoru. Ukaž postup.",
+      "learner_answer": "1 -3 = -2 -> -2 + 8 = 6",
+      "evaluation": "Kritérium: spárovat vstupy s vahami podle stejných indexů, přičíst součiny2×3 a−1×4 k biasu1 a získat správný vážený součet. Uživatel správně začíná biasem1 a jeho uvedené sčítání1−3=−2,−2+8=6 je aritmeticky správné. Hodnoty−3 a8 odpovídají prohozenému přiřazení vah: pravděpodobně počítá−1×3 a2×4. Nepřipsat mu obecný problém s akumulací nebo se sčítáním; konkrétní chybný vzorec sám neuvedl, proto záměnu označit jako pravděpodobné vysvětlení. Needs-practice pro správné párování vah a vstupů. Během tohoto pokusu bez další nápovědy. Před zápisem zpětná vazba uznala bias i správnou aritmetiku mezikroků a vyjasnila párování shodných indexů. Přes průběžný vstup před zápisem nabídnuta oprava stejné číselné úlohy s výslovně rozepsanými správnými součiny, bez prozrazení výsledku. Toto rozkrytí dvojic je jedna podstatná metodická nápověda pro následující opravený pokus téže úlohy.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-vazeny-soucet-se-zapornou-vahou-prvni-pokus",
+      "misconceptions": [
+        "V konkrétním dvouvstupovém příkladu zřejmě prohodil přiřazení vah ke vstupům; správné dvojice podle indexů vysvětleny, opravený pokus čeká.",
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Oprav výpočet se správně přiřazenými vahami: začni na biasu1, přičti2×3 a potom(−1)×4. Jak se postupně změní akumulátor? Očekává se1+6=7,7−4=3. Opravený pokus stejné úlohy má jednu podstatnou metodickou nápovědu: asistent přímo rozepsal správné dvojice vah a vstupů, proto u případného úspěchu uvést hints_used1 a nepřipisovat samostatné správné přiřazení bez pomoci. Při úspěchu později jiná čísla bez rozepsaných součinů ověří párování; není důvod dál procvičovat pouze sčítání. Dále spojit jednoduché početní operace s paralelismem a oddělit od naučených vzorů, pak architektura/workload a další mapa. Ostatní termíny opakování zachovat, všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-22",
+      "created_at": "2026-10-22T17:57:04.742940+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "vyklad-2026-10-22-30-mac-uzavreni-resenim",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "activity": "Uzavření opravované úlohy na přání uživatele ukázkou řešení: bias1, přičtení2×3=6 na7 a přičtení(−1)×4=−4 na3. Původní otázka: Oprav výpočet se správně přiřazenými vahami: začni na biasu1, přičti2×3 a potom(−1)×4. Jak se postupně změní akumulátor?",
+      "learner_answer": "berme tohle za správně hotové",
+      "evaluation": "Uživatel žádá úlohu uzavřít, nepředkládá aritmetický postup ani opravené přiřazení vah. Jeho volbu respektovat a nepokračovat vynucováním stejného příkladu. Před zápisem skutečně zobrazena úplná ukázka1+2×3=7 a7+(−1)×4=3. Introduced pro vysvětlené řešení, nikoli passed či nový neúspěch: samostatnou opravu nelze z této odpovědi doložit. Původní párování vah zůstává k pozdějšímu nenucenému ověření na jiné úloze. Hints_used1 odráží již poskytnuté metodické rozkrytí dvojic před žádostí o uzavření; následné úplné řešení je nyní samostatný výklad, nikoli uživatelův pokus. Zpětná vazba výslovně uzavřela úlohu ukázkou a uvedla možnost pozdějšího ověření. Přes průběžný vstup před zápisem zadána odlišná otázka na opakované početní operace a GPU paralelismus, aby výuka postupovala dál.",
+      "result": "introduced",
+      "hints_used": 1,
+      "difficulty": "vysvetlene-reseni-vazeneho-souctu-na-prani-uzavrit-ulohu",
+      "misconceptions": [
+        "V předchozím dvouvstupovém příkladu zřejmě prohodil přiřazení vah ke vstupům; správné řešení ukázáno, samostatná oprava na přání uživatele neověřována.",
+        "Z dřívější úvodní aktivity přetrvává neověřené upřesnění: rozlišovat naučené vzory a jednoduché početní operace; nepopsat obecně neuronovou síť jako převod složitých vzorů na jednoduché."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou odlišnou otázku: Jaké jednoduché početní operace se v neuronové síti často opakují a proč se díky tomu mohou GPU hodit pro její výpočty? Zkus odpověď spojit s paralelním zpracováním. Očekává se mnoho násobení a sčítání/MAC nad maticemi/tenzory a možnost současně provádět nezávislé části výpočtu. Otázka může ověřit starší nepřesnou formulaci o převodu složitých vzorů na jednoduché. Uživatel výslovně chtěl předchozí numerickou úlohu považovat za hotovou: byla proto uzavřena vysvětleným řešením; nevyžadovat hned znovu stejný výpočet a nepřipisovat z něj passed. Správné samostatné párování vah může ověřit jiný pozdější příklad s odstupem, navrženo2026-10-24. Po vhodné odpovědi pokračovat architektura/workload a zbytek infrastruktury nebo CPU podle mapy. Všechny materiály dosud nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-22T19:01:51.495091+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "V předchozím dvouvstupovém příkladu zřejmě prohodil přiřazení vah ke vstupům; správné řešení ukázáno, samostatná oprava na přání uživatele neověřována.",
+        "Starší nepřesnost o převodu složitých vzorů na jednoduché nebyla výslovně zopakována; nyní správně jmenuje násobení matic, ale konkrétní rozklad na operace a využití paralelismu zatím samostatně nevysvětlil."
+      ],
+      "checkpoint_id": "pokus-2026-10-22-31-maticove-nasobeni",
+      "activity": "Jaké jednoduché početní operace se v neuronové síti často opakují a proč se díky tomu mohou GPU hodit pro její výpočty? Zkus odpověď spojit s paralelním zpracováním.",
+      "learner_answer": "násobení matic",
+      "evaluation": "Vyhodnocen skutečně zodpovězený dílčí cíl: pojmenovat typický výpočet neuronové sítě vhodný pro GPU. Násobení matic je správná odpověď, passed pro tuto identifikaci bez další nápovědy. Uživatel zatím neuvedl jednoduché násobení/sčítání uvnitř maticového výpočtu ani vlastní vysvětlení paralelního provádění; tyto části mu nepřipisovat jako úspěšně ověřené. Před zápisem zpětná vazba správný příklad uznala a vysvětlila součet součinů pro prvek výsledku a nezávislost výpočtů různých prvků. Přes průběžný vstup položena jedna navazující otázka na využití mnoha jednotek GPU. Dřívější výklad a procvičení MAC zůstávají samostatně doložené; nevyvozovat z krátké odpovědi nové neporozumění.",
+      "result": "passed",
+      "difficulty": "zakladni-identifikace-maticoveho-vypoctu-neuronove-site",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Výsledná matice má tisíce prvků, jejichž výpočty jsou nezávislé. Jak toho může využít GPU s mnoha výpočetními jednotkami? Očekává se rozdělení nezávislých prvků nebo skupin prvků mezi jednotky a jejich současný výpočet. Nevyžadovat konkrétní CUDA/SIMT detaily ani jednotlivé vlákno na prvek jako jedinou možnou implementaci. Jde o jednoduché použití právě vysvětleného paralelismu, nikoli retenci. Předchozí odpověď násobení matic doložila jen správný příklad výpočtu, ne samostatný popis MAC/paralelismu. Při úspěchu přejít na dosud neprobrané architektura versus workload ze s.4, pak zbytek infrastruktury či CPU podle mapy. Numerickou úlohu s přiřazením vah uživatel požádal uzavřít a byla vysvětlena, nevynucovat ji nyní znovu. Ostatní termíny opakování a nepokryté části zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-22T19:42:09.480344+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "V předchozím dvouvstupovém příkladu zřejmě prohodil přiřazení vah ke vstupům; správné řešení ukázáno, samostatná oprava na přání uživatele neověřována.",
+        "Starší nepřesnost o převodu složitých vzorů na jednoduché nebyla výslovně zopakována; nyní správně jmenuje násobení matic, ale konkrétní rozklad na operace a využití paralelismu zatím samostatně nevysvětlil."
+      ],
+      "checkpoint_id": "vyklad-2026-10-22-32-matice-soucty-paralelismus",
+      "activity": "Rozvedení souvislosti maticových výpočtů a MAC: každý prvek výsledné matice vzniká jako součet součinů, uvnitř se tedy opakuje násobení a sčítání. Výpočty různých prvků výsledku jsou nezávislé a mohou být paralelně zpracovány.",
+      "learner_answer": "",
+      "evaluation": "Krátké rozvedení principů ze s.3–4 a6 skutečně zobrazeno s citací. Introduced pro explicitní propojení jednoho prvku matice se součtem součinů a různých prvků s nezávislými výpočty. Nevztahovat tento jednoduchý rozklad na konkrétní organizaci CUDA kernelů, dlaždicování, sdílené paměti nebo všechny možné závislosti neuronové sítě; ty nebyly vyučovány. Nezávislost mezi prvky neznamená, že všechny jednotlivé kroky uvnitř jednoho součtu jsou bez závislostí. Před zápisem jedna otázka na rozdělení nezávislé práce mezi jednotky, bez dosud odeslané odpovědi. Mapa celého obsahu zůstává zachována, architektura/workload a další části jsou stále neprobrané.",
+      "result": "introduced",
+      "difficulty": "uvodni-propojeni-maticoveho-nasobeni-mac-a-nezavislych-prvku",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Výsledná matice má tisíce prvků, jejichž výpočty jsou nezávislé. Jak toho může využít GPU s mnoha výpočetními jednotkami? Očekává se rozdělení nezávislých prvků nebo skupin prvků mezi jednotky a jejich současný výpočet. Nevyžadovat konkrétní CUDA/SIMT detaily ani jednotlivé vlákno na prvek jako jedinou možnou implementaci. Jde o jednoduché použití právě vysvětleného paralelismu, nikoli retenci. Předchozí odpověď násobení matic doložila jen správný příklad výpočtu, ne samostatný popis MAC/paralelismu. Při úspěchu přejít na dosud neprobrané architektura versus workload ze s.4, pak zbytek infrastruktury či CPU podle mapy. Numerickou úlohu s přiřazením vah uživatel požádal uzavřít a byla vysvětlena, nevynucovat ji nyní znovu. Ostatní termíny opakování a nepokryté části zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-22T19:42:09.534811+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "V dřívějším dvouvstupovém číselném příkladu zřejmě prohodil přiřazení vah ke vstupům; správné řešení ukázáno, samostatná oprava na přání uživatele neověřována."
+      ],
+      "checkpoint_id": "pokus-2026-10-22-33-gpu-paralelni-prvky",
+      "activity": "Výsledná matice má tisíce prvků, jejichž výpočty jsou nezávislé. Jak toho může využít GPU s mnoha výpočetními jednotkami?",
+      "learner_answer": "může je počítat paralelně",
+      "evaluation": "Kritérium: spojit nezávislé prvky výsledku s možností jejich souběžného počítání na mnoha jednotkách GPU. Uživatel správně uvádí paralelní výpočet; v kontextu otázky je odkaz na jednotlivé nezávislé prvky jasný. Passed bez další nápovědy během pokusu, jednoduchá aplikace po vysvětlení. Není třeba vynucovat konkrétní CUDA rozdělení nebo opakování slov GPU/výpočetní jednotky. V kombinaci s předchozím násobením matic a použitím MAC nyní doloženo konkrétní správné propojení početních operací a paralelismu; starší nepřesnost o naučených vzorech se v těchto odpovědích neprojevuje a není důvod ji stále vynucovat znovu formulovanou. Nevyvozovat z toho hluboké zvládnutí maticového kernelu nebo všech cílů tématu. Zpětná vazba před zápisem potvrdila souběžnost na mnoha jednotkách. Mapa obsahu porovnána s historií: základ GPU paralelismu procvičen, architektura/workload dosud neprobrané a nyní představené; ostatní části zachovat. Přes průběžný vstup před zápisem jedna otázka na změnu velikosti dávky.",
+      "result": "passed",
+      "difficulty": "zakladni-prenos-nezavislych-prvku-na-paralelni-gpu-vypocet",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Na stejném GPU začneš místo jednoho snímku najednou zpracovávat dávku64snímků. Změnil jsi architekturu hardwaru, nebo workload? Vysvětli proč. Očekává se workload, protože zůstává stejný hardware/uspořádání jednotek a mění se velikost dávky konkrétního výpočtu. První aplikace právě vysvětleného rozdílu. Při úspěchu lze postupně doplnit infrastrukturu ze s.3: specifické uložené váhy/mezivýsledky/checkpointy, síť a synchronizace; nebo navázat neprobranými CPU částmi podle mapy. Obecné role komponent byly dříve vysvětleny, neznamená to všechny detaily infrastruktury. Numerickou úlohu přiřazení vah uživatel požádal uzavřít, nyní ji neopakovat. Dřívější nepřesné vyjádření o vzorech se v nových konkrétních odpovědích neprojevilo: sám pojmenoval násobení matic a možnost paralelního výpočtu nezávislých prvků. Nevyžadovat další opis stejné správné odpovědi. Ostatní termíny opakování a nepokryté části celé mapy zachovat; vše dosud neprobrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-22T19:50:39.001403+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "V dřívějším dvouvstupovém číselném příkladu zřejmě prohodil přiřazení vah ke vstupům; správné řešení ukázáno, samostatná oprava na přání uživatele neověřována."
+      ],
+      "checkpoint_id": "vyklad-2026-10-22-34-architektura-workload",
+      "activity": "Rozlišení ze s.4: architektura říká, jak hardware pracuje, ilustrováno uspořádáním paralelních jednotek GPU. Workload je konkrétní výpočetní zátěž, například násobení matic určité velikosti. Pro výběr hardwaru je třeba znát obojí, protože vhodnost architektury závisí na konkrétní práci.",
+      "learner_answer": "",
+      "evaluation": "Třívětý výklad byl skutečně zobrazen s citací skript s.4. Introduced pro rozdíl architektura/workload a jejich společné posuzování. Příklady GPU jednotek a velikosti matic jsou didaktické rozvedení definice, nikoli nová produktová specifikace. Dřívější ISA/mikroarchitektura a TOPS aplikace jsou související již vyučované části, samy nedokládají toto nové pojmové rozlišení. Přes průběžný vstup před zápisem otázka na stejný GPU hardware a změněnou dávku, zatím bez odpovědi.",
+      "result": "introduced",
+      "difficulty": "uvodni-rozliseni-architektury-a-vypocetni-zateze",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Na stejném GPU začneš místo jednoho snímku najednou zpracovávat dávku64snímků. Změnil jsi architekturu hardwaru, nebo workload? Vysvětli proč. Očekává se workload, protože zůstává stejný hardware/uspořádání jednotek a mění se velikost dávky konkrétního výpočtu. První aplikace právě vysvětleného rozdílu. Při úspěchu lze postupně doplnit infrastrukturu ze s.3: specifické uložené váhy/mezivýsledky/checkpointy, síť a synchronizace; nebo navázat neprobranými CPU částmi podle mapy. Obecné role komponent byly dříve vysvětleny, neznamená to všechny detaily infrastruktury. Numerickou úlohu přiřazení vah uživatel požádal uzavřít, nyní ji neopakovat. Dřívější nepřesné vyjádření o vzorech se v nových konkrétních odpovědích neprojevilo: sám pojmenoval násobení matic a možnost paralelního výpočtu nezávislých prvků. Nevyžadovat další opis stejné správné odpovědi. Ostatní termíny opakování a nepokryté části celé mapy zachovat; vše dosud neprobrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-22T19:50:39.063070+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "V dřívějším dvouvstupovém číselném příkladu zřejmě prohodil přiřazení vah ke vstupům; správné řešení ukázáno, samostatná oprava na přání uživatele neověřována."
+      ],
+      "checkpoint_id": "pokus-2026-10-22-35-workload-davka",
+      "activity": "Na stejném GPU začneš místo jednoho snímku najednou zpracovávat dávku64snímků. Změnil jsi architekturu hardwaru, nebo workload? Vysvětli proč.",
+      "learner_answer": "workload -> určuji kontkrétní výpočetní zátěž",
+      "evaluation": "Kritérium: určit změnu workloadu při stejném hardwaru a zdůvodnit ji změnou konkrétní výpočetní zátěže. Uživatel správně uvádí workload a jeho význam, v kontextu jednoznačně aplikovaný na změnu dávky. Passed bez další nápovědy během pokusu; není nutné vynucovat doslovné zopakování věty stejný hardware. První aplikace právě představeného rozlišení, nikoli retence nebo znalost všech způsobů změn architektury. Zpětná vazba před zápisem potvrdila workload a stejný hardware. Mapa zdrojů porovnána s historií: tato část s.4 nyní vyložena a základně procvičena; stále otevřené další části výkonu,CPU a ostatních kapitol. Před zápisem doplněn přehled infrastruktury a význam checkpointů modelu, poté přes průběžný vstup jedna otázka na obnovu po výpadku.",
+      "result": "passed",
+      "difficulty": "zakladni-architektura-versus-workload-pri-zmene-davky",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Model se trénuje několik hodin a potom vypadne napájení. Jak pomůže checkpoint trénování uložený na disku? Co díky němu nemusíme dělat úplně od začátku? Očekává se obnovit uložený stav trénování a pokračovat od něj, nikoli trénovat od začátku; není zaručeno zachování práce po posledním checkpointu. Nevyžadovat podrobný seznam stavu optimalizátoru/generátoru náhody, protože nebyl vyučován. Jde o první jednoduchou aplikaci definice. Po úspěchu lze ověřit úlohu sítě při více uzlech nebo pokračovat CPU vektory/knihovny a rodiny ISA/RISC/CISC/heterogenita podle mapy. Základní komponenty byly probrány dříve, nyní doplněny konkrétní váhy/mezivýsledky/checkpointy a synchronizace uzlů; samostatné zvládnutí všech těchto částí zatím neověřeno. Zachovat termíny opakování a další nepokryté části celé mapy; všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-22T19:53:12.214998+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "V dřívějším dvouvstupovém číselném příkladu zřejmě prohodil přiřazení vah ke vstupům; správné řešení ukázáno, samostatná oprava na přání uživatele neověřována."
+      ],
+      "checkpoint_id": "vyklad-2026-10-22-36-infrastruktura-checkpointy",
+      "activity": "Rozvedení1.3 s.3: CPU/akcelerátory provádějí operace; paměť a úložiště drží vstupní data,váhy,mezivýsledky a checkpointy modelu. Checkpoint vysvětlen jako uložený stav trénování pro pozdější navázání; pro přežití vypnutí se zapisuje do trvalého úložiště. Síť přenáší data a pomáhá synchronizovat více uzlů, u lokálního zařízení může mít menší roli.",
+      "learner_answer": "",
+      "evaluation": "Čtyřvětý výklad byl skutečně zobrazen jako rozvedení přehledu skript s.3. Introduced pro konkrétní položky uložených dat/parametrů/mezivýsledků/checkpointů a roli síťové synchronizace; obecné role výpočetních komponent již byly dříve vyloženy, tento výklad je upřesňuje. Pojem checkpoint modelu a jeho trvalé uložení byly didakticky rozvedeny, aby byl termín ze zdroje srozumitelný. Nevyučovány podrobnosti konkrétního formátu checkpointu, stavy optimalizátoru/RNG, distribuované algoritmy nebo detaily paměťových technologií. Přes průběžný vstup před zápisem jedna otázka na obnovu trénování po výpadku, dosud bez odpovědi.",
+      "result": "introduced",
+      "difficulty": "uvodni-role-komponent-a-ulozeny-stav-trenovani",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Model se trénuje několik hodin a potom vypadne napájení. Jak pomůže checkpoint trénování uložený na disku? Co díky němu nemusíme dělat úplně od začátku? Očekává se obnovit uložený stav trénování a pokračovat od něj, nikoli trénovat od začátku; není zaručeno zachování práce po posledním checkpointu. Nevyžadovat podrobný seznam stavu optimalizátoru/generátoru náhody, protože nebyl vyučován. Jde o první jednoduchou aplikaci definice. Po úspěchu lze ověřit úlohu sítě při více uzlech nebo pokračovat CPU vektory/knihovny a rodiny ISA/RISC/CISC/heterogenita podle mapy. Základní komponenty byly probrány dříve, nyní doplněny konkrétní váhy/mezivýsledky/checkpointy a synchronizace uzlů; samostatné zvládnutí všech těchto částí zatím neověřeno. Zachovat termíny opakování a další nepokryté části celé mapy; všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-22T19:53:12.270250+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-23-01-checkpoint-obnova",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "ai-a-specificky-hardware",
+      "activity_kind": "material",
+      "activity": "Model se trénuje několik hodin a potom vypadne napájení. Jak pomůže checkpoint trénování uložený na disku? Co díky němu nemusíme dělat úplně od začátku?",
+      "learner_answer": "checkpoint má uložený část progressu, můžu začít od něj, nemusím začínat od 0",
+      "evaluation": "Kritérium: vysvětlit, že checkpoint dovolí obnovit uložený stav a pokračovat v trénování místo zahájení od nuly. Uživatel správně uvádí uložený postup a pokračování od checkpointu. Passed bez nápovědy během pokusu; odpověď dorazila následující den po výkladu2026-10-22. Je to konkrétní základní použití významu checkpointu, nikoli znalost formátu nebo všech částí stavu trénování. Před zápisem zpětná vazba potvrdila obnovu a doplnila, že práce po posledním uložení se může opakovat. Dnešní datum podle uživatelského času2026-10-23; resume potvrzuje splatné opakování CPU/cache. Mapa všech zdrojů a původní historie s novými aktivitami tohoto pokračujícího chatu byla zohledněna: všechny materiály stále nejsou probrané, konkrétní role sítě a další CPU části zůstávají v plánu. Přes průběžný vstup před zápisem položena otázka na cache bez připomenutí správného mechanismu, aby mohla ověřit vybavení s odstupem.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-vysvetleni-obnovy-trenovani-z-checkpointu-dalsi-den",
+      "misconceptions": [
+        "V dřívějším dvouvstupovém číselném příkladu zřejmě prohodil přiřazení vah ke vstupům; správné řešení ukázáno, samostatná oprava na přání uživatele neověřována."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazené splatné opakování v tématu cpu-a-isa: Program opakovaně provádí stejný výpočet nad malým polem. Po prvním průchodu jeho data zůstávají v cache. Proč mohou být další průchody rychlejší? Vysvětli, co se ušetří a co se stále musí provádět. Očekává se rychlejší čtení dat z cache místo RAM a méně čekání při zachování samotných výpočtů; úspora není automatické ukládání hotového výsledku. Dnes zatím nebyla poskytnuta nápověda k této otázce; jde o vybavení s jednodenním odstupem po včerejších opravách. Při úspěchu lze krátce ověřit prostorovou lokálnost a pokračovat neprobranými vektorovými instrukcemi/knihovnami nebo rodinami ISA/RISC/CISC/heterogenitou. Síť a synchronizace z infrastruktury byly vyloženy, ale dosud samostatně neověřeny. AI/trénování-inference/hybrid/MAC a přiřazení vah mají další review2026-10-24, výkon/energie2026-10-26. Vážený součet byl na přání uživatele uzavřen řešením, nevnucovat hned stejná čísla. Zachovat celou mapu nepokrytých materiálů. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T02:13:07.363815+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-23-02-cache-retence",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Program opakovaně provádí stejný výpočet nad malým polem. Po prvním průchodu jeho data zůstávají v cache. Proč mohou být další průchody rychlejší? Vysvětli, co se ušetří a co se stále musí provádět.",
+      "learner_answer": "cache jsou uloženy na CPU a jsou rychleji dostupná než akcelerátory, navíc výpočet uložený v cache nemusím znovu počítat",
+      "evaluation": "Kritérium opakování s jednodenním odstupem: vysvětlit kratší čekání při čtení vstupních dat z cache oproti RAM a zachování prováděných výpočtů, pokud se program nemění a hotové výsledky výslovně nepoužívá. Uživatel správně vybavuje umístění cache u CPU. Rychlost čtení však porovnává s akcelerátory namísto RAM a opět spojuje cache s automatickým vynecháním opakovaného výpočtu. Výsledek needs-practice, bez nápovědy během tohoto samostatného opakování. Včerejší úspěchy na explicitních příkladech nejsou popřeny, ale jejich udržení bez nabídek se dnes zatím nepotvrdilo. Před zápisem opraven rozdíl RAM/cache jako pamětí a akcelerátoru jako výpočetního zařízení. Vyjasněno, že cache v příkladu obsahuje vstupy2,3 a CPU nad nimi stále vypočítává2+3; opětovné použití hotového výsledku musí zajistit program. Zobrazen vlastní jednoduchý Mermaid diagram cache se vstupy → CPU provede součet → výsledek5, označený jako ilustrační. Neprohlašovat, že cache nikdy nemůže obsahovat výsledky; rozhoduje skutečný obsah a použití programu. Přes průběžný vstup před zápisem zadána zjednodušená navazující otázka s pouze vstupními hodnotami4,7 a výslovně neuloženým výsledkem.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-nezavisle-opakovani-prinosu-cache-s-odstupem-1-dne",
+      "misconceptions": [
+        "Při samostatném opakování znovu směšuje uchování vstupních dat v cache s automatickým uložením a opakovaným použitím hotového výsledku.",
+        "Rychlost čtení z cache porovnal s akcelerátory; rozlišení RAM/cache jako pamětí a akcelerátoru jako výpočetního zařízení bylo opraveno."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: V cache jsou pouze vstupní čísla4a7, hotový součet tam uložený není. Program má jejich součet znovu vypočítat. Co přečte z cache a co potom provede výpočetní jednotka CPU? Očekává se načtení4a7 a provedení součtu na11. Jde o zjednodušenou bezprostřední aplikaci po opravě a ilustračním diagramu s2a3, nikoli o potvrzení retence. Nevnucovat opakovaně jen dvě možnosti stejné otázky; po správné odpovědi vhodně zasadit do konkrétního programu a později znovu ověřit bez nabídek a s odstupem. Odděleně zůstává neověřená prostorová lokálnost v praktickém scénáři a další CPU obsah vektory/knihovny,rodinyISA,RISC/CISC,heterogenita. AI a další naplánovaná opakování zachovat; numerické váhy předchozího dne uživatel výslovně chtěl uzavřít. Celá mapa materiálů z tohoto pokračujícího chatu stále platí, všechny části nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-23T02:26:18.938605+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-23-03-cache-vstupy-soucet",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "V cache jsou pouze vstupní čísla4a7, hotový součet tam uložený není. Program má jejich součet znovu vypočítat. Co přečte z cache a co potom provede výpočetní jednotka CPU?",
+      "learner_answer": "z cahce načte 4 a 7 a CPU je potom sečte",
+      "evaluation": "Kritérium: oddělit načtení obou vstupních hodnot z cache od následného sčítání provedeného CPU. Uživatel obě části správně uvádí. Passed bez další nápovědy během pokusu; jde však o jednoduchou aplikaci bezprostředně po opravě a diagramu se stejným principem na jiných číslech, nikoli potvrzení nezávislého vybavení s odstupem. Dnešní předchozí neúspěšná retence zůstává v historii a nesmí být tímto úzkým úspěchem považována za vyřešenou obecně. Zpětná vazba před zápisem potvrdila konkrétní rozlišení. Mapa všech materiálů a historie včetně nových aktivit zohledněna: praktický přenos prostorové lokálnosti dosud nebyl ověřen, proto byl zvolen jako následující krok místo dalšího opakování téhož součtu. Přes průběžný vstup před zápisem otázka na sousední prvek přinesený do cache celým blokem. Definice obou druhů a mechanismus bloku byly vysvětleny2026-10-22 jako doplnění, dnes nebyly před otázkou zopakovány.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "velmi-zakladni-oddeleni-vstupu-a-scitani-po-oprave-a-diagramu",
+      "misconceptions": [
+        "Záměna uchování vstupů a vynechání výpočtu se při dnešním samostatném opakování vrátila; na následném explicitním příkladu ji opravil, nezávislé vybavení zůstává k ověření.",
+        "Při dnešním opakování srovnal cache s akcelerátory namísto RAM; správné rozlišení vysvětleno, samostatné vybavení dosud neověřeno."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: CPU načte do cache celý blok sousedních prvků pole. Potom potřebuje další prvek z tohoto bloku, který ještě nikdy nečetl; blok stále zůstává v cache. Proč kvůli němu nemusí znovu číst z RAM a jde o časovou, nebo prostorovou lokálnost? Očekává se, že sousední hodnota už byla přinesena společně s blokem a je v cache; jde o prostorovou lokálnost, nikoli časovou, neboť se konkrétní hodnota nepoužívá opakovaně. Je to praktický přenos včerejšího doplnění, první taková úloha. Při úspěchu dále postupně neprobrané vektorové instrukce a knihovny nebo rodinyISA/RISC-CISC/heterogenita podle mapy; není třeba znovu vynucovat stejné součty. Základ cache po dnešní neúspěšné retenci později znovu ověřit bez nápovědy, navrženo2026-10-24, případně formou konkrétního programu nebo porovnání paměti/výpočetní jednotky. Dřívější na přání uzavřenou číselnou úlohu přiřazení vah nyní znovu nevynucovat. Ostatní termíny opakování a celou mapu zbývajícího učiva zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T02:31:35.892940+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "cpu-a-isa",
+      "hints_used": 0,
+      "misconceptions": [
+        "Záměna uchování vstupů a vynechání výpočtu se při dnešním samostatném opakování vrátila; na následném explicitním příkladu ji opravil, nezávislé vybavení zůstává k ověření."
+      ],
+      "checkpoint_id": "pokus-2026-10-23-04-prostorova-lokalnost",
+      "activity_kind": "supplement",
+      "activity": "CPU načte do cache celý blok sousedních prvků pole. Potom potřebuje další prvek z tohoto bloku, který ještě nikdy nečetl; blok stále zůstává v cache. Proč kvůli němu nemusí znovu číst z RAM a jde o časovou, nebo prostorovou lokálnost?",
+      "learner_answer": "je o prostorovou lokálnost, nemusí číst z RAM protože bere blok z cache",
+      "evaluation": "Kritérium: určit prostorovou lokálnost a vysvětlit, že potřebný sousední prvek je již přítomen v cache díky načtení celého bloku. Uživatel správně označuje prostorovou a uvádí čtení z cache místo RAM. Formulace bere blok z cache je v kontextu dostatečná; nevyvozovat z ní chybu, že by nutně četl celý blok namísto hodnoty. Zpětná vazba ji pouze zpřesnila: potřebný prvek již přišel se sousedními hodnotami. Passed bez nápovědy během pokusu; první praktický přenos včerejšího doplnění, názvy ani správný výběr nebyly před otázkou dnes zopakovány. Dnešní předchozí selhání nezávislého vysvětlení uchování vstupů versus výpočtu tím nepovažovat za automaticky vyřešené. Před zápisem vyložen nový obsah vektorových instrukcí/SIMD a role optimalizovaných knihoven s.6 a17 a přes průběžný vstup jedna otázka na srovnání mechanismů cache a SIMD. Mapa zdrojů porovnána s historií: prostorová lokálnost nyní prakticky doložená, vektory/knihovny nově introduced; ostatní CPU části stále neprobrané.",
+      "result": "passed",
+      "difficulty": "zakladni-prakticka-prostorova-lokalnost-sousedni-prvek-v-bloku",
+      "source_refs": [],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Program přičítá jedničku ke všem prvkům pole. Co v této práci může urychlit cache a co vektorová instrukce SIMD? Očekává se cache zkracuje přístup/čekání na hodnoty, SIMD přičítá stejnou jedničku k více prvkům jednou instrukcí. Jde o první aplikaci právě vyložené vektorizace; přínos není zaručen pro každou úlohu bez limitů paměti, nevyžadovat konkrétní šířku vektoru. Při úspěchu případně role optimalizované knihovny a dále neprobrané rodiny ISA/RISC-CISC/heterogenní CPU ze s.5–6 podle mapy. Prostorovou lokálnost nyní správně aplikoval na sousední nový prvek, základ oddělení cache od počítání po dnešní neúspěšné retenci stále ověřit s odstupem2026-10-24. Infrastrukturní síť/synchronizace zůstává vyložena, samostatně neověřena. Numerickou úlohu přiřazení vah uživatel chtěl uzavřít, nyní znovu nevynucovat. Ostatní opakování a celý zbývající obsah zdrojů zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T02:40:50.894202+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "cpu-a-isa",
+      "hints_used": 0,
+      "misconceptions": [
+        "Záměna uchování vstupů a vynechání výpočtu se při dnešním samostatném opakování vrátila; na následném explicitním příkladu ji opravil, nezávislé vybavení zůstává k ověření."
+      ],
+      "checkpoint_id": "vyklad-2026-10-23-05-simd-knihovny",
+      "activity_kind": "material",
+      "activity": "Vektorové instrukce/SIMD: jedna instrukce provádí stejnou operaci nad více datovými prvky, např. přičítá jedničku k několika prvkům pole najednou. Rozlišení mechanismů: cache zkracuje čekání na data, SIMD dovoluje zpracovat více hodnot jednou instrukcí. Optimalizované knihovny pomáhají využít možnosti CPU a vhodné přístupy do paměti.",
+      "learner_answer": "",
+      "evaluation": "Čtyřvěté rozvedení bylo skutečně zobrazeno s citací skript s.6 a17. S.6 zmiňuje význam vektorových instrukcí a efektivních knihoven, s.17 explicitně vymezuje SIMD jako stejnou operaci na více datových elementů; související výskyty společně zachovány. Introduced pro SIMD, číselně nespecifikovaný příklad a roli knihoven. Nevyučovány konkrétní sady instrukcí, šířky registrů, alignment, intrinsics ani přesná implementace knihoven, nejsou součástí předloženého výkladu. Neznamená to probrání zbytku HPC kapitoly ze s.17. Přes průběžný vstup před zápisem otázka na odlišení cache a SIMD při přičítání1, zatím bez odpovědi.",
+      "result": "introduced",
+      "difficulty": "uvodni-vektorove-instrukce-simd-a-vyznam-knihoven",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:17"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Program přičítá jedničku ke všem prvkům pole. Co v této práci může urychlit cache a co vektorová instrukce SIMD? Očekává se cache zkracuje přístup/čekání na hodnoty, SIMD přičítá stejnou jedničku k více prvkům jednou instrukcí. Jde o první aplikaci právě vyložené vektorizace; přínos není zaručen pro každou úlohu bez limitů paměti, nevyžadovat konkrétní šířku vektoru. Při úspěchu případně role optimalizované knihovny a dále neprobrané rodiny ISA/RISC-CISC/heterogenní CPU ze s.5–6 podle mapy. Prostorovou lokálnost nyní správně aplikoval na sousední nový prvek, základ oddělení cache od počítání po dnešní neúspěšné retenci stále ověřit s odstupem2026-10-24. Infrastrukturní síť/synchronizace zůstává vyložena, samostatně neověřena. Numerickou úlohu přiřazení vah uživatel chtěl uzavřít, nyní znovu nevynucovat. Ostatní opakování a celý zbývající obsah zdrojů zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-23T02:40:50.954970+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "Záměna uchování vstupů a vynechání výpočtu se při dnešním samostatném opakování vrátila; na následných explicitních příkladech ji opravil, nezávislé vybavení s odstupem zůstává k ověření."
+      ],
+      "checkpoint_id": "pokus-2026-10-23-06-cache-simd",
+      "activity": "Program přičítá jedničku ke všem prvkům pole. Co v této práci může urychlit cache a co vektorová instrukce SIMD?",
+      "learner_answer": "Cache může urychlit načítání prvků pole, SIMD přičítáí jedničky",
+      "evaluation": "Kritérium skutečně doloženého dílčího výsledku: odlišit načítání vstupních dat pomocí cache od urychlení samotného přičítání pomocí SIMD. Uživatel správně přiřazuje oba mechanismy. Passed bez další nápovědy během pokusu; první jednoduchá aplikace po explicitním výkladu. Ve vlastní odpovědi výslovně neuvedl více prvků jednou instrukcí; tento detail doplnil asistent ve zpětné vazbě, nepočítat jej jako samostatně formulovaný výkon. Předchozí selhání samostatného vybavení cache s odstupem zůstává k pozdějšímu opakování, nepřepisovat ho okamžitým malým úspěchem. Před zápisem zobrazeny rodinyISA a úplné oblasti/příklady z příslušné tabulky s.5 v rozsahu ARM/MIPS/x86, přes průběžný vstup jedna otázka na ISA versus mikroarchitekturu. Mapa celých materiálů porovnána s historií: nově doložené rozlišení mechanismů cache/SIMD, rodiny nyní introduced, RISC/CISC a heterogenita stále neprobrané.",
+      "result": "passed",
+      "difficulty": "zakladni-odliseni-pristupu-k-datum-a-vektoroveho-vypoctu",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:17"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Dva procesory podporují stejnou ARM ISA, ale mají odlišnou cache a pipeline. Zaručuje společná ISA stejný výkon? Zdůvodni odpověď pomocí rozdílu ISA a mikroarchitektury. Očekává se ne: stejné instrukční rozhraní neznamená stejnou realizaci a rozdíly cache/pipeline mohou ovlivnit výkon. Rozdíl ISA/mikroarchitektury byl procvičen2026-10-18; dnes byla připomenuta pouze role rodiny ISA, ne definice mikroarchitektury. Otázka může ověřit opakování této dovednosti s odstupem. Poté doplnit dosud nevyložené RISC/CISC a podmínky srovnání výkonu/energie ze s.6, heterogenní jádra a historické příklady M2Ultra/MeteorLake/EPYC/Xeon. Vektorové instrukce/knihovny byly vyloženy, správně odlišen přístup k datům od operace, ale vlastní popis více prvků na instrukci a aplikační role knihovny ještě jen částečně ověřeny. Mapa celého zdroje a ostatní opakování zachovat, všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T03:15:22.352606+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "Záměna uchování vstupů a vynechání výpočtu se při dnešním samostatném opakování vrátila; na následných explicitních příkladech ji opravil, nezávislé vybavení s odstupem zůstává k ověření."
+      ],
+      "checkpoint_id": "vyklad-2026-10-23-07-rodiny-isa",
+      "activity": "RodinyISA ARM,MIPS,x86 oproti jednotlivým modelůmCPU. Tabulka ze s.5: ARM využití mobily/MCU/SoC/servery a příklady Cortex-M/A,AppleSilicon,Ampere; MIPS historicky embedded/konzole/sítě a M62xx jako ukázka pipeliningu; x86 PC/servery a MeteorLake,EPYC,Ryzen.",
+      "learner_answer": "",
+      "evaluation": "Úvodní věta a přehledná tabulka byly skutečně zobrazeny s citací skript s.5. Introduced pro rodiny, oblasti použití a všechny uvedené příklady z tabulky. Produktová použití výslovně zasazena do podkladů, nikoli prezentována jako aktuální produktové doporučení nebo kompletní dnešní klasifikace. Pojmy RISC/CISC, RISC tradice ARM/MIPS a pokročilost moderní implementace x86 zatím tímto nebyly vyloženy; zůstávají v plánu. Totéž platí pro detailní vlastnosti SoC/MCU a konkrétních platforem, jejich názvy v tabulce neznamenají probrání příslušných kapitol. Přes průběžný vstup před zápisem otázka na společnou ARM ISA a různou mikroarchitekturu, dosud bez odpovědi.",
+      "result": "introduced",
+      "difficulty": "uvodni-prehled-rodin-arm-mips-x86-a-historickych-prikladu",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Dva procesory podporují stejnou ARM ISA, ale mají odlišnou cache a pipeline. Zaručuje společná ISA stejný výkon? Zdůvodni odpověď pomocí rozdílu ISA a mikroarchitektury. Očekává se ne: stejné instrukční rozhraní neznamená stejnou realizaci a rozdíly cache/pipeline mohou ovlivnit výkon. Rozdíl ISA/mikroarchitektury byl procvičen2026-10-18; dnes byla připomenuta pouze role rodiny ISA, ne definice mikroarchitektury. Otázka může ověřit opakování této dovednosti s odstupem. Poté doplnit dosud nevyložené RISC/CISC a podmínky srovnání výkonu/energie ze s.6, heterogenní jádra a historické příklady M2Ultra/MeteorLake/EPYC/Xeon. Vektorové instrukce/knihovny byly vyloženy, správně odlišen přístup k datům od operace, ale vlastní popis více prvků na instrukci a aplikační role knihovny ještě jen částečně ověřeny. Mapa celého zdroje a ostatní opakování zachovat, všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-23T03:15:22.415633+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "Záměna uchování vstupů a vynechání výpočtu se při dnešním samostatném opakování vrátila; na následných explicitních příkladech ji opravil, nezávislé vybavení s odstupem zůstává k ověření."
+      ],
+      "checkpoint_id": "pokus-2026-10-23-08-isa-mikroarchitektura-vykon",
+      "activity": "Dva procesory podporují stejnou ARM ISA, ale mají odlišnou cache a pipeline. Zaručuje společná ISA stejný výkon? Zdůvodni odpověď pomocí rozdílu ISA a mikroarchitektury.",
+      "learner_answer": "Ne, ISA definuje, co za procesy procesor zvládne. Výkonk určuje mikroarchitektura",
+      "evaluation": "Kritérium: odmítnout záruku stejného výkonu ze stejné ISA a rozlišit instrukční rozhraní od konkrétní realizace ovlivňující výkon. Uživatel správně odpovídá ne a spojuje rozdíl výkonu s mikroarchitekturou. Formulace co za procesy procesor zvládne je terminologicky volná; z kontextu není důvod vyvozovat záměnu za proces OS. Zpětná vazba zpřesnila instrukce a jejich chování a konkrétní realizaci. Passed bez nápovědy během pokusu; jde o obnovení dovednosti procvičené2026-10-18 s pětidenním odstupem, přičemž dnes byla připomenuta rodina ISA, nikoli definice mikroarchitektury. Tvrzení výkon určuje mikroarchitektura neinterpretovat jako úplný výčet všech faktorů; asistent doplnil závislost na zátěži a softwaru. Před zápisem vyloženy historické koncepce RISC/CISC a omezení výkonnostních/energetických zobecnění, přes průběžný vstup jedna aplikační otázka. Mapa zdroje porovnána s historií: rozlišení ISA/mikroarchitektury nyní znovu doloženo, RISC/CISC nově introduced, heterogenita a další obsah stále neprobraný.",
+      "result": "passed",
+      "difficulty": "zakladni-isa-versus-mikroarchitektura-opakovani-po-5-dnech",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Kolega tvrdí: ARM musí být pro inferenci vždy energeticky výhodnější než x86, protože je RISC. Je tento závěr zaručený? Co bys potřeboval porovnat, abys energetickou výhodnost ověřil? Očekává se ne a porovnat konkrétní implementace při stejné úloze/modelu a požadované kvalitě, zejména energii na inferenci nebo příkon společně s dobou/propustností. Uznat správný konkrétní návrh relevantního měření nebo vysvětlení role čipu,technologie,softwaru bez vyžadování seznamu všech faktorů. Nepovažovat automaticky nízký příkon za menší energii bez doby, ale pokud uživatel jen obecně řekne spotřeba, zbytečně nepřisuzovat záměnu jednotek bez upřesnění. Po úspěchu zbývá heterogenní CPU, příklady MeteorLake/AppleSilicon/M2Ultra a serverovéEPYC/Xeon ze s.6; moderníx86 konkrétní vnitřní mechanismy nejsou v dodaném textu vyloženy do detailu, nepředstírat je jako povinný obsah. Následně doplnit zbývající výkonové metriky/roofline/Amdahl s ověřením symbolů nebo akcelerátory podle celé mapy. Ostatní opakování zachovat, všechny materiály dosud nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T03:30:49.596097+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "Záměna uchování vstupů a vynechání výpočtu se při dnešním samostatném opakování vrátila; na následných explicitních příkladech ji opravil, nezávislé vybavení s odstupem zůstává k ověření."
+      ],
+      "checkpoint_id": "vyklad-2026-10-23-09-risc-cisc",
+      "activity": "Historické koncepce RISC/CISC: krátké označené doplnění charakterizuje RISC důrazem na jednodušší/pravidelnější instrukce a CISC také složitějšími instrukcemi. ARM/MIPS mají tradiciRISC a x86CISC. Samotná označení nejsou zárukou vyššího výkonu nebo nižší spotřeby; záleží na konkrétním čipu,výrobní technologii a softwaru.",
+      "learner_answer": "",
+      "evaluation": "Krátký výklad byl skutečně zobrazen s citací skript s.5–6 a explicitním označením stručné charakteristiky pojmů jako doplnění. Introduced pro koncepce,příslušné tradice rodin a podmínky porovnání výkonu/energie. Zdroj uvádí historické koncepce a zákaz automatického odvozování výkonu/efektivity, jejich jednoduché vysvětlení je doplnění; neprezentovat je jako přesnou taxonomii všech moderních instrukcí. Moderní implementace mohou být složité a jejich výkon nelze odvodit jen z nálepky; detaily mikrooperací apod. nebyly vyučovány. Přes průběžný vstup před zápisem jedna otázka na univerzální energetickou převahu ARM/RISC a návrh konkrétního porovnání, zatím bez odpovědi.",
+      "result": "introduced",
+      "difficulty": "uvodni-risc-cisc-a-meze-zobecneni-vykonu-spotreby",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Kolega tvrdí: ARM musí být pro inferenci vždy energeticky výhodnější než x86, protože je RISC. Je tento závěr zaručený? Co bys potřeboval porovnat, abys energetickou výhodnost ověřil? Očekává se ne a porovnat konkrétní implementace při stejné úloze/modelu a požadované kvalitě, zejména energii na inferenci nebo příkon společně s dobou/propustností. Uznat správný konkrétní návrh relevantního měření nebo vysvětlení role čipu,technologie,softwaru bez vyžadování seznamu všech faktorů. Nepovažovat automaticky nízký příkon za menší energii bez doby, ale pokud uživatel jen obecně řekne spotřeba, zbytečně nepřisuzovat záměnu jednotek bez upřesnění. Po úspěchu zbývá heterogenní CPU, příklady MeteorLake/AppleSilicon/M2Ultra a serverovéEPYC/Xeon ze s.6; moderníx86 konkrétní vnitřní mechanismy nejsou v dodaném textu vyloženy do detailu, nepředstírat je jako povinný obsah. Následně doplnit zbývající výkonové metriky/roofline/Amdahl s ověřením symbolů nebo akcelerátory podle celé mapy. Ostatní opakování zachovat, všechny materiály dosud nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-23T03:30:49.663791+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-23-10-risc-cisc-energie",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Kolega tvrdí: ARM musí být pro inferenci vždy energeticky výhodnější než x86, protože je RISC. Je tento závěr zaručený? Co bys potřeboval porovnat, abys energetickou výhodnost ověřil?",
+      "learner_answer": "ne, RICS i CISC jsou specifické implemetntace ISA, neřeší pipeline",
+      "evaluation": "Kritérium celé aktivity: odmítnout univerzální energetickou záruku z RISC/CISC a navrhnout relevantní porovnání konkrétních CPU na stejné úloze. Uživatel správně odmítá závěr a správně odděluje RISC/CISC od pipeline. Označuje je však za specifické implementace ISA, zatímco ve výkladu jde o koncepce ISA a konkrétní realizace je mikroarchitektura. Není jisté, zda jde o pouhou terminologickou nepřesnost; nevyvozovat z ní širší ztrátu dříve doloženého rozdílu ISA/mikroarchitektury. Vlastní návrh energetického měření dosud neuvedl. Needs-practice pro tyto konkrétní nevyjasněné části, nikoli pro jeho správné ne. Bez další nápovědy během pokusu. Před zápisem zpětná vazba výslovně uznala správný závěr a oddělení pipeline, zpřesnila vrstvy a doplnila měření energie na inferenci u konkrétních procesorů při stejné úloze/kvalitě. Přes průběžný vstup před zápisem ilustrační číselné porovnání ARM/x86; nejde o reálné specifikace nebo aktuální doporučení produktů.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-meze-energetickeho-zobecneni-risc-cisc-a-navrh-porovnani",
+      "misconceptions": [
+        "RISC/CISC správně oddělil od pipeline, ale nazval je specifickými implementacemi ISA; upřesněno na koncepce ISA oproti konkrétní mikroarchitektuře, nejasné zda původně jen terminologická nepřesnost.",
+        "Záměna uchování vstupů a vynechání výpočtu se při dnešním samostatném opakování vrátila; na následných explicitních příkladech ji opravil, nezávislé vybavení s odstupem zůstává k ověření."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Ilustrační příklad: stejný model se stejnou kvalitou výsledků zpracuje CPUA(ARM) při stálém příkonu4W za0,1s a CPUB(x86) při6W za0,05s. Které spotřebuje méně energie na jednu inferenci? Ukaž výpočet. Očekává se A4×0,1=0,4J a B6×0,05=0,3J, tedy B. Výpočet E=P×t nyní před otázkou nebyl zopakován, ale předchozí zpětná vazba již doporučila energii na stejnou inferenci; nejde o samostatný návrh původně požadovaného protokolu. Číselné hodnoty jsou hypotetický příklad, ne skutečný produkt. Při úspěchu stačí uznat konkrétní měření proti nálepceRISC/CISC, nenutit další obecný seznam faktorů. Potom heterogenní CPU a historické příklady ze s.6 podle mapy. RISC/CISC jako koncepce vs mikroarchitektura byly opraveny, mohou být přirozeně ověřeny v dalším obsahu. Základ cache po dnešní retenci stále zopakovat s odstupem2026-10-24; další opakování a mapu zachovat, vše není probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-23T03:45:27.229967+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "RISC/CISC správně oddělil od pipeline, ale nazval je specifickými implementacemi ISA; upřesněno na koncepce ISA oproti konkrétní mikroarchitektuře, nejasné zda původně jen terminologická nepřesnost.",
+        "Záměna uchování vstupů a vynechání výpočtu se při dnešním samostatném opakování vrátila; na následných explicitních příkladech ji opravil, nezávislé vybavení s odstupem zůstává k ověření."
+      ],
+      "checkpoint_id": "pokus-2026-10-23-11-energie-arm-x86",
+      "activity": "Ilustrační příklad: stejný model se stejnou kvalitou výsledků zpracuje CPUA(ARM) při stálém příkonu4W za0,1s a CPUB(x86) při6W za0,05s. Které spotřebuje méně energie na jednu inferenci? Ukaž výpočet.",
+      "learner_answer": "4 W = 4J/s | 4 J/s * 0.1s = 0,4 J\n6W = 6J/s * 0,05 s = 0,3J",
+      "evaluation": "Kritérium: určit energii obou inferencí pomocí příkonu a času se správnými jednotkami a porovnat je. Uživatel správně vypočítal A0,4J a B0,3J; z výsledků je menší energieB jednoznačná, není nutné vynucovat slovní zopakování. Druhý řádek má neformální řetězení rovností při přechodu z převoduW na výpočetenergie, ale správné veličiny i výsledek jsou zřejmé; neoznačovat ho za nepochopení jednotek. Passed bez nápovědy během pokusu, při aplikaci na nový hypotetický scénář; předchozí zpětná vazba již nabídla energii na stejnou inferenci jako měřítko, proto není doložen vlastní návrh protokolu. Správný konkrétní výsledek ukazuje, proč nižší příkon a příslušnost kARM nemusí znamenat nižší energii. Zpětná vazba před zápisem potvrdila B a kratší dobu, výslovně omezila závěr na tento příklad. Mapa obsahu porovnána s historií: RISC/CISC energetické zobecnění nyní konkrétně procvičeno, pojmové koncepce/implementace zpřesněny ale samostatně znovu neověřeny. Před zápisem vyložena heterogenní CPU a historické příklady ze s.6; přes průběžný vstup jedna otázka na rozdělení práce.",
+      "result": "passed",
+      "difficulty": "zakladni-energie-z-prikonu-a-casu-na-hypotetickych-arm-x86",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: CPU má výkonná a úsporná jádra. Zařízení většinu času jen kontroluje příchozí události, občas ale potřebuje rychle provést náročný výpočet. Jak bys mezi oba druhy jader rozdělil tyto úlohy a proč? Očekává se lehké sledování/obsluha na úsporná a náročný časově citlivý výpočet na výkonná s odůvodněním výkon/energie. Jde o první jednoduchou aplikaci právě vyložené heterogenity; nevyžadovat implementaci plánovače ani univerzální energetickou převahu konkrétního jádra bez měření. Po úspěchu zkontrolovat mapu celého zdroje s historií a volit další neprobraný obsah: přehled akcelerátorů GPU/TPU/NPU/VPU s jejich příklady a limity nebo zbývající výkonové pojmyRpeak/Rmax,operačníintenzita,roofline,obecnýAmdahl,benchmarky a náklady. Neprohlašovat celé CPU materiály samostatně zvládnuté: cache retence stále slabina, role knihoven a některé příklady pouze introduced. Původní zdroj obsahuje nečitelné znaky u některých vzorců; před jejich doslovným použitím ověřit nebo přesně pojmenovat nejistotu. Ostatní opakování a celý rozsah zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T03:49:40.369435+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "RISC/CISC správně oddělil od pipeline, ale nazval je specifickými implementacemi ISA; upřesněno na koncepce ISA oproti konkrétní mikroarchitektuře, nejasné zda původně jen terminologická nepřesnost.",
+        "Záměna uchování vstupů a vynechání výpočtu se při dnešním samostatném opakování vrátila; na následných explicitních příkladech ji opravil, nezávislé vybavení s odstupem zůstává k ověření."
+      ],
+      "checkpoint_id": "vyklad-2026-10-23-12-heterogenni-cpu-priklady",
+      "activity": "HeterogenníCPU kombinují výkonná a úsporná jádra; náročná práce může využít výkonná a lehčí úsporná pro vhodné vyvážení výkonu/energie. Historické příklady ze s.6: MeteorLake dlaždicové uspořádání; AppleSilicon CPU/GPU/NeuralEngine; M2Ultra integrace výkonných/úsporných jader,GPU,paměti,NeuralEngine; EPYC/Xeon serverové platformy. Parametry generací se nemají zobecňovat na všechnyARM/x86.",
+      "learner_answer": "",
+      "evaluation": "Výklad byl skutečně zobrazen s citací skript s.6. Introduced pro heterogenní výkonná/úsporná jádra, jednoduché přidělení práce jako rozvedení principu a uvedené příklady včetně omezení zobecňování parametrů. Hlubší plánovací algoritmy, konkrétní fyzická topologie dlaždic nebo přesné počty/frekvence/jednotlivé generace nebyly vyučovány a dodaný text je v této části ani neuvádí. Apple příklad v komentáři výslovně svázán se stejnou heterogenní kombinací a integrací. Před zápisem přes průběžný vstup jedna otázka na lehkou obsluhu a náročný výpočet, zatím bez odpovědi. Příklady byly prezentovány jako obsah skript, nikoli aktuální produktové doporučení.",
+      "result": "introduced",
+      "difficulty": "uvodni-heterogenni-cpu-a-historicke-integracni-priklady",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: CPU má výkonná a úsporná jádra. Zařízení většinu času jen kontroluje příchozí události, občas ale potřebuje rychle provést náročný výpočet. Jak bys mezi oba druhy jader rozdělil tyto úlohy a proč? Očekává se lehké sledování/obsluha na úsporná a náročný časově citlivý výpočet na výkonná s odůvodněním výkon/energie. Jde o první jednoduchou aplikaci právě vyložené heterogenity; nevyžadovat implementaci plánovače ani univerzální energetickou převahu konkrétního jádra bez měření. Po úspěchu zkontrolovat mapu celého zdroje s historií a volit další neprobraný obsah: přehled akcelerátorů GPU/TPU/NPU/VPU s jejich příklady a limity nebo zbývající výkonové pojmyRpeak/Rmax,operačníintenzita,roofline,obecnýAmdahl,benchmarky a náklady. Neprohlašovat celé CPU materiály samostatně zvládnuté: cache retence stále slabina, role knihoven a některé příklady pouze introduced. Původní zdroj obsahuje nečitelné znaky u některých vzorců; před jejich doslovným použitím ověřit nebo přesně pojmenovat nejistotu. Ostatní opakování a celý rozsah zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-23T03:49:40.430938+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-23-13-heterogenni-typy-jader",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "CPU má výkonná a úsporná jádra. Zařízení většinu času jen kontroluje příchozí události, občas ale potřebuje rychle provést náročný výpočet. Jak bys mezi oba druhy jader rozdělil tyto úlohy a proč?",
+      "learner_answer": "rychlý náročný výpočet bych paralelně počítal na více jadrech",
+      "evaluation": "Kritérium: přiřadit lehkou průběžnou obsluhu k úsporným a časově náročnou práci k výkonným jádrům a propojit to s výkonem/energií. Uživatel navrhuje paralelní běh náročného výpočtu na více jádrech, což může být relevantní další volba při dostatečné paralelizovatelnosti, ale neurčuje typ jader ani přiřazení průběžné kontroly. Needs-practice pro nedoložené cílové rozdělení; neoznačovat paralelismus sám o sobě za chybu ani z odpovědi automaticky nevyvozovat tvrzení, že každá úloha jde paralelizovat. Bez další nápovědy během pokusu. Před zápisem zpětná vazba uznala podmíněný přínos více jader a oddělila počet jader od jejich typu, pak ukázala typické přiřazení lehké obsluhy k úsporným a časově citlivé práce k výkonným. Přes průběžný vstup před zápisem položena navazující otázka na přínos tohoto rozdělení. Konkrétní energetický efekt není univerzální bez úlohy a měření; zde jde o základní návrhový princip ze skript.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-prirazeni-lehke-a-narocne-prace-typum-jader",
+      "misconceptions": [
+        "RISC/CISC správně oddělil od pipeline, ale nazval je specifickými implementacemi ISA; upřesněno na koncepce ISA oproti konkrétní mikroarchitektuře, nejasné zda původně jen terminologická nepřesnost.",
+        "Záměna uchování vstupů a vynechání výpočtu se při dnešním samostatném opakování vrátila; na následných explicitních příkladech ji opravil, nezávislé vybavení s odstupem zůstává k ověření."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Co může zařízení získat tím, že jednoduchou průběžnou kontrolu událostí nechá na úsporných jádrech a výkonná jádra využije až pro náročné výpočty? Očekává se nižší energetická náročnost/výdrž/menší zahřívání při zachování možnosti rychlého zpracování náročné práce. Uznat správný smysl bez vyžadování všech možných výhod. Jde o první bezprostřední vysvětlení po ukázaném přiřazení; pokud uspěje, nezaznamenat samostatné navržení rozdělení před nápovědou. Původní odpověď navrhla počet jader pro paralelní zpracování, nikoli typy. Po pochopení přínosu není třeba dál opakovat stejné přiřazení: lze přejít k dalším neprobraným částem mapy (GPU/TPU/NPU/VPU nebo zbývající metriky/roofline/obecnýAmdahl). Před volbou porovnat mapu se všemi relevantními záznamy včetně aktuálních aktivit, neodvozovat úplnost z tématuCPU. Cache retence zůstává k ověření s odstupem2026-10-24; dřívější na přání uzavřená numerická úloha vah nyní znovu nevnucovat. Ostatní termíny opakování zachovat, všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-23T03:57:51.227056+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-23-14-heterogenni-prinos",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "cpu-a-isa",
+      "activity_kind": "material",
+      "activity": "Co může zařízení získat tím, že jednoduchou průběžnou kontrolu událostí nechá na úsporných jádrech a výkonná jádra využije až pro náročné výpočty?",
+      "learner_answer": "energii a režii",
+      "evaluation": "Kritérium doloženého dílčího výsledku: rozpoznat energetický přínos ukázaného rozdělení lehké a náročné práce. Uživatel v kontextu správně uvádí úsporu energie, passed pro tento přínos. Režie však není automaticky nižší, záleží na plánování; tato část byla ve zpětné vazbě výslovně omezena a není hodnocena jako prokázaný univerzální přínos. Bez další nápovědy během pokusu, ale správné přiřazení typů jader už před touto otázkou dodal asistent, proto nepočítat jako samostatně navržené rozdělení. Před zápisem potvrzena úspora energie a možnost rychlé náročné práce, následně vyložen přehledGPU a přes průběžný vstup jedna aplikační otázka. Mapa celých24stran a celá původní historie spolu s novými aktivitami tohoto pokračujícího chatu zohledněny: CPU kapitola obsahově vyložena v konkrétních částech, cache retence stále slabina, příklady/knihovny ne všechny samostatně ověřené; zbývá řada neprobraných částí ostatních kapitol.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-energeticky-prinos-ukazaneho-rozdeleni-typum-jader",
+      "misconceptions": [
+        "RISC/CISC nazval implementacemi ISA; zpřesněno na koncepce ISA, samostatné terminologické ověření ještě neproběhlo.",
+        "Záměna uchování vstupů a vynechání výpočtu se při dnešním samostatném opakování vrátila; na následných explicitních příkladech ji opravil, nezávislé vybavení s odstupem zůstává k ověření."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Aplikace načítá video,připravuje snímky,provádí velké maticové výpočty modelu a zpracovává výsledky. Kterou část bys typicky svěřilGPU a jaké činnosti by mohlo zajišťovatCPU? Očekává se GPU velké paralelizovatelné maticové výpočty,CPU načítání/příprava/řízení/zpracování výsledků; uznat typické přiřazení bez tvrzení, že CPU nikdy nemůže inferovat nebo že předzpracování nelze provést naGPU. Předchozí CPU role byly částečně procvičeny, nyní jde o konkretizaci po přehleduGPU. Po úspěchu cloudTPU versus EdgeTPU ze s.6, pak NPU/VPU včetně Myriad2/SHAVE,MyriadX/NeuralComputeEngine/OpenVINO a tabulky kompromisů s.7. CUDA/PyTorch/TensorFlow a produktové příklady byly vyjmenovány, jejich detailní používání není v podkladu vyloženo. Konvoluce/gradienty zde zatím názvy příkladů operací, ne jejich matematické odvození. Zbývající výkonové části (Rpeak/Rmax,operačníintenzita,roofline,obecnýAmdahl,benchmarky,náklady) a další kapitoly zůstávají v rozsahu. Cache retence2026-10-24 a další opakování zachovat. Všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T04:02:33.061388+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "vyklad-2026-10-23-15-gpu-prehled",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "activity_kind": "material",
+      "activity": "Přehled4.1 s.6: GPU původ v grafice,mnoho paralelních výpočetních jednotek; DL matice/konvoluce/gradienty,trénování i inference. Software CUDA,knihovnyNN,PyTorch/TensorFlow. Podmínka velké dobře paralelizovatelné práce; u krátkých sekvenčních úloh režie přenosů a kernelů. Historické příklady z podkladů NVIDIAA100/H100 a embeddedJetson.",
+      "learner_answer": "",
+      "evaluation": "Pětivětý přehled skutečně zobrazen s citací skript s.6. Introduced pro celý konkrétní přehledGPU v uvedeném rozsahu, navazuje na již doložené násobení matic/paralelismus/režie z jiných témat. Nepovažovat za zcela novou látku, co bylo skutečně vyučováno dříve; nové výskyty,typy operací,softwarové a produktové příklady jsou zachyceny. Konvoluce/gradienty byly pouze vyjmenovány jako operace, ne matematicky vysvětleny; detailní ekosystémové programování není v dodaném textu vyloženo. Produktové názvy výslovně zasazeny do skript jako historické příklady, ne aktuální doporučení. Pasáže6–7 znovu načteny nástrojem a ověřen hash; grafický obsah byl vizuálně prohlédnut při celkovém průzkumu. Přes průběžný vstup před zápisem jedna otázka na konkrétní dělbu práceGPU/CPU, dosud bez odpovědi. TPU/NPU/VPU a jejich specifika tím nejsou vyučena.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "uvodni-souhrn-gpu-typy-operaci-software-priklady-a-limity",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Aplikace načítá video,připravuje snímky,provádí velké maticové výpočty modelu a zpracovává výsledky. Kterou část bys typicky svěřilGPU a jaké činnosti by mohlo zajišťovatCPU? Očekává se GPU velké paralelizovatelné maticové výpočty,CPU načítání/příprava/řízení/zpracování výsledků; uznat typické přiřazení bez tvrzení, že CPU nikdy nemůže inferovat nebo že předzpracování nelze provést naGPU. Předchozí CPU role byly částečně procvičeny, nyní jde o konkretizaci po přehleduGPU. Po úspěchu cloudTPU versus EdgeTPU ze s.6, pak NPU/VPU včetně Myriad2/SHAVE,MyriadX/NeuralComputeEngine/OpenVINO a tabulky kompromisů s.7. CUDA/PyTorch/TensorFlow a produktové příklady byly vyjmenovány, jejich detailní používání není v podkladu vyloženo. Konvoluce/gradienty zde zatím názvy příkladů operací, ne jejich matematické odvození. Zbývající výkonové části (Rpeak/Rmax,operačníintenzita,roofline,obecnýAmdahl,benchmarky,náklady) a další kapitoly zůstávají v rozsahu. Cache retence2026-10-24 a další opakování zachovat. Všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-23T04:02:33.123488+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "pokus-2026-10-23-16-delba-cpu-gpu-video",
+      "activity": "Aplikace načítá video,připravuje snímky,provádí velké maticové výpočty modelu a zpracovává výsledky. Kterou část bys typicky svěřilGPU a jaké činnosti by mohlo zajišťovatCPU?",
+      "learner_answer": "Aplikace načítá video, připravuje snímky,a zpracovává výsledky ->  CPU | počítá velké matice modelu  -> GPU",
+      "evaluation": "Kritérium: konkrétně oddělit paralelizovatelné velké maticové výpočty naGPU od načítání/přípravy/řízení nebo zpracování výsledků naCPU. Uživatel všechny uvedené činnosti správně přiřazuje. Passed bez další nápovědy během pokusu, první konkretizace v této videoúloze po přehleduGPU a dřívějším výkladu CPUrolí. Nyní uvedl i konkrétní činnostiCPU, které v dřívější aktivitě zůstaly příliš obecné; tuto konkrétní mezeru lze považovat za procvičenou. Nevyvozovat z typického přiřazení výlučnost: předzpracování může být i naGPU aCPU může sám inferovat podle úlohy. Zpětná vazba před zápisem přiřazení potvrdila, pak vyložen cloudTPU/EdgeTPU a omezení podporovaných modelů; přes průběžný vstup jedna navazující otázka. Mapa celého zdroje a historie zohledněny: CPU/GPUdělba nyní konkrétně doložená, jiné akcelerátory dosud neprobrané.",
+      "result": "passed",
+      "difficulty": "zakladni-konretni-delba-cpu-gpu-ve-videoaplikaci",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:7"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Nejdřív potřebuješ vytrénovat velký model,potom jeho podporovanou verzi úsporně provozovat v místní kameře. Pro který krok dává smysl cloudovéTPU a pro který EdgeTPU? Zdůvodni. Očekává se cloudovéTPU pro velké trénování, EdgeTPU pro úspornou lokální inferenci podporované verze. CloudTPU umí i inferenci, volba v příkladu neznamená výlučné použití jen ktrénování. Jde o první jednoduché použití právě vyloženého rozdílu. Po úspěchu přejítNPU/VPU včetně Myriad2SHAVE/MyriadXNeuralComputeEngine/OpenVINO a tabulky kompromisů s.7, potom dělbaCPU/GPU/NPU/ISP a omezení zobecněníTPUspotřeby. Konkrétní Coral/Jetson parametry jsou samostatně v pozdějších kapitolách, z názvů je nepovažovat za vyučované. Celý rozsah a opakování zachovat, všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T06:37:58.580751+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [],
+      "checkpoint_id": "vyklad-2026-10-23-17-cloud-edge-tpu",
+      "activity": "TPU jakoTensorProcessingUnit,specializovaný akcelerátor tensorových výpočtů často založených na násobení/akumulaci. Tabulka: cloudovéTPU pro výkonné trénování iinferenci, EdgeTPU pro úspornou lokální inferenci podporovaných modelů. Nutnost ověřit podporu modelu,operací,datových typů a nástrojů.",
+      "learner_answer": "",
+      "evaluation": "Výklad a dvouřádková tabulka byly skutečně zobrazeny s citací skript s.6–7. Introduced pro definiciTPU, rozlišenícloud/Edge a konkrétní třídy omezení. Nevyučeny konkrétní výrobkové parametry Coral,formátové kroky exportu,kvantizace nebo popis vnitřní matice výpočetních jednotek; tyto části se nemají odvozovat z názvuTPU. Před zápisem přes průběžný vstup otázka na velké trénování a následnou podporovanou lokální inferenci, zatím bez odpovědi.",
+      "result": "introduced",
+      "difficulty": "uvodni-tpu-cloud-versus-edge-a-podpora-modelu",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:7"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Nejdřív potřebuješ vytrénovat velký model,potom jeho podporovanou verzi úsporně provozovat v místní kameře. Pro který krok dává smysl cloudovéTPU a pro který EdgeTPU? Zdůvodni. Očekává se cloudovéTPU pro velké trénování, EdgeTPU pro úspornou lokální inferenci podporované verze. CloudTPU umí i inferenci, volba v příkladu neznamená výlučné použití jen ktrénování. Jde o první jednoduché použití právě vyloženého rozdílu. Po úspěchu přejítNPU/VPU včetně Myriad2SHAVE/MyriadXNeuralComputeEngine/OpenVINO a tabulky kompromisů s.7, potom dělbaCPU/GPU/NPU/ISP a omezení zobecněníTPUspotřeby. Konkrétní Coral/Jetson parametry jsou samostatně v pozdějších kapitolách, z názvů je nepovažovat za vyučované. Celý rozsah a opakování zachovat, všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-23T06:37:58.651483+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-23-18-cloud-edge-volba",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "activity_kind": "material",
+      "activity": "Nejdřív potřebuješ vytrénovat velký model,potom jeho podporovanou verzi úsporně provozovat v místní kameře. Pro který krok dává smysl cloudovéTPU a pro který EdgeTPU? Zdůvodni.",
+      "learner_answer": "Cloudové TPU  pro trénink -> jr výkonnější, Edge TPU pro provoz -> je levnější",
+      "evaluation": "Kritérium doloženého dílčího výsledku: správně přiřadit velké trénování ke cloudTPU a lokální provoz podporovaného modelu kEdgeTPU. Uživatel obě přiřazení správně uvádí, cloudový výkon relevantně spojuje s trénováním. Passed pro toto přiřazení bez další nápovědy během pokusu. ZdůvodněníEdgeTPU je levnější není samotným označením doložené; nevyvozovat univerzální nižší pořizovací/provozní cenu ani z krátké odpovědi automaticky záměnu fyzikálních veličin. Před zápisem zpětná vazba uznala mapování, upřesnila energetickou úspornost a omezila závěr o ceně. Samostatné energetické zdůvodněníEdgeTPU v této odpovědi neověřeno. Poté skutečně představeny definiceNPU/VPU a potřeba softwarové podpory, přes průběžný vstup jedna otázka na jejich zaměření. Mapa zdrojů a historie zohledněny: cloud/EdgeTPU základně aplikovány,NPU/VPU nově introduced, produktové detaily/tabulka/ISP zatím neprobrané.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-prirazeni-cloudu-a-edge-k-trenovani-a-inferenci",
+      "misconceptions": [
+        "EdgeTPU zdůvodnil obecně jako levnější; nižší cena z označení samotného neplyne. Upřesněna úsporná lokální inference z hlediska energie, vlastní energetické zdůvodnění v této otázce neověřeno."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:7"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: NPU iVPU mohou urychlovatAI výpočty. V čem se liší jejich zaměření? Očekává seNPU obecněji neuronové sítě aVPU obraz/kamery/počítačové vidění; nevyvozovat,žeNPU neumívidění nebo žeVPU automaticky podporuje všechny modely. První jednoduchá aplikace právě vyložených definic. Po úspěchu doplnit dosud neprobrané Myriad2/SHAVE aMyriadX/NeuralComputeEngine/vícesenzorů,OpenVINO; pak úplnou tabulku kompromisů s.7, dělbuCPU/GPU/NPU/ISP a varováníTPU nemá vždy nižší energii nežGPU. KonkrétníCoral/Jetson aSoC dalšíkapitoly nejsou tímto pojmovým přehledem probrané. Zbývající výkonové metriky/roofline/obecnýAmdahl/náklady a další mapa zůstávají v rozsahu. Cache retence2026-10-24 a další opakování zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T06:44:31.997365+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "vyklad-2026-10-23-19-npu-vpu-definice",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "activity_kind": "material",
+      "activity": "NPU(NeuralProcessingUnit) jako obecnější specializovaná jednotka pro neuronové sítě v mobilních/vestavěných systémech. VPU(VisionProcessingUnit) pro obraz,kamery,počítačové vidění. U konkrétního zařízení ověřovat podporované operace a softwarový ekosystém.",
+      "learner_answer": "",
+      "evaluation": "Krátký výklad skutečně zobrazen s citací skript s.6–7. Introduced pro definice/zaměřeníNPU/VPU a podmínku podpory. Dosud nevyučeny konkrétníMyriad2/SHAVE,MyriadX/NeuralComputeEngine,senzory,OpenVINO,úplná tabulka kompromisů aniISP. ZkratkySoC/embedded v navazujících kapitolách nejsou tímto plně vyloženy; nyní použita srozumitelná formulace mobilní/vestavěné systémy. Před zápisem přes průběžný vstup jedna otázka na rozdíl zaměření, zatím bez odpovědi.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "uvodni-obecne-neuronove-versus-obrazove-akceleratory",
+      "misconceptions": [
+        "EdgeTPU zdůvodnil obecně jako levnější; nižší cena z označení samotného neplyne. Upřesněna úsporná lokální inference z hlediska energie, vlastní energetické zdůvodnění v této otázce neověřeno."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:7"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: NPU iVPU mohou urychlovatAI výpočty. V čem se liší jejich zaměření? Očekává seNPU obecněji neuronové sítě aVPU obraz/kamery/počítačové vidění; nevyvozovat,žeNPU neumívidění nebo žeVPU automaticky podporuje všechny modely. První jednoduchá aplikace právě vyložených definic. Po úspěchu doplnit dosud neprobrané Myriad2/SHAVE aMyriadX/NeuralComputeEngine/vícesenzorů,OpenVINO; pak úplnou tabulku kompromisů s.7, dělbuCPU/GPU/NPU/ISP a varováníTPU nemá vždy nižší energii nežGPU. KonkrétníCoral/Jetson aSoC dalšíkapitoly nejsou tímto pojmovým přehledem probrané. Zbývající výkonové metriky/roofline/obecnýAmdahl/náklady a další mapa zůstávají v rozsahu. Cache retence2026-10-24 a další opakování zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-23T06:44:32.067598+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "EdgeTPU zdůvodnil obecně jako levnější; nižší cena z označení samotného neplyne. Upřesněna úsporná lokální inference z hlediska energie, vlastní energetické zdůvodnění v této otázce neověřeno."
+      ],
+      "checkpoint_id": "pokus-2026-10-23-20-npu-vpu-zamereni",
+      "activity": "NPU iVPU mohou urychlovatAI výpočty. V čem se liší jejich zaměření?",
+      "learner_answer": "VPU je zaměřené na neuronové sítě, co zpracovávají obraz. NPU jsou pro obecné neuronové sítě",
+      "evaluation": "Kritérium: odlišit obecnější specializaciNPU na neuronové sítě od obrazové/vision specializaceVPU. Uživatel tento rozdíl správně uvádí. Passed bez další nápovědy během pokusu, první jednoduché použití právě vyložených definic. VyjádřeníVPU přes obrazové neuronové sítě je užší než celé počítačové vidění; ve zpětné vazbě rozšířeno, že může jít i o jiné obrazové operace. Nevyvozovat z jeho odpovědi tvrzení,žeVPU musí podporovat jenNN nebo žeNPU nemůže zpracovávatobraz; takové výlučné tvrzení neuvedl. Před zápisem tabulkou doplněny konkrétníMyriad2/SHAVE,MyriadX/NeuralComputeEngine/senzory aOpenVINO ze s.7, přes průběžný vstup jedna otázka na hardware/software a podporu. Mapa zdrojů a historie zohledněny: rozdílNPU/VPU nyní základně doložený, další příklady/softwarovávrstva nově introduced, tabulka kompromisů aISP zůstávají neprobrané.",
+      "result": "passed",
+      "difficulty": "zakladni-rozliseni-neuronoveho-a-obrazoveho-zamereni",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:7"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: V podkladech figurují MyriadX aOpenVINO. Které označení patří hardwaru a které softwaru? Proč při nasazování modelu potřebujeme řešit podporu obou? Očekává se MyriadX hardwarovéVPU,OpenVINO softwarovýekosystém/nástroje; model a potřebné operace musí podporovat konkrétní hardware i softwarová cesta. Nevyžadovat aktuální kompatibilitní matici nebo znalostAPI, otázka neprohlašuje současnou podporu konkrétní verze. První jednoduchá aplikace po přehledu příkladů. Po úspěchu zbývá plná tabulka kompromisůCPU/GPU/TPU/NPU/VPU s.7, roleISP při dělběCPU/GPU/NPU/ISP a varováníTPU nemá vždy nižší spotřebu nežGPU; dále ASIC a zbytek mapy včetně nepokrytých metrik. Myriad názvy a interníjednotky vyloženy, přesné parametry které nejsou v dodaném textu nepožadovat. Všechny materiály dosud nejsou probrané, opakování zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T08:06:04.713015+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "EdgeTPU zdůvodnil obecně jako levnější; nižší cena z označení samotného neplyne. Upřesněna úsporná lokální inference z hlediska energie, vlastní energetické zdůvodnění v této otázce neověřeno."
+      ],
+      "checkpoint_id": "vyklad-2026-10-23-21-myriad-openvino",
+      "activity": "Historické příklady s.7: Myriad2 jakoVPU s vektorovými jednotkamiSHAVE a cílem nízkého příkonu. MyriadX přidáváNeuralComputeEngine a větší možnosti integrace senzorů. IntelOpenVINO jako softwarová část vývojového ekosystému. Doplněno,že zpracováníVPU může zahrnovat i obrazové operace mimoNN.",
+      "learner_answer": "",
+      "evaluation": "Přehledná tabulka a zpřesněníVPU byly skutečně zobrazeny s citací skript s.7 a výslovným zasazením do podkladů, nikoli aktuálního produktového porovnání. Introduced pro názvy/příslušné role a interníjednotky i rozdíl hardware/software. Neuváděny parametry jader,aktuální dostupnost,verze nebo aktuální kompatibilitaOpenVINO; taková tvrzení by vyžadovala samostatné ověření. Přes průběžný vstup před zápisem jedna otázka naMyriadX/OpenVINO a nutnost podpory obou vrstev, zatím bez odpovědi.",
+      "result": "introduced",
+      "difficulty": "uvodni-priklady-myriad-shave-neural-compute-engine-openvino",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:7"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: V podkladech figurují MyriadX aOpenVINO. Které označení patří hardwaru a které softwaru? Proč při nasazování modelu potřebujeme řešit podporu obou? Očekává se MyriadX hardwarovéVPU,OpenVINO softwarovýekosystém/nástroje; model a potřebné operace musí podporovat konkrétní hardware i softwarová cesta. Nevyžadovat aktuální kompatibilitní matici nebo znalostAPI, otázka neprohlašuje současnou podporu konkrétní verze. První jednoduchá aplikace po přehledu příkladů. Po úspěchu zbývá plná tabulka kompromisůCPU/GPU/TPU/NPU/VPU s.7, roleISP při dělběCPU/GPU/NPU/ISP a varováníTPU nemá vždy nižší spotřebu nežGPU; dále ASIC a zbytek mapy včetně nepokrytých metrik. Myriad názvy a interníjednotky vyloženy, přesné parametry které nejsou v dodaném textu nepožadovat. Všechny materiály dosud nejsou probrané, opakování zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-23T08:06:04.775447+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "vyklad-2026-10-23-22-myriad-openvino-reseni",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "activity_kind": "material",
+      "activity": "Na žádost uživatele vysvětleno řešení: MyriadX je fyzický čipVPU/hardware, OpenVINO jsou softwarové nástroje pro nasazování/spouštění modelů na podporovaném hardwaru. Model potřebuje podporu výpočtů v hardwaru i možnost spuštění přes softwarovou cestu; samotný výkon čipu nestačí.",
+      "learner_answer": "nevím, řekni mi to",
+      "evaluation": "Uživatel výslovně žádá vysvětlení místo vlastního řešení; jeho volba respektována a odpověď skutečně zobrazena před zápisem. Introduced pro vyjasněné řešení, nikoli passed: samostatné přiřazeníMyriadX/OpenVINO a odůvodnění podpory dosud nedoloženo. Nevymýšlet chybnou konkrétní klasifikaci, kterou uživatel neuvedl. Vysvětlení neprohlašuje aktuální podporuMyriadX v libovolné současné verziOpenVINO, jde o obecný vztah hardwaru a softwaru v historických podkladech. Přes průběžný vstup před zápisem zadán jiný jednodušší příkladGPU/PyTorch pro samostatné rozlišení vrstev, zatím bez odpovědi. Dřívější správná rozlišeníNPU/VPU aCPU/GPU zůstávají doložená.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "vysvetleni-hardware-software-a-kompatibility-na-zadost",
+      "misconceptions": [
+        "MyriadX/OpenVINO jako hardware/software a nutnost podpory obou vrstev neuměl na přímý dotaz samostatně vysvětlit; na jeho žádost řešení ukázáno, nové ověření čeká.",
+        "EdgeTPU zdůvodnil obecně jako levnější; nižší cena z označení samotného neplyne. Upřesněna energetická úspornost, vlastní energetické zdůvodnění v dané otázce neověřeno."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:7"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Zkusme jinou dvojici: grafický čipGPU a frameworkPyTorch. Co z toho je hardware a co software? Očekává seGPU hardware,PyTorch software/framework. Jde o jiné jednodušší použití principu po ukázaném řešeníMyriadX/OpenVINO, nikoli automatické zvládnutí původních názvů nebo návrhu kompatibility. Při úspěchu netřeba dál opakovat totožné štítky; podmínky podpory lze ověřit na praktickém scénáři později a pokračovat tabulkou kompromisůCPU/GPU/TPU/NPU/VPU,ISP a varovánímTPUenergie ze s.7. Tyto části jsou stále neprobrané v úplném konkrétním rozsahu. Ostatní mapa a termíny opakování zachovat, všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T08:43:52.863473+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "MyriadX/OpenVINO jako hardware/software na přímý dotaz neuměl přiřadit; řešení ukázáno a nyní úspěšně rozlišil jinou dvojiciGPU/PyTorch, původní názvy samostatně znovu neověřeny.",
+        "EdgeTPU zdůvodnil obecně jako levnější; nižší cena z označení samotného neplyne. Upřesněna energetická úspornost, vlastní energetické zdůvodnění v dané otázce neověřeno."
+      ],
+      "checkpoint_id": "pokus-2026-10-23-23-gpu-pytorch-hw-sw",
+      "activity": "Zkusme jinou dvojici: grafický čipGPU a frameworkPyTorch. Co z toho je hardware a co software?",
+      "learner_answer": "GPU hardware | PyTorch software",
+      "evaluation": "Kritérium: správně rozlišit fyzický výpočetní hardwareGPU od softwarového frameworkuPyTorch. Uživatel obě přiřazení správně uvádí. Passed bez další nápovědy během pokusu, jednoduchý nový příklad po vysvětleném řešeníMyriadX/OpenVINO. Nepřipisovat tím automaticky vybavení původních názvů ani samostatné zdůvodnění kompatibility obou vrstev. Zpětná vazba před zápisem přiřazení potvrdila, potom skutečně zobrazena celá tabulka silnýchstránek/kompromisůCPU/GPU/TPU/NPU/VPU ze s.7. Přes průběžný vstup před zápisem jedna otázka na nepodporovaný operátorNPU. Mapa všechzdrojů a historie zohledněny: hardwaresoftwareroli nyní základně přenesl na jiný případ, plná tabulka nově introduced, ISP a upozorněníTPUenergie stále neprobrané.",
+      "result": "passed",
+      "difficulty": "velmi-zakladni-prenos-hardware-software-na-gpu-pytorch",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Model obsahuje operaci,kterou ovladač konkrétníNPU neumí spustit. Proč pro výběr tétoNPU nestačí její vysokéTOPS? Očekává se,že udávaná výpočetní kapacita neřeší podporu operace/modelu v softwarové cestě; je nutné zajistit kompatibilní provedení a změřit skutečné řešení. Nevyžadovat tvrzení,že model nikdy nepoběží vůbec: někdy lze operaci provést jinde či model upravit, ale vysokéTOPS samy tento problém neřeší. První konkrétní aplikace tabulkykompromisů a souvislosti hardware/software. Po úspěchu doplnit ISP a dělbuCPU/GPU/NPU/ISP, potom varováníTPUnemávždynižšíenergiinežGPU při stejnémmodelu/kvalitě/dávce. Tím obsahovéprobrání4.1–4.3 porovnat s celoumapou/historií; nevyvozovat úplné samostatné zvládnutí všech názvů/podmínek ani dokončení všechmateriálů. Další ASIC/metriky a ostatníkapitoly zůstávajívrozsahu. Cache retence2026-10-24 a další opakování zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T08:48:16.913697+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "MyriadX/OpenVINO jako hardware/software na přímý dotaz neuměl přiřadit; řešení ukázáno a nyní úspěšně rozlišil jinou dvojiciGPU/PyTorch, původní názvy samostatně znovu neověřeny.",
+        "EdgeTPU zdůvodnil obecně jako levnější; nižší cena z označení samotného neplyne. Upřesněna energetická úspornost, vlastní energetické zdůvodnění v dané otázce neověřeno."
+      ],
+      "checkpoint_id": "vyklad-2026-10-23-24-tabulka-kompromisu",
+      "activity": "Celá tabulka s.7: CPU univerzálnost/řízení/kompatibilita versus nižšíefektivita masivníchmatic; GPU programovatelnýparalelismus trénování/inference versus energie,režie,přenosy; TPU/EdgeTPU efektivnípodporovanétensorovéoperace versus modely/dattypy/nástroje; NPU úspornáAI uvnitřsystémunačipu versus ovladače/operátory; VPU obrazováinference/zpracovánínaedge versus užšídoména/ekosystém.",
+      "learner_answer": "",
+      "evaluation": "Pět řádků tabulky bylo skutečně zobrazeno s citací skript s.7. Introduced pro úplné konkrétní kompromisy a jejich souhrn, ne pro veškerou znalost všecharchitektur. Některé dílčíprincipyCPU/GPU aTPU byly již vyučované a procvičené, tento souhrn jejich historii zachovává a doplňuje explicitní všechny sloupce. SoC zde jen přeloženo systémnačipu; detailní integrace a zbytekkapitolySoC tím nejsou probrané. Přes průběžný vstup před zápisem jedna otázka naNPUovladač/operátor aTOPS, zatím bezodpovědi.",
+      "result": "introduced",
+      "difficulty": "uvodni-uplne-srovnani-vyhod-a-omezeni-cpu-gpu-tpu-npu-vpu",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:7"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Model obsahuje operaci,kterou ovladač konkrétníNPU neumí spustit. Proč pro výběr tétoNPU nestačí její vysokéTOPS? Očekává se,že udávaná výpočetní kapacita neřeší podporu operace/modelu v softwarové cestě; je nutné zajistit kompatibilní provedení a změřit skutečné řešení. Nevyžadovat tvrzení,že model nikdy nepoběží vůbec: někdy lze operaci provést jinde či model upravit, ale vysokéTOPS samy tento problém neřeší. První konkrétní aplikace tabulkykompromisů a souvislosti hardware/software. Po úspěchu doplnit ISP a dělbuCPU/GPU/NPU/ISP, potom varováníTPUnemávždynižšíenergiinežGPU při stejnémmodelu/kvalitě/dávce. Tím obsahovéprobrání4.1–4.3 porovnat s celoumapou/historií; nevyvozovat úplné samostatné zvládnutí všech názvů/podmínek ani dokončení všechmateriálů. Další ASIC/metriky a ostatníkapitoly zůstávajívrozsahu. Cache retence2026-10-24 a další opakování zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-23T08:48:16.974552+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "checkpoint_id": "pokus-2026-10-23-25-npu-operace-isa",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "activity_kind": "material",
+      "activity": "Model obsahuje operaci,kterou ovladač konkrétníNPU neumí spustit. Proč pro výběr tétoNPU nestačí její vysokéTOPS?",
+      "learner_answer": "Protože operace definuje ISA",
+      "evaluation": "Kritérium: vysvětlit,že vysoká výpočetní kapacita sama nezajišťuje podporu modelové operace v dostupné softwarové cestě. Uživatel odkazuje naISA, která skutečně určuje strojové instrukční rozhraní, ale tím nepopisuje zadané omezení ovladače/runtime pro operaci modelu. Needs-practice pro oddělení těchto vrstev. Nevyvozovat,že hardware daný výpočet fyzicky určitě neumí, protože zadání specifikuje softwarovou nepodporu. Bez další nápovědy během pokusu. Před zápisem zpětná vazba vyjasnila strojové instrukce oproti operaci modelu, roli softwarového převodu/spuštění aTOPS jako kapacitu za daných podmínek, která sama chybějící podporu nepřidá. Jde o didaktické propojení definiceISA ze s.5 a závislostiNPU na ovladačích/podporovanýchoperacích ze s.7. Přes průběžný vstup před zápisem nová hypotetická otázka na přidanou podporu ve verzi softwaru při nezměněném hardwaru/TOPS.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-odliseni-modelove-operace-softwarove-podpory-a-isa",
+      "misconceptions": [
+        "Omezení softwarové podpory operace modelu zdůvodnil pouzeISA; rozdíl mezi modelovou operací,strojovými instrukcemi a dostupnou softwarovou cestou vysvětlen, aplikace čeká.",
+        "MyriadX/OpenVINO samostatně neuměl přiřadit,řešení ukázáno; jinou dvojiciGPU/PyTorch již rozlišil správně.",
+        "EdgeTPU označil za obecně levnější; upřesněna energetická úspornost a nezaručená cena."
+      ],
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:7"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: HardwareNPU se nezmění,ale nová verze softwaru přidá podporu chybějící operace modelu. Může se díky tomu model stát spustitelným,i když seTOPS nezvýšily? Proč? Očekává se ano,může,původní překážkou byla podpora vsoftwaru,ne nutně početnírychlost; neznamená to,že software vždy odstraní libovolné fyzické omezeníhardwaru. Jde o bezprostřední přenos právě vysvětlených vrstev, nikoli retenci ani aktuální konkrétní verziNPUsoftwaru. Při úspěchu dále ISP/dělbaCPU-GPU-NPU-ISP a omezeníTPUenergetickýchzobecnění ze s.7; nepřepisovat tabulku kompromisů jako celou zvládnutou podle jedné odpovědi. Další mapa,neprobranémetriky a kapitoly i termíny opakování zachovat, všechny materiály nejsou probrané. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-23T08:52:22.698195+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "Rozlišení modelové operace a ISA původně nevysvětlil správně; po upřesnění nyní na příkladu nové softwarové verze správně rozpoznal význam softwarové podpory, retence zatím neověřena.",
+        "MyriadX/OpenVINO samostatně neuměl přiřadit,řešení ukázáno; jinou dvojiciGPU/PyTorch již rozlišil správně.",
+        "EdgeTPU označil za obecně levnější; upřesněna energetická úspornost a nezaručená cena."
+      ],
+      "checkpoint_id": "pokus-2026-10-23-26-npu-nova-softwarova-podpora",
+      "activity": "HardwareNPU se nezmění,ale nová verze softwaru přidá podporu chybějící operace modelu. Může se díky tomu model stát spustitelným,i když seTOPS nezvýšily? Proč?",
+      "learner_answer": "Může, povůdně software nemohl plně využít hardware",
+      "evaluation": "Kritérium: připustit spuštění modelu díky nově přidané softwarové podpoře při nezměněné výpočetníkapacitě a vysvětlit roli softwaru. Uživatel správně říká může a spojuje původní překážku s tím,že software neuměl hardware využít. V kontextu otázky je to dostačující vysvětlení podpory operace; nevyžadovat doslovné opakování operátor/runtime. Passed bez další nápovědy během pokusu, bezprostřední přenos po opravě minulého odkazu naISA. Nepovažovat plně využít za změřenou stoprocentní utilizaci, ta nebyla zadána; nevyvozovat obecné pravidlo,že software vyřeší každé hardwarové omezení. Zpětná vazba potvrdila odstranění konkrétní softwarové překážky bez vyššíchTOPS. Před zápisem vyloženISP a součinnostCPU/GPU/NPU/ISP, přes průběžný vstup jedna otázka na předzpracování vs inferenci. Mapa zdrojů a historie zohledněny: softwarovoupodporu nyní aplikoval na nový scénář, dalšíISP teprveintroduced, energetickévarováníTPU stále neprobrané.",
+      "result": "passed",
+      "difficulty": "zakladni-prenos-softwarove-podpory-na-novy-runtime-bez-zmeny-hw",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:7"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Kamera nejprve předzpracuje obrazový signál ze senzoru a potom v obraze pomocí podporované neuronové sítě rozpozná člověka. Kterému kroku odpovídáISP a kterémuNPU? Očekává seISP předzpracování signálu/obrazu,NPU inference podporovanéNN. Jde o první bezprostřední aplikaci novéhoISP, nikoli retenci ani tvrzení,že jiné jednotky nikdy nemohou tytooperace realizovat. Po úspěchu zbývá konkrétní upozornění s.7:TPU není vždy energetickyvýhodnější nežGPU,porovnat energii skutečnéinference při stejnémmodelu/kvalitě/dávce. Pak mapu celéhomateriálu porovnat s historií: kapitola4 obsahově probraná ve vymezených částech, vlastní ověření všech názvů/podmínek není hotové; další kapitolyASIC/FPGA/... a zbývající metriky/roofline/obecnýAmdahl zůstávají v rozsahu. SoC a mobilníarchitektury nejsou vyučeny celé jen citací s.16 a23. Cache retence a ostatní opakování2026-10-24/26 zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T08:59:05.815868+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "Rozlišení modelové operace a ISA původně nevysvětlil správně; po upřesnění nyní na příkladu nové softwarové verze správně rozpoznal význam softwarové podpory, retence zatím neověřena.",
+        "MyriadX/OpenVINO samostatně neuměl přiřadit,řešení ukázáno; jinou dvojiciGPU/PyTorch již rozlišil správně.",
+        "EdgeTPU označil za obecně levnější; upřesněna energetická úspornost a nezaručená cena."
+      ],
+      "checkpoint_id": "vyklad-2026-10-23-27-isp-delba-prace",
+      "activity": "ISP(ImageSignalProcessor) jako jednotka zpracovávající obrazový signál ze senzoru. Příklad součinnosti v jednéaplikaci: ISP předzpracujeobraz,GPU/NPU provede výpočtymodelu,CPU koordinuje celýběh. Jednotky tedy spolupracují v různých částech aplikace.",
+      "learner_answer": "",
+      "evaluation": "Krátký výklad skutečně zobrazen s citacemi s.7 dělbaCPU/GPU/NPU/ISP,s.16 roleISP od senzoru,s.23 rozvinutí zkratky. Introduced pro novýISP a úplnější příklad součinnosti,CPU/GPU role byly již procvičené v jiných aktivitách. PodporovanémodelyNPU zůstávají podmínkou. Neznamená vyučování celých mobilníchSoC nebo celého slovníčku; zachovat vazbu jen na konkrétní shodný pojem. Přes průběžný vstup před zápisem jedna otázka naISP předzpracování aNPU rozpoznávání, zatím bezodpovědi.",
+      "result": "introduced",
+      "difficulty": "uvodni-isp-a-soucinost-s-cpu-gpu-npu",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:7"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:16"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:23"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Kamera nejprve předzpracuje obrazový signál ze senzoru a potom v obraze pomocí podporované neuronové sítě rozpozná člověka. Kterému kroku odpovídáISP a kterémuNPU? Očekává seISP předzpracování signálu/obrazu,NPU inference podporovanéNN. Jde o první bezprostřední aplikaci novéhoISP, nikoli retenci ani tvrzení,že jiné jednotky nikdy nemohou tytooperace realizovat. Po úspěchu zbývá konkrétní upozornění s.7:TPU není vždy energetickyvýhodnější nežGPU,porovnat energii skutečnéinference při stejnémmodelu/kvalitě/dávce. Pak mapu celéhomateriálu porovnat s historií: kapitola4 obsahově probraná ve vymezených částech, vlastní ověření všech názvů/podmínek není hotové; další kapitolyASIC/FPGA/... a zbývající metriky/roofline/obecnýAmdahl zůstávají v rozsahu. SoC a mobilníarchitektury nejsou vyučeny celé jen citací s.16 a23. Cache retence a ostatní opakování2026-10-24/26 zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-23T08:59:05.880121+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "MyriadX/OpenVINO na přímý dotaz neuměl přiřadit,řešení ukázáno; jinou dvojiciGPU/PyTorch již rozlišil správně, původní názvy dosud samostatně znovu neověřeny.",
+        "Rozlišení modelové operace aISA bylo opraveno a na příkladu nové softwarové verze správně aplikováno, retence zatím neověřena."
+      ],
+      "checkpoint_id": "pokus-2026-10-23-28-isp-npu-kamera",
+      "activity": "Kamera nejprve předzpracuje obrazový signál ze senzoru a potom v obraze pomocí podporované neuronové sítě rozpozná člověka. Kterému kroku odpovídáISP a kterémuNPU?",
+      "learner_answer": "ISP -> předzpracování obrazu | NPU -> rozpozná člověka",
+      "evaluation": "Kritérium: správně přiřaditISP k předzpracování obrazu aNPU k inferenci podporovaného modelu rozpoznávání. Uživatel obě části správně uvádí. Passed bez další nápovědy během pokusu, první jednoduchá aplikace právě vysvětlených rolí. Nevyvozovat výlučnost rolí pro všechnyplatformy nebo hlubokou znalost ISPpipeline. Zpětná vazba před zápisem přiřazení potvrdila, poté vyloženo upozorněníTPU nemusí mít vždy nižší energii nežGPU a potřeba srovnatelných podmínek. Přes průběžný vstup před zápisem jedna otázka na návrh energetickéhoporovnání. Mapa celéhozdroje a historie zohledněny: základníroleISP nyní procvičena, energetickéomezení teprveintroduced, všechnyostatníkapitoly nejsou tímto probrané.",
+      "result": "passed",
+      "difficulty": "zakladni-prirazeni-isp-predzpracovani-a-npu-inference",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:7"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:16"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Chceš ověřit,zda EdgeTPU zpracuje tvůj model energeticky výhodněji nežGPU. Co by mělo být při testu srovnatelné a jakou výslednou veličinu s jakou jednotkou bys porovnal? Očekává se stejnýmodel/úloha,požadovanákvalita,adekvátně srovnatelnápřesnost a velikostdávky a energie na jednuinferenciJ/inference. Pokud obě odlišné aritmetiky splňují stejnou požadovanou kvalitu, neprohlašovat porovnání automaticky za nesmyslné pouze kvůli jinému typu; podmínky je třeba výslovně zohlednit. Přijmout relevantní konkrétní srovnatelné podmínky bez vynucování kompletního seznamu a zpřesnit podle odpovědi. PříkonW samostatně nestačí, lze energii měřit přímo nebo při vhodných podmínkách odvodit zP×t. Jde o první návrh porovnání po právě vyloženém upozornění, nikoli retenci. Poté lze přejít naASIC/integrovanéobvody s.8. Mapa celéhomateriálu zohledněna: kapitola4 obsahově představena včetněpříkladů,tabulky,ISP a nyní energetickéhoomezení; neznamená samostatné zvládnutí všechjmen/kompatibility ani dokončení všech24stran. Konvoluce/gradienty vGPU přehledu zatím jen vyjmenované operace, jejich matematický výklad není v této části zdroje uveden. Neprobrané zůstávají ASIC/FPGA/... a části metrik(Rpeak/Rmax,operačníintenzita/roofline,obecnýAmdahl,plnébenchmarky,náklady). Opakovánícache/AI/akcelerátorů2026-10-24 a výkon/energie2026-10-26 zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T10:04:09.744512+00:00"
+    },
+    {
+      "subject_id": "apai",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gpu-tpu-npu-vpu",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [
+        "MyriadX/OpenVINO na přímý dotaz neuměl přiřadit,řešení ukázáno; jinou dvojiciGPU/PyTorch již rozlišil správně, původní názvy dosud samostatně znovu neověřeny.",
+        "Rozlišení modelové operace aISA bylo opraveno a na příkladu nové softwarové verze správně aplikováno, retence zatím neověřena."
+      ],
+      "checkpoint_id": "vyklad-2026-10-23-29-tpu-gpu-energie",
+      "activity": "Upozornění s.7: TPU není vždy energetickyúspornější nežGPU; porovnávat energii skutečnéinference na srovnatelném modelu,při požadovanékvalitě,přesnostivýpočtů a velikostidávky. Připomenuto spojení senergií s.5: nižšípříkon sám nestačí,záleží také na dobězpracování.",
+      "learner_answer": "",
+      "evaluation": "Třívětý výklad skutečně zobrazen s citacemi skript s.5 a7. Introduced pro konkrétní omezení zobecněníTPU/GPU a podmínky tohoto srovnání, navazuje na již správně vypočítanou energii různýchCPU. Neprohlašuje srovnání různýchdatovýchtypů automaticky za neférové při stejnépožadovanékvalitě; jde o výslovné zohlednění podmínek. Neposkytuje aktuální produktové doporučení ani konkrétní benchmark. Přes průběžný vstup před zápisem jedna otázka na srovnatelnost a výslednouveličinu/jednotku, zatím bezodpovědi. Poslední obsahovéupozornění kapitoly4 nyní představeno, probrání neznamená automatické samostatnézvládnutí.",
+      "result": "introduced",
+      "difficulty": "uvodni-meze-energetickeho-zobecneni-tpu-gpu",
+      "source_refs": [
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:5"
+        },
+        {
+          "source_id": "studijni-skripta-v1",
+          "locator": "page:7"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou otázku: Chceš ověřit,zda EdgeTPU zpracuje tvůj model energeticky výhodněji nežGPU. Co by mělo být při testu srovnatelné a jakou výslednou veličinu s jakou jednotkou bys porovnal? Očekává se stejnýmodel/úloha,požadovanákvalita,adekvátně srovnatelnápřesnost a velikostdávky a energie na jednuinferenciJ/inference. Pokud obě odlišné aritmetiky splňují stejnou požadovanou kvalitu, neprohlašovat porovnání automaticky za nesmyslné pouze kvůli jinému typu; podmínky je třeba výslovně zohlednit. Přijmout relevantní konkrétní srovnatelné podmínky bez vynucování kompletního seznamu a zpřesnit podle odpovědi. PříkonW samostatně nestačí, lze energii měřit přímo nebo při vhodných podmínkách odvodit zP×t. Jde o první návrh porovnání po právě vyloženém upozornění, nikoli retenci. Poté lze přejít naASIC/integrovanéobvody s.8. Mapa celéhomateriálu zohledněna: kapitola4 obsahově představena včetněpříkladů,tabulky,ISP a nyní energetickéhoomezení; neznamená samostatné zvládnutí všechjmen/kompatibility ani dokončení všech24stran. Konvoluce/gradienty vGPU přehledu zatím jen vyjmenované operace, jejich matematický výklad není v této části zdroje uveden. Neprobrané zůstávají ASIC/FPGA/... a části metrik(Rpeak/Rmax,operačníintenzita/roofline,obecnýAmdahl,plnébenchmarky,náklady). Opakovánícache/AI/akcelerátorů2026-10-24 a výkon/energie2026-10-26 zachovat. Zpětnou vazbu a jednu další otázku zobrazovat před zápisem.",
+      "review_on": null,
+      "created_at": "2026-10-23T10:04:09.829044+00:00"
     }
   ]
 }

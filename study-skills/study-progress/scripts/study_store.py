@@ -83,6 +83,53 @@ def line_passages(value, prefix="line"):
     ]
 
 
+def effective_checkpoints(checkpoints):
+    """Resolve append-only corrections at the original activity's position."""
+    seen, roots, effective, superseded = {}, {}, {}, {}
+    for record in checkpoints:
+        checkpoint_id = identifier(record.get("checkpoint_id"))
+        if checkpoint_id in seen:
+            raise StudyError("Duplicate checkpoint identifier in history")
+        if "correction_of" in record:
+            target_id = identifier(record["correction_of"])
+            if target_id not in seen:
+                raise StudyError("correction_of must refer to an earlier checkpoint in this subject")
+            target = seen[target_id]
+            root = roots[target_id]
+            if effective[root]["checkpoint_id"] != target_id:
+                raise StudyError("correction_of must refer to the effective version of the activity")
+            for field in ("topic_id", "lesson_id", "activity", "learner_answer"):
+                if record.get(field) != target.get(field):
+                    raise StudyError(f"Correction must preserve the original {field}")
+            superseded[target_id] = checkpoint_id
+        else:
+            root = checkpoint_id
+        seen[checkpoint_id] = record
+        roots[checkpoint_id] = root
+        effective[root] = record
+    return list(effective.values()), superseded
+
+
+def replay_topic(topic, checkpoints):
+    """Rebuild the topic without treating a correction as a later attempt."""
+    topic.update(status="unseen", misconceptions=[], review_on=None)
+    for record in checkpoints:
+        if record["topic_id"] != topic["topic_id"]:
+            continue
+        result = record["result"]
+        if result == "unassessed":
+            continue
+        if result == "introduced":
+            if topic["status"] == "unseen":
+                topic["status"] = "introduced"
+            if record.get("review_on") is not None:
+                topic["review_on"] = record["review_on"]
+        else:
+            topic["status"] = "demonstrated" if result == "passed" and record["hints_used"] == 0 else "practicing"
+            topic["misconceptions"] = record["misconceptions"]
+            topic["review_on"] = record.get("review_on")
+
+
 def extract_passages(data, suffix, source_path=None):
     """Keep original locators. Unsupported/unreadable input stays explicit."""
     try:
@@ -225,6 +272,7 @@ class StudyStore:
         for item in state["checkpoints"]:
             if not isinstance(item, dict) or item.get("subject_id") != subject:
                 raise StudyError("Invalid identity in checkpoints")
+        effective_checkpoints(state["checkpoints"])
 
     @contextmanager
     def edit(self, subject, initializing=False):
@@ -413,7 +461,7 @@ class StudyStore:
         required = {"subject_id", "checkpoint_id", "lesson_id", "topic_id", "activity_kind", "activity",
                     "learner_answer", "evaluation", "result", "hints_used", "difficulty",
                     "misconceptions", "source_refs", "next_step"}
-        if not isinstance(record, dict) or not required.issubset(record) or set(record) - required - {"review_on"}:
+        if not isinstance(record, dict) or not required.issubset(record) or set(record) - required - {"review_on", "correction_of"}:
             raise StudyError("Checkpoint has missing or unknown fields")
         if record["subject_id"] != subject:
             raise StudyError("Checkpoint subject_id does not match requested subject")
@@ -421,15 +469,19 @@ class StudyStore:
             identifier(record[field])
         for field in ("activity", "evaluation", "difficulty", "next_step"):
             text(record[field], field)
-        if record["result"] not in {"introduced", "needs-practice", "passed"}:
+        if record["result"] not in {"introduced", "needs-practice", "passed", "unassessed"}:
             raise StudyError("Invalid checkpoint result")
         if not isinstance(record["learner_answer"], str) or (
-            record["result"] != "introduced" and not record["learner_answer"].strip()
+            record["result"] not in {"introduced", "unassessed"} and not record["learner_answer"].strip()
         ):
             raise StudyError("Assessed activities require an actual learner answer")
         if type(record["hints_used"]) is not int or record["hints_used"] < 0:
             raise StudyError("hints_used must be a nonnegative integer")
         texts(record["misconceptions"], "misconceptions")
+        if record["result"] == "unassessed" and record["misconceptions"]:
+            raise StudyError("Unassessed activities cannot establish misconceptions")
+        if "correction_of" in record:
+            identifier(record["correction_of"])
         if not isinstance(record["source_refs"], list):
             raise StudyError("source_refs must be a list")
         if record["activity_kind"] not in {"material", "diagnostic", "supplement"}:
@@ -457,32 +509,29 @@ class StudyStore:
                 if ref["locator"] not in {item["locator"] for item in source["passages"]}:
                     raise StudyError("Citation locator does not exist")
             state["checkpoints"].append(dict(record, created_at=now()))
-            result = record["result"]
-            if result == "introduced":
-                if topic["status"] == "unseen":
-                    topic["status"] = "introduced"
-                if record["review_on"] is not None:
-                    topic["review_on"] = record["review_on"]
-            else:
-                topic["status"] = "demonstrated" if result == "passed" and record["hints_used"] == 0 else "practicing"
-                topic["misconceptions"] = record["misconceptions"]
-                topic["review_on"] = record["review_on"]
+            effective, _ = effective_checkpoints(state["checkpoints"])
+            replay_topic(topic, effective)
         return dict(subject_id=subject, checkpoint_id=record["checkpoint_id"],
                     duplicate=False, topic_status=topic["status"])
 
     def status(self, subject):
         state = self.load(subject)
+        effective, _ = effective_checkpoints(state["checkpoints"])
         return dict(subject_id=subject, name=state["name"], goals=state["goals"],
                     topics=list(state["topics"].values()), source_count=len(state["sources"]),
-                    checkpoint_count=len(state["checkpoints"]))
+                    checkpoint_count=len(state["checkpoints"]), activity_count=len(effective),
+                    correction_count=len(state["checkpoints"]) - len(effective))
 
     def resume(self, subject, on, topic_id=None):
         day(on)
         state = self.load(subject)
         topics = list(state["topics"].values()) if topic_id is None else [self.get(state, "topics", topic_id)]
         history = [item for item in state["checkpoints"] if topic_id is None or item["topic_id"] == topic_id]
+        effective, _ = effective_checkpoints(history)
+        corrections = [item for item in history if "correction_of" in item]
         return dict(subject_id=subject, name=state["name"], goals=state["goals"], topics=topics,
-                    last_checkpoint=history[-1] if history else None,
+                    last_checkpoint=effective[-1] if effective else None,
+                    last_correction=corrections[-1] if corrections else None,
                     due_reviews=[item for item in topics if item["review_on"] and item["review_on"] <= on],
                     source_count=len(state["sources"]))
 
@@ -491,6 +540,9 @@ class StudyStore:
         if topic_id is not None:
             self.get(state, "topics", topic_id)
         items = [item for item in state["checkpoints"] if topic_id is None or item["topic_id"] == topic_id]
+        _, superseded = effective_checkpoints(items)
+        items = [dict(item, is_effective=item["checkpoint_id"] not in superseded,
+                      superseded_by=superseded.get(item["checkpoint_id"])) for item in items]
         return dict(subject_id=subject, total=len(items), checkpoints=items[start:start + limit])
 
 

@@ -52,10 +52,17 @@ uložená řešení neprokazují, že uživatel úlohy samostatně zvládl.
 
 `topic-add` přijímá opakované `--objective` a volitelné opakované `--prerequisite`.
 Předpoklady musejí být již existující témata stejného předmětu.
-`status` zobrazuje cíle, témata a počty. `resume` navíc poslední checkpoint a
+`status` zobrazuje cíle, témata a počty: `checkpoint_count` zahrnuje všechny
+zápisy včetně oprav, `activity_count` počet původních aktivit a
+`correction_count` počet oprav. Oprava nezvyšuje počet aktivit.
+`resume` navíc vrací poslední účinnou aktivitu v `last_checkpoint`, zvlášť
+poslední opravný zápis v `last_correction` (jinak `null`) a
 termíny opakování; `--topic` omezí navázání na jedno téma. `--on` je místní dnešní
 datum uživatele ve formátu YYYY-MM-DD. Uživatelův čas má přednost před časem hostitele.
-`history --topic ... --start 0 --limit 10` načítá historii postupně.
+`history --topic ... --start 0 --limit 10` načítá úplnou historii postupně.
+Každý vrácený záznam má odvozená pole `is_effective` a `superseded_by` (ID
+bezprostředně nahrazující opravy nebo `null`). Označení se počítá z celé
+historie i při stránkování. Tato výstupní pole neposílej jako vstup checkpointu.
 
 ## Checkpoint
 
@@ -82,14 +89,47 @@ Příklad obsahu `/tmp/vysledek.json` (v reálné lekci použij skutečnou odpov
 ```
 
 `subject_id` musí odpovídat `--subject`. `topic_id` musí existovat. Povinné jsou
-všechny ukázané položky kromě `review_on` (může také být `null`).
+všechny ukázané položky kromě `review_on` (může také být `null`). Volitelným
+vstupním polem navíc je `correction_of`; pokud je uvedeno, musí být platným ID.
 `activity_kind` je `material`, `diagnostic` nebo `supplement`.
 `source_refs` mohou být prázdné pouze pro `diagnostic` nebo `supplement`.
 Je-li citace uvedena, zdroj musí být přiřazený k
 tématu a locator musí existovat. Zdroj i přepis se před citováním kontrolují hashem.
-`hints_used` je nezáporné celé číslo. Pro `introduced` může být odpověď prázdná.
+`hints_used` je nezáporné celé číslo. `result` je `introduced`, `needs-practice`,
+`passed` nebo `unassessed`. Pro `introduced` a `unassessed` může být odpověď
+prázdná; nikdy ji nevymýšlej. `unassessed` vyžaduje prázdné `misconceptions`
+a nemění stav tématu ani termín opakování. Důvod neuzavřeného hodnocení a další
+ověření uveď v `evaluation` a `next_step`.
 `created_at` doplní nástroj v UTC. ID checkpointu používej opakovaně jen při retry
 stejného zápisu. Každá nová aktivita má nové ID.
+
+## Oprava bez nového pokusu
+
+Při chybném hodnocení pošli nový checkpoint s `correction_of` rovným ID účinného
+záznamu téže aktivity. Zachovej původní `lesson_id`, `topic_id`, `activity` a
+`learner_answer`; oprav výsledek, vyhodnocení, podklady, nápovědy, obtíže a další
+krok podle skutečně doložených údajů. V `evaluation` vysvětli změnu kritéria nebo
+konvence a uveď ověřenou definici s citací. Nový následný výklad patří do
+samostatného checkpointu a nesmí být předstírán jako původní aktivita.
+
+Příklad opravného záznamu: převezmi skutečný vstup původního `pokus-2026-10-15-01`,
+změň `checkpoint_id` na nové ID, přidej
+`"correction_of": "pokus-2026-10-15-01"` a nahraď chybné hodnocení. Pokud po
+zrušení původního kritéria výsledek nelze určit, použij `result: unassessed`
+a `misconceptions: []`. To zruší i neoprávněně připsaný neúspěch nebo výklad,
+aniž by vytvářelo smyšlený úspěch.
+
+Historie je neměnná: oprava původní záznam neodstraní. Přepočet tématu nahradí
+jeho účinek na původním místě; nepřepíše pozdější platné pokusy ani jejich
+termíny opakování. Další oprava odkazuje na poslední účinnou opravu, nikoli na
+již nahrazený záznam. Odkaz na neexistující, budoucí nebo cizí checkpoint,
+změna původní odpovědi/zadání/lekce/tématu a větvení oprav jsou odmítnuty bez
+změny stavu. Opakování totožného opravného zápisu se stejným ID je idempotentní.
+Každou navazující aktivitu ovlivněnou chybou oprav zvlášť; úložiště neodvozuje
+věcnou závislost úloh z textu.
+
+Rozšíření zachovává staré záznamy bez `correction_of` ve schématu 1. Úložiště
+s novými opravami obsluhuj aktualizovaným nástrojem, který jejich význam zná.
 
 Záznam je potvrzený až po úspěšném dokončení příkazu. Selhání atomického zápisu
 ponechá předchozí stav. Souběžné aktualizace jednoho předmětu chrání zámek.

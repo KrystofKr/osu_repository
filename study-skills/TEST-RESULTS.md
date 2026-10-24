@@ -1,4 +1,43 @@
-# Ověření studijních skillů — 15. 10. 2026
+# Ověření studijních skillů
+
+## Aktualizace 24. 10. 2026 — konvence a opravy hodnocení
+
+`study-tutor` nově vyžaduje ověření původní definice před výkladem či opravou,
+pokud správnost závisí na konvenci. Rozlišuje ji od osnovy a historického
+souhrnu, při námitce kontroluje vlastní kritérium a na žádost o příklad
+z materiálů vyžaduje dohledaný zdrojový příklad. Neověřená konvence se nesmí
+proměnit v připsanou chybu studenta. `study-library` předává potřebné definice,
+jejich kontext, původ a rozdíly konvencí. Zachováno bylo již nainstalované
+pořadí zpětné vazby, navazující otázky a zápisu checkpointu.
+
+Úložiště podporuje `unassessed` a append-only opravy přes `correction_of`.
+Oprava zachovává zadání, odpověď, lekci i téma a uplatní se na původním místě
+aktivity. Historie označuje nahrazené záznamy; `resume` rozlišuje poslední
+účinnou aktivitu a poslední opravu. Nástroj neodvozuje věcnou správnost
+definice z textu — tu musí ověřit učitel podle materiálu.
+
+Příkaz `.venv/bin/python -B -m unittest discover -s study-skills/tests -v`
+úspěšně dokončil **54 testů**, z toho 14 nových pro toto rozšíření. Testy
+pracují výhradně v dočasných adresářích. Nové scénáře ověřují:
+
+- Opravu neúspěchu připsaného kvůli cizí konvenci s doloženou citací,
+  zachování originálu a odstranění neoprávněně připsané obtíže.
+- Oddělení dvou předmětů s odlišným významem F a nezměněný stav druhého kurzu.
+- Uchování nejisté odpovědi při dostupnosti pouhé osnovy bez změny znalostí
+  nebo opakování; zákaz připsání chybných představ přes `unassessed`.
+- Zrušení vadného hodnocení nebo výkladu a obnovení předchozích podkladů.
+- Opravu starší aktivity bez přepsání pozdějšího pokusu, jeho obtíží a termínu.
+- Řetězení oprav, idempotenci, označení nahrazených zápisů i přes hranice
+  stránkování a nezvýšení počtu původních aktivit.
+- Odmítnutí neplatných, cizích a již nahrazených cílů, změny původního zadání
+  nebo odpovědi, neplatné citace a zachování stavu při přerušeném zápisu.
+- Obnovení opraveného výsledku a označené historie v novém procesu CLI.
+
+Tyto testy ověřují chování úložiště, nikoli automaticky úsudek jazykového
+modelu. Pro následné ověření výukového chování použij skutečné materiály
+s odlišnými konvencemi F, souhrn bez definice a námitku studenta proti
+chybnému kritériu. Sleduj, zda učitel před hodnocením dohledá definici,
+přizná nejistotu a opraví dotčené záznamy namísto dalšího napovídání.
 
 ## Instalace
 
@@ -19,7 +58,7 @@ V kořeni projektu spusť:
 .venv/bin/python -B -m unittest discover -s study-skills/tests -v
 ```
 
-Výsledek po změně na přímé převzetí materiálů a doplnění IPYNB a PPT: **40 testů prošlo** (Python 3.12.3).
+Výsledek původního ověření po změně na přímé převzetí materiálů a doplnění IPYNB a PPT: **40 testů prošlo** (Python 3.12.3). Aktuální ověření je uvedeno výše.
 Validátor `skill-creator/scripts/quick_validate.py` také úspěšně ověřil každý ze tří skillů.
 
 Testy pracují pouze v dočasných adresářích a ověřují:

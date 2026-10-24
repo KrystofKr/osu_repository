@@ -15,9 +15,9 @@
         "Vysvětlit základní úlohy dobývání znalostí a proces podle CRISP-DM."
       ],
       "prerequisites": [],
-      "status": "practicing",
+      "status": "demonstrated",
       "misconceptions": [],
-      "review_on": "2026-10-20"
+      "review_on": "2026-10-24"
     },
     "databaze-a-olap": {
       "subject_id": "dzdb",
@@ -1691,6 +1691,1162 @@
       "next_step": "Vyčkat na odpověď: jednu chemickou veličinu převedeme z g/l na mg/l, ostatní necháme; proč se bez normalizace může změnit vzdálenostní detekce, ačkoli vína jsou stejná? Očekávat tisícinásobné numerické měřítko jedné souřadnice, změnu její váhy ve vzdálenostech a případně sousedství/skóre. Nevyžadovat přesný faktor, pokud správně vysvětlí vliv jednotek. Odpověď ještě není odeslaná ani hodnocená. Potom sn. 16: hrubší členění klasifikace/predikce, deskripce a hledání dílčích překvapivých nugetů. Celý sn. 16 byl dříve ověřen jako textový, ale ještě nevyložen. Následují aplikace 17–18, historická anketa 19–20 s ověřením kontextu, loupání cibule 21 a vizuální košíkové příklady 22–24. Prohlédnutí obrázku asistentem samo o sobě nepočítat za probrání uživatelem.",
       "review_on": "2026-10-20",
       "created_at": "2026-10-19T05:15:14.313964+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-22-01-normalizace-jednotky",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Navázání na otevřenou otázku k obrazovému příkladu detekce odchylek vín, Úvod sn. 15: jednu chemickou veličinu převést z g/l na mg/l, ostatní ponechat; vysvětlit, proč se může změnit vzdálenostní detekce, i když jsou vína stejná.",
+      "learner_answer": "protože jsme změřili měřítko, ted u jedné veličiny máme o řád větší hodnoty než v ostatních, to způsobí velké zkreslení vevzdálenostech. 1 metra a 100 centimetrů jsou významově stejné, ale vzdálenosti budou úplně jinde",
+      "evaluation": "Splněno bez nápovědy. Kritérium: samostatně spojit změnu jednotek jedné souřadnice se změnou její relativní váhy ve vzdálenosti. Uživatel výslovně rozpoznal změnu měřítka a zkreslení vzdáleností a samostatně přidal odpovídající analogii metr/centimetry. Nevyžadován přesný převodní faktor. Ve zpětné vazbě upřesněno, že g/l -> mg/l násobí hodnoty 1000, tedy o tři řády, nikoli jeden; tato nepřesnost neruší prokázané pochopení principu. Asistent doplnil možné změny sousedů a skóre odlehlosti, které uživatel sám výslovně nejmenoval. Samostatný přesný princip/vzorec LOF ani algoritmus X-Means tím nejsou ověřeny. Před otázkou v této navazující session nebyla poskytnuta metodická pomoc; šlo o znovunabídnutí dosud neodeslané otázky.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:15"
+        }
+      ],
+      "next_step": "Doplnit slíbené obrazové příklady sn. 10–11 před novým sn. 16. Aktuálně zobrazena ukázka Churn modeling sn. 10 a otázka přepsat větev SupportCallsLastYear > 9.5 -> odchod true do srozumitelné věty pro celočíselný počet hovorů. Očekávat alespoň deset hovorů v minulém roce -> model předpovídá odchod; nepovažovat za automatickou kauzalitu ani jistotu všech skutečných klientů. Zatím žádná odpověď na tuto novou otázku.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-22T03:19:31.199731+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-22-02-churn-obrazovy-priklad",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Doplnění dosud neprobraného vloženého obrázku Churn modeling na sn. 10: zákaznické atributy věk, technologie, délka vztahu, výše účtu a hovory podpory; označení cíle a převod na dvě kategorie; křížová validace opakovaně oddělující učení od testování; rozhodovací strom jako predikce i zdroj srozumitelných pravidel. Graf četností 21 true proti 9969 false a upozornění na opatrnou interpretaci celkové přesnosti. Konkrétní větev SupportCallsLastYear >9.5 -> true uvedena v otázce, její výklad uživatelem ještě čeká.",
+      "learner_answer": "",
+      "evaluation": "Výklad s citací zobrazen po skutečném otevření původního vloženého obrázku v plném rozlišení. Originál PPT byl dočasně převeden do PPTX jen pro čtení a obrázek sn. 10 vyextrahován a otevřen; v témže tahu otevřen i obrázek sn. 11, který tím ještě nebyl vyučován. U sn. 11 opraveno pracovní označení metody na X-Means (nikoli K-Means): z-transformace každé cenové řady na průměr0/směrodatnou odchylku1, transpozice a shluky 18/11/1; to zůstává pro příští výklad. Samostatně zatím neověřeny interpretace pravidla, validace ani vliv nerovnováhy tříd. Před volbou aktivity porovnána celá obnovená mapa všech pěti zdrojů (59/31/27/32/28 pasáží), celá historie29 a aktuální odpověď. Zůstávají neprobrané konkrétní části úvodu a všechny čtyři další prezentace. Nový průzkum ukázal navíc skutečné obrázkové příklady sn. 10–11, které starší definice nepokrývají; návrat k nim byl uživateli předem oznámen. Poznámky přednášejícího v dočasných převodech mají pouze číselné placeholdery, žádné skryté snímky. Vizuální přehled všech vložených obrázků proběhl v předchozím tahu; drobný text screenshotů a dlouhý PMML XML nejsou dosud úplně přečteny a zůstávají výslovnou mezerou průzkumu. Tento přehled ani vizuální otevření samo nejsou výukou a nejsou tímto checkpointem označovány za probrané.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:10"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď k větvi stromu SupportCallsLastYear >9.5 -> true: přepsat pro manažera při celočíselném počtu hovorů. Očekávat alespoň deset hovorů za minulý rok -> model klasifikuje jako odchod. Větev i význam true byly uvedeny v zadání; přepis není další metodickou nápovědou, řešení s hranicí10 dosud nezobrazeno. Nesamostatné detaily nad rámec cíle nevyžadovat. Dále doplnit dosud neprobraný obrazový příklad sn. 11: standardizovat každou cenovou řadu, transponovat na akcie jako řádky, X-Means a výstup tří shluků18/11/1. U sn.10 zůstává pro pozdější výuku detail průchodu dalšími větvemi (AverageBill, opakované SupportCallsLastYear, CustomerSince), numerická původní tabulka a přesné nastavení transformace neodhadovat z výstupu. Potom hrubší členění16 a aplikace17–24. Při novém rozsahu nevztahovat checkpoint automaticky na celý snímek10.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T03:19:31.366747+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-22-03-churn-pravidlo-pro-manazera",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Přepsat větev rozhodovacího stromu SupportCallsLastYear > 9.5 -> odchod=true do jedné srozumitelné věty pro manažera při celočíselném počtu hovorů. Rozsah: konkrétní větev obrázku Churn modeling na sn.10, nikoli celý strom.",
+      "learner_answer": "Manažerovi bych to vysvětlil takto, \"Podle strojového učení je silná vazba mezi odchodem zákatníka a tím, když zákazník měl 10 a více hovorů s podporou. Měli bychom zvážit zda naše klienty nekontaktujeme příliš často.\"",
+      "evaluation": "Splněno bez nápovědy pro vymezené kritérium: správně převést >9.5 na alespoň10 hovorů a spojit podmínku s odchodem. Uživatel sám použil srozumitelnou manažerskou formulaci a přidal hypotézu k následnému šetření. Ve zpětné vazbě zpřesněno na predikci modelu a časový rozsah minulého roku; samotná větev bez výsledků validace a četností nedokládá silnou/spolehlivou vazbu. Počet hovorů s podporou neuvádí iniciátora hovoru, proto nelze z něj přímo usoudit, že firma klienty příliš kontaktuje. Uživatel tuto možnost formuloval jako otázku ke zvážení, nikoli jako prokázanou kauzalitu; nesmí mu být automaticky připisována kauzální chyba. Doplněna alternativní hypotéza nevyřešených problémů a vysvětleno, že příčinu odchodu větev neprokazuje. Tato upřesnění poskytl asistent, jejich samostatné použití zatím neověřeno.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:10"
+        }
+      ],
+      "next_step": "Doplněn skutečný obrazový příklad sn.11 a zadána jedna nová otázka na orientaci tabulky: 30 akcií a200 dní, shlukovat akcie; uvést počet řádků/číselných atributů po transpozici bez identifikátorů. Očekávat30 řádků a200 atributů, zatím žádná odpověď. Později na jiném příkladu ověřit rozlišení predikce/síly vztahu a příčiny i chybějící informaci o směru kontaktu.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-22T03:34:43.883007+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-22-04-shlukovani-cen-transpozice",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Výklad obrazového příkladu Shlukování vývoje cen na sn.11: 30 akciových časových řad; standardizace každé řady na průměr0 a směrodatnou odchylku1 pro porovnání průběhů po odstranění cenové úrovně a měřítka kolísání; transpozice z den=řádek/akcie=sloupec na akcie=řádek/den=atribut; X-Means shlukuje akcie a ukázka vrací skupiny18,11,1. Není to výklad algoritmických vnitřností X-Means ani všech drobných čísel screenshotu.",
+      "learner_answer": "",
+      "evaluation": "Výklad zobrazen s citací po opětovném otevření plného původního vloženého obrázku z dočasné extrakce v minulém tahu. Typ metody ověřen jako X-Means a číselné počty shluků18/11/1 skutečně přečteny z obrázku. Ukázka má též vstupní a výstupní tabulku; vyložen jejich strukturální vztah. Vlastní navazující úloha používá200 dní jako výslovně vymyšlený počet, nikoli údaj převzatý ze snímku. Samostatné pochopení transpozice a volby shlukovaných objektů zatím neověřeno. Před volbou této aktivity porovnána celá obnovená mapa pěti zdrojů s historií29 z předchozího průzkumu, následnými dvěma uloženými checkpointy (history start29 total31) a nynější odpovědí. Rozsah zůstává podstatně neprobraný. Průzkum a předchozí vizuální čtení nebyly samy považovány za výklad.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:11"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď: ceny30 akcií za200 dní, shlukovat akcie podle průběhů; po transpozici uvést počet řádků a číselných atributů bez ID. Očekávat30 řádků a200 atributů. Jde o první aplikaci po výkladu, bez další metodické nápovědy a bez zobrazeného řešení. Později doplnit ze sn.11 datum jako ID, výstupní model+tabulku se štítky a možnost paralelního grafu, přesná identifikační čísla a drobné ceny zatím nevyučovány. U sn.10 zbývá případně detail dalších větví stromu a na budoucí kontrole význam nerovnováhy tříd. Po aktuální otázce přejít k dosud nevyloženému hrubšímu členění úloh na sn.16 a aplikacím17–24; dříve označené detaily ponechat v plánu a při vhodné souvislosti dořešit.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T03:34:44.051337+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-22-05-transpozice-metodicka-napoveda",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Metodická nápověda k dosud nevyřešené úloze sn.11: ceny30 akcií za200 dní, shlukovat akcie, určit rozměry vstupu po transpozici. Vysvětlen postup začít určením shlukovaného objektu; každý řádek představuje jeden objekt zařazovaný do shluku, číselné sloupce jsou jeho vlastnosti; akcie porovnáváme podle vývoje v jednotlivých dnech. Původní úloha rozložena na první krok, určit co představuje jeden řádek.",
+      "learner_answer": "nevím, řekni mi jak nad tím přemýšlet",
+      "evaluation": "Uživatel požádal o způsob uvažování a zatím neposkytl věcnou odpověď na rozměry tabulky. Nehodnoceno jako chybný výpočet ani samostatné zvládnutí. Asistent zobrazil jednu podstatnou metodickou nápovědu: řádek=shlukovaný objekt a sloupce=jeho vlastnosti. Následuje jednodušší dílčí otázka, zda je řádkem akcie, nebo den. Číselné řešení30 řádků/200 atributů nebylo v tomto tahu zobrazeno. Výsledek introduced eviduje skutečně podanou nápovědu/výklad, nikoli nově probraný další snímek ani závěr o neporozumění celé segmentaci.",
+      "result": "introduced",
+      "hints_used": 1,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:11"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď k prvnímu kroku: při shlukování akcií je jeden řádek jedna akcie, nikoli jeden den. Při hodnocení tohoto kroku i dokončení původních rozměrů započítat jednu metodickou nápovědu z tohoto tahu; jde o stejné podporované řešení, ne samostatný pokus. Po odpovědi navázat počtem takových objektů/řádků a významem sloupců (cena jedné akcie v různých dnech), postupně dovést k30 řádkům/200 číselným atributům. Nepřeskakovat k sn.16, dokud tento krok nevyjasníme; po dokončení později ověřit na jiném kontextu bez pomoci.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T04:01:43.143101+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-22-06-transpozice-objekt-radek",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "První podpůrný krok k rozměrům tabulky pro shlukování30 akcií za200 dní: určit, zda jeden řádek představuje jednu akcii, nebo jeden den. Úvod sn.11.",
+      "learner_answer": "jednu akcii",
+      "evaluation": "Správně po jedné předchozí podstatné metodické nápovědě řádek=shlukovaný objekt. Kritérium tohoto dílčího kroku: zvolit akcii jako objekt reprezentovaný řádkem. Uživatel správně vybral jednu akcii. Doložen pouze tento podporovaný dílčí krok, nikoli samostatné vyřešení původních rozměrů. Asistent následně dodal počet30 řádků a druhou metodickou nápovědu pro pokračování: každý číselný sloupec je cena téže akcie v jednom dni. Potom zobrazena navazující otázka na počet číselných atributů při200 dnech. Počet řádků30 tedy zatím není samostatným číselným výkonem uživatele.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:11"
+        }
+      ],
+      "next_step": "Vyhodnotit až po tomto zápisu odpověď na počet sloupců při200 dnech; očekávat200 číselných atributů bez ID. Aktuální podporovaný řetězec má dvě podstatné metodické nápovědy: řádek=shlukovaný objekt a sloupec=cena v jednom dni. Po dokončení rozměrů neoznačovat za samostatné zvládnutí; později ověřit na jiném kontextu bez pomoci. Nadále zůstávají neprobrané detaily sn.11 (roleID data a výstupní model/tabulka/paralelní graf), sn.16 a další obsah.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T04:04:05.051608+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-22-07-transpozice-sloupce-dny",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Druhý podpůrný krok k tabulce shlukování30 akcií za200 dní (Úvod sn.11): určit počet číselných atributů, když každý den představuje jeden číselný sloupec a identifikátor se nepočítá.",
+      "learner_answer": "200",
+      "evaluation": "Správně po metodické pomoci. Kritérium tohoto dílčího kroku: spojit200 dní s200 číselnými atributy jedné akcie. Odpověď200 přesně správná. Původní úloha byla rozložena po žádosti o způsob přemýšlení: první nápověda řádek=shlukovaný objekt; druhá sloupec=cena v jednom dni. Proto hints_used2 pro tento podporovaný řetězec. Uživatel předtím určil akcii jako řádek, počet30 řádků dodal asistent. Nyní ve zpětné vazbě shrnut rozměr30×200 a význam řádku/sloupců. Je doloženo úspěšné řešení s pomocí, nikoli samostatný návrh celé tabulky. Následující nová úloha má jiné shlukované objekty a k jejímu řešení nebyla přidána další nápověda.",
+      "result": "passed",
+      "hints_used": 2,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:11"
+        }
+      ],
+      "next_step": "Vyčkat na první odpověď k nové přenosové úloze: denní prodeje12 výrobků za60 dní, chceme seskupovat podobné DNY; určit význam jednoho řádku a rozměry bez ID. Očekávat řádek=jeden den,60 řádků,12 číselných atributů s počty prodaných kusů jednotlivých výrobků. Jde o vlastní příklad k principu reprezentace ze sn.11, nikoli čísla z prezentace. Před touto novou úlohou bez metodické nápovědy k jejímu konkrétnímu řešení; hodnotit hints_used0, pokud si nevyžádá další pomoc. Nejde o kontrolu s delším odstupem. Poté podle výsledku doplnit zbývající drobné role vstupu/výstupu sn.11 a pokračovat k hrubšímu členění sn.16; všechny dříve uvedené mezery dál zůstávají v rozsahu.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T04:05:04.416184+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-22-08-prenos-shlukovani-dnu",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Vlastní přenosový příklad k reprezentaci objektů z Úvodu sn.11: denní počty prodaných kusů12 výrobků za60 dní; chceme shlukovat podobné dny. Určit význam řádku a počet řádků/číselných atributů bez ID.",
+      "learner_answer": "jeden řádek = jeden den -> 60x12",
+      "evaluation": "Splněno bez další metodické nápovědy k tomuto novému zadání. Kritérium: zvolit den jako shlukovaný objekt,60 řádků a12 číselných atributů pro prodeje výrobků. Všechny tři části správně. Ověřen úspěšný přenos principu na jiný shlukovaný objekt v téže lekci. Dřívější původní úloha s akciemi byla dokončena se dvěma nápovědami; tento výsledek ji nepřepisuje na samostatný výkon. Nejde o ověření s časovým odstupem ani zvládnutí celého shlukování.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:11"
+        }
+      ],
+      "next_step": "Přehled sn.11 uzavřen rolemiID/model/štítky/paralelní graf a zobrazeno dosud neprobrané hrubší členění sn.16. Vyčkat na přiřazení A zítřejší spotřeba, B hlavní skupiny zákazníků, C překvapivé dílčí souvislosti v malé skupině a stručné zdůvodněníC. Později s odstupem zopakovat orientaci objektů/atributů v jiném datasetu.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-22T04:07:36.878427+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-22-09-vystupy-a-hrubsi-cleneni",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Dokončení přehledu rolí/výstupů obrazové ukázky sn.11: při načtení datum jako identifikátor; výstupní model shluků a tabulka přiřazení akcií; možnost paralelního grafu pro porovnání průběhů. Nová látka sn.16: hrubší členění podle hlavního cíle na klasifikaci/predikci (nové případy/odhad hodnot), deskripci (dominantní struktura/vazby), hledání nugetů (dílčí překvapivé znalosti). Vysvětleno, že stejná metoda např.shlukování může sloužit k různým cílům.",
+      "learner_answer": "",
+      "evaluation": "Výklad zobrazen s citacemi sn.11 a16; nový přehled členění v tabulce. Obrazový obsah sn.11 byl v této session skutečně otevřen v plném rozlišení, včetně textu data-roleID, výstupů a odkazu na Parallel chart. Sn.16 je podle kontroly struktury čistě textový a nyní znovu načten přes passages start15 limit3. Nevyučovány konkrétní algoritmické vnitřnostiX-Means, přesná drobná čísla tabulky ani konkrétní nastavení/osy paralelního grafu, který v ukázce není vykreslen; za probrané považovat pouze uvedený obsah. Před volbou aktivity porovnána celá pracovní mapa všech5 zdrojů s plně načtenou historií29, všemi vlastními následnými záznamy01–07 a kontrolou history start33 total36. Stále zbývá mnoho neprobraného obsahu, žádný přechod na opakování celého rozsahu. Samostatné rozlišení hrubších skupin zatím neověřeno.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:11"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:16"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď k vlastní první aplikaci sn.16: A odhad zítřejší spotřeby elektřiny -> klasifikace/predikce (zde konkrétně predikce); B popsat hlavní zákaznické skupiny a typické chování -> deskripce; C dílčí překvapivé souvislosti u malé skupiny -> hledání nugetů, zdůvodnit lokální a překvapivý cíl. Nevyžadovat výlučné rozdělení algoritmů; hodnotit hlavní účel. Jde o první použití po výkladu bez další metodické nápovědy k řešení; zatím žádná odpověď. Po něm pokračovat aplikačními oblastmi sn.17–18, potom historickou anketou19–20 (graf19 otevřít plně) a příklady21–24. Drobné odložené detaily10–15 ponechat v plánu.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T04:07:37.053993+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-22-10-hrubsi-cleneni-nuget-odchylka",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "První aplikace hrubšího členění Úvod sn.16: zařadit A odhad zítřejší spotřeby elektřiny, B popis hlavních skupin zákazníků a typického chování, C dílčí překvapivé souvislosti u malé skupiny; uC stručně zdůvodnit.",
+      "learner_answer": "A) predikce\nB) deskripce\nC) outliars finding -> zaměření na nestandratní chování",
+      "evaluation": "Částečně splněno bez dodatečné metodické nápovědy k původnímu zadání. Kritérium: A klasifikace/predikce (konkrétně predikce), B deskripce, C hledání nugetů a zdůvodnění dílčím překvapivým cílem. A iB správně. U C uživatel uvedl hledání outlierů s důrazem na nestandardní chování; v zadaném členění šlo o překvapivé dílčí poznatky, které nemusí popisovat odlehlé objekty. Nejde o neznalost významu outlierů, jejichž nestandardnost uživatel správně pojmenoval, ale o potřebu odlišit překvapivý vztah od neobvyklého případu. Zpětná vazba výslovně připustila překryv obou cílů, neprezentovala je jako vždy disjunktní kategorie. Doplněn vlastní příklad překvapivého společného nákupu běžných zákazníků. Tato oprava byla zobrazena před uložením a následovala jedna podpůrná otázka.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [
+        "U části C zaměnil hledání dílčích překvapivých souvislostí za detekci odlehlých případů; rozlišit překvapivý vztah a neobvyklý objekt."
+      ],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:16"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:15"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď k opravnému vlastnímu příkladu: v malé prodejně zákazníci překvapivě často kupují čaj a baterie společně, jednotlivé nákupy nejsou odlehlé a cílem není hledat odlehlé klienty. Určit, zda jde podle cíle o hledání nugetu či detekci odchylek, a zdůvodnit. Očekávat nuget díky dílčí překvapivé souvislosti bez nutné odlehlosti objektu. Před tímto bezprostředním pokusem poskytnuta jedna podstatná metodická nápověda: explicitní vysvětlení rozdílu a příklad asociace; při hodnocení hints_used1, pokud nepřijde další pomoc. Dosud neodeslanou odpověď nehodnotit. Po vyjasnění pokračovat aplikacemi sn.17–18; později rozlišení znovu ověřit bez pomoci na jiném kontextu.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T04:12:00.292157+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-22-11-pojmenovani-lokalni-vzory",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "supplement",
+      "activity": "Terminologické upřesnění na žádost uživatele: pro třetí skupinu cílů ze sn.16 dále ve výuce používat objevování lokálních vzorů (local pattern discovery), srozumitelně hledání zajímavých dílčích vztahů/pravidelností. Původní hledání nugetů ponechat pouze jako vazbu na označení v dodané prezentaci.",
+      "learner_answer": "musí existovat lepší termín než\nHledání „nugetů“",
+      "evaluation": "Uživatel požádal o vhodnější termín, nikoli neodpověděl chybně na čekající věcnou otázku. Odborné anglické označení ověřeno v primárním článku Knobbe, Crémilleux, Fürnkranz, Scholz(2008), From Local Patterns to Global Models: The LeGo Approach to Data Mining, https://ke-tud.github.io/events/LeGo-08/1.pdf. Článek používá local pattern discovery/mining a popisuje dílčí vzory a jejich vztah ke globálním modelům; české pojmenování a použití pro kontext sn.16 je srozumitelný výukový převod, nikoli tvrzení o jediném závazném českém názvosloví či formálně totožném názvu taxonomie. Externí terminologické doplnění označeno jako supplement, není novým dodaným materiálem zaregistrovaným do katalogu. Zobrazeno před uložením. Introduced zde eviduje pouze toto upřesnění; nerozšiřuje pokrytí jiných snímků ani neprokazuje samostatné zvládnutí rozdílu lokální vzor/odlehlý případ.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "terminologicke-upresneni",
+      "misconceptions": [],
+      "source_refs": [],
+      "next_step": "Zachovat dosud nezodpovězenou opravnou otázku: překvapivě častý společný nákup čaje a baterií v malé prodejně, běžné jednotlivé nákupy, nehledáme odlehlé zákazníky; určit objevování lokálních vzorů (dříve nugety) vs detekce odchylek a proč. Očekávat první variantu díky překvapivé dílčí souvislosti. Pro tento opravný věcný pokus zůstává hints_used1 z předchozího explicitního vysvětlení; pouhé přejmenování termínu je převedení do srozumitelnější podoby, nepřičítat další metodickou nápovědu. Uživatel zatím věcně neodpověděl. Poté aplikace sn.17–18; později samostatné ověření rozlišení bez pomoci. Terminologickou preferenci držet v DZDB, neměnit automaticky globální profil ani původní materiály.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T04:14:41.272256+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-22-12-deskripce-a-lokalni-vzory",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Vyjasnění překryvu širokého významu deskriptivní znalosti s úžeji míněnou deskripcí ve členění sn.16. Deskripce zde hledá dominantní strukturu či hlavní vazby; objevování lokálních vzorů (označení pro autorovo hledání nugetů) jednotlivé zajímavé dílčí souvislosti. Lokální vzor je též popisnou znalostí; kategorie podle cíle nejsou striktně disjunktní metody. Lokální znamená dílčí, ne nutně vzácný/odlehlý. Vlastní ilustrační rozdíl nákupní pravidlo vs přehled hlavních zákaznických skupin.",
+      "learner_answer": "objevování lokálních vzorů -> jak se to liší od descripce?",
+      "evaluation": "Uživatel položil oprávněnou otázku k překryvu názvosloví, nikoli chybnou věcnou odpověď na čekající úlohu. Výklad zobrazen s citací sn.16 před uložením. Výslovně rozlišen široký smysl popisu dat od užšího použití slova deskripce ve zdroji (dominantní struktura/vazby). Nezavádět falešnou výlučnost ani tvrzení, že lokální vzory nutně mají malou podporu nebo jsou tvořeny odlehlými objekty. Náhrada názvu autorovy metafory navazuje na terminologické doplnění checkpointu11 (local pattern discovery); nepředstírat jediný univerzální taxonomický význam slova deskripce. Zobrazeno jedno navazující dvouúrovňové ověření na stejném nákupním příkladu. Není to samostatně doložené zvládnutí nuance; introduced se vztahuje jen k vysvětlenému obsahu. Nedokončená původní opravná otázka není vyhodnocena jako chybná.",
+      "result": "introduced",
+      "hints_used": 2,
+      "difficulty": "pojmove-rozliseni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:16"
+        }
+      ],
+      "next_step": "Čekat na odpověď k upřesněné opravné úloze: analytik chce jednotlivá překvapivá nákupní pravidla a najde čaj->baterie; je to v širším smyslu deskriptivní výsledek a kam patří hlavní cíl podle sn.16? Očekávat ano (popisuje vztah v datech), hlavní cíl=objevování lokálních vzorů, ne přehled dominantní struktury. Tímto přeformulováním nahrazena starší zatím nezodpovězená binární otázka čaj+baterie vs outlier, nevyhodnocovat ji bez odpovědi. Pro tuto podporovanou pojmovou návaznost evidovat dvě podstatná vysvětlení: předchozí lokální vztah vs odlehlý případ a nynější široká deskriptivnost vs užší kategorie zdroje; hints_used2. Pouhá mezilehlá změna pojmenování se jako další pomoc nepočítá. Po pochopení pokračovat aplikačními oblastmi17–18; později rozlišení ověřit bez pomoci na jiném kontextu.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T04:17:40.189841+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-22-13-lokalni-vzory-a-hypotezy",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Upřesněná opravná otázka k Úvodu sn.16: analytik chce najít jednotlivá překvapivá nákupní pravidla a objeví čaj->baterie; určit, zda je výsledek v širším smyslu deskriptivní a kam patří hlavní cíl v užším členění zdroje.",
+      "learner_answer": "objevování lokálních vzorů -> snažím se ověři konkrétní hypotézu, ne popsat obecně zákazníky co kupují čaje",
+      "evaluation": "Částečně splněno po dvou předchozích metodických vysvětleních. Správně zařadil hlavní cíl k objevování lokálních vzorů a odlišil jej od obecného profilu zákazníků. Jako rozhodující zdůvodnění ale uvedl ověřování konkrétní hypotézy; to není rozlišující znak členění sn.16 a v zadání šlo o objevování dosud neznámých zajímavých vztahů. Na otázku širší deskriptivnosti výslovně neodpověděl; z věty o nepopisování zákazníků obecně nelze vyvozovat, že by popíral deskriptivnost konkrétního vztahu. Proto neoznačeno jako úplné splnění ani jako zcela chybná odpověď. Ve zpětné vazbě vysvětleno, že při objevování nemusí existovat konkrétní hypotéza předem, ověřování hypotéz lze využít v různých typech analýzy a podstatný je cíl hledat jednotlivé zajímavé vztahy. Výslovně doplněno, že pravidlo je také popisné. Nebylo tvrzeno, že lokální vzory nelze ověřovat nebo že algoritmy negenerují/testují kandidátní hypotézy. Tato oprava tvoří třetí metodické vysvětlení v této podporované návaznosti.",
+      "result": "needs-practice",
+      "hints_used": 2,
+      "difficulty": "pojmove-rozliseni",
+      "misconceptions": [
+        "Ve zdůvodnění použil ověřování konkrétní hypotézy jako rozlišující znak objevování lokálních vzorů; samotné ověřování hypotézy tuto kategorii od deskripce neodděluje."
+      ],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:16"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:2"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď k nové opravné formulaci: předem nemáme konkrétní hypotézu, algoritmus prohledá transakce a objeví překvapivé pravidlo A->B. Je to stále objevování lokálních vzorů a je pravidlo zároveň popisem dat? Očekávat ano pro obě části: cílem je dílčí zajímavá pravidelnost, předchozí hypotéza není nutná, nalezený vztah popisuje data. Při hodnocení započítat3 podstatná vysvětlení celého opravného řetězce (vztah vs outlier, širší deskriptivnost vs užší kategorie, nyní discovery vs předem zvolená hypotéza); aktuální odpověď je dosud neodeslaná a není hodnocena. Po vyjasnění pokračovat aplikačními oblastmi17–18, později rozlišení ověřit na odlišném příkladu bez pomoci.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T04:22:02.286110+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-22-14-lokalni-vzor-popisna-znalost",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Opravná otázka k členění sn.16: předem není konkrétní hypotéza, algoritmus objeví překvapivé nákupní pravidlo A->B. Určit, zda jde stále o objevování lokálních vzorů a zároveň o popis dat, a zdůvodnit.",
+      "learner_answer": "Ano, výsledek je stále popisný, ale nepopisuji obecné vlastnosti skupiny, ale zajímavé chování, která nebylo očekávané",
+      "evaluation": "Splněno po třech metodických vysvětleních v podporovaném řetězci. Kritérium: přijmout možnost objevení lokálního vztahu bez předchozí konkrétní hypotézy a rozpoznat širší deskriptivnost výsledku; zdůvodnit cílem zajímavého dílčího vztahu. Uživatel souhlasí, výslovně označuje výsledek za popisný a směřuje ke konkrétnímu nečekanému chování oproti obecnějšímu profilu. V kontextu položené dvojotázky tím dostatečně vyjadřuje obě části, není nutné vyžadovat doslovné opakování názvu lokální vzory. Jeho formulace se přijímá pro tento příklad; nevyvozovat z ní univerzální zákaz lokálního vzoru popisujícího vlastnosti podskupiny. Ve zpětné vazbě potvrzeno, že konkrétní hypotéza předem není podmínkou. Jde o úspěšné použití po pomoci, nikoli dosud samostatné zvládnutí s odstupem. Předchozí A/B přiřazení predikce/deskripce byla samostatná; dřívější záměna s outliery má být později znovu ověřena.",
+      "result": "passed",
+      "hints_used": 3,
+      "difficulty": "pojmove-rozliseni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:16"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:2"
+        }
+      ],
+      "next_step": "Přejít ke konkrétním aplikačním oblastem sn.17–18, jejichž výklad a jedna nová otázka už byly zobrazeny. Nová otázka: banka zná štítky bonitní/problémový a chce srozumitelný profil bonitních klientů; určit úlohu a dát vlastní konkrétní příklad výsledku. Zatím žádná odpověď. Lokální vzory vs dominantní deskripce/outlier a nepovinnou předchozí hypotézu později ověřit na jiném příkladu bez pomoci.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T04:31:03.637204+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-22-15-aplikacni-oblasti",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Výklad aplikačních oblastí Úvod sn.17–18: bankovní a pojišťovací segmentace a klasifikace klientů včetně problémových/bonitních; predikce kurzů akcií a spotřeby elektřiny; analýza příčin poruch telekomunikačních sítí; důvody změny poskytovatele internetu/mobilních služeb; příčiny poruch automobilů; rozbor nemocničních databází pacientů; analýza nákupního košíku. Vysvětleno, že doména sama neurčuje analytickou úlohu, rozhoduje požadovaný výsledek.",
+      "learner_answer": "",
+      "evaluation": "Výklad s citací obou snímků skutečně zobrazen. Všechny uvedené domény/problémy textu sn.17–18 jsou zahrnuty, bez tvrzení, že byly vyloženy konkrétní algoritmy, ověřeny kauzální příčiny nebo poskytnuto finanční/medicínské rozhodovací doporučení. Oba snímky znovu načteny přes passages start16 limit2; při předchozí úplné strukturální kontrole jsou textové bez vložených obrázků. Před volbou této nové aktivity porovnána celá obnovená mapa5 zdrojů s úplnou historií29 z počátečního průzkumu, všemi vlastními checkpointy01–13 a kontrolou history start38 total42. Historie stále dokládá jen vybrané konkrétní části úvodu, nikoli dokončení materiálů. Nová vlastní otázka propojuje aplikaci banky se známou deskripcí konceptů sn.10 a dřívější mezerou, kdy uživatel dosud nedodal konkrétní vlastní příklad profilu známé třídy. Nejde o doslovný příklad ze zdroje ani o ověřený vztah mezi bankovními vlastnostmi a bonitou.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:17"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:18"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:10"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď: banka už zná označení bonitní/problémový, chce srozumitelně popsat typické vlastnosti bonitních; určit typ úlohy a dát jeden vymyšlený konkrétní srozumitelný výstup. Očekávat deskripci konceptu/profil známé třídy (přijmout věcně správné širší označení s dobrým popisem), bez nutné klasifikace nových klientů či shlukování, a konkrétní profil/vztah jako výstup. Vlastní obsah příkladu neposuzovat jako faktické finanční pravidlo; hodnotit konkrétnost, čitelnost a vhodnost k cíli. K řešení této nové aplikační otázky zatím žádná metodická nápověda, hints_used0 pokud nepřijde další pomoc. Potom pokračovat historickou anketou19–20: obraz19 otevřít v plném rozlišení a číst historické2016/2017 údaje, nevydávat za aktuální stav. Následují loupání cibule21 a vizuální košíkové příklady22–24; dříve odložené drobné detaily10–15 zůstávají v plánu.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T04:31:03.806245+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-23-01-deskripce-bankovni-tridy",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Obnovená otevřená otázka z předchozí lekce: banka má známé třídy bonitní/problémoví klienti a chce popsat typické vlastnosti bonitních; určit typ úlohy a uvést konkrétní vymyšlený výsledek. Vazba Úvod sn.10 a17.",
+      "learner_answer": "Jedná se o descripci konkrétní skupiny. Např. při analýze zjistím, že problémový klienti oproti těm bonitním mají mnohem více exekucí",
+      "evaluation": "Splněno bez nové metodické nápovědy v navazující lekci. Kritérium: rozpoznat deskripci známé třídy a samostatně uvést konkrétní srozumitelný popis vlastnosti nebo srovnání tříd. Obě části splněny: deskripce skupiny a srovnání počtu exekucí. Příklad je formulován pro problémovou třídu namísto požadované bonitní, ale srovnání zahrnuje obě a prokazuje stejný princip; toto drobné přesměrování bylo výslovně uvedeno ve zpětné vazbě a nebrání splnění cíle. Jde o vlastní vymyšlenou ilustraci, nikoli empirický finanční fakt. Uživatel zde netvrdí kauzalitu. Dřívější chybějící vlastní konkrétní výstup je nyní doložen; neověřuje celý předmět ani všechny úlohy. Zpětná vazba a následující otázka ke grafu ankety19–20 zobrazeny před zápisem.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:10"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:17"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď ke čtení historického grafu sn.19: vlastní pomyslný bod x12% v2016, y15% v2017; popsat změnu zastoupení aplikací v anketě. Očekávat růst12->15%, případně3procentní body; relativní výpočet není požadován. Potom doplnit další obsah grafu19 (barvy/typy trendů a další oblasti), následně loupání cibule21 a obrazové košíkové ukázky22–24. Zachovat dřívější neprobrané drobné detaily a zbytek všech pěti prezentací.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T02:28:34.899724+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-23-02-anketa-osy-a-oblasti",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Dílčí výklad historické ankety KDnuggets2016–2017, Úvod sn.19–20: bodový graf s podílem aplikací v2016 na oseX a v2017 na oseY, porovnání zastoupení oblastí; pět uvedených podílů2017 CRM/Consumer analytics16.8%, Finance15.2%, Banking14.1%, Health care13.2%, Fraud Detection13.0%. Výsledky rámovány jako historická anketa. Nevysvětleny ještě všechny další body, barvy a tvarové kódování trendu.",
+      "learner_answer": "",
+      "evaluation": "Výklad a navazující úloha byly skutečně zobrazeny nástrojem průběžného vstupu před zápisem. Původní PPT dočasně převeden doPPTX; celý vložený obrázek sn.19 skutečně otevřen v plném rozlišení944x852, osy a název ověřeny. Text sn.20 znovu ověřen přes passages i vXML originálu po převodu. Uvedené podíly jsou obsah prezentace, nejsou vydávány za současnou statistiku či podíl firem v jednotlivých doménách. Nový číselný bod12/15 je vlastní ilustrace, nikoli konkrétní údaj z grafu. Před volbou nové aktivity porovnána celá mapa5 zdrojů ze zahajovacího průzkumu se všemi44 checkpointy (stránky0–14,15–29,30–43) a kontrolou history start44 total44 a aktuální odpovědí. Zůstává neprobraný další úvod včetně detailů grafiky a všechny čtyři následující prezentace. Průzkum obsahoval všechny177pasáže, strukturu všech dočasně převedených originálů a přehled všech vložených obrázků; drobný text screenshotů, XML na sn.43 úvodu a další malá obrazová čísla zůstávají konkrétní mezerou úplné čitelnosti a nelze je považovat za kompletně zkontrolované ani probrané.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-interpretace",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:19"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:20"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď: pomyslný bod x12%2016,y15%2017; vysvětlit změnu zastoupení oblasti. Odpověď dosud nebyla odeslána ani hodnocena. Následně doplnit barvy/typy trendů a ostatní oblasti grafu19, loupání cibule21 a košíkové příklady22–24.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T02:29:00.370439+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-interpretace",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:19"
+        }
+      ],
+      "checkpoint_id": "dzdb-2026-10-23-03-anketa-procentni-body",
+      "activity": "Vlastní ilustrační bod historického grafu sn.19: x12% v2016 a y15% v2017; popsat změnu zastoupení oblasti.",
+      "learner_answer": "zastoupení se zvýšilo o 3 procentuální body",
+      "evaluation": "Splněno bez metodické nápovědy. Kritérium: rozpoznat růst podílu12->15%; uživatel navíc samostatně přesně vyčíslil rozdíl jako3procentní body. Ověřena interpretace os a rozdílu podílů. Relativní růst25% sám nepočítal a není označen za samostatně zvládnutý. Zpětná vazba a jedna další otázka k barvě/tvaru grafu byly zobrazeny před zápisem. Nejde o nová skutečná data z ankety.",
+      "result": "passed",
+      "next_step": "Vyčkat na odpověď k zelenému kolečku v grafu: určit trend2016->2017 a2015->2016. Následně zbývající aplikační oblasti grafu a loupání cibule sn.21.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T02:33:05.631253+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-interpretace",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:19"
+        }
+      ],
+      "checkpoint_id": "dzdb-2026-10-23-04-anketa-barvy-a-tvary",
+      "activity": "Doplnění vizuální legendy sn.19: poloha bodu=podíly2016/2017; barva=relativní procentní změna2017vs2016, zelená růst a červená pokles; tvar=směr změny ve dvou obdobích2017vs2016 a2016vs2015, trojúhelník nahoru obojí růst, dolů obojí pokles, kruh smíšený průběh.",
+      "learner_answer": "",
+      "evaluation": "Výklad skutečně zobrazen v nástroji průběžného vstupu před uložením. Legenda je přímo čitelná na původním obrázku sn.19, který byl v předchozím tahu skutečně otevřen v plném rozlišení v této konverzaci; nejde o odhad z nadpisu textového indexu. Samostatné čtení kombinace barva+tvar zatím neověřeno. Před volbou nové aktivity porovnána celá pracovní mapa177pasáží/pěti zdrojů z úvodního průzkumu s již kompletně načtenými44staršími checkpointy, dvěma vlastními následnými a kontrolou history start46 total46. Neprobraný zbytek úvodu a další čtyři prezentace i drobné nečitelné grafické detaily zůstávají v rozsahu; samotný přehled obrázků není pokrytím výukou. Další označené aplikační oblasti grafu19 ještě nejsou v tomto dílčím výkladu vyjmenovány a nevztahovat jej na dokončení celého snímku.",
+      "result": "introduced",
+      "next_step": "Vyčkat na odpověď: zelené kolečko znamená růst zastoupení2016->2017, ale smíšený průběh znamená opačný směr v2015->2016, tedy pokles. K této nové úloze není další metodická nápověda, jen základní výklad legendy. Následují další označené oblasti grafu19 (věda, maloobchod, reklama, vzdělávání, e-commerce, výroba, medicína/farmacie, dodavatelské řetězce, pojišťovnictví, sociální sítě, telekomunikace, software, autonomní auta, akcie, antispam, mobilní aplikace), pak princip loupání cibule21 a obrazové příklady22–24. Neoznačené drobné body nelze pojmenovat podle odhadu.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T02:33:05.827808+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-23-05-zelene-kolecko-celkovy-trend",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Z legendy historického grafu Úvod sn.19 interpretovat zelené kolečko: směr změny2016->2017 a předchozí2015->2016.",
+      "learner_answer": "Že celový růst za oba roky je pozitivní, ale růst nenastal v obou letech, v jednom nastal pokles",
+      "evaluation": "Částečně správně bez dodatečné metodické nápovědy k původní otázce. Kritérium: zelená znamená růst2016->2017, kruh smíšený směr v obou obdobích, tedy pokles2015->2016; z kombinace nelze určit celkový rozdíl2015->2017. Uživatel správně rozpoznal smíšený průběh a jeden pokles, ale chybně přisoudil zelené barvě celkový kladný růst za dva roky a neuvedl přesné přiřazení poklesu/růstu k rokům. Ve zpětné vazbě vysvětlen časový rozsah barvy a tvaru a uveden vlastní protipříklad20%->10%->12%, který má zelené kolečko a celkový pokles. Zpětná vazba a jedna následná otázka s řadou10%->8%->9% zobrazeny před uložením. Tento protipříklad je jedna podstatná metodická pomoc pro navazující opravnou úlohu, nikoli údaj z ankety.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-interpretace",
+      "misconceptions": [
+        "Zelená barva bodu byla chybně interpretována jako kladná celková změna2015->2017; ve skutečnosti kóduje relativní změnu pouze2016->2017."
+      ],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:19"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď k vlastní řadě2015:10%,2016:8%,2017:9%: barva zelená, tvar kruh (smíšený průběh), celkový rozdíl2015->2017 pokles1procentní bod. Hints_used1 pro tuto opravnou úlohu kvůli předchozímu protipříkladu. Po opravě nepokračovat nadbytečným zkoušením legendy; doplnit dosud nevyjmenované označené aplikační oblasti grafu19, pak loupání cibule21 a vizuální košíkové příklady22–24. Všechny další dosud neprobrané části pěti zdrojů zůstávají v rozsahu.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T03:23:21.304503+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-23-06-loupani-cibule",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Výklad principu data miningu jako loupání cibule, Úvod sn.21: výsledek aktuální analýzy vede k nové, často detailnější úloze; postupně se odkrývají další vrstvy znalostí. Vlastní ilustrace káva+filtry a navazující zkoumání rozdílů vztahu podle zákaznických skupin či času.",
+      "learner_answer": "",
+      "evaluation": "Výklad skutečně zobrazen nástrojem průběžného vstupu s citací a jednou otevřenou otázkou před uložením. Sn.21 znovu načten přes passages; při strukturálním průzkumu této konverzace textový, bez dalšího vloženého obrázku. Konkrétní příklady jsou vlastní ilustrace principu. Uživatel k předchozí legendě výslovně zadal „tohle považuj za hotové“: část ankety19–20 se na jeho přání uzavírá a další opravná úloha10->8->9 se ruší. Toto zadání není věcnou odpovědí ani důkazem samostatného zvládnutí a dřívější výsledky se nepřepisují na passed; bez vyžádání nevracet legendu ani zbylé dílčí popisky grafu jako další povinné zkoušení. Jde o místní uzavření této části na přání uživatele, nikoli dokončení předmětu nebo zúžení ostatních materiálů. Před volbou nové aktivity porovnána úplná pracovní mapa5zdrojů/177pasáží z této session s načtenou historií44 a všemi pěti vlastními následnými checkpointy; kontrola history start49 total49. Další neprobraný obsah zůstává.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:21"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď: vlastní zjištění o vyšších nákupech sladkostí o víkendech; navrhnout jednu konkrétní další analytickou otázku. Přijmout relevantní rozšíření či zpřesnění (skupiny, výrobky, velikost košíku, čas, podmínky aj.); nevyžadovat jediné předem zvolené řešení. Nepřisuzovat slovu proč automaticky chybnou kauzální interpretaci, podle návrhu upřesnit potřebná data. Potom vizuální příklady nákupního košíku22–24; nejdřív otevřít originální grafiku v potřebném rozlišení. Anketa19–20 uzavřena výslovným přáním uživatele, nevracet aktuální opravnou otázku ani další povinné zkoušení legendy.",
+      "review_on": null,
+      "created_at": "2026-10-23T03:30:18.013060+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-07-navazujici-analyticka-otazka",
+      "activity": "Vlastní aplikace loupání cibule z Úvodu sn.21: ze zjištění, že o víkendech zákazníci kupují více sladkostí, navrhnout jednu konkrétní další analytickou otázku.",
+      "learner_answer": "co konkrétně za sladkosti kupují",
+      "evaluation": "Splněno bez dodatečné metodické nápovědy. Kritérium: relevantně rozšířit nebo zpřesnit analytickou otázku na základě předchozího výsledku. Uživatel samostatně přechází z obecné kategorie sladkostí ke konkrétním druhům či výrobkům. Nevyžaduje se jediné řešení ani explicitní zopakování víkendového kontextu. Ve zpětné vazbě asistent jako možnost doplnil porovnání s pracovními dny pro rozklad víkendového nárůstu; to není samostatným výkonem uživatele. Zpětná vazba a jedna následující otázka byly zobrazeny před uložením.",
+      "result": "passed",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:21"
+        }
+      ],
+      "next_step": "Pokračovat reprezentací a deskriptivní vizualizací nákupních košíků22–23; nyní čeká otázka na počet košíků obsahujících kávu i filtry. Poté klasifikační ukázka24.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T03:35:19.892475+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-08-kosiky-tabulka-a-sit",
+      "activity": "Výklad obrazových ukázek Úvod22–23: nákupní záznam jako řádek tabulky; vedle hodnoty nákupu či věku binární kategorie zboží sT=přítomno,F=nepřítomno. Deskriptivní pohled na společné výskyty, vizualizace sítí kategorií a spojnic společných výskytů; souvislost sama nedokazuje kauzalitu. Vlastní tabulka čtyř košíků káva/filtry.",
+      "learner_answer": "",
+      "evaluation": "Výklad skutečně zobrazen před zápisem přes průběžný vstup. Původní PPT znovu dočasně převeden doPPTX; vložené obrázky sn.22,23,24 skutečně otevřeny v plném rozlišení. Sn.22 má1000records, cardid,value,pmethod,sex,homeown,income,age aT/Fkategorie fruitveg,freshmeat,dairy,cannedveg,cannedmeat,frozenmeal,beer,wine,softdrink,fish. Vyložena strukturální reprezentace, nikoli všechny konkrétní datové hodnoty. Sn.23 ukazuje navázání vizualizací na stejný vstup a síť Absolute společných výskytů; nebyly tvrzeny nepřečtené přesné četnosti, normalizované síly, kauzalita či algoritmická pravidla. Sn.24 prohlédnut pro navazující aktivitu, zatím nebyl vyučován a není tímto záznamem probraný. Před volbou aktivity porovnána celá obnovená mapa5zdrojů/177pasáží s úplnou historií44, šesti vlastními následnými checkpointy a kontrolou history start50 total50, plus aktuální odpovědí. Pokrytí zůstává dílčí. Anketa19–20 je uzavřena podle výslovného přání uživatele, bez dalšího povinného zkoušení. Grafické deriváty22–24 jsou dočasné pomůcky čtení, nikoli nové zdroje; originály zachovány.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:22"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:23"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď: A kávaT/filtryT, B T/F, C F/T, D T/T; v kolika košících jsou oba? Očekávat2 (A,D). Tato nová úloha nemá metodickou nápovědu nad základní výklad binární reprezentace. Ověřuje i starší mezeru přiřazování/počítání košíků. Potom sn.24 klasifikace: použití známých vstupů pro odhad odvozené cílové kategorie beer+beans+pizza, ukázka pravidla příjem<=16900, pohlavíF->F, M->T, nad16900->F. Neodhadovat význam ani vzorec odvozené kategorie jen z názvu a neposuzovat drobné četnosti bez přečtení. Plné obrázky22–24 zůstávají /tmp/dzdb-kosik-2d6pcmg2/slide22.png ažslide24.png pro další čtení; PPTX/profil se odstraní.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T03:35:20.090783+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-09-spolecny-vyskyt-kosiky",
+      "activity": "Vlastní tabulka binárních košíků k výkladu Úvod22–23: A kávaT/filtryT, B T/F, C F/T, D T/T. Určit počet košíků obsahujících kávu a filtry společně.",
+      "learner_answer": "2",
+      "evaluation": "Splněno bez dodatečné metodické nápovědy. Kritérium: správně spočítat řádky se současnýmT u obou položek. Odpověď2 správně. Ve zpětné vazbě asistent výslovně doplnil označeníA,D a souběhT v jednom řádku. Počet samostatně doložen, označení košíků uživatel sám neuvedl a nebylo vyžadováno. Doloženo zlepšení oproti starší záměně přiřazení položek a nedodanému počtu společných košíků; nejde o ověření všech měr asociačních pravidel. Zpětná vazba i další otázka zobrazeny před uložením.",
+      "result": "passed",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:22"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:23"
+        }
+      ],
+      "next_step": "Navázat klasifikační ukázkou sn.24: nyní čeká aplikace pravidel na muže s příjmem17000. Potom metodiky sn.25–39 při zachování dosud neprobraných detailů.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T03:45:11.602975+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-10-kosik-klasifikacni-pravidla",
+      "activity": "Výklad jádra obrazové klasifikační ukázky Úvod24: na nákupní tabulce lze učit klasifikátor cílového odvozeného příznaku beer+beans+pizza se třídamiT/F. Pravidla modelu: příjem<=16900 asexM->T; příjem<=16900 asexF->F; příjem>16900->F. Výstup je předpověď naučeného modelu. Přesná definice odvozeného příznaku není na snímku rozepsána.",
+      "learner_answer": "",
+      "evaluation": "Výklad skutečně zobrazen s citací a jednou otázkou přes nástroj průběžného vstupu před uložením. Původní vložený obrázek24 znovu otevřen v plném rozlišení /tmp/dzdb-kosik-2d6pcmg2/slide24.png; threshold16900, směrynerovností aM/T,F/F přečteny. Neodhadován přesný booleanvzorec odvozeného targetu z jeho názvu, jednotka/perioda příjmu ani obecně platné nákupní chování. Na snímku jsou také odvozovací uzlyhealthy,wine+...,beer+beans+pizza,type,model a pomocné dvojicečísel173/.988,165/.842,662/.992 u pravidel; jejich úplná sémantika a všechny drobné parametry nejsou touto aktivitou vysvětleny ani ověřeny a zůstávají jako konkrétní detail ke kontrole. Před volbou této aktivity celá mapapěti zdrojů/177pasáží z průzkumu této konverzace porovnána se všemi44staršími záznamy a8vlastními následnými a kontrolou history start52 total52, plus aktuální odpovědí. Velká část úvodu včetně metodik/PMML/nástrojů a další čtyři prezentace nadále neprobrány. Anketa19–20 zůstává uzavřena na přání uživatele.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:24"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď: muž s příjmem17000, podle zobrazených pravidel třídaF, protože17000>16900 a větev podlepohlaví se použije jen pod prahem/včetněprahu. Bez další metodické nápovědy, samotný základní výklad pravidel se za nápovědu nepovažuje. Poté postupovat kmetodikám25–39; sn.26 historickou mapu a29/32/33diagramy před použitím znovu otevřít vizuálně. Konkrétní dosud nevyložené drobné obrazové detaily10–15/24 ponechat neprobrané/ověřeníomezeno, neoznačit celý úvod za hotový. Obrázky22–24 zůstávají jako dočasné čtecípomůcky v /tmp/dzdb-kosik-2d6pcmg2/.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T03:45:11.803792+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-11-klasifikace-nakupu-pravidlo",
+      "activity": "Aplikace konkrétních pravidel ze sn.24 Úvodu na muže s příjmem17000: určit předpovězenou třídu a zdůvodnit. Model: příjem<=16900 rozlišuje sexM->T,F->F; příjem>16900->F.",
+      "learner_answer": "Předpoví F, protože je splněna podmínka Příjem > 16 900",
+      "evaluation": "Splněno bez dodatečné metodické nápovědy. Kritérium: správně zvolit F a použít větev příjmu nad16900; obě části přesně splněny. Ve zpětné vazbě potvrzeno, že pro tuto větev není další rozlišení podle pohlaví potřeba. Doložena aplikace tohoto pravidla na nový případ, nikoli indukce modelu nebo univerzální empirické pravidlo o nákupech. Zpětná vazba a další otázka byly zobrazeny před zápisem.",
+      "result": "passed",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:24"
+        }
+      ],
+      "next_step": "Pokračovat metodikou5A ze sn.27, poté SEMMA28–29, doplnit historickou srovnávací mapu26 po zavedení metodik a podrobnější CRISP-DM30–39. Nyní čeká určení Act pro formulování doporučení podle výsledků analýzy.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T03:51:20.694477+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-12-metodika-5a",
+      "activity": "Výklad všech pěti kroků5A prezentované jako metodikaSPSS, Úvod27: Assess posouzení potřeb projektu; Access shromáždění dat; Analyze provedení analýz; Act převod znalostí na návrh konkrétních opatření; Automate zavedení výsledků do praxe. Vysvětlena návaznost od zadání a dat přes analýzu k využití.",
+      "learner_answer": "",
+      "evaluation": "Výklad s pěti kroky skutečně zobrazen nástrojem průběžného vstupu s citací a jednou otázkou před zápisem. Celý text27 znovu načten přes passages; strukturální průzkum této konverzace neukazuje na tomto snímku vložený obrázek. Zdroj píše název čtvrtého kroku jakoAkt, ve výkladu jazykově upraveno naAct, význam zachován jako přeměna poznatků na akční znalosti; Automate ponecháno široce jako převedení výsledků do praxe, neomezováno výhradně na plně automatické zasílání nabídek. Případ odchodových nabídek je vlastní ilustrace, ne empirické doporučení. Sn.25 pouze oddílový nadpis; sn.26 historická grafická mapa metodik je vědomě odložena do doby po vysvětlení metodik a uživateli to bylo výslovně sděleno. Není označena jako probraná. Před novou aktivitou porovnána celá mapa5zdrojů/177pasáží z průzkumu této konverzace s úplně načtenými44staršími checkpointy a10vlastními následnými a kontrolou history start54 total54, plus aktuální odpovědí. Nadále zbývá další obsah úvodu i další4prezentace, drobné nepřečtené detaily obrazových ukázek zůstávají konkrétní mezerou. Anketa19–20 zůstává na přání uživatele uzavřena.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:27"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď: analytik na základě zjištění o odchodu skupiny formuluje doporučení, jakou nabídku připravit; který krok5A a proč? OčekávatAct/Akt, převedení zjištění na konkrétní návrh opatření; při jiné interpretaci posoudit zdůvodnění a hranici návrhu/zavedení, nevyžadovat automatizaci uAutomate. Poté SEMMA28–29; grafické29 vyžaduje čitelné otevření, stejně jako odložená srovnávací mapa26. NaCRISP-DM navázat již doloženým přehledem, doplnit neprobrané detaily a diagramy, nikoli vydávat dřívější přehled za úplné pokrytí.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T03:51:20.886837+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-13-5a-act-opatreni",
+      "activity": "Určit krok5A pro formulování doporučení nabídky zákazníkům na základě analýzy jejich odchodu a vysvětlit volbu. Úvod27.",
+      "learner_answer": "Act, navrhuji něco na základě analýzy, Tahle oblast je jasná, můžeme jít dál",
+      "evaluation": "Splněno bez dodatečné metodické nápovědy. Kritérium: zvolitAct a zdůvodnit převodem analýzy na návrh opatření. Obojí splněno. Uživatel navíc výslovně požádal tuto oblast uzavřít a pokračovat;5A dále nerozkouskovávat na další kontrolní otázky. Tento pokyn není důkazem samostatného zvládnutí všech pěti kroků, ale zobrazený výklad všech kroků je doložen. Zpětná vazba a jedna otázka k následující metodiceSEMMA zobrazeny před uložením.",
+      "result": "passed",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:27"
+        }
+      ],
+      "next_step": "5A uzavřena na přání uživatele. PokračovatSEMMA28–29 a poté odloženou historickou mapou26 a doplněnímCRISP-DM. Nyní čeká návrat k výběru vzorku při nesouladu cílovýchmalýchfirem a převážněvelkýchpodniků v tréninkovýchdatech.",
+      "review_on": null,
+      "created_at": "2026-10-23T04:02:54.159583+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-14-semma-a-iterace",
+      "activity": "Výklad celého textu28 a obsahu diagramu29: SEMMA proSASEnterpriseMiner; Sample výběrvzorkuobjektů; Explore vizualizace, shlukování/asociace, redukce; Modify selekce/vytvářenípříznaků, transformace, seskupováníobjektů/hodnot; Model neuronovésítě, stromy, logistické/dalšístatistickémodely, texttakéasociaceashlukování; Assess porovnáníainterpretacemodelů. Vysvětlen překryv technik mezi kroky podle účelu, zpětná vazbaAssess->Sample a rozdíl významuAssess vůči5A.",
+      "learner_answer": "",
+      "evaluation": "Výklad skutečně zobrazen před zápisem prostřednictvím průběžného vstupu s citací28–29 a jednou otevřenou aplikační otázkou. Text28–29 znovu načten přespassages. OriginálPPT dočasně převeden doPPTX, obrázek29 skutečně otevřen v plném rozlišení739x621: obě větvevizualizace/shlukování+asociace, selekce+vytvářeníveličin/transformace, alternativnímodely a návratodAssesskSample zahrnuty. Při stejném čtení vizuálně otevřen historický diagram26, zatím nebyl vyučován. Graficképomůcky26,29,32,33,42–44,49–58 vyextrahoványprodalšíčtení do /tmp/dzdb-metodiky-j8gsgrn7/slideN.png; odvozenýPPTX a profilLibreOffice odstraněny, originálzachován. Před aktivitou porovnána celá obnovená mapa5zdrojů/177pasáží s úplnými44staršímicheckpointy a12vlastnímináslednými a kontrolouhistory start56 total56 plusaktuálníodpovědí. Dalšíneprobranýobsah včetně26 aCRISP-DMdetailů a dalších4prezentací zůstávávrozsahu.5A na výslovnépřáníuzavřena, anketa19–20 také.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:28"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:29"
+        }
+      ],
+      "next_step": "Vyčkat na odpověď: model pro maléfirmy, trénink obsahuje téměřjenvelképodniky; který dřívější krokSEMMA upravitajak? OčekávatSample a výběrvhodného vzorku se zastoupenímmalýchfirem, přijmout dobřeodůvodněný alternativnípostup. Bezdalšímetodickénápovědy k řešení; právězobrazenývýklad jepodklad. Poté historickámapa26 (jižvizuálněotevřenavtomtotahu, obrázekzůstávákdispozici), souvislostiCRISP-DM30–33 a doplněnídílčíchdetailů34–39, nevracet bez potřeby již doložené jednoduché otázky. Diagram26 zaznamenává KDDProcess1993->HumanCentered1996,SEMMA1996,TwoCrows1998,Anand&Buchner1998,Cabena1997;5As1996,SEMMA,TwoCrows->CRISP-DM2000; KDDRoadmap2001 samostatně; zCRISP-DM větveCRISP-DM2.0inconstruction2008,DMIE2002,RAMSYS2001,Cios2000. Nevyvozovat aktuálnístavz historickémapyMarban2009.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T04:02:54.361873+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-15-semma-reprezentativnost",
+      "activity": "Aplikace iteraceSEMMA: model má sloužit malým firmám, ale trénovacídata obsahují téměřjenvelképodniky; určit dřívější krok a úpravu.",
+      "learner_answer": "Sample, vzorek není reprezentativní vůči našemu záměru",
+      "evaluation": "Splněno bez dodatečné metodické nápovědy. Kritérium: určitSample a propojit nápravu se zastoupením objektů odpovídajících cílovémupoužití. Správná volbaSample i samostatné věcné zdůvodnění nereprezentativností vůči záměru. Explicitní výčet způsobů náběru či přesných počtů nebyl potřebný; asistent ve zpětné vazbě konkretizoval dostatečné zastoupení malýchfirem. Neověřeny všechny samplingovétechniky ani statistický návrh reprezentativního šetření. Zpětná vazba a navazující otázka byly zobrazeny před zápisem.",
+      "result": "passed",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:28"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:29"
+        }
+      ],
+      "next_step": "SEMMA probrána v rozsahu28–29, konkrétní návratSample samostatně použit. Pokračovat kontextem26/30–32 a podrobnýmCRISP-DM33–39; nyní čeká zdůvodnění návrhu testování před vytvořením modelu.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T04:11:46.406671+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-16-mapa-metodik-a-crisp-kontext",
+      "activity": "Doplnění historické mapy26(Marban2009):KDDProcess1993 s větvemiHumanCentered1996,SEMMA1996,TwoCrows1998,Anand&Buchner1998,Cabena1997;5A1996,SEMMA,TwoCrows sešipkami kCRISP-DM2000; větveCRISP-DM kDMIE2002,RAMSYS2001,Cios2000,tehdyrozpracovanémuCRISP-DM2.0;KDDRoadmap2001samostatně. Úvod30:rozvinutízkratkyCRISP-DM,evropskývýzkumnýprojekt,univerzálnípostupprokomerčníaplikace a průvodcepraktickýmiproblémy. Princip31–32:modelováníjejednouz6fází,možnostnávratů.",
+      "learner_answer": "",
+      "evaluation": "Celý popsaný výklad zobrazen nástrojemprůběžnéhovstupu předuložením. Diagram26 znovuvizuálněotevřen vplnémrozlišení900x601 a uvedenavšechna pojmenovaná metodickápole a datarokůmetodik,bezpožadavkunapamětnírecitaci bibliografickýchodkazůuvnitřmapy. Historický charakter a tehdejšíinconstructionCRISP-DM2.0 výslovněuvedeny,nenítvrzenaktální stav. Diagram32 také skutečněotevřen:červeněvyznačenámodelovacífázeuvnitřceléhoiterativního6fázovéhoprocesu,vyložen tento vztah;nepodánoznovu všechnydříveprobranéčástijakocelanové. Text30–39 znovunačtenpřespassages. Samostatnéautorovotvrzení32odefactostandardupodporovanémvětšinousystémů nebylo vtomtovýkladu ověřováno jakoaktuálnífakt a zůstává k výslovnému historickémurámování. Přednovouaktivitouceláobnovenámapa5zdrojů/177pasážíporovnánasúplnouhistorií44staršíchcheckpointů a14vlastníchnásledných akontrolouhistorystart58total58 plusaktuálníodpovědí. Ostatníneprobranéčástiúvodu a4dalšíprezentacezůstávají.5A a anketa19–20 uzavřeny podle přáníuživatele.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:26"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:30"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:31"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:32"
+        }
+      ],
+      "next_step": "Pokračovat podrobnostmiCRISP-DM33–39 po odpovědi na testdesign. Historickámapa26 nynívyložena; netřeba každéjménoopakovanězkoušet. Zbývajínovépodrobnostiprvní/datových/hodnoticí/deploymentfáze33 a původních34–39 nad dřívějšímpřehledem. Podrobnostimodelování33 jsouzaznamenánysamostatně.",
+      "review_on": null,
+      "created_at": "2026-10-23T04:11:46.612383+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-17-crisp-modelovani-test-design",
+      "activity": "Nový detail z podrobnéhoschématuCRISP-DM33: modelovacífázeobsahujeSelectModelingTechnique -> GenerateTestDesign -> BuildModel -> AssessModel; přivýběrumetodysezaznamenávajípředpoklady a přihodnocenímohounásledovatúpravyparametrů. Podstatnýnovýbod:návrhtestovánípředvytvořenímmodelu.",
+      "learner_answer": "",
+      "evaluation": "Výkladskonkrétnímipořadímčtyřpodkroků a jednouotevřenouotázkouzobrazenpředuložením. Původníobrázek33znovuotevřenvplnémrozlišení912x595,všechnyčtyřinázvy aModelingAssumptions/RevisedParameterSettingsčitelné. Ostatnísloupceobrázkujsouskutečněprohlédnuté,alenejsoutímtozáznamemoznačenyzaprobírané; stejnětakModelDescriptionavšechnydalšíartefaktybudouvysvětlenyjenpři skutečnémvýkladu. Samostatnézdůvodněnítestdesignzatímneověřeno. Neodvozovánpřesnýtypvalidace,kterýobrázekneurčuje. Obrázky26,29,32,33 a dalšíderivátyzůstávajív /tmp/dzdb-metodiky-j8gsgrn7/slideN.png;originályzachovány a dočasnýPPTX/profiljižodstraněny.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:33"
+        }
+      ],
+      "next_step": "Vyčkatnaodpověď:Pročjevhodnénavrhnoutzpůsobtestováníještěpředvytvořenímmodelu? Přijmoutvěcnédůvodyplánunezávisléhohodnocení,stanoveníkritérií/rozdělenídat,omezeníovlivněnítestutréninkemčiladěním atp.;nevyžadovatjedinýformulářanidefinicikonkrétníchvalidací.Neověřenývěcnýrozsahpřípadnědoplňujícíhopraktickéhovysvětleníoznačitpodlezdrojů;výkladnadpořadíschématuvlastnídidaktickáaplikace. Potom doplnitmodelování33/37:volbaanalytickýchmetod,parametry,iterace,úpravy dat,ověřeníznalostí,ModelDescription/ModelAssessmentartefakty;návaznědalšíneprobranépodrobnosti33–39. Historickývýrok32o standardurámovatjakotvrzeníprezentace,nikolivaktuálněověřenýstav.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T04:11:46.805530+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-18-test-design-predem",
+      "activity": "Zdůvodnit, proč ve schématu modelováníCRISP-DM33 navrhnout způsob testování ještě před vytvořením modelu.",
+      "learner_answer": "aby jsme nemohli testování navrhnout podle výsledku modelu a dosáhnout tak lepších výsledků",
+      "evaluation": "Splněno bez dodatečné metodické nápovědy. Kritérium: věcně zdůvodnit předem navržené testování, například omezením přizpůsobování testu výsledkům a optimistického zkreslení hodnocení. Uživatel samostatně přesně formuloval tento důvod; slova dosáhnout lepších výsledků jsou v kontextu správně chápána jako vykázání lepšího testového hodnocení, ne nutně skutečné zlepšení generalizace. Ve zpětné vazbě asistent upřesnil příliš optimistické hodnocení a nové případy. Detailní návrh testu, práce s nezávislýmtestemsouborem či nestedvalidace nebyly vyžadovány a nejsou tímto pokusem ověřeny. PořadíGenerateTestDesign předBuildModel pochází ze zdroje33; konkrétní zdůvodnění bylo vyvozeno uživatelem jako didaktická aplikace, nikoli vydáváno za doslovný text snímku. Zpětná vazba a jedna další otázka zobrazeny před uložením.",
+      "result": "passed",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:33"
+        }
+      ],
+      "next_step": "Pokračovat doplněním konkrétních výstupů porozuměníproblematice33–34; nyní čeká aplikace omezení100oslovenýchdenně do zadání. Další neprobrané podrobnosti datovýchfází/modelování/Evaluation/Deployment ponechat v plánu.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T06:39:45.822712+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-19-crisp-zadani-a-omezeni",
+      "activity": "Dokončení struktury BusinessUnderstanding ze sn.33 ve vazbě34: kontext/obchodnícíle/kritéria obchodníhoúspěchu; AssessSituation inventura datových,výpočetních,lidskýchzdrojů, požadavky,předpoklady,omezení,rizikaanáhradnípostupy,sjednoceníterminologie,nákladyapřínosy; analytickécíleavlastníkritériaúspěchu; předběžnýprojektovýplánaposouzenínástrojůatechnik. Vysvětlen významprovozníchomezeníprovyužitelnostzadání.",
+      "learner_answer": "",
+      "evaluation": "Výklad všech čtyřskupin a uvedenýchdílčíchvýstupů skutečnězobrazen nástrojemprůběžnéhovstupu předuložením scitací33–34 a jednouaplikačníotázkou. Vtomtotahuobrázek33znovuvizuálněotevřenvplnémrozlišení; text34–39znovunačtenpřespassages. Užznámýobchodnícíl explicitněoznačenjakodříveprobraný,nynídoplněnykonkrétníartefakty a provedenaaplikaceomezení. Vlastnípříklad100individuálníchoslovenídenně není konkrétnímpříklademzesnímku ani empirickýmnákupnímpravidlem. Přednovouaktivitouporovnánaobnovenácelámapa5zdrojů/177pasáží s kompletníhistorií44starších+17vlastníchcheckpointů a kontrolouhistorystart61total61, plusaktuálníodpovědí. Materiálystálenedokončené,další4prezentacenemají výuku a drobnéobrazovédetailyzůstávajíkonkrétnímezerou. Ankety19–20 a5Auzavřenydlepřáníuživatele.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:33"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:34"
+        }
+      ],
+      "next_step": "Vyčkatnaodpověď: model vybírázákazníkyproindividuálnínabídku,kapacita100lidídenně;jakpromítnoutomezenídoanalytickéhozadání? Přijmoutprioritizaci/pořadí/nejvýše100vhodnýchpřípadů,avpřípaděvhodnězdůvodněnýdalšídopadnakritériaúspěchu;nevyžadovattermínupliftnebospecifickýalgoritmus,nepřipisovatkauzálníchybupouhézmínceodchodovéhorizika. Poté doplnitzbývajícímodelovacíartefakty33/37 (popismodelu, nastaveníparametrů,hodnoceníaúpravy,iterace,návratkdatům) a obsahyDataUnderstanding33/35,DataPreparation33/36,Evaluation33/38 aDeployment33/39 nadjižznámýpřehled. Mezeru32odefactostandardurámovatvýslovnějakohistorickétvrzeníprezentace. Obrázek33v /tmp/dzdb-metodiky-j8gsgrn7/slide33.png.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T06:39:46.022131+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-20-kapacita-a-prioritizace",
+      "activity": "Vlastní aplikace provozníchomezení vBusinessUnderstandingCRISP-DM33–34: modelvybírázákazníkyproindividuálnínabídku,kapacitaobchodníků100oslovenídenně;promítnoutomezenídoanalytickéhozadání.",
+      "learner_answer": "Každý den dát obchodníkům jen 100 lidí k zákazníků k dispozici a řadit zákazníky od nejlepšího percentilu aby byla lepší úspěšnost",
+      "evaluation": "Splněno bez dodatečné metodické nápovědy. Kritérium: přizpůsobit výstup kapacitě a navrhnout prioritizaci vhodnýchpřípadů. Samostatně navrhl dennívýběr100zákazníků a řazeníodnejlepšíhoperc entilu s cílemúspěšnosti. Drobnépřeklepynejsouhodnocenychybou a nejdeo100tisíc. Pojemnejlepšíneníještěvázánnakonkrétnískóre;vetétoúlozestačízdůvodněnáprioritizace. Ve zpětnévazběasistentdoplnilpotřebudefinovatskórepodlecíle,např.očekávanýpřínosnabídky, a hodnotitvybranoustovku. Tento dodatečnýpříkladnenídatověověřenámetrikaanipožadaveknaupliftmodel. Nenízodpovědidovozovánazáměnarizikaaovlivnitelnosti. Zpětnávazba a následnáotázkazobrazenypředzápisem.",
+      "result": "passed",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:33"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:34"
+        }
+      ],
+      "next_step": "Doplnitdatovéfáze33/35–36; aktuálněčekározlišeníkonstrukceodvozenéútraty a integracetabulek. Potéuzavřítzbývajícídrobnévýstupymodelování33/37 aEvaluation/Deployment33/38–39.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T06:51:50.041204+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-21-crisp-datove-faze",
+      "activity": "Doplněnídatovýchfází33/35–36:DataUnderstandingsběr,popis,explorace,kontrolakvality,četnosti,průměry,vizualizace,zajímavépodmnožiny;4zprávy(osběru,popisu,průzkumu,kvalitě). DataPreparationvýběrrelevantníchzáznamů/atributůazdůvodněnízahrnutí/vyřazení,čištěníazáznamúprav,transformace,konstrukceodvozenýchatributů/novýchzáznamů,integracezdrojů,formátování;možnostopakovánírůznýchpořadí,výstupdatasetajeho popis.",
+      "learner_answer": "",
+      "evaluation": "Výkladskonkrétnímivýznamyoperací a citacemi33/35–36zobrazenpřesprůběžnývstuppředzápisem. Vtomtotahu33znovuvizuálněotevřeno,35–37znovunačtenopřespassages. Zachoványvšechnypodkrokyaartefaktydatovýchsloupců33,mimoexplicitněnové označenítransformacezesamostatného36; příkladyzměnyměřítkačičištěníoznačenyvýukovouilustrací. Dříveznámýzákladrozdíluporozuměníapřípravynepřipisovánjakonovězvládnutý;teďdoplňujemepodrobnosti,zprávy aoperace. Předsvolenímnovéaktivityporovnánaceláobnovenámapa5zdrojů/177pasáží s44staršímihistorickýmizáznamy a19vlastnímináslednými akontrolouhistorystart63total63plusaktuálníodpovědí. Dalšíobsahúvodu i4dalšízdrojezůstávajíneprobrané;specifické drobnénečitelnéobrazovéčástizůstávajíkonkrétnímezerou.5A a anketa19–20uzavřenypodleuživatele.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:33"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:35"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:36"
+        }
+      ],
+      "next_step": "Vyčkatnaodpověď:vlastnídatabázepříkladtabulkyKlienti a jednotlivéObjednávky,výstupke každémuklientovicelkováútrataza90dní;kterédvěoperacea co dělají? Očekávatkonstrukciagregovanéhoodvozenéhoatributu a integracispojenímpřesIDklienta,pořadílibovolnépřivhodnémsmyslu. Přijmoutvěcněsprávnénázvyvlastnímislovy,nevyžadovatSQLanidvaoddělenéprůchody;jedendotazmůžeplnitoběfunkce. Zmínkadalšíselekcečasovéhooknajeplatná,alezcíleúlohyještěověřitkonstrukciaintegraci. Potédoplnitzbývajícívýstupymodelování33/37(popismodelu,nastaveníparametrů,modelassessment,iterace/úpravydat/ověření) aEvaluation33/38(zhodnocenídlebusinesskritérií,approvedmodels,reviewprocess,dalšíkroky) aDeployment33/39(plánnasazení,monitoring/údržba,závěrečnázpráva/prezentace,reviewprojektuadokumentacezkušeností,UI/manualy/školení/předpisy). Zbývajícídrobnost32oroli standardurámovatjakohistorické tvrzeníprezentace. Obrázky33adalšív /tmp/dzdb-metodiky-j8gsgrn7/.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T06:51:50.225842+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-22-selekce-integrace",
+      "activity": "Vlastní příklad k přípravědat33/36: oddělené tabulkyKlienti a jednotlivéObjednávky;ke klientovi chceme celkovouútratu za90dní. Otázka požadovala dvě potřebnéoperace a jejichúčel.",
+      "learner_answer": "selekce a integrace",
+      "evaluation": "Přijato jako správné určení dvou relevantních operací bez dodatečné metodické nápovědy: selekce pro výběr90denníhoobdobí a integrace pro propojenís klienty. Uživatel explicitně jejichúčelnerozepsal,jejichkonkrétnírole doplnilasistentvezpětnévazbě,nikolipřipisovatjejakojehovlastnívysvětlení. Původní interníočekáváníkonstrukce+integracebylopřílišúzké,protožezadánívyžadujetakéčasovouselekci a nedávalosmyslvylučovatplatnývýběr. Asistentvýslovněuznalpřílišúzkouformulacidvěoperace a doplnil třetíkonstrukciprosoučetčástek. Nelze z tétoodpovědidovozovatneporozuměníkonstrukci ani hodnotitchybnějenproodlišnostodskrytémyšlenédvojice. Passed platípouzeprovolbouvěcněplatnýchdvouoperací,nikoliprosamostatnýnávrhkompletníhopostupunebovysvětlenívšechoperací. Zpětnávazba a dalšíotázkazobrazenypředuložením.",
+      "result": "passed",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:33"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:36"
+        }
+      ],
+      "next_step": "Vyčkatnanovývlastníodvozenýpříznakze záznamůobjednávekpropredikciodchodu a jehovýznam; tímověřitužitečnoukonstrukcibezopakováníspornédvojiceoperací. Potédoplnitmodelovacíartefakty33/37 aEvaluation/Deployment33/38–39.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T08:07:06.932543+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-23-konstrukce-agregovaneho-priznaku",
+      "activity": "Konkrétnídoplněníkonstrukcedatze33/36:vlastnípříkladsoučtučástekobjednávekza90dníjako novéhoodvozenéhopříznakuklienta;rozlišeníselekceobdobí,integraceobjednávekaklientů a konstrukcesoučtu.",
+      "learner_answer": "",
+      "evaluation": "Výkladskonkrétnímvýznamem3operacízobrazenvezpětnévazbě a vprůběžnéotázcepředuložením. Jdeovlastnívýukovouaplikacikonstrukcezesnímků33/36,nikoliočíselnýpříkladzesnímku. Nedokládatnovéprobránídalšíceléstránky aniautomatickésamostatnézvládnutíkonstrukce. Předdalšíaktivitouporovnánacelápracovnímapa5zdrojů/177pasážízprůzkumutétokonverzace s kompletněnačtenouhistorií44staršíchcheckpointů a21vlastníchnáslednýchzáznamůvčetněvlastníchvýkladů a posledníkontrolyhistorytotal63doplněnédvěmavlastnímináslednýmizápisy(aktuálně65předtímtotahem). Zůstávádílčíneprobranýobsahúvodu,konkrétnínepřečtenédetailyobrázků a celé4dalšíprezentace.Anketa19–20 a5Auzavřenypodlepřáníuživatele.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:33"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:36"
+        }
+      ],
+      "next_step": "Vyčkatnaodpověď:jakýještějedenodvozenýpříznakzobjednávekpropredikciodchodua co zachycuje? Přijmoutvěcněsmysluplnérecency/frequency/monetaryčiobdobnécharakteristiky,jednokonkrétnívlastnířešeníbezpožadavkunaanglickýtermín,kódčiempirickýdůkazpredikčnísíly.Pokuduživateluvedezákladnísloupec,mírněodlišitpřevzetíatributu a odvozenínového,nepřipisovatchyběcelounezvládnutoupřípravu.Dosudnovápokusováodpověďneexistuje,nehodnocena.Základníkonstrukcesoučtubylaprávěvysvětlena,dalšímetodickápomocknovémukonkrétnímupříznakuzatímnení.Následněmodelování33/37 aEvaluation/Deployment33/38–39;nevkládatdalšízbytečnáidentifikačnícvičeníkdatovýmfázím.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T08:07:07.124324+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-23-24-crisp-model-evaluation-deployment",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Dokončení zbývajících konkrétních podrobnostíCRISP-DM33/37–39: Modelovánívybranámetoda,předpoklady,testdesign,parametry,vytvořenémodely,popismodelu,hodnocení,úpravyparametrů,iterace,návratkúpravámdat,ověřeníznalostí. Evaluationzhodnocenídlebusinesskritérií,schválenémodely,revizepostupuprojektu,přehledmožnýchakcí,rozhodnutíodalších krocích/využití. Deploymentplánnasazení,plánmonitoringuaúdržby,závěrečnázpráva/prezentace,zhodnoceníprojektuadokumentacezkušeností,použitelnostasrozumitelnostprozadavatele;konkrétníbankovnípříkladUI,manuál,instalacepobočky,školení,změnavnitřníchpředpisů.",
+      "learner_answer": "",
+      "evaluation": "Celý popsaný výklad se třemi body a jednou navazující otázkou zobrazen nástrojem průběžného vstupu před uložením. Text37–39 znovu načten přespassages; vložený diagram33znovuvizuálněotevřenvplnémrozlišení a použityvšechny uvedenémodelovací/hodnoticí/nasazovacípodkrokyaartefakty. Tím doplněny dříve jen přehledově zobrazené fáze; samostatně ověřeny jsou pouze skutečné uživatelovy předchozí odpovědi, nikoli automaticky celá metodika. Uživatel nyní výslovně zadal „tohle označ za hotové, pojdme dál“: příprava dat se uzavírá a otázka na další vlastní odvozenýpříznak se ruší; nevyhodnocovat ji jako chybu a nezapisovat smyšlenýpassed. Toto přání není úplným testemdatovýchdovedností, ale výklad33/35–36 již doložen. Bez dalšího vyžádání nevracet tuto otázku ani další elementární zkoušení přípravy dat. Před novou aktivitou celá pracovnímapa5zdrojů/177pasáží z průzkumu této session porovnána s kompletní44staršíhistorií a23vlastnímináslednýmizáznamy a kontrolouhistory start67 total67. Zůstávají neprobrané PMML/API,nástroje a čtyřidalšíprezentace a konkrétní drobné detaily dřívějšíobrazovéukázky. Anketa19–20 a5Arovněžuzavřenypodlepřáníuživatele.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:33"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:37"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:38"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:39"
+        }
+      ],
+      "next_step": "Vyčkatnaodpověď:Pročsoučástívyužitívýsledkůplánsledováníaúdržbymodeluponasazení? Přijmoutodůvodněnízměnamidat/prostředí/chování,kontroloukvality/přínosu,detekcíproblémůaplányreakcí. Nevyžadovatkonkrétnímetriky,algoritmydriftu nebo technickýmonitoringstack,kterézdrojnedodává. Jdeosamostatnépraktickézdůvodněníartefaktu33,nikolidokladúplnéhozvládnutíMLOps. Potom PMML40–43: načísttext a vizuálněotevřítmodelstromu42 aXML43 (čtecípomůcky v /tmp/dzdb-metodiky-j8gsgrn7/slide42.png a slide43.png);API44 a nástroje45–58následně. Ještě historickyrámovat autorůvvýrok32odefactostandardupodporovanémvětšinousystémů,nevydávatzaaktuálněověřenýstav. Metodiky25–39vyloženyvčetněpodrobností33 (mimo tento neověřený aktuální soud32); nevyžadovatpamětnícvičeníkaždéhonázvu. Přípravadat,5A a anketa19–20 uzavřenynapřáníuživatele;nevracetzrušenéotázky.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T08:44:55.080673+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-23-25-monitoring-degradace",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "Zdůvodnit plán sledování a údržby po nasazení modelu, CRISP-DM, sn. 33 a 39.",
+      "learner_answer": "abychom věděli, že výslekdy modelu nedegradují",
+      "evaluation": "Splněno bez dodatečné nápovědy: uživatel samostatně odůvodnil sledování odhalováním zhoršování výsledků modelu. Konkrétní metriky, příčiny degradace a plán reakcí nebyly vyžadovány a nejsou ověřeny. Asistent doplnil údržbu jako určení reakcí na zjištěné problémy. Zpětná vazba a další otázka zobrazeny před zápisem.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:33"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:39"
+        }
+      ],
+      "next_step": "Pokračovat PMML 40–43; čeká vlastní příklad zachování jednotek a transformace při přenosu stromu.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T08:49:57.030961+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "checkpoint_id": "dzdb-2026-10-23-26-pmml-struktura",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "activity": "PMML 40–41: Predictive Modeling Markup Language, standard na bázi XML vyvinutý Data Mining Group; popis dat, transformací a modelů. Header: informace o dokumentu/modelu, popis/autorství. Data Dictionary: definice datových polí/hodnot. Data Transformations: úpravy dat a odvozené příznaky. Model: vlastní model včetně struktury a podmínek stromu. Dobový výrok 32 o CRISP-DM jako de facto standardu většiny systémů výslovně rámován jako tvrzení prezentace.",
+      "learner_answer": "",
+      "evaluation": "Výklad a jedna otázka zobrazeny přes průběžný vstup před uložením. Text 40–44 znovu načten přes passages; 40 je oddílový nadpis. Obrázky 42 a 43 skutečně vizuálně otevřeny v plném rozlišení, ale ještě nebyly vyloženy uživateli. Praktický příklad částek v tisících/Kč je vlastní aplikace, nikoli údaj snímku nebo finanční doporučení. Není tvrzena aktuální verze standardu ani podpora libovolného modelu ve všech systémech. Celá obnovená mapa pěti zdrojů/177 pasáží porovnána se všemi 44 staršími checkpointy a 24 vlastními následnými, kontrola history start68 total68, plus aktuální odpověď. Metodiky 25–39 vyloženy v doložených rozsazích, ne automaticky samostatně zvládnuté. Anketa 19–20, 5A a příprava dat uzavřeny na přání uživatele. Další části úvodu, drobné obrazové detaily a čtyři další prezentace stále neprobrány. První příprava těchto dvou zápisů selhala kvůli syntaxi dočasného Python skriptu před vytvořením souborů; tento opravený zápis používá nově připravené stejné ID, žádné dřívější checkpointy nebyly změněny.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:40"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:41"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:32"
+        }
+      ],
+      "next_step": "Vyčkat: strom trénovaný s útratou v tisících Kč má práh30, nová aplikace používá Kč. Nestačí přenést jen strom; zachovat význam vstupů a potřebnou transformaci či ekvivalentní převod prahu. Poté vyložit 42–43: strom loan, větve income/account/unemployed, A/n; Header, DataDictionary, MiningSchema, Node, SimplePredicate. Vizuální pomůcky /tmp/dzdb-metodiky-j8gsgrn7/slide42.png a slide43.png. Pozor na skutečné redakční chyby screenshotu43: samouzavírání DataField před vnořenými Value, místy neúplné uvozovky optype, a proti stromu42 chybějící explicitní podmínka account=medium nad větvením unemployed. Neoznačovat obrázek43 za bezchybný spustitelný XML ani za přesně odpovídající stromu42; případnou ověřovanou současnou specifikaci čerpat z oficiální DMG. API44 a nástroje45–58 poté.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T08:49:57.330469+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-27-pmml-meritko-vstupu",
+      "activity": "Vlastní příklad k PMML41: strom trénován s útratou v tisících Kč, práh30; nová aplikace přijímá Kč. Posoudit přenos samotného stromu a zachování vstupů.",
+      "learner_answer": "je nutné útratu přepočítat na tisíce KČ aby bylo zachováno měřítko modelu",
+      "evaluation": "Splněno bez dodatečné metodické nápovědy. Kritérium: zachovat stejné měřítko/význam vstupů a převzít potřebné zpracování, zde převést Kč na tisíce Kč. Uživatel přesně a samostatně uvedl tento převod i jeho důvod. Asistent doplnil explicitní dělení1000. Neověřena implementace PMML transformace ani univerzální přenositelnost modelů. Zpětná vazba a navazující otázka zobrazeny před zápisem.",
+      "result": "passed",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:41"
+        }
+      ],
+      "next_step": "Pokračovat propojením diagramu42 a XML43; nyní čeká doplnění podmínky account pro větev s unemployed. Poté dokončit drobné zbývající vysvětlení ukázky a přejít na API44.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T09:08:58.784300+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-28-pmml-strom-a-xml",
+      "activity": "Výklad konkrétního stromu42 a XML43: DataDictionary obsahuje5kategoriálních polí income(low/high), account(low/medium/high), sex(male/female), unemployed(yes/no), loan(A/n). MiningSchema loan usageType=predicted, sex uveden jako vstup ale nevyužitý ve větvení. TreeModel strom, vnořenéNode uzly, SimplePredicate podmínka, příklad scoreA/income equal high. Všechny cesty stromu42: incomehigh->A; incomelow accounthigh->A; incomelow accountlow->n; incomelow accountmedium unemployedyes->n/no->A. XML43 má redakční chyby a vynechává podmínku.",
+      "learner_answer": "",
+      "evaluation": "Celý výklad a jedna otázka zobrazeny přes průběžný vstup před uložením. Text42–43 znovu načten přes passages a obě původní vložené bitmapy opět skutečně otevřeny v plném rozlišení. Zobrazeny všechny rozhodovací cesty diagramu42. Samotná syntaxe screenshotu43 není prezentována jako validní spustitelný XML ani jako úplně shodný model; přímo vizuálně má chybné samouzavírání některých DataField před vnořenými Value, neúplné uvozovky optype a chybějící predikát account=medium nad větvením unemployed. Poslední z těchto rozdílů je předmětem nové otázky, řešení nebylo v otázce výslovně dodáno, je ale zjistitelné z právě vyloženého stromu. Pětice polí a všechny hodnoty, target a nevyužité sex vysvětleny; kořenový True/default scores, metadata Header/modelName/version a číselné popisky listů42 dosud nejsou touto aktivitou samostatně vyloženy. Před aktivitou celá obnovená mapa5zdrojů/177pasáží porovnána s44staršími checkpointy a26vlastními následnými a kontrolouhistory start70 total70 plus aktuální odpovědí. Další API/nástroje a4další prezentace stále neprobrány. Výslovně uzavřené části (anketa,5A,příprava dat) neotvírat znovu bez vyžádání.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:42"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:43"
+        }
+      ],
+      "next_step": "Vyčkat: jaká podmínka pro account omezuje větev s unemployed podle stromu42? Očekávat account=medium. Přijmout české střední i XML SimplePredicate field=account operator=equal value=medium; kód není vyžadován. Nezaměňovat s inkomelow, který je rovněž nutným předkem, ale otázka míří na account. Následně ještě krátce úplně popsat metadata43 (XML1.0,PMML4.0 jako údaj ukázky,HeadercopyrightP.B./description,modelName loan approval decision tree), kořenovýTrue a případnou roli vnitřních scores jen po dostatečně jistém ověření. Čísla listů42 jsou5/2/2/2/1; neodhadovat univerzální význam Weka závorek bez primárního podkladu, konkrétní nevyloženou nejistotu držet přiznanou. Poté API44: SQL/MM DataMining,OLEDBforDataMining,JavaDataMining plus konkrétní CREATE MINING MODEL ukázka z bitmapy44; dále systémy45–58. Obrázky v /tmp/dzdb-metodiky-j8gsgrn7/slideN.png. Drobné zbylé obrazové detaily starších10–15 jsou nadále neprobrané/omezeně čitelné; nedovozovat úplnost celého úvodu.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T09:08:59.103554+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-29-pmml-account-medium",
+      "activity": "Podle diagramu42 určit chybějící podmínku account, která omezuje následné větvení podle unemployed ve srovnání s XML43.",
+      "learner_answer": "medium",
+      "evaluation": "Splněno bez dodatečné metodické nápovědy. Kritérium: doplnit account=medium. Odpověď medium přesně vystihuje požadovanou hodnotu, není nutný úplný XML zápis. Ve zpětné vazbě asistent doplnil také nadřazenou podmínku income=low; ta není samostatným výkonem této odpovědi. Ověřena tato cesta stromu a rozpoznání vynechané podmínky, nikoli validace celého PMML. Zpětná vazba a navazující otázka zobrazeny před uložením.",
+      "result": "passed",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:42"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:43"
+        }
+      ],
+      "next_step": "Pokračovat historickou API ukázkou44; čeká rozlišení Loan predict a USING Microsoft Decision Tree. Poté systémy45–58.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T11:44:28.802614+00:00"
+    },
+    {
+      "subject_id": "dzdb",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "uvod-a-proces",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikacni",
+      "misconceptions": [],
+      "checkpoint_id": "dzdb-2026-10-23-30-pmml-metadata-a-api",
+      "activity": "Dokončení metadat PMML43: XML1.0, PMML4.0, Header copyright P.B. a popis příkladu, TreeModel modelName loan approval decision tree; kořenový True vždy platí. API44: programová/databázová rozhraní pro vytváření/použití modelů; SQL/MM Data Mining pro přístup z relačních databází k algoritmům, OLE DB for Data Mining od Microsoftu, Java Data Mining. Historická ukázka CREATE MINING MODEL CreditRisk: CustomerId long key, Income/Account/Sex text discrete, Unemployed boolean discrete, Loan text discrete predict, USING Microsoft Decision Tree. Vysvětlen název modelu, identifikátor a definice datových polí.",
+      "learner_answer": "",
+      "evaluation": "Výklad včetně celé uvedené definice polí a jedné otázky skutečně zobrazen přes průběžný vstup před uložením. Text44–48 načten přes passages a obrázek44 skutečně otevřen v plném rozlišení536x331. Obrazová ukázka byla přepsána s odstraněním nadbytečné čárky za posledním polem; jde o výukový přepis historického příkladu, ne tvrzení o aktuální univerzální SQL syntaxi nebo dostupnosti poskytovatele. PMML metadata pocházejí z bitmapy43 již skutečně opakovaně otevřené v této konverzaci. Pojmy long/text/boolean ponechány v ukázce, discrete reprezentuje kategoriální pole podle příkladu; neodvozovat z počtu uzlů v diagramu obecnou sémantiku všech atributů Node. Číselné popisky listů42 a úplná sémantika vnitřních score nejsou zatím výslovně probrány/ověřeny. Před aktivitou celá obnovená mapa5zdrojů/177pasáží porovnána s44staršími checkpointy a28vlastními následnými a kontrolouhistory start72 total72, plus aktuální odpovědí. Neprobraný zbytek nástrojů45–58, další čtyři prezentace a konkrétní drobné obrazové detaily zůstávají. Anketa19–20,5A,příprava dat uzavřeny dle uživatele.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:43"
+        },
+        {
+          "source_id": "uvod-v1",
+          "locator": "slide:44"
+        }
+      ],
+      "next_step": "Vyčkat: rozdíl predict uLoan vs USING Microsoft Decision Tree. Očekávat cílové předpovídané pole versus použitý algoritmus/metoda. Přijmout věcné vyjádření vlastními slovy, nevyžadovat jazyk specifikace. Poté systémy45–48: pokrytí celého procesu, nabídka více metod, vizualizace; historické srovnání komerčních/volně dostupných/open-source a rozporný bod zdroje o kontrole implementace u open-source věcně rozlišit. Základní text již načten;45–48 nevyučovány samotným čtením. Dále vizuální nástroje49–58 v /tmp/dzdb-metodiky-j8gsgrn7/slideN.png; historické ankety/verze/ceny nedeklarovat jako současný stav. Drobné údaje listů42 a vnitřních score43 i dřívější drobné obrazové detaily10–15 zůstávají konkrétní nejistotou, nikoli důvod k tvrzení úplného pokrytí všech materiálů.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T11:44:29.118275+00:00"
     }
   ]
 }

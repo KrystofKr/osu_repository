@@ -15,9 +15,9 @@
         "Rozlišit teorii, model, metodu, metodiku a metodologii a vysvětlit způsoby odvozování závěrů."
       ],
       "prerequisites": [],
-      "status": "unseen",
+      "status": "practicing",
       "misconceptions": [],
-      "review_on": null
+      "review_on": "2026-10-25"
     },
     "otazky-a-hypotezy": {
       "subject_id": "dpro",
@@ -27,9 +27,9 @@
         "Sladit problém, cíl, otázku a hypotézu a operacionalizovat sledované proměnné."
       ],
       "prerequisites": [],
-      "status": "unseen",
+      "status": "demonstrated",
       "misconceptions": [],
-      "review_on": null
+      "review_on": "2026-10-27"
     },
     "vyzkumne-pristupy-a-data": {
       "subject_id": "dpro",
@@ -39,9 +39,9 @@
         "Zdůvodnit volbu výzkumného přístupu a způsobu získání dat podle otázky a proveditelnosti."
       ],
       "prerequisites": [],
-      "status": "unseen",
+      "status": "practicing",
       "misconceptions": [],
-      "review_on": null
+      "review_on": "2026-10-25"
     },
     "reserse-citace-a-ai": {
       "subject_id": "dpro",
@@ -347,5 +347,1213 @@
       "created_at": "2026-10-15T18:28:35.447557+00:00"
     }
   },
-  "checkpoints": []
+  "checkpoints": [
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "next_step": "Rozlišit metodologii od metody a metodiky: Výzkumník zdůvodňuje, proč jsou pro pochopení důvodů odchodu zaměstnanců vhodnější hloubkové rozhovory než dotazník s předem danými odpověďmi. Jde především o metodu, metodiku, nebo metodologii? Proč? Kritérium: metodologie, protože zdůvodňuje volbu způsobu poznávání podle otázky. Otázka zatím nezodpovězena. Dále neprobrané pojmy teorie, model, paradigma; analýza a syntéza; způsoby usuzování; předpoklad a hypotéza; druhy výzkumného přínosu (s. 2).",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-23-01",
+      "activity": "Vstupní úloha (vlastní příklad podle s. 3 a 6): Student porovná známky lidí, kteří sami od sebe používají výukovou aplikaci, se známkami ostatních. Uživatelé aplikace mají v průměru lepší známky. Může z tohoto zjištění samotného vyvodit, že aplikace známky zlepšila? Proč?",
+      "learner_answer": "Ne, u lidí co **sami od sebe používají výukovou aplikaci**  lze očekávat vlastnosti, které budou spojené s lepším prospěchem. Jedná se o korelaci, ne kauzalitu",
+      "evaluation": "Kritérium splněno bez nápovědy: odmítl nepodložený kauzální závěr a vysvětlil samovýběr pomocí vlastností spojených s prospěchem. Samostatně doložil pouze rozlišení souvislosti a příčiny v tomto příkladu, nikoli zvládnutí celé kapitoly. Ve zpětné vazbě vysvětlen příklad motivace a upřesněno, že studie zároveň neprokazuje neúčinnost aplikace.",
+      "result": "passed",
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        },
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:6"
+        }
+      ],
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T18:26:28.757796+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "next_step": "Rozlišit metodologii od metody a metodiky: Výzkumník zdůvodňuje, proč jsou pro pochopení důvodů odchodu zaměstnanců vhodnější hloubkové rozhovory než dotazník s předem danými odpověďmi. Jde především o metodu, metodiku, nebo metodologii? Proč? Kritérium: metodologie, protože zdůvodňuje volbu způsobu poznávání podle otázky. Otázka zatím nezodpovězena. Dále neprobrané pojmy teorie, model, paradigma; analýza a syntéza; způsoby usuzování; předpoklad a hypotéza; druhy výzkumného přínosu (s. 2).",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-23-02",
+      "activity": "Výklad pouze tří pojmů ze s. 2: metoda jako obecný způsob zkoumání (rozhovor), metodika jako konkrétní provedení v dané práci (s kým, otázky, zpracování), metodologie jako úvahy a pravidla pro volbu a zdůvodnění způsobu poznávání (proč rozhovor odpovídá otázce). Vysvětlen rozdíl mezi pojmenováním metody, popisem jejího provedení a zdůvodněním vhodnosti. Ostatní obsah s. 2 nebyl vyložen.",
+      "learner_answer": "",
+      "evaluation": "Tři pojmy vysvětleny s příklady a srovnáním; samostatné rozlišení zatím neověřeno, navazující otázka čeká na odpověď.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "review_on": null,
+      "created_at": "2026-10-23T18:26:29.009238+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-01",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "activity": "Výzkumník zdůvodňuje, proč jsou pro pochopení důvodů odchodu zaměstnanců vhodnější hloubkové rozhovory než dotazník s předem danými odpověďmi. Jde především o metodu, metodiku, nebo metodologii? Proč?",
+      "learner_answer": "Výzkumník porovnává dvě metody",
+      "evaluation": "Odpověď správně postihuje, že jsou porovnávány dvě metody, ale neurčuje požadovaný pojem metodologie ani nevysvětluje úroveň zdůvodnění volby. Kritérium rozlišení metody, metodiky a metodologie proto zatím není doloženo; z této stručné odpovědi nelze dovodit širší neporozumění. Zpětná vazba uznala pravdivou část a vysvětlila, že zdůvodnění vhodnosti metody pro výzkumnou otázku patří k metodologii. Zopakován rozdíl pojmenování / konkrétní provedení / zdůvodnění.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Výzkumník osloví 12 bývalých zaměstnanců, s každým provede třicetiminutový rozhovor a odpovědi roztřídí podle opakujících se témat. Který z pojmů metoda/metodika/metodologie vystihuje tento popis a proč? Kritérium: metodika, protože specifikuje konkrétní provedení výzkumu. Před otázkou byl zopakován rozdíl tří pojmů; případný úspěch znamená bezprostřední procvičení, nikoli vybavení s odstupem. Dále znovu ověřit metodologii v jiném kontextu. Zbytek s. 2 (teorie, model, paradigma; analýza/syntéza; usuzování; předpoklad/hypotéza; přínosy) zůstává neprobraný.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T02:33:11.647072+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-02",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "activity": "Výzkumník napíše: „Oslovíme 12 bývalých zaměstnanců, s každým provedeme třicetiminutový rozhovor a odpovědi roztřídíme podle opakujících se témat.“ Který ze tří pojmů metoda/metodika/metodologie nejlépe vystihuje tento popis a proč?",
+      "learner_answer": "metodika",
+      "evaluation": "Správně určil metodiku. Kritérium identifikace konkrétního provedení splněno; vlastní zdůvodnění v odpovědi neuvedl, bylo doplněno zpětnou vazbou (účastníci, délka rozhovoru, analýza). Před otázkou po předchozí neúplné odpovědi dostal rozlišovací pomůcku: pojmenování / konkrétní provedení / zdůvodnění. Jde o bezprostřední procvičení s podporou, nikoli doložení samostatného rozlišení všech tří pojmů s odstupem.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Výzkumník píše „Zvolili jsme experiment, protože pouhé pozorování by neumožnilo dostatečně oddělit účinek aplikace od rozdílů v motivaci studentů.“ Jde především o metodu, metodiku, nebo metodologii? Proč? Kritérium: metodologie, protože věta zdůvodňuje volbu způsobu výzkumu vzhledem k otázce a alternativním vysvětlením. Po ověření přejít k dalším neprobraným pojmům s. 2: teorie a model, paradigma, analýza a syntéza, způsoby usuzování, předpoklad vs hypotéza, přínosy. Korelace/kausalita v samovýběru doložena 23. 10.; neznamená pokrytí celých kapitol s. 3 a 6.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T02:49:29.902016+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Model předpoví 60 km za 30 minut při stálé rychlosti 120 km/h. Výpočet je bez chyby. Zaručuje skutečnou délku cesty? Vysvětlit rozdíl správného výpočtu a použitelnosti modelu. Kritérium: ne; musí odpovídat předpoklady (stálá rychlost, bez zastávek apod.), logická správnost uvnitř modelu nestačí k platnosti v reálu. Dále ověřit rozlišení teorie/model a zařadit dosud neprobrané paradigma, analýzu/syntézu, dedukci/indukci/analogii/komparaci/abstrakci/generalizaci, předpoklad vs testovatelnou hypotézu a přínosy výzkumu (s. 2). Zbytek zdroje zůstává neprobraný kromě jednotlivých zaznamenaných aktivit; podle celé pracovní mapy pokračovat všemi částmi.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-03",
+      "activity": "Výzkumník píše: „Zvolili jsme experiment, protože pouhé pozorování by neumožnilo dostatečně oddělit účinek aplikace od rozdílů v motivaci studentů.“ Jde v této větě především o metodu, metodiku, nebo metodologii? Proč?",
+      "learner_answer": "metodologii -> vysvětuji motivaci k použití konkrétní metody",
+      "evaluation": "Kritérium splněno: určil metodologii a zdůvodnil ji vysvětlením volby konkrétní metody. Výraz motivace v kontextu odpovědi správně znamená důvod výběru metody, nikoli motivaci studentů. Bez dodatečné nápovědy k této úloze; jde o úspěch v novém příkladu v bezprostředním procvičování po opravě, nikoli ověření s odstupem. Doloženo rozlišení zdůvodnění volby od pouhého pojmenování či popisu provedení; neprokazuje celou kapitolu.",
+      "result": "passed",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T02:53:45.271191+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Model předpoví 60 km za 30 minut při stálé rychlosti 120 km/h. Výpočet je bez chyby. Zaručuje skutečnou délku cesty? Vysvětlit rozdíl správného výpočtu a použitelnosti modelu. Kritérium: ne; musí odpovídat předpoklady (stálá rychlost, bez zastávek apod.), logická správnost uvnitř modelu nestačí k platnosti v reálu. Dále ověřit rozlišení teorie/model a zařadit dosud neprobrané paradigma, analýzu/syntézu, dedukci/indukci/analogii/komparaci/abstrakci/generalizaci, předpoklad vs testovatelnou hypotézu a přínosy výzkumu (s. 2). Zbytek zdroje zůstává neprobraný kromě jednotlivých zaznamenaných aktivit; podle celé pracovní mapy pokračovat všemi částmi.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-04",
+      "activity": "Výklad dvou pojmů ze s. 2: teorie jako propojený soubor pojmů a tvrzení vysvětlující jevy a umožňující předpovědi; model jako zjednodušené zachycení vybrané části skutečnosti, které může teorii konkretizovat. Vlastní příklad modelu doby cesty vzdálenost/stálá rychlost: 60 km při 120 km/h = 30 min; vynechané zastávky a změny rychlosti. Vysvětleno, že bezchybný výpočet v modelu nezaručuje správnou předpověď reálného světa, pokud neplatí jeho předpoklady. Předpoklad vs hypotéza ještě nerozlišeny, paradigma ani ostatní obsah s. 2 nevyloženy.",
+      "learner_answer": "",
+      "evaluation": "Definice teorie a modelu i omezení použitelnosti modelu byly skutečně vysvětleny. Porozumění a samostatné použití zatím neověřeny; navazující otázka čeká na odpověď.",
+      "result": "introduced",
+      "review_on": null,
+      "created_at": "2026-10-24T02:53:45.519249+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Dva výzkumné týmy používají odlišné modely stejného jevu. Stačí samotný tento rozdíl k závěru, že pracují v odlišných paradigmatech? Proč? Kritérium: ne; různé modely mohou vznikat v témže sdíleném rámci předpokladů, otázek a přístupů. Dále neprobrané části s. 2: analýza/syntéza, dedukce/indukce/analogie/komparace/abstrakce/generalizace, rozlišení předpokladu a testovatelné hypotézy, výzkumný přínos. Základ vědecké kritiky a empirický vs teoretický výzkum na začátku s. 2 také nebyly systematicky vyloženy. Pokrytí zbytku všech 21 stran vést podle celé pracovní mapy a konkrétní historie; jednotlivé příklady ze s. 3/6 nepokrývají celé kapitoly.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-05",
+      "activity": "Model předpoví, že autem ujedeš 60 km za 30 minut při stálé rychlosti 120 km/h. Výpočet je bez chyby. Zaručuje to, že skutečná cesta potrvá 30 minut? Vysvětli rozdíl mezi správností výpočtu a použitelností modelu.",
+      "learner_answer": "Ne, protožře vychází z předokladu, že se budeme pohybovyt bez zastávky a konstantí rychlostí",
+      "evaluation": "Kritérium splněno bez nápovědy k úloze: odmítl záruku skutečné doby a správně identifikoval podmínky konstantní rychlosti a jízdy bez zastávek. Doloženo porozumění podmíněné použitelnosti tohoto modelu po bezprostředním výkladu; neprokazuje samostatnou definici teorie ani paradigma.",
+      "result": "passed",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T02:57:48.383666+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Dva výzkumné týmy používají odlišné modely stejného jevu. Stačí samotný tento rozdíl k závěru, že pracují v odlišných paradigmatech? Proč? Kritérium: ne; různé modely mohou vznikat v témže sdíleném rámci předpokladů, otázek a přístupů. Dále neprobrané části s. 2: analýza/syntéza, dedukce/indukce/analogie/komparace/abstrakce/generalizace, rozlišení předpokladu a testovatelné hypotézy, výzkumný přínos. Základ vědecké kritiky a empirický vs teoretický výzkum na začátku s. 2 také nebyly systematicky vyloženy. Pokrytí zbytku všech 21 stran vést podle celé pracovní mapy a konkrétní historie; jednotlivé příklady ze s. 3/6 nepokrývají celé kapitoly.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-06",
+      "activity": "Výklad paradigmatu jako širšího rámce sdílených otázek, předpokladů a přístupů výzkumné komunity; rámec ovlivňuje výběr důležitých problémů a obvyklé způsoby zkoumání. Srovnání tří již/nově vysvětlených pojmů: teorie vysvětluje jevy, model zjednodušeně zachycuje vybranou skutečnost, paradigma sdílený rámec výzkumu. Vysvětleno, že změna konkrétního modelu či výpočtu nemusí znamenat změnu paradigmatu. Jiné části s. 2 nebyly tímto výkladem probrány.",
+      "learner_answer": "",
+      "evaluation": "Paradigma a vztah k teorii/modelu vysvětleny, nikoli dosud samostatně ověřeny. Změny paradigmatu a historické příklady nebyly vykládány; nejsou v této pasáži konkrétně uvedeny.",
+      "result": "introduced",
+      "review_on": null,
+      "created_at": "2026-10-24T02:57:48.630078+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Student zkoumá, proč lidé opouštějí online kurzy. Napíše tři samostatná shrnutí článků k tomuto tématu. Co musí udělat navíc, aby vznikla syntéza odpovídající na jeho otázku? Kritérium: propojit relevantní zjištění napříč studiemi, porovnat shody/rozdíly (případně podmínky) a vytvořit zdůvodněnou odpověď, nikoli jen seřadit shrnutí. Nevyžadovat vyjmenování všech dílčích slov, pokud myšlenku vystihne. Dále dosud neprobraná dedukce, indukce, analogie, komparace, abstrakce, generalizace; předpoklad vs hypotéza; výzkumný přínos a systematický/empirický/teoretický výzkum (s. 2). Dříve doložené: samovýběr vs kauzalita ve vlastní úloze s. 3/6; metodologie a metodika; podmíněná použitelnost modelu; omezená inference model/paradigma. Nepřenášet na celé kapitoly. Zbytek všech 21 stran ponechat v plánu podle mapy.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-07",
+      "activity": "Dva výzkumné týmy používají odlišné modely stejného jevu. Stačí samotný tento rozdíl k závěru, že pracují v odlišných paradigmatech? Proč?",
+      "learner_answer": "spíš pracují ve variacích stejného paradigmatu, liší se jen v modelu ale teorie je stejná",
+      "evaluation": "Jádro kritéria splněno: rozpoznal možnost různých modelů v témže paradigmatu, tedy že rozdíl modelů neimplikuje odlišná paradigmata. Přidal však předpoklad stejné teorie a stejného paradigmatu, pro něž zadání neposkytuje důkaz. Ve zpětné vazbě výslovně upřesněno, že stejnost teorie ani paradigmatu nelze ze zadání rozhodnout; je nutné porovnat širší předpoklady a přístupy. Výsledek passed se vztahuje pouze na možnost různých modelů ve sdíleném rámci, nikoli na samostatně bezchybnou práci se všemi třemi pojmy.",
+      "result": "passed",
+      "misconceptions": [
+        "Ze samotné odlišnosti modelů nelze dovodit ani stejnost teorie či paradigmatu; tento nepodložený dodatek byl opraven."
+      ],
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T03:02:14.967636+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Student zkoumá, proč lidé opouštějí online kurzy. Napíše tři samostatná shrnutí článků k tomuto tématu. Co musí udělat navíc, aby vznikla syntéza odpovídající na jeho otázku? Kritérium: propojit relevantní zjištění napříč studiemi, porovnat shody/rozdíly (případně podmínky) a vytvořit zdůvodněnou odpověď, nikoli jen seřadit shrnutí. Nevyžadovat vyjmenování všech dílčích slov, pokud myšlenku vystihne. Dále dosud neprobraná dedukce, indukce, analogie, komparace, abstrakce, generalizace; předpoklad vs hypotéza; výzkumný přínos a systematický/empirický/teoretický výzkum (s. 2). Dříve doložené: samovýběr vs kauzalita ve vlastní úloze s. 3/6; metodologie a metodika; podmíněná použitelnost modelu; omezená inference model/paradigma. Nepřenášet na celé kapitoly. Zbytek všech 21 stran ponechat v plánu podle mapy.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-08",
+      "activity": "Výklad analýzy a syntézy ze s. 2. Analýza rozkládá problém na části a zkoumá vztahy, vlastní příklad samostatného posuzování otázek/dat/postupů/výsledků studií. Syntéza vytváří z relevantních dílčích zjištění odpověď na původní otázku; propojuje shody, rozpory i rozdílné podmínky a formuluje zdůvodněný společný závěr. Vysvětleno, že seřazení samostatných shrnutí autorů samo o sobě není syntéza. Žádný další způsob usuzování ze s. 2 zatím nebyl vyložen.",
+      "learner_answer": "",
+      "evaluation": "Analýza a syntéza vysvětleny včetně důvodu, proč pouhá řada shrnutí nestačí. Samostatné použití dosud neověřeno; nová otázka čeká na odpověď.",
+      "result": "introduced",
+      "misconceptions": [],
+      "review_on": null,
+      "created_at": "2026-10-24T03:02:15.211769+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Program bez chyby zpracoval 100 vybraných vstupů z milionu přípustných. Výzkumník uzavře, že bez chyby zpracuje každý přípustný vstup. Dedukce, nebo indukce, a je závěr testy zaručen? Kritérium: indukce, zobecnění z pozorovaných na všechny případy; testy nezaručují správnost u nevyzkoušených vstupů. Dále doplnit rozdíl logické platnosti dedukce a pravdivosti premis, pokud jej odpověď neověří; pak analogie, komparace, abstrakce, generalizace; předpoklad vs hypotéza; výzkumný přínos; vědecká kritika a empirický/teoretický výzkum (s. 2). Teorie/model/paradigma a analýza/syntéza byly vyloženy, ověřeny jen v konkrétních zaznamenaných úlohách. Ostatní učivo všech 21 stran stále v rozsahu podle celé mapy.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-09",
+      "activity": "Student zkoumá, proč lidé opouštějí online kurzy. Napíše tři samostatná shrnutí článků k tomuto tématu. Co musí udělat navíc, aby z těchto shrnutí vznikla syntéza odpovídající na jeho výzkumnou otázku?",
+      "learner_answer": "musí propojit zjištění ze shrnutích s původní otázkou a snažit se na ni odpovědět",
+      "evaluation": "Kritérium splněno: vlastními slovy vystihl propojení zjištění k odpovědi na původní otázku, tedy více než seřazení shrnutí. Nevyžadováno vyjmenování všech možností porovnávání. Bez nápovědy k úloze; důkaz porozumění základnímu principu syntézy po výkladu, nikoli schopnosti skutečně syntetizovat konkrétní studie. Zpětná vazba doplnila porovnání shod/rozporů a podmínek, bez nucení jednotného závěru.",
+      "result": "passed",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T03:07:31.793272+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Program bez chyby zpracoval 100 vybraných vstupů z milionu přípustných. Výzkumník uzavře, že bez chyby zpracuje každý přípustný vstup. Dedukce, nebo indukce, a je závěr testy zaručen? Kritérium: indukce, zobecnění z pozorovaných na všechny případy; testy nezaručují správnost u nevyzkoušených vstupů. Dále doplnit rozdíl logické platnosti dedukce a pravdivosti premis, pokud jej odpověď neověří; pak analogie, komparace, abstrakce, generalizace; předpoklad vs hypotéza; výzkumný přínos; vědecká kritika a empirický/teoretický výzkum (s. 2). Teorie/model/paradigma a analýza/syntéza byly vyloženy, ověřeny jen v konkrétních zaznamenaných úlohách. Ostatní učivo všech 21 stran stále v rozsahu podle celé mapy.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-10",
+      "activity": "Výklad dedukce a indukce ze s. 2: dedukce odvozuje závěr z premis, pravdivost zaručuje jen při pravdivých premisách a logicky platném úsudku. Vlastní příklad: všichni členové skupiny A dokončili kurz, Jana je členkou A, tedy Jana dokončila kurz. Indukce zobecňuje jednotlivá pozorování na širší skupinu; při neúplném prozkoumání případů není obecný závěr jistý. Analogie, komparace, abstrakce a generalizace jako samostatné pojmy ještě nebyly vyloženy.",
+      "learner_answer": "",
+      "evaluation": "Oba způsoby usuzování a podmínky jistoty byly vysvětleny. Navazující úloha o 100 testovaných vstupech z milionu čeká na odpověď; samostatné rozlišení zatím neověřeno.",
+      "result": "introduced",
+      "review_on": null,
+      "created_at": "2026-10-24T03:07:32.052424+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-11",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "activity": "Program bez chyby zpracoval 100 vybraných vstupů z milionu přípustných. Výzkumník uzavře: „Program bez chyby zpracuje každý přípustný vstup.“ Jde o dedukci, nebo indukci, a zaručují provedené testy pravdivost tohoto závěru? Zdůvodni.",
+      "learner_answer": "indukci",
+      "evaluation": "Správně klasifikoval úsudek jako indukci bez nápovědy. Výsledek passed se vztahuje výhradně ke správnému určení indukce. Zdůvodnění ani odpověď na otázku jistoty zatím neposkytl; tyto části zůstávají neověřené, nejde o doloženou chybu. Zpětná vazba vysvětlila zobecnění ze vzorku testů na všechny přípustné vstupy. Navazující otázka samostatně ověřuje nejistotu pomocí možného protipříkladu.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Mohou být všechna provedená testování úspěšná, a přesto být závěr, že program správně zpracuje každý přípustný vstup, chybný? Uveď jeden možný scénář. Kritérium: ano, alespoň jeden neotestovaný přípustný vstup může způsobit chybu. Ověřuje dosud nezodpovězenou část předchozí úlohy, nikoli opakuje doloženou chybu. Pak doplnit deduktivní jistotu za pravdivých premis a platného úsudku; dále analogie, komparace, abstrakce, generalizace, předpoklad vs hypotéza, přínos a systematičnost/empirický/teoretický výzkum (s. 2). Celý další rozsah zdroje podle pracovní mapy zůstává otevřen.",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T03:10:02.516920+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Všichni ptáci létají. Pštros je pták. Proto pštros létá. Je problém ve výchozím tvrzení, nebo v logickém kroku od premis k závěru? Proč? Kritérium: první premisa je nepravdivá (ne všichni ptáci létají), struktura dedukce je platná; pravdivý závěr zaručují jen pravdivé premisy a platný úsudek společně. Pak další dosud neprobrané způsoby usuzování s. 2: analogie, komparace, abstrakce a generalizace jako pojem; dále předpoklad vs hypotéza, výzkumný přínos a základ vědecké kritiky/empirický vs teoretický výzkum. Zbytek 21stránkového zdroje zůstává v plánu podle celé pracovní mapy. Výuku reprezentativnosti nyní nevztahovat na celou kapitolu vzorek a experiment.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-12",
+      "activity": "Mohou být všechna provedená testování úspěšná, a přesto být závěr „program správně zpracuje každý přípustný vstup“ chybný? Uveď jeden možný scénář.",
+      "learner_answer": "ano, pokud vzorek na kterých jsou testy prováděny není reprezentativní, jeho výslekdy nelze spolehlivě generalizovat na populaci. udělám experiment jestli mi chutná pivo, napiji se jen toho nejlevnějšího ppiva na trhu a dojdu k závěru, že mi pivo nechutná",
+      "evaluation": "Kritérium splněno bez nápovědy: vysvětlil možnost úspěchu ve vzorku bez platnosti obecného závěru pomocí nereprezentativního výběru a samostatně vytvořil analogický příklad s ochutnáním jediného levného piva a závěrem o všech pivech. Nevyžadován technický scénář programu, protože mechanismus neoprávněného zobecnění vysvětlil správně. Odpověď netvrdí, že reprezentativnost je dostačující k jistotě; takovou chybu mu nepřipisujeme. Zpětná vazba doplnila, že ani reprezentativní konečný výběr negarantuje univerzální bezchybnost kvůli možnému vzácnému neotestovanému případu.",
+      "result": "passed",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T03:15:13.796639+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Všichni ptáci létají. Pštros je pták. Proto pštros létá. Je problém ve výchozím tvrzení, nebo v logickém kroku od premis k závěru? Proč? Kritérium: první premisa je nepravdivá (ne všichni ptáci létají), struktura dedukce je platná; pravdivý závěr zaručují jen pravdivé premisy a platný úsudek společně. Pak další dosud neprobrané způsoby usuzování s. 2: analogie, komparace, abstrakce a generalizace jako pojem; dále předpoklad vs hypotéza, výzkumný přínos a základ vědecké kritiky/empirický vs teoretický výzkum. Zbytek 21stránkového zdroje zůstává v plánu podle celé pracovní mapy. Výuku reprezentativnosti nyní nevztahovat na celou kapitolu vzorek a experiment.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-13",
+      "activity": "Upřesnění omezení indukce: nereprezentativní vzorek ilustrován uživatelovým příkladem jednoho levného piva; navíc ani reprezentativní výběr 100 z milionu vstupů nezaručuje univerzální bezchybnost, protože může zbýt vzácný neotestovaný chybný případ. Reprezentativnost podporuje zobecnění, sama nezaručuje univerzální tvrzení. Připomenuta nutnost pravdivých premis a logicky platného úsudku u dedukce.",
+      "learner_answer": "",
+      "evaluation": "Upřesnění reprezentativnosti vs jistota obecného tvrzení vysvětleno; samostatné pochopení této dodatečné podmínky ještě zvlášť neověřeno. Podmínky dedukce zopakovány, následuje úloha s pravdivostí premis. Nepokrývá další části kapitoly o vzorcích.",
+      "result": "introduced",
+      "review_on": null,
+      "created_at": "2026-10-24T03:15:14.056456+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Program A měříme na 10 malých souborech, B na 10 velkých. A má kratší celkový čas. Co změnit pro férovou komparaci rychlosti? Kritérium: porovnat na stejných nebo odůvodněně srovnatelných vstupech (velikost/obtížnost), případně sjednotit prostředí a způsob měření. Pro úspěch stačí odstranit hlavní záměnu programu s velikostí vstupů, nevyžadovat celý benchmarkovací protokol. Analogie vysvětlena, samotná nepředstavuje důkaz; využita dřívější samostatná analogie s pivem, nevydávat ji zpětně za otestovanou znalost názvu pojmu. Pak dosud neprobraná abstrakce/generalizace, předpoklad vs hypotéza, přínos výzkumu a systematičnost/kritika/empirický vs teoretický přístup (s. 2). Ostatní části všech 21 stran ponechat v plánu podle kompletního dřívějšího průzkumu a historie. Poslední kontrola historie: 15 z 15 checkpointů před tímto zápisem.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-14",
+      "activity": "Posuď úsudek: „Všichni ptáci létají. Pštros je pták. Proto pštros létá.“ Je problém ve výchozím tvrzení, nebo v logickém kroku od premis k závěru? Proč?",
+      "learner_answer": "chyba je ve výchozí premise \"Všichni ptáci létají.\" není pravdivý výrok",
+      "evaluation": "Kritérium splněno: přesně určil nepravdivou první premisu a lokalizoval problém do výchozího tvrzení, nikoli logického kroku. Bez nápovědy k úloze. Ve zpětné vazbě potvrzeno, že struktura úsudku je platná, a vysvětlena podmíněnost závěru pravdivostí obou premis. Doložen základní rozdíl pravdivosti premis a platnosti odvození v tomto příkladu.",
+      "result": "passed",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T03:21:12.271534+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Program A měříme na 10 malých souborech, B na 10 velkých. A má kratší celkový čas. Co změnit pro férovou komparaci rychlosti? Kritérium: porovnat na stejných nebo odůvodněně srovnatelných vstupech (velikost/obtížnost), případně sjednotit prostředí a způsob měření. Pro úspěch stačí odstranit hlavní záměnu programu s velikostí vstupů, nevyžadovat celý benchmarkovací protokol. Analogie vysvětlena, samotná nepředstavuje důkaz; využita dřívější samostatná analogie s pivem, nevydávat ji zpětně za otestovanou znalost názvu pojmu. Pak dosud neprobraná abstrakce/generalizace, předpoklad vs hypotéza, přínos výzkumu a systematičnost/kritika/empirický vs teoretický přístup (s. 2). Ostatní části všech 21 stran ponechat v plánu podle kompletního dřívějšího průzkumu a historie. Poslední kontrola historie: 15 z 15 checkpointů před tímto zápisem.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-15",
+      "activity": "Výklad analogie a komparace ze s. 2. Analogie hledá podobné vztahy v různých situacích, pomáhá vysvětlovat a vytvářet hypotézy či modely, sama není důkaz. Vlastní příklad navazuje na uživatelovo dřívější srovnání jednoho piva a vzorku testů programu (stejný vztah neoprávněného zobecnění). Komparace porovnává jevy podle společných kritérií, příklad programů podle rychlosti/chybovosti; zdůrazněna srovnatelnost výsledků. Abstrakce a generalizace jako samostatné pojmy ještě nevyloženy.",
+      "learner_answer": "",
+      "evaluation": "Oba pojmy a omezení analogie vysvětleny. Samostatné pojmenování analogie nebylo ověřeno; použití komparace čeká na navazující úlohu.",
+      "result": "introduced",
+      "review_on": null,
+      "created_at": "2026-10-24T03:21:12.517031+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Model doby doručení zásilky vynechá barvu dodávky i vzdálenost skladu od příjemce. Je vynechání obou stejně vhodnou abstrakcí? Zdůvodni vzhledem k cíli modelu. Kritérium: ne; barva je za obvyklých podmínek pro dobu cesty nepodstatná, vzdálenost je relevantní a vynechání je třeba zdůvodnit, jinak zhorší použitelnost. Případné rozumné upřesnění podmínek přijmout. Generalizace jako rozšíření platnosti byla vysvětlena, dosud samostatně neověřena pod tímto názvem; induktivní nejistota a nereprezentativnost ověřeny dříve. Dále s. 2: předpoklad vs testovatelná hypotéza; výzkumný přínos; vědecká systematičnost/kritika a empirický vs teoretický výzkum. Po doplnění začátku kapitoly a těchto částí zkontrolovat konkrétní pokrytí s. 2, pak navazovat otázkami, operacionalizací a vším dalším obsahem všech 21 stran podle úplného průzkumu. Nezaměňovat stav tématu demonstrated s pokrytím celého zdroje.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-16",
+      "activity": "Program A změříme na deseti malých souborech, program B na deseti velkých souborech. Program A má kratší celkový čas. Co bys změnil, aby šlo o férovou komparaci rychlosti programů?",
+      "learner_answer": "velikost souborů",
+      "evaluation": "Kritérium odstranění hlavní nesrovnatelnosti splněno: správně označil velikost souborů, která se liší mezi skupinami testů. Stručnou odpověď interpretujeme v kontextu otázky jako sjednocení/srovnání velikosti, nikoli libovolnou změnu. Bez nápovědy. Zpětná vazba konkretizovala stejné soubory a stejné podmínky měření a vysvětlila směšování vlivu programu a náročnosti vstupu. Neprokazuje samostatný návrh celého měřicího protokolu.",
+      "result": "passed",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T03:28:32.776482+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Model doby doručení zásilky vynechá barvu dodávky i vzdálenost skladu od příjemce. Je vynechání obou stejně vhodnou abstrakcí? Zdůvodni vzhledem k cíli modelu. Kritérium: ne; barva je za obvyklých podmínek pro dobu cesty nepodstatná, vzdálenost je relevantní a vynechání je třeba zdůvodnit, jinak zhorší použitelnost. Případné rozumné upřesnění podmínek přijmout. Generalizace jako rozšíření platnosti byla vysvětlena, dosud samostatně neověřena pod tímto názvem; induktivní nejistota a nereprezentativnost ověřeny dříve. Dále s. 2: předpoklad vs testovatelná hypotéza; výzkumný přínos; vědecká systematičnost/kritika a empirický vs teoretický výzkum. Po doplnění začátku kapitoly a těchto částí zkontrolovat konkrétní pokrytí s. 2, pak navazovat otázkami, operacionalizací a vším dalším obsahem všech 21 stran podle úplného průzkumu. Nezaměňovat stav tématu demonstrated s pokrytím celého zdroje.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-17",
+      "activity": "Výklad abstrakce a generalizace ze s. 2. Abstrakce vynechává nepodstatné detaily vzhledem k řešené otázce: při modelování rychlosti programu může být nepodstatná barva pozadí editoru, velikost vstupu zásadní. Generalizace rozšiřuje platnost závěru na širší třídu případů a vyžaduje zdůvodnění; vlastní příklad výsledku z jedné školy vs všichni studenti. Rozlišení vztahu indukce/generalizace: indukce je usuzování z pozorovaných případů, generalizace samotné rozšíření platnosti. Předpoklad vs hypotéza a ostatní zbývající obsah s. 2 zatím nevyloženy.",
+      "learner_answer": "",
+      "evaluation": "Oba pojmy vysvětleny s příklady a rozdílem od indukce. Samostatné použití abstrakce čeká na otázku o modelu doručení, pojem generalizace dosud zvlášť neověřen. Věcný problém neoprávněného zobecnění už byl ověřen dříve.",
+      "result": "introduced",
+      "review_on": null,
+      "created_at": "2026-10-24T03:28:33.022091+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: A — při výpočtu doby cesty v našem modelu zanedbáváme zastávky. B — nové plánování tras sníží průměrnou dobu doručení oproti dosavadnímu plánování. Které tvrzení je výzkumná hypotéza a proč? Kritérium: B, konkrétní tvrzení o očekávaném výsledku určené k ověření porovnáním dat; A vymezuje modelový předpoklad. Role tvrzení je klíčová, předpoklady lze také samostatně ověřovat; nevyvozovat, že jsou principiálně neověřitelné. Dále neprobrané na s. 2: výzkumný přínos (nový poznatek, kvalitní srovnání, ověření v nových podmínkách, dataset, vyhodnocené řešení, přiměřenost typu práce a vztah k dosavadnímu poznání), systematičnost a kritika/autorita a empirický vs teoretický přístup. Poté kontrola pokrytí celé s. 2 a návaznost s. 3–21 podle plné mapy a konkrétní historie. Generalizace vyložena a princip omezení zobecnění už dříve procvičen; název nebyl zvlášť testován.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-18",
+      "activity": "Výzkumník vytváří model doby doručení zásilky. Vynechá barvu dodávky i vzdálenost mezi skladem a příjemcem. Je vynechání obou údajů stejně vhodnou abstrakcí? Zdůvodni vzhledem k tomu, co má model předpovídat.",
+      "learner_answer": "ne,  vzdálenost mezi skladem a příjemcem. má dopad na dobu doručení",
+      "evaluation": "Kritérium splněno: odmítl stejnou vhodnost obou vynechání a správně zdůvodnil relevantnost vzdálenosti jejím dopadem na předpovídanou dobu doručení. Bez nápovědy. Není nutné opakovat zvlášť, že barva je běžně nepodstatná; tento kontrast byl doplněn zpětnou vazbou. Doloženo uplatnění abstrakce vzhledem k cíli modelu v konkrétním příkladu.",
+      "result": "passed",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T03:33:38.190583+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: A — při výpočtu doby cesty v našem modelu zanedbáváme zastávky. B — nové plánování tras sníží průměrnou dobu doručení oproti dosavadnímu plánování. Které tvrzení je výzkumná hypotéza a proč? Kritérium: B, konkrétní tvrzení o očekávaném výsledku určené k ověření porovnáním dat; A vymezuje modelový předpoklad. Role tvrzení je klíčová, předpoklady lze také samostatně ověřovat; nevyvozovat, že jsou principiálně neověřitelné. Dále neprobrané na s. 2: výzkumný přínos (nový poznatek, kvalitní srovnání, ověření v nových podmínkách, dataset, vyhodnocené řešení, přiměřenost typu práce a vztah k dosavadnímu poznání), systematičnost a kritika/autorita a empirický vs teoretický přístup. Poté kontrola pokrytí celé s. 2 a návaznost s. 3–21 podle plné mapy a konkrétní historie. Generalizace vyložena a princip omezení zobecnění už dříve procvičen; název nebyl zvlášť testován.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-19",
+      "activity": "Výklad rozdílu předpoklad/hypotéza ze s. 2. Předpoklad vymezuje podmínky odvozování v modelu, vlastní příklad zanedbání zastávek; použitelnost pro skutečnost je samostatně posuzovaná otázka. Hypotéza je konkrétní tvrzení určené k ověření, výzkum má zjistit podporu důkazy. Vysvětlen funkční rozdíl: vycházíme z tvrzení při odvozování vs výzkumem jej chceme ověřit. Nepředstíráno, že předpoklad nelze ověřovat, ani že logický modelový výsledek automaticky platí v realitě. Zbytek formulace hypotéz na s. 3 zatím nebyl vyložen.",
+      "learner_answer": "",
+      "evaluation": "Rozlišení rolí obou pojmů vysvětleno, samostatné použití dosud neověřeno; navazující otázka o plánování tras čeká na odpověď.",
+      "result": "introduced",
+      "review_on": null,
+      "created_at": "2026-10-24T03:33:38.443555+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Autor předloží matematický důkaz vlastnosti algoritmu, ale neprovede žádný experiment. Je samotná absence experimentu důvodem označit výsledek za nevědecký? Zdůvodni. Kritérium: ne, může jít o teoretický výzkum opřený o přesné definice, předpoklady a platný důkaz; ne každý výzkum vyžaduje experiment a praktická použitelnost je samostatná otázka. Poté zbývá na s. 2 výzkumný přínos: nový poznatek, kvalitní srovnání metod, ověření dřívějšího závěru v jiných podmínkách, nový dataset, vyhodnocený návrh řešení; přiměřenost typu práce, doložení zjištění a vztah k dosavadnímu poznání. Po tomto výkladu audit celé s. 2 proti konkrétní historii a navázat s. 3: téma/problém/cíl/otázka/H, příklad klasifikace českých textů, typy otázek, proměnné/operacionalizace/škály, formulace H/explorace. Celý rozsah všech 21 stran zachován.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-20",
+      "activity": "A: „Při výpočtu doby cesty v našem modelu zanedbáváme zastávky.“ B: „Nové plánování tras sníží průměrnou dobu doručení oproti dosavadnímu plánování.“ Které tvrzení je výzkumná hypotéza a proč?",
+      "learner_answer": "B -> tvrzení, které chceme ověřit",
+      "evaluation": "Kritérium splněno bez nápovědy k úloze: správně vybral B a zdůvodnil výběr ověřovací rolí tvrzení. Doloženo základní rozlišení hypotézy od modelového předpokladu v tomto příkladu; nikoli samostatná formulace a operacionalizace hypotézy podle celé s. 3. Ve zpětné vazbě vysvětleno A jako modelové zjednodušení.",
+      "result": "passed",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T03:35:58.723977+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Autor předloží matematický důkaz vlastnosti algoritmu, ale neprovede žádný experiment. Je samotná absence experimentu důvodem označit výsledek za nevědecký? Zdůvodni. Kritérium: ne, může jít o teoretický výzkum opřený o přesné definice, předpoklady a platný důkaz; ne každý výzkum vyžaduje experiment a praktická použitelnost je samostatná otázka. Poté zbývá na s. 2 výzkumný přínos: nový poznatek, kvalitní srovnání metod, ověření dřívějšího závěru v jiných podmínkách, nový dataset, vyhodnocený návrh řešení; přiměřenost typu práce, doložení zjištění a vztah k dosavadnímu poznání. Po tomto výkladu audit celé s. 2 proti konkrétní historii a navázat s. 3: téma/problém/cíl/otázka/H, příklad klasifikace českých textů, typy otázek, proměnné/operacionalizace/škály, formulace H/explorace. Celý rozsah všech 21 stran zachován.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-21",
+      "activity": "Výklad dosud neprobraného začátku s. 2: vědecké poznávání jako systematické a otevřené kritice, přesvědčivost/autorita nestačí, musí být dohledatelné důkazy, odvození a podmínky platnosti. Srovnání empirického výzkumu (pozorování, měření, data) a teoretického (přesné definice, argumentace, důkazy), vlastní příklad matematického důkazu vlastnosti algoritmu. Oddělení teoretického výsledku od použitelnosti jeho předpokladů v konkrétní praxi. Přínosy výzkumné práce ze závěru s. 2 ještě nevyloženy.",
+      "learner_answer": "",
+      "evaluation": "Základ vědeckého postupu i empirický/teoretický přístup byly vysvětleny. Samostatné porozumění čeká na otázku o důkazu bez experimentu. Neoznačuje celou kapitolu za samostatně zvládnutou.",
+      "result": "introduced",
+      "review_on": null,
+      "created_at": "2026-10-24T03:35:58.964742+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "next_step": "Čeká na odpověď: Student nevymyslel nový algoritmus, ale férově porovnal dva existující na dosud nezkoumané sadě českých textů a doložil, kdy který častěji chybuje. Může mít práce výzkumný přínos a v čem? Kritérium: ano, nové empiricky podložené poznání/srovnání existujících metod v konkrétním novém kontextu; nový algoritmus není nutnou podmínkou. Po odpovědi zkontrolovat pokrytí celé s. 2 proti celé historii: všechny pojmy a části byly vysvětleny, ale ne všechny samostatně nebo s odstupem ověřeny (zejména teorie jako samostatná definice, název analogie/generalizace, systematičnost vs autorita). Audit s. 1: ústřední návaznost otázka-postup-závěr nyní vyložena; uspořádání/provenience/rozsah administrativní, nejisté dobové požadavky a skutečnost, že příklady nejsou výsledky, ponechat jako průřezové omezení. Poté s. 3: téma/problém/cíl/výzkumná otázka/hypotéza a původní příklad klasifikace českých textů; deskriptivní/relační/kauzální otázky včetně hodnoty popisného výzkumu; proměnné/operacionalizace/škály; formulace H, explorace/potvrzování. Celý další obsah s. 4–21 stále v rozsahu podle plné mapy; výsledek tématu neznamená pokrytí celého materiálu.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-22",
+      "activity": "Autor předloží matematický důkaz vlastnosti algoritmu, ale neprovede žádný experiment. Je samotná absence experimentu důvodem označit výsledek za nevědecký? Zdůvodni.",
+      "learner_answer": "jedná se o teoratikcý výzkum",
+      "evaluation": "Kritérium splněno: správným označením teoretického výzkumu vyjádřil, proč absence experimentu sama nedokládá nevědeckost. Nevyžadováno mechanické opakování všech podmínek důkazu. Bez nápovědy k úloze. Zpětná vazba výslovně doplnila přesné definice, jasné předpoklady a platný důkaz. Doloženo rozlišení teoretického a empirického typu opory v tomto příkladu, nikoli ověření autority/systematičnosti zvlášť.",
+      "result": "passed",
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T03:41:12.157958+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "next_step": "Čeká na odpověď: Student nevymyslel nový algoritmus, ale férově porovnal dva existující na dosud nezkoumané sadě českých textů a doložil, kdy který častěji chybuje. Může mít práce výzkumný přínos a v čem? Kritérium: ano, nové empiricky podložené poznání/srovnání existujících metod v konkrétním novém kontextu; nový algoritmus není nutnou podmínkou. Po odpovědi zkontrolovat pokrytí celé s. 2 proti celé historii: všechny pojmy a části byly vysvětleny, ale ne všechny samostatně nebo s odstupem ověřeny (zejména teorie jako samostatná definice, název analogie/generalizace, systematičnost vs autorita). Audit s. 1: ústřední návaznost otázka-postup-závěr nyní vyložena; uspořádání/provenience/rozsah administrativní, nejisté dobové požadavky a skutečnost, že příklady nejsou výsledky, ponechat jako průřezové omezení. Poté s. 3: téma/problém/cíl/výzkumná otázka/hypotéza a původní příklad klasifikace českých textů; deskriptivní/relační/kauzální otázky včetně hodnoty popisného výzkumu; proměnné/operacionalizace/škály; formulace H, explorace/potvrzování. Celý další obsah s. 4–21 stále v rozsahu podle plné mapy; výsledek tématu neznamená pokrytí celého materiálu.",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-23",
+      "activity": "Výklad všech podob přínosu uvedených na konci s. 2: nový poznatek, kvalitní srovnání existujících metod, ověření dřívějšího závěru v jiných podmínkách, nový datový soubor, řádně vyhodnocený návrh řešení. Přiměřenost závisí na typu práce; nutno doložit přesné zjištění a vztah k dosavadnímu poznání. Ústřední myšlenka s. 1: výzkumná otázka → odůvodněný postup → podložený závěr, kterou nenahrazuje samotný program, množství měření ani dlouhá rešerše. Úlohy a příklady jsou vlastní hypotetické, nikoli skutečné výzkumné výsledky.",
+      "learner_answer": "",
+      "evaluation": "Dokončen výklad dosud chybějícího odstavce o výzkumném přínosu s. 2 včetně všech uvedených typů a mezí, zároveň ústřední návaznosti z úvodu s. 1. Samostatné posouzení přínosu čeká na navazující otázku. Probrání znamená pouze doložený výklad, nikoli úplné samostatné zvládnutí celé kapitoly.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:1"
+        },
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "review_on": null,
+      "created_at": "2026-10-24T03:41:12.412383+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "checkpoint_id": "vedecke-uvazovani-2026-10-24-24",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vedecke-uvazovani",
+      "activity_kind": "material",
+      "activity": "Student nevymyslel nový algoritmus. Dva existující algoritmy férově porovnal na dosud nezkoumané sadě českých textů a doložil, za jakých podmínek který častěji chybuje. Může mít jeho práce výzkumný přínos? V čem konkrétně?",
+      "learner_answer": "je to empirický výzkum -> na základě dat dělám závěry",
+      "evaluation": "Správně identifikoval empirický charakter a vztah závěrů k datům. Na cílenou otázku o konkrétním výzkumném přínosu však výslovně neodpověděl: nezmínil nové srovnání ani zjištěné podmínky chybovosti. Kritérium pojmenování přínosu zatím není samostatně doloženo; absence této části není dokladem mylného přesvědčení. Zpětná vazba uznala typ výzkumu a poskytla konkrétní odpověď: nové daty podložené srovnání v daném kontextu, znalost kdy který algoritmus chybuje; nový algoritmus není nutný. Vrátit se s odstupem, nyní pokračovat v nové látce.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Student jako výzkumný problém uvede pouze „Rozpoznávání spamu“. Co chybí, aby šlo o konkrétní problém, nikoli jen téma? Kritérium: vymezit konkrétní nejasnost/mezeru/obtíž (co nevíme, co selhává či potřebujeme zjistit), případně za jakých podmínek; netrvat na kompletním návrhu výzkumu nebo hotové hypotéze. Dále neprobrané ze s. 3: deskriptivní/relační/kauzální otázky včetně původních příkladů a hodnoty popisného výzkumu; proměnné, operacionalizace s příklady, nominální/ordinální/diskrétní/spojité a číselný kód; nezávislá/závislá neprokazuje kauzalitu; jasná věcně zdůvodněná H, vágní slova/kritéria/štěpení složitého tvrzení, potvrzující vs explorační analýza a neúspěšná H není neúspěch výzkumu. Výzkumný přínos ze s. 2 samostatně znovu ověřit s odstupem (uživatel v poslední otázce pojmenoval typ empirický, nikoli příspěvek). Audit celé s. 2 proti všem 25 starším checkpointům: celý obsah byl vyložen, nikoli vše samostatně ověřeno; slabší doložení zejména názvů analogie/generalizace, teorie jako samostatná definice, autorita/kritika a přínos. Dál celý rozsah s. 4–21 podle průzkumu; nejsou probrány automaticky.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T03:48:33.203767+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-01",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "activity": "Výklad pouze prvního oddílu s. 3: téma = oblast zájmu, problém = konkrétní nejasnost/mezera/obtíž, cíl = čeho má práce dosáhnout, otázka = na co odpovídá, hypotéza = testovatelné očekávané tvrzení; nutnost vzájemného souladu. Probrán původní příklad klasifikace textů a neznámého vlivu přidání určitého typu anotací na konkrétní české sadě, vymezení porovnávaných postupů/dat/metriky a cíle porovnat a vysvětlit. Doplněna vlastní konkrétní otázka o chybovosti postupu s anotacemi/bez a ilustrační hypotéza nižší chybovosti; nejde o skutečný výsledek. Anotace vysvětlena jako značka či popis přiřazený datům. Druhy otázek, operacionalizace, typy proměnných a další oddíly s. 3 zatím nevyloženy.",
+      "learner_answer": "",
+      "evaluation": "Pět pojmů, jejich návaznost a celý původní příklad prvního oddílu vysvětleny. Samostatné rozlišení tématu/problému čeká na otázku o rozpoznávání spamu. Předchozí úspěch s hypotézou na s. 2 nepřipisujeme automaticky celé nové kapitole.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Student jako výzkumný problém uvede pouze „Rozpoznávání spamu“. Co chybí, aby šlo o konkrétní problém, nikoli jen téma? Kritérium: vymezit konkrétní nejasnost/mezeru/obtíž (co nevíme, co selhává či potřebujeme zjistit), případně za jakých podmínek; netrvat na kompletním návrhu výzkumu nebo hotové hypotéze. Dále neprobrané ze s. 3: deskriptivní/relační/kauzální otázky včetně původních příkladů a hodnoty popisného výzkumu; proměnné, operacionalizace s příklady, nominální/ordinální/diskrétní/spojité a číselný kód; nezávislá/závislá neprokazuje kauzalitu; jasná věcně zdůvodněná H, vágní slova/kritéria/štěpení složitého tvrzení, potvrzující vs explorační analýza a neúspěšná H není neúspěch výzkumu. Výzkumný přínos ze s. 2 samostatně znovu ověřit s odstupem (uživatel v poslední otázce pojmenoval typ empirický, nikoli příspěvek). Audit celé s. 2 proti všem 25 starším checkpointům: celý obsah byl vyložen, nikoli vše samostatně ověřeno; slabší doložení zejména názvů analogie/generalizace, teorie jako samostatná definice, autorita/kritika a přínos. Dál celý rozsah s. 4–21 podle průzkumu; nejsou probrány automaticky.",
+      "review_on": null,
+      "created_at": "2026-10-24T03:48:33.445668+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "next_step": "Čeká na odpověď: Jak souvisí délka e-mailu s četností jeho chybného označení jako spam? Deskriptivní, relační, nebo kauzální otázka a proč? Kritérium: relační, ptá se na souvislost proměnných, nikoli samotný popis jedné ani účinek zásahu. Potom s. 3 dosud neprobrané: proměnná a operacionalizace (počet chyb/1000 případů, odezva při zátěži, skóre testu), nominální/ordinální/diskrétní/spojité včetně číselného kódu kategorie, nezávislá/závislá bez automatické kauzality; formulace hypotézy jako jasné věcně zdůvodněné oznamovací věty, kritéria vágních slov, rozdělení složitého tvrzení, potvrzující vs explorace a negativní výsledek není automaticky neúspěch. Ze s. 19 nyní probrány pouze dvě korekce: odpověď ano/ne sama neurčuje hodnotu a neexistuje automatický žebříček výzkumu (v tomto výkladu zejména hodnota popisného; kvalitativní doplnit u metod). Ostatní korekce s. 19 zůstávají v plánu při navazujících tématech. Výzkumný přínos s. 2 revidovat s odstupem, samostatná odpověď naposledy označila jen empirický typ. Celý rozsah ostatních stran zachován.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-02",
+      "activity": "Student jako svůj výzkumný problém uvede pouze „Rozpoznávání spamu“. Co v tomto vymezení chybí, aby šlo o konkrétní výzkumný problém, a nikoli jen téma?",
+      "learner_answer": "krátký popis toho, co způsobuje problém. Např. Rozpoznávání spamu  příliš často jako spam označí nerelevantní email",
+      "evaluation": "Jádro kritéria splněno: doplnil konkrétní obtíž klasifikátoru (příliš časté označování zpráv jako spam) místo pouhé oblasti zájmu. Formulace nerelevantní e-mail sama neurčuje nesprávnost označení jako spam; zpětná vazba zpřesnila na legitimní e-maily. Připomenuto, že problém nemusí předem vysvětlovat příčinu, stačí vymezit konkrétní nejasnost či obtíž; uživatelovu neobratnou formulaci automaticky nevykládáme jako přesvědčení, že příčina musí být známa. Bez nápovědy k úloze. Doloženo rozlišení širokého tématu od konkrétní obtíže s upřesněním příkladu, nikoli kompletní návrh práce.",
+      "result": "passed",
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T03:53:02.136621+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "next_step": "Čeká na odpověď: Jak souvisí délka e-mailu s četností jeho chybného označení jako spam? Deskriptivní, relační, nebo kauzální otázka a proč? Kritérium: relační, ptá se na souvislost proměnných, nikoli samotný popis jedné ani účinek zásahu. Potom s. 3 dosud neprobrané: proměnná a operacionalizace (počet chyb/1000 případů, odezva při zátěži, skóre testu), nominální/ordinální/diskrétní/spojité včetně číselného kódu kategorie, nezávislá/závislá bez automatické kauzality; formulace hypotézy jako jasné věcně zdůvodněné oznamovací věty, kritéria vágních slov, rozdělení složitého tvrzení, potvrzující vs explorace a negativní výsledek není automaticky neúspěch. Ze s. 19 nyní probrány pouze dvě korekce: odpověď ano/ne sama neurčuje hodnotu a neexistuje automatický žebříček výzkumu (v tomto výkladu zejména hodnota popisného; kvalitativní doplnit u metod). Ostatní korekce s. 19 zůstávají v plánu při navazujících tématech. Výzkumný přínos s. 2 revidovat s odstupem, samostatná odpověď naposledy označila jen empirický typ. Celý rozsah ostatních stran zachován.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-03",
+      "activity": "Výklad celého oddílu Tři druhy výzkumných otázek na s. 3: deskriptivní = stav/rozložení (jaké chyby model dělá a jak často), relační = souvislost (délka textu vs chybovost), kauzální = účinek zásahu (úprava modelu a výkon v kontrolovaných podmínkách). Kauzální studie musí oddělit účinek od jiných vysvětlení. Hodnota a náročnost závisí na problému, nejde o automatický žebříček, popisný výzkum může být zásadním přínosem. Ve vazbě na s. 19 navíc vysvětleno, že forma ano/ne neurčuje vědeckou hodnotu; rozhoduje význam, přesnost, ověřitelnost. S. 19 kvalitativní výzkum zmíněný v korekci hierarchie zatím nebyl samostatně vyložen, doplnit s metodami. Proměnné a další oddíly s. 3 zatím nevyloženy.",
+      "learner_answer": "",
+      "evaluation": "Tři typy otázek vysvětleny včetně všech původních příkladů, omezení kauzality, hodnoty popisného a opravy postoje k ano/ne. Klasifikace nového relačního příkladu čeká na odpověď. Neznamená probrání celé s. 19.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        },
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:19"
+        }
+      ],
+      "review_on": null,
+      "created_at": "2026-10-24T03:53:02.436670+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Jaký měřený ukazatel operacionalizuje tvrzení, že filtr A méně často mylně označuje legitimní e-maily jako spam než filtr B? Co počítáme a vůči jakému celku? Kritérium: počet mylně označených legitimních e-mailů dělený počtem testovaných legitimních e-mailů (nebo ekvivalent na 100/1000 legitimních zpráv), ideálně na stejné sadě/podmínkách. Počet chybných označení na stejné výslovně stanovené sadě také přijmout; podíl ze všech označených spamů je jiná charakteristika a je třeba odlišit. Není třeba znát anglický termín. Poté s. 3 neprobrané typy proměnných nominální/ordinální/diskrétní/spojité a číselný kód není veličina; nezávislá/závislá vs kauzalita; formulace H jasná oznamovací, věcně zdůvodněná, kritéria vágních slov, rozdělení složitých tvrzení; plánované potvrzování vs explorace a negativní výsledek H není neúspěch výzkumu. Přínos s. 2 samostatně vrátit s odstupem. Rozsah ostatních všech 21 stran zachován podle celé pracovní mapy/historie.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-04",
+      "activity": "„Jak souvisí délka e-mailu s četností jeho chybného označení jako spam?“ Je to otázka deskriptivní, relační, nebo kauzální? Proč?",
+      "learner_answer": "relační, zkoumám vztah",
+      "evaluation": "Kritérium splněno bez nápovědy: správně určil relační otázku a zdůvodnil zkoumáním vztahu. Zpětná vazba konkretizovala vztah délky a chybovosti a připomněla, že souvislost sama neprokazuje příčinu. Neprokazuje automaticky zvládnutí všech tří typů otázek a návrhu kauzální studie.",
+      "result": "passed",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T04:06:40.359785+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Jaký měřený ukazatel operacionalizuje tvrzení, že filtr A méně často mylně označuje legitimní e-maily jako spam než filtr B? Co počítáme a vůči jakému celku? Kritérium: počet mylně označených legitimních e-mailů dělený počtem testovaných legitimních e-mailů (nebo ekvivalent na 100/1000 legitimních zpráv), ideálně na stejné sadě/podmínkách. Počet chybných označení na stejné výslovně stanovené sadě také přijmout; podíl ze všech označených spamů je jiná charakteristika a je třeba odlišit. Není třeba znát anglický termín. Poté s. 3 neprobrané typy proměnných nominální/ordinální/diskrétní/spojité a číselný kód není veličina; nezávislá/závislá vs kauzalita; formulace H jasná oznamovací, věcně zdůvodněná, kritéria vágních slov, rozdělení složitých tvrzení; plánované potvrzování vs explorace a negativní výsledek H není neúspěch výzkumu. Přínos s. 2 samostatně vrátit s odstupem. Rozsah ostatních všech 21 stran zachován podle celé pracovní mapy/historie.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-05",
+      "activity": "Výklad části proměnná a operacionalizace na s. 3: proměnná jako sledovaná vlastnost s různými hodnotami, příklady délka zprávy a počet chyb. Operacionalizace stanoví pozorování/měření. Vyloženy všechny původní příklady nahrazení vágní kvality systému: počet chyb na 1000 případů, doba odezvy za stanovené zátěže, skóre konkrétního testu. Vysvětleno, že ukazatel vyjasňuje význam a způsob získání výsledku a různé ukazatele zachycují různé stránky kvality (rychlejší nemusí méně chybovat). Typy proměnných ani nezávislá/závislá dosud nebyly vyloženy.",
+      "learner_answer": "",
+      "evaluation": "Definice a všechny příklady operacionalizace vysvětleny. Vlastní návrh konkrétního ukazatele čeká na navazující otázku o falešném označení legitimních e-mailů.",
+      "result": "introduced",
+      "review_on": null,
+      "created_at": "2026-10-24T04:06:40.612119+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Sada obsahuje 200 legitimních e-mailů a 100 spamů; 10 legitimních filtr chybně označí jako spam. Jaké procento legitimních mylně označil? Kritérium: 10/200 = 5 %, jmenovatel není 300 ani počet označených spamů. Před otázkou po neúplném návrhu ukazatele poskytnut přesný vzorec a vysvětlení, pro následný pokus evidovat 1 metodickou nápovědu (bezprostřední opravený postup). Potom dosud neprobrané s. 3 typy proměnných nominální/ordinální/diskrétní/spojité a číselný kód není kvantitativní veličina; nezávislá/závislá neprokazuje kauzalitu; formulace H, kritéria vágních slov, rozdělení složité H, potvrzující vs explorace, negativní výsledek není neúspěch. Přínos výzkumu s. 2 potřebuje samostatné opakování s odstupem. Ostatní s. 4–21 zachovány v rozsahu podle celé mapy a konkrétní historie, nikoli pokryty stavem témat.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-06",
+      "activity": "Chceme ověřit tvrzení: „Filtr A méně často mylně označuje legitimní e-maily jako spam než filtr B.“ Jaký konkrétní měřený ukazatel bys použil? Uveď, co budeš počítat a vůči jakému celku.",
+      "learner_answer": "budu používat správně označené předměty vs špatně označené",
+      "evaluation": "Částečně správné východisko rozlišování správných a chybných rozhodnutí, ale požadovaná operacionalizace zatím není doložena: neurčil chybu legitimní→spam ani jmenovatel všech legitimních zpráv. Odpověď výslovně neuvádí chybný jmenovatel, proto konkrétní chybnou představu o něm nepřipisujeme. Kritérium přesného ukazatele nesplněno, pokračujeme cílenou opravou. Zpětná vazba uvedla a vysvětlila konkrétní podíl a odlišila úspěch zachytávání skutečného spamu.",
+      "result": "needs-practice",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T04:09:40.006499+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Sada obsahuje 200 legitimních e-mailů a 100 spamů; 10 legitimních filtr chybně označí jako spam. Jaké procento legitimních mylně označil? Kritérium: 10/200 = 5 %, jmenovatel není 300 ani počet označených spamů. Před otázkou po neúplném návrhu ukazatele poskytnut přesný vzorec a vysvětlení, pro následný pokus evidovat 1 metodickou nápovědu (bezprostřední opravený postup). Potom dosud neprobrané s. 3 typy proměnných nominální/ordinální/diskrétní/spojité a číselný kód není kvantitativní veličina; nezávislá/závislá neprokazuje kauzalitu; formulace H, kritéria vágních slov, rozdělení složité H, potvrzující vs explorace, negativní výsledek není neúspěch. Přínos výzkumu s. 2 potřebuje samostatné opakování s odstupem. Ostatní s. 4–21 zachovány v rozsahu podle celé mapy a konkrétní historie, nikoli pokryty stavem témat.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-07",
+      "activity": "Opravný výklad vlastního příkladu operacionalizace: pro tvrzení o méně častém mylném označování legitimních e-mailů měříme počet legitimních chybně označených spam / počet všech testovaných legitimních × 100 %. Vysvětlen jmenovatel jako cílová skupina, z níž zjišťujeme podíl mylně odmítnutých; zachytávání skutečného spamu je jiný ukazatel. Jde o vlastní aplikaci principu ze s. 3, nikoli doslovný vzorec v podkladu. Žádná další metrika klasifikace nebo typ proměnné nebyly vyloženy.",
+      "learner_answer": "",
+      "evaluation": "Přesný ukazatel a důvod výběru základu vysvětleny. Jeho použití čeká na početní otázku 10 chyb z 200 legitimních při 100 dalších spamech. Samostatné vytvoření operacionalizace zatím nedoloženo.",
+      "result": "introduced",
+      "review_on": null,
+      "created_at": "2026-10-24T04:09:40.251304+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Ve stejné sadě je 200 legitimních e-mailů a 100 skutečných spamů. Filtr správně zachytí 80 spamů. Jakou část všech skutečných spamů zachytil? Zapiš zlomek. Kritérium: 80/100 (případně 80 %), protože cílovou skupinou jsou skutečné spamy, nikoli všechny zprávy ani legitimní zprávy. Před otázkou opravena reference jmenovatele a vysvětlena pomůcka cílové skupiny; počítat 1 podstatnou nápovědu při bezprostředním následném úspěchu. Poté znovu ověřit podíl mylně odmítnutých legitimních v samostatné krátké úloze s odstupem; zatím nelze tvrdit zvládnutí operacionalizace. Další neprobrané s. 3: typy proměnných, číslo jako kód, nezávislá/závislá bez kauzálního důkazu, pravidla formulace H, explorace/potvrzování a hodnota negativního výsledku. Přínos výzkumu s. 2 také čeká na opakování. Zbytek celého zdroje s. 4–21 v plánu podle úplného průzkumu.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-08",
+      "activity": "Testovací sada obsahuje 200 legitimních e-mailů a 100 spamů. Filtr chybně označí 10 legitimních e-mailů jako spam. Jaké procento legitimních e-mailů tedy mylně označil jako spam?",
+      "learner_answer": "10/300",
+      "evaluation": "Čitatel 10 správně, ale jmenovatel 300 zahrnuje i skutečné spamy a neodpovídá otázce o podílu mezi legitimními e-maily. Správně 10/200 = 5 %. Nejde primárně o chybu převodu zlomku na procenta, ale o volbu referenční skupiny. Před pokusem poskytnut přesný vzorec, proto 1 metodická nápověda. Zpětná vazba vysvětlila, jaký jiný podíl 10/300 vyjadřuje, a že skupinu jmenovatele určuje otázka.",
+      "result": "needs-practice",
+      "hints_used": 1,
+      "misconceptions": [
+        "Při podílu chybných označení mezi legitimními zprávami použil všechny zprávy jako jmenovatel (300 místo 200)."
+      ],
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T04:19:00.063581+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Ve stejné sadě je 200 legitimních e-mailů a 100 skutečných spamů. Filtr správně zachytí 80 spamů. Jakou část všech skutečných spamů zachytil? Zapiš zlomek. Kritérium: 80/100 (případně 80 %), protože cílovou skupinou jsou skutečné spamy, nikoli všechny zprávy ani legitimní zprávy. Před otázkou opravena reference jmenovatele a vysvětlena pomůcka cílové skupiny; počítat 1 podstatnou nápovědu při bezprostředním následném úspěchu. Poté znovu ověřit podíl mylně odmítnutých legitimních v samostatné krátké úloze s odstupem; zatím nelze tvrdit zvládnutí operacionalizace. Další neprobrané s. 3: typy proměnných, číslo jako kód, nezávislá/závislá bez kauzálního důkazu, pravidla formulace H, explorace/potvrzování a hodnota negativního výsledku. Přínos výzkumu s. 2 také čeká na opakování. Zbytek celého zdroje s. 4–21 v plánu podle úplného průzkumu.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-09",
+      "activity": "Oprava vlastního příkladu operacionalizace: 10/300 je podíl daných chyb mezi všemi zprávami, otázka však míří na legitimní skupinu, takže 10/200 = 0,05 = 5 %. Vysvětlena obecná pomůcka: jmenovatel vybíráme podle skupiny, o které otázka mluví. Následuje přenos na podíl zachycených skutečných spamů; odborné názvy dalších klasifikačních metrik se nezaváděly.",
+      "learner_answer": "",
+      "evaluation": "Vysvětlen rozdíl dvou referenčních skupin a dopočítán správný podíl. Zvládnutí zatím neověřeno, následující úloha čeká na odpověď. Jde o vlastní příklad aplikující s. 3, nikoli doslovnou úlohu podkladu.",
+      "result": "introduced",
+      "hints_used": 0,
+      "misconceptions": [],
+      "review_on": null,
+      "created_at": "2026-10-24T04:19:00.281056+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Typ zařízení kódujeme 1=telefon, 2=notebook, 3=stolní počítač. Nominální/ordinální/diskrétní číselná/spojitá číselná a proč podle významu? Kritérium: nominální, čísla jsou jen názvy kategorií bez přirozeného pořadí či množství. Po tomto základním ověření další s. 3 dosud neprobrané: nezávislá a závislá proměnná a jejich názvy nejsou důkazem kauzality; pravidla formulace hypotézy (oznamovací jasná věta, věcné odůvodnění, vyhodnotitelnost, vágní slova potřebují kritéria, rozdělení složitých tvrzení); potvrzující plán vs explorace z dat a následné oddělené ověření, nenaplněná H není neúspěch výzkumu. Ordinální vs diskrétní/spojitá byly vysvětleny, ne všechny samostatně ověřeny; zařadit pozdější souhrnnou úlohu. Operacionalizaci konkrétní chyby mezi legitimními e-maily a volbu jmenovatele vrátit s odstupem, po opravě dosud jen správné 80/100 pro skutečné spamy s nápovědou. Přínos výzkumu s. 2 také potřebuje opakování. Zbytek s. 4–21 zachován v plánu podle celé mapy/historie.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-10",
+      "activity": "Ve stejné sadě je 200 legitimních e-mailů a 100 skutečných spamů. Filtr správně zachytí 80 spamů. Jakou část všech skutečných spamů zachytil? Zapiš zlomek.",
+      "learner_answer": "80/100",
+      "evaluation": "Kritérium splněno: správně vybral 80 zachycených ze 100 skutečných spamů, tedy správnou referenční skupinu. Před úlohou po předchozí chybě dostal vysvětlení, že jmenovatel určuje cílová skupina, a opravu 10/200; jde o bezprostřední procvičení s 1 metodickou nápovědou. Zpětná vazba dopočítala 80 %. Neprokazuje samostatnou volbu ukazatele chybných označení mezi legitimními zprávami ani zvládnutí všech podílů; vrátit se s odstupem.",
+      "result": "passed",
+      "hints_used": 1,
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T04:25:45.700643+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Typ zařízení kódujeme 1=telefon, 2=notebook, 3=stolní počítač. Nominální/ordinální/diskrétní číselná/spojitá číselná a proč podle významu? Kritérium: nominální, čísla jsou jen názvy kategorií bez přirozeného pořadí či množství. Po tomto základním ověření další s. 3 dosud neprobrané: nezávislá a závislá proměnná a jejich názvy nejsou důkazem kauzality; pravidla formulace hypotézy (oznamovací jasná věta, věcné odůvodnění, vyhodnotitelnost, vágní slova potřebují kritéria, rozdělení složitých tvrzení); potvrzující plán vs explorace z dat a následné oddělené ověření, nenaplněná H není neúspěch výzkumu. Ordinální vs diskrétní/spojitá byly vysvětleny, ne všechny samostatně ověřeny; zařadit pozdější souhrnnou úlohu. Operacionalizaci konkrétní chyby mezi legitimními e-maily a volbu jmenovatele vrátit s odstupem, po opravě dosud jen správné 80/100 pro skutečné spamy s nápovědou. Přínos výzkumu s. 2 také potřebuje opakování. Zbytek s. 4–21 zachován v plánu podle celé mapy/historie.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-11",
+      "activity": "Výklad čtyř typů proměnných s. 3: nominální = kategorie bez přirozeného pořadí, příklad typ zařízení; ordinální = uspořádané kategorie, příklad stupně spokojenosti; diskrétní číselná = oddělené číselné hodnoty/počty, příklad počet chyb; spojitá číselná = spojité rozmezí hodnot, příklad doba odezvy. Vysvětleno, že číselný kód kategorie z ní nedělá kvantitativní veličinu; čísla mohou jen označovat. Výkladové zpřesnění ordinální škály: samotné pořadí nezaručuje stejné rozestupy stupňů. Nezávislá/závislá a další části s. 3 zatím nevyloženy.",
+      "learner_answer": "",
+      "evaluation": "Všechny čtyři typy a všechny původní příklady byly skutečně vysvětleny, včetně omezení číselného kódu. Samostatné rozlišení čeká na nový příklad kódování zařízení; žádný typ zatím touto aktivitou neověřen.",
+      "result": "introduced",
+      "hints_used": 0,
+      "review_on": null,
+      "created_at": "2026-10-24T04:25:45.944289+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: V experimentu nastavujeme počet současně připojených uživatelů a měříme průměrnou dobu odezvy aplikace. Urči nezávislou a závislou proměnnou. Kritérium: nezávislá počet uživatelů, závislá průměrná doba odezvy. Pak zbývá na s. 3 oddíl formulace hypotézy: jasná oznamovací věta, věcné odůvodnění, vyhodnotitelnost; vágní dobrý/málo/lepší vyžadují kritérium; složité tvrzení rozdělit na navazující dílčí; potvrzující analýza před výsledky vs explorace vytváří H z dat s přiznáním a odděleným ověřením; nenaplnění H není samo o sobě neúspěch výzkumu. Při dalších úlohách zopakovat jmenovatel podílu chyb mezi legitimními (chyba 10/300 místo 10/200, pak jen správné 80/100 s podporou), nebrat nynější správné nominální jako zvládnutí operacionalizace. Později samostatně ověřit ordinální/diskrétní/spojitou a konkrétní výzkumný přínos s. 2. Audit historie nyní zahrnuje všech 37 předchozích checkpointů (0–24 a 25–36). Veškerý další obsah s. 4–21 zůstává v rozsahu podle úplného průzkumu.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-12",
+      "activity": "Typ zařízení zakódujeme: 1 = telefon, 2 = notebook, 3 = stolní počítač. Je tato proměnná nominální, ordinální, diskrétní číselná, nebo spojitá číselná? Zdůvodni podle významu hodnot, ne podle jejich zápisu.",
+      "learner_answer": "Nominální",
+      "evaluation": "Správná klasifikace jako nominální bez nápovědy k úloze; splněno kritérium určení typu. Vlastní zdůvodnění nebylo dodáno, proto nedokládáme samostatné vysvětlení. Zpětná vazba doplnila, že čísla označují kategorie, ne množství ani přirozené pořadí. Výsledek se vztahuje jen na klasifikaci tohoto příkladu, ne na ostatní typy ani dosud slabou operacionalizaci/podíly.",
+      "result": "passed",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T04:42:36.101118+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: V experimentu nastavujeme počet současně připojených uživatelů a měříme průměrnou dobu odezvy aplikace. Urči nezávislou a závislou proměnnou. Kritérium: nezávislá počet uživatelů, závislá průměrná doba odezvy. Pak zbývá na s. 3 oddíl formulace hypotézy: jasná oznamovací věta, věcné odůvodnění, vyhodnotitelnost; vágní dobrý/málo/lepší vyžadují kritérium; složité tvrzení rozdělit na navazující dílčí; potvrzující analýza před výsledky vs explorace vytváří H z dat s přiznáním a odděleným ověřením; nenaplnění H není samo o sobě neúspěch výzkumu. Při dalších úlohách zopakovat jmenovatel podílu chyb mezi legitimními (chyba 10/300 místo 10/200, pak jen správné 80/100 s podporou), nebrat nynější správné nominální jako zvládnutí operacionalizace. Později samostatně ověřit ordinální/diskrétní/spojitou a konkrétní výzkumný přínos s. 2. Audit historie nyní zahrnuje všech 37 předchozích checkpointů (0–24 a 25–36). Veškerý další obsah s. 4–21 zůstává v rozsahu podle úplného průzkumu.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-13",
+      "activity": "Výklad poslední části oddílu Proměnné a operacionalizace na s. 3: nezávislá proměnná jako vysvětlující či nastavovaný faktor a závislá jako sledovaný výsledek. Vysvětleno rozlišení typu proměnné a její role; vlastní příklad nezávislé nominální proměnné použitý filtr A/B. Označení nezávislá/závislá neprokazují příčinný vztah, ten závisí na návrhu výzkumu. Oddíl Jak formulovat hypotézu ještě systematicky nevyložen.",
+      "learner_answer": "",
+      "evaluation": "Obě role proměnných, jejich odlišení od typu a kauzální omezení vysvětleny. Použití na příkladu zátěže aplikace čeká na odpověď.",
+      "result": "introduced",
+      "review_on": null,
+      "created_at": "2026-10-24T04:42:36.377089+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Přeformuluj „Verze B je lepší než A“ do jedné ověřitelné hypotézy o rychlosti při 100 současných uživatelích, stejném serveru a stejných požadavcích. Kritérium: jasné tvrzení o porovnatelném měřeném ukazateli a směru, např. B má nižší průměrnou dobu odezvy než A za stanovených podmínek. Není nutná číselná minimální velikost efektu ani slovo statisticky významně. Přijmout jiné vhodné jasně definované kritérium rychlosti, nikoli samotné je lepší. Pak poslední neprobraná část s. 3: potvrzující analýzu plánovat před výsledky; explorace tvoří H z dat s přiznáním a odděleným ověřením; nepotvrzená H není sama neúspěch výzkumu. Další opakování: podíl chybných označení mezi legitimními a referenční jmenovatel, ordinální vs diskrétní/spojitá, konkrétní výzkumný přínos. Po dokončení s. 3 audit proti historii a přechod s. 4 výzkumné přístupy/získávání dat v celém rozsahu. Ostatní s. 4–21 zůstávají v plánu podle celé mapy.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-14",
+      "activity": "V experimentu nastavujeme počet současně připojených uživatelů a měříme průměrnou dobu odezvy aplikace. Urči nezávislou a závislou proměnnou.",
+      "learner_answer": "počet současně připojených uživatelů   -> nezávislá, průměrnou dobu odezvy aplikace.  -> závislá -> čím víc je aplikace vytížená, tím větčí bude odezvy",
+      "evaluation": "Obě role správně bez nápovědy: počet uživatelů nezávislá, průměrná doba odezvy závislá. Dodatečné tvrzení o růstu odezvy s vytížením je věcně možné očekávání, nikoli výsledek zadaného měření; ve zpětné vazbě označeno jako hypotéza určená k ověření. Nepřipisujeme uživateli nevyřčené tvrzení o bezvýjimečné platnosti nebo kauzálním důkazu. Kritérium rolí splněno, samotná povaha skutečného vztahu dosud nezjištěna.",
+      "result": "passed",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T06:18:30.774722+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Přeformuluj „Verze B je lepší než A“ do jedné ověřitelné hypotézy o rychlosti při 100 současných uživatelích, stejném serveru a stejných požadavcích. Kritérium: jasné tvrzení o porovnatelném měřeném ukazateli a směru, např. B má nižší průměrnou dobu odezvy než A za stanovených podmínek. Není nutná číselná minimální velikost efektu ani slovo statisticky významně. Přijmout jiné vhodné jasně definované kritérium rychlosti, nikoli samotné je lepší. Pak poslední neprobraná část s. 3: potvrzující analýzu plánovat před výsledky; explorace tvoří H z dat s přiznáním a odděleným ověřením; nepotvrzená H není sama neúspěch výzkumu. Další opakování: podíl chybných označení mezi legitimními a referenční jmenovatel, ordinální vs diskrétní/spojitá, konkrétní výzkumný přínos. Po dokončení s. 3 audit proti historii a přechod s. 4 výzkumné přístupy/získávání dat v celém rozsahu. Ostatní s. 4–21 zůstávají v plánu podle celé mapy.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-15",
+      "activity": "Výklad pravidel formulace hypotézy z posledního oddílu s. 3: jasná oznamovací věta, věcné zdůvodnění očekávání, konkrétní význam umožňující vyhodnocení. Všechny původní vágní výrazy lepší/dobrý/málo vyžadují kritérium. Složité tvrzení rozdělit na navazující dílčí; vlastní příklad rychlost/chybovost/spokojenost se mohou lišit, tedy oddělené hypotézy. Uživatelovo dodatečné očekávání růstu odezvy s uživateli použito jako příklad hypotézy, nikoli již doloženého výsledku. Potvrzování vs explorace a hodnota nepotvrzené H zatím nevyloženy.",
+      "learner_answer": "",
+      "evaluation": "Zásady skutečně vysvětleny včetně všech pravidel prvního odstavce Jak formulovat hypotézu. Vlastní přeformulování vágního tvrzení čeká na odpověď; věcné odůvodnění jako dovednost zvlášť ještě neověřeno.",
+      "result": "introduced",
+      "review_on": null,
+      "created_at": "2026-10-24T06:18:31.019576+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-16",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "activity": "Přeformuluj „Verze B je lepší než verze A“ na jednu ověřitelnou hypotézu o rychlosti aplikace. Obě verze porovnáváme při 100 současně připojených uživatelích, na stejném serveru a se stejnými požadavky.",
+      "learner_answer": "Verze B je rychlejší alespon o jednu jednotku při 100 současně připojených uživatelích, na stejném serveru a se stejnými požadavky.",
+      "evaluation": "Správná oznamovací forma, očekávaný směr a zachované srovnatelné podmínky. Chybí přesný měřený ukazatel a význam jedné jednotky; bez specifikace zda jde o čas nebo průchodnost a jakou jednotku nelze hypotézu jednoznačně vyhodnotit. Kritérium konkrétní operacionalizace tedy zatím nesplněno. Číselný minimální efekt nebyl požadován, uživatel jej sám přidal; nepenalizujeme volbu 1 jako takovou. Ve zpětné vazbě vysvětleny dvě možnosti rychlosti (doba odezvy v ms a požadavky/s), zvolen průměr doby odezvy v ms a objasněn směr rychlejší = nižší. Následující přeformulování má 1 metodickou nápovědu.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [
+        "Hypotéza používá minimální rozdíl „jedna jednotka“ bez pojmenování měřené veličiny a jednotky."
+      ],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Jak přesně formulovat hypotézu, pokud jednotka znamená rozdíl alespoň 1 ms v průměrné době odezvy? Zachovat stejné podmínky A/B. Kritérium: při 100 současných uživatelích na stejném serveru se stejnými požadavky bude průměrná doba odezvy B alespoň o 1 ms nižší než A. Podmínky může odkázat na zadání, musí určit průměrnou dobu, jednotku/smysl rozdílu a správný směr. Před otázkou dodána metrika, jednotka a směr, proto při následném úspěchu 1 nápověda. Pak poslední část s. 3: plánované potvrzování vs explorace s odděleným ověřením a nenaplněná H není selhání výzkumu. Později opakovat cílový jmenovatel podílu legitimních, typy proměnných kromě nominální a konkrétní výzkumný přínos. Celý další obsah s. 4–21 zachován v plánu.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T08:11:20.593294+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: V již získaných datech výzkumník objeví nečekaný vztah délky e-mailu a chybovosti a teprve vytvoří H. Jak s ní dál pracovat pro přesvědčivé ověření? Kritérium: přiznat explorační původ (nikoli vydávat za předem plánovanou H) a samostatně ověřit na nových/oddělených dosud nepoužitých datech vhodným předem určeným postupem. Stačí vystihnout princip, nevyžadovat technické termíny. Poté audit s. 3: celý učební obsah byl vysvětlen, ale slabiny operacionalizace/jmenovatele a přesného formulování H zůstávají k opakování; nominální a role proměnných doloženy, ordinální/diskrétní/spojitá zatím jen vyloženy. S. 2 probrána, konkrétní výzkumný přínos ještě samostatně revidovat. Dále s. 4 vyzkumne-pristupy-a-data v celém rozsahu: soulad metody s otázkou a proveditelností (přístup k datům/čas/náklady/účastníci); kvantitativní/kvalitativní/smíšený a teoretický/empirický s průniky; žádný univerzální žebříček (s. 19 i kvalitativní); celá tabulka pozorování/měření/experiment/dotazník/rozhovor/případová studie/analýza dokumentů a všechny náležitosti; nástroj není metoda; data pro každou otázku a důvod každé dotazníkové položky, nepřekrývající se kategorie, vícenásobné odpovědi a základ procent, pilotáž. Zbytek s. 5–21 podle úplného průzkumu a historie zachován. Neoznačovat všechny materiály za probrané.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-17",
+      "activity": "Jak přesně bude znít tvoje hypotéza, pokud „o jednu jednotku“ znamená rozdíl alespoň 1 milisekundy v průměrné době odezvy? Zachovej stejné podmínky porovnání verzí A a B.",
+      "learner_answer": "Verze B je v průměru rychlejší alespon o jednu miliskundu při 100 současně připojených uživatelích, na stejném serveru a se stejnými požadavky.",
+      "evaluation": "Kritérium po upřesnění splněno: průměr, rozdíl alespoň 1 ms a stejné podmínky. Porovnávaná A a průměrná doba odezvy jsou jednoznačně dány zadáním; není důvod vyžadovat mechanické opakování celého názvu metriky nebo A. Zpětná vazba převedla do přesné podoby průměrná doba odezvy B alespoň o 1 ms nižší než A. 1 metodická nápověda před pokusem poskytla metriku, jednotku a směr. Jde o úspěšné přeformulování s podporou, nikoli samostatný návrh operacionalizace.",
+      "result": "passed",
+      "hints_used": 1,
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T09:08:25.981511+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: V již získaných datech výzkumník objeví nečekaný vztah délky e-mailu a chybovosti a teprve vytvoří H. Jak s ní dál pracovat pro přesvědčivé ověření? Kritérium: přiznat explorační původ (nikoli vydávat za předem plánovanou H) a samostatně ověřit na nových/oddělených dosud nepoužitých datech vhodným předem určeným postupem. Stačí vystihnout princip, nevyžadovat technické termíny. Poté audit s. 3: celý učební obsah byl vysvětlen, ale slabiny operacionalizace/jmenovatele a přesného formulování H zůstávají k opakování; nominální a role proměnných doloženy, ordinální/diskrétní/spojitá zatím jen vyloženy. S. 2 probrána, konkrétní výzkumný přínos ještě samostatně revidovat. Dále s. 4 vyzkumne-pristupy-a-data v celém rozsahu: soulad metody s otázkou a proveditelností (přístup k datům/čas/náklady/účastníci); kvantitativní/kvalitativní/smíšený a teoretický/empirický s průniky; žádný univerzální žebříček (s. 19 i kvalitativní); celá tabulka pozorování/měření/experiment/dotazník/rozhovor/případová studie/analýza dokumentů a všechny náležitosti; nástroj není metoda; data pro každou otázku a důvod každé dotazníkové položky, nepřekrývající se kategorie, vícenásobné odpovědi a základ procent, pilotáž. Zbytek s. 5–21 podle úplného průzkumu a historie zachován. Neoznačovat všechny materiály za probrané.",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-18",
+      "activity": "Výklad posledního odstavce s. 3: potvrzující analýzu plánujeme před nahlédnutím do výsledků a ověřujeme předem stanovené očekávání. Explorace hledá vzory v datech, může z nich vytvářet nové H; nutno přiznat explorační původ a oddělit následné ověření. Vlastní ilustrace oddělení: nová data. Vysvětleno riziko používání stejného nálezu jako zdroje H a zdánlivě nezávislého potvrzení. Nepodpořená očekávaná H sama o sobě neznamená neúspěšný výzkum, kvalitně provedená práce může dát hodnotnou odpověď.",
+      "learner_answer": "",
+      "evaluation": "Všechny zbývající myšlenky posledního odstavce s. 3 skutečně vysvětleny. Celá stránka byla probrána výkladem/procvičením jednotlivých částí, nikoli vše samostatně zvládnuto. Přenos na vlastní explorační nález čeká na odpověď.",
+      "result": "introduced",
+      "hints_used": 0,
+      "review_on": null,
+      "created_at": "2026-10-24T09:08:26.219525+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "checkpoint_id": "otazky-a-hypotezy-2026-10-24-19",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "otazky-a-hypotezy",
+      "activity_kind": "material",
+      "activity": "Výzkumník v již získaných datech objeví nečekaný vztah mezi délkou e-mailu a chybovostí filtru. Teprve na základě tohoto nálezu vytvoří novou hypotézu. Jak má s touto hypotézou dál pracovat, aby její ověření bylo přesvědčivé?",
+      "learner_answer": "Uvedu, že tato hypotéza vznikla po exploraci dat a ověřuji jí na nových datech",
+      "evaluation": "Obě části kritéria splněny bez nápovědy k úloze: transparentně přizná explorační původ H a ověří na nových datech. Doloženo oddělení objevení vztahu a následného ověření. Audit s. 3 proti celé dosavadní historii potvrzuje dokončený výklad všech částí, nikoli samostatné zvládnutí slabých operacionalizací a ostatních dosud neověřených pojmů.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Statistikou popíšeme dokončování online kurzu a následnými rozhovory zkoumáme zkušenosti odcházejících, aby vysvětlily číselné výsledky, obě části propojíme v závěrech. Jaký přístup a proč? Kritérium: smíšený, účelně integruje kvantitativní a kvalitativní zjištění, ne jen přítomnost dvou nástrojů. Dále s. 4 zbývá vysvětlit překrývání os teoretický/empirický s kvalitativní/kvantitativní, kvantitativní může být explorativní a případová studie obsahovat čísla. Poté všech sedm metod ve všech sloupcích tabulky (pozorování: co/kdy/jak a role/ovlivnění; měření: přístroj/škála/podmínky/přesnost/jednotky/kalibrace; experiment: zásah/srovnání/přidělení/kontrola; dotazník: respondenti/položky/škály/vyhodnocení; rozhovor: struktura/záznam/osoby/analýza; případová: hranice/důkazy/přenos; dokumenty: původ/výběr/kontext/interpretace). Dále cíli odpovídající nástroj a účel každé položky vs data ke každé otázce/H; nepřekryv kategorií včetně hranic do5/5–10/10–15; vícenásobné odpovědi a jmenovatel procent/součet>100; pilotáž. Slabiny k opakování: ukazatel a jmenovatel legitimních, přesná samostatná H, ordinální/discrétní/spojitá, konkrétní výzkumný přínos. S. 2 a 3 vyloženy celé, ne vše samostatně zvládnuto. Audit celé dosavadní historie 44 předchozích checkpointů proběhl v dávkách 0–24,25–36,37–43. Zbytek s. 5–21 podle plné mapy zůstává v rozsahu.",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T09:12:57.687837+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "checkpoint_id": "vyzkumne-pristupy-a-data-2026-10-24-01",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vyzkumne-pristupy-a-data",
+      "activity_kind": "material",
+      "activity": "Výklad úvodního odstavce a prvního odstavce Výzkumné přístupy na s. 4. Metoda musí odpovídat otázce a důkazům, znalost nástroje ji automaticky nezdůvodňuje. Zahrnuta proveditelnost: dostupnost dat, čas, náklady a podmínky účastníků. Kvantitativní = číselné vyjádření, popis/odhady/modely/testování; kvalitativní = významy/zkušenosti/souvislosti, příklady rozhovory/analýza dokumentů; smíšený = účelné propojení. U kvalitativního vysvětlen výběr případů, analytický postup a datová opora interpretací. Doplněna korekce hierarchie ze s. 19: kvalitativní není automaticky méně hodnotný, rozhoduje otázka a kvalita provedení. Překryvy teoretický/empirický a kvant/kval, celá tabulka sedmi metod i závěrečný oddíl dotazníků/pilotáže zatím nevyloženy.",
+      "learner_answer": "",
+      "evaluation": "První dvě vymezené části s. 4 skutečně vyloženy včetně podmínek kvalitativní práce, volby metody a proveditelnosti. Úloha na smíšený přístup čeká na odpověď. Nepřipisuje se pokrytí zbytku stránky ani celé kapitoly.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:4"
+        },
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:19"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Statistikou popíšeme dokončování online kurzu a následnými rozhovory zkoumáme zkušenosti odcházejících, aby vysvětlily číselné výsledky, obě části propojíme v závěrech. Jaký přístup a proč? Kritérium: smíšený, účelně integruje kvantitativní a kvalitativní zjištění, ne jen přítomnost dvou nástrojů. Dále s. 4 zbývá vysvětlit překrývání os teoretický/empirický s kvalitativní/kvantitativní, kvantitativní může být explorativní a případová studie obsahovat čísla. Poté všech sedm metod ve všech sloupcích tabulky (pozorování: co/kdy/jak a role/ovlivnění; měření: přístroj/škála/podmínky/přesnost/jednotky/kalibrace; experiment: zásah/srovnání/přidělení/kontrola; dotazník: respondenti/položky/škály/vyhodnocení; rozhovor: struktura/záznam/osoby/analýza; případová: hranice/důkazy/přenos; dokumenty: původ/výběr/kontext/interpretace). Dále cíli odpovídající nástroj a účel každé položky vs data ke každé otázce/H; nepřekryv kategorií včetně hranic do5/5–10/10–15; vícenásobné odpovědi a jmenovatel procent/součet>100; pilotáž. Slabiny k opakování: ukazatel a jmenovatel legitimních, přesná samostatná H, ordinální/discrétní/spojitá, konkrétní výzkumný přínos. S. 2 a 3 vyloženy celé, ne vše samostatně zvládnuto. Audit celé dosavadní historie 44 předchozích checkpointů proběhl v dávkách 0–24,25–36,37–43. Zbytek s. 5–21 podle plné mapy zůstává v rozsahu.",
+      "review_on": null,
+      "created_at": "2026-10-24T09:12:57.941934+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "checkpoint_id": "vyzkumne-pristupy-a-data-2026-10-24-02",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vyzkumne-pristupy-a-data",
+      "activity_kind": "material",
+      "activity": "Výzkumník statisticky popíše, kolik studentů dokončuje online kurz. Potom rozhovory zkoumá zkušenosti těch, kteří odešli, aby výsledky lépe vysvětlil. Obě části propojí v závěrech. Jaký výzkumný přístup používá a proč?",
+      "learner_answer": "používá syntézu. propojuje výsledky anallýzy s hypotézou",
+      "evaluation": "Vystihl obecné propojování výsledků, které může být syntézou, ale nepojmenoval požadovaný přístup a nerozlišil propojení kvantitativních a kvalitativních dat. Zmínka o hypotéze není dána zadáním; sama o sobě neprokazuje další obecnou mylnou představu. Kritérium smíšeného přístupu dosud nesplněno. Zpětná vazba přiřadila statistiku ke kvantitativní části, zkušenostní rozhovory ke kvalitativní a účelné propojení ke smíšenému; výslovně rozlišila syntézu jako spojování zjištění do odpovědi od druhu výzkumného přístupu.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [
+        "Při otázce na kvantitativní/kvalitativní/smíšený přístup odpověděl syntézou, tedy jinou úrovní popisu výzkumu."
+      ],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:2"
+        },
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká na odpověď: U dvou verzí aplikace měříme dobu odezvy a počet chyb a statisticky je porovnáme. Kvantitativní/kvalitativní/smíšený přístup? Rozhodnout podle povahy dat, ne počtu vlastností. Kritérium: kvantitativní, obě měřené veličiny číselné, více metrik samo nevytváří smíšený přístup. Před otázkou opravná pomůcka kvant=číselné, kval=zkušenosti/významy, smíšený=účelné propojení; při bezprostředním úspěchu zaznamenat 1 nápovědu. Poté znovu ověřit smíšený přístup na novém případě a pokračovat neprobraným překryvem os teoretický/empirický vs kvant/kval, kvantitativní explorací a čísly v případové studii. Stále zbývá celá tabulka 7 metod se všemi popisnými náležitostmi a závěrečný oddíl nástroje/dotazníků/kategorií/vícenásobných odpovědí/pilotáže s. 4. Slabiny s. 2–3 (přínos, jmenovatel, přesná samostatná H, další typy proměnných) ponechat na opakování; s. 5–21 nejsou probrány.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T10:15:03.790707+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "checkpoint_id": "vyzkumne-pristupy-a-data-2026-10-24-03",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vyzkumne-pristupy-a-data",
+      "activity_kind": "material",
+      "activity": "Výzkumník měří u dvou verzí aplikace dobu odezvy a počet chyb a výsledky statisticky porovná. Používá kvantitativní, kvalitativní, nebo smíšený přístup? Rozhodni podle povahy dat, nikoli podle počtu měřených vlastností.",
+      "learner_answer": "používá smýšený přístup",
+      "evaluation": "Nesprávně označil čistě číselná měření a statistické srovnání za smíšený přístup. Správně kvantitativní; obě proměnné jsou číselné. Odpověď neříká, proč smíšený zvolil, proto motiv počtu vlastností není jistý; zpětná vazba výslovně odlišila počet proměnných od kombinace přístupů. Přidána tabulka doba odezvy 120 ms, počet chyb 7 a příklad skutečného smíšení s kvalitativními rozhovory o prožívání čekání. Před pokusem dostal po předchozí chybě kategorizaci kvant/kval/smíšený a upozornění na povahu dat, proto 1 nápověda.",
+      "result": "needs-practice",
+      "hints_used": 1,
+      "difficulty": "zakladni",
+      "misconceptions": [
+        "Čistě kvantitativní studii měřící dobu odezvy a počet chyb označil za smíšenou; rozlišení povahy přístupů zatím není doloženo."
+      ],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Výzkumník zjišťuje počet nedokončených objednávek a jejich průměrnou peněžní hodnotu a statisticky je zpracuje. Kvantitativní/kvalitativní/smíšený? Kritérium: kvantitativní, obě vlastnosti jsou číselné. Před zadáním vysvětleny dvě číselné proměnné jako stále kvantitativní a tabulka i kontrast rozhovorů; při následném úspěchu 1 nápověda. Poté ověřit kvalitativní nebo skutečně smíšený případ; nezdržovat se nekonečně stejnou úlohou, přizpůsobit podporu. Neprobrané s. 4: překryv teorie/empirie s kvant/kval, kvantitativní explorace a případová studie s čísly; všech 7 metod se všemi náležitostmi tabulky; cíli odpovídající nástroj a účel položek vs data pro otázky/H; kategorie, vícenásobné odpovědi a základ procent, pilotáž. Později opakovat slabiny s. 2–3 (přínos, jmenovatel legitimních, vlastní konkrétní H, ostatní typy proměnných). Celý obsah s. 5–21 zůstává v plánu.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T10:19:12.737788+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "checkpoint_id": "vyzkumne-pristupy-a-data-2026-10-24-04",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vyzkumne-pristupy-a-data",
+      "activity_kind": "material",
+      "activity": "Vyjasnění po uživatelově námitce ke střídání příkladů: původní online kurz kombinuje statistický popis a kvalitativní rozhovory v závěrech (smíšený); pozdější aplikace s odezvou a počtem chyb i otázka o počtu/hodnotě objednávek používají jen číselné údaje (kvantitativní). Vysvětleno, že statistika označuje kvantitativní část a může být součástí smíšeného výzkumu, rozhoduje povaha a účelné propojení částí, ne počet proměnných. Uznáno příliš rychlé střídání příkladů a další úloha udržuje stejný kontext online kurzu.",
+      "learner_answer": "počkej, vdyt jsi psal \"Výzkumník statisticky popíše, kolik studentů dokončuje online kurz. Potom rozhovory zkoumá zkušenosti těch, kteří odešli, aby výsledky lépe vysvětlil. Obě části propojí v závěrech \" je tam statistika i rozhovor -> to odpovídá na statistický přístup)",
+      "evaluation": "Jde o žádost o vyjasnění, nikoli o odpověď na poslední otázku o objednávkách. Ta zůstává nevyhodnocená a je nahrazena otázkou ve stabilním kontextu. Uživatel správně upozornil na současnou přítomnost statistiky a rozhovorů v původním příkladu; pojmenování statistický přístup zpřesněno na smíšený pro celek a kvantitativní pro statistickou část. Poznámka k předchozímu checkpointu vyzkumne-pristupy-a-data-2026-10-24-03: odpověď smíšený je nesprávná vůči tehdejšímu příkladu čistě číselných dat, ale nynější námitka ukazuje možnou záměnu zadání při střídání příkladů. Nepovažovat ji bez dalšího za důkaz ustálené pojmové chyby; další porozumění ověřit při stejném kontextu. Stejná námitka dorazila dvakrát, zpracována jen jednou.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká na odpověď ve stabilním kontextu: u stejného online kurzu výzkumník vede pouze rozhovory o zkušenostech odcházejících a hledá/interpretuje opakující se témata. Jaký přístup? Kritérium: kvalitativní. Před otázkou srovnávací tabulka tří dřívějších případů a rozlišení celku od statistické části; při přímém následném úspěchu 1 metodická nápověda. Nepokračovat další změnou kontextu, dokud nevyjasněno. Původní počet/hodnota objednávek nezodpovězeny, nehodnotit. Pak ověřit kombinaci v témže kurzu a pokračovat zbývajícím s. 4: překryvy os teoretický/empirický a kvant/kval, kvantitativní explorace, případová studie s čísly; celá tabulka 7 metod se všemi náležitostmi; smysl položek a vazba data–otázka/H; kategorie odpovědí, vícenásobné odpovědi a procenta, pilotáž. Slabiny s. 2–3 k opakování zachovány; s. 5–21 stále neprobrány kromě konkrétních zaznamenaných korekcí s. 19.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T10:23:15.465133+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vyzkumne-pristupy-a-data",
+      "activity_kind": "material",
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "next_step": "Čeká na odpověď: Ve stejném online kurzu výzkumník v číselných záznamech dokončování hledá nepředpokládané vzory a vytváří H. Může být postup současně kvantitativní a explorativní a proč? Kritérium: ano, kvantitativní označuje číselnou práci, explorativní vznik nových H ze vzorů v datech, jsou to různá hlediska. Nevyžadovat opakování tabulky, stačí smysl. Udržovat stejný kontext po záměně starších zadání. Poté s. 4 zbývá všech 7 metod se všemi náležitostmi: pozorování (co/kdy/jak, role/ovlivnění), měření (přístroj/škála, podmínky, přesnost, jednotky, kalibrace), experiment (zásah, srovnání, přidělení, kontrola rušivých), dotazník (výběr, znění, škály, vyhodnocení), rozhovor (struktura, záznam, výběr, analýza), případová studie (hranice, důkazy, přenos), dokumenty (původ, výběr, kontext, interpretace). Případová studie jen definována a vysvětleno, že může obsahovat čísla, její náležitosti ještě nevyloženy. Dále vazba nástroj–cíl, každá položka účel a data pro každou otázku/H, odpovědní kategorie/hranice, vícenásobné odpovědi/základ procent, pilotáž. Slabiny dřívějších s. 2–3 (přínos, jmenovatel, vlastní přesná H, ordinální/discrétní/spojitá) ponechat na opakování. Další s. 5–21 dle celé mapy zůstávají v rozsahu.",
+      "checkpoint_id": "vyzkumne-pristupy-a-data-2026-10-24-05",
+      "activity": "Zůstaňme u stejného online kurzu. Výzkumník vede pouze rozhovory o zkušenostech odcházejících studentů a jejich výpovědi vyhodnocuje hledáním a interpretací opakujících se témat. Jaký přístup používá: kvantitativní, kvalitativní, nebo smíšený?",
+      "learner_answer": "kvalitativní",
+      "evaluation": "Správná klasifikace kvalitativního přístupu ve stabilním kontextu. Před otázkou po zmatení střídáním zadání dostal tabulku rozlišující tři případy a mapování kvantitativní/kvalitativní/smíšený; proto 1 podpůrná nápověda. Doloženo určení tohoto kvalitativního případu, nikoli samostatné rozlišení všech přístupů s odstupem. Starší chyby interpretovat i s ohledem na uživatelem doloženou záměnu kontextu.",
+      "result": "passed",
+      "hints_used": 1,
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:4"
+        }
+      ],
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T10:31:26.106934+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vyzkumne-pristupy-a-data",
+      "activity_kind": "material",
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "next_step": "Čeká na odpověď: Ve stejném online kurzu výzkumník v číselných záznamech dokončování hledá nepředpokládané vzory a vytváří H. Může být postup současně kvantitativní a explorativní a proč? Kritérium: ano, kvantitativní označuje číselnou práci, explorativní vznik nových H ze vzorů v datech, jsou to různá hlediska. Nevyžadovat opakování tabulky, stačí smysl. Udržovat stejný kontext po záměně starších zadání. Poté s. 4 zbývá všech 7 metod se všemi náležitostmi: pozorování (co/kdy/jak, role/ovlivnění), měření (přístroj/škála, podmínky, přesnost, jednotky, kalibrace), experiment (zásah, srovnání, přidělení, kontrola rušivých), dotazník (výběr, znění, škály, vyhodnocení), rozhovor (struktura, záznam, výběr, analýza), případová studie (hranice, důkazy, přenos), dokumenty (původ, výběr, kontext, interpretace). Případová studie jen definována a vysvětleno, že může obsahovat čísla, její náležitosti ještě nevyloženy. Dále vazba nástroj–cíl, každá položka účel a data pro každou otázku/H, odpovědní kategorie/hranice, vícenásobné odpovědi/základ procent, pilotáž. Slabiny dřívějších s. 2–3 (přínos, jmenovatel, vlastní přesná H, ordinální/discrétní/spojitá) ponechat na opakování. Další s. 5–21 dle celé mapy zůstávají v rozsahu.",
+      "checkpoint_id": "vyzkumne-pristupy-a-data-2026-10-24-06",
+      "activity": "Výklad druhého odstavce Výzkumné přístupy s. 4 v návaznosti na s. 3: teoretický/empirický podle opory poznání (pojmy/logika/důkazy vs pozorování/data), kvantitativní/kvalitativní/smíšený podle přístupu k jevům, explorace/potvrzování podle vzniku a ověřování H. Vysvětleny překryvy a původní dvě výjimky: kvantitativní studie může být explorativní; případová studie může obsahovat čísla. Vlastní příklady ve stabilním kontextu online kurzu: rozhovory empirické a kvalitativní, číselné dokončování může sloužit exploraci. Případová studie stručně definována jako detailní zkoumání vymezeného případu v kontextu; požadavky na hranice/důkazy/přenos ještě nevyloženy. Zbytek tabulky metod a poslední oddíl s. 4 stále neprobrán.",
+      "learner_answer": "",
+      "evaluation": "Celý odstavec o překrývání typů byl skutečně vysvětlen včetně obou konkrétních případů. Samostatné použití dvou označení současně čeká na odpověď. Neprokazuje zvládnutí jednotlivých metod.",
+      "result": "introduced",
+      "hints_used": 0,
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        },
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:4"
+        }
+      ],
+      "review_on": null,
+      "created_at": "2026-10-24T10:31:26.368298+00:00"
+    }
+  ]
 }

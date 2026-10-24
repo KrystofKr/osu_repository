@@ -63,9 +63,11 @@
         "Vysvětlit gradientní krok, learning rate a trénovací smyčku."
       ],
       "prerequisites": [],
-      "status": "unseen",
-      "misconceptions": [],
-      "review_on": null
+      "status": "practicing",
+      "misconceptions": [
+        "Vzorec i směr aktualizace při kladné derivaci byly správné, ale výpočet 0.4-0.1*0.6 dal 0.394 místo 0.34."
+      ],
+      "review_on": "2026-10-26"
     },
     "hodnoceni-klasifikace": {
       "subject_id": "deep",
@@ -99,12 +101,11 @@
         "Rozlišit train, validation a test a rozpoznat underfitting a overfitting."
       ],
       "prerequisites": [],
-      "status": "practicing",
+      "status": "demonstrated",
       "misconceptions": [
-        "Dřívější ztotožnění overfittingu s doslovným zapamatováním bylo vysvětleno; samostatné použití upřesnění zatím neověřeno.",
-        "Absolutní formulace, že náhodný náskok nepřetrvá, byla opravena na nemusí přetrvat; samostatné použití této přesnosti zatím neověřeno."
+        "Dřívější absolutní tvrzení o zániku náhodného náskoku bylo opraveno na nemusí přetrvat; samostatné použití přesnosti zatím neověřeno."
       ],
-      "review_on": "2026-10-19"
+      "review_on": "2026-10-26"
     },
     "fashion-mnist": {
       "subject_id": "deep",
@@ -2088,6 +2089,1076 @@
       "next_step": "Čeká se na odpověď: Na stejné trénovací sadě a oddělené validační sadě mají modely průměrné BCE A: trénink 0.05, validace 0.80; B: trénink 0.20, validace 0.30. Který vybereš podle validace? Proč nižší trénovací BCE A sama nedokazuje nižší skutečné riziko R na nových datech? Jde o nové použití dříve vyloženého rozdílu R_hat a R (s. 17) a opakování generalizace/validace (s. 57). K řešení nebyla v nynější zpětné vazbě dána další metodická nápověda. Při vyhodnocení lze zapsat výsledek do generalizace-a-overfitting a zohlednit jeho starší otevřená upřesnění, zejména že overfitting nemusí být doslovné zapamatování a validační odhad není záruka skutečného pořadí rizik. Při dalším opakování MLE/BCE ověřit i vlastní vysvětlení logaritmu, znaménka a konstantního dělení; tato část nyní nebyla samostatně rozvedena. Zpětnou vazbu a další otázku zobrazovat před zápisem.",
       "review_on": "2026-10-19",
       "created_at": "2026-10-18T09:12:53.507459+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-01-validace-bce",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "generalizace-a-overfitting",
+      "activity_kind": "material",
+      "activity": "Dva modely mají na stejných trénovacích a oddělených validačních datech průměrné BCE: A trénink 0.05, validace 0.80; B trénink 0.20, validace 0.30. Který model vybereš podle validace a proč nižší trénovací BCE modelu A sama nezaručuje nižší očekávanou ztrátu na nových datech?",
+      "learner_answer": "vyberu B, protože má nižčí BCE na validaci, trénovací BCE modelu může být zkresleno overfittingem",
+      "evaluation": "Kritérium: vybrat B podle nižší validační BCE a vysvětlit, proč trénovací BCE sama nezaručuje nižší skutečné riziko. Splněno: uživatel správně vybírá B a uvádí možnost overfittingu trénovacího výsledku. Bez aktuální metodické nápovědy, při navázání na dříve vyložené učivo; zadání pouze znovu předložilo nedokončenou úlohu z 18. října. Ve zpětné vazbě upřesněna optimističnost trénovací ztráty kvůli výběru parametrů na trénovacích datech a to, že validace zůstává odhadem. Odpověď není dokladem samostatného vysvětlení výběrového zkreslení, tvrzení o jistotě pořadí skutečných rizik ani rozlišení overfittingu od doslovného zapamatování. Hodnocení a další otázka přes průběžný vstup byly zobrazeny před zápisem.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "opakovani-validacni-vyber-a-generalizace",
+      "misconceptions": [
+        "Dřívější ztotožnění overfittingu s doslovným zapamatováním bylo vysvětleno; samostatné použití upřesnění zatím neověřeno.",
+        "Dřívější absolutní tvrzení o zániku náhodného náskoku bylo opraveno na nemusí přetrvat; samostatné použití přesnosti zatím neověřeno."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:17"
+        },
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:57"
+        }
+      ],
+      "next_step": "Čeká se na odpověď přes průběžný vstup: Model A má výrazně nižší trénovací než validační ztrátu. Musí to znamenat, že si doslova zapamatoval jednotlivé trénovací příklady, nebo může overfitting vzniknout i jinak? Uveď krátký příklad. Otázka ověřuje starší otevřené upřesnění bez aktuální nápovědy k jeho řešení. Při úspěchu zahájit dosud neprobrané gradienty a autograd podle s. 25–29; před výkladem zkontrolovat příslušný originál. Ostatní neprobrané části přednášky včetně dodatků a celé cvičení zůstávají v rozsahu. Při další aktivitě zohlednit i splatná opakování odds/logitu, biasu, accuracy a MLE pro skutečnou třídu. Zpětnou vazbu a další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-22T12:21:13.563821+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-02-overfitting-bez-memorovani",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "generalizace-a-overfitting",
+      "activity_kind": "material",
+      "activity": "Musí si model při overfittingu doslova zapamatovat jednotlivé trénovací příklady, nebo může overfitting vzniknout i jinak? Uveď krátký příklad.",
+      "learner_answer": "Nemusí si doslova zapamatovat, ale trénink probíhá stylem minimalizace loss na konkrétních datech. Model se může příliš přizpůsobit konktréním datům tréninku a pak špatně generalizovat.",
+      "evaluation": "Doložené kritérium konceptu: odmítnout nutnost doslovného zapamatování a popsat přílišné přizpůsobení konkrétním trénovacím datům s horší generalizací. Splněno samostatně bez aktuální metodické nápovědy. Uživatel výslovně rozlišil overfitting a doslovné zapamatování a uvedl správný mechanismus na obecné úrovni. Konkrétní příklad neuvádí; není tedy evidována samostatná schopnost uvést či rozpoznat konkrétní příklad. Ve zpětné vazbě doplněny náhodné souvislosti a šum. Starší neověřené upřesnění, že overfitting nemusí znamenat doslovné zapamatování, je touto odpovědí doloženo. Samostatné použití přesnosti o přetrvání náhodného náskoku zůstává otevřené. Hodnocení, úvod gradientního sestupu a další otázka přes průběžný vstup byly zobrazeny před zápisem.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "koncept-overfitting-bez-doslovneho-zapamatovani",
+      "misconceptions": [
+        "Dřívější absolutní tvrzení o zániku náhodného náskoku bylo opraveno na nemusí přetrvat; samostatné použití přesnosti zatím neověřeno."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:57"
+        },
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:58"
+        }
+      ],
+      "next_step": "Zahájen gradientní sestup v jedné proměnné podle s. 25. Čeká se na výpočet f_prime(0) a x_nove pro f(x)=(x-3)^2, f_prime(x)=2(x-3), x=0, eta=0.2. Konkrétní příklad overfittingu ještě nebyl samostatně uveden; vrátit se k němu s odstupem při interpretaci křivek či rozhodovacích hranic podle s. 58–59.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-22T12:27:18.169288+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-03-gradientni-krok-uvod",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Výklad podle Přednášky 1, s. 25: derivace f_prime(x) udává lokální sklon, kladná znamená růst při pohybu doprava a záporná pokles. Gradientní sestup v jedné proměnné používá x_nove=x-eta*f_prime(x), eta>0 je learning rate. Záporné znaménko obrací směr růstu ke snižování funkce pro dostatečně malý krok. Pro f(x)=(x-3)^2 platí f_prime(x)=2(x-3) a minimum je v x=3.",
+      "learner_answer": "",
+      "evaluation": "Výklad dokončen a původní strana 25 vizuálně zkontrolována v lokálním renderu; pasáž i hash ověřeny nástrojem passages. Výpočet kroku uživatelem dosud neověřen. Předložený vzorec derivace se nehodnotí jako uživatelovo samostatné derivování. Z celé s. 25 byly vysvětleny pouze lokální sklon, vzorec jednorozměrného kroku, learning rate a uvedená kvadratická funkce s derivací a minimem. Ruční posloupnost více kroků, čtení grafu a tečny, porovnání s autogradem a kód PyTorch včetně requires_grad, backward, resetu gradientů a no_grad zatím probrány nejsou. Dosud neodeslanou odpověď nehodnotit.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "uvod-gradientni-sestup-jedna-promenna",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na již zobrazenou úlohu: Pro f(x)=(x-3)^2 začínáme v x=0 a volíme eta=0.2. Použij f_prime(x)=2(x-3) a x_nove=x-eta*f_prime(x): jaká je derivace v počátečním bodě a kam se x posune po jednom kroku? Ukaž výpočet. Vzorce jsou součástí výkladu a zadání; k výpočtu nebyla dána další nápověda. Při úspěchu ověřit snížení f a navázat dalšími kroky a autogradem ze s. 25; poté odvození gradientu BCE podle s. 26. Strana 25 není celá probrána. Ostatní neprobrané části všech zdrojů zůstávají v rozsahu. Zpětnou vazbu a další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T12:27:18.241411+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-04-gradientni-krok-znamenko",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Pro f(x)=(x-3)^2 a f_prime(x)=2(x-3) začínáme v x=0 a volíme eta=0.2. Jaká je derivace v počátečním bodě a jaké x dostaneme po jednom kroku x_nove=x-eta*f_prime(x)? Ukaž výpočet.",
+      "learner_answer": "f'(0) = 6, x_nove = -1.2",
+      "evaluation": "Kritérium: dosadit do zadané derivace a získat f_prime(0)=-6, poté použít zadaný krok a získat x_nove=1.2. Odpověď uvádí derivaci +6 místo -6. Hodnota x_nove=-1.2 je aritmeticky konzistentní s touto chybnou derivací a správným použitím odečítacího vzorce; není dokladem samostatné chyby ve vzorci aktualizace. Kritérium správného výsledku zatím nesplněno. Ve zpětné vazbě ukázáno f_prime(0)=2*(0-3)=2*(-3)=-6 a vysvětleno, že odečtení záporné derivace zvýší x. Výsledná opravená hodnota x zatím nesdělena. Toto je jedna podstatná metodická nápověda pro opravný pokus. Hodnocení a další otázka přes průběžný vstup byly zobrazeny před zápisem.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "prvni-aplikace-gradientniho-kroku",
+      "misconceptions": [
+        "Při dosazení x=0 do 2*(x-3) vyšla kladná hodnota 6 místo -6. Použití aktualizačního vzorce je konzistentní s chybnou derivací; správný výpočet kroku po opravě znaménka zatím neověřen."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: S opravenou derivací f_prime(0)=-6 dopočítej x_nove=0-0.2*(-6). Jaká hodnota vyjde? Ukaž úpravu znamének. Zohlednit jednu podstatnou nápovědu: opravený výpočet derivace a vysvětlení, že odečítání záporné hodnoty zvýší x. Při úspěchu ověřit snížení f z 9 na hodnotu po kroku; později zadat nový bod bez bezprostřední podpory. Zbytek s. 25 včetně více kroků a autogradu a ostatní neprobrané učivo zůstávají v rozsahu. Zpětnou vazbu a další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T15:30:28.080768+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-05-gradientni-krok-oprava",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "S opravenou derivací f_prime(0)=-6 dopočítej krok x_nove=0-0.2*(-6). Jaká hodnota vyjde? Ukaž úpravu znamének.",
+      "learner_answer": "f'(0) =-6, x_nove = 1.2",
+      "evaluation": "Kritérium: použít opravenou zápornou derivaci -6 ve vzorci aktualizace a získat x_nove=1.2. Splněno; hodnota správně dokládá odečtení záporného součinu, ačkoli uživatel nerozepisuje mezikroky. Hodnoceno po jedné podstatné nápovědě z předchozí korekce: výpočet derivace byl opraven a byl vysvětlen směr změny x. Jde o úspěšnou opravu stejného příkladu, nikoli samostatný výkon na novém bodě bez podpory. Ve zpětné vazbě potvrzen výpočet a posun směrem k minimu x=3. Snížení hodnoty funkce dosud uživatel neověřil. Hodnocení a navazující otázka přes průběžný vstup byly zobrazeny před zápisem.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "oprava-znamenka-gradientniho-kroku",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: Před krokem bylo f(0)=(0-3)^2=9. Spočítej f(1.2)=(1.2-3)^2 a porovnej ji s 9: snížil tento krok hodnotu funkce? Zatím nebyla dána další metodická nápověda k výpočtu funkční hodnoty. Při úspěchu lze ověřit další krok či nový počáteční bod bez bezprostřední podpory. Zbytek s. 25 včetně více kroků, grafu a autogradu zůstává neprobraný; navazují gradient BCE s. 26 a optimalizace s. 27–29. Zpětnou vazbu a další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T15:33:20.370871+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-06-overeni-poklesu-funkce",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Před krokem bylo f(0)=(0-3)^2=9. Spočítej f(1.2)=(1.2-3)^2 a porovnej ji s 9: snížil tento krok hodnotu funkce?",
+      "learner_answer": "f(1,2) = 3,24 což je méně než 9",
+      "evaluation": "Kritérium: vypočítat novou funkční hodnotu f(1.2)=3.24 a správně konstatovat snížení oproti 9. Vše splněno bez metodické nápovědy k této aktivitě. Výraz i původní hodnota byly součástí zadání. Předchozí nápověda se týkala znaménka derivace a není nápovědou k tomuto výpočtu funkční hodnoty. Ověřeno vyhodnocení konkrétního gradientního kroku; nejde o samostatné odvození derivace ani důkaz obecné záruky poklesu. Ve zpětné vazbě potvrzen výpočet (-1.8)^2=3.24 a pokles. Hodnocení a další otázka přes průběžný vstup byly zobrazeny před zápisem.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "overeni-poklesu-po-gradientnim-kroku",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Čeká se na odpověď na nový počáteční bod: Pro f(x)=(x-3)^2 začni v x=5, eta=0.2. Použij f_prime(x)=2(x-3) a x_nove=x-eta*f_prime(x). Jaká vyjde derivace a nové x? Ukaž výpočet. Vzorce jsou součástí zadání; k řešení nového bodu zatím nebyla dána metodická nápověda. Při úspěchu lze navázat přepočítáním lokální derivace v dalších krocích a autogradem podle s. 25, potom gradientem BCE s. 26. Samostatná správná aktualizace z nového bodu dosud není ověřena; záznam passed tohoto checkpointu dokládá pouze výpočet funkční hodnoty a porovnání. Zbývající učivo všech zdrojů ponechat v rozsahu. Zpětnou vazbu a další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:01:19.395197+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-07-gradientni-krok-novy-bod",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Pro f(x)=(x-3)^2 začni v x=5 a ponech eta=0.2. Použij f_prime(x)=2(x-3) a x_nove=x-eta*f_prime(x). Jaká vyjde derivace a nové x? Ukaž výpočet.",
+      "learner_answer": "f'(5) =4, x_nove = 4.2",
+      "evaluation": "Kritérium: správně vyhodnotit derivaci v novém počátečním bodě jako 4 a aktualizaci jako 5-0.2*4=4.2. Splněno bez metodické nápovědy k tomuto příkladu. Chybějící mezikroky nejsou důvodem ke snížení hodnocení; obě požadované hodnoty jsou správné. Vzorce byly součástí zadání, neověřeno jejich vybavení zpaměti ani samostatné odvození derivace. Ve zpětné vazbě potvrzen výpočet a vysvětleno, že pro další krok se derivace přepočítá v novém bodě, protože sklon závisí na poloze. Poté představen základ autogradu a zadána další otázka přes průběžný vstup, vše před zápisem.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "prenos-gradientniho-kroku-na-novy-bod",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Právě představen základ autogradu podle s. 25. Čeká se na určení x.grad a hodnoty x po vytvoření x=torch.tensor(4.2, requires_grad=True), f=(x-3)**2 a f.backward(). Dále vyučovat samotnou aktualizaci pod torch.no_grad a reset gradientů; ty zatím vyloženy nebyly. Později ověřit znaménka při startu vlevo od minima bez bezprostřední podpory.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-22T16:04:06.750560+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-08-autograd-uvod",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Výklad podle Přednášky 1, s. 25: při opakovaných gradientních krocích přepočítáváme derivaci v novém bodě, protože lokální sklon závisí na poloze. PyTorch počítá derivaci automaticky pomocí autogradu. requires_grad=True zapíná sledování operací s x. Volání f.backward() spočítá derivaci a uloží ji do x.grad; samotnou hodnotu x aktualizujeme samostatným krokem. Ukázán kód import torch; x=torch.tensor(4.2, requires_grad=True); f=(x-3)**2; f.backward().",
+      "learner_answer": "",
+      "evaluation": "Výklad dokončen. Základ autogradu, význam requires_grad a rozlišení výpočtu derivace od aktualizace parametru zatím uživatelem neověřeny. Vychází z již vizuálně ověřené s. 25 a jejího indexu; výuková varianta mění počáteční bod na dříve vypočtených 4.2. Kód v rámci průzkumu ani výuky nebyl spuštěn. Reset x.grad, akumulace gradientů, torch.no_grad, provedení aktualizace v kódu a kompletní smyčka zatím vyloženy nejsou. Tabulka několika iterací a její porovnání s autogradem ani podrobné čtení tečny v grafu také nejsou tímto záznamem považovány za celé probrané. Dosud neodeslanou odpověď nehodnotit.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "uvod-autograd-vypocet-versus-aktualizace",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: Po kódu x=torch.tensor(4.2, requires_grad=True); f=(x-3)**2; f.backward() jakou přibližnou hodnotu obsahuje x.grad a jakou hodnotu má samotné x? Zatím proběhl pouze backward, žádný aktualizační krok. Hodnotit aplikaci předloženého výkladu; přesný výpis tensoru ani přesnou float32 reprezentaci nevyžadovat. K řešení nebyla dána další nápověda nad rámec výkladu a popisu provedeného kódu. Při úspěchu navázat aktualizací pod torch.no_grad, resetem gradientů a smyčkou ze s. 25; poté gradient BCE s. 26. Zbývající učivo všech zdrojů zůstává v rozsahu. Zpětnou vazbu a další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:04:06.814902+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-09-autograd-hodnota-derivace",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Po kódu x=torch.tensor(4.2, requires_grad=True); f=(x-3)**2; f.backward() jakou přibližnou hodnotu obsahuje x.grad a jakou hodnotu má samotné x?",
+      "learner_answer": "x = 4.2, x.grad = 2.76",
+      "evaluation": "Kritérium: rozlišit neměnnou hodnotu x=4.2 od derivace uložené v x.grad=2*(4.2-3)=2.4. Uživatel správně uvádí x=4.2 a tím správně aplikuje oddělení backward od aktualizace parametru. Hodnota x.grad=2.76 není správná. Mezivýpočet chybí, takže nelze určit konkrétní příčinu číselné chyby ani tvrdit záměnu funkční hodnoty s derivací nebo neporozumění autogradu obecně. Úplné kritérium zatím nesplněno, needs-practice se týká hodnoty derivace. Ve zpětné vazbě potvrzeno nezměněné x, připomenuta totožnost automaticky a ručně počítané derivace a předložen výraz 2*(4.2-3). Výsledná správná hodnota zatím nesdělena. Toto je jedna podstatná metodická nápověda pro opravný pokus. Hodnocení a navazující otázka přes průběžný vstup byly zobrazeny před zápisem.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "autograd-rozliseni-parametru-a-derivace",
+      "misconceptions": [
+        "Uživatel správně ponechal x=4.2 po backward, ale pro x.grad uvedl 2.76 místo derivace 2.4. Bez mezivýpočtu nelze určit příčinu; opravný rozepsaný výpočet zatím neověřen."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: Rozepiš x.grad=2*(4.2-3): kolik vyjde závorka a kolik potom celá derivace? Zohlednit jednu podstatnou nápovědu: připomenutí konkrétního vzorce derivace a dosazení 4.2. Při úspěchu lze navázat aktualizací pod torch.no_grad, resetem gradientů a smyčkou ze s. 25; tyto části zatím nejsou probrané. Správné rozlišení backward od aktualizace x již doloženo touto odpovědí. Zbývající učivo všech zdrojů zůstává v rozsahu. Zpětnou vazbu a další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:06:14.056048+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-10-autograd-derivace-oprava",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Rozepiš x.grad=2*(4.2-3): kolik vyjde závorka a kolik potom celá derivace?",
+      "learner_answer": "2.4",
+      "evaluation": "Kritérium doložené odpovědí: získat správnou hodnotu derivace x.grad=2.4. Splněno po jedné podstatné metodické nápovědě: připomenutí f_prime(x)=2*(x-3) a konkrétního dosazení 4.2. Uživatel neuvádí mezihodnotu závorky, ale výsledná hodnota je správná; není důvod vyžadovat další opakování stejné aritmetiky. Není tím ověřen postup výpočtu mezikroků ani samostatný přenos bez nápovědy. Dřívější číselná chyba 2.76 je v této opravě překonána. Z předchozí odpovědi je již doloženo, že samotné backward nemění x. Ve zpětné vazbě potvrzeno x.grad=2.4 a x=4.2, poté vyložena ruční aktualizace pod no_grad a přes průběžný vstup zadána další otázka, vše před zápisem.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "oprava-hodnoty-derivace-autograd",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Právě představena ruční aktualizace x pod torch.no_grad. Čeká se na výpočet nového x ze současného x=4.2, x.grad=2.4 a eta=0.2. Dále vyučovat reset gradientů a celou smyčku; ty dosud nejsou probrány. Později zopakovat automaticky počítanou derivaci na novém bodě bez bezprostřední nápovědy.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:09:06.590687+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-11-no-grad-aktualizace-uvod",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Výklad podle Přednášky 1, s. 25: ruční aktualizace parametru se zapisuje jako with torch.no_grad(): x -= 0.2 * x.grad. Operátor -= odečte výraz od současné hodnoty x. Uvnitř torch.no_grad() PyTorch aktualizační operace nezaznamenává pro další výpočet derivací. Výpočet funkce f a volání backward provádíme mimo tento blok.",
+      "learner_answer": "",
+      "evaluation": "Výklad dokončen; aplikace aktualizace v kódu a význam no_grad zatím uživatelem neověřeny. Pasáž page:25 a hash zdroje znovu ověřeny přes passages; původní stránka byla již vizuálně prohlédnuta v této lekci. Nebyl spouštěn kód. Učivo resetu či akumulace gradientů, celé smyčky, tabulky iterací a podrobného čtení grafu na této stránce zůstává neprobrané. Dosud neodeslanou odpověď na výpočet aktualizace nehodnotit.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "uvod-rucni-aktualizace-no-grad",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: Před aktualizací je x=4.2 a x.grad=2.4. Jakou hodnotu bude mít x po with torch.no_grad(): x -= 0.2 * x.grad? Ukaž výpočet. Hodnotit aplikaci uvedeného kódu; k této aritmetice zatím nebyla dána další metodická nápověda. Při úspěchu vysvětlit reset gradientů, jejich akumulaci a kompletní smyčku ze s. 25. Poté navazuje gradient BCE podle s. 26 a obecná optimalizace s. 27–29. Ostatní neprobrané učivo obou zdrojů zůstává v rozsahu. Zpětnou vazbu a další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:09:06.653386+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-12-aktualizace-no-grad",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Pro x=4.2, x.grad=2.4 a eta=0.2 určete nové x po with torch.no_grad(): x -= 0.2*x.grad.",
+      "learner_answer": "4,2 - 0,48",
+      "evaluation": "Kritérium doložené odpovědí: správně použít aktualizaci a vypočítat velikost odečítaného kroku. Splněno bez dodatečné nápovědy: přesný výraz 4.2-0.48 správně určuje nové x. Závěrečné odečtení na 3.72 doplnil asistent; není evidováno jako uživatelův samostatný číselný výsledek. Význam no_grad tímto příkladem samostatně ověřen není. Hodnocení a další otázka přes průběžný vstup zobrazeny před zápisem.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "aplikace-aktualizace-z-gradientu",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Představen reset a akumulace gradientů podle kódu na s. 25. Čeká se na výsledek akumulace staré derivace 2.4 a nové 1.44 při vynechání resetu. Dále ověřit úplnou smyčku a význam no_grad, doplnit graf a tabulku s. 25; poté gradient BCE s. 26. Zpětnou vazbu a otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-22T16:14:25.972555+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-13-reset-gradientu-uvod",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Výklad důvodu řádku x.grad=None v kódu na s. 25: backward přičítá novou derivaci k existujícímu x.grad. Před novým výpočtem resetujeme x.grad=None, aby se stará derivace nepřičetla. Zadána aplikace se starou hodnotou 2.4 a novou derivací 1.44.",
+      "learner_answer": "",
+      "evaluation": "Výklad resetu a akumulace dokončen; samostatné použití zatím neověřeno. Vychází z již přečteného a vizuálně ověřeného kódu s řádkem reset na s. 25. Kód nebyl spuštěn. Kompletní smyčka, graf a tabulka iterací nejsou tímto záznamem považovány za celé probrané. Neodeslanou odpověď nehodnotit.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "uvod-reset-a-akumulace-gradientu",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: V x.grad zůstalo 2.4 a další backward přidá novou derivaci 1.44. Jaká hodnota bude v x.grad, pokud reset vynecháme? Princip sčítání byl součástí výkladu a zadání; další nápověda zatím žádná. Při úspěchu ověřit správné pořadí celé smyčky ze s. 25, potom gradient BCE podle s. 26. Ostatní neprobrané části obou zdrojů zůstávají v rozsahu. Preferovat krátký výstup, prostý zápis vzorců, jednu úlohu, minimum opakování a krátké technické výpisy podle žádosti uživatele v této lekci.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:14:26.037143+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-14-akumulace-vypocet",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "V x.grad zůstalo 2.4 a další backward přidá novou derivaci 1.44. Kolik bude v x.grad, pokud reset vynecháme?",
+      "learner_answer": "3,84",
+      "evaluation": "Kritérium: aplikovat popsanou akumulaci gradientů a získat 2.4+1.44=3.84. Splněno bez další metodické nápovědy nad rámec výkladu a zadání. Doložen výpočet při vynechaném resetu; správné umístění resetu ve smyčce a vlastní vysvětlení akumulace zatím touto odpovědí ověřeny nejsou. Ve zpětné vazbě potvrzeno sčítání. Hodnocení a další otázka přes průběžný vstup byly zobrazeny před zápisem.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "aplikace-akumulace-gradientu",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: Provedeme f.backward(), potom x.grad=None a nakonec x-=0.2*x.grad pod torch.no_grad(). Proč je pořadí chybné a kam patří reset? Ověřit, že uživatel rozpozná odstranění právě vypočteného gradientu a umístí reset před backward nového kroku. K odpovědi zatím nebyla dána metodická nápověda. Poté představit a ověřit kompletní smyčku s opětovným výpočtem f; doplnit graf a tabulku s. 25 a navázat gradientem BCE s. 26. Zbývající učivo všech zdrojů zůstává v rozsahu. Dodržovat stručné výstupy, prosté vzorce a jednu úlohu. Zpětnou vazbu a další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-22T16:16:25.162389+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-15-umisteni-resetu",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Proč je chybné pořadí f.backward(); x.grad=None; x-=0.2*x.grad pod torch.no_grad() a kam má reset patřit?",
+      "learner_answer": "dovnítř smyčky, před x -= 0.2 * x.grad",
+      "evaluation": "Kritérium: rozpoznat, že reset po backward odstraní právě vypočtenou derivaci, a umístit reset před backward nového kroku. Uživatel správně navrhuje reset uvnitř smyčky a před aktualizací. Tato podmínka ale platí i pro uvedené chybné pořadí, takže odpověď neurčuje polohu vůči backward a nevysvětluje problém. Není uživateli přisuzováno výslovné tvrzení, že reset má být po backward; odpověď je v tomto bodě nedostatečně konkrétní. Needs-practice označuje dosud neověřené správné pořadí a jeho důvod. Ve zpětné vazbě vysvětleno, že reset po backward odstraní právě vypočtenou derivaci a aktualizace ji pak nemá k dispozici. To je jedna podstatná metodická nápověda pro navazující pokus. Hodnocení a další otázka přes průběžný vstup byly zobrazeny před zápisem.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "umisteni-resetu-vuci-backward",
+      "misconceptions": [
+        "Odpověď umisťuje reset uvnitř smyčky před aktualizaci, ale neurčuje jeho pořadí vůči backward. Správné odstranění starého gradientu před výpočtem nového zatím neověřeno; následky resetu po backward vysvětleny."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: Má x.grad=None přijít před f.backward(), nebo až po něm? Vysvětli, který gradient chceme resetem odstranit. Zohlednit jednu metodickou nápovědu: vysvětlení, že reset po backward odstraní právě vypočtenou derivaci potřebnou pro aktualizaci. Při úspěchu navázat kompletní smyčkou, opětovným výpočtem f, grafem a tabulkou s. 25; poté gradient BCE s. 26. Ostatní učivo obou zdrojů zůstává v rozsahu. Používat krátké výstupy a prostý zápis vzorců. Zpětnou vazbu a další otázku zobrazovat před zápisem.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:18:38.615089+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-16-reset-po-aktualizaci",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Urči správné umístění x.grad=None vůči backward a aktualizaci a vysvětli, který gradient reset odstraňuje.",
+      "learner_answer": "f.backward()\n\nwith torch.no_grad():\n    x -= 0.2 * x.grad\n\nx.grad = None",
+      "evaluation": "Kritérium správného pořadí: čerstvě vypočtený gradient se musí použít před resetem a starý gradient musí být odstraněn před backward dalšího kroku. Uživatel předložil platnou variantu s resetem po aktualizaci. Tato varianta splňuje účel stejně jako reset před backward následující iterace, pokud první krok začíná s prázdným gradientem; v následně ukázané smyčce to zajišťuje nový tenzor. Není správné trvat pouze na resetu na začátku smyčky. Odpověď dokládá správné pořadí kódu; slovní vysvětlení resetu výslovně neobsahuje, proto není evidováno samostatné formulování tohoto důvodu. Úspěch po jedné předchozí metodické nápovědě o ztrátě právě vypočtené derivace při resetu mezi backward a aktualizací. Opakované odeslané a přerušené verze bez resetu se nehodnotí jako další pokusy. Ve zpětné vazbě potvrzena platnost varianty a vysvětlen přenos do další iterace. Hodnocení a další otázka přes průběžný vstup zobrazeny před zápisem.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "poradi-resetu-po-pouziti-gradientu",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Představena kompletní smyčka s novým tenzorem a resetem na konci. Čeká se na vysvětlení, proč přepočítávat derivaci místo opakovaného použití počáteční derivace -6. Dále doplnit graf a tabulku s. 25 a navázat gradientem BCE s. 26. Pro budoucí hodnocení uznávat reset po aktualizaci jako správnou variantu pro další iteraci.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-22T16:55:54.798231+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-17-autograd-cela-smycka",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Představena celá smyčka podle kódu na s. 25 s uživatelovou platnou variantou resetu na konci: x=torch.tensor(0.0,requires_grad=True); for step in range(25): f=(x-3)**2; f.backward(); with torch.no_grad(): x-=0.2*x.grad; x.grad=None. Každý průchod vyhodnotí funkci a derivaci pro aktuální x a provede jeden krok. Nově vytvořený tenzor má pro první krok prázdný gradient.",
+      "learner_answer": "",
+      "evaluation": "Výklad sestavení celé smyčky dokončen. Jde o prohlédnutý kód s. 25 s výslovně popsanou ekvivalentní změnou umístění resetu. Kód nebyl spouštěn. Samostatné vysvětlení nutnosti přepočítávat lokální derivaci zatím neověřeno. Tabulka prvních iterací, graf, tečna a interpretace numerického přiblížení minima na s. 25 zatím nejsou v celém rozsahu probrány. Následující dosud neodeslanou odpověď nehodnotit.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "uvod-kompletni-smycka-autograd",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: Proč potřebujeme derivaci přepočítávat, místo abychom při všech 25 krocích používali počáteční derivaci -6? V zadání je celá smyčka, která při každé iteraci počítá f pro aktuální x. K řešení zatím nebyla dána další metodická nápověda. Po vysvětlení lokálního sklonu lze doplnit tabulku a graf s. 25, pak odvození BCE s. 26. Ostatní neprobrané části obou zdrojů zůstávají v rozsahu. Zachovat stručný výstup v prostém textu a jednu úlohu.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:55:54.863033+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-18-proc-prepocitat-derivaci",
+      "lesson_id": "lekce-2026-10-22-02",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Proč potřebujeme v každém průchodu smyčky pro f(x)=(x-3)^2 přepočítat derivaci, místo abychom všech 25 kroků používali počáteční hodnotu -6? Zadána celá smyčka s aktualizací pod no_grad a resetem po aktualizaci.",
+      "learner_answer": "platí řetetové pravidlo, k zjištění jedné derivace, musím znat všechny přední. Výsledek musím vynulovat abych si nezkreslil výpočet",
+      "evaluation": "Kritérium: vysvětlit, že derivace je lokální sklon pro aktuální x a po aktualizaci x ji potřebujeme znovu vyhodnotit. Odpověď správně připomíná potřebu resetu proti zkreslení akumulací, ale důvod přepočtu spojuje s řetězovým pravidlem a znalostí předních derivací. Není jasné, zda přední označuje předchozí iterace nebo části složené funkce; nepřisuzovat jednoznačně konkrétní význam. Závislost sklonu na aktuálním x nebyla vysvětlena, kritérium zatím nesplněno. Ve zpětné vazbě potvrzen účel resetu, odlišeno řetězové pravidlo pro složenou funkci od derivací předchozích iterací a vysvětlen změněný lokální sklon po aktualizaci x. Tato oprava je jedna podstatná nápověda pro navazující výpočet. Zpětná vazba i další otázka přes průběžný vstup byly zobrazeny před zápisem. Dřívější zpráva přerušená a poté znovu odeslaná s doplněním není samostatný pokus.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "vysvetleni-lokalniho-sklonu-v-iteraci",
+      "misconceptions": [
+        "Důvod nového vyhodnocení derivace při změně x zatím nevysvětlen; odpověď uvádí řetězové pravidlo a reset, které mají odlišné role."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: Pro f(x)=(x-3)^2 platí f_prime(x)=2(x-3). Po prvním kroku jsme se posunuli z x=0 na x=1.2. Jakou hodnotu derivace použijeme pro další krok? Zohlednit jednu podstatnou nápovědu z opravy: přepočet je nutný kvůli změně x a lokálního sklonu. Vzorec derivace byl poskytnut v zadání; odpověď nehodnotit jako samostatné derivování. Pak doplnit tabulku, graf a tečnu a numerické přiblížení minima s. 25; navázat odvozením BCE s. 26. Ostatní neprobrané části obou zdrojů zůstávají v rozsahu. Zachovat stručný prostý text a jednu úlohu.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T17:12:01.924096+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-19-novy-sklon-vypocet",
+      "lesson_id": "lekce-2026-10-22-02",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Pro f(x)=(x-3)^2 platí f_prime(x)=2(x-3). Po prvním kroku jsme se posunuli z x=0 na x=1.2. Jakou hodnotu derivace použijeme pro další krok?",
+      "learner_answer": "-3.6",
+      "evaluation": "Kritérium: vyhodnotit poskytnutou derivaci v novém bodě x=1.2 a získat -3.6 místo původních -6. Splněno po jedné podstatné nápovědě z předchozího vysvětlení, že přepočet potřebujeme kvůli změně x a lokálního sklonu. Vzorec byl v zadání; není doloženo samostatné derivování ani vlastní slovní vysvětlení nutnosti přepočtu. Ve zpětné vazbě potvrzen výpočet 2*(1.2-3)=-3.6 a změna hodnoty derivace. Zpětná vazba a další otázka přes průběžný vstup zobrazeny před zápisem.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "vyhodnoceni-derivace-v-dalsi-iteraci",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: Kdybychom při learning rate 0.2 stále používali původní derivaci -6, každý krok by zvýšil x o 1.2. Co by se dělo po překročení minima x=3? Zadání poskytuje velikost a směr konstantního kroku; hodnotit rozpoznání pokračujícího vzdalování od minima, nikoli samostatný výpočet kroku. Tato otázka navazuje po jedné metodické opravě významu lokální derivace. Poté doplnit celé čtení tabulky, grafu, tečny a numerického přiblížení minima s. 25, následně odvození gradientu BCE s. 26. Ostatní neprobrané části obou zdrojů zůstávají v rozsahu.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T17:15:08.873482+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-22-02",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "misconceptions": [],
+      "review_on": "2026-10-23",
+      "checkpoint_id": "pokus-2026-10-22-20-pevna-derivace-za-minimem",
+      "activity": "Kdybychom při learning rate 0.2 stále používali původní derivaci -6, každý krok by zvýšil x o 1.2. Co by se dělo po překročení minima x=3?",
+      "learner_answer": "minimum x=3 je optimální nastevení kterého chceme dosáhout, začal bych se od něj vzdalovat",
+      "evaluation": "Kritérium: rozpoznat, že při zachování počáteční záporné derivace aktualizace stále zvyšuje x i napravo od minima, tedy se od minima vzdaluje. Splněno: uživatel správně určuje minimum jako cíl a následné vzdalování. Velikost i směr pevného kroku byly součástí zadání, neověřen jejich samostatný výpočet. Hodnoceno s jednou předchozí metodickou opravou v návaznosti: derivace udává sklon pro aktuální x a řetězové pravidlo a reset mají odlišné role. Doložen správný důsledek zastaralé derivace, nikoli samostatné úplné vysvětlení všech mechanismů autogradu. Ve zpětné vazbě potvrzen pokračující pohyb doprava od minima. Zpětná vazba, výklad zbývající tabulky a grafu s. 25 a další otázka přes průběžný vstup byly zobrazeny před zápisem.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "dusledek-neaktualni-derivace",
+      "next_step": "Čeká se na odpověď: Při learning rate 0.2 se v uvedené tabulce kroky postupně zkracují. Proč se zkracují, přestože learning rate neměníme? Kritérium: velikost kroku je eta*abs(derivace), takže menší absolutní derivace dává při pevné eta kratší krok. Po úspěchu porovnat aktuální mapu obou zdrojů s historií a navázat odvozením gradientu BCE s. 26. Zůstávají neprobrané ostatní části přednášky i celého cvičení; dokončení s. 25 nepovažovat za dokončení celého tématu optimalizace. Zachovat stručný výklad, prosté vzorce a jednu otázku.",
+      "created_at": "2026-10-22T17:35:20.367155+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-22-02",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "misconceptions": [],
+      "review_on": "2026-10-23",
+      "checkpoint_id": "pokus-2026-10-22-21-tabulka-graf-tecna",
+      "activity": "Dokončen výklad tabulky a grafu na s. 25: řádky x=0,1.2,1.92,2.352; f(x)=9,3.240,1.166,0.420; derivace=-6,-3.600,-2.160,-1.296 (zaokrouhlené hodnoty). Ruční výpočet i autograd dávají stejné derivace. Červené body v grafu postupují po křivce k minimu, přerušovaná přímka je tečna v počátku se sklonem -6. Výpis 3.000 po 25 krocích je zaokrouhlené přiblížení minima.",
+      "learner_answer": "",
+      "evaluation": "Výklad konkrétního obsahu tabulky, shody derivací, grafu, počáteční tečny a interpretace zaokrouhleného výsledku dokončen. Stránka byla v této konverzaci vizuálně prohlédnuta a obsah ověřen přes passages. Hodnoty zaokrouhleny jako v originálu. Kód nebyl spouštěn. S dřívějšími záznamy s. 25 jsou nyní doloženy výklady hlavních dílčích částí této strany; čtení grafu a numerické přiblížení dosud uživatelem samostatně neověřeny. Schopnost vysvětlit zkracování kroků při neměnném learning rate čeká na odpověď, není hodnocena. Průzkum materiálů nebyl započítán jako výuka.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "tabulka-iteraci-a-graf-gradientniho-sestupu",
+      "next_step": "Čeká se na odpověď: Při learning rate 0.2 se v uvedené tabulce kroky postupně zkracují. Proč se zkracují, přestože learning rate neměníme? Kritérium: velikost kroku je eta*abs(derivace), takže menší absolutní derivace dává při pevné eta kratší krok. Po úspěchu porovnat aktuální mapu obou zdrojů s historií a navázat odvozením gradientu BCE s. 26. Zůstávají neprobrané ostatní části přednášky i celého cvičení; dokončení s. 25 nepovažovat za dokončení celého tématu optimalizace. Zachovat stručný výklad, prosté vzorce a jednu otázku.",
+      "created_at": "2026-10-22T17:35:20.432201+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-22-22-zkracovani-kroku",
+      "lesson_id": "lekce-2026-10-22-02",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Proč se kroky v tabulce s. 25 pro f(x)=(x-3)^2 postupně zkracují, přestože learning rate zůstává 0.2? Tabulka obsahovala x=0,1.2,1.92,2.352 a derivace=-6,-3.6,-2.16,-1.296.",
+      "learner_answer": "protoýe se zmenšuje absolutní derivace, kterou learning_rate násobí, zmenšuje se i x",
+      "evaluation": "Doložené kritérium příčiny kratších kroků: spojit neměnný learning rate s menší absolutní derivací a tím menší velikostí aktualizace. Tuto část uživatel vysvětluje správně bez další metodické nápovědy k otázce; passed se vztahuje pouze k tomuto dílčímu cíli. Dodatek zmenšuje se i x je pro uvedenou posloupnost nesprávný: x od 0 roste ke 3, zmenšuje se vzdálenost |x-3|. Není jasné, zda uživatel zamýšlel velikost změny x nebo samotné x; příčinu nepřisuzovat s jistotou. Ve zpětné vazbě potvrzen vztah velikost kroku=learning_rate*abs(derivace), opravena rostoucí hodnota x a odlišena od klesající vzdálenosti k minimu. Tato korekce je jedna podstatná nápověda pro navazující ověření vzdálenosti. Zpětná vazba a další otázka přes průběžný vstup byly zobrazeny před zápisem.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "vztah-velikosti-gradientu-a-kroku",
+      "misconceptions": [
+        "Uživatel správně vysvětlil zkracování kroků menší absolutní derivací, ale uvedl také klesající x, ačkoli v dané posloupnosti x roste k minimu 3. Rozlišení hodnoty x a vzdálenosti |x-3| bylo opraveno, přenos čeká na ověření."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: Když x roste z 1.2 na 1.92 a minimum leží v x=3, jak se změní vzdálenost od minima? Uveď vzdálenost před krokem a po něm. Kritérium: vzdálenost klesne z 1.8 na 1.08 navzdory rostoucímu x. Zohlednit jednu podstatnou nápovědu z právě zobrazené korekce. Po úspěchu ukončit toto krátké vyjasnění s. 25 a přejít k odvození gradientu BCE s. 26; před volbou další aktivity porovnat mapu zdrojů s kompletní relevantní historií. Ostatní neprobrané části obou zdrojů zůstávají v rozsahu. Zachovat krátké výstupy a jednu otázku.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-22T17:37:56.124302+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-22-02",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "review_on": "2026-10-23",
+      "checkpoint_id": "pokus-2026-10-22-23-vzdalenost-od-minima",
+      "activity": "Když x roste z 1.2 na 1.92 a minimum leží v x=3, jak se změní vzdálenost od minima? Uveď vzdálenost před krokem a po něm.",
+      "learner_answer": "wzdálenost je |x-3|, prvně je 1,8, pak 1,08",
+      "evaluation": "Kritérium: odlišit hodnotu x od vzdálenosti k minimu a správně spočítat vzdálenosti 1.8 a 1.08. Vše splněno včetně výslovného vzorce |x-3|. Úspěch po jedné podstatné nápovědě z předchozí korekce, že x roste, ale vzdálenost klesá. Dřívější chybné tvrzení o klesajícím x je v této aplikaci opraveno; nezávislý přenos s odstupem není testován. Ve zpětné vazbě potvrzen pokles vzdálenosti přes rostoucí x. Při kontrole pokrytí zohledněna celá dříve načtená historie a aktualizace 59-64; s. 25 má doložené výklady kódu, tabulky a grafu a přiměřené dílčí procvičení. Není dokončené celé téma optimalizace ani materiály. Zpětná vazba, nový dílčí výklad s. 26 a další otázka přes průběžný vstup zobrazeny před zápisem.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "rozliseni-parametru-a-vzdalenosti",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:25"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: Skutečný štítek je y=0 a model odhaduje p=0.8 pro třídu 1. Dosazením do dL/dp=-y/p+(1-y)/(1-p) spočítej derivaci. Říká její znaménko, že zvýšení p ztrátu zvýší, nebo sníží? Kritérium: derivace 5, kladné znaménko znamená místní růst ztráty se zvýšením p. Vzorec byl v zadání; nepovažovat za samostatné odvození. Pak pokračovat odvozením derivace sigmoidy dp/dz=p(1-p), řetězovým pravidlem k dL/dz=p-y a gradienty vah a biasu, včetně intuitivních příkladů ze s. 26. Tyto zbývající části s. 26 zatím nebyly vyloženy. Ostatní neprobrané části obou zdrojů zůstávají v rozsahu, včetně starších mezer před s. 25 a celého cvičení.",
+      "created_at": "2026-10-22T17:40:55.325897+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-22-02",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "review_on": "2026-10-23",
+      "checkpoint_id": "pokus-2026-10-22-24-derivace-bce-podle-p",
+      "activity": "Výklad první dílčí derivace s. 26: L=-y*ln(p)-(1-y)*ln(1-p). Hledáme změnu L s pravděpodobností p; štítek y je při derivování konstanta. Derivace ln(p) je 1/p. U ln(1-p) se podle řetězového pravidla násobí derivací vnitřního výrazu -1; se záporným znaménkem před druhým členem vznikne kladný člen. Výsledek dL/dp=-y/p+(1-y)/(1-p).",
+      "learner_answer": "",
+      "evaluation": "Dokončen výklad derivace BCE podle pravděpodobnosti p a původu znamének za předpokladu 0<p<1, který zajišťuje sigmoidní model. Původní s. 26 před použitím vizuálně prohlédnuta a pasáž i hash ověřeny přes passages. Samostatné použití ani odvození této derivace zatím neověřeno. Derivace sigmoidy, dL/dz=p-y a gradienty vah a biasu zůstávají neprobrané; neprohlašovat celou s. 26 za probranou. Dosud neodeslanou odpověď nehodnotit.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "odvozeni-bce-podle-pravdepodobnosti",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:26"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: Skutečný štítek je y=0 a model odhaduje p=0.8 pro třídu 1. Dosazením do dL/dp=-y/p+(1-y)/(1-p) spočítej derivaci. Říká její znaménko, že zvýšení p ztrátu zvýší, nebo sníží? Kritérium: derivace 5, kladné znaménko znamená místní růst ztráty se zvýšením p. Vzorec byl v zadání; nepovažovat za samostatné odvození. Pak pokračovat odvozením derivace sigmoidy dp/dz=p(1-p), řetězovým pravidlem k dL/dz=p-y a gradienty vah a biasu, včetně intuitivních příkladů ze s. 26. Tyto zbývající části s. 26 zatím nebyly vyloženy. Ostatní neprobrané části obou zdrojů zůstávají v rozsahu, včetně starších mezer před s. 25 a celého cvičení.",
+      "created_at": "2026-10-22T17:40:55.395866+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-22-03",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "review_on": "2026-10-23",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:26"
+        }
+      ],
+      "checkpoint_id": "pokus-2026-10-22-25-bce-derivace-vypocet",
+      "activity": "Pro skutečný štítek y=0 a odhad pravděpodobnosti třídy 1 p=0.8 dosazením do dL/dp=-y/p+(1-y)/(1-p) spočítej derivaci a vysvětli, zda malé zvýšení p ztrátu zvýší nebo sníží.",
+      "learner_answer": "-0/0.8 + (1-0)/(1-0.8) = 1/(0.2) = 5, zvýšením p ztrátu zvýšíne, model si bude jistější ve špatné odpovědi.",
+      "evaluation": "Kritérium: správně dosadit do poskytnutého vzorce, získat 5 a kladné znaménko interpretovat jako místní růst ztráty při zvýšení p. Vše splněno bez dodatečné metodické nápovědy. Uživatel navíc správně vysvětluje rostoucí pravděpodobnost nesprávné třídy při y=0. Ověřena aplikace a interpretace derivace podle p, nikoli její samostatné odvození ani gradient podle z či parametrů. Před zápisem potvrzen výsledek, přes průběžný vstup zobrazen výklad derivace sigmoidy a navazující otázka.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "dosazeni-a-interpretace-derivace-bce",
+      "next_step": "Čeká se na odpověď: Pro p=0.8 spočítej dp/dz=p*(1-p). Co její znaménko říká o změně p při malém zvýšení z? Kritérium: 0.16, kladná derivace znamená místní růst p se z. Vzorec v zadání; nejde o samostatné odvození. Pak propojit dL/dp a dp/dz řetězovým pravidlem k dL/dz=p-y, vyložit gradienty vah a biasu i intuitivní příklady s. 26. Tyto zbývající části dosud neprobrány. Zachovat ostatní neprobrané části obou zdrojů včetně starších mezer a celého cvičení; obnovena mapa všech 70 stran a 96 buněk a porovnána historie 0-65, doplňující history od 66 prázdná. Krátký výklad, prosté vzorce, jedna otázka.",
+      "created_at": "2026-10-22T19:49:42.923117+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-22-03",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "review_on": "2026-10-23",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:26"
+        }
+      ],
+      "checkpoint_id": "pokus-2026-10-22-26-derivace-sigmoidy",
+      "activity": "Výklad podle s. 26: p=(1+exp(-z))^(-1); řetězové pravidlo dává dp/dz=-(1+exp(-z))^(-2)*(-exp(-z))=exp(-z)/(1+exp(-z))^2. Vyrušení dvou záporných znamének. Identifikace faktorů p=1/(1+exp(-z)) a 1-p=exp(-z)/(1+exp(-z)), tedy dp/dz=p*(1-p).",
+      "learner_answer": "",
+      "evaluation": "Dokončen dílčí výklad odvození derivace sigmoidy podle skóre z, původu znamének a přepisu do p*(1-p). S. 26 v tomto chatu vizuálně ověřena, pasáž a hash znovu ověřeny přes passages. Samostatný výpočet a interpretace dp/dz čekají na odpověď; nejsou hodnoceny. Řetězové pravidlo pro dL/dz, jeho zjednodušení na p-y, gradienty vah a biasu a příklady opravy předpovědí na s. 26 zůstávají neprobrané. Průzkum zdrojů se nepočítá jako výuka.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "odvozeni-derivace-sigmoidy",
+      "next_step": "Čeká se na odpověď: Pro p=0.8 spočítej dp/dz=p*(1-p). Co její znaménko říká o změně p při malém zvýšení z? Kritérium: 0.16, kladná derivace znamená místní růst p se z. Vzorec v zadání; nejde o samostatné odvození. Pak propojit dL/dp a dp/dz řetězovým pravidlem k dL/dz=p-y, vyložit gradienty vah a biasu i intuitivní příklady s. 26. Tyto zbývající části dosud neprobrány. Zachovat ostatní neprobrané části obou zdrojů včetně starších mezer a celého cvičení; obnovena mapa všech 70 stran a 96 buněk a porovnána historie 0-65, doplňující history od 66 prázdná. Krátký výklad, prosté vzorce, jedna otázka.",
+      "created_at": "2026-10-22T19:49:42.981233+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-22-03",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "review_on": "2026-10-23",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:26"
+        }
+      ],
+      "checkpoint_id": "pokus-2026-10-22-27-sigmoida-derivace-vypocet",
+      "activity": "Pro p=0.8 spočítej dp/dz=p*(1-p) a vysvětli, co její znaménko říká o změně p při malém zvýšení z.",
+      "learner_answer": "0.8*0.2=0.16 | pravděpodobnost se mírně zvětší",
+      "evaluation": "Kritérium: získat 0.16 a rozpoznat místní růst p při zvýšení z. Odpověď obě části splňuje bez dodatečné metodické nápovědy. Slovo mírně je přijato v kontextu malého zvýšení z; ve zpětné vazbě upřesněno, že změna p je přibližně 0.16násobkem malé změny z. Ověřena aplikace poskytnutého vzorce a interpretace znaménka, nikoli samostatné odvození derivace sigmoidy. Před zápisem zobrazena zpětná vazba, dílčí výklad řetězového pravidla pro dL/dz a navazující otázka přes průběžný vstup.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "aplikace-derivace-sigmoidy",
+      "next_step": "Čeká se na odpověď: Pro y=1 a p=0.2 spočítej dL/dz a urči, zda pro snížení ztráty skóre z trochu zvýšit, nebo snížit. Kritérium: -0.8; záporná derivace znamená, že malé zvýšení z snižuje L (gradientní sestup odečítá zápornou derivaci). Vzorec p-y byl poskytnut, nikoli samostatně odvozen uživatelem. Potom vyložit gradienty vah a biasu přes dz/dw_j=x_j a dz/db=1, dovysvětlit příklady velké opravy chybné a malé opravy sebejisté správné předpovědi na s. 26. Zbývající části s. 26 nepovažovat za probrané; ostatní mezery obou zdrojů a celé cvičení zůstávají v rozsahu. Aktuální mapa všech zdrojů porovnána s historií 0-65 z předchozího průzkumu a nyní aktualizacemi 66-67. Zachovat stručné výklady, prosté vzorce a jednu otázku.",
+      "created_at": "2026-10-22T19:58:31.746298+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-22-03",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "review_on": "2026-10-23",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:26"
+        }
+      ],
+      "checkpoint_id": "pokus-2026-10-22-28-bce-podle-skore",
+      "activity": "Výklad s. 26: z ovlivňuje p a p ovlivňuje L, proto dL/dz=(dL/dp)*(dp/dz)=[-y/p+(1-y)/(1-p)]*p*(1-p)=-y*(1-p)+(1-y)*p=-y+y*p+p-y*p=p-y. Vysvětleno krácení jmenovatelů a odečtení členů y*p. Interpretace výsledku: odhadovaná pravděpodobnost třídy 1 minus skutečný štítek.",
+      "learner_answer": "",
+      "evaluation": "Dokončen dílčí výklad odvození dL/dz=p-y ze dvou předchozích derivací za podmínky 0<p<1 v sigmoidním modelu. S. 26 již v tomto chatu vizuálně ověřena, pasáž i hash znovu ověřeny přes passages. Samostatné použití nové derivace a volba směru změny z čekají na odpověď; nehodnoceny. Gradienty vah a biasu a úplné intuitivní srovnání chybné a sebejisté správné předpovědi dosud nevyloženy. Samotná obnovená kontrola pokrytí materiálů není zapsána jako výuka.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "retezove-pravidlo-bce-a-sigmoida",
+      "next_step": "Čeká se na odpověď: Pro y=1 a p=0.2 spočítej dL/dz a urči, zda pro snížení ztráty skóre z trochu zvýšit, nebo snížit. Kritérium: -0.8; záporná derivace znamená, že malé zvýšení z snižuje L (gradientní sestup odečítá zápornou derivaci). Vzorec p-y byl poskytnut, nikoli samostatně odvozen uživatelem. Potom vyložit gradienty vah a biasu přes dz/dw_j=x_j a dz/db=1, dovysvětlit příklady velké opravy chybné a malé opravy sebejisté správné předpovědi na s. 26. Zbývající části s. 26 nepovažovat za probrané; ostatní mezery obou zdrojů a celé cvičení zůstávají v rozsahu. Aktuální mapa všech zdrojů porovnána s historií 0-65 z předchozího průzkumu a nyní aktualizacemi 66-67. Zachovat stručné výklady, prosté vzorce a jednu otázku.",
+      "created_at": "2026-10-22T19:58:31.804163+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:26"
+        }
+      ],
+      "hints_used": 0,
+      "review_on": "2026-10-26",
+      "checkpoint_id": "pokus-2026-10-23-01-bce-skore-smer",
+      "activity": "Pro y=1 a p=0.2 spočítej dL/dz=p-y a urči, zda pro snížení BCE skóre z trochu zvýšit, nebo snížit. Na žádost uživatele byly rozepsány významy y, p a z a úloha rozdělena na výpočet a interpretaci znaménka.",
+      "learner_answer": "1. -0.8 2. znaménko je záporné takže z je potřaba zvýšit",
+      "evaluation": "Kritérium: dL/dz=-0.8 a správný směr malé změny z pro snížení BCE, tedy zvýšit. Splněno bez metodické nápovědy k řešení. Rozšířené zadání pouze objasnilo značení a rozdělilo již zadané kroky; výsledek ani vztah mezi konkrétním znaménkem a směrem změny nepředalo. Ověřena aplikace poskytnutého vzorce pro jeden příklad a směr změny skóre, nikoli samostatné odvození vzorce nebo aktualizace vah. Hodnocení a navazující výklad i otázka byly zobrazeny před zápisem přes průběžný vstup. Relevantní pasáž a hash znovu ověřeny; originál s. 26 vizuálně ověřen v této lekci.",
+      "result": "passed",
+      "difficulty": "aplikace-bce-podle-skore-a-smer-poklesu",
+      "next_step": "Dokončit nově zobrazený výklad gradientů váhy a biasu a vyhodnotit čekající úlohu x=2,y=1,p=0.2: dL/dw=(p-y)*x a dL/db=p-y. Dále dokončit intuici velké opravy chybné a malé opravy sebejisté správné předpovědi s. 26 a přejít na krok aktualizace podle s. 27. Z aktuální mapy obou zdrojů a historie 0-69 jsou stále neprobrané další části přednášky a celé cvičení; nepřisuzovat stav celého tématu jednotlivému úspěchu.",
+      "created_at": "2026-10-23T02:38:56.623982+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:26"
+        }
+      ],
+      "hints_used": 0,
+      "review_on": "2026-10-26",
+      "checkpoint_id": "pokus-2026-10-23-02-gradient-vahy-biasu",
+      "activity": "Výklad Přednášky 1, s. 26 pro jeden příznak: z=w*x+b. Malá změna w změní z o tuto změnu krát x, proto dz/dw=x; bias je přímo přičtený, proto dz/db=1. Použitím řetězového pravidla s dL/dz=p-y vychází dL/dw=(p-y)*x a dL/db=p-y.",
+      "learner_answer": "",
+      "evaluation": "Dokončen výklad derivací podle váhy a biasu a jejich získání řetězovým pravidlem v modelu s jedním příznakem. Samostatný výpočet dosud neověřen; odpověď na navazující úlohu se nehodnotí před jejím odesláním. Nevyložena dosud obecná vektorová podoba gradientu a intuitivní porovnání velikosti opravy chybné a sebejisté správné předpovědi. Zdroj byl ověřen v originálu i přes passages; výklad a otázka zobrazeny přes průběžný vstup před zápisem.",
+      "result": "introduced",
+      "difficulty": "retezove-pravidlo-gradient-vahy-a-biasu",
+      "next_step": "Čeká se na odpověď: Pro x=2,y=1,p=0.2 vypočítej dL/dw=(p-y)*x a dL/db=p-y; u obou napiš dosazení a výsledek. Kritérium: (0.2-1)*2=-1.6 a 0.2-1=-0.8. Vzorce byly poskytnuty jako výklad; nehodnotit jako vybavení zpaměti. Poté porovnat gradienty pro chybnou a sebejistou správnou předpověď a dokončit zbývající obsah s. 26, následně gradientní aktualizaci vah a biasu podle s. 27. Zachovat rozsah všech neprobraných částí přednášky včetně dodatků a všech 96 buněk cvičení. Uživatel preferuje stručné srozumitelné výklady, přehledné prosté vzorce a jednu rozepsanou otázku.",
+      "created_at": "2026-10-23T02:38:56.817307+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:26"
+        }
+      ],
+      "hints_used": 0,
+      "review_on": "2026-10-26",
+      "checkpoint_id": "pokus-2026-10-23-03-gradient-vahy-biasu-vypocet",
+      "activity": "Pro jeden příznak x=2, štítek y=1 a modelový odhad p=0.2 vypočítej dL/dw=(p-y)*x a dL/db=p-y. Zadání ukazovalo dosazení (0.2-1)*2 a 0.2-1 a žádalo výsledky.",
+      "learner_answer": "- 1.6 |-0.8",
+      "evaluation": "Kritérium: správné derivace dL/dw=-1.6 a dL/db=-0.8. Splněno bez další metodické nápovědy; mezeru mezi znaménkem a číslem v prvním výsledku interpretujeme jako zápornou hodnotu. Uživatel nerozepisuje mezikroky, ale oba výsledky jsou správné. Hodnocena aplikace poskytnutých vzorců a již předloženého dosazení; neověřeno samostatné odvození ani vybavení vztahů zpaměti. Zpětná vazba a navazující výklad i úloha zobrazeny přes průběžný vstup před zápisem. Pasáž a hash zdroje znovu ověřeny; s. 26 vizuálně ověřena v tomto chatu.",
+      "result": "passed",
+      "difficulty": "dosazeni-do-gradientu-jedne-vahy-a-biasu",
+      "next_step": "Vyhodnotit již zobrazenou úlohu s x=2,y=1,p=0.99: dL/dw a dL/db a porovnání absolutních velikostí s původními 1.6 a 0.8. Aktuální mapa všech částí obou zdrojů porovnána s dříve načtenou úplnou historií 0-69 a aktuální historií 70-71; nové úspěchy se vztahují jen ke konkrétním aktivitám. Ostatní neprobrané části přednášky a celé cvičení zůstávají v rozsahu.",
+      "created_at": "2026-10-23T03:28:14.077833+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:26"
+        }
+      ],
+      "hints_used": 0,
+      "review_on": "2026-10-26",
+      "checkpoint_id": "pokus-2026-10-23-04-gradienty-intuice-a-vice-vstupu",
+      "activity": "Výklad zbývajícího obsahu s. 26: pro více příznaků dL/dw_j=(p-y)*x_j, tedy každá váha násobí společnou chybu příslušným vstupem. Sebejistá správná předpověď má p-y blízko nule, takže při stejném vstupu vznikají menší absolutní derivace než v předchozím chybném odhadu y=1,p=0.2. Pro stejný learning rate je proto v běžném gradientním sestupu menší také velikost změny parametrů. Předchozí chybná předpověď dávala dL/dz=-0.8, dL/dw=-1.6, dL/db=-0.8.",
+      "learner_answer": "",
+      "evaluation": "Dokončen výklad rozšíření gradientu na jednotlivé váhy více příznaků a intuice velké opravy chybné oproti malé opravě sebejisté správné předpovědi. Velikost změny parametrů výslovně podmíněna stejným vstupem a learning rate v běžném gradientním sestupu. Konkrétní porovnání p=0.2 a p=0.99 zůstává k samostatnému výpočtu. Spolu s předchozí doloženou historií je obsah s. 26 vysvětlen; to není potvrzením samostatného zvládnutí všech jejích částí. Samotný průzkum a čtení zdrojů nejsou výuka.",
+      "result": "introduced",
+      "difficulty": "gradienty-vice-priznaku-a-velikost-opravy",
+      "next_step": "Čeká se na odpověď: Pro x=2,y=1,p=0.99 vypočítej dL/dw=(0.99-1)*2 a dL/db=0.99-1 a porovnej absolutní velikosti s 1.6 a 0.8. Kritérium: -0.02 a -0.01, oprava při stejném learning rate v běžném gradientním sestupu menší (80krat). Poměr 80 není vyžádán. Vzorce, dosazení i obecný princip byly předloženy; nehodnotit jako samostatné objevení principu. Po zvládnutí vizuálně ověřit s. 27 a navázat konkrétní aktualizací vah a biasu, následně průměrování gradientů s. 28 a learning rate s. 29. Všechna ostatní neprobraná látka včetně dodatků a celého cvičení zůstává v plánu. Udržovat krátký výklad a jednu srozumitelně rozepsanou úlohu.",
+      "created_at": "2026-10-23T03:28:14.252448+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-23-05-gradient-sebejiste-predpovedi-znamenka",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Pro x=2,y=1,p=0.99 vypočítej dL/dw=(0.99-1)*2 a dL/db=0.99-1. Dále porovnej absolutní velikosti s původními 1.6 a 0.8 a urči, zda při stejném learning rate bude v běžném gradientním sestupu oprava parametrů větší nebo menší.",
+      "learner_answer": "0,02 | 0.01",
+      "evaluation": "Kritérium výpočtu: dL/dw=-0.02 a dL/db=-0.01, včetně záporných znamének. Uživatel správně vypočítal absolutní velikosti obou derivací, avšak uvedl kladné hodnoty místo záporných. Část o porovnání velikosti oprav nebyla zodpovězena a není hodnocena jako chybná představa. Výpočet skutečných podepsaných derivací zatím nesplněn. Ve zpětné vazbě vysvětleno, že 0.99<1, proto 0.99-1=-0.01, a že násobení kladnou dvojkou znaménko nezmění. Toto je jedna podstatná metodická nápověda pro následující opravný pokus; k původní odpovědi žádná dodatečná nápověda dána nebyla. Hodnocení a opravná otázka zobrazeny přes průběžný vstup před zápisem.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "gradient-sebejiste-spravne-predpovedi-a-znamenka",
+      "misconceptions": [
+        "U rozdílu 0.99-1 a navazujících derivací byla vynechána záporná znaménka; absolutní velikosti byly správné."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:26"
+        }
+      ],
+      "next_step": "Čeká se na opravu: dL/dw=(-0.01)*2=? a dL/db=-0.01; porovnat absolutní velikosti nových derivací 0.02 a 0.01 s původními 1.6 a 0.8 a určit menší opravu při stejném learning rate v běžném gradientním sestupu. Pro opravný pokus započítat jednu metodickou nápovědu: spočítán rozdíl -0.01 a vysvětleno zachování znaménka při násobení kladným vstupem. Kritérium: -0.02, -0.01 a menší oprava. Po úspěchu navázat konkrétní aktualizací parametrů ze s. 27, kterou před použitím vizuálně ověřit. Znaménka později ověřit novým příkladem s odstupem bez bezprostřední podpory. Ostatní neprobrané části obou zdrojů zůstávají v rozsahu.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T03:32:32.742368+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-23-06-gradient-sebejiste-predpovedi-oprava",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Oprav znaménka derivací pro x=2,y=1,p=0.99. Zadáno dL/dw=(-0.01)*2 a dL/db=-0.01, po vysvětlení, že rozdíl 0.99-1 je záporný a kladný vstup znaménko zachovává. Součástí předchozího zadání bylo i porovnání velikosti změny parametrů s p=0.2.",
+      "learner_answer": "-0,02 | -0.01",
+      "evaluation": "Kritérium opravy výpočtu: dL/dw=-0.02 a dL/db=-0.01 včetně záporných znamének. Splněno po jedné podstatné metodické nápovědě z předchozí zpětné vazby: opraven rozdíl 0.99-1 na -0.01 a vysvětleno zachování znaménka při násobení kladnou dvojkou. Jde o úspěšnou opravu stejné úlohy; samostatné zachování znamének na novém příkladu bez podpory tím není doloženo. Uživatel neodpověděl na porovnání velikosti změny parametrů; tato část zůstává neověřená, neoznačujeme ji jako nesprávnou odpověď. Potvrzení opravy a samostatně formulovaná otázka na toto porovnání byly zobrazeny přes průběžný vstup před zápisem.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "oprava-znamenek-gradientu-sebejiste-predpovedi",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:26"
+        }
+      ],
+      "next_step": "Čeká se na porovnání: při stejném x=2,y=1 a stejném kladném learning rate v běžném gradientním sestupu mají případy p=0.2 derivace -1.6,-0.8 a p=0.99 derivace -0.02,-0.01. Ve kterém případě se váha a bias změní více a proč? Kritérium: při p=0.2 díky větším absolutním derivacím. Výpočet aktualizace zatím není vyžádán. Po zvládnutí navázat gradientním krokem pro parametry podle s. 27, před použitím vizuálně ověřit originál. Znaménka později ověřit s odstupem na novém příkladu bez podpory. Nepřeskakovat zbývající neprobraný obsah přednášky a celého cvičení.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T03:35:15.238280+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "hints_used": 0,
+      "review_on": "2026-10-26",
+      "checkpoint_id": "pokus-2026-10-23-07-velikost-zmeny-parametru",
+      "activity": "Při stejném x=2,y=1 a stejném kladném learning rate porovnej případy p=0.2 s derivacemi -1.6,-0.8 a p=0.99 s derivacemi -0.02,-0.01. Ve kterém případě se váha a bias změní více v běžném gradientním sestupu? Stručně vysvětli.",
+      "learner_answer": "pro p = 0,99 -> mám přesnější predikci a tedy menší los, tak nemusím tolik měnit váhy a bias",
+      "evaluation": "Kritérium konceptu: při správném štítku y=1 je p=0.99 blíže cíli, má menší BCE, menší absolutní derivace při stejném vstupu a tedy menší změny parametrů při stejném learning rate v běžném gradientním sestupu; větší změny má p=0.2. Uživatel výslovně správně vysvětluje menší potřebnou změnu vah a biasu pro p=0.99. Úvodní uvedení p=0.99 je v kontextu následující věty interpretováno jako označení případu s menší opravou, nikoli jako tvrzení větší opravy. Ve zpětné vazbě upřesněno, že odpovědí na formulaci kde větší je tudíž p=0.2. Koncept splněn bez další metodické nápovědy nad rámec dříve vyloženého principu; nejde o nové odvození vztahu. Hodnocení i další otázka zobrazeny přes průběžný vstup před zápisem.",
+      "result": "passed",
+      "difficulty": "interpretace-velikosti-gradientu-a-zmeny-parametru",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:26"
+        }
+      ],
+      "next_step": "Nově vyložen základ vícerozměrného gradientního kroku podle s. 27. Čeká se na výpočet w_nove=-0.5-0.5*(-1.462) a b_nove=0-0.5*(-0.731). S. 26 má doložený výklad všech částí; odvození zpaměti, samostatná práce se znaménky po odstupu a přenos na nové příklady zůstávají k ověření. Celá pracovní mapa obou zdrojů porovnána s úplnou historií 0-69 a známými aktualizacemi 70-75; stále zbývají neprobrané části přednášky a celé cvičení, nikoli jen opakování.",
+      "created_at": "2026-10-23T03:47:52.433550+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "hints_used": 0,
+      "review_on": "2026-10-26",
+      "checkpoint_id": "pokus-2026-10-23-08-gradientni-krok-parametru-uvod",
+      "activity": "Výklad části s. 27: gradient je vektor všech parciálních derivací podle parametrů, ukazuje směr nejrychlejšího lokálního růstu ztráty. Gradientní sestup od každého parametru odečítá jeho derivaci vynásobenou kladným learning rate: w_nove=w-learning_rate*dL/dw a b_nove=b-learning_rate*dL/db. Gradient je lokální informace, ne rovnou parametry v minimu. Předložen začátek příkladu x=2,y=1,w=-0.5,b=0,p přibližně 0.2689, zaokrouhlené derivace -1.462,-0.731, learning rate 0.5.",
+      "learner_answer": "",
+      "evaluation": "Dokončen dílčí výklad definice gradientu, důvodu odečítání a pravidla současné aktualizace váhy a biasu. Příklad má poskytnuté derivace a dosazení; výpočet nových parametrů zatím čeká na odpověď. Z celé s. 27 dosud nevyučeno vyčíslení počáteční BCE 1.313, kompletní samostatný průchod predikce-gradient-aktualizace a opakovaná predikce p přibližně 0.696 s poklesem BCE na 0.363, ani rovnost empirického rizika a jedné ztráty pro n=1. Hash a pasáž ověřeny přes passages a stránka 27 právě vizuálně ověřena v originálu. Výklad a otázka zobrazeny přes průběžný vstup před zápisem.",
+      "result": "introduced",
+      "difficulty": "uvod-gradient-jako-vektor-a-aktualizace-w-b",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:27"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: Pro w=-0.5,b=0,learning_rate=0.5,dL/dw přibližně -1.462 a dL/db přibližně -0.731 vypočítej w_nove=-0.5-0.5*(-1.462) a b_nove=0-0.5*(-0.731). Kritérium: w=0.231 a b=0.3655, akceptovat b přibližně 0.366. Zadání předkládá vzorce i dosazení; hodnocení je pouze výpočet konkrétní aktualizace. Poté dokončit příklad s. 27 včetně výpočtu skóre, nové pravděpodobnosti a poklesu BCE z 1.313 na 0.363, vysvětlit R_hat=L pro jeden příklad. Následně s. 28 průměrování gradientů a s. 29 learning rate; zachovat ostatní neprobraný obsah všech zdrojů.",
+      "created_at": "2026-10-23T03:47:52.628778+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-23-09-aktualizace-w-b-znamenko",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Pro w=-0.5,b=0,learning_rate=0.5,dL/dw přibližně -1.462 a dL/db přibližně -0.731 vypočítej nové parametry. Předloženo dosazení w_nove=-0.5-0.5*(-1.462), b_nove=0-0.5*(-0.731).",
+      "learner_answer": "-0,231 | 0,3655",
+      "evaluation": "Kritérium: w_nove=+0.231 a b_nove=0.3655, případně zaokrouhleně 0.366. Bias je vypočítán správně, absolutní velikost nové váhy rovněž; u váhy uživatel uvedl záporné znaménko místo kladného. Kritérium obou správných aktualizací zatím nesplněno. Bez rozepsaného výpočtu nelze určit přesný původ chyby; nedokládá to chybu v odvození gradientů. Ve zpětné vazbě rozepsáno 0.5*(-1.462)=-0.731 a -0.5-(-0.731)=-0.5+0.731; posun doprava překročí nulu. Výsledná opravená hodnota váhy ponechána k odpovědi. Tato korekce a vysvětlení jsou jedna podstatná metodická nápověda pro následující opravný pokus. Zpětná vazba a opravná otázka zobrazeny přes průběžný vstup před uložením.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "vypocet-gradientni-aktualizace-vahy-a-biasu",
+      "misconceptions": [
+        "Při aktualizaci w=-0.5-0.5*(-1.462) uvedeno -0.231 místo +0.231; přesné místo chyby bez mezikroků není známo. Aktualizace biasu byla správná."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:27"
+        }
+      ],
+      "next_step": "Čeká se na opravu samotné váhy: w_nove=-0.5+0.731; jaká je hodnota včetně znaménka? Kritérium +0.231. Započítat jednu metodickou nápovědu: rozepsán záporný součin, odečtení záporného čísla převedeno na přičtení a vysvětlen posun přes nulu. Bias 0.3655 již doložen správně. Po opravě dokončit příklad s. 27 novou predikcí a porovnáním BCE, objasnit empirické riziko pro jeden příklad. Zachovat další neprobrané části přednášky a celé cvičení; později ověřit znaménka na novém příkladu bez bezprostřední podpory.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T04:05:54.026412+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:27"
+        }
+      ],
+      "review_on": "2026-10-24",
+      "checkpoint_id": "pokus-2026-10-23-10-aktualizace-vahy-oprava",
+      "activity": "Oprav hodnotu nové váhy včetně znaménka po gradientním kroku. Po předchozí chybné odpovědi -0.231 bylo rozepsáno w_nove=-0.5-0.5*(-1.462)=-0.5-(-0.731)=-0.5+0.731 a vysvětleno, že posun překročí nulu.",
+      "learner_answer": "0,231",
+      "evaluation": "Kritérium: správná nová váha +0.231. Splněno po jedné metodické nápovědě: vysvětleno odečítání záporného součinu a přechod přes nulu. Bias 0.3655 byl vypočítán správně již v původní odpovědi. Doložena oprava stejné aktualizace, nikoli nezávislé zvládnutí znamének na novém příkladu. Potvrzení správnosti a navazující výklad i otázka zobrazeny přes průběžný vstup před zápisem.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "oprava-znamenka-aktualizovane-vahy",
+      "next_step": "Vyhodnotit již zobrazený výpočet nového skóre pro x=2,w=0.231,b=0.3655 a určení třídy při z>=0 -> 1. Znaménka gradientních aktualizací ověřit později s odstupem bez bezprostřední podpory. Zbývající části s. 27 ani další neprobrané části přednášky a celého cvičení nepovažovat za hotové.",
+      "created_at": "2026-10-23T04:12:44.024797+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:27"
+        }
+      ],
+      "review_on": "2026-10-24",
+      "checkpoint_id": "pokus-2026-10-23-11-predikce-po-kroku-uvod",
+      "activity": "Výklad dalšího postupu v příkladu s. 27: po změně parametrů model znovu vyhodnotíme na stejném vstupu, nejprve z=w*x+b a následně p=sigmoid(z). Porovnání nové a původní ztráty ukáže, zda tento konkrétní krok pomohl. Pro aktuální úlohu předloženy x=2,w=0.231,b=0.3655 a dosazení z_nove=0.231*2+0.3655; připomenuto rozhodnutí třída 1 při z>=0, jinak 0.",
+      "learner_answer": "",
+      "evaluation": "Dokončen dílčí výklad opakovaného vyhodnocení modelu po aktualizaci, s konkrétními novými parametry. Výpočet nového skóre a třídy zatím neověřen. Hodnota nové pravděpodobnosti přibližně 0.696 a pokles BCE z 1.313 na 0.363 dosud nebyly vyloženy, ani rovnost empirického rizika a jedné ztráty pro n=1. S. 27 byla v této lekci vizuálně zkontrolována v originálu a pasáž ověřena přes passages. Výklad a otázka zobrazeny přes průběžný vstup před zápisem. Pracovní mapa všech zdrojů a známá historie 0-78 ponechávají všechny ostatní neprobrané části přednášky a celého cvičení v rozsahu.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "opakovana-predikce-po-zmene-parametru",
+      "next_step": "Čeká se na odpověď: z_nove=0.231*2+0.3655=? a která třída podle z>=0 -> 1? Kritérium: z=0.8275, třída 1. Dosazení i klasifikační pravidlo jsou součástí zadání; nehodnotit jako samostatné odvození. Poté ukázat převod sigmoidou na p přibližně 0.696 a BCE=-ln(p) přibližně 0.363 oproti původním p=0.2689 a BCE=1.313. Vysvětlit, že pro jeden příklad se empirické riziko rovná jeho ztrátě a gradient nedává rovnou minimum. Dále dokončit s. 27 a pokračovat průměrováním gradientů s. 28 a learning rate s. 29 bez vynechání ostatního učiva.",
+      "created_at": "2026-10-23T04:12:44.207020+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:27"
+        }
+      ],
+      "hints_used": 0,
+      "review_on": "2026-10-26",
+      "checkpoint_id": "pokus-2026-10-23-12-nove-skore-a-trida",
+      "activity": "Pro nové parametry w=0.231,b=0.3655 a stejný vstup x=2 spočítej z_nove=0.231*2+0.3655 a urči předpovídanou třídu podle z>=0 -> 1, jinak 0.",
+      "learner_answer": "0,8275 >= 0 -> třída 1",
+      "evaluation": "Kritérium: z_nove=0.8275 a třída 1. Obojí správně bez dodatečné metodické nápovědy; vzorec, dosazení i rozhodovací pravidlo byly součástí zadání. Doložen výpočet nové predikce po změně váhy a biasu, nikoli samostatné vybavení sigmoidního vzorce. Ve zpětné vazbě potvrzena shoda předpovědi se skutečným štítkem y=1. Hodnocení a navazující výklad i otázka byly zobrazeny přes průběžný vstup před zápisem.",
+      "result": "passed",
+      "difficulty": "vyhodnoceni-modelu-po-gradientnim-kroku",
+      "next_step": "Nově vyložen zbytek příkladu s. 27: nová pravděpodobnost a pokles BCE, nenulový gradient neznamená nalezení minima a pro jediný vzorek je průměrná ztráta rovna jeho ztrátě. Čeká se na výpočet nové derivace biasu při p=0.696,y=1 a směr jeho aktualizace. Později ověřit znaménka i pro y=0 a na nových úlohách. Ostatní neprobrané části přednášky a celé cvičení zůstávají v rozsahu.",
+      "created_at": "2026-10-23T06:42:06.305769+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:27"
+        }
+      ],
+      "hints_used": 0,
+      "review_on": "2026-10-26",
+      "checkpoint_id": "pokus-2026-10-23-13-pokles-bce-a-riziko-jednoho-vzorku",
+      "activity": "Dokončen příklad s. 27: sigmoidou se ze skóre z=0.8275 získá p přibližně 0.696. Pro y=1 platí BCE=-ln(p). Před krokem p přibližně 0.2689 a BCE přibližně 1.313, po kroku p přibližně 0.696 a BCE přibližně 0.363. Tento konkrétní krok tedy snížil ztrátu, ale gradient sám nedává parametry v minimu. Pro jediný trénovací příklad je empirické riziko, tedy průměr jedné ztráty, rovno právě jeho ztrátě. Pro další krok je nutné použít derivaci pro novou predikci.",
+      "learner_answer": "",
+      "evaluation": "Dokončen výklad sigmoidní pravděpodobnosti a vyčíslení BCE před a po aktualizaci, interpretace poklesu a rovnosti empirického rizika a ztráty při n=1. Číselné hodnoty sigmoidy a logaritmů byly poskytnuty, uživatel je sám nepočítal. Spolu s předchozími záznamy je obsah s. 27 vysvětlen; samostatné zvládnutí celého výpočetního řetězce bez podpory není doloženo. Originál s. 27 byl v této lekci vizuálně ověřen. Výklad a další otázka zobrazeny přes průběžný vstup před uložením. Pracovní mapa obou zdrojů nadále zahrnuje všechny neprobrané části přednášky a celého cvičení; porovnávána s již načtenou úplnou historií a aktuálními známými aktualizacemi až 80.",
+      "result": "introduced",
+      "difficulty": "interpretace-poklesu-bce-po-kroku-a-empiricke-riziko",
+      "next_step": "Čeká se na odpověď: Pro novou predikci p přibližně 0.696 a y=1 vypočítej dL/db=0.696-1 a urči, zda gradientní sestup bias bude zvyšovat nebo snižovat. Kritérium: -0.304, bias se zvýší, protože odečítáme zápornou derivaci. Zaokrouhlení přijatelné. Po této aplikaci navázat na neprobranou s. 28: gradient průměru jako průměr gradientů, vliv jednotlivých vstupů a chyb na váhy, vývoj hranice a pokles loss na 60 zákaznících, výsledné parametry. Před použitím vizuálně ověřit stránku v dostatečném rozlišení. Dále s. 29 vliv learning rate a všechny ostatní mezery mapy včetně celého notebooku.",
+      "created_at": "2026-10-23T06:42:06.483280+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-23-14-derivace-biasu-a-smer",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Pro novou predikci p přibližně 0.696 a y=1 vypočítej dL/db=0.696-1 a urči, zda gradientní sestup bias dále zvyšuje, nebo snižuje.",
+      "learner_answer": "-0.304, bude se snižovat",
+      "evaluation": "Kritérium: dL/db=-0.304 a bias se při kladném learning rate zvyšuje, protože aktualizace odečítá zápornou derivaci. Uživatel správně vypočítal derivaci -0.304, ale uvedl nesprávný směr snižování biasu. Výpočet derivace je doložen, interpretace směru aktualizace zatím nesplněna. Před původní odpovědí nebyla dána dodatečná metodická nápověda. Ve zpětné vazbě vysvětleno b_nove=b-eta*dL/db, rozepsáno pro b=0.3655,eta=0.5 jako b_nove=0.3655-0.5*(-0.304)=0.3655+0.152. Výslovně rozlišeno znaménko derivace a opačné znaménko změny parametru. Tato korekce je jedna podstatná metodická nápověda pro navazující opravný pokus. Zpětná vazba a otázka na výsledný bias zobrazeny přes průběžný vstup před zápisem.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "derivace-biasu-a-smer-gradientni-aktualizace",
+      "misconceptions": [
+        "Při správné záporné derivaci dL/db=-0.304 uvedeno snižování biasu, ačkoli gradientní sestup odečítá derivaci a bias se zvyšuje."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:26"
+        },
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:27"
+        }
+      ],
+      "next_step": "Čeká se na výpočet nového biasu b_nove=0.3655+0.152. Kritérium: 0.5175. Jde o opravnou aplikaci po jedné metodické nápovědě: opraven směr, rozepsán krok a vysvětleno, že znaménko změny parametru je opačné než znaménko derivace. Po správném součtu samostatně ověřit směr na novém příkladu s kladnou derivací; pouhý součet nepotvrzuje samostatné porozumění směru aktualizace. S. 26 a 27 mají doložen výklad, další samostatné aplikace jsou potřebné. Pak navázat dosud neprobranou s. 28 (průměr gradientů a vývoj hranice na zákaznících) po vizuální kontrole originálu. Ostatní neprobrané části obou zdrojů zůstávají v rozsahu.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T08:46:41.490982+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "checkpoint_id": "pokus-2026-10-23-15-bias-oprava-soucet",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "activity": "Po korekci směru aktualizace dokonči výpočet b_nove=0.3655+0.152 pro derivaci -0.304 a learning rate 0.5.",
+      "learner_answer": "0.5175",
+      "evaluation": "Kritérium: správný součet 0.3655+0.152=0.5175. Splněno po jedné metodické nápovědě z předchozí zpětné vazby, která opravila směr aktualizace, rozepsala odečtení záporné derivace a poskytla sčítaný výraz. Doloženo dokončení opravy stejného příkladu; samotný správný součet nepotvrzuje samostatné vybavení aktualizačního vzorce ani určení směru bez podpory. Ve zpětné vazbě potvrzeno zvýšení biasu. Hodnocení a nový příklad s kladnou derivací byly zobrazeny přes průběžný vstup před zápisem.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "dokonceni-opravy-aktualizace-biasu",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:27"
+        }
+      ],
+      "next_step": "Čeká se na nový příklad: b=0.4,dL/db=+0.6,learning_rate=0.1. Uživatel má napsat dosazení do aktualizačního vzorce, nový bias a směr změny. Kritérium: b_nove=0.4-0.1*0.6=0.34, bias se snížil. Aktualizační vzorec nebyl v tomto novém zadání předložen, bez dodatečné metodické nápovědy k novému příkladu; předchozí vysvětlení je kontext lekce. Při úspěchu ověřit později směr i při záporné derivaci bez bezprostřední podpory a navázat na neprobranou s. 28 o průměru gradientů a trénování na zákaznících. Před použitím ověřit originál vizuálně. Další neprobrané části přednášky a celý notebook zůstávají v rozsahu.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T08:49:54.633496+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "checkpoint_id": "pokus-2026-10-23-16-kladna-derivace-krok-aritmetika",
+      "activity": "Nový příklad bez předloženého aktualizačního vzorce: b=0.4, dL/db=+0.6, learning_rate=0.1. Napiš dosazení do vzorce gradientního sestupu, nový bias a zda se zvýší nebo sníží.",
+      "learner_answer": "0.4 - 0.1*0,6 = 0.394, bias se mírně snížil",
+      "evaluation": "Kritérium: b_nove=0.4-0.1*0.6=0.34, bias se snížil. Uživatel samostatně správně sestavil vzorec, dosadil se správným znaménkem a správně určil směr snižování. Číselný výsledek 0.394 je chybný; správně 0.1*0.6=0.06 a rozdíl 0.34. Bez mezikroků je chyba popsána jako chyba aritmetiky/desetinného řádu, nikoli jako prokázaná konkrétní interní záměna. Celkové kritérium přesného výpočtu nesplněno; nesprávný směr aktualizace z předchozí úlohy se v tomto novém příkladu neopakoval. Ve zpětné vazbě ukázán správný součin i výsledek a dále navázáno na průměrování derivací, aby výuka neuvízla v opakování pouhého součtu. Opravený výsledek 0.34 byl poskytnut asistentem a není samostatným výkonem uživatele. Hodnocení a další otázka zobrazeny přes průběžný vstup před zápisem.",
+      "result": "needs-practice",
+      "difficulty": "prenos-gradientniho-kroku-na-kladnou-derivaci",
+      "misconceptions": [
+        "Vzorec i směr aktualizace při kladné derivaci byly správné, ale výpočet 0.4-0.1*0.6 dal 0.394 místo 0.34."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:27"
+        }
+      ],
+      "next_step": "Nově vyložen průměr derivací podle s. 28. Vyhodnotit čekající úlohu se dvěma derivacemi biasu +0.6 a -0.2: jejich průměr a směr aktualizace. Později s odstupem ověřit numerickou přesnost aktualizačního kroku i znaménko u záporné derivace. Samostatné sestavení vzorce a správný směr pro kladnou derivaci jsou touto odpovědí doloženy. Ostatní neprobrané části zdrojů zůstávají v rozsahu.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T09:11:11.282390+00:00"
+    },
+    {
+      "subject_id": "deep",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "gradienty-a-optimalizace",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "checkpoint_id": "pokus-2026-10-23-17-prumer-derivaci-uvod",
+      "activity": "Výklad části s. 28: empirické riziko je průměr ztrát více trénovacích příkladů a jeho derivace podle biasu je proto průměr jednotlivých derivací. Odůvodněno linearitou derivování: derivace součtu je součet derivací a dělení počtem příkladů zůstává. Derivace všech příkladů se počítají při stejných aktuálních parametrech a z průměru se provede jeden společný gradientní krok.",
+      "learner_answer": "",
+      "evaluation": "Dokončen dílčí výklad průměrování derivací na složce biasu jako aplikace obecného pravidla průměru gradientů ze s. 28. Výpočet průměru uživatelem a interpretace znaménka zatím čekají na odpověď. Vektorový vzorec gradientu vah, vliv vstupů a chyb jednotlivých zákazníků, vývoj rozhodovací hranice na 60 zákaznících, hodnoty ztráty v jednotlivých krocích a výsledné parametry ze s. 28 dosud nebyly vyloženy. Pasáž a hash ověřeny přes passages, strana 28 vizuálně ověřena ve vysokém rozlišení. Pracovní mapa všech částí obou zdrojů porovnána s dříve načtenou historií a známými aktualizacemi do checkpointu 15 této lekce; samotný průzkum není výuka. Výklad a otázka zobrazeny přes průběžný vstup před uložením.",
+      "result": "introduced",
+      "difficulty": "prumerovani-derivaci-vice-prikladu",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-v1",
+          "locator": "page:28"
+        }
+      ],
+      "next_step": "Čeká se na odpověď: Dva příklady mají při stejném modelu derivace podle biasu +0.6 a -0.2. Spočítej derivaci průměrné ztráty (+0.6-0.2)/2 a urči, zda gradientní sestup bias zvýší nebo sníží. Kritérium: +0.2, bias se sníží. Výraz pro průměr je předložen, ale znaménko výsledku a směr aktualizace nebyly sděleny. Poté zobecnit průměr na gradient vah 1/n*sum_i (p_i-y_i)*x_i a vysvětlit vliv chyby a velikosti vstupu; dokončit grafy a čísla s. 28, následně vliv learning rate s. 29. Všechen zbývající neprobraný obsah přednášky a celého notebooku zůstává v rozsahu.",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T09:11:11.481287+00:00"
     }
   ]
 }

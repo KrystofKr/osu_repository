@@ -16,9 +16,9 @@
         "Volit promptovací techniky a ověřovat jejich účinnost na konkrétní úloze."
       ],
       "prerequisites": [],
-      "status": "unseen",
+      "status": "demonstrated",
       "misconceptions": [],
-      "review_on": null
+      "review_on": "2026-10-25"
     },
     "lokalni-inference": {
       "subject_id": "llma",
@@ -29,9 +29,9 @@
         "Posoudit volbu nástroje pro lokální inferenci s ohledem na paměť a kvantizaci."
       ],
       "prerequisites": [],
-      "status": "unseen",
+      "status": "demonstrated",
       "misconceptions": [],
-      "review_on": null
+      "review_on": "2026-10-25"
     },
     "volani-api": {
       "subject_id": "llma",
@@ -42,9 +42,9 @@
         "Vysvětlit streamování, historii konverzace a ošetření chyb volání."
       ],
       "prerequisites": [],
-      "status": "unseen",
+      "status": "practicing",
       "misconceptions": [],
-      "review_on": null
+      "review_on": "2026-10-25"
     }
   },
   "sources": {
@@ -141,5 +141,858 @@
       "created_at": "2026-10-15T16:15:19.935024+00:00"
     }
   },
-  "checkpoints": []
+  "checkpoints": [
+    {
+      "subject_id": "llma",
+      "checkpoint_id": "pokus-2026-10-23-01-instrukce-data",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "prompty",
+      "activity_kind": "diagnostic",
+      "activity": "Rozlišit instrukci a vstupní data v promptu: Shrň text uvnitř <text> do jedné věty. <text>Schůzka se přesouvá z pondělí na středu v 10:00.</text>",
+      "learner_answer": "```arduino\nShrň text uvnitř <text> do jedné věty. ->prompt zbytek jsou vstupní data\n```",
+      "evaluation": "Kritérium: určit část zadávající činnost a část obsahující zpracovávaný text. Uživatel obě části správně oddělil samostatně. První část nazval prompt místo instrukce. Ve zpětné vazbě bylo upřesněno, že prompt je celé zadání včetně dat a značky <text> a </text> vymezují text ke zpracování. Passed se vztahuje pouze na toto rozlišení v jednoduchém příkladu; přesná terminologie byla vysvětlena, nikoli následně ověřena. Neprokazuje znalost ostatních částí promptu ani celé strany 1. Průzkum všech tří taháků není výuka. Vysvětlena byla jen terminologie prompt/instrukce/data a účel uvedených značek.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:1"
+        }
+      ],
+      "next_step": "Zadána otázka: V promptu Jsi učitel češtiny. Vysvětli následující text žákovi šesté třídy. Odpověz třemi odrážkami: … určit roli modelu, cílového čtenáře a formát odpovědi. Odpověď zatím není vyhodnocena. Poté doplnit ostatní části anatomie (kontext, příklady, styl/jazyk, omezení), system/user a podmínky vhodného použití. Zachovat zbytek všech osmi stran tří taháků jako neprobraný dle pracovní mapy; nic z APAI nepřenášet.",
+      "review_on": null,
+      "created_at": "2026-10-23T18:22:38.923812+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "checkpoint_id": "pokus-2026-10-24-01-role-publikum-format",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "activity_kind": "diagnostic",
+      "activity": "V promptu „Jsi učitel češtiny. Vysvětli následující text žákovi šesté třídy. Odpověz třemi odrážkami.“ určit roli modelu, cílového čtenáře a formát odpovědi.",
+      "learner_answer": "role modelu je učitel modelu, cílový čtenáč je žák 6. trídy, požadovaný formát josu 3 odrážky",
+      "evaluation": "Kritérium: rozlišit funkce role modelu, publika a výstupního formátu v jednoduchém promptu. Cílový čtenář (žák šesté třídy) i formát (tři odrážky) jsou správně bez nápovědy. U role odpověď obsahuje učitele, ale nepřesné označení „učitel modelu“; ve zpětné vazbě byla uvedena přesná role „učitel češtiny“. Passed označuje doložené rozlišení těchto tří funkcí na základní úrovni, nikoli samostatné přesné pojmenování role nebo zvládnutí celé anatomie promptu. Není doloženo, zda šlo u role o překlep nebo neporozumění; následuje ověření jiným příkladem. Žádná další nová látka nebyla vysvětlena.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:1"
+        }
+      ],
+      "next_step": "Zadáno samostatné ověření bez další metodické nápovědy: „Jsi zkušený programátor. Vysvětli rekurzi desetiletému dítěti. Odpověz jedním krátkým odstavcem.“ Určit roli modelu, cílového čtenáře a formát; odpověď zatím není vyhodnocena. Poté doplnit neprobrané části anatomie: kontext, příklady, styl/jazyk, omezení; dále system/user a volbu techniky. Ostatní obsah všech osmi stran tří taháků zůstává neprobraný kromě konkrétních doložených aktivit v historii. Vizuální kontrola tabulek nebyla dokončena.",
+      "review_on": null,
+      "created_at": "2026-10-24T02:34:54.413015+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:1"
+        }
+      ],
+      "review_on": null,
+      "checkpoint_id": "pokus-2026-10-24-02-role-publikum-format",
+      "activity_kind": "material",
+      "activity": "V promptu „Jsi zkušený programátor. Vysvětli rekurzi desetiletému dítěti. Odpověz jedním krátkým odstavcem.“ určit roli modelu, cílového čtenáře a formát odpovědi.",
+      "learner_answer": "role modelu ->zkušený programátor | ctenář -> desetileté dítě | formát ->jeden krátký odstavec",
+      "evaluation": "Kritérium: správně a přesně určit všechny tři části. Všechny jsou určeny správně bez nápovědy v tomto pokusu. Přesné pojmenování role je nyní doloženo na novém příkladu po předchozí opravě jiné úlohy. Úspěch dokládá rozlišení role, publika a formátu v jednoduchém promptu, nikoli celou anatomii či celé téma. Uživatel dostal kladnou zpětnou vazbu před uložením.",
+      "result": "passed",
+      "next_step": "Zadána otázka: V promptu „Napiš zákazníkovi omluvu. Zásilka má týden zpoždění a zákazník už dvakrát urgoval doručení. Odpověz třemi větami.“ určit větu dodávající kontext a vysvětlit vliv na odpověď. Odpověď zatím není vyhodnocena. Poté pokračovat příklady, stylem/jazykem a omezeními promptu; později opakovat roli, publikum a formát s odstupem. Zbytek všech osmi stran tří taháků zůstává neprobraný kromě konkrétních doložených aktivit historie. Vizuální kontrola tabulek zůstává otevřená; výklad kontextu čerpá z textové šablony promptu.",
+      "created_at": "2026-10-24T02:51:09.140208+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:1"
+        }
+      ],
+      "review_on": null,
+      "checkpoint_id": "vyklad-2026-10-24-03-kontext",
+      "activity_kind": "material",
+      "activity": "Krátký výklad kontextu jako okolností ovlivňujících odpověď: do promptu přidávat relevantní informace měnící odpověď; bez nich může model zvolit nevhodný obsah nebo tón. Podklad: textová část „Šablona promptu“, položka Kontext.",
+      "learner_answer": "",
+      "evaluation": "Dokončen stručný výklad významu a účelu kontextu v promptu. Samostatné rozpoznání a použití dosud není ověřeno. Zadána jedna úloha na větu o opožděné zásilce; odpověď čeká. Tato aktivita nezahrnuje rozpočet kontextového okna, ostatní části anatomie ani celou stranu 1.",
+      "result": "introduced",
+      "next_step": "Zadána otázka: V promptu „Napiš zákazníkovi omluvu. Zásilka má týden zpoždění a zákazník už dvakrát urgoval doručení. Odpověz třemi větami.“ určit větu dodávající kontext a vysvětlit vliv na odpověď. Odpověď zatím není vyhodnocena. Poté pokračovat příklady, stylem/jazykem a omezeními promptu; později opakovat roli, publikum a formát s odstupem. Zbytek všech osmi stran tří taháků zůstává neprobraný kromě konkrétních doložených aktivit historie. Vizuální kontrola tabulek zůstává otevřená; výklad kontextu čerpá z textové šablony promptu.",
+      "created_at": "2026-10-24T02:51:09.418067+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "checkpoint_id": "pokus-2026-10-24-04-rozpoznani-kontextu",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "activity_kind": "material",
+      "activity": "V promptu „Napiš zákazníkovi omluvu. Zásilka má týden zpoždění a zákazník už dvakrát urgoval doručení. Odpověz třemi větami.“ určit větu dodávající kontext a popsat její vliv na odpověď.",
+      "learner_answer": "\"Zásilka má týden zpoždění a zákazník už dvakrát urgoval doručení.\" -> v odpovědi může být zmíněný detail",
+      "evaluation": "Kritérium: správně vybrat situační informaci a uvést alespoň základní vliv na obsah odpovědi. Kontextová věta je vybrána přesně bez nápovědy; možnost zmínit její údaje v odpovědi je správný základní vliv. Passed se vztahuje na rozpoznání kontextu a tento omezený popis vlivu. Uživatel zatím samostatně nevysvětlil přizpůsobení tónu ani neukázal použití v napsané omluvě. Ve zpětné vazbě bylo doplněno: zpoždění a opakované urgence mají vést k tónu uznávajícímu závažnost dlouhého čekání. To je vysvětlené, dosud neověřené použití kontextu. Nové tvrzení o praktické omluvě je ilustrace účelu kontextu z textové šablony na straně 1.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:1"
+        }
+      ],
+      "next_step": "Zadána úloha: napsat jednu úvodní větu omluvy zákazníkovi, která zohlední týdenní zpoždění zásilky a dvě předchozí urgence, bez vymyšlené příčiny či termínu doručení. Odpověď zatím není vyhodnocena. Jde o aplikaci po vysvětlení vlivu kontextu na tón; nepovažovat ji za vybavení s odstupem. Poté pokračovat neprobranými příklady, stylem/jazykem, omezeními, system/user a dalším obsahem pracovní mapy. Celá historie (4 předchozí checkpointy) byla porovnána s mapou: doloženy pouze instrukce versus data, role/publikum/formát a uvedený dílčí obsah kontextu; ostatní obsah osmi stran tří taháků zůstává neprobraný. Vizuální kontrola tabulek zůstává otevřená.",
+      "review_on": null,
+      "created_at": "2026-10-24T02:55:16.625327+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "checkpoint_id": "pokus-2026-10-24-05-pouziti-kontextu",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "activity_kind": "material",
+      "activity": "Napsat jednu úvodní větu omluvy zákazníkovi zohledňující týdenní zpoždění zásilky a dvě předchozí urgence; nevymýšlet příčinu zpoždění ani termín doručení.",
+      "learner_answer": "Dobrý den, je nám strašně líto, že se vaše zásilka o týden opozdila a i přes vaše opakované urgence je stále na cestě.",
+      "evaluation": "Kritérium: použít oba relevantní údaje kontextu v jedné omluvné úvodní větě, bez vymyšlené příčiny a termínu. Splněno: týdenní zpoždění a opakované urgence jsou zohledněny, věta vyjadřuje lítost, příčina ani termín nejsou vymyšleny. Passed platí pro toto základní použití kontextu po předchozím výkladu, nejde o opakování s odstupem ani potvrzení celé anatomie promptu. Ve zpětné vazbě upozorněno na doplněný neověřený stav „je stále na cestě“; doporučeno přesnější „dosud nebyla doručena“. Vysvětlen rozdíl mezi známým nedoručením a neověřeným průběhem přepravy. Stylisticky doporučeno „velmi nás mrzí“ místo „je nám strašně líto“; jde o ilustrativní volbu profesionálního tónu, nikoli chybu určující výsledek. Omezení původní úlohy výslovně zakazovalo vymyšlenou příčinu a termín; nezpřísňovat je zpětně na jiný hodnoticí standard. Před zápisem zobrazena zpětná vazba a navazující otázka k formulaci omezení promptu.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [
+        "V tomto příkladu doplněn nedoložený stav zásilky „stále na cestě“; zobecnění neporozumění zatím není doloženo."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:1"
+        }
+      ],
+      "next_step": "Zadána otázka: Jakou jednu větu přidat do původního promptu, aby model při psaní omluvy nepřidával neověřené informace o zásilce? Odpověď zatím není vyhodnocena. Poté vysvětlit omezení jako součást anatomie, ověřit formulaci pravidla a pokračovat příklady, stylem/jazykem, system/user a zbytkem pracovní mapy. Historie všech 5 předchozích checkpointů porovnána s mapou: doloženy instrukce/data, role/publikum/formát a dílčí kontext. Zbytek osmi stran tří taháků zůstává neprobraný, vizuální ověření tabulek otevřené. Nepřipisovat celkové zvládnutí podle statusu tématu.",
+      "review_on": null,
+      "created_at": "2026-10-24T03:03:51.555797+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:1"
+        }
+      ],
+      "review_on": null,
+      "checkpoint_id": "pokus-2026-10-24-06-omezeni-faktu",
+      "activity": "Navrhnout jednu větu do promptu, která vede model k tomu, aby při psaní omluvy nepřidával neověřené informace o zásilce.",
+      "learner_answer": "do omluvy  nepřidávaj neověřené informace o zásilce",
+      "evaluation": "Kritérium: formulovat srozumitelné omezení proti doplňování neověřených údajů. Splněno; záporná formulace je platný pokyn a nebyla v této úloze zakázána. Hodnotit jako úspěšné základní navržení omezení, nikoli jako důkaz, že uživatel či model při generování vždy udrží faktickou přesnost. Po odpovědi potvrzena správnost a vysvětlena pozitivní alternativa „Při psaní omluvy použij pouze údaje uvedené v zadání.“ Nápověda před touto odpovědí nebyla poskytnuta; požadovaný účel omezení byl součástí zadání.",
+      "result": "passed",
+      "next_step": "Zadána úloha: pozitivně přeformulovat „Nepiš úvod ani závěr. Odpověď má obsahovat tři odrážky.“ Odpověď dosud není vyhodnocena. Poté pokračovat dalšími neprobranými dílčími částmi anatomie (příklady, styl/jazyk, další omezení), rozlišením system/user a zbytkem mapy všech tří taháků. Pokrytí ověřeno oproti 6 předchozím checkpointům (prvních 5 načteno dříve v této lekci, šestý přes history --start 5, total 6). Doloženy jen konkrétní aktivity instrukce/data, role/publikum/formát, kontext a zde uvedené omezení; ostatní obsah osmi stran zůstává neprobraný. Vizuální kontrola tabulek zůstává otevřená. Později ověřit práci pouze s doloženými fakty na novém příkladu.",
+      "created_at": "2026-10-24T03:08:34.224956+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:1"
+        }
+      ],
+      "review_on": null,
+      "checkpoint_id": "vyklad-2026-10-24-07-pozitivni-instrukce",
+      "activity": "Krátký výklad pozitivního vyjádření požadovaného chování podle textového upozornění na straně 1: zejména u malých modelů doporučit přímý popis činnosti; převést zákaz neověřených údajů na použití pouze údajů ze zadání. Doplněno, že formulace sama správnost nezaručuje.",
+      "learner_answer": "",
+      "evaluation": "Výklad byl zobrazen, včetně konkrétní pozitivní alternativy pravidla pro omluvu. Rozpoznání či samostatná tvorba pozitivního pokynu dosud neověřena; následná úloha čeká na odpověď. Nevztahuje se na celé téma omezení, všech deset pravidel pro malé modely, tabulku anatomie ani celou stranu 1.",
+      "result": "introduced",
+      "next_step": "Zadána úloha: pozitivně přeformulovat „Nepiš úvod ani závěr. Odpověď má obsahovat tři odrážky.“ Odpověď dosud není vyhodnocena. Poté pokračovat dalšími neprobranými dílčími částmi anatomie (příklady, styl/jazyk, další omezení), rozlišením system/user a zbytkem mapy všech tří taháků. Pokrytí ověřeno oproti 6 předchozím checkpointům (prvních 5 načteno dříve v této lekci, šestý přes history --start 5, total 6). Doloženy jen konkrétní aktivity instrukce/data, role/publikum/formát, kontext a zde uvedené omezení; ostatní obsah osmi stran zůstává neprobraný. Vizuální kontrola tabulek zůstává otevřená. Později ověřit práci pouze s doloženými fakty na novém příkladu.",
+      "created_at": "2026-10-24T03:08:34.504053+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "review_on": null,
+      "checkpoint_id": "pokus-2026-10-24-08-pozitivni-instrukce",
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:1"
+        }
+      ],
+      "activity": "Pozitivně přeformulovat „Nepiš úvod ani závěr. Odpověď má obsahovat tři odrážky.“",
+      "learner_answer": "Napiš odpověd ve třech odrážkách",
+      "evaluation": "Kritérium: místo zákazů popsat požadované chování a zachovat tři odrážky jako formát odpovědi. Splněno, formulace je pozitivní a určuje podobu celé odpovědi. Pro větší jednoznačnost bylo doporučeno „Odpověz pouze třemi odrážkami“; absence slova pouze není hodnocena jako chyba. Passed dokládá pozitivní přeformulování tohoto jednoduchého pokynu bez nápovědy před pokusem, nikoli automatickou spolehlivost modelu nebo zvládnutí všech omezení. Zpětná vazba i nová otázka zobrazeny před zápisem.",
+      "result": "passed",
+      "next_step": "Zadána úloha: pro třídění zákaznických zpráv na stížnost/pochvala vytvořit dvojici vstup a správný výstup pro pochvalu; předveden příklad „Balíček dorazil rozbitý.“ → stížnost. Odpověď zatím není vyhodnocena. Následně doplnit účel příkladů pro formát/tón/logiku, styl/jazyk, další omezení a system/user; později počet a výběr příkladů, zero/one/few-shot, testování a zbytek mapy všech tří taháků. Ověřena historie všech 8 předchozích checkpointů včetně strany --start 6 (total 8); ostatní obsah osmi stran zůstává neprobraný kromě konkrétních aktivit doložených historií. Vizuální kontrola tabulek otevřená. Při opakování znovu ověřit nepřidávání nedoložených faktů v generovaném textu.",
+      "created_at": "2026-10-24T03:16:51.375167+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "review_on": null,
+      "checkpoint_id": "vyklad-2026-10-24-09-priklady",
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:2"
+        }
+      ],
+      "activity": "Základní výklad příkladu v promptu jako konkrétní dvojice vstupu a správného výstupu, která ukazuje podobu odpovědi a přiřazení kategorie. Předvedeno „Balíček dorazil rozbitý.“ → stížnost. Podklad: textový bod 4 v Deseti pravidlech pro malý model.",
+      "learner_answer": "",
+      "evaluation": "Dokončen úvod k použití příkladů při klasifikaci zpráv. Samostatná konstrukce příkladu teprve čeká na odpověď. Nebyly vysvětleny názvy zero-shot/one-shot/few-shot, počty a vyváženost příkladů, přenos tónu/logiky, všechny části anatomie ani celé pravidlo 4 v jeho doporučeném počtu 2–3 příkladů.",
+      "result": "introduced",
+      "next_step": "Zadána úloha: pro třídění zákaznických zpráv na stížnost/pochvala vytvořit dvojici vstup a správný výstup pro pochvalu; předveden příklad „Balíček dorazil rozbitý.“ → stížnost. Odpověď zatím není vyhodnocena. Následně doplnit účel příkladů pro formát/tón/logiku, styl/jazyk, další omezení a system/user; později počet a výběr příkladů, zero/one/few-shot, testování a zbytek mapy všech tří taháků. Ověřena historie všech 8 předchozích checkpointů včetně strany --start 6 (total 8); ostatní obsah osmi stran zůstává neprobraný kromě konkrétních aktivit doložených historií. Vizuální kontrola tabulek otevřená. Při opakování znovu ověřit nepřidávání nedoložených faktů v generovaném textu.",
+      "created_at": "2026-10-24T03:16:51.660911+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:2"
+        }
+      ],
+      "review_on": null,
+      "checkpoint_id": "pokus-2026-10-24-10-priklad-pochvaly",
+      "activity": "Pro model třídící zákaznické zprávy na stížnost/pochvala vytvořit dvojici vstup a správný výstup pro kategorii pochvala. Předem předveden jiný příklad stížnosti: „Balíček dorazil rozbitý.“ → stížnost.",
+      "learner_answer": "Vstup: Balíček dorazil krásně zabalený.\nVýstup: pochvala",
+      "evaluation": "Kritérium: vytvořit text zřetelně vyjadřující pochvalu, přiřadit správný štítek a zachovat strukturu vstup/výstup. Splněno samostatně v této základní úloze. Předvedený příklad jiné kategorie byl součástí zadání a běžného výkladu, nikoli dodatečnou metodickou nápovědou. Úspěch dokládá vytvoření jednoho příkladu; neprokazuje zatím znalost vyváženosti kategorií, názvů promptovacích technik nebo testování jejich účinnosti. Zpětná vazba a navazující otázka zobrazeny před zápisem.",
+      "result": "passed",
+      "next_step": "Zadána otázka: jaké riziko má všech deset příkladů pouze z kategorie stížnost, když model má rozlišovat stížnosti a pochvaly? Odpověď dosud nevyhodnocena. Poté navázat volbou příkladů, později počtem a zero/one/few-shot (grafickou tabulku nejprve ověřit), přenosem tónu/logiky, stylem/jazykem, dalšími omezeními, system/user a zbytkem mapy. Pokrytí porovnáno s historií všech 10 předchozích checkpointů: dříve načteno 0–7, nyní history --start 8 do total 10. Ostatní části osmi stran zůstávají neprobrané kromě konkrétních doložených aktivit. Vizuální kontrola tabulek zůstává otevřená. Později opakovat faktickou ukázněnost generovaného textu.",
+      "created_at": "2026-10-24T03:29:57.239505+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:2"
+        }
+      ],
+      "review_on": null,
+      "checkpoint_id": "vyklad-2026-10-24-11-vyber-prikladu",
+      "activity": "Výklad výběru příkladů při klasifikaci: pokrýt všechny cílové kategorie, ideálně vyváženě; držet stejný formát a názvy štítků pro konzistentní vzor. Ilustrováno jednou stížností a jednou pochvalou.",
+      "learner_answer": "",
+      "evaluation": "Výklad dokončen, porozumění riziku jednostranných příkladů teprve ověřuje zadaná otázka. Citovaný podklad je textový odstavec Klasifikace few-shot se čtyřmi vyváženými příklady na straně 2; název few-shot a jeho porovnání s jinými technikami zde nebyly vyučovány. Neprobrány počty příkladů vzhledem k oknu, náročné/hraniční příklady ani celá klasifikační pipeline.",
+      "result": "introduced",
+      "next_step": "Zadána otázka: jaké riziko má všech deset příkladů pouze z kategorie stížnost, když model má rozlišovat stížnosti a pochvaly? Odpověď dosud nevyhodnocena. Poté navázat volbou příkladů, později počtem a zero/one/few-shot (grafickou tabulku nejprve ověřit), přenosem tónu/logiky, stylem/jazykem, dalšími omezeními, system/user a zbytkem mapy. Pokrytí porovnáno s historií všech 10 předchozích checkpointů: dříve načteno 0–7, nyní history --start 8 do total 10. Ostatní části osmi stran zůstávají neprobrané kromě konkrétních doložených aktivit. Vizuální kontrola tabulek zůstává otevřená. Později opakovat faktickou ukázněnost generovaného textu.",
+      "created_at": "2026-10-24T03:29:57.522586+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "checkpoint_id": "pokus-2026-10-24-12-jednostranne-priklady",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "activity_kind": "material",
+      "activity": "Vysvětlit riziko, pokud všech deset příkladů v promptu má kategorii stížnost, přestože klasifikátor má rozpoznávat stížnosti i pochvaly.",
+      "learner_answer": "že by pochvalu přeformuloval na stížnost",
+      "evaluation": "Kritérium: popsat riziko chybného přiřazení štítku stížnost také pochvalám vlivem jednostranných příkladů. Uživatel vystihl směr možného zkreslení, ale slovně popsal přeformulování vstupního textu místo přiřazení chybné kategorie. Částečně správná intuice; potřeba krátkého ověření rozdílu klasifikace a přepisu. Ve zpětné vazbě uznána správná část, vysvětleno, že zde se zpráva nepřepisuje a možnou chybou je štítek stížnost pro pochvalu. Výsledek needs-practice se týká této konkrétní záměny v odpovědi, nikoli zpochybnění dřívější správné konstrukce příkladu ani celé anatomie promptu. Z jediného slova nevyvozovat širší trvalé neporozumění; následující úloha to ověří.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [
+        "V odpovědi na riziko jednostranných příkladů zaměněno chybné označení kategorie za přeformulování vstupní zprávy; ověřit, zda nejde jen o nepřesné vyjádření."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Zadána úloha po vysvětlení: pro vstup „Děkuji za rychlé doručení, všechno je perfektní.“ napsat správný výstup klasifikátoru; povoleny jen stížnost nebo pochvala. Odpověď zatím není vyhodnocena. Následně ověřit chybné přiřazení kategorie jako riziko jednostranných příkladů na jiném případě. Poté pokračovat dalšími neprobranými částmi mapy (počty a výběr příkladů, zero/one/few-shot po vizuálním ověření tabulky, styl/jazyk, přenos tónu/logiky, system/user atd.). Celá historie 12 předchozích checkpointů načtena postupně v této lekci včetně posledních dvou přes --start 10, total 12; ostatní obsah osmi stran tří taháků zůstává neprobraný kromě konkrétních doložených aktivit. Vizuální kontrola tabulek otevřená.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T03:48:44.046899+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:2"
+        }
+      ],
+      "checkpoint_id": "pokus-2026-10-24-13-klasifikace",
+      "activity": "Pro vstup „Děkuji za rychlé doručení, všechno je perfektní.“ napsat správný výstup klasifikátoru s povolenými štítky stížnost/pochvala po předchozím vysvětlení rozdílu klasifikace a přepisu.",
+      "learner_answer": "pochvala,  zatím mě LLMA neučíš moc dobře ,točíš se na nepodstatných příkladech",
+      "evaluation": "Kritérium základního přiřazení štítku splněno: pochvala. Bez dodatečné nápovědy v tomto pokusu, po předchozím vysvětlení; nejde o nezávislé vybavení s odstupem ani plné ověření mechanismu zkreslení. Předchozí výraz přeformuloval není nadále důvodem k dalším triviálním úlohám. Uživatel výslovně požaduje zlepšit výuku a přestat se točit na nepodstatných příkladech. Zpětná vazba uznala správnost a oprávněnou kritiku tempa, následoval ucelenější blok testování a náročnější úloha na posouzení řešení. Preferenci uložit do návaznosti předmětu, neměnit automaticky obecný profil.",
+      "result": "passed",
+      "difficulty": "zakladni",
+      "next_step": "PREFERENCE PRO DALŠÍ VÝUKU LLMA: uživatel výslovně kritizoval přílišné opakování nepodstatných jednoduchých příkladů. Učit v ucelenějších blocích, volit otázky na principy, návrh a posouzení řešení; nepovažovat jednotlivé nepřesné slovo za důvod k řetězci triviálních úloh. Zadána úloha: extrakce jména/data/čísla zakázky do JSON, 100 % správný formát a 65 % správný obsah; posoudit pouhé zpřísnění schématu a navrhnout ověření zlepšeného promptu. Odpověď zatím nevyhodnocena. Po ní rozvíjet testovací metodiku a podle předpokladů navázat na lokální inferenci/API. Dříve odložené části anatomie, syntaxe, technik a dalšího obsahu všech tří taháků zůstávají v rozsahu a musí dostat místo v dalších blocích. Celá historie 13 checkpointů byla načtena postupně v této lekci, poslední přes --start 12, total 13. Neprobrané části nelze odvodit ze statusu tématu; vizuální kontrola tabulek stále otevřená.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T04:09:11.337725+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:2"
+        }
+      ],
+      "checkpoint_id": "vyklad-2026-10-24-14-validace-a-testovani",
+      "activity": "Ucelený úvod k ověřování LLM aplikace: rozlišit správnou strukturu JSON a věcnou správnost extrahovaných údajů proti dokumentu; testovací sada skutečných vstupů se známými výsledky včetně prázdných a problémových vstupů; oddělené metriky platného formátu a správných hodnot; porovnání při změně jedné věci na stejné sadě a opakování běhů kvůli kolísání.",
+      "learner_answer": "",
+      "evaluation": "Výklad dokončen a zadána aplikační úloha 100 % validní JSON / 65 % správných údajů. Porozumění dosud neověřeno. Rozlišení struktury a hodnot je vysvětlením účelu schématu a testování na příkladu extrakce; neprokazuje znalost syntaxe schémat či kódu. Z části Jak testovat prompt nebyly ještě výslovně probrány konkrétní počty (10 vstupů, 2 problematické, 5 opakování), ukládání výstupů s datem a modelem, role teploty 0, promptfoo/pytest ani omezení metrik shrnutí. Tyto části ponechat neprobrané, stejně jako zbytek materiálů mimo skutečně vysvětlený obsah.",
+      "result": "introduced",
+      "difficulty": "stredni",
+      "next_step": "PREFERENCE PRO DALŠÍ VÝUKU LLMA: uživatel výslovně kritizoval přílišné opakování nepodstatných jednoduchých příkladů. Učit v ucelenějších blocích, volit otázky na principy, návrh a posouzení řešení; nepovažovat jednotlivé nepřesné slovo za důvod k řetězci triviálních úloh. Zadána úloha: extrakce jména/data/čísla zakázky do JSON, 100 % správný formát a 65 % správný obsah; posoudit pouhé zpřísnění schématu a navrhnout ověření zlepšeného promptu. Odpověď zatím nevyhodnocena. Po ní rozvíjet testovací metodiku a podle předpokladů navázat na lokální inferenci/API. Dříve odložené části anatomie, syntaxe, technik a dalšího obsahu všech tří taháků zůstávají v rozsahu a musí dostat místo v dalších blocích. Celá historie 13 checkpointů byla načtena postupně v této lekci, poslední přes --start 12, total 13. Neprobrané části nelze odvodit ze statusu tématu; vizuální kontrola tabulek stále otevřená.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T04:09:11.621468+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "checkpoint_id": "pokus-2026-10-24-15-diagnostika-extrakce",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "activity_kind": "material",
+      "activity": "Posoudit návrh pouhého zpřísnění JSON schématu při extrakci jména, data a čísla zakázky, kdy 100/100 výstupů má správný formát a 65/100 správné údaje; zároveň navrhnout ověření účinnosti úpravy promptu.",
+      "learner_answer": "Jeho návrh se zaměřuje jen na formát, přitom se potřebujeme zaměřit na instrukce vytěžení dokumnet",
+      "evaluation": "Kritérium hodnoceného dílčího obsahu: rozlišit validitu formátu od věcné správnosti extrakce a posoudit nedostatečnost samotného zpřísnění schématu pro popsaný problém. Splněno: uživatel správně určil, že návrh řeší formát a cílem je extrakce správných údajů; úprava extrakčních instrukcí je rozumná hypotéza. Passed platí pouze pro tuto diagnózu. Druhá část zadání, návrh ověřovacího experimentu, v odpovědi chybí a zůstává neověřena; nepovažovat ji za chybnou ani za zvládnutou. Ve zpětné vazbě potvrzena diagnóza a připomenuto, že účinek instrukcí vyžaduje měření, nikoli předpoklad. Následuje jedna úloha zaměřená na konkrétní porovnání promptů A/B; bez návratu k triviálním klasifikačním příkladům.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:2"
+        }
+      ],
+      "next_step": "Zadána úloha: máš původní prompt A a upravený B pro extrakci; popsat porovnávací test, co zachovat stejné a co měřit pro rozhodnutí, zda B pomohl. Odpověď zatím nevyhodnocena. Zachovat preferenci uživatele: ucelenější výklad, smysluplné otázky na principy/návrh řešení, neřetězit snadné úlohy a slovíčkaření. Dosud doložena diagnóza problému formát versus obsah, vlastní návrh experimentu otevřený. Pokrytí celé mapy porovnáno s postupně načtenou historií 15 předchozích checkpointů, poslední stránka --start 13, total 15. Dříve odložené části všech tří taháků ponechat neprobrané kromě konkrétního obsahu doloženého aktivitami; po ověření testovací metodiky posun k dalším koncepčním blokům včetně inference a API. Vizuální kontrola tabulek stále otevřená.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-24T04:13:28.454259+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:2"
+        }
+      ],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "pokus-2026-10-24-16-porovnani-promptu",
+      "activity": "Navrhnout porovnání původního promptu A a upraveného B pro extrakci: co zachovat stejné a co měřit pro rozhodnutí o zlepšení.",
+      "learner_answer": "formátování zachovám stejné a budu měřit obojí, přesnost formátování i přesnost vytěžení abych se ujistil, že úprava negativně neovlivnila formátování",
+      "evaluation": "Kritérium hodnoceného dílčího obsahu: zachovat požadovaný formát a sledovat správnost extrakce i regresi formátu. Splněno: uživatel správně volí obě metriky a výslovně hlídá nežádoucí zhoršení formátu. Kontrolované proměnné dokumenty/model/nastavení samostatně neuvedl; ve zpětné vazbě byly doplněny jako nutná podmínka férového porovnání při změně pouze promptu. Passed platí pro vlastní návrh metrik a kontrolu regrese, nikoli samostatné vyjmenování všech kontrolovaných podmínek nebo kompletní testovací metodiku. Tyto doplněné podmínky byly vysvětleny, jejich samostatné vybavení se může ověřit později. Zpětná vazba a další koncepční úloha zobrazeny před zápisem.",
+      "result": "passed",
+      "next_step": "Zadána úloha: dvě kapitoly uvádějí odlišné termíny projektu, ale map oba vypustí; reduce dostane jen obecná shrnutí a pokyn hledat rozpory. Posoudit, zda může rozpor spolehlivě odhalit, vysvětlit proč a navrhnout úpravu postupu. Odpověď zatím nevyhodnocena. Zachovat ucelenější výklad a otázky na principy/návrh řešení podle výslovné preference uživatele, nevracet se k triviálním klasifikačním úlohám. Po map–reduce navázat dalšími koncepčními bloky promptování, inference a API; všechny odložené části anatomie/syntaxe/technik zůstávají v rozsahu. Pokrytí porovnáno s postupně načtenou historií všech 16 předchozích checkpointů, poslední přes --start 15 do total 16. Vizuální kontrola tabulek otevřená; výklad zde vychází z textového číslovaného oddílu map–reduce.",
+      "created_at": "2026-10-24T04:16:24.473144+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "prompty",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:2"
+        }
+      ],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "vyklad-2026-10-24-17-map-reduce",
+      "activity": "Ucelený výklad map–reduce pro dlouhý dokument: map zpracovává části stejným promptem, reduce spojuje výsledky, odstraňuje duplicity a hlásí rozpory; dělení po odstavcích/kapitolách s malým překryvem; zachování důležitých faktů, čísel a jmen; průběžné ukládání; možnost menšího modelu na map a většího na reduce.",
+      "learner_answer": "",
+      "evaluation": "Výklad dokončen a zadána aplikační úloha na ztrátu termínů v mezivýsledcích. Samostatné pochopení omezení map–reduce dosud neověřeno. Konkrétní ukázkové počty odrážek pro map/reduce ani přesný překryv 1–2 vět nebyly vyučovány, jen malý překryv. Odkaz zdroje na RAG při otázkách nad dokumentem zatím nebyl vyložen; zůstává neprobraný. Nezahrnuje celou kapitolu promptování, všechny techniky či práci s rozpočtem kontextu.",
+      "result": "introduced",
+      "next_step": "Zadána úloha: dvě kapitoly uvádějí odlišné termíny projektu, ale map oba vypustí; reduce dostane jen obecná shrnutí a pokyn hledat rozpory. Posoudit, zda může rozpor spolehlivě odhalit, vysvětlit proč a navrhnout úpravu postupu. Odpověď zatím nevyhodnocena. Zachovat ucelenější výklad a otázky na principy/návrh řešení podle výslovné preference uživatele, nevracet se k triviálním klasifikačním úlohám. Po map–reduce navázat dalšími koncepčními bloky promptování, inference a API; všechny odložené části anatomie/syntaxe/technik zůstávají v rozsahu. Pokrytí porovnáno s postupně načtenou historií všech 16 předchozích checkpointů, poslední přes --start 15 do total 16. Vizuální kontrola tabulek otevřená; výklad zde vychází z textového číslovaného oddílu map–reduce.",
+      "created_at": "2026-10-24T04:16:24.780331+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "review_on": "2026-10-25",
+      "topic_id": "prompty",
+      "checkpoint_id": "pokus-2026-10-24-18-map-reduce",
+      "source_refs": [
+        {
+          "source_id": "prompty-tahak-v1",
+          "locator": "page:2"
+        }
+      ],
+      "activity": "Posoudit, zda reduce odhalí rozpor termínů ze dvou kapitol, pokud map oba termíny vypustil z dílčích shrnutí; vysvětlit důvod a navrhnout změnu postupu.",
+      "learner_answer": "nedokáže ,ztratil jsem detail o rozporu. Z map bych nechal do reduce předat detaily a nechal bych reduce část aby poukázal na rozpor",
+      "evaluation": "Kritérium: rozpoznat ztrátu rozhodujících informací v mezivýsledku a navrhnout jejich zachování v map pro porovnání a označení rozporu v reduce. Splněno samostatně: uživatel pojmenoval ztrátu detailu a navrhl předání detailů do reduce i explicitní označení rozporu. Výsledek dokládá tento princip map–reduce, nikoli celou práci s dlouhými dokumenty. Ve zpětné vazbě tutorský praktický návrh: zachovat konkrétní termíny a původní kapitolu pro dohledatelnost. Uchování původu je doplnění návrhu řešení, nebylo vyžadováno původním kritériem ani se nevydává za samostatně prokázanou znalost uživatele. Před zápisem zobrazena zpětná vazba a navazující úloha.",
+      "result": "passed",
+      "next_step": "Zadána koncepční úloha: prototyp volá model na notebooku, později se inference přesune na GPU server pod jiný engine. Navrhnout oddělení aplikace od inference pro minimum změn kódu a uvést, co po přesunu ověřit. Odpověď zatím nevyhodnocena. Aktivní předmět zůstává LLMA, nyní blok lokalni-inference; kontext promptování je v témže předmětu a používá se k ověření regrese. Zachovat uživatelovu výslovnou preferenci ucelených bloků a úloh na principy/návrh; neřetězit snadné příklady. Odložené části všech tří taháků zůstávají neprobrané kromě konkrétního obsahu doloženého historií. Celá historie 18 předchozích checkpointů načtena postupně v této lekci, nyní poslední přes --start 16 do total 18. Vizuální kontrola tabulek stále otevřená; nový výklad vychází z úvodního textu Mám model… a? na straně 1.",
+      "created_at": "2026-10-24T04:22:12.723911+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "review_on": "2026-10-25",
+      "topic_id": "lokalni-inference",
+      "checkpoint_id": "vyklad-2026-10-24-19-vrstvy-inference",
+      "source_refs": [
+        {
+          "source_id": "lokalni-inference-tahak-v1",
+          "locator": "page:1"
+        }
+      ],
+      "activity": "Úvod k architektuře lokální inference: váhy jako naučené parametry, tokenizér jako převod textu na tokeny, engine jako načtení vah do paměti a výpočet odpovědi, API jako rozhraní aplikace, UI jako ovládání člověkem. Stejné podporované API může umožnit zachovat způsob volání při přesunu mezi enginy/notebookem/serverem; konkrétní funkční kompatibilitu ověřit.",
+      "learner_answer": "",
+      "evaluation": "Dokončen ucelený základ rolí komponent a princip oddělení aplikace od inference přes API. Zadána návrhová úloha přesunu na GPU server a následného ověření, odpověď zatím nevyhodnocena. Neprobrány konkrétní nástroje a jejich aktuální schopnosti, endpointy, klientský kód, tokenizační algoritmy, přesný průběh prefill/decode, paměťové nároky, KV cache, souběh, kvantizace ani zbývající části všech tří stran taháku. Výklad není úplným pokrytím strany 1.",
+      "result": "introduced",
+      "next_step": "Zadána koncepční úloha: prototyp volá model na notebooku, později se inference přesune na GPU server pod jiný engine. Navrhnout oddělení aplikace od inference pro minimum změn kódu a uvést, co po přesunu ověřit. Odpověď zatím nevyhodnocena. Aktivní předmět zůstává LLMA, nyní blok lokalni-inference; kontext promptování je v témže předmětu a používá se k ověření regrese. Zachovat uživatelovu výslovnou preferenci ucelených bloků a úloh na principy/návrh; neřetězit snadné příklady. Odložené části všech tří taháků zůstávají neprobrané kromě konkrétního obsahu doloženého historií. Celá historie 18 předchozích checkpointů načtena postupně v této lekci, nyní poslední přes --start 16 do total 18. Vizuální kontrola tabulek stále otevřená; nový výklad vychází z úvodního textu Mám model… a? na straně 1.",
+      "created_at": "2026-10-24T04:22:13.036516+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "lokalni-inference",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "pokus-2026-10-24-20-prenositelnost",
+      "source_refs": [
+        {
+          "source_id": "lokalni-inference-tahak-v1",
+          "locator": "page:1"
+        },
+        {
+          "source_id": "lokalni-inference-tahak-v1",
+          "locator": "page:3"
+        }
+      ],
+      "activity": "Navrhnout přenos aplikace z lokální inference na notebooku na GPU server s jiným enginem při minimu změn aplikace a uvést potřebné ověření po přesunu.",
+      "learner_answer": "aplikaci nabrhnu jako lehce přenositelné API, po přesunu znovu ověřím přesnost inference",
+      "evaluation": "Kritérium hodnoceného dílčího obsahu: zvolit rozhraní API pro přenositelnost a znovu ověřit kvalitu inference. Obojí v odpovědi přítomno; architektonické rozdělení je formulováno obecně, proto doplněno: aplikace volá engine přes stabilní API, adresa serveru/model/přihlášení patří do konfigurace. Další kontroly (formát, kompatibilita funkcí API, rychlost) doplnil tutor; nejsou samostatně prokázaným výsledkem uživatele. Passed platí pro základní volbu API a regresní ověření přesnosti, nikoli kompletní návrh migrace. Formulaci uživatele nepovažovat za důkaz záměny klienta a serveru; může mířit na vlastní aplikační API a tento směr byl dále rozvinut. Zpětná vazba a další otázka zobrazeny před uložením.",
+      "result": "passed",
+      "next_step": "Zadána návrhová úloha: popsat pořadí kroků služby /summarize od přijetí textu po výstup, s odmítnutím příliš dlouhého vstupu před inferencí a výměnou enginu bez změny webového/mobilního klienta. Odpověď dosud nevyhodnocena. Preferovat ucelené bloky, koncepční návrhy a smysluplné otázky dle výslovné kritiky uživatele; netočit se na slovíčkaření. Po architektuře navázat na provozní vlastnosti, paměť/souběh a následně volání API, přičemž všechny odložené části mapy zůstávají v rozsahu. Celá historie 20 předchozích checkpointů načtena postupně v této lekci včetně posledních dvou přes --start 18 do total 20. Vizuální ověření tabulek stále nedokončeno; pokus renderu první strany přes LibreOffice v tomto tahu skončil exit 1 a nevytvořil obrázek, pouze javaldx warning; příčina není doložena. Tento výklad používá textový oddíl Vlastní API na s. 3.",
+      "created_at": "2026-10-24T04:46:42.280303+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "lokalni-inference",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "vyklad-2026-10-24-21-aplikacni-api",
+      "source_refs": [
+        {
+          "source_id": "lokalni-inference-tahak-v1",
+          "locator": "page:3"
+        }
+      ],
+      "activity": "Výklad vlastní aplikační vrstvy před inferenčním enginem: endpoint /summarize, ověření uživatele/vstupu, sestavení promptu, volání enginu a převod odpovědi na stabilní formát klienta; centralizace promptů/limitů/zpracování chyb; validace délky před inferencí. Doplňující zpětná vazba k přenosu: konfigurace serveru/modelu/přihlášení a ověření kvality/formátu/API kompatibility/rychlosti po změně.",
+      "learner_answer": "",
+      "evaluation": "Dokončen koncepční výklad odpovědností aplikačního API a oddělení klientů od konkrétního enginu. Zadána úloha na pořadí kroků služby; odpověď zatím nevyhodnocena. Neprobrány konkrétní Pydantic/FastAPI kód, ukázkové limity 20–20000 znaků a 1–10 vět, HTTP 502 vs. 500, asynchronní streaming, implementace autentizace/rate limit, logování/metriky ani zbytek oddílu. Samotná validace formátu nebyla prezentována jako záruka věcné správnosti.",
+      "result": "introduced",
+      "next_step": "Zadána návrhová úloha: popsat pořadí kroků služby /summarize od přijetí textu po výstup, s odmítnutím příliš dlouhého vstupu před inferencí a výměnou enginu bez změny webového/mobilního klienta. Odpověď dosud nevyhodnocena. Preferovat ucelené bloky, koncepční návrhy a smysluplné otázky dle výslovné kritiky uživatele; netočit se na slovíčkaření. Po architektuře navázat na provozní vlastnosti, paměť/souběh a následně volání API, přičemž všechny odložené části mapy zůstávají v rozsahu. Celá historie 20 předchozích checkpointů načtena postupně v této lekci včetně posledních dvou přes --start 18 do total 20. Vizuální ověření tabulek stále nedokončeno; pokus renderu první strany přes LibreOffice v tomto tahu skončil exit 1 a nevytvořil obrázek, pouze javaldx warning; příčina není doložena. Tento výklad používá textový oddíl Vlastní API na s. 3.",
+      "created_at": "2026-10-24T04:46:42.563681+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "lokalni-inference",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "lokalni-inference-tahak-v1",
+          "locator": "page:3"
+        }
+      ],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "pokus-2026-10-24-22-navrh-summarize",
+      "activity": "Navrhnout pořadí kroků služby /summarize od přijetí textu po shrnutí při kontrole délky před inferencí a stabilním klientském rozhraní při výměně enginu.",
+      "learner_answer": "nevím, vysvětli",
+      "evaluation": "Uživatel neuvedl návrh a požádal o vysvětlení. Samostatný návrh průchodu požadavku není doložen; jde o potřebu vysvětlení/procvičení, nikoli o konkrétní chybnou představu. Result needs-practice označuje neověřenou schopnost sestavit tento postup v zadané úloze, ne celkové neporozumění API. Nápověda před odpovědí nebyla poskytnuta; úplné řešení následovalo až na výslovnou žádost a má samostatný záznam introduced. Před uložením bylo vysvětlení i následná otázka uživateli zobrazeno.",
+      "result": "needs-practice",
+      "next_step": "Zadáno ověření po úplném vysvětlení: engine A vrací výsledek v poli text, nový engine B v poli answer, web a mobil očekávají shrnuti. Určit, kde ošetřit rozdíl a proč, aby klienti zůstali stejní. Jde o fiktivní názvy polí pro koncepční úlohu, nikoli skutečné specifikace konkrétních enginů. Odpověď zatím nevyhodnocena. Později ověřit návrh služby jinou úlohou s odstupem, protože nyní bylo poskytnuto úplné řešení. Zachovat preferenci uceleného výkladu a návrhových úloh, nepřecházet k řetězci triviálních klasifikací ani slovíčkaření. Celá historie 22 předchozích checkpointů načtena postupně v této lekci, poslední dva přes --start 20 do total 22. Vizuální kontrola tabulek stále otevřená; podklad je textový oddíl Vlastní API na s. 3. Odložené učivo všech tří taháků zůstává v rozsahu.",
+      "created_at": "2026-10-24T06:21:37.021682+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "lokalni-inference",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "lokalni-inference-tahak-v1",
+          "locator": "page:3"
+        }
+      ],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "vyklad-2026-10-24-23-pruchod-summarize",
+      "activity": "Úplné vysvětlení průchodu požadavku /summarize: (1) přijmout text a počet vět, (2) ověřit oprávnění a vstup včetně vyplnění/délky/povoleného počtu vět a odmítnout chybu před inferencí, (3) sestavit prompt na serveru, (4) zavolat engine z konfigurace a při selhání vrátit chybu, (5) zpracovat odpověď a ověřit očekávanou strukturu, (6) vrátit stálý klientský formát, ilustrováno polem shrnuti. Oddělení klientů od enginu a připomenutí, že struktura negarantuje věcnou správnost.",
+      "learner_answer": "",
+      "evaluation": "Poskytnuto celé řešení na žádost uživatele, nikoli jen nápověda. Dokončen výklad pořadí a důvodu jednotlivých kroků; samostatné zvládnutí nebylo prokázáno. Konkrétní průchod a JSON příklad byly označeny jako vysvětlující příklad nad textovým podkladem s. 3. Nevyučován konkrétní spustitelný kód, přesné Pydantic limity, HTTP statusy, streaming, tokenové limity, implementace autentizace ani celý obsah strany 3. Následná otázka ověřuje pouze místo převodu odpovědi enginu, úplný samostatný návrh služby bude potřeba ověřit později jinou úlohou.",
+      "result": "introduced",
+      "next_step": "Zadáno ověření po úplném vysvětlení: engine A vrací výsledek v poli text, nový engine B v poli answer, web a mobil očekávají shrnuti. Určit, kde ošetřit rozdíl a proč, aby klienti zůstali stejní. Jde o fiktivní názvy polí pro koncepční úlohu, nikoli skutečné specifikace konkrétních enginů. Odpověď zatím nevyhodnocena. Později ověřit návrh služby jinou úlohou s odstupem, protože nyní bylo poskytnuto úplné řešení. Zachovat preferenci uceleného výkladu a návrhových úloh, nepřecházet k řetězci triviálních klasifikací ani slovíčkaření. Celá historie 22 předchozích checkpointů načtena postupně v této lekci, poslední dva přes --start 20 do total 22. Vizuální kontrola tabulek stále otevřená; podklad je textový oddíl Vlastní API na s. 3. Odložené učivo všech tří taháků zůstává v rozsahu.",
+      "created_at": "2026-10-24T06:21:37.327918+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "review_on": "2026-10-25",
+      "topic_id": "lokalni-inference",
+      "checkpoint_id": "pokus-2026-10-24-24-mapovani-odpovedi",
+      "source_refs": [
+        {
+          "source_id": "lokalni-inference-tahak-v1",
+          "locator": "page:3"
+        }
+      ],
+      "activity": "Určit, kde ošetřit rozdíl mezi polem text u fiktivního enginu A a answer u B, když web/mobil očekávají shrnuti od aplikačního API; zdůvodnit zachování klientského rozhraní.",
+      "learner_answer": "pořeším to na úrovni API, upravím jeho konfiguraci, aby správně očekávala výsledek pod jiným polem",
+      "evaluation": "Kritérium: umístit adaptaci odpovědi do vlastního aplikačního API a zachovat formát očekávaný klienty. Splněno pro správnou vrstvu a navržené přizpůsobení čteného pole; z kontextu úlohy plyne zachování shrnuti, důvod není samostatně podrobně rozveden. Ve zpětné vazbě potvrzeno, že mapování může být konfigurovatelné nebo implementované převodem v kódu; samotné nastavení adresy serveru mapování negarantuje. Není doložena konkrétní chyba uživatele, jeho návrh konfigurace je platný při odpovídajícím návrhu aplikace. Passed se vztahuje na tento dílčí krok po úplném vysvětlení předchozí úlohy, nikoli celý samostatný návrh /summarize. Zpětná vazba a nová otázka zobrazeny před zápisem.",
+      "result": "passed",
+      "next_step": "Zadána úloha: engine vrátil HTTP 200, uříznutý JSON a důvod vyčerpání limitu výstupních tokenů; posoudit zvýšení timeoutu a navrhnout ošetření v aplikačním API, aby klient nedostal neúplná data jako hotový úspěch. Odpověď zatím nevyhodnocena. Zachovat uživatelovu preferenci ucelených bloků, příčinného vysvětlení a návrhových úloh, neřetězit triviální příklady. Kompletní samostatný návrh služby /summarize stále ověřit později s odstupem; úspěch v mapování polí jej nenahrazuje. Všechny odložené části mapy tří taháků zůstávají v rozsahu. Celá historie 24 předchozích checkpointů načtena postupně v této lekci, poslední dva přes --start 22 do total 24. Vizuální kontrola tabulek zůstává otevřená; současný výklad čerpá z textového upozornění k HTTP 200 na s. 2 a oddílu timeoutů na s. 3.",
+      "created_at": "2026-10-24T08:13:52.468159+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "review_on": "2026-10-25",
+      "topic_id": "volani-api",
+      "checkpoint_id": "vyklad-2026-10-24-25-dokonceni-a-limity",
+      "source_refs": [
+        {
+          "source_id": "volani-api-tahak-v1",
+          "locator": "page:2"
+        },
+        {
+          "source_id": "volani-api-tahak-v1",
+          "locator": "page:3"
+        }
+      ],
+      "activity": "Výklad rozlišení HTTP úspěchu a dokončení generování: HTTP 200 může doprovázet ukončení pro limit délky; kontrolovat důvod konce a výsledná data. Rozdíl limitu výstupních tokenů (množství výstupu) a timeoutu (doba čekání). Vyčerpání tokenového limitu může přerušit JSON; prodloužení timeoutu tento limit nemění. Aplikační API má ošetřit neúplný výsledek před předáním jako hotového.",
+      "learner_answer": "",
+      "evaluation": "Dokončen koncepční výklad a zadána kauzální návrhová úloha. Samostatné pochopení dosud neověřeno. Nebyly vyučovány konkrétní názvy parametrů/stavů jednotlivých providerů, aktuální chování SDK, streaming, všechny důvody ukončení včetně nástrojů/odmítnutí ani detailní politika opakování. Omezení délky bylo uvedeno jako možná příčina neúplného výstupu, nikoli každého chybného JSON. Žádné tvrzení, že platná struktura zaručuje věcnou správnost.",
+      "result": "introduced",
+      "next_step": "Zadána úloha: engine vrátil HTTP 200, uříznutý JSON a důvod vyčerpání limitu výstupních tokenů; posoudit zvýšení timeoutu a navrhnout ošetření v aplikačním API, aby klient nedostal neúplná data jako hotový úspěch. Odpověď zatím nevyhodnocena. Zachovat uživatelovu preferenci ucelených bloků, příčinného vysvětlení a návrhových úloh, neřetězit triviální příklady. Kompletní samostatný návrh služby /summarize stále ověřit později s odstupem; úspěch v mapování polí jej nenahrazuje. Všechny odložené části mapy tří taháků zůstávají v rozsahu. Celá historie 24 předchozích checkpointů načtena postupně v této lekci, poslední dva přes --start 22 do total 24. Vizuální kontrola tabulek zůstává otevřená; současný výklad čerpá z textového upozornění k HTTP 200 na s. 2 a oddílu timeoutů na s. 3.",
+      "created_at": "2026-10-24T08:13:52.818016+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "volani-api",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "volani-api-tahak-v1",
+          "locator": "page:2"
+        }
+      ],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "pokus-2026-10-24-26-tokeny-timeout",
+      "activity": "Posoudit zvýšení timeoutu při HTTP 200 s uříznutým JSON a důvodem vyčerpání výstupních tokenů; navrhnout reakci aplikačního API proti předání neúplného výstupu jako úspěchu.",
+      "learner_answer": "ne musím zvýšit povolený počet tokenů nebo zajistit úspornější výstup",
+      "evaluation": "Kritérium hodnoceného dílčího obsahu: odlišit tokenový limit od timeoutu a navrhnout změnu odpovídající příčině. Splněno samostatně: zvýšení timeoutu odmítnuto, navrženo zvýšení počtu povolených tokenů nebo úspornější výstup. Passed se vztahuje na tuto kauzální diagnózu a dvě adekvátní možnosti, nikoli kompletní politiku ošetření odpovědí. Uživatel sám neuvedl kontrolu dokončení/validity a zabránění předání neúplného výsledku; tutor je doplnil ve zpětné vazbě. Dále uvedeno, že vyšší limit musí podporovat model/služba. Omitted část je neověřená, není důvodem k opakování celého jednoduchého příkladu. Zpětná vazba i navazující otázka zobrazeny před zápisem.",
+      "result": "passed",
+      "next_step": "Zadána návrhová úloha: server streamuje odpověď, klient má HTTP 200 a polovinu textu, pak engine pošle chybu. Navrhnout chování serveru/klienta, aby bylo selhání zřejmé a částečný výsledek se neuložil jako hotový. Odpověď dosud nevyhodnocena. Zachovat výslovnou preferenci ucelených bloků, příčinného vysvětlení a návrhových úloh. Po tomto bloku doplnit průchod SSE/ukončování/usage/buffering podle potřeb a zbývající části API, historie i lokální inference. Všechny odložené části pracovní mapy všech tří taháků zůstávají neprobrané kromě konkrétního obsahu doloženého aktivitami. Celá historie 26 předchozích checkpointů načtena postupně v této lekci, poslední dva přes --start 24 do total 26. Vizuální kontrola tabulek zůstává otevřená; výklad streamingu zde používá textové části Streaming a Pasti streamingu na s. 2.",
+      "created_at": "2026-10-24T09:10:42.500877+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "volani-api",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "volani-api-tahak-v1",
+          "locator": "page:2"
+        }
+      ],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "vyklad-2026-10-24-27-streaming",
+      "activity": "Základ streamingu: průběžné doručování během generování pro dřívější čtení, jedno otevřené spojení s událostmi/přírůstky textu/dokončením/chybou; chyba může přijít po HTTP 200. Rozlišovat rozpracování/úspěch/selhání a sledovat stream do konce, kde mohou být údaje o spotřebě. Strukturovaný výstup skládat a celý JSON parsovat až po dokončení. Streaming sám nesnižuje počet tokenů ani neodstraňuje tokenový limit.",
+      "learner_answer": "",
+      "evaluation": "Dokončen koncepční výklad, porozumění ověřuje právě zadaná úloha na chybu po odeslání části streamu. Nevyučovány konkrétní SSE řádky/media type, přesné události a jejich varianty pro providery, implementace parseru, SDK, flush/buffering, ping/komentáře, ukončení při odpojení klienta ani podrobné záznamy usage. Konstatována možnost získat usage na konci, nikoli zaručena přítomnost za všech konfigurací. Samostatná implementace či celkové zvládnutí streamingu nejsou doloženy.",
+      "result": "introduced",
+      "next_step": "Zadána návrhová úloha: server streamuje odpověď, klient má HTTP 200 a polovinu textu, pak engine pošle chybu. Navrhnout chování serveru/klienta, aby bylo selhání zřejmé a částečný výsledek se neuložil jako hotový. Odpověď dosud nevyhodnocena. Zachovat výslovnou preferenci ucelených bloků, příčinného vysvětlení a návrhových úloh. Po tomto bloku doplnit průchod SSE/ukončování/usage/buffering podle potřeb a zbývající části API, historie i lokální inference. Všechny odložené části pracovní mapy všech tří taháků zůstávají neprobrané kromě konkrétního obsahu doloženého aktivitami. Celá historie 26 předchozích checkpointů načtena postupně v této lekci, poslední dva přes --start 24 do total 26. Vizuální kontrola tabulek zůstává otevřená; výklad streamingu zde používá textové části Streaming a Pasti streamingu na s. 2.",
+      "created_at": "2026-10-24T09:10:42.806259+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "volani-api",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "pokus-2026-10-24-28-chyba-streamu",
+      "source_refs": [
+        {
+          "source_id": "volani-api-tahak-v1",
+          "locator": "page:2"
+        },
+        {
+          "source_id": "volani-api-tahak-v1",
+          "locator": "page:3"
+        }
+      ],
+      "activity": "Navrhnout chování serveru a klienta při chybě enginu po HTTP 200 a zobrazení poloviny streamovaného textu, aby uživatel poznal selhání a neúplný výsledek se neuložil jako hotový.",
+      "learner_answer": "uživatel o tom musí být informavaný",
+      "evaluation": "Kritérium hodnoceného dílčího obsahu: zachovat informovanost uživatele o selhání. Splněno: uživatel správně požaduje informování. Passed se vztahuje pouze k tomuto požadavku, nikoli ke konkrétnímu návrhu serverové události, ukončení streamu, stavu klienta či ukládání částečných dat; tyto části sám neuvedl a zůstávají neověřené. Ve zpětné vazbě doplněno úplnější koncepční ošetření: server pošle chybovou událost a ukončí stream, klient označí text jako neúplný a neuloží ho mezi dokončené; již odeslaný HTTP stav nelze zpětně změnit. Bez dalšího drilu následovalo téma diagnostiky bufferování. Zpětná vazba a další otázka zobrazeny před zápisem.",
+      "result": "passed",
+      "next_step": "Zadána diagnostická úloha: engine posílá části každých 200 ms a aplikační API je průběžně přijímá, ale prohlížeč zobrazí vše až po 20 s. Určit podezřelé vrstvy a měření pro lokalizaci zadržování dat. Odpověď dosud nevyhodnocena. Výslovná preference uživatele: ucelenější bloky, koncepční a návrhové úlohy, neřetězit triviální příklady či slovíčkaření. Řešení chyby streamu bylo nyní vysvětleno, samostatný návrh serverové události/stavů klienta bude možné ověřit později v jiné úloze; uživatel samostatně uvedl jen informování uživatele. Celá historie 28 předchozích checkpointů načtena postupně v této lekci, poslední dva přes --start 26 do total 28. Všechny odložené části mapy osmi stran tří taháků zůstávají neprobrané kromě konkrétních doložených aktivit. Vizuální kontrola tabulek otevřená. Zbývá mj. odpojení klienta, detaily SSE/usage, konverzační historie a řada částí inference/promptování.",
+      "created_at": "2026-10-24T09:16:28.746401+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "volani-api",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "vyklad-2026-10-24-29-chyby-a-buffering",
+      "source_refs": [
+        {
+          "source_id": "volani-api-tahak-v1",
+          "locator": "page:2"
+        },
+        {
+          "source_id": "volani-api-tahak-v1",
+          "locator": "page:3"
+        }
+      ],
+      "activity": "Doplnění ošetření chyby streamu po HTTP 200: událost s chybou a ukončení na serveru, označení neúplného textu a neuložení jako dokončeného na klientovi, nemožnost zpětné změny již odeslaného HTTP stavu. Výklad bufferování jako zadržení částí a jejich dávkového předání; potřeba průběžného předávání v enginu/API/proxy a zobrazování na klientovi; lokalizace měřením časů příjmu/odeslání na hranicích vrstev.",
+      "learner_answer": "",
+      "evaluation": "Dokončen výklad uvedených koncepcí. Následující úloha ověřuje diagnostiku umístění bufferu podle pozorování, odpověď zatím nevyhodnocena. Konkrétní implementace událostí, SSE formát, nginx konfigurace, Python flush, klientské dekódování/renderování ani testy nebyly vyučovány. Měření hranic je tutorská diagnostická aplikace popsané pasti bufferování, nikoli doslovný postup z taháku. Samostatné zvládnutí těchto doplněných částí není doloženo.",
+      "result": "introduced",
+      "next_step": "Zadána diagnostická úloha: engine posílá části každých 200 ms a aplikační API je průběžně přijímá, ale prohlížeč zobrazí vše až po 20 s. Určit podezřelé vrstvy a měření pro lokalizaci zadržování dat. Odpověď dosud nevyhodnocena. Výslovná preference uživatele: ucelenější bloky, koncepční a návrhové úlohy, neřetězit triviální příklady či slovíčkaření. Řešení chyby streamu bylo nyní vysvětleno, samostatný návrh serverové události/stavů klienta bude možné ověřit později v jiné úloze; uživatel samostatně uvedl jen informování uživatele. Celá historie 28 předchozích checkpointů načtena postupně v této lekci, poslední dva přes --start 26 do total 28. Všechny odložené části mapy osmi stran tří taháků zůstávají neprobrané kromě konkrétních doložených aktivit. Vizuální kontrola tabulek otevřená. Zbývá mj. odpojení klienta, detaily SSE/usage, konverzační historie a řada částí inference/promptování.",
+      "created_at": "2026-10-24T09:16:29.021778+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "volani-api",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "pokus-2026-10-24-30-diagnostika-bufferu",
+      "source_refs": [
+        {
+          "source_id": "volani-api-tahak-v1",
+          "locator": "page:2"
+        }
+      ],
+      "activity": "Při průběžném posílání částí enginem každých 200 ms a potvrzeném průběžném příjmu v aplikačním API, ale zobrazení všeho v prohlížeči až po 20 s, určit podezřelé vrstvy a měření pro lokalizaci zadržování dat.",
+      "learner_answer": "zaměřím se na buffer kde se data hromadí",
+      "evaluation": "Kritérium: využít známý průběžný příjem v API k zúžení podezření na následující úseky a navrhnout konkrétní měření hranic. Uživatel správně uvádí obecné podezření na hromadění v bufferu, ale neurčuje vrstvu ani měření; původní kritérium není splněno a samostatná diagnostika není doložena. Result needs-practice označuje tuto nedokončenou návrhovou dovednost, nikoli konkrétní chybnou představu o bufferu. Ve zpětné vazbě doplněn postup: příjem do API už je ověřen, porovnat časy skutečného odesílání z API, přijetí v prohlížeči a zobrazení; tím rozlišit API/proxy/klienta. Tento diagnostický postup je nyní vysvětlen, samostatná aplikace zatím neověřena. Bez opakování stejné úlohy následoval blok historie. Zpětná vazba a otázka zobrazeny před uložením.",
+      "result": "needs-practice",
+      "next_step": "Zadána návrhová úloha: aplikace ukládá/posílá všechny dotazy uživatele, ale žádné odpovědi modelu; po dřívějším návrhu dvou řešení uživatel žádá Rozveď druhé řešení. Vysvětlit problém, navrhnout správu historie pro návaznost a omezení jejího růstu. Odpověď zatím nevyhodnocena. Zachovat preferenci ucelenějších bloků a smysluplných koncepčních/návrhových úloh; neřetězit triviální otázky. Diagnostika bufferu byla vysvětlena, ale konkrétní samostatná lokalizace není prokázána. Všechny odložené části mapy osmi stran tří taháků zůstávají neprobrané kromě skutečně vysvětleného/ověřeného obsahu. Celá historie 30 předchozích checkpointů načtena postupně v této lekci, poslední dva přes --start 28 do total 30. Vizuální ověření tabulek stále otevřené.",
+      "created_at": "2026-10-24T10:17:41.610745+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "volani-api",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "vyklad-2026-10-24-31-historie-konverzace",
+      "source_refs": [
+        {
+          "source_id": "volani-api-tahak-v1",
+          "locator": "page:3"
+        }
+      ],
+      "activity": "Výklad klientem spravované konverzační historie: aplikace ukládá zprávy uživatele i odpovědi modelu, do dalšího volání zahrnuje potřebný kontext; navazující dotazy mohou odkazovat na předchozí návrhy modelu. Rostoucí historie zvětšuje vstupní tokeny; lze ji zkracovat nebo shrnovat při zachování důležitých rozhodnutí a jejich významu.",
+      "learner_answer": "",
+      "evaluation": "Dokončen koncepční výklad a zadána integrovaná úloha na chybějící odpovědi modelu a růst historie. Samostatné porozumění dosud neověřeno. Výklad výslovně omezen na variantu, kdy historii spravuje aplikace; netvrdí, že žádné API neumí serverový stav. Konkrétní formát seznamu zpráv, systémové instrukce, předávání serverového identifikátoru předchozí odpovědi, tokenizace/cachování/aktuální ceny, implementace shrnování a plný klientský kód nejsou probrány. Nezobecňovat na zvládnutí celé konverzační paměti či stránky 3.",
+      "result": "introduced",
+      "next_step": "Zadána návrhová úloha: aplikace ukládá/posílá všechny dotazy uživatele, ale žádné odpovědi modelu; po dřívějším návrhu dvou řešení uživatel žádá Rozveď druhé řešení. Vysvětlit problém, navrhnout správu historie pro návaznost a omezení jejího růstu. Odpověď zatím nevyhodnocena. Zachovat preferenci ucelenějších bloků a smysluplných koncepčních/návrhových úloh; neřetězit triviální otázky. Diagnostika bufferu byla vysvětlena, ale konkrétní samostatná lokalizace není prokázána. Všechny odložené části mapy osmi stran tří taháků zůstávají neprobrané kromě skutečně vysvětleného/ověřeného obsahu. Celá historie 30 předchozích checkpointů načtena postupně v této lekci, poslední dva přes --start 28 do total 30. Vizuální ověření tabulek stále otevřené.",
+      "created_at": "2026-10-24T10:17:41.919558+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "volani-api",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "volani-api-tahak-v1",
+          "locator": "page:3"
+        }
+      ],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "pokus-2026-10-24-32-navrh-historie",
+      "activity": "Vysvětlit problém aplikace ukládající a posílající pouze dotazy uživatele bez odpovědí modelu při dotazu Rozveď druhé řešení; navrhnout historii s návazností a omezením růstu.",
+      "learner_answer": "vysvětli mi to",
+      "evaluation": "Uživatel nepředložil vlastní návrh a požádal o vysvětlení. Samostatné rozlišení ukládání/odesílání historie ani návrh omezování jejího růstu nejsou doloženy. Needs-practice označuje tuto zatím neprokázanou návrhovou dovednost; žádná konkrétní chybná představa z odpovědi neplyne. Na žádost bylo následně poskytnuto úplné vysvětlení s konkrétní výměnou zpráv a postupem shrnutí; má samostatný záznam introduced. Nehodnotit pouhou žádost o výklad jako úspěšný pokus a nevyvozovat obecné neporozumění. Výklad a další úloha zobrazeny před zápisem.",
+      "result": "needs-practice",
+      "next_step": "Zadána úloha po úplném vysvětlení: v dlouhém chatu uživatel vybral firemní GPU server a zakázal opuštění firmy dokumenty; napsat stručné shrnutí těchto rozhodnutí pro další volání místo starší historie. Odpověď dosud nevyhodnocena. Jde o aplikaci po výkladu, ne samostatné vybavení s odstupem. Později ověřit celé řízení historie jinou úlohou. Výslovná preference uživatele: ucelenější výklad, vysvětlovat příčiny a praktický návrh, neřetězit nepodstatné snadné příklady a slovíčkaření. Celá historie 32 předchozích checkpointů načtena postupně v této lekci, poslední dva přes --start 30 do total 32. Všechny odložené části mapy osmi stran tří taháků zůstávají v rozsahu a neprobrané kromě konkrétně doloženého obsahu. Vizuální kontrola tabulek stále otevřená.",
+      "created_at": "2026-10-24T10:21:46.701767+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "volani-api",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "volani-api-tahak-v1",
+          "locator": "page:3"
+        }
+      ],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "vyklad-2026-10-24-33-kontext-a-archiv",
+      "activity": "Úplné vysvětlení na příkladu variant notebook/firemní GPU server a odkazu Rozveď druhou variantu: aplikace musí do dalšího volání zahrnout kontext, zobrazení v UI samo o sobě neznamená odeslání modelu, odpovědi modelu nesou obsah návrhů. Rozlišit uložený archiv a skutečně odesílaný kontext; ilustrativní návrh plný archiv v aplikaci a do modelu shrnutí starších částí + poslední výměny + nový dotaz. Shrnutí musí zachovat význam variant a rozhodnutí; předvedeno konkrétní vhodné shrnutí a propojeno se ztrátou informací v map–reduce.",
+      "learner_answer": "",
+      "evaluation": "Na výslovnou žádost dokončen názorný výklad a celé řešení předchozí úlohy, nikoli jen metodická nápověda. Porozumění dosud samostatně neověřeno. Modelu nebyla přisouzena univerzální bezstavovost všech API; příklad výslovně používá historii sestavovanou aplikací. Archiv versus vybraný kontext a kombinace shrnutí s posledními výměnami byly označeny jako vysvětlující praktický návrh nad podkladem s. 3. Neprobrán konkrétní seznam rolí/JSON požadavku, tokenový rozpočet, automatická implementace summarizace, serverový stav ani všechny podmínky zachování faktů. Nová úloha ověří jen uchování dvou konkrétních rozhodnutí ve shrnutí.",
+      "result": "introduced",
+      "next_step": "Zadána úloha po úplném vysvětlení: v dlouhém chatu uživatel vybral firemní GPU server a zakázal opuštění firmy dokumenty; napsat stručné shrnutí těchto rozhodnutí pro další volání místo starší historie. Odpověď dosud nevyhodnocena. Jde o aplikaci po výkladu, ne samostatné vybavení s odstupem. Později ověřit celé řízení historie jinou úlohou. Výslovná preference uživatele: ucelenější výklad, vysvětlovat příčiny a praktický návrh, neřetězit nepodstatné snadné příklady a slovíčkaření. Celá historie 32 předchozích checkpointů načtena postupně v této lekci, poslední dva přes --start 30 do total 32. Všechny odložené části mapy osmi stran tří taháků zůstávají v rozsahu a neprobrané kromě konkrétně doloženého obsahu. Vizuální kontrola tabulek stále otevřená.",
+      "created_at": "2026-10-24T10:21:47.003036+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "review_on": "2026-10-25",
+      "topic_id": "volani-api",
+      "checkpoint_id": "reflexe-2026-10-24-34-nevhodna-uloha",
+      "source_refs": [
+        {
+          "source_id": "volani-api-tahak-v1",
+          "locator": "page:3"
+        }
+      ],
+      "activity": "Reflexe úlohy na dvě již explicitně formulovaná rozhodnutí: vymezení cíle historie jako uchování potřebného kontextu a hlídání jeho velikosti, nikoli přepis hotového shrnutí.",
+      "learner_answer": "uživatel vybral firemní GPU server a dokumenty nesmějí opustit firmu. -> to už je hotové shrnutí",
+      "evaluation": "Uživatel správně upozornil, že samotné zadání už bylo hotovým dostačujícím shrnutím. Tutor uznal nevhodnost úlohy a znovu vymezil účel správy historie: potřebný kontext a omezená velikost vstupu. Výsledek introduced zaznamenává pouze tuto vysvětlenou reflexi, nikoli nový samostatný úspěch, procvičení nebo chybu uživatele. Z převzetí věty ze zadání nelze dovozovat dovednost samostatně shrnovat dlouhou historii. Kritika výuky je platné steering a má upravit další otázky. Samotný průzkum zdrojů zde není předmětem aktivity a nezakládá introduced.",
+      "result": "introduced",
+      "next_step": "Zadána návrhová úloha: GPU12GB, váhy9GB, krátký jediný dotaz funguje, osm souběžných dotazů s dlouhou historií vyvolá nedostatek paměti. Vysvětlit pravděpodobnou příčinu a navrhnout dvě změny nastavení k otestování. Odpověď zatím nevyhodnocena. ZÁSADNÍ PREFERENCE: uživatel znovu oprávněně kritizoval úlohu s hotovou odpovědí přímo v zadání. Nezadávat přepis hotových vět ani nepodstatné jednoduché příklady. Učit souvislosti v ucelených blocích a ověřovat skutečné rozhodnutí/aplikaci, při žádosti vysvětlit názorně. Úloha na shrnutí nebyla validním ověřením; nepřipisovat samostatné zvládnutí ani chybu. Po tomto bloku pokračovat pamětí/KV/kvantizací/souběhem a podle výsledků zbývající mapou všech3taháků. PŮVODNÍ MEZERA VIZUÁLNÍ KONTROLY VYŘEŠENA: všech8stran PDF vyrenderováno pypdfium2 a prohlédnuto včetně všech tabulek/vzorců/kódu; obrázky /tmp/llma-material-review-20261024. Prozkoumání není výuka. Kompletní text všech pasáží i struktura a historie34checkpointů byly v tomto chatu načteny; poslední historie --start32 total34. Všechny odložené části zůstávají neprobrané kromě konkrétních dokladů historie; netvrdit dokončení učiva. Datované specifikace/modely/benchmarky zatím nejsou ověřené pro aktuální použití.",
+      "created_at": "2026-10-24T10:34:55.844328+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "review_on": "2026-10-25",
+      "topic_id": "lokalni-inference",
+      "checkpoint_id": "vyklad-2026-10-24-35-pamet-inference",
+      "source_refs": [
+        {
+          "source_id": "lokalni-inference-tahak-v1",
+          "locator": "page:1"
+        },
+        {
+          "source_id": "lokalni-inference-tahak-v1",
+          "locator": "page:2"
+        }
+      ],
+      "activity": "Výklad paměti lokální inference: váhy + KV cache + režie enginu; váhy drží naučené parametry, KV cache mezivýsledky výpočtu nad tokeny; spotřeba cache roste s kontextem a počtem současných požadavků. Kvantizace snižuje číselnou přesnost a paměť vah, může změnit kvalitu, vyžaduje opakované testy. Kapacitu posuzovat pro skutečnou zátěž, nikoli jen velikost souboru modelu.",
+      "learner_answer": "",
+      "evaluation": "Dokončen koncepční výklad a zadána aplikační úloha paměťového nedostatku při souběhu dlouhých požadavků. Samostatné porozumění zatím neověřeno. Před použitím byly zdrojové tabulky a paměťový vzorec skutečně vizuálně prohlédnuty na renderovaných originálních PDF. Nebyly vyučovány konkrétní výpočty bajtů na parametr, kvantizační typy/tabulka velikostí a kvalit, architekturní vzorec KV cache, batching, offloading, backendy nebo konkrétní příkazy pro konfiguraci; ponechat je jako neprobrané. Uvedené paměťové číslo12/9GB je fiktivní zadání, nikoli specifikace reálného produktu.",
+      "result": "introduced",
+      "next_step": "Zadána návrhová úloha: GPU12GB, váhy9GB, krátký jediný dotaz funguje, osm souběžných dotazů s dlouhou historií vyvolá nedostatek paměti. Vysvětlit pravděpodobnou příčinu a navrhnout dvě změny nastavení k otestování. Odpověď zatím nevyhodnocena. ZÁSADNÍ PREFERENCE: uživatel znovu oprávněně kritizoval úlohu s hotovou odpovědí přímo v zadání. Nezadávat přepis hotových vět ani nepodstatné jednoduché příklady. Učit souvislosti v ucelených blocích a ověřovat skutečné rozhodnutí/aplikaci, při žádosti vysvětlit názorně. Úloha na shrnutí nebyla validním ověřením; nepřipisovat samostatné zvládnutí ani chybu. Po tomto bloku pokračovat pamětí/KV/kvantizací/souběhem a podle výsledků zbývající mapou všech3taháků. PŮVODNÍ MEZERA VIZUÁLNÍ KONTROLY VYŘEŠENA: všech8stran PDF vyrenderováno pypdfium2 a prohlédnuto včetně všech tabulek/vzorců/kódu; obrázky /tmp/llma-material-review-20261024. Prozkoumání není výuka. Kompletní text všech pasáží i struktura a historie34checkpointů byly v tomto chatu načteny; poslední historie --start32 total34. Všechny odložené části zůstávají neprobrané kromě konkrétních dokladů historie; netvrdit dokončení učiva. Datované specifikace/modely/benchmarky zatím nejsou ověřené pro aktuální použití.",
+      "created_at": "2026-10-24T10:34:56.134137+00:00"
+    }
+  ]
 }

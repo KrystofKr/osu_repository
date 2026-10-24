@@ -48,7 +48,9 @@ zastav operaci a vysvětli problém, nezakládej náhradní paměť.
 1. **Učitel → paměť:** vybraný předmět a případné téma; požadavek na `resume`.
 2. **Učitel → zdroje:** stejný předmět, téma a hledaný pojem.
 3. **Zdroje → učitel:** původní pasáže, `source_id`, verze, `locator`, priorita,
-   informace o nečitelných zdrojích nebo rozporech.
+   informace o nečitelných zdrojích nebo rozporech. Závisí-li výklad či hodnocení
+   na konvenci, také doložená definice, význam značení a podmínky; osnova ani
+   historický souhrn ji nenahrazují. Neověřený význam předej jako nejistotu.
 4. **Učitel → paměť:** checkpoint s výsledkem skutečné aktivity a dalším krokem.
 5. **Paměť → učitel:** potvrzení zápisu, aktuální stav tématu a plán opakování.
 
@@ -56,6 +58,15 @@ Při `passed` vyžaduj odpověď a vyhodnocení s kritériem úspěchu. Nápově
 zaznamenána; stav `demonstrated` nástroj povolí pouze u úspěchu bez nápovědy.
 Historie checkpointů se zachovává. Další `introduced` nesmaže dříve ověřenou
 dovednost; pozdější `needs-practice` ji naopak vrátí k procvičení.
+
+`unassessed` uchovává neuzavřenou aktivitu bez připsání chyby, úspěchu nebo
+výkladu. Nejistota učitele se nesmí proměnit v obtíž studenta.
+Oprava používá nové ID a `correction_of` odkazující na aktuální účinnou verzi
+téže aktivity. Zachovává její zadání, odpověď, téma i lekci. Účinný výsledek se
+uplatní na místě původní aktivity; pozdější pokusy mají stále svou platnost.
+`history` označuje nahrazené záznamy, `resume` vrací poslední účinnou aktivitu
+a zvlášť poslední opravu. Oprava se nepočítá jako nový pokus a samotný výklad
+neopraví dřívější nesprávné hodnocení.
 
 ## Zdroje a omezení
 

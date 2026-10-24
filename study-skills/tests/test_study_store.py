@@ -119,6 +119,184 @@ class StoreTests(unittest.TestCase):
             self.store.checkpoint(self.subject, dict(record, learner_answer="6"))
         self.assertEqual(self.store.status(self.subject)["checkpoint_count"], 1)
 
+    def test_course_convention_correction_removes_wrongly_attributed_error(self):
+        self.source(content="F je množina koncových stavů, včetně q_ano a q_ne.\n")
+        original = assessment(activity="Patří koncový zamítací q_ne do F?",
+                              learner_answer="Ano, protože stroj ukončí výpočet.",
+                              evaluation="Chybně použita jiná přijímací konvence.",
+                              result="needs-practice", misconceptions=["Záměna přijetí a zastavení"])
+        self.store.checkpoint(self.subject, original)
+        original_saved = copy.deepcopy(self.store.load(self.subject)["checkpoints"][0])
+        correction = dict(original, checkpoint_id="oprava-1", correction_of="pokus-1",
+                          activity_kind="material", result="passed", misconceptions=[],
+                          source_refs=[{"source_id": "skripta", "locator": "line:1"}],
+                          evaluation="Podle doložené definice F zahrnuje oba koncové stavy; odpověď byla správná.")
+        self.store.checkpoint(self.subject, correction)
+        topic = self.store.resume(self.subject, "2026-10-18")["topics"][0]
+        self.assertEqual(topic["status"], "demonstrated")
+        self.assertEqual(topic["misconceptions"], [])
+        self.assertEqual(self.store.load(self.subject)["checkpoints"][0], original_saved)
+        counts = self.store.status(self.subject)
+        self.assertEqual((counts["activity_count"], counts["correction_count"], counts["checkpoint_count"]), (1, 1, 2))
+
+    def test_different_subject_conventions_and_corrections_do_not_mix(self):
+        other = "jina-konvence"
+        self.store.init(other, "Jiný kurz", ["Použít přijímací konvenci"])
+        self.store.topic_add(other, "zaklad", "Stavy", ["Rozlišit F"], [])
+        self.source(content="F obsahuje koncové stavy ANO i NE.")
+        self.source(subject=other, content="F obsahuje pouze přijímací stavy ANO.")
+        original = assessment(activity="Patří zamítací stav do F?", learner_answer="Ano",
+                              result="needs-practice", misconceptions=["Chybně posouzené F"])
+        self.store.checkpoint(self.subject, original)
+        self.store.checkpoint(other, dict(original, subject_id=other))
+        before_other = self.store.load(other)
+        self.store.checkpoint(self.subject, dict(original, checkpoint_id="oprava-1", correction_of="pokus-1",
+                              result="passed", misconceptions=[], activity_kind="material",
+                              source_refs=[{"source_id": "skripta", "locator": "line:1"}]))
+        self.assertEqual(self.store.load(other), before_other)
+        self.assertEqual(self.store.search(self.subject, "ANO i NE")["total"], 1)
+        self.assertEqual(self.store.search(other, "pouze přijímací")["total"], 1)
+
+    def test_unverified_summary_can_be_saved_without_assessing_the_learner(self):
+        self.source(content="Probrán model M=(Q,Sigma,Gamma,delta,q0,F).")
+        self.store.checkpoint(self.subject, assessment(result="unassessed", learner_answer="F jsou koncové stavy",
+                              evaluation="Souhrn význam F nedokládá; ověřit původní definici.",
+                              review_on="2026-10-25"))
+        topic = self.store.resume(self.subject, "2026-10-25")["topics"][0]
+        self.assertEqual((topic["status"], topic["misconceptions"], topic["review_on"]), ("unseen", [], None))
+        self.assertEqual(self.store.history(self.subject)["checkpoints"][0]["result"], "unassessed")
+
+    def test_unassessed_activity_preserves_existing_evidence_and_review(self):
+        self.store.checkpoint(self.subject, assessment())
+        before = self.store.status(self.subject)["topics"][0]
+        self.store.checkpoint(self.subject, assessment(checkpoint_id="neuzavreno", result="unassessed",
+                              learner_answer="", review_on="2026-10-30"))
+        self.assertEqual(self.store.status(self.subject)["topics"][0], before)
+
+    def test_withdrawing_invalid_assessment_restores_previous_evidence(self):
+        self.store.checkpoint(self.subject, assessment())
+        bad = assessment(checkpoint_id="pokus-2", result="needs-practice", misconceptions=["Nedoložená chyba"],
+                         review_on="2026-10-20")
+        self.store.checkpoint(self.subject, bad)
+        self.store.checkpoint(self.subject, dict(bad, checkpoint_id="oprava-2", correction_of="pokus-2",
+                              result="unassessed", misconceptions=[], review_on=None,
+                              evaluation="Původní kritérium nebylo ověřeno; zatím nelze rozhodnout."))
+        topic = self.store.status(self.subject)["topics"][0]
+        self.assertEqual((topic["status"], topic["misconceptions"], topic["review_on"]),
+                         ("demonstrated", [], "2026-10-18"))
+
+    def test_withdrawing_wrong_explanation_does_not_leave_material_introduced(self):
+        original = assessment(result="introduced", learner_answer="", review_on="2026-10-20")
+        self.store.checkpoint(self.subject, original)
+        self.store.checkpoint(self.subject, dict(original, checkpoint_id="oprava-1", correction_of="pokus-1",
+                              result="unassessed", evaluation="Výklad vycházel z nedoložené konvence."))
+        topic = self.store.status(self.subject)["topics"][0]
+        self.assertEqual((topic["status"], topic["review_on"]), ("unseen", None))
+
+    def test_correction_of_older_activity_does_not_overwrite_later_attempt(self):
+        original = assessment(result="needs-practice", misconceptions=["Stará chyba"])
+        self.store.checkpoint(self.subject, original)
+        later = assessment(checkpoint_id="pokus-2", result="needs-practice", learner_answer="6",
+                           misconceptions=["Jiná pozdější obtíž"], review_on="2026-10-21")
+        self.store.checkpoint(self.subject, later)
+        before = self.store.status(self.subject)["topics"][0]
+        self.store.checkpoint(self.subject, dict(original, checkpoint_id="oprava-1", correction_of="pokus-1",
+                              result="passed", misconceptions=[], review_on="2026-11-01"))
+        self.assertEqual(self.store.status(self.subject)["topics"][0], before)
+        resumed = self.store.resume(self.subject, "2026-10-22")
+        self.assertEqual(resumed["last_checkpoint"]["checkpoint_id"], "pokus-2")
+        self.assertEqual(resumed["last_correction"]["checkpoint_id"], "oprava-1")
+        self.assertEqual(resumed["due_reviews"][0]["review_on"], "2026-10-21")
+
+    def test_correction_chain_retry_and_history_pagination(self):
+        original = assessment(result="needs-practice", misconceptions=["Chyba učitele"])
+        self.store.checkpoint(self.subject, original)
+        first = dict(original, checkpoint_id="oprava-1", correction_of="pokus-1",
+                     result="passed", misconceptions=[], hints_used=1)
+        self.store.checkpoint(self.subject, first)
+        second = dict(first, checkpoint_id="oprava-2", correction_of="oprava-1", hints_used=0)
+        self.store.checkpoint(self.subject, second)
+        self.assertTrue(self.store.checkpoint(self.subject, second)["duplicate"])
+        history = self.store.history(self.subject)["checkpoints"]
+        self.assertEqual([item["is_effective"] for item in history], [False, False, True])
+        self.assertEqual([item["superseded_by"] for item in history], ["oprava-1", "oprava-2", None])
+        first_page = self.store.history(self.subject, start=0, limit=1)["checkpoints"][0]
+        self.assertFalse(first_page["is_effective"])
+        self.assertEqual(first_page["superseded_by"], "oprava-1")
+        self.assertEqual(self.store.status(self.subject)["activity_count"], 1)
+        self.assertEqual(self.store.status(self.subject)["correction_count"], 2)
+        self.assertEqual(self.store.resume(self.subject, "2026-10-18")["last_checkpoint"]["checkpoint_id"], "oprava-2")
+
+    def test_corrections_reject_unknown_forward_self_and_invalid_targets(self):
+        self.store.checkpoint(self.subject, assessment())
+        before = self.state_path().read_bytes()
+        for target in ("chybi", "oprava-1", None, "", [], 42, "../jiny"):
+            with self.subTest(target=target), self.assertRaises(StudyError):
+                self.store.checkpoint(self.subject, assessment(checkpoint_id="oprava-1", correction_of=target))
+            self.assertEqual(self.state_path().read_bytes(), before)
+
+    def test_corrections_cannot_change_original_activity_or_answer(self):
+        self.store.checkpoint(self.subject, assessment())
+        self.store.topic_add(self.subject, "jine-tema", "Jiné", ["Další cíl"], [])
+        before = self.state_path().read_bytes()
+        for changes in ({"activity": "Jiná otázka"}, {"learner_answer": "6"},
+                        {"lesson_id": "nova-lekce"}, {"topic_id": "jine-tema"}):
+            with self.subTest(changes=changes), self.assertRaises(StudyError):
+                self.store.checkpoint(self.subject, assessment(checkpoint_id="oprava-1", correction_of="pokus-1", **changes))
+            self.assertEqual(self.state_path().read_bytes(), before)
+
+    def test_corrections_cannot_target_foreign_subject_or_superseded_record(self):
+        other = "jiny-predmet"
+        self.store.init(other, "Jiný", ["Jiná látka"])
+        self.store.topic_add(other, "zaklad", "Základ", ["Jiný cíl"], [])
+        self.store.checkpoint(other, assessment(subject=other, checkpoint_id="cizi-pokus"))
+        with self.assertRaises(StudyError):
+            self.store.checkpoint(self.subject, assessment(checkpoint_id="oprava-cizi", correction_of="cizi-pokus"))
+        self.store.checkpoint(self.subject, assessment())
+        self.store.checkpoint(self.subject, assessment(checkpoint_id="oprava-1", correction_of="pokus-1"))
+        before = self.state_path().read_bytes()
+        with self.assertRaises(StudyError):
+            self.store.checkpoint(self.subject, assessment(checkpoint_id="oprava-vetev", correction_of="pokus-1"))
+        self.assertEqual(self.state_path().read_bytes(), before)
+
+    def test_correction_requires_valid_source_citation_and_atomic_commit(self):
+        self.source()
+        self.store.checkpoint(self.subject, assessment(result="needs-practice", misconceptions=["Původní chyba"]))
+        before = self.state_path().read_bytes()
+        correction = assessment(checkpoint_id="oprava-1", correction_of="pokus-1", activity_kind="material",
+                                source_refs=[{"source_id": "skripta", "locator": "line:999"}])
+        with self.assertRaises(StudyError):
+            self.store.checkpoint(self.subject, correction)
+        self.assertEqual(self.state_path().read_bytes(), before)
+        correction["source_refs"][0]["locator"] = "line:1"
+        with patch.object(module.os, "replace", side_effect=OSError("simulated interruption")):
+            with self.assertRaises(OSError):
+                self.store.checkpoint(self.subject, correction)
+        self.assertEqual(self.state_path().read_bytes(), before)
+        self.assertEqual(self.store.status(self.subject)["correction_count"], 0)
+
+    def test_unassessed_records_cannot_attribute_misconceptions(self):
+        before = self.state_path().read_bytes()
+        with self.assertRaises(StudyError):
+            self.store.checkpoint(self.subject, assessment(result="unassessed", misconceptions=["Neověřená chyba"]))
+        self.assertEqual(self.state_path().read_bytes(), before)
+
+    def test_correction_and_effective_state_survive_cli_restart(self):
+        self.store.checkpoint(self.subject, assessment(result="needs-practice", misconceptions=["Chyba učitele"]))
+        path = self.base / "oprava.json"
+        path.write_text(json.dumps(assessment(checkpoint_id="oprava-1", correction_of="pokus-1")), encoding="utf-8")
+        written = self.cli("checkpoint", "--input", str(path))
+        self.assertEqual(written.returncode, 0, written.stderr)
+        restarted = self.cli("resume", "--on", "2026-10-18")
+        self.assertEqual(restarted.returncode, 0, restarted.stderr)
+        result = json.loads(restarted.stdout)
+        self.assertEqual(result["topics"][0]["status"], "demonstrated")
+        self.assertEqual(result["topics"][0]["misconceptions"], [])
+        self.assertEqual(result["last_checkpoint"]["checkpoint_id"], "oprava-1")
+        self.assertEqual(result["last_correction"]["correction_of"], "pokus-1")
+        history = json.loads(self.cli("history", "--limit", "1").stdout)
+        self.assertFalse(history["checkpoints"][0]["is_effective"])
+
     def test_invalid_assessments_leave_previous_state_unchanged(self):
         before = self.state_path().read_bytes()
         for changes in (

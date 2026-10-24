@@ -15,9 +15,9 @@
         "Rozlišit kódování, šifrování a steganografii a vysvětlit roli klíče, korektnosti, důvěrnosti a autentizace."
       ],
       "prerequisites": [],
-      "status": "demonstrated",
+      "status": "practicing",
       "misconceptions": [],
-      "review_on": "2026-10-18"
+      "review_on": "2026-10-25"
     },
     "klice-a-deleni-sifer": {
       "subject_id": "udzk",
@@ -28,10 +28,8 @@
       ],
       "prerequisites": [],
       "status": "demonstrated",
-      "misconceptions": [
-        "Proudovou šifru vymezuje jen průběžným zpracováním podle dostupnosti dat; rozhodující konstrukční vlastnost klíčového proudu je nutné ještě ověřit."
-      ],
-      "review_on": "2026-10-20"
+      "misconceptions": [],
+      "review_on": "2026-10-23"
     },
     "klasicke-sifry-a-steganografie": {
       "subject_id": "udzk",
@@ -41,9 +39,9 @@
         "Použít malé příklady klasických šifer a vysvětlit rozdíl mezi skrytím zprávy, šifrováním a nerozluštěným písmem."
       ],
       "prerequisites": [],
-      "status": "unseen",
+      "status": "practicing",
       "misconceptions": [],
-      "review_on": null
+      "review_on": "2026-10-24"
     },
     "bezpecnost-a-modely-utoku": {
       "subject_id": "udzk",
@@ -53,9 +51,9 @@
         "Vysvětlit Kerckhoffsův princip a rozlišit možnosti útočníka v modelech COA, KPA, CPA a CCA."
       ],
       "prerequisites": [],
-      "status": "practicing",
+      "status": "demonstrated",
       "misconceptions": [],
-      "review_on": "2026-10-18"
+      "review_on": "2026-10-27"
     },
     "kryptoanalyza-klasickych-sifer": {
       "subject_id": "udzk",
@@ -65,9 +63,9 @@
         "Popsat využití jazykových četností a optimalizačního hledání při analýze klasických šifer."
       ],
       "prerequisites": [],
-      "status": "unseen",
+      "status": "practicing",
       "misconceptions": [],
-      "review_on": null
+      "review_on": "2026-10-24"
     },
     "moderni-a-proudove-sifry": {
       "subject_id": "udzk",
@@ -1457,6 +1455,1503 @@
       "next_step": "Vyhodnotit již zobrazenou otázku: Alice a Bob sdílejí tajný klíč pro MAC. Bob předloží zprávu s platným MAC jako důkaz, že ji vytvořila Alice. Stačí samotný platný MAC k takovému závěru? Zdůvodni. Kritérium: ne; Bob jako oprávněný držitel stejného klíče může sám vytvořit zprávu i platný MAC, aniž klíč komukoli unikl. Aktivitu uložit pod zakladni-pojmy, zdroj prednaska1-skripta-v1 page:6. Odpověď zatím chybí. Nápověda pro tuto otázku nebyla dána. Poté podle výsledku zopakovat MAC jako funkci zprávy i klíče a oddělení asymetrického šifrování od podpisu; s odstupem ověřit, že průběžné přijímání živých dat samo nerozlišuje blokovou a proudovou šifru. Zbývající transpozice/substituce a mono-/polyalfabetické hledisko na straně 8 i další mezery pracovní mapy zůstávají neprobrané. Průzkum zdrojů a celé historie byl proveden v úvodu tohoto chatu, nejde o dokončení veškerého učiva.",
       "review_on": "2026-10-20",
       "created_at": "2026-10-19T05:17:06.004548+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "zaklady-2026-10-22-01",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "zakladni-pojmy",
+      "activity_kind": "material",
+      "activity": "Opakování s odstupem: Alice a Bob sdílejí tajný klíč pro MAC. Bob předloží zprávu s platným MAC a tvrdí, že ji musela vytvořit Alice. Dokazuje to samotný MAC? Proč?",
+      "learner_answer": "ne, MAC neříká kdo zprávu vytvořil",
+      "evaluation": "Kritérium: odmítnout důkaz Alicina autorství a vysvětlit, že Bob jako oprávněný držitel stejného tajného klíče může sám vytvořit zprávu i platný MAC, aniž klíč unikl. Uživatel správně odmítl důkaz autorství a obecně uvedl omezení MAC. Konkrétní mechanismus sdíleného klíče ani Bobovu schopnost vytvořit MAC zatím nevysvětlil, proto plné kritérium zdůvodnění ještě není doloženo. Odpověď není hodnocena jako tvrzení, že MAC nemá žádnou autentizační hodnotu vůči útočníkovi bez klíče; takový závěr z ní nelze bezpečně vyvozovat. Bez podstatné nápovědy před odpovědí v této lekci. Po odpovědi byl potvrzen správný závěr a přes request_user_input_async zobrazena jedna cílená otázka zaměřená na Bobovu oprávněnou znalost klíče a možnost vytvořit nový MAC bez úniku; tato otázka představuje jednu metodickou nápovědu pro navazující pokus. Dřívější úplný úspěch na tomto principu byl po nápovědě; samostatný mechanismus s odstupem dosud neověřen.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-opakovani-s-odstupem",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Alice a Bob znají stejný tajný klíč pro MAC. Mohl by Bob sám vytvořit jinou zprávu s platným MAC, i kdyby klíč nikomu neunikl? Proč? Kritérium: ano; Bob zná sdílený klíč, takže sám vypočítá platný MAC pro novou zprávu, a MAC nerozliší držitele klíče jako autora. Odpověď zatím chybí. Zaměření na Bobovu možnost a vyloučení úniku je jedna podstatná metodická nápověda, při hodnocení navazujícího pokusu zaznamenat hints_used=1. Poté odlišit autenticitu vůči neznalému útočníkovi od důkazu konkrétního autora, s odstupem zopakovat bez nápovědy. Dále ověřit MAC jako funkci zprávy i klíče, odlišení šifrovacích a podpisových rolí a proudovou konstrukci. Neprobrané zůstávají další hlediska dělení šifer na straně 8, formální model na stranách 4–5 i zbytek pracovní mapy obou skript. Průzkum všech textových pasáží a historie 37 záznamů byl obnoven 22.10.2026; vizuální kontrola vektorových tabulek a vzorců zůstává otevřená pro chybějící renderer. Samotný průzkum není výuka.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T15:29:26.044310+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "zakladni-pojmy",
+      "activity_kind": "material",
+      "difficulty": "zakladni-oprava",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "review_on": "2026-10-23",
+      "next_step": "Vyhodnotit již zobrazenou otázku: Zpráva obsahuje odesílatel=Alice; pošli 100 Kč a MAC chrání celý tento obsah. Alice a Bob sdílejí tajný klíč. Bob změní částku na 900 Kč a ponechá Alicino jméno. Dokáže pro změněnou zprávu vytvořit platný MAC? Co mu to umožňuje? Kritérium: ano; Bob zná sdílený tajný klíč a může s ním vypočítat nový MAC pro změněný obsah včetně uvedeného jména. Jméno chráněné stejným klíčem nerozliší držitele jako autora. Odpověď zatím chybí. Bezprostředně před otázkou proběhl přímý opravný výklad i vysvětlení identifikátoru; u tohoto opravného pokusu zaznamenat hints_used=1 a později ověřit bez nápovědy s odstupem. Po ověření opravy zopakovat podpis: veřejný ověřovací klíč neumožňuje vytvářet podpisy za Alici. Potom rozlišit MAC vůči útočníkovi bez klíče a pokračovat neprobranými částmi dělení šifer. Pracovní mapa obou skript a historie byla obnovena 22.10.2026; dosavadní výuka nepokrývá celé stránky ani veškeré materiály. Vizuální kontrola tabulek a vzorců zůstává otevřená.",
+      "checkpoint_id": "zaklady-2026-10-22-02",
+      "activity": "Cílené doplnění důvodu: Alice a Bob znají stejný tajný klíč pro MAC. Mohl by Bob sám vytvořit jinou zprávu s platným MAC, i kdyby klíč nikomu neunikl? Proč?",
+      "learner_answer": "Ano, protože ve výpočtu MAC nehraje roli identifikítor uživatelů",
+      "evaluation": "Kritérium: ano, Bob jako oprávněný držitel sdíleného tajného klíče může sám vypočítat platný MAC pro novou zprávu, bez kompromitace klíče. Uživatel správně potvrdil možnost vytvořit zprávu s platným MAC. Jako důvod však uvedl chybějící identifikátor, místo rozhodující schopnosti obou držitelů vypočítat kód stejným klíčem. Identifikátor může být součástí autentizovaného obsahu; jeho přítomnost sama problém autorství mezi držiteli klíče neřeší. Plné mechanistické zdůvodnění proto zatím není doloženo. Nevyvozuje se z toho neznalost všech rolí MAC. Před touto odpovědí byla cílená otázka zaměřena na Bobovu možnost a výslovně vyloučila únik klíče, podle předchozího checkpointu jedna podstatná nápověda. Po odpovědi byla potvrzena správná možnost, vysvětlena znalost sdíleného klíče a opraven argument identifikátoru. Následná otázka byla zobrazena přes request_user_input_async před tímto zápisem.",
+      "result": "needs-practice",
+      "hints_used": 1,
+      "misconceptions": [
+        "Možnost Boba vytvořit platný MAC zdůvodňuje absencí identifikátoru uživatele; dosud nepojmenoval rozhodující znalost sdíleného tajného klíče. Ani zahrnutí jména Alice do obsahu chráněného týmž MAC nebrání Bobovi vytvořit nový platný kód."
+      ],
+      "created_at": "2026-10-22T15:33:41.241328+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "zakladni-pojmy",
+      "activity_kind": "material",
+      "difficulty": "zakladni-oprava",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "review_on": "2026-10-23",
+      "next_step": "Vyhodnotit již zobrazenou otázku: Zpráva obsahuje odesílatel=Alice; pošli 100 Kč a MAC chrání celý tento obsah. Alice a Bob sdílejí tajný klíč. Bob změní částku na 900 Kč a ponechá Alicino jméno. Dokáže pro změněnou zprávu vytvořit platný MAC? Co mu to umožňuje? Kritérium: ano; Bob zná sdílený tajný klíč a může s ním vypočítat nový MAC pro změněný obsah včetně uvedeného jména. Jméno chráněné stejným klíčem nerozliší držitele jako autora. Odpověď zatím chybí. Bezprostředně před otázkou proběhl přímý opravný výklad i vysvětlení identifikátoru; u tohoto opravného pokusu zaznamenat hints_used=1 a později ověřit bez nápovědy s odstupem. Po ověření opravy zopakovat podpis: veřejný ověřovací klíč neumožňuje vytvářet podpisy za Alici. Potom rozlišit MAC vůči útočníkovi bez klíče a pokračovat neprobranými částmi dělení šifer. Pracovní mapa obou skript a historie byla obnovena 22.10.2026; dosavadní výuka nepokrývá celé stránky ani veškeré materiály. Vizuální kontrola tabulek a vzorců zůstává otevřená.",
+      "checkpoint_id": "zaklady-2026-10-22-03",
+      "activity": "Opravný výklad konkrétního důvodu omezení MAC: Bob zná stejný tajný klíč jako Alice, a proto může vypočítat platný MAC. Identifikátor odesílatele lze zahrnout do zprávy a chránit MAC, ale Bob může vypočítat platný kód i pro obsah uvádějící jako odesílatele Alici. Samotné přidání jména proto neprokáže autora mezi držiteli klíče.",
+      "learner_answer": "",
+      "evaluation": "Byl dokončen výklad aplikující sdílený klíč ze souvislého textu skript na uživatelův argument o identifikátoru. Je doloženo představení této opravy, nikoli její samostatné použití uživatelem. Konkrétní příklad jména je odvozená aplikace principu, nikoli citace doslovného příkladu z dokumentu. Neproběhl výklad konkrétní konstrukce MAC, protokolů s oddělenými klíči ani tvrzení, že MAC nemá autentizační hodnotu proti neznalému útočníkovi. Přes request_user_input_async byla před zápisem zobrazena úloha na změnu částky při zachování Alicina jména; odpověď chybí.",
+      "result": "introduced",
+      "hints_used": 0,
+      "misconceptions": [
+        "U opravy důvodu autorství MAC zbývá ověřit, že rozhoduje znalost sdíleného klíče, a nikoli samotná přítomnost či absence identifikátoru ve zprávě."
+      ],
+      "created_at": "2026-10-22T15:33:41.298397+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "zaklady-2026-10-22-04",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "zakladni-pojmy",
+      "activity_kind": "material",
+      "activity": "Ověření opravy na autentizovaném identifikátoru: Zpráva obsahuje odesílatel=Alice; pošli 100 Kč a MAC chrání celý obsah. Alice a Bob sdílejí tajný klíč. Bob změní částku na 900 Kč a ponechá Alicino jméno. Dokáže pro změněnou zprávu vytvořit platný MAC? Co mu to umožňuje?",
+      "learner_answer": "ano, má sdílený klíč Alice",
+      "evaluation": "Kritérium: ano, Bob zná společný tajný klíč a může jím vypočítat nový platný MAC změněného obsahu včetně označení Alice. Uživatel správně potvrdil možnost a výslovně uvedl sdílený klíč jako rozhodující důvod. Formulace sdílený klíč Alice je v kontextu úlohy jednoznačně společný tajný klíč Alice a Boba, nikoli Alicin soukromý podpisový klíč. Oprava předchozího vysvětlení absencí identifikátoru je tím v této konkrétní úloze doložena. Zpětná vazba upřesnila výpočet nového kódu a nerozlišení autora mezi držiteli stejného klíče. Před úlohou byl přímý opravný výklad včetně možnosti autentizovat Alicino jméno, podle předchozího checkpointu hints_used=1. Jde o úspěch po podpoře v téže lekci; dlouhodobé samostatné vybavení dosud neověřeno. Před zápisem byla přes request_user_input_async zobrazena jedna otázka na oddělení veřejného ověření digitálního podpisu od schopnosti podepisovat.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-oprava",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Bob zná Alicin veřejný ověřovací klíč pro digitální podpis. Dokáže tímto klíčem sám podepsat novou zprávu za Alici? Proč? Kritérium: ne; pro nový Alicin podpis potřebuje její soukromý podepisovací klíč, veřejný klíč umožňuje ověřit podpis, nikoli vytvořit jej za Alici. Odpověď zatím chybí. V této lekci nebyl před otázkou zopakován podpisový postup ani soukromý klíč; při samostatné odpovědi bez další podpory hints_used=0. Potom podle výsledku ověřit oddělení klíčů pro šifrování a podpis, MAC jako funkci zprávy i klíče a přesný termín důvěrnost. Omezení MAC mezi držiteli stejného klíče zopakovat později bez nápovědy. Pracovní mapa veškerého obsahu obou skript porovnána s kompletní dříve načtenou historií a aktuálními aktivitami 22.10.; oprava MAC nezakrývá neprobrané formální vlastnosti, historická hlediska dělení šifer a zbytek materiálů. Vizuální ověření tabulek a vzorců stále otevřené.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:00:00.137909+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "zaklady-2026-10-22-05",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "zakladni-pojmy",
+      "activity_kind": "material",
+      "activity": "Opakování podpisových rolí s odstupem: Bob zná Alicin veřejný ověřovací klíč pro digitální podpis. Dokáže tímto klíčem sám podepsat novou zprávu za Alici? Proč?",
+      "learner_answer": "Ne, Alice podpisuje zprávu skoukromým klíčem, ne veřejným",
+      "evaluation": "Kritérium: odmítnout možnost vytvořit nový Alicin podpis pomocí jejího veřejného ověřovacího klíče a uvést, že podepisování vyžaduje Alicin soukromý klíč. Uživatel správně uvedl ne a roli Alicina soukromého klíče; překlep skoukromým je jednoznačně soukromým. Před touto otázkou v dnešní lekci neproběhlo vysvětlení podpisových klíčů, jen aktivity o sdíleném klíči MAC. Bez podstatné nápovědy, hints_used=0. Doloženo samostatné vybavení dříve probíraných rolí podpisových klíčů po časovém odstupu. Výsledek neověřuje volbu příjemcova klíče pro asymetrické šifrování, konkrétní podpisový algoritmus ani celé téma základních pojmů. Zpětná vazba potvrdila soukromý klíč pro tvorbu a veřejný pro ověření. Před zápisem byla přes request_user_input_async zobrazena jedna navazující otázka na volbu klíče pro asymetrické utajení zprávy Bobovi.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-opakovani-s-odstupem",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:6"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Alice chce Bobovi poslat zprávu pomocí asymetrického šifrování tak, aby ji mohl přečíst jen Bob. Čí klíč a který z dvojice veřejný/soukromý použije Alice k zašifrování? Kritérium: Bobův veřejný klíč. Odpověď zatím chybí. Aktivitu uložit pod klice-a-deleni-sifer, zdroj prednaska1-skripta-v1 page:7. Před otázkou nebyl zopakován šifrovací postup ani pomůcka volit klíč podle příjemce; při samostatné správné odpovědi bez další podpory hints_used=0. Poté podle výsledku dokončit opakování slabého rozdílu šifrování a podpisu a přejít k neprobranému hledisku transpozice/substituce na straně 8, případně ověřit konstrukční vymezení proudové šifry. MAC autorství z dnešní lekce bylo správně použito po přímé opravě a vyžaduje pozdější vybavení bez nápovědy. Neprobrané části celé pracovní mapy zůstávají otevřené; samostatný podpisový úspěch nepokrývá celé materiály.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-22T16:01:07.350062+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klice-a-deleni-sifer",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "checkpoint_id": "klice-2026-10-22-06",
+      "activity": "Opakování s odstupem: Alice chce Bobovi poslat zprávu pomocí asymetrického šifrování tak, aby ji mohl přečíst jen Bob. Čí klíč a který z dvojice veřejný/soukromý použije Alice k zašifrování?",
+      "learner_answer": "Alice použiji Bobův veřejný klíč A bob zprávu dešifruje svým soukromým klíčem",
+      "evaluation": "Kritérium: Alice použije Bobův veřejný klíč. Uživatel správně určil vlastníka i veřejnou roli šifrovacího klíče a navíc správně uvedl, že Bob dešifruje vlastním soukromým klíčem. Před otázkou v dnešní lekci nebyl zopakován šifrovací postup ani pomůcka vybírat veřejný klíč příjemce; předcházelo opakování podpisu a MAC. Bez podstatné nápovědy, hints_used=0. Doloženo samostatné rozlišení asymetrického utajení od podpisových rolí po časovém odstupu, včetně obou šifrovacích rolí. Úspěch nezahrnuje všechny způsoby ustavení klíčů, PKI, algoritmy či celé téma. Zpětná vazba potvrdila oba klíče. Celá pracovní mapa porovnána s dříve kompletně načtenou historií 37 záznamů a všemi pěti dosavadními záznamy dnešní lekce; transpozice/substituce na straně8 zůstávaly neprobrané. Po tomto vyhodnocení byl z dostupných souvislých odstavců strany8 představen nový rozdíl a před zápisem zobrazena jedna nová úloha přes request_user_input_async.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-opakovani-s-odstupem",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:7"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Postup vezme ze slova TAJNE nejprve písmena na sudých pozicích a potom na lichých: vznikne ANTJE. Jde o transpozici, nebo substituci? Zdůvodni. Kritérium: transpozice, protože přeskupuje původní písmena a zachovává jejich počty; žádný znak se nenahrazuje jiným. Pozice jsou počítány od jedné. Odpověď zatím chybí. Úloze předcházel úvodní výklad obou kategorií s jiným příkladem obrácení slova; po zadání nebyla poskytnuta metodická nápověda. Při hodnocení rozlišit bezprostřední aplikaci po výkladu od pozdějšího samostatného vybavení. Aktivitu uložit pod klice-a-deleni-sifer, prednaska1-skripta-v1 page:8. Po vyhodnocení podle výsledku ověřit substituci na jiném příkladu a navázat monoalfabetickým/polyalfabetickým hlediskem. Scytala, sloupcová/dvojitá transpozice, otočná/Fleissnerova mřížka, afinita, Vigenere, Enigma a autoklíč zůstávají neprobrané. Znovu ověřit proudovou šifru konstrukčně; formální model strany4–5 i zbytek celé mapy neztratit. Vizuální kontrola vektorových tabulek a vzorců zůstává otevřená; tento výklad používá souvislé textové odstavce strany8, nikoli neověřené grafické detaily.",
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-22T16:03:05.561409+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klice-a-deleni-sifer",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "checkpoint_id": "klice-2026-10-22-07",
+      "activity": "Nový výklad rozdílu transpozice/substituce: transpozice přeskupuje původní znaky, například SKOLA na ALOKS, a zachovává písmena i jejich počty. Substituce nahrazuje znaky podle pravidla, například A na D. Toto hledisko změny textu je nezávislé na hledisku role klíčů.",
+      "learner_answer": "",
+      "evaluation": "Byly dokončeně představeny definice transpozice a substituce a jednoduchý příklad obrácení slova, včetně zachování množství původních znaků a nezávislosti dělení od role klíčů. Ověřena znovu aktuální textová pasáž page:8 prostřednictvím passages s kontrolou hashe. Výklad vychází ze souvislých odstavců; tabulka a další grafické prvky této strany nebyly v tomto prostředí vizuálně ověřeny. Nebyly vyloženy historické pomůcky a jejich mechanismy, alternativní označení transkripční systémy, mono/polyalfabetické hledisko ani kombinování operací v moderních šifrách. Nové rozlišení zatím nebylo uživatelem ověřeno. Před zápisem byla přes request_user_input_async zobrazena úloha na přeskupení sudých a lichých pozic TAJNE na ANTJE, odpověď chybí. Příklad úlohy je vlastní aplikací pravidla transpozice.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:8"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Postup vezme ze slova TAJNE nejprve písmena na sudých pozicích a potom na lichých: vznikne ANTJE. Jde o transpozici, nebo substituci? Zdůvodni. Kritérium: transpozice, protože přeskupuje původní písmena a zachovává jejich počty; žádný znak se nenahrazuje jiným. Pozice jsou počítány od jedné. Odpověď zatím chybí. Úloze předcházel úvodní výklad obou kategorií s jiným příkladem obrácení slova; po zadání nebyla poskytnuta metodická nápověda. Při hodnocení rozlišit bezprostřední aplikaci po výkladu od pozdějšího samostatného vybavení. Aktivitu uložit pod klice-a-deleni-sifer, prednaska1-skripta-v1 page:8. Po vyhodnocení podle výsledku ověřit substituci na jiném příkladu a navázat monoalfabetickým/polyalfabetickým hlediskem. Scytala, sloupcová/dvojitá transpozice, otočná/Fleissnerova mřížka, afinita, Vigenere, Enigma a autoklíč zůstávají neprobrané. Znovu ověřit proudovou šifru konstrukčně; formální model strany4–5 i zbytek celé mapy neztratit. Vizuální kontrola vektorových tabulek a vzorců zůstává otevřená; tento výklad používá souvislé textové odstavce strany8, nikoli neověřené grafické detaily.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:03:05.619623+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "klice-2026-10-22-08",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klice-a-deleni-sifer",
+      "activity_kind": "material",
+      "activity": "Postup vezme ze slova TAJNE nejprve písmena na sudých pozicích a potom na lichých: vznikne ANTJE. Jde o transpozici, nebo substituci? Zdůvodni.",
+      "learner_answer": "transpozice",
+      "evaluation": "Kritérium: určit transpozici a zdůvodnit ji přeskupením původních znaků, zachováním písmen a jejich počtů. Uživatel správně určil typ transpozice. Požadované zdůvodnění neuvedl, takže je doloženo rozpoznání názvu v konkrétní úloze, zatím nikoli samostatné vysvětlení mechanismu. Nejde o doloženou chybnou představu; výsledek needs-practice zde označuje neúplné doložení celého kritéria, nikoli chybné zařazení. Před otázkou proběhl úvodní výklad s jiným příkladem, po zadání nebyla poskytnuta metodická nápověda, hints_used=0. Zpětná vazba výslovně potvrdila správný typ a doplnila, že se změnilo pouze pořadí původních písmen a žádné nebylo nahrazeno. Před zápisem byla přes request_user_input_async zobrazena jedna otázka na jiný mechanismus se žádostí o krátké zdůvodnění. Neproběhl nový samostatný výklad dalších kategorií.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:8"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Šifra používá pravidla M na R a A na B, takže MAMA převede na RBRB. Jde o transpozici, nebo substituci? Přidej krátké zdůvodnění podle toho, co se se znaky děje. Kritérium: substituce, protože původní znaky jsou nahrazovány jinými podle pravidla; nedochází jen k přeskupení stejných písmen. Odpověď zatím chybí. Po zadání této nové otázky nebyla dána podstatná nápověda. Předcházela zpětná vazba vysvětlující transpozici, nikoli přímé řešení substituční úlohy. Při správném zařazení se zdůvodněním bez další podpory hints_used=0; jde o bezprostřední aplikaci v rámci lekce, nikoli dlouhodobé zvládnutí. Poté podle výsledku navázat monoalfabetickou a polyalfabetickou substitucí nebo dalším ověřením mechanismů. Dřívější příklad TAJNE byl rozpoznán správně, zdůvodnění poskytl asistent; samostatné zdůvodnění transpozice s odstupem zůstává otevřené. Celá mapa a načtená historie včetně dnešních sedmi záznamů byla zohledněna, ostatní neprobrané části zachovány. Vizuální kontrola tabulek a vzorců je stále otevřená, pro tuto aktivitu se používá ověřený souvislý text strany8.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:04:47.860494+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klice-a-deleni-sifer",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:8"
+        }
+      ],
+      "checkpoint_id": "klice-2026-10-22-09",
+      "activity": "Šifra používá pravidla M na R a A na B, takže MAMA převede na RBRB. Jde o transpozici, nebo substituci? Přidej krátké zdůvodnění podle toho, co se se znaky děje.",
+      "learner_answer": "substituci, NEMĚNÍM POZICE PÍSMEN ALE NAHRAZUJI JE",
+      "evaluation": "Kritérium: určit substituci a vysvětlit nahrazování znaků oproti přeskupování původních písmen. Uživatel výslovně správně pojmenoval substituci, zachování pozic a nahrazování písmen, tedy splnil celé kritérium včetně mechanismu. Velká písmena ani skloňování se nehodnotí. Po zadání nebyla poskytnuta podstatná nápověda, hints_used=0. Doložena bezprostřední aplikace základního rozlišení po úvodním výkladu; nikoli dlouhodobé zvládnutí či automatické pokrytí všech historických konstrukcí. Zpětná vazba potvrdila konkrétní důvod. Před volbou další nové látky byla celá pracovní mapa obou zdrojů porovnána s kompletně načtenou historií a všemi aktuálními aktivitami: mono/polyalfabetické hledisko na straně8 zůstávalo neprobrané. Bylo následně vysvětleno v uvedeném rozsahu a před zápisem zobrazena nová otázka přes request_user_input_async.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikace",
+      "next_step": "Vyhodnotit již zobrazenou otázku: Klasická substituční šifra na lichých pozicích posouvá písmena o jedno místo v abecedě a na sudých o dvě, takže AAAA na BCBC. Je monoalfabetická, nebo polyalfabetická? Proč? Kritérium: polyalfabetická, střídají se dvě náhradní abecedy podle pozice; stejné A se mění na B nebo C. Odpověď zatím chybí. Před úlohou proběhl úvodní výklad definic s pojmenováním Caesar/Vigenere bez výpočtů; po zadání nebyla dána metodická nápověda. Při samostatném vysvětlení bez další pomoci hints_used=0, úspěch vyhodnotit jako bezprostřední aplikaci po výkladu, nikoli dlouhodobé zvládnutí. Poté podle výsledku projít jeden konkrétní klasický mechanismus (Caesar, abeceda A0 až Z25, modulo26 a klíčový prostor) podle strany9 nebo ověřit rozdíl mono/poly na jiném příkladu. Afinní šifra a podmínky inverze, Vigenere a periodicita, Enigma/autoklíč, historické transpoziční pomůcky i alternativní označení transkripční systémy zůstávají neprobrané. Nevynechat formální model, další témata a všechny úlohy/řešení z celé mapy. Samostatný důvod transpozice zatím nebyl uživatelem vysloven; její typ určil správně, důvod dodal asistent. Vizuální kontrola tabulek a vzorců nadále otevřená.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:08:09.832222+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klice-a-deleni-sifer",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:8"
+        }
+      ],
+      "checkpoint_id": "klice-2026-10-22-10",
+      "activity": "Nový výklad monoalfabetické a polyalfabetické klasické substituce: jedna náhradní abeceda pro celou zprávu znamená stálou náhradu stejného písmene. Střídání více náhradních abeced umožňuje různé náhrady téhož písmene podle pozice. Jako příklady typů byly pojmenovány Caesarova šifra a Vigenèrova šifra.",
+      "learner_answer": "",
+      "evaluation": "Dokončeně byly představeny definice monoalfabetické a polyalfabetické substituce podle souvislých textových odstavců strany8, včetně možnosti různých výstupů stejného písmene u střídání abeced. Nebylo tvrzeno, že stejné písmeno musí mít při každém opakování jiný výstup. Caesar/Vigenere byly pouze přiřazeny ke kategoriím; jejich mechanismy, výpočty, klíč, podmínky a slabiny dosud nebyly vyloženy. Afinní šifra, Enigma a autoklíč zatím představeny nebyly. Ověření znalosti nového rozdílu dosud chybí. Před zápisem byla přes request_user_input_async zobrazena vlastní úloha střídání posunů1/2 s výsledkem AAAA na BCBC. Odpověď zatím chybí. Nejsou použity neověřené grafické detaily tabulky.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "next_step": "Vyhodnotit již zobrazenou otázku: Klasická substituční šifra na lichých pozicích posouvá písmena o jedno místo v abecedě a na sudých o dvě, takže AAAA na BCBC. Je monoalfabetická, nebo polyalfabetická? Proč? Kritérium: polyalfabetická, střídají se dvě náhradní abecedy podle pozice; stejné A se mění na B nebo C. Odpověď zatím chybí. Před úlohou proběhl úvodní výklad definic s pojmenováním Caesar/Vigenere bez výpočtů; po zadání nebyla dána metodická nápověda. Při samostatném vysvětlení bez další pomoci hints_used=0, úspěch vyhodnotit jako bezprostřední aplikaci po výkladu, nikoli dlouhodobé zvládnutí. Poté podle výsledku projít jeden konkrétní klasický mechanismus (Caesar, abeceda A0 až Z25, modulo26 a klíčový prostor) podle strany9 nebo ověřit rozdíl mono/poly na jiném příkladu. Afinní šifra a podmínky inverze, Vigenere a periodicita, Enigma/autoklíč, historické transpoziční pomůcky i alternativní označení transkripční systémy zůstávají neprobrané. Nevynechat formální model, další témata a všechny úlohy/řešení z celé mapy. Samostatný důvod transpozice zatím nebyl uživatelem vysloven; její typ určil správně, důvod dodal asistent. Vizuální kontrola tabulek a vzorců nadále otevřená.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:08:09.911383+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klice-a-deleni-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:8"
+        }
+      ],
+      "misconceptions": [
+        "Při určení mono/polyalfabetické substituce zohledňuje jednu sadu symbolů A–Z, místo aby rozlišil různé tabulky převodů; střídání posunů1/2 a různých náhrad A na B/C označil za monoalfabetické."
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Může být klasická substituční šifra polyalfabetická, i když vstup i výstup používají jen písmena A až Z? Vysvětli, co se při šifrování střídá. Kritérium: ano; střídají se různé náhradní abecedy neboli tabulky převodů/pravidla náhrady, nikoli nutně různé sady symbolů. Například stejné A může podle pozice či klíče dostat různé náhrady. Odpověď zatím chybí. Před otázkou byl přímý opravný výklad rozlišující sadu A–Z od tabulky převodů a rozebírající původní AAAA na BCBC; při navazující odpovědi zaznamenat hints_used=1. Nejprve ověřit opravu, pak podle výsledku přejít k malému příkladu s pevnou tabulkou a teprve následně k Caesarově šifře podle strany9. Mechanismy a výpočty Caesar/Vigenere, afinita, historické pomůcky, Enigma/autoklíč i zbytek mapy zůstávají neprobrané. Samostatné použití transpozice/substituce a mono/poly zopakovat později bez nápovědy. Vizuální kontrola tabulek a vzorců nadále otevřená; výklad využívá souvislý text page8.",
+      "review_on": "2026-10-23",
+      "checkpoint_id": "klice-2026-10-22-11",
+      "activity": "Klasická substituční šifra na lichých pozicích posouvá písmena o jedno místo v abecedě a na sudých o dvě, takže AAAA na BCBC. Je monoalfabetická, nebo polyalfabetická? Proč?",
+      "learner_answer": "monoalfabetická  ->používá jednu abecedu",
+      "evaluation": "Kritérium: určit polyalfabetickou substituci a vysvětlit střídání dvou náhradních abeced podle pozice, takže stejné A dostává náhradu B nebo C. Uživatel zvolil monoalfabetická a zdůvodnil jednou abecedou. V tomto kontextu odpověď ukazuje potřebu rozlišit společnou sadu symbolů od náhradních tabulek; neopravňuje k dalším domněnkám o jeho znalostech. Šifra v zadání používá dvě různé tabulky převodů i při společné sadě A–Z. Před úlohou byl úvodní výklad definic, po zadání nebyla podstatná nápověda, hints_used=0. Po odpovědi byl opraven typ, výslovně vymezen pojem náhradní abeceda jako tabulka převodů a na A na B/C vysvětleno střídání podle pozice. Před zápisem byla přes request_user_input_async zobrazena cílená otázka na polyalfabetickou šifru se společnou sadou A–Z. Oprava zatím nebyla uživatelem samostatně použita.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-aplikace",
+      "created_at": "2026-10-22T16:10:19.060832+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klice-a-deleni-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:8"
+        }
+      ],
+      "misconceptions": [
+        "Při určení mono/polyalfabetické substituce zohledňuje jednu sadu symbolů A–Z, místo aby rozlišil různé tabulky převodů; střídání posunů1/2 a různých náhrad A na B/C označil za monoalfabetické."
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Může být klasická substituční šifra polyalfabetická, i když vstup i výstup používají jen písmena A až Z? Vysvětli, co se při šifrování střídá. Kritérium: ano; střídají se různé náhradní abecedy neboli tabulky převodů/pravidla náhrady, nikoli nutně různé sady symbolů. Například stejné A může podle pozice či klíče dostat různé náhrady. Odpověď zatím chybí. Před otázkou byl přímý opravný výklad rozlišující sadu A–Z od tabulky převodů a rozebírající původní AAAA na BCBC; při navazující odpovědi zaznamenat hints_used=1. Nejprve ověřit opravu, pak podle výsledku přejít k malému příkladu s pevnou tabulkou a teprve následně k Caesarově šifře podle strany9. Mechanismy a výpočty Caesar/Vigenere, afinita, historické pomůcky, Enigma/autoklíč i zbytek mapy zůstávají neprobrané. Samostatné použití transpozice/substituce a mono/poly zopakovat později bez nápovědy. Vizuální kontrola tabulek a vzorců nadále otevřená; výklad využívá souvislý text page8.",
+      "review_on": "2026-10-23",
+      "checkpoint_id": "klice-2026-10-22-12",
+      "activity": "Opravný výklad: náhradní abeceda znamená tabulku převodů, nikoli samotnou sadu znaků A–Z. U původního příkladu liché pozice používají A na B, sudé A na C, tedy dvě různé tabulky i při stejné sadě symbolů. Proto jde o polyalfabetickou substituci. U monoalfabetické se každé A při stejném klíči převádí stejně.",
+      "learner_answer": "",
+      "evaluation": "Byl dokončeně vysvětlen význam náhradní abecedy a rozdíl mezi sadou symbolů a střídáním substitučních tabulek jako oprava předchozího nesprávného zařazení. Výklad je aplikací souvislých definic na straně8, nikoli tvrzením o nové sadě znaků. Zvládnutí opravy zatím nebylo ověřeno. Před zápisem byla přes request_user_input_async zobrazena otázka, zda může polyalfabetická šifra na vstupu i výstupu používat jen A–Z a co se střídá. Přímý opravný výklad se u navazujícího pokusu počítá jako jedna podstatná nápověda. Nepokračovalo se k neprobraným algoritmům.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-oprava",
+      "created_at": "2026-10-22T16:10:19.122826+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klice-a-deleni-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:8"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Pro celou zprávu používáš jedinou pevnou tabulku M na R, A na B. Text MAMAMAMA převedeš na RBRBRBRB, tedy provedeš osm náhrad znaků. Je šifra monoalfabetická, nebo polyalfabetická? Proč? Kritérium: monoalfabetická, protože po celou zprávu používá jednu pevnou tabulku a stejný vstupní znak se převádí vždy stejně; osm jednotlivých náhrad neznamená osm různých tabulek. Odpověď zatím chybí. Před otázkou bylo přímo vysvětleno, že rozhoduje počet různých tabulek a že ani tisíc náhrad jednou tabulkou není polyalfabetická substituce; navazující pokus hints_used=1. Po správném zdůvodnění ověřit s odstupem střídání tabulek, poté pokračovat konkrétní Caesarovou šifrou na straně9. Výraz počet substitucí z poslední odpovědi je nejednoznačný, nepřisuzovat bez dalšího uživateli záměnu počtu operací a počtu pravidel. Mechanismy Caesar/Vigenere, afinita, historické pomůcky a všechny další neprobrané části celé mapy zachovány. Vizuální kontrola tabulek a vzorců stále otevřená.",
+      "review_on": "2026-10-23",
+      "misconceptions": [],
+      "checkpoint_id": "klice-2026-10-22-13",
+      "activity": "Může být klasická substituční šifra polyalfabetická, i když vstup i výstup používají jen písmena A–Z? Vysvětli, co se při šifrování střídá.",
+      "learner_answer": "ano, jde o počet sunstituucí, ne o počet použitých abeced",
+      "evaluation": "Kritérium: ano, střídají se různé tabulky převodů neboli náhradní abecedy, přestože sada symbolů A–Z zůstává stejná. Uživatel správně odpověděl ano a rozlišil substituce od použitých abeced v kontextu předchozího rozlišení symbolové sady. Výraz počet substitucí je ale nejednoznačný: může označovat různé substituční tabulky, nebo počet jednotlivých nahrazených znaků. Bez dalšího není doložena konkrétní mylná představa ani úplné přesné vysvětlení střídání tabulek; needs-practice označuje tuto zbývající nejistotu, nikoli chybnou odpověď ano. Před otázkou byl přímý opravný výklad se dvěma tabulkami A na B/C, podle předchozího checkpointu hints_used=1. Zpětná vazba potvrdila stejnou sadu symbolů, upřesnila počet různých tabulek a terminologii náhradních abeced a uvedla, že tisíc náhrad jedinou pevnou tabulkou je stále monoalfabetická substituce. Před zápisem přes request_user_input_async zobrazena otázka s osmi náhradami jedinou pevnou tabulkou.",
+      "result": "needs-practice",
+      "hints_used": 1,
+      "difficulty": "zakladni-oprava",
+      "created_at": "2026-10-22T16:13:31.306300+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klice-a-deleni-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:8"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Pro celou zprávu používáš jedinou pevnou tabulku M na R, A na B. Text MAMAMAMA převedeš na RBRBRBRB, tedy provedeš osm náhrad znaků. Je šifra monoalfabetická, nebo polyalfabetická? Proč? Kritérium: monoalfabetická, protože po celou zprávu používá jednu pevnou tabulku a stejný vstupní znak se převádí vždy stejně; osm jednotlivých náhrad neznamená osm různých tabulek. Odpověď zatím chybí. Před otázkou bylo přímo vysvětleno, že rozhoduje počet různých tabulek a že ani tisíc náhrad jednou tabulkou není polyalfabetická substituce; navazující pokus hints_used=1. Po správném zdůvodnění ověřit s odstupem střídání tabulek, poté pokračovat konkrétní Caesarovou šifrou na straně9. Výraz počet substitucí z poslední odpovědi je nejednoznačný, nepřisuzovat bez dalšího uživateli záměnu počtu operací a počtu pravidel. Mechanismy Caesar/Vigenere, afinita, historické pomůcky a všechny další neprobrané části celé mapy zachovány. Vizuální kontrola tabulek a vzorců stále otevřená.",
+      "review_on": "2026-10-23",
+      "misconceptions": [],
+      "checkpoint_id": "klice-2026-10-22-14",
+      "activity": "Zpřesňující výklad: vstupní i výstupní sada písmen může zůstat stejná. Rozhoduje počet různých tabulek převodů, které skripta označují jako náhradní abecedy, nikoli počet jednotlivých nahrazených znaků. Tisíc náhrad jedinou pevnou tabulkou stále představuje monoalfabetickou substituci.",
+      "learner_answer": "",
+      "evaluation": "Bylo dokončeně vysvětleno rozlišení počtu substitučních tabulek a počtu provedených náhrad. Jde o aplikaci definic na straně8 reagující na nejednoznačný výraz počet substitucí. Uživateli není automaticky přisuzována záměna těchto počtů. Porozumění tomuto zpřesnění čeká na cílenou úlohu jedné tabulky a osmi náhrad, která byla zobrazena přes request_user_input_async před zápisem. Odpověď chybí. Pro navazující pokus se přímý výklad počítá jako jedna podstatná nápověda. Další neprobrané algoritmy zatím nebyly vyloženy.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-oprava",
+      "created_at": "2026-10-22T16:13:31.371372+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klice-a-deleni-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:8"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Šifra má jednu tabulku s26 řádky, pro každé písmeno A–Z jeden převod. Stejnou tabulku používá po celou zprávu beze změny. Je monoalfabetická, nebo polyalfabetická? Zdůvodni podle počtu používaných tabulek. Kritérium: monoalfabetická, používá jednu neměnnou tabulku; počet26řádků či různých vstupních písmen není počet náhradních abeced. Odpověď zatím chybí. Před úlohou byl přímý opravný výklad a vlastní názorná tabulka se dvěma řádky M/R a A/B, proto navazující pokus hints_used=1. Nejprve ověřit rozlišení celé tabulky a jejích řádků. Při přetrvávající chybě pracovat s konkrétním stejným vstupním písmenem v různých pozicích, nepřidávat nové termíny. Po opravě s odstupem odlišit dvě skutečné tabulky se shodným vstupem a jinými náhradami, potom Caesar podle strany9. Celá pracovní mapa nadále zahrnuje neprobrané mechanismy a výpočty, historické konstrukce, formální model, další témata a všechny úlohy/řešení. Vlastní vysvětlující tabulka není obraz původní grafické tabulky PDF; její vizuální kontrola nadále otevřená.",
+      "review_on": "2026-10-23",
+      "misconceptions": [
+        "Považuje dvě jednotlivá pravidla M na R a A na B uvnitř jedné pevné substituční tabulky za dvě různé tabulky, a proto označuje pevnou substituci jako polyalfabetickou."
+      ],
+      "checkpoint_id": "klice-2026-10-22-15",
+      "activity": "Pro celou zprávu používáš jedinou pevnou tabulku M na R, A na B. Text MAMAMAMA převedeš na RBRBRBRB, tedy provedeš osm náhrad znaků. Je šifra monoalfabetická, nebo polyalfabetická? Proč?",
+      "learner_answer": "polyalfabetická  mám dvě tabulky převodů",
+      "evaluation": "Kritérium: monoalfabetická, protože celá zpráva používá jedinou pevnou tabulku a každé opakování téhož písmene má stejnou náhradu. Uživatel nesprávně označil polyalfabetická a dvě tabulky. Zadání přitom výslovně uvedlo jednu tabulku se dvěma pravidly; odpověď tak nyní dokládá konkrétní záměnu jednotlivých pravidel/řádků s celými tabulkami. Předchozí neurčitý výraz počet substitucí se nehodnotí zpětně jako prokázaná chyba; tento závěr je založen až na aktuální odpovědi. Před otázkou byl přímý opravný výklad o jedné tabulce a mnoha náhradách, hints_used=1 dle předchozího záznamu. Po odpovědi byla zobrazena vlastní dvousloupcová tabulka se dvěma řádky M/R a A/B a vysvětleno, že tvoří výřez jedné náhradní abecedy. Bylo správně určeno monoalfabetické použití jedné tabulky a odlišeno střídání různých tabulek u polyalfabetické. Před zápisem přes request_user_input_async zobrazena jedna cílená úloha s26řádky jediné neměnné tabulky. Oprava zatím neověřena.",
+      "result": "needs-practice",
+      "hints_used": 1,
+      "difficulty": "zakladni-oprava",
+      "created_at": "2026-10-22T16:16:02.498610+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klice-a-deleni-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:8"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Šifra má jednu tabulku s26 řádky, pro každé písmeno A–Z jeden převod. Stejnou tabulku používá po celou zprávu beze změny. Je monoalfabetická, nebo polyalfabetická? Zdůvodni podle počtu používaných tabulek. Kritérium: monoalfabetická, používá jednu neměnnou tabulku; počet26řádků či různých vstupních písmen není počet náhradních abeced. Odpověď zatím chybí. Před úlohou byl přímý opravný výklad a vlastní názorná tabulka se dvěma řádky M/R a A/B, proto navazující pokus hints_used=1. Nejprve ověřit rozlišení celé tabulky a jejích řádků. Při přetrvávající chybě pracovat s konkrétním stejným vstupním písmenem v různých pozicích, nepřidávat nové termíny. Po opravě s odstupem odlišit dvě skutečné tabulky se shodným vstupem a jinými náhradami, potom Caesar podle strany9. Celá pracovní mapa nadále zahrnuje neprobrané mechanismy a výpočty, historické konstrukce, formální model, další témata a všechny úlohy/řešení. Vlastní vysvětlující tabulka není obraz původní grafické tabulky PDF; její vizuální kontrola nadále otevřená.",
+      "review_on": "2026-10-23",
+      "misconceptions": [
+        "Považuje dvě jednotlivá pravidla M na R a A na B uvnitř jedné pevné substituční tabulky za dvě různé tabulky, a proto označuje pevnou substituci jako polyalfabetickou."
+      ],
+      "checkpoint_id": "klice-2026-10-22-16",
+      "activity": "Opravný výklad s vlastní vizualizací: dvousloupcová tabulka vstupní písmeno/náhrada obsahuje řádky M/R a A/B. Jsou to dva řádky jedné tabulky, nikoli dvě tabulky. Jedna náhradní abeceda obsahuje převody pro všechna vstupní písmena; ukázány jen dva řádky. Používání této tabulky beze změny po celou zprávu znamená monoalfabetickou substituci; polyalfabetická střídá různé tabulky.",
+      "learner_answer": "",
+      "evaluation": "Bylo dokončeně vysvětleno seskupení jednotlivých převodů do jedné náhradní abecedy, výslovně rozlišeny řádky a celé tabulky. Vlastní tabulka je názorné rozvedení souvislé definice na straně8, nikoli tvrzení o vizuálně ověřené původní grafické tabulce PDF. Znalost opravy dosud nebyla ověřena uživatelovou odpovědí. Před zápisem přes request_user_input_async zobrazena jedna úloha26řádků jediné neměnné tabulky. Odpověď zatím chybí, pro navazující pokus jedna podstatná podpora. Nové algoritmy ani jejich výpočty nebyly zavedeny.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-oprava",
+      "created_at": "2026-10-22T16:16:02.562317+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "klice-2026-10-22-17",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klice-a-deleni-sifer",
+      "activity_kind": "material",
+      "activity": "Nové vysvětlení mono/poly na opakování jediného vstupního písmene: vlastní tabulka porovnává AAAA na BBBB při stálém A na B a AAAA na BCBC při střídání A na B/C. První postup je monoalfabetický, druhý polyalfabetický. Jedna monoalfabetická tabulka může současně obsahovat A na B a M na R; rozhoduje, že každé A i každé M po celou zprávu dostává svou stálou náhradu.",
+      "learner_answer": "nerozumím rozdílu mezi monoalfabetická  a polyalfabetická",
+      "evaluation": "Uživatel místo pokusu o předchozí klasifikační otázku výslovně sdělil neporozumění rozdílu. Toto sdělení není hodnoceno jako chybný řešitelský pokus a nedokládá novou konkrétní mylnou představu. Bylo dokončeno jiné vysvětlení přes opakování stejného písmene na různých pozicích a dva úplně vyřešené příklady, s vlastní porovnávací tabulkou. Výklad nepřidává nové algoritmy, pracuje s definicí jedné/střídání více náhradních abeced na straně8. Ukazuje, že více pravidel pro různá vstupní písmena uvnitř jedné tabulky není polyalfabetičnost. Předchozí nejistota ohledně seskupení řádků tabulky a jejího střídání zůstává do ověření otevřená. Před zápisem byla přes request_user_input_async zobrazena snazší otázka bez odborných názvů, jen zda stejné A v AA na DF získalo stejnou či různou náhradu. Odpověď zatím chybí. Zvládnutí není tvrzeno na základě výkladu ani sdělení nerozumím.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-oprava-s-nazornym-prikladem",
+      "misconceptions": [
+        "Dosud neověřená oprava rozlišení jedné tabulky obsahující pravidla pro různá písmena od střídání různých tabulek podle pozice; uživatel výslovně uvádí, že rozdílu mono/poly zatím nerozumí."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:8"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou snazší otázku bez klasifikačních názvů: Ve zprávě AA převedeme první A na D a druhé A na F. Dostalo stejné vstupní písmeno A pokaždé stejnou náhradu, nebo různé náhrady? Kritérium: různé, konkrétně D a F. Odpověď zatím chybí. Před otázkou dva vyřešené analogické příklady a názorné vysvětlení; u navazující odpovědi hints_used=1. Úspěch bude dokládat jen rozpoznání různých náhrad stejného písmene, nikoli úplné zvládnutí mono/poly. Pak propojit tuto pozorovanou změnu s polyalfabetickou substitucí a malým přenosem ověřit pochopení. Při další obtíži dále zjednodušit a zjistit konkrétní místo neporozumění; neopakovat jen definici tabulek a nepřidávat nové algoritmy. Původní otázka jedné tabulky26řádků nebyla zodpovězena. Mechanismy Caesar/Vigenere, afinita, historické pomůcky a všechny další neprobrané části celé mapy zůstávají otevřené. Vlastní názorná tabulka není vizuální kontrola původního PDF, ta stále chybí.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T16:47:10.870339+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "klice-2026-10-22-18",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klice-a-deleni-sifer",
+      "activity_kind": "material",
+      "activity": "Zjednodušené ověření bez odborných názvů: ve zprávě AA převedeme první A na D a druhé A na F. Dostalo stejné vstupní písmeno A pokaždé stejnou náhradu, nebo různé náhrady?",
+      "learner_answer": "dostalo různé podle pozice",
+      "evaluation": "Kritérium této dílčí úlohy: rozpoznat, že dvě totožná vstupní písmena A dostala různé náhrady D a F. Uživatel správně uvedl různé náhrady a navíc jejich závislost na pozici. Kritérium dílčího pozorování splněno. Před otázkou byly dva vyřešené analogické příklady a vysvětlení stejného písmene v různých pozicích, hints_used=1 dle předchozího checkpointu. Úspěch dokládá jen toto dílčí rozlišení po podpoře; neprokazuje dosud samostatné zařazování mono/poly ani úplnou opravu předchozí záměny řádků s tabulkami. Zpětná vazba propojila správné pozorování s názvem polyalfabetická substituce a připomněla stálou náhradu každého písmene u monoalfabetické. Před zápisem přes request_user_input_async zobrazena další konkrétní úloha ABAB na DFDF s pevnými pravidly A na D a B na F. Neproběhl nový samostatný výklad další látky.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-dilci-rozliseni",
+      "misconceptions": [
+        "Dílčí rozpoznání různých náhrad stejného písmene po podpoře je správné; stále zbývá ověřit klasifikaci mono/poly a opravu záměny různých vstupních písmen či řádků jedné tabulky za různé náhradní abecedy."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:8"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Po celou zprávu platí pevná pravidla A na D a B na F. Proto ABAB na DFDF. Je tento postup monoalfabetický, nebo polyalfabetický? Sleduj, zda se mění náhrada stejného vstupního písmene. Kritérium: monoalfabetický; všechna A se mění na D a všechna B na F, náhrada téhož písmene se podle pozice nemění. Rozdílné výstupní znaky D a F patří různým vstupním znakům. Odpověď zatím chybí. Před otázkou byl připomenut princip mono a přímo v otázce metodická pomůcka sledovat stejné vstupní písmeno, proto navazující pokus hints_used=1. Pokud správně vysvětlí, lze přejít k malému konkrétnímu mechanismu Caesar a rozdíl mono/poly později samostatně zopakovat; při chybě ukázat zvlášť pozice každého A a B. Uživatel výslovně dříve hlásil neporozumění, nezaměňovat dnešní dílčí úspěch za úplné zvládnutí. Ostatní neprobrané části celé pracovní mapy včetně mechanismů Caesar/Vigenere a formálního modelu nadále zachovány. Vizuální ověření původních tabulek a vzorců stále chybí.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T17:04:21.937390+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "activity_kind": "material",
+      "next_step": "Vyhodnotit již zobrazenou otázku: Zašifruj slovo ZIMA Caesarovou šifrou s posunem o3 místa dopředu v abecedě A–Z. Jaký šifrový text dostaneš? Kritérium: CLPD (Z na C, I na L, M na P, A na D). Odpověď zatím chybí. Aktivitu uložit pod klasicke-sifry-a-steganografie, zdroj prednaska1-skripta-v1 page:9. Před otázkou byl přímý výklad postupu a vyřešené dílčí převody A na D a Z na C, tedy podpora částečně řeší zadání; konzervativně navazující pokus hints_used=1 a později jiný posun ověřit bez podpory. Po výsledku vysvětlit zpětný posun pro dešifrování, číselné přiřazení A0 až Z25, modulo26 a šifrovací/dešifrovací předpisy s vizuální kontrolou původních vzorců před použitím; případně nejdříve prosté příklady zbytku. Dále prostor26klíčů včetně nulového a hrubá síla, původní příklad KOCKA/NRFND a úloha DATA ze stran27–28 zůstávají neprobrané. Afinní šifra, Vigenere, transpoziční pomůcky a další části mapy zachovány. Mono/poly bylo rozlišeno správně na pevné tabulce po metodické podpoře; plný samostatný přenos s odstupem nadále otevřený. Použitý nový výklad pracuje se souvislým textem strany9, nikoli s neověřenou Vigenèrovou tabulkou nebo rovnicemi.",
+      "review_on": "2026-10-23",
+      "checkpoint_id": "klice-2026-10-22-19",
+      "topic_id": "klice-a-deleni-sifer",
+      "activity": "Po celou zprávu platí pevná pravidla A na D a B na F. Proto ABAB na DFDF. Je tento postup monoalfabetický, nebo polyalfabetický? Sleduj, zda se mění náhrada stejného vstupního písmene.",
+      "learner_answer": "Monoalfabetická",
+      "evaluation": "Kritérium položené otázky: správně zařadit popsanou pevnou substituci jako monoalfabetickou. Uživatel toto označení uvedl správně. Otázka tentokrát výslovně nepožadovala napsat zdůvodnění, pouze poskytovala pomůcku sledovat stejné vstupní písmeno; stručná odpověď je pro požadované zařazení dostatečná. Samostatný slovní popis mechanismu tím není doložen. Před otázkou byl připomenut princip mono a v otázce metodická pomůcka, hints_used=1. Je doložen správný výběr po podpoře, nikoli dlouhodobé úplné zvládnutí mono/poly. Zpětná vazba potvrdila, že A zůstává D a B zůstává F. Před výběrem nové látky byla celá pracovní mapa porovnána s kompletní dříve načtenou historií a dnešními18záznamy; mechanismus Caesara na straně9 byl stále neprobrán a byl znovu načten přes passages s kontrolou hashe. Po novém výkladu byla před zápisem přes request_user_input_async zobrazena jedna úloha ZIMA s posunem3.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-oprava",
+      "misconceptions": [
+        "Rozlišení jedné pevné tabulky od různých náhrad téhož písmene bylo použito správně po metodické podpoře; samostatné vybavení a vysvětlení s odstupem zbývá ověřit."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:8"
+        }
+      ],
+      "created_at": "2026-10-22T17:14:51.630161+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "activity_kind": "material",
+      "next_step": "Vyhodnotit již zobrazenou otázku: Zašifruj slovo ZIMA Caesarovou šifrou s posunem o3 místa dopředu v abecedě A–Z. Jaký šifrový text dostaneš? Kritérium: CLPD (Z na C, I na L, M na P, A na D). Odpověď zatím chybí. Aktivitu uložit pod klasicke-sifry-a-steganografie, zdroj prednaska1-skripta-v1 page:9. Před otázkou byl přímý výklad postupu a vyřešené dílčí převody A na D a Z na C, tedy podpora částečně řeší zadání; konzervativně navazující pokus hints_used=1 a později jiný posun ověřit bez podpory. Po výsledku vysvětlit zpětný posun pro dešifrování, číselné přiřazení A0 až Z25, modulo26 a šifrovací/dešifrovací předpisy s vizuální kontrolou původních vzorců před použitím; případně nejdříve prosté příklady zbytku. Dále prostor26klíčů včetně nulového a hrubá síla, původní příklad KOCKA/NRFND a úloha DATA ze stran27–28 zůstávají neprobrané. Afinní šifra, Vigenere, transpoziční pomůcky a další části mapy zachovány. Mono/poly bylo rozlišeno správně na pevné tabulce po metodické podpoře; plný samostatný přenos s odstupem nadále otevřený. Použitý nový výklad pracuje se souvislým textem strany9, nikoli s neověřenou Vigenèrovou tabulkou nebo rovnicemi.",
+      "review_on": "2026-10-23",
+      "checkpoint_id": "klasicke-2026-10-22-20",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity": "První mechanismus Caesarovy šifry: každé písmeno posuneme o stejný počet míst, tento počet je klíč. Používáme26písmen A–Z bez diakritiky a po Z pokračujeme od A. Při posunu3 byly vyřešeny převody A na D a Z na C. Konstantní posun po celou zprávu byl propojen s monoalfabetickou substitucí.",
+      "learner_answer": "",
+      "evaluation": "Byl dokončeně představen konstantní dopředný posun, význam klíče,26písmenná abeceda bez diakritiky a cyklický přechod po Z na A s dvěma dílčími příklady. Znovu načten celý text page9 přes passages s ověřením hashe. Výklad používá souvislé textové odstavce a nepřebírá grafické detaily, číselné rovnice či Vigenèrovu tabulku. Nebyly zatím vyloženy číselné přiřazení A0 až Z25, modulo a rovnice, dešifrování,26klíčový prostor, bezpečnostní slabina, původní KOCKA/NRFND, afinita nebo Vigenere. Použití nového postupu zatím uživatelem neověřeno. Před zápisem přes request_user_input_async zobrazena úloha ZIMA s posunem3; odpověď chybí. Vyřešené dílčí převody A/D,Z/C v této konkrétní úloze představují jednu podstatnou podporu pro navazující hodnocení.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "created_at": "2026-10-22T17:14:51.698096+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Zpráva CXE vznikla Caesarovým šifrováním s posunem o3místa dopředu. Dešifruj ji: posuň každé písmeno o3místa zpět v abecedě A–Z. Jaká je původní zpráva? Kritérium: ZUB, C na Z přes začátek abecedy, X na U, E na B. Odpověď zatím chybí. Úloze předcházel výklad dešifrování jako opačného posunu a v samotné otázce je výslovný pokyn posunout o3zpět, tedy metodická podpora pro navazující pokus hints_used=1. Hodnotit jako bezprostřední procvičení po výkladu, nikoli samostatné vybavení dešifrovacího postupu. Později zadat jiné šifrové slovo a klíč bez pokynu směru. Následně podle výsledku doplnit číselné přiřazení A0 až Z25, modulo26 a oba předpisy až po potřebném ověření vzorců, prostor26posunů včetně nulového a důvod slabiny hrubou silou. Původní příklad KOCKA/NRFND, úloha DATA na stranách27–28, afinní/Vigenèrova šifra, historické pomůcky, formální model a zbytek celé mapy zůstávají otevřené. Rozlišení mono/poly samostatně zopakovat po vložené aktivitě. Vizuální kontrola původních tabulek a vzorců stále chybí; nynější výklad nepoužívá jejich grafické detaily.",
+      "review_on": "2026-10-23",
+      "checkpoint_id": "klasicke-2026-10-22-21",
+      "activity": "Zašifruj slovo ZIMA Caesarovou šifrou s posunem o3místa dopředu v abecedě A–Z. Jaký šifrový text dostaneš?",
+      "learner_answer": "CLPD",
+      "evaluation": "Kritérium: přesný výsledek CLPD, tedy Z na C, I na L, M na P, A na D. Uživatel uvedl správný celý výsledek. Zvládl tento dopředný posun včetně cyklického přechodu Z na C. Před úlohou byl přímý výklad a vyřešené dílčí převody A na D a Z na C, které částečně řeší zadání; dle předchozího checkpointu hints_used=1. Doložena úspěšná aplikace po této podpoře, nikoli dlouhodobé samostatné zvládnutí algoritmu či všech klasických šifer. Zpětná vazba potvrdila výsledek a rozepsala jednotlivé převody. Před další novou látkou zohledněna celá mapa s dříve načtenou historií a aktuálními20záznamy: dešifrovací mechanismus na straně9 stále nebyl vyložen. Následoval krátký výklad zpětného posunu, poté přes request_user_input_async zobrazena úloha CXE před tímto zápisem.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-vypocet",
+      "created_at": "2026-10-22T17:17:34.447866+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Zpráva CXE vznikla Caesarovým šifrováním s posunem o3místa dopředu. Dešifruj ji: posuň každé písmeno o3místa zpět v abecedě A–Z. Jaká je původní zpráva? Kritérium: ZUB, C na Z přes začátek abecedy, X na U, E na B. Odpověď zatím chybí. Úloze předcházel výklad dešifrování jako opačného posunu a v samotné otázce je výslovný pokyn posunout o3zpět, tedy metodická podpora pro navazující pokus hints_used=1. Hodnotit jako bezprostřední procvičení po výkladu, nikoli samostatné vybavení dešifrovacího postupu. Později zadat jiné šifrové slovo a klíč bez pokynu směru. Následně podle výsledku doplnit číselné přiřazení A0 až Z25, modulo26 a oba předpisy až po potřebném ověření vzorců, prostor26posunů včetně nulového a důvod slabiny hrubou silou. Původní příklad KOCKA/NRFND, úloha DATA na stranách27–28, afinní/Vigenèrova šifra, historické pomůcky, formální model a zbytek celé mapy zůstávají otevřené. Rozlišení mono/poly samostatně zopakovat po vložené aktivitě. Vizuální kontrola původních tabulek a vzorců stále chybí; nynější výklad nepoužívá jejich grafické detaily.",
+      "review_on": "2026-10-23",
+      "checkpoint_id": "klasicke-2026-10-22-22",
+      "activity": "Výklad dešifrování Caesarovy šifry: posouváme každé písmeno o stejný počet míst opačným směrem. Pro klíč3 tedy o3místa zpět, před A pokračujeme od Z. Dopředný a zpětný posun se vyruší, což vysvětluje obnovu původních písmen.",
+      "learner_answer": "",
+      "evaluation": "Byl dokončeně představen mechanismus dešifrování jako opačného posunu, cyklický přechod před A a jednoduché zdůvodnění inverze vyrušením posunů. Jde o slovní výklad dešifrovacího principu ze strany9, bez použití neověřeného grafického vzorce. Nebylo dosud vysvětleno přiřazení písmen číslům, modulo, rovnice ani počet klíčů a bezpečnostní slabina. Zvládnutí nového dešifrovacího postupu zatím nebylo ověřeno. Před zápisem přes request_user_input_async zobrazena úloha CXE s klíčem3 a výslovným pokynem jít o3zpět; odpověď chybí.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "created_at": "2026-10-22T17:17:34.515247+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "klasicke-2026-10-22-23",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "activity": "Zpráva CXE vznikla Caesarovým šifrováním s posunem o3místa dopředu. Dešifruj ji: posuň každé písmeno o3místa zpět v abecedě A–Z. Jaká je původní zpráva?",
+      "learner_answer": "ZUB",
+      "evaluation": "Kritérium: správně dešifrovat na ZUB (C na Z, X na U, E na B), včetně cyklického přechodu přes začátek abecedy. Uživatel uvedl celý správný výsledek. Před úlohou byl vysvětlen opačný posun a samotná otázka výslovně předepisovala o3místa zpět; podle předchozího checkpointu hints_used=1. Doložena správná aplikace dešifrovacího postupu s metodickou podporou, nikoli samostatné vybavení směru či dlouhodobé zvládnutí. Zpětná vazba potvrdila výsledek a rozepsala všechny převody. Celá pracovní mapa zohledněna vůči dříve načtené kompletní historii a všem22dnešním záznamům: počet klíčů a hrubá síla dosud neprobrány, stejně jako formální přiřazení/modulo/rovnice. Před zápisem byla přes request_user_input_async zobrazena navazující otázka na počet různých posunů včetně nulového; jde o odvození z dosud představeného cyklického posunu, odpověď ani výklad počtu zatím nebyly poskytnuty.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-vypocet",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Caesarova šifra používá26písmen A–Z a klíčem je počet míst posunu. Kolik různých posunů existuje, než se převody začnou opakovat? Započítej i nulový posun. Kritérium:26, reprezentované posuny0 až25;26je ekvivalentní0. Odpověď zatím chybí. Zmínka o26písmenech a zahrnutí nulového posunu jsou úplné zadání, nikoli podstatná metodická nápověda; samotný počet posunů ani jeho výklad ještě nebyly sděleny. Pokud bez další podpory správně odpoví, hints_used=0, hodnotit pouze počet klíčů, neznalost celé bezpečnosti. Po pokusu vysvětlit0až25 a ekvivalenci26/0, nulový klíč a proč útok vyzkoušením všech možností snadno uspěje při rozpoznatelném otevřeném textu. Potom ověřit hrubou sílu nebo s odstupem mono/poly (stejné vstupní písmeno na různých pozicích). Později doplnitA0–Z25,modulo26 a oba formální předpisy; vizuální kontrola původních vzorců stále otevřená. Původní příklad KOCKA/NRFND a úloha DATA i veškeré další dosud vyjmenované mezery celé mapy zůstávají v rozsahu.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T17:32:21.131079+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Vrátíme se ke klasifikaci: šifra převádí první A ve zprávě na D a druhé A na F podle jejich pozice. Je tento postup monoalfabetický, nebo polyalfabetický? Proč? Kritérium: polyalfabetický, protože stejné vstupní A dostává různé náhrady podle pozice; střídá se substituční pravidlo/tabulka. Odpověď zatím chybí. Aktivitu uložit pod klice-a-deleni-sifer, source prednaska1-skripta-v1 page:8. Bezprostředně před otázkou nebyly zopakovány definice mono/poly ani řešení; po poslední cílené pomoci následovaly odlišné aktivity šifrování/dešifrování/počtu klíčů Caesarovy šifry. Při samostatné odpovědi bez další pomoci hints_used=0; jde o opakování po vložených aktivitách v rámci stejné lekce, nikoli dlouhodobý odstup. Po výsledku podle potřeby opravit rozlišení celé tabulky vs řádků, nebo znovu odvodit důvod slabiny malého klíčového prostoru na modelové změně klíčových čísel. Následně doplnit A0–Z25, modulo26 a oba formální předpisy při zajištění potřebné vizuální kontroly, původní příklad KOCKA/NRFND a úlohu DATA ze stran27–28. Neztratit neprobrané části celé mapy včetně afinity s podmínkou gcd, Vigenere/periodicity, transpozičních pomůcek a formálního modelu. Vizuální kontrola původních tabulek a vzorců stále otevřená.",
+      "review_on": "2026-10-23",
+      "checkpoint_id": "klasicke-2026-10-22-24",
+      "activity": "Caesarova šifra používá26písmen A–Z a klíčem je počet míst posunu. Kolik různých posunů existuje, než se převody začnou opakovat? Započítej i nulový posun.",
+      "learner_answer": "26",
+      "evaluation": "Kritérium položené otázky: uvést26různých posunů včetně nulového. Uživatel správný počet uvedl. Počet26písmen a požadavek zahrnout nulový posun byly zadáním, nikoli metodickou nápovědou; počet klíčů před otázkou nebyl vysvětlen. Bez další podpory, hints_used=0. Doložen správný počet, nikoli ještě samostatné zdůvodnění ekvivalence posunů, útok nebo dlouhodobé zvládnutí. Zpětná vazba nově vyložila rozsah0až25, nulový klíč, ekvivalenci26/0 a útok vyzkoušením všech možností. Celá mapa byla zohledněna proti dříve kompletně načtené historii a všem23dnešním záznamům; tyto další aspekty byly před tímto výkladem neprobrané. Před zápisem byla přes request_user_input_async zobrazena jedna otázka na opakování dříve obtížného mono/poly po vložených aktivitách.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-odvozeni",
+      "created_at": "2026-10-22T17:36:36.947503+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Vrátíme se ke klasifikaci: šifra převádí první A ve zprávě na D a druhé A na F podle jejich pozice. Je tento postup monoalfabetický, nebo polyalfabetický? Proč? Kritérium: polyalfabetický, protože stejné vstupní A dostává různé náhrady podle pozice; střídá se substituční pravidlo/tabulka. Odpověď zatím chybí. Aktivitu uložit pod klice-a-deleni-sifer, source prednaska1-skripta-v1 page:8. Bezprostředně před otázkou nebyly zopakovány definice mono/poly ani řešení; po poslední cílené pomoci následovaly odlišné aktivity šifrování/dešifrování/počtu klíčů Caesarovy šifry. Při samostatné odpovědi bez další pomoci hints_used=0; jde o opakování po vložených aktivitách v rámci stejné lekce, nikoli dlouhodobý odstup. Po výsledku podle potřeby opravit rozlišení celé tabulky vs řádků, nebo znovu odvodit důvod slabiny malého klíčového prostoru na modelové změně klíčových čísel. Následně doplnit A0–Z25, modulo26 a oba formální předpisy při zajištění potřebné vizuální kontroly, původní příklad KOCKA/NRFND a úlohu DATA ze stran27–28. Neztratit neprobrané části celé mapy včetně afinity s podmínkou gcd, Vigenere/periodicity, transpozičních pomůcek a formálního modelu. Vizuální kontrola původních tabulek a vzorců stále otevřená.",
+      "review_on": "2026-10-23",
+      "checkpoint_id": "klasicke-2026-10-22-25",
+      "activity": "Výklad klíčového prostoru a slabiny Caesara: existuje26různých posunů0až25. Nulový posun nemění zprávu a posun26je stejný jako0. Útočník může vyzkoušet všech26možností a prohlédnout výsledky; tak malý prostor projde snadno i ručně. Pouhé utajení zvoleného posunu proto neposkytuje dostatečnou ochranu.",
+      "learner_answer": "",
+      "evaluation": "Byly dokončeně vysvětleny rozsah různých klíčů0až25, význam nulového posunu, první opakování26/0 a malý prostor jako důvod proveditelného vyzkoušení všech možností. Nebyla tvrzena automatická jednoznačnost rozpoznání správné zprávy u libovolných dat ani prokázáno uživatelovo samostatné zdůvodnění útoku. Počet26uživatel před výkladem správně určil; ostatní zde vyložené aspekty mají stav introduced. Formální přiřazení/modulo/rovnice, vlastní původní příklad KOCKA a ostatní algoritmy dosud nebyly vyloženy. Před zápisem přes request_user_input_async zobrazena jedna otázka na mono/poly, odpověď zatím chybí.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "created_at": "2026-10-22T17:36:37.012709+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "klice-2026-10-22-26",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klice-a-deleni-sifer",
+      "activity_kind": "material",
+      "activity": "Opakování po vložených aktivitách: šifra převádí první A ve zprávě na D a druhé A na F podle jejich pozice. Je tento postup monoalfabetický, nebo polyalfabetický? Proč?",
+      "learner_answer": "polyalfabetická , jedno písmeno se dle pozice převede na rozdílná písmena",
+      "evaluation": "Kritérium: určit polyalfabetickou substituci a vysvětlit různé náhrady stejného vstupního písmene podle pozice. Uživatel výslovně správně uvedl polyalfabetická i tento mechanismus. Bezprostředně před otázkou probíhala jiná látka (Caesarovo šifrování, dešifrování, počet klíčů a slabina) a nebyla zopakována definice mono/poly ani její řešení. Bez podstatné nápovědy, hints_used=0. Doložen významný pokrok po předchozí obtíži: správné vybavení názvu a mechanismu po několika vložených aktivitách v téže lekci. Nejde ještě o dlouhodobý odstup nebo znalost všech polyalfabetických konstrukcí. Dřívější záměna počtu pravidel/řádků s celými tabulkami zůstává v historii, na této konkrétní úloze je však oprava správně použita. Zpětná vazba potvrdila mechanismus a vymezila tento úspěch bez nápovědy. Před zápisem byla přes request_user_input_async zobrazena jedna přenosová otázka na Caesarovy posuny29a3; odpověď zatím chybí. Nebyla vyložena další nová látka.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-opakovani-po-vlozenych-aktivitach",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:8"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Alice tvrdí, že Caesarova šifra bude bezpečnější, když místo posunu3 použije posun29. Souhlasíš? Vysvětli, co udělá posun o29míst v abecedě s26písmeny. Kritérium: ne;29je26+3, celá otočka26nemění převod, takže29dává stejné šifrování jako3 a nevytváří nové klíče. Aktivitu uložit pod klasicke-sifry-a-steganografie, prednaska1-skripta-v1 page:9. Odpověď zatím chybí. Před otázkou nebyla dána pomoc pro tento konkrétní přenos; dříve bylo vysvětleno26=0 a prostor0..25. Při samostatném řešení hints_used=0, úspěch vztáhnout k ekvivalenci posunů a bezpečnostnímu argumentu, ne k celé kryptografii. Poté podle výsledku doplnit A0–Z25, modulo26 a oba formální předpisy po potřebném ověření podkladu. Dále původní KOCKA/NRFND, úloha DATA, afinita/inverze a dříve evidované neprobrané části celé mapy. Mono/poly znovu zopakovat v další lekci; dnešní oprava se po vložených aktivitách podařila bez nápovědy. Vizuální kontrola původních tabulek a vzorců zatím otevřená.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T17:40:03.654977+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "klasicke-2026-10-22-27",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "activity": "Alice tvrdí, že Caesarova šifra bude bezpečnější, když místo posunu3 použije posun29. Souhlasíš? Vysvětli, co udělá posun o29míst v abecedě s26písmeny.",
+      "learner_answer": "ne, bude stejně bezpečný, Ceasarova šifra může uskutečnit max posun o 26 písmen, pak se začne cyklit",
+      "evaluation": "Kritérium: odmítnout zvýšení bezpečnosti a vysvětlit opakování převodů po celé26písmenné otočce, takže29odpovídá3. Uživatel správně odmítl zvýšení a výslovně uvedl cyklení po26písmenech. Tím vystihl rozhodující mechanismus. Větu max posun o26písmen zpětná vazba zpřesnila: libovolně velký posun je definovatelný, ale nové převody nepřidává, různé klíče reprezentují0až25. Zpětná vazba explicitně dopočítala29jako26+3 a ekvivalenci29/3. Doloženo porozumění cykličnosti a žádnému zvýšení bezpečnosti bez podstatné nápovědy, hints_used=0; konkrétní rozklad29uživatel sám nenapsal. Formulace max je zde nepřesnost mezí, nikoli podklad k tvrzení, že uživatel nezná správný počet klíčů (ten předtím správně uvedl26). Úspěch se vztahuje jen k těmto aspektům, nikoli ke všem Caesarovým rovnicím či celé kryptografii. Před zápisem přes request_user_input_async zobrazena první část původní úlohy3 ze strany27 na šifrování DATA; ostatní části úlohy zatím nezadány.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-prenos",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Zašifruj slovo DATA Caesarovou šifrou s klíčem3. Jaký šifrový text dostaneš? Skripta1strana27prvníčástúlohy3. Kritérium: GDWD. Odpověď zatím chybí. Aktivitu uložit pod klasicke-sifry-a-steganografie, prednaska1-skripta-v1 page:27 a page:28 (zadání/řešení). Před otázkou nebyl znovu vysvětlen postup šifrování ani ukázány převody tohoto slova; po dřívějším výkladu následovaly jiné aktivity. Při samostatném řešení bez další pomoci hints_used=0. Úloha3obsahuje ještě dešifrovací předpis a velikost klíčového prostoru; první výsledek nepokrývá automaticky tyto nezadané části ani celou stránku. Poté podle výsledku doplnit číselné značení A0ažZ25, modulo a oba předpisy po potřebné kontrole originálu; případně pokračovat dostupnými souvislými částmi mapy. Vizuální kontrola původních vzorců stále není zajištěna; pokus získat renderer pypdfium2 přes pip skončil no matching distribution. Mono/poly nyní po vložených aktivitách správně vysvětleno bez nápovědy, dlouhodobé opakování je23.10. Ostatní neprobrané části mapy zachovány.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T17:55:29.482751+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "klasicke-2026-10-22-28",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "activity": "Na výslovné přání uživatele pokračovat dál byl ukončen nynější nácvik Caesarovy šifry a představen mechanismus Vigenèrovy šifry: aktuální písmeno tajného klíče určuje posun. Přiřazení A=0,B=1,…,Z=25 znamená pro klíč BC posuny1,2. Klíč se opakuje pod celou zprávou, například BCBCBC pro6znaků. Jednotlivé pozice klíče vybírají náhradní abecedy; zařazení polyalfabetická substituce.",
+      "learner_answer": "Ceararovu šifru jsme probrali dostatečně, pokračuj dál",
+      "evaluation": "Uživatel nezodpověděl DATA a výslovně požádal pokračovat z Caesarovy šifry dál. Jeho sdělení není řešitelský pokus ani důkaz zvládnutí nedokončené úlohy. Úloha DATA není hodnocena ani zapsána jako splněná; další nácvik Caesara se nyní nezadává. Po porovnání celé mapy s kompletní dříve načtenou historií a aktuálními27záznamy dnešní lekce zvolen Vigenèrov mechanismus: dosud bylo jen pojmenováno jeho zařazení k polyalfabetickým systémům, nevyložen postup. Byly dokončeně vysvětleny číselné hodnoty písmen klíče A0–Z25, opakování klíče, výběr posunu podle pozice a vztah k polyalfabetické substituci. Zdroj page9 byl v tomto tahu výuky již znovu načten a následně vizuálně ověřen z originálu přes dočasnou extrakci jediné stránky a LibreOffice Draw export; náhled /tmp/udzk-visual-20261022/prednaska1-page9.png zkontrolován, včetně vzorců a Vigenèrovy tabulky, shoda s indexem. Pro renderer byla automaticky schválena eskalace kvůli místnímu IPC; originál zůstal beze změny. Samotná vizuální kontrola není výuka uživatele. Nebyly zatím vyloženy vlastní původní příklad AHOJ/KLIC na KSWL, explicitní modulární rovnice, Vigenèrovo dešifrování ani útok na periodicitu. Před zápisem přes request_user_input_async zobrazena vlastní úloha ABAB s klíčem BC, odpověď chybí.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-novy-mechanismus",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Zašifruj zprávu ABAB Vigenèrovou šifrou s klíčem BC. Klíč opakuj do délky zprávy; písmena klíče určují posun podle A0,B1,…,Z25. Jaký výsledek dostaneš? Kritérium: BDBD, posuny1/2/1/2, A na B a B na D. Odpověď zatím chybí. Jde o bezprostřední aplikaci nově vysvětleného mechanismu, klíč BC a jeho posuny byly přímo rozvedeny ve výkladu; konzervativně při navazujícím hodnocení hints_used=1. Po výsledku podle potřeby krátce projít pozice, pak přejít k původnímu AHOJ/KLIC/KSWL, vysvětlit modulární návrat při součtu a dešifrování a slabinu periodického klíče po menších aktivitách. Uživatel výslovně označil Caesara za dostatečně probraného a chce dále: nezadávat další Caesarovy drily ani automaticky nevracet DATA. Evidovat přesně: DATA bez odpovědi, formální Caesarovy rovnice a původní KOCKA nebyly dokončeně vyloženy; neoznačovat je za zvládnuté ani jejich nezadání za chybu uživatele. Obecné potřebné modulo vysvětlit v návaznosti na novou látku. Afinní šifra a další dříve evidované části celé mapy zůstávají neprobrané, pořadí je pedagogicky změněno, nic se neprohlašuje za pokryté. Vizuálně nyní ověřena celá strana9 prvních skript; ostatní stránky zatím mají dříve uvedenou mezeru vizuální kontroly, renderer LibreOffice je již dohledán.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T17:58:51.803292+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "misconceptions": [
+        "V opraveném výsledku CDCD pro ABAB s klíčemBC odpovídá převod A při klíčiB posunu2 místo správného1; převod B při klíčiC na D je správný. Přesný důvod nesouladu zatím neověřen, nepřisuzovat automaticky jednotné číslování A1."
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Zašifruj jediné písmeno A s klíčovým písmenem D ve Vigenèrově šifře. Jaký posun určuje D při číslování A0 a jaké výsledné písmeno dostaneš? Kritérium: D určuje posun3 a ze zprávy A vznikne D. Odpověď zatím chybí. Před otázkou byl opravný výklad a vyřešený příklad ABAB/BC s posuny1/2; navazující pokus hints_used=1. Úspěch hodnotit pouze jako určení hodnoty klíčového písmene a aplikaci na jeden znak po podpoře, nikoli celou Vigenèrovu šifru. Při správném výsledku přejít k malému novému příkladu, případně původnímu AHOJ/KLIC; při chybě oddělit číselnou hodnotu klíče od samotného posunu. Modulo a explicitní vzorce, dešifrování Vigenere, opakování/periodicita a útok podle délky klíče zůstávají neprobrané. Uživatel výslovně chce dál od Caesara; nezadávat jeho další drily a nevracet DATA automaticky. Afinní a další dříve mapovaná témata zachována v rozsahu. Page9 prvních skript je nyní vizuálně ověřena, zbytek grafického obsahu zatím ne.",
+      "review_on": "2026-10-23",
+      "checkpoint_id": "klasicke-2026-10-22-29",
+      "activity": "Zašifruj zprávu ABAB Vigenèrovou šifrou s klíčemBC. Klíč opakuj do délky zprávy; písmena klíče určují posun podle A0,B1,…,Z25. Jaký výsledek dostaneš?",
+      "learner_answer": "CDCD",
+      "evaluation": "Kritérium: BDBD, při klíčiBCBC posuny1/2/1/2; A na B a B na D. Hodnocena je poslední úplná uživatelova oprava CDCD. Dřívější CECE nebylo před přerušením vyhodnoceno ani uloženo a není samostatně skórováno. CDCD má správně druhý a čtvrtý znak D, první a třetí C jsou chybné: klíčovéB znamená1, tedy A se mění na B. Výsledek ukazuje konkrétní nesoulad u klíčeB, neprokazuje přesnou příčinu či jednotnou záměnu číslování. Před úlohou byl přímo rozveden klíčBC na posuny1/2, dle posledního checkpointu hints_used=1. Zpětná vazba ocenila správné převody B/C na D, vysvětlila B1 a A na B a zobrazila vlastní tabulku všech4pozic s celým správným výsledkem BDBD. Před zápisem přes request_user_input_async zobrazena jednodušší otázka A s klíčovýmD. Před změnou stavu byl po přerušeném tahu ověřen resume a poslední uložený checkpoint28; žádný výsledek z přerušeného tahu se nepředpokládá.",
+      "result": "needs-practice",
+      "hints_used": 1,
+      "difficulty": "zakladni-vypocet",
+      "created_at": "2026-10-22T19:03:12.901975+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "misconceptions": [
+        "V opraveném výsledku CDCD pro ABAB s klíčemBC odpovídá převod A při klíčiB posunu2 místo správného1; převod B při klíčiC na D je správný. Přesný důvod nesouladu zatím neověřen, nepřisuzovat automaticky jednotné číslování A1."
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Zašifruj jediné písmeno A s klíčovým písmenem D ve Vigenèrově šifře. Jaký posun určuje D při číslování A0 a jaké výsledné písmeno dostaneš? Kritérium: D určuje posun3 a ze zprávy A vznikne D. Odpověď zatím chybí. Před otázkou byl opravný výklad a vyřešený příklad ABAB/BC s posuny1/2; navazující pokus hints_used=1. Úspěch hodnotit pouze jako určení hodnoty klíčového písmene a aplikaci na jeden znak po podpoře, nikoli celou Vigenèrovu šifru. Při správném výsledku přejít k malému novému příkladu, případně původnímu AHOJ/KLIC; při chybě oddělit číselnou hodnotu klíče od samotného posunu. Modulo a explicitní vzorce, dešifrování Vigenere, opakování/periodicita a útok podle délky klíče zůstávají neprobrané. Uživatel výslovně chce dál od Caesara; nezadávat jeho další drily a nevracet DATA automaticky. Afinní a další dříve mapovaná témata zachována v rozsahu. Page9 prvních skript je nyní vizuálně ověřena, zbytek grafického obsahu zatím ne.",
+      "review_on": "2026-10-23",
+      "checkpoint_id": "klasicke-2026-10-22-30",
+      "activity": "Opravný výklad Vigenèrovy šifry na ABAB/BC: klíčovéB má hodnotu1 a C hodnotu2. Vlastní tabulka ukazuje zprávu A/B/A/B, opakovaný klíčB/C/B/C, posuny1/2/1/2 a výsledek B/D/B/D. Převod B klíčemC je D a převod A klíčemB je B.",
+      "learner_answer": "",
+      "evaluation": "Byl dokončeně vysvětlen správný převod u klíčeB a rozveden celý původně zadaný příklad po jednotlivých pozicích, včetně správných částí uživatelovy opravy. Tabulka je vlastní výuková ilustrace principu z vizuálně ověřené strany9; není vydávána za původní příklad AHOJ/KLIC ze skript. Použití opravy uživatelem dosud nebylo ověřeno. Před zápisem přes request_user_input_async zobrazena dílčí úloha určení posunu klíčeD přiA0 a aplikace na zprávuA; odpověď chybí. Jedna přímá podpora pro navazující pokus. Neproběhl výklad jiných algoritmů nebo neprobraných aspektů Vigenere.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-oprava",
+      "created_at": "2026-10-22T19:03:12.969321+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "misconceptions": [
+        "Klíčovému písmenu D přiřadil hodnotu4 místo3; v tomto pokusu zaměnil pořadí písmene v abecedě s číselnou hodnotou při A0. Posun4 na zprávěA provedl konzistentně naE, proto oprava míří na hodnotu klíče."
+      ],
+      "next_step": "Vyhodnotit již zobrazenou dílčí otázku: Jakou číselnou hodnotu má klíčové písmeno F ve Vigenèrově šifře, když A0? Kritérium:5. Odpověď zatím chybí. Před otázkou přímý opravný výklad číslování od nuly a tabulka A0,B1,C2,D3,E4; navazující pokus hints_used=1. Hodnotit jen hodnotu klíčového písmene, nikoli celé šifrování. Při správné hodnotě propojit s posunem na jediném novém znaku, při další chybě vysvětlit hodnotu jako počet kroků od A. Zatím nepřidávat delší klíče, modulo či další algoritmy bez opravy tohoto předpokladu. Původní AHOJ/KLIC a řešení KSWL, Vigenèrovy vzorce/dešifrování/periodicita a útok, afinní šifra a další části celé mapy nadále neprobrané. Uživatel žádá pokračovat dál od Caesara, nezadávat další jeho drily. Page9 vizuálně ověřena, ostatní grafický obsah zatím neověřen.",
+      "review_on": "2026-10-23",
+      "checkpoint_id": "klasicke-2026-10-22-31",
+      "activity": "Zašifruj jediné písmeno A s klíčovým písmenem D ve Vigenèrově šifře. Jaký posun určuje D při číslování A0 a jaké výsledné písmeno dostaneš?",
+      "learner_answer": "D = 4 , vznikne E",
+      "evaluation": "Kritérium: klíčovéD má hodnotu3 a zprávuA posune naD. Uživatel nesprávně přiřadil D4 a z tohoto posunu konzistentně odvodilE. Tento pokus tedy konkrétně ukazuje chybnou hodnotu klíčového písmene, zatímco aplikace jím zvoleného posunu4 naA je správná. Před otázkou přímý opravný výklad a vyřešený příklad ABAB/BC, dle předchozího checkpointu hints_used=1. Po odpovědi bylo vysvětleno, žeDje čtvrté písmeno, ale při číslování od0má hodnotu3, a zobrazena vlastní tabulka A0ažE4. Byl ukázán správný posun3 a výsledekD a oceněna konzistence původního posunu4. Přesná příčina dřívějšího CDCD nebyla zpětně domýšlena. Před zápisem přes request_user_input_async zobrazena snazší otázka pouze na hodnotu klíčovéhoF.",
+      "result": "needs-practice",
+      "hints_used": 1,
+      "difficulty": "zakladni-dilci-vypocet",
+      "created_at": "2026-10-22T19:42:40.414302+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "misconceptions": [
+        "Klíčovému písmenu D přiřadil hodnotu4 místo3; v tomto pokusu zaměnil pořadí písmene v abecedě s číselnou hodnotou při A0. Posun4 na zprávěA provedl konzistentně naE, proto oprava míří na hodnotu klíče."
+      ],
+      "next_step": "Vyhodnotit již zobrazenou dílčí otázku: Jakou číselnou hodnotu má klíčové písmeno F ve Vigenèrově šifře, když A0? Kritérium:5. Odpověď zatím chybí. Před otázkou přímý opravný výklad číslování od nuly a tabulka A0,B1,C2,D3,E4; navazující pokus hints_used=1. Hodnotit jen hodnotu klíčového písmene, nikoli celé šifrování. Při správné hodnotě propojit s posunem na jediném novém znaku, při další chybě vysvětlit hodnotu jako počet kroků od A. Zatím nepřidávat delší klíče, modulo či další algoritmy bez opravy tohoto předpokladu. Původní AHOJ/KLIC a řešení KSWL, Vigenèrovy vzorce/dešifrování/periodicita a útok, afinní šifra a další části celé mapy nadále neprobrané. Uživatel žádá pokračovat dál od Caesara, nezadávat další jeho drily. Page9 vizuálně ověřena, ostatní grafický obsah zatím neověřen.",
+      "review_on": "2026-10-23",
+      "checkpoint_id": "klasicke-2026-10-22-32",
+      "activity": "Opravný výklad číslování klíčových písmen od nuly: Dje čtvrté písmeno, ale má hodnotu3, protože A0. Vlastní tabulka A/B/C/D/E nad hodnotami0/1/2/3/4. KlíčDtedy určuje posun3 a ze zprávyA vznikneD; výsledekEodpovídá posunu4.",
+      "learner_answer": "",
+      "evaluation": "Bylo dokončeně vysvětleno rozlišení pořadí písmene a hodnoty klíče při číslování A0, s vlastní názornou tabulkou a opravou jednoznakového příkladu. Zdrojem je číselné přiřazení na vizuálně ověřené straně9. Zvládnutí opravy dosud nebylo ověřeno uživatelovou odpovědí. Před zápisem přes request_user_input_async zobrazena otázka na hodnotuFbez dalšího šifrování; odpověď chybí. V navazujícím pokusu jedna podstatná přímá podpora. Nová složitější látka nebyla přidána.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-oprava",
+      "created_at": "2026-10-22T19:42:40.468034+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "klasicke-2026-10-22-33",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "activity": "Jakou číselnou hodnotu má klíčové písmeno F ve Vigenèrově šifře, když A0?",
+      "learner_answer": "5",
+      "evaluation": "Kritérium dílčí úlohy: při číslování A0 určit F5. Uživatel uvedl správnou hodnotu5. Před otázkou přímý opravný výklad s tabulkou A0ažE4, dle předchozího checkpointu hints_used=1. Doložena správná hodnota nového klíčového písmene po podpoře, nikoli ještě samostatné celé šifrování či dlouhodobé zvládnutí číslování. Zpětná vazba potvrdila hodnotu F5 a vymezila tento dílčí úspěch. Před zápisem přes request_user_input_async zobrazena navazující úloha aplikace klíčeFna jiný vstupní znakC. Výsledné písmeno ani konkrétní průběh posunu nebyly před touto novou úlohou sděleny.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-dilci-hodnota-klice",
+      "misconceptions": [
+        "HodnotaF5určena správně po přímé opravě; dřívější záměnu pořadí písmene s hodnotou při A0ještě ověřit v novém výpočtu a později bez podpory."
+      ],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Zašifruj písmenoC s klíčovým písmenemF ve Vigenèrově šifře. Jaké výsledné písmeno dostaneš? Kritérium:H, protože uživatel správně určil F5a posun C o5vede naH (případně C2+5=7,H7). Odpověď zatím chybí. Otázka neobsahuje další metodický postup a správná hodnotaF5byla právě samostatně uživatelem určena po předchozí opravě; pro nový cíl aplikace posunu naCnebyla dána podstatná nápověda, hints_used=0 pokud další pomoc nebude potřeba. I při úspěchu jde o bezprostřední navazující použití po opravě, nikoli dlouhodobé zvládnutí. Při chybě oddělit počet kroků od započtení výchozíhoC; při úspěchu zkusit nový krátký víceznakový klíč nebo původní AHOJ/KLIC ze strany9 a pak modulo/dešifrování/periodicitu po menších aktivitách. Nové algoritmy zatím nepřidávat bez ověření předpokladu. Další Caesarovy drily uživatel nechce; zachovat také neprobrané afinní a ostatní části celé mapy. Page9 vizuálně ověřena, ostatní grafické části nadále otevřené.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T19:50:51.940231+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "klasicke-2026-10-22-34",
+      "lesson_id": "lekce-2026-10-22-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "activity": "Zašifruj písmenoC s klíčovým písmenemF ve Vigenèrově šifře. Jaké výsledné písmeno dostaneš?",
+      "learner_answer": "H",
+      "evaluation": "Kritérium: výsledekH při klíčovémF5a zprávěC. Uživatel uvedl správné H. Pro tento nový vstupCnebyl zobrazen konkrétní průběh posunu ani výsledek, po zadání nepřišla metodická pomoc, hints_used=0. HodnotuF5předtím uživatel správně určil po opravě číslování; úspěch nyní dokládá aplikaci tohoto známého posunu na nový znak, ne dosud dlouhodobé samostatné zvládnutí celé Vigenèrovy šifry. Dřívější záměnu D4nelze tím automaticky považovat za dlouhodobě odstraněnou, na novém jednoznakovém výpočtu však uspěl. Zpětná vazba potvrdilaH a vysvětlila posunC o5. Před zápisem přes request_user_input_async zobrazena původní víceznaková úloha AHOJ/KLIC z vizuálně ověřené strany9; její výsledek ani číselné převody dosud uživateli nebyly sděleny. Neproběhl nový samostatný výklad další látky.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-dilci-aplikace",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Zašifruj zprávuAHOJ Vigenèrovou šifrou s klíčemKLIC. Používáme A0,B1,…,Z25. Jaký šifrový text dostaneš? Skripta1strana9. Kritérium:KSWL, zpráva0/7/14/9, klíč10/11/8/2, součty10/18/22/11. Odpověď zatím chybí. Tento konkrétní původní příklad dosud nebyl vyřešen uživateli a žádná z jeho číselných mezifází nebyla před otázkou zobrazena; pokud bez další pomoci správně odpoví, hints_used=0. Jde o bezprostřední navazující víceznakové procvičení po dílčí opravě číslování, ne dlouhodobé zvládnutí. Po výsledku podle potřeby projít konkrétní chybnou pozici; při úspěchu doplnit cyklický součet modulo26 na novém příkladu přesZ, dešifrování a periodicitu opakovaného klíče po malých aktivitách. Celou mapu dále držet v rozsahu, afinní šifra a ostatní neprobrané části neztratit. Uživatel výslovně nechce další Caesarovy drily. Vizuálně ověřena page9, ostatní grafické části stále otevřené.",
+      "review_on": "2026-10-23",
+      "created_at": "2026-10-22T19:52:49.205830+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Zašifruj písmenoZ s klíčovým písmenemF ve Vigenèrově šifře. Jaké výsledné písmeno dostaneš? Kritérium:E, Z25+F5=30, zbytek po dělení26je4, E4. Odpověď zatím chybí. Před otázkou vyřešen analogický cyklický součet Y24+D3=27, modulo26dává1/B; u navazujícího pokusu hints_used=1. Úspěch hodnotit jako aplikaci modulo po podpoře, nikoli dlouhodobé zvládnutí. Po výsledku podle obtíží upevnit zbytek/číslování; při úspěchu vložit splatné opakování Kerckhoffsova principu (bezpecnost-a-modely-utoku, zdroj1page12, posledníreview18.10.), případně MAC mezi držiteli klíče a mono/poly, a pak navázat Vigenèrovým dešifrováním a periodicitou opakovaného klíče. Před přidáním další látky zohlednit celou mapu a historii, ne jen poslední checkpoint. Původní AHOJ/KLIC je nyní uživatelem vyřešen a výkladem potvrzen včetně všech4součtů. Explicitní Vigenèrovo dešifrování/vzorce a periodicita/útok, afinita a ostatní dříve evidované mezery zůstávají neprobrané. Uživatel nechce další Caesarovy drily, DATA nevracet automaticky. Vizuálně ověřena page9 prvních skript; ostatní grafický obsah stále otevřený, renderer LibreOffice je dostupný s potřebným IPC oprávněním.",
+      "checkpoint_id": "klasicke-2026-10-23-01",
+      "activity": "Zašifruj zprávuAHOJ Vigenèrovou šifrou s klíčemKLIC. Používáme A0,B1,…,Z25. Jaký šifrový text dostaneš?",
+      "learner_answer": "KSWL",
+      "evaluation": "Kritérium: celý správný výsledekKSWL, odpovídající hodnotám zprávy0/7/14/9 a klíče10/11/8/2, součtům10/18/22/11. Uživatel přesný výsledek uvedl. Konkrétní původní příklad ani jeho číselné mezifáze před otázkou nebyly vyřešeny, bez podstatné nápovědy hints_used=0. Doložen správný víceznakový výpočet po předchozí opravě číslování, nikoli zatím samostatný postup s přetečením přesZ, dešifrování nebo všechny aspekty Vigenere. Po odpovědi zobrazena tabulka všech4převodů a jejich správných číselných součtů z vizuálně ověřené strany9, čímž byl tento konkrétní zdrojový příklad i vysvětlen. Datum uživatele23.10.2026: přes resume ověřen poslední checkpoint34z22.10., splatné opakování, a přes sources shoda obou zdrojů/verzí/hashů s celou dříve obnovenou mapou. History potvrdila celkem71záznamů, poslední33/34načteny znovu, ostatní úplně načtená historie a všechny aktivity zohledněny v kontextu. Nový obecný modulární mechanismus dosud nebyl výslovně vysvětlen, proto zvolen další. Před zápisem přes request_user_input_async zobrazena úlohaZ/Fpo krátkém výkladu modulo26.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-vicesymbolovy-vypocet",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T02:29:18.597242+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Zašifruj písmenoZ s klíčovým písmenemF ve Vigenèrově šifře. Jaké výsledné písmeno dostaneš? Kritérium:E, Z25+F5=30, zbytek po dělení26je4, E4. Odpověď zatím chybí. Před otázkou vyřešen analogický cyklický součet Y24+D3=27, modulo26dává1/B; u navazujícího pokusu hints_used=1. Úspěch hodnotit jako aplikaci modulo po podpoře, nikoli dlouhodobé zvládnutí. Po výsledku podle obtíží upevnit zbytek/číslování; při úspěchu vložit splatné opakování Kerckhoffsova principu (bezpecnost-a-modely-utoku, zdroj1page12, posledníreview18.10.), případně MAC mezi držiteli klíče a mono/poly, a pak navázat Vigenèrovým dešifrováním a periodicitou opakovaného klíče. Před přidáním další látky zohlednit celou mapu a historii, ne jen poslední checkpoint. Původní AHOJ/KLIC je nyní uživatelem vyřešen a výkladem potvrzen včetně všech4součtů. Explicitní Vigenèrovo dešifrování/vzorce a periodicita/útok, afinita a ostatní dříve evidované mezery zůstávají neprobrané. Uživatel nechce další Caesarovy drily, DATA nevracet automaticky. Vizuálně ověřena page9 prvních skript; ostatní grafický obsah stále otevřený, renderer LibreOffice je dostupný s potřebným IPC oprávněním.",
+      "checkpoint_id": "klasicke-2026-10-23-02",
+      "activity": "Výklad cyklického součtu ve Vigenèrově šifře: pokud součet přesáhne25, bereme zbytek po dělení26, nazývaný modulo26. Vlastní vyřešený příklad Y24 s klíčovýmD3 dává27, 27mod26=1, tedyB. Tím se součet vrací na začátek abecedy.",
+      "learner_answer": "",
+      "evaluation": "Dokončeně byl vysvětlen význam operace modulo26jako zbytku po dělení a propojení s cyklickým návratem písmen, s úplným novým příkladem součtu přes konec abecedy. Vychází z přiřazeníA0–Z25, odstavce o modulo26a Vigenèrovy tabulky součtů na celé vizuálně ověřené straně9. Vlastní příkladY/Dnení vydáván za doslovný příklad ve skriptech. Uživatel zatím neprokázal použití nového modulárního součtu; původní AHOJ/KLICměl všechny součty pod26. Před zápisem přes request_user_input_async zobrazena úlohaZs klíčovýmF, odpověď chybí. Navazujícímu pokusu předcházel řešený analogický příklad, jedna podstatná podpora. Další algoritmy, dešifrování a bezpečnostní slabina Vigenere zatím nepřidány.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-modularni-soucet",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T02:29:18.661874+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "klasicke-2026-10-23-03",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "activity": "Zašifruj písmeno Z s klíčovým písmenem F ve Vigenèrově šifře. Jaké výsledné písmeno dostaneš?",
+      "learner_answer": "E",
+      "evaluation": "Kritérium: E, protože Z25+F5=30 a 30mod26=4. Uživatel uvedl správné výsledné písmeno. Před úlohou byl vyřešen analogický příklad Y24+D3=27 na B, proto hints_used=1 dle předchozího checkpointu. Doložena úspěšná aplikace cyklického součtu po podpoře, nikoli dlouhodobé samostatné zvládnutí. Zpětná vazba rozepsala hodnoty, součet a zbytek. Po zohlednění celé mapy a dosavadní načtené historie zvoleno splatné opakování Kerckhoffsova principu (review18.10.). Relevantní souvislý text page12dohledán přes search. Před zápisem přes request_user_input_async zobrazena jedna otázka na dostatečnost utajení algoritmu, bez připomenutí jejího řešení.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-modularni-soucet",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Výrobce tvrdí Naše šifra je bezpečná, protože její algoritmus tajíme. Je samotné utajení algoritmu dostatečným zdůvodněním bezpečnosti? Proč? Kritérium: ne; návrh má odolat znalosti algoritmu a ochrana má záviset na tajném klíči, podle Kerckhoffsova principu. Nevyvozovat, že každý neveřejný algoritmus musí být prolomitelný. Odpověď chybí. Zapsat pod bezpecnost-a-modely-utoku, prednaska1-skripta-v1 page:12. Bezprostředně před otázkou princip ani klíčová odpověď nebyly připomenuty; při samostatném řešení hints_used=0. Po opakování navázat Vigenèrovým dešifrováním a periodicitou/útokem, které stále nejsou vyložené. Zachovat všechny ostatní mezery celé mapy; uživatel nechce další Caesarovy drily. Vizuálně ověřena page9, page12pro toto opakování používá pouze souvislý text.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T02:35:24.957639+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "bezpecnost-2026-10-23-04",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "bezpecnost-a-modely-utoku",
+      "activity_kind": "material",
+      "activity": "Opakování s odstupem: Výrobce tvrdí Naše šifra je bezpečná, protože její algoritmus tajíme. Je samotné utajení algoritmu dostatečným zdůvodněním bezpečnosti? Proč?",
+      "learner_answer": "Není, šifra musí vždy vycházet z algoritmu a z tajného klíče. Znalost algoritmu nesmí vést k prolomení šifry",
+      "evaluation": "Kritérium: odmítnout samotné utajení algoritmu jako dostatečný argument a vysvětlit požadavek odolnosti při známém algoritmu s utajeným příslušným klíčem. Uživatel obojí správně uvedl. Vyjádření musí vždy je v kontextu otázky chápáno jako Kerckhoffsův návrhový požadavek, nikoli tvrzení o všech typech kryptografických nástrojů. Princip před otázkou nebyl zopakován; předcházely úlohy Vigenere, hints_used=0. Doloženo samostatné vybavení po časovém odstupu od výkladu17.10. Zpětná vazba pojmenovala Kerckhoffsův princip. Úspěch pokrývá tento konkrétní princip, nikoli všechny historické požadavky, modely útoků či celou kapitolu. Po porovnání celé mapy a úplné načtené historie včetně aktuálních aktivit zvoleno dosud neprobrané Vigenèrovo dešifrování. Po výkladu před zápisem přes request_user_input_async zobrazena jedna úlohaC/F.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-opakovani-s-odstupem",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:12"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Dešifruj šifrové písmenoC s klíčovým písmenemF ve Vigenèrově šifře. Jaké původní písmeno dostaneš? Kritérium:X, C2−F5=−3, přičtením26dostaneme23=X. Odpověď zatím chybí. Aktivitu zapsat pod klasicke-sifry-a-steganografie, prednaska1-skripta-v1 page:9. Před úlohou přímý výklad odečtení a vyřešený analogický příklad B1−D3=−2, plus26na24=Y; navazující pokus hints_used=1. Po výsledku podle potřeby upevnit záporný rozdíl a číslování, při úspěchu navázat opakováním klíče a jeho periodicitou: rozdělení pozic stejného klíčového písmene na skupiny a slabina opakování. Tato bezpečnostní část Vigenere zatím nebyla vyložena. Další mezery celé mapy včetně afinity/inverze a historických pomůcek zachovány, celkový rozsah se nezúžil; uživatel nechce další Caesarovy drily. Kerckhoffs dnes správně vysvětlen bez nápovědy, znovu zopakovat27.10.; COA/KPA/CPA/CCA a další neprobrané části bezpečnostních kapitol nepovažovat za splněné. Page9 vizuálně ověřena, ostatní grafický obsah dosud neověřen.",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-23T03:25:38.574073+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "klasicke-2026-10-23-05",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "activity": "Nový výklad Vigenèrova dešifrování: po pozicích odečteme hodnotu odpovídajícího písmene opakovaného klíče od hodnoty šifrového písmene a výsledek vezmeme modulo26do rozsahu0–25. Vyřešený příklad B1s klíčemD3:1−3=−2, přičteme26, dostaneme24=Y. Odečtení ruší původně přičtený posun.",
+      "learner_answer": "",
+      "evaluation": "Dokončeně byl představen mechanismus dešifrování po pozicích, modularní návrat záporného rozdílu do0–25a důvod korektnosti opačnou operací. Jde o výslovně označené odvození z aditivního Vigenèrova postupu na vizuálně ověřené straně9, nikoli tvrzení, že původní dokument obsahuje právě příkladB/D. Uživatel dosud neměl dešifrování Vigenere vysvětleno a jeho zvládnutí zatím neověřil. Před zápisem přes request_user_input_async zobrazena úlohaC/F, odpověď chybí. Analogický řešený příklad je jedna podstatná podpora navazujícího pokusu. Periodicita a kryptoanalýza klíče dosud nebyly vyloženy.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-desifrovani",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Dešifruj šifrové písmenoC s klíčovým písmenemF ve Vigenèrově šifře. Jaké původní písmeno dostaneš? Kritérium:X, C2−F5=−3, přičtením26dostaneme23=X. Odpověď zatím chybí. Aktivitu zapsat pod klasicke-sifry-a-steganografie, prednaska1-skripta-v1 page:9. Před úlohou přímý výklad odečtení a vyřešený analogický příklad B1−D3=−2, plus26na24=Y; navazující pokus hints_used=1. Po výsledku podle potřeby upevnit záporný rozdíl a číslování, při úspěchu navázat opakováním klíče a jeho periodicitou: rozdělení pozic stejného klíčového písmene na skupiny a slabina opakování. Tato bezpečnostní část Vigenere zatím nebyla vyložena. Další mezery celé mapy včetně afinity/inverze a historických pomůcek zachovány, celkový rozsah se nezúžil; uživatel nechce další Caesarovy drily. Kerckhoffs dnes správně vysvětlen bez nápovědy, znovu zopakovat27.10.; COA/KPA/CPA/CCA a další neprobrané části bezpečnostních kapitol nepovažovat za splněné. Page9 vizuálně ověřena, ostatní grafický obsah dosud neověřen.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T03:25:38.638422+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku: KlíčPESopakujeme pod zprávou o9písmenech. Pozice zprávy číslujeme od1. Na kterých pozicích se použije klíčové písmenoP? Kritérium:1,4,7 (klíčPESPESPES). Odpověď zatím chybí. Aktivitu zapsat pod klasicke-sifry-a-steganografie, prednaska1-skripta-v1 page:9. Před otázkou vyřešen analogický výběr pozic klíčovéhoKpro čtyřpísmenný klíčKLICna1/5/9; konzervativně navazující pokus hints_used=1. Úspěch hodnotit jen jako určení pozic stejného klíčového písmene po podpoře. Pak podle výsledku ověřit, že tyto skupiny používají stejný posun a proč znalost délky klíče pomůže, případně vložit splatné opakování MAC či mono/poly. Důkladná frekvenční analýza, hledání délky klíče a další kryptoanalytické nástroje nebyly tímto krátkým přehledem vyloženy; jejich zdrojové pasáže15–16zůstávají neprobrané. Afinní šifra s podmínkougcd, transpoziční pomůcky a další části celé mapy nadále v rozsahu. Uživatel nechce další Caesarovy drily. Page9vizuálně ověřena, ostatní grafický obsah dosud neověřen.",
+      "review_on": "2026-10-24",
+      "checkpoint_id": "klasicke-2026-10-23-06",
+      "activity": "Dešifruj šifrové písmenoC s klíčovým písmenemF ve Vigenèrově šifře. Jaké původní písmeno dostaneš?",
+      "learner_answer": "X",
+      "evaluation": "Kritérium:X, C2−F5=−3 a po návratu modulo26dostáváme23. Uživatel správně uvedlX. Před úlohou byl vyřešen analogický příklad B1−D3a návrat záporného rozdílu, dle předchozího checkpointu hints_used=1. Doloženo jednoznakové dešifrování se záporným rozdílem po podpoře, nikoli úplné či dlouhodobé zvládnutí Vigenere. Zpětná vazba potvrdila číselný postup. Celá mapa a dosud načtená historie včetně aktuálních aktivit zohledněny: periodicita a její bezpečnostní důsledek byly dosud neprobrané. Po jejich krátkém výkladu před zápisem přes request_user_input_async zobrazena nová úloha na pozicePpři klíčiPES.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-desifrovani",
+      "created_at": "2026-10-23T03:28:31.064882+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku: KlíčPESopakujeme pod zprávou o9písmenech. Pozice zprávy číslujeme od1. Na kterých pozicích se použije klíčové písmenoP? Kritérium:1,4,7 (klíčPESPESPES). Odpověď zatím chybí. Aktivitu zapsat pod klasicke-sifry-a-steganografie, prednaska1-skripta-v1 page:9. Před otázkou vyřešen analogický výběr pozic klíčovéhoKpro čtyřpísmenný klíčKLICna1/5/9; konzervativně navazující pokus hints_used=1. Úspěch hodnotit jen jako určení pozic stejného klíčového písmene po podpoře. Pak podle výsledku ověřit, že tyto skupiny používají stejný posun a proč znalost délky klíče pomůže, případně vložit splatné opakování MAC či mono/poly. Důkladná frekvenční analýza, hledání délky klíče a další kryptoanalytické nástroje nebyly tímto krátkým přehledem vyloženy; jejich zdrojové pasáže15–16zůstávají neprobrané. Afinní šifra s podmínkougcd, transpoziční pomůcky a další části celé mapy nadále v rozsahu. Uživatel nechce další Caesarovy drily. Page9vizuálně ověřena, ostatní grafický obsah dosud neověřen.",
+      "review_on": "2026-10-24",
+      "checkpoint_id": "klasicke-2026-10-23-07",
+      "activity": "Nový výklad slabiny Vigenèrovy šifry: opakování krátkého klíče vytváří pravidelnost. U KLICse klíčovéKvrací na pozicích1,5,9atd. Pokud útočník zjistí délku klíče, může text rozdělit do skupin se stejným posunem a získat jednodušší dílčí úlohy; více náhradních abeced samo bezpečnost nezaručuje.",
+      "learner_answer": "",
+      "evaluation": "Dokončeně představeno opakování klíče jako perioda a rozdělení pozic podle znalosti délky klíče, včetně konkrétní skupiny1/5/9pro délku4. Výklad vychází z odstavce pod vizuálně ověřenou Vigenèrovou tabulkou na straně9. Nebylo tvrzeno, že znalost délky automaticky odhalí klíč či každou zprávu. Důkladná statistická analýza a metody zjišťování délky klíče zde nebyly vyloženy. Samostatné použití nové látky zatím neověřeno. Před zápisem přes request_user_input_async zobrazena vlastní úloha na klíčPESpro9pozic, odpověď chybí; analogický příklad je jedna podpora.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-periodicita",
+      "created_at": "2026-10-23T03:28:31.125567+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "klasicke-2026-10-23-08",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "activity": "Klíč PES opakujeme pod zprávou o devíti písmenech. Pozice zprávy číslujeme od 1. Na kterých pozicích se použije klíčové písmeno P?",
+      "learner_answer": "1,4,7",
+      "evaluation": "Kritérium: pozice1,4,7při opakováníPESPESPES. Uživatel uvedl všechny tři správné pozice. Před otázkou byl vyřešen analogický příklad KLICs Kna1,5,9, dle předchozího checkpointu hints_used=1. Doloženo určení skupiny pozic stejného klíčového písmene po podpoře, nikoli ještě samostatné vysvětlení kryptoanalytické výhody. Zpětná vazba potvrdila pozice a rozepsala opakovaný klíč. Před zápisem přes request_user_input_async zobrazena navazující otázka na společný posun pozic při známé délce klíče3. Její odpověď dosud nebyla zobrazena v této zpětné vazbě.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-periodicita",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Útočník zjistí, že opakovaný Vigenèrův klíč má délku3. Co mají z hlediska šifrovacího posunu společného pozice1,4,7,10…? Proč? Kritérium: všechny používají stejný posun, protože odpovídají stejnému prvnímu písmenu opakovaného klíče; konkrétní hodnotu klíčového písmene útočník znát nemusí. Odpověď zatím chybí. Bezprostřední zpětná vazba jen rozepsala PESPESPES a poziceP, nevysvětlila znovu společný posun; po zadání nebyla podstatná nápověda. Při samostatné odpovědi bez další pomoci hints_used=0. Jde o navazující aplikaci probírané periodicity, nikoli dlouhodobé zvládnutí celé kryptoanalýzy. Po výsledku vysvětlit zjednodušení na skupiny s pevnou náhradou a podle mapy zvolit základy frekvenční analýzy ze strany15nebo splatné opakování MAC, pak pokračovat neprobranými částmi včetně afinity. Důkladné hledání délky klíče, frekvenční analýza a hillclimbing nebyly dosud vyloženy; před použitím grafických/vzorcových částí zajistit jejich vizuální kontrolu. Další Caesarovy drily uživatel nechce. Celá mapa neprobraného obsahu zůstává v rozsahu.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T03:31:31.401573+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "klasicke-2026-10-23-09",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "klasicke-sifry-a-steganografie",
+      "activity_kind": "material",
+      "activity": "Útočník zjistí, že opakovaný Vigenèrův klíč má délku3. Co mají z hlediska šifrovacího posunu společného pozice1,4,7,10…? Proč?",
+      "learner_answer": "posouvají se o sejtný počet míst",
+      "evaluation": "Kritérium: uvést stejný posun a vysvětlit, že jde vždy o stejné první písmeno opakovaného klíče. Uživatel správně uvedl stejný počet míst. Požadovaný důvod sám nenapsal; je doložena správná společná vlastnost, nikoli ještě samostatné zdůvodnění periodicity. Needs-practice označuje neúplné doložení celého kritéria, nikoli chybný výrok nebo novou mylnou představu. Bez podstatné pomoci po zadání, hints_used=0. Zpětná vazba potvrdila správný posun, doplnila důvod stejného prvního písmene a vysvětlila skupinu s pevnou náhradou. Celá mapa a dosavadní úplná načtená historie zohledněny; frekvenční analýza ze str15stále neprobraná. Pasáž str15znovu načtena přes passages s kontrolou hashe a celá strana vizuálně ověřena exportem dočasné jediné stránky přes LibreOffice. Po úvodním výkladu před zápisem přes request_user_input_async zobrazena otázka na relativní četnostQ.",
+      "result": "needs-practice",
+      "hints_used": 0,
+      "difficulty": "zakladni-pricinna-souvislost",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:9"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Jaká je relativní četnost písmeneQv řetězciQXQQY? Stačí zlomek nebo procenta. Kritérium:3/5=0,6=60procent. Odpověď zatím chybí. Zapsat pod kryptoanalyza-klasickych-sifer, prednaska1-skripta-v1 page:15. Před otázkou výklad definice a vyřešený analogický poměr2z5=40procent; konzervativně hints_used=1. Po výsledku doplnit rozdíl četnosti konkrétního vzorku a pravděpodobnosti jazykového modelu, původní KHOOR/HELLOjako varování před krátkým vzorkem (bez dalšího Caesarova drilu), monogramy/bigramy/trigramy, strukturu slov/kontext a sladění českého předzpracování po menších aktivitách. Na str15zbývá i souhrnná polyalfabetická četnost a meze náhodně vypadajícího výstupu; str16hillclimbing zatím neprobrána. Dřívější příčina společného posunu Vigenèrových skupin byla vysvětlena asistentem, uživatel sám uvedl společný počet míst bez zdůvodnění; později ověřit mechanismus. Afinní, transpoziční pomůcky a ostatní části celé mapy nadále v rozsahu. Uživatel nechce další Caesarovy drily. Nově textově i vizuálně ověřena celá str15prvních skript, náhled /tmp/udzk-visual-20261023/prednaska1-page15.png; spolu se str9ověřená, ostatní grafické části zatím otevřené.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T03:36:01.596301+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-10",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "activity": "První výklad frekvenční analýzy: nerovnoměrné četnosti písmen přirozeného jazyka a zachování počtů u monoalfabetické substituce (20původníchAvede na20Qpři A na Q). Relativní četnost jako počet výskytů dělený délkou textu, příklad2z5=40procent. Četnosti jsou vodítkem, zvlášť krátký vzorek neurčuje automaticky původní písmeno.",
+      "learner_answer": "",
+      "evaluation": "Dokončeně představeny nerovnoměrnost jazykových četností, zachování počtů při pevné substituci, výpočet relativní četnosti a základní omezení krátkého vzorku. Opora ve znovu načtené a nově celé vizuálně ověřené str15, včetně vzorce f(x)=N_x/n a původního textového příkladu20A/20Q. Současný výklad nepokrývá automaticky celou stranu: rozdíl vzorku a jazykového modelu, KHOOR/HELLO, všechny typy vodítek, české předzpracování, polyalfabetické rozptýlení četností a meze náhodného vzhledu dosud nebyly podrobně vyloženy. Samotná vizuální kontrola není studijní výsledek; tento checkpoint zapisuje až konkrétní výklad. Před zápisem přes request_user_input_async zobrazena vlastní úlohaQXQQY, odpověď chybí.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-frekvencni-analyza",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Jaká je relativní četnost písmeneQv řetězciQXQQY? Stačí zlomek nebo procenta. Kritérium:3/5=0,6=60procent. Odpověď zatím chybí. Zapsat pod kryptoanalyza-klasickych-sifer, prednaska1-skripta-v1 page:15. Před otázkou výklad definice a vyřešený analogický poměr2z5=40procent; konzervativně hints_used=1. Po výsledku doplnit rozdíl četnosti konkrétního vzorku a pravděpodobnosti jazykového modelu, původní KHOOR/HELLOjako varování před krátkým vzorkem (bez dalšího Caesarova drilu), monogramy/bigramy/trigramy, strukturu slov/kontext a sladění českého předzpracování po menších aktivitách. Na str15zbývá i souhrnná polyalfabetická četnost a meze náhodně vypadajícího výstupu; str16hillclimbing zatím neprobrána. Dřívější příčina společného posunu Vigenèrových skupin byla vysvětlena asistentem, uživatel sám uvedl společný počet míst bez zdůvodnění; později ověřit mechanismus. Afinní, transpoziční pomůcky a ostatní části celé mapy nadále v rozsahu. Uživatel nechce další Caesarovy drily. Nově textově i vizuálně ověřena celá str15prvních skript, náhled /tmp/udzk-visual-20261023/prednaska1-page15.png; spolu se str9ověřená, ostatní grafické části zatím otevřené.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T03:36:01.661934+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku: V šifrovém textu dlouhém10písmen je nejčastější znakX. Můžeš s jistotou říct, žeXzastupuje nejčastější písmeno daného jazyka? Proč? Kritérium: ne; krátký konkrétní vzorek se může od obecných jazykových četností odchýlit, nejčastější znak je jen hypotéza a je potřeba další vodítko. Odpověď zatím chybí. Před otázkou přímý výklad a vyřešený proti-příkladKHOOR/HELLO, proto navazující pokus hints_used=1. Po výsledku navázat dalšími vodítky frekvenční analýzy: monogramy/bigramy/trigramy, struktura slov a kontext; pak sladění českého předzpracování a polyalfabetické rozptýlení četností, meze náhodného vzhledu. Tyto další části str15dosud nejsou vyložené, hillclimbing str16také ne. Původní příkladKHOOR/HELLOjiž vysvětlen jako ilustrace statistického omezení, nikoli další Caesarův dril. Afinní a ostatní neprobrané části mapy držet v rozsahu. Page9a15vizuálně ověřeny, ostatní grafický obsah dosud neověřen.",
+      "review_on": "2026-10-24",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-11",
+      "activity": "Jaká je relativní četnost písmeneQv řetězciQXQQY? Stačí ji uvést jako zlomek nebo v procentech.",
+      "learner_answer": "3/5",
+      "evaluation": "Kritérium:3/5nebo ekvivalent0,6či60procent. Uživatel správně uvedl3/5. Před úlohou výklad definice a analogický poměr2z5=40procent, dle předchozího checkpointu hints_used=1. Doložen správný výpočet relativní četnosti po podpoře, nikoli samostatná kompletní statistická analýza. Zpětná vazba potvrdila ekvivalent60procent. Po porovnání celé mapy a dosud úplné načtené historie s aktuálními aktivitami zvolen dosud nevyložený rozdíl vzorku a jazykového modelu a původní příkladKHOOR/HELLO. Po výkladu přes request_user_input_async zobrazena jedna otázka na jistotu identifikace nejčastějšího znaku před zápisem.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-relativni-cetnost",
+      "created_at": "2026-10-23T03:45:58.073370+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku: V šifrovém textu dlouhém10písmen je nejčastější znakX. Můžeš s jistotou říct, žeXzastupuje nejčastější písmeno daného jazyka? Proč? Kritérium: ne; krátký konkrétní vzorek se může od obecných jazykových četností odchýlit, nejčastější znak je jen hypotéza a je potřeba další vodítko. Odpověď zatím chybí. Před otázkou přímý výklad a vyřešený proti-příkladKHOOR/HELLO, proto navazující pokus hints_used=1. Po výsledku navázat dalšími vodítky frekvenční analýzy: monogramy/bigramy/trigramy, struktura slov a kontext; pak sladění českého předzpracování a polyalfabetické rozptýlení četností, meze náhodného vzhledu. Tyto další části str15dosud nejsou vyložené, hillclimbing str16také ne. Původní příkladKHOOR/HELLOjiž vysvětlen jako ilustrace statistického omezení, nikoli další Caesarův dril. Afinní a ostatní neprobrané části mapy držet v rozsahu. Page9a15vizuálně ověřeny, ostatní grafický obsah dosud neověřen.",
+      "review_on": "2026-10-24",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-12",
+      "activity": "Výklad četnosti vzorku vs jazykového modelu: relativní četnost popisuje konkrétní vzorek, pravděpodobnosti jazykového modelu odhadujeme z referenčních textů. Krátká zpráva se může hodně odchýlit. Původní příkladKHOORmá dvěOzpěti(40procent), ale otevřený textHELLOukazuje, žeOzastupujeL. Nejčastější šifrový znak proto není jisté určení původního písmene, jen hypotéza.",
+      "learner_answer": "",
+      "evaluation": "Dokončeně vysvětlen rozdíl empirického vzorku a jazykového modelu, omezení krátkého vzorku a konkrétní původní příkladKHOOR/HELLOz vizuálně ověřené str15včetně četnostiO2/5. Nebyla vyžadována další Caesarova výpočetní úloha; příklad ilustruje statistickou nejistotu. Obecná věta o krátkém vzorku byla dříve zmíněna, nyní rozvedena s rozdílem modelu a konkrétním protipříkladem. Samostatné zdůvodnění uživatele zatím neověřeno. Před zápisem přes request_user_input_async zobrazena otázka na nejčastějšíXv10znakovém textu, odpověď chybí. Další typy vodítek a předzpracování dosud nevyloženy.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-statisticka-interpretace",
+      "created_at": "2026-10-23T03:45:58.136487+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "misconceptions": [
+        "Omezení určení původního písmene vysvětlil pouze tím, žeXvzniklo šifrováním jiného písmene; vliv malého vzorku a rozdíl jeho četností od jazykového modelu zatím sám nezdůvodnil."
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: V nezašifrovaném slověKRKtvoříKdvě třetiny znaků. Dokazuje to, žeKtvoří dvě třetiny všech písmen v češtině? Proč? Kritérium: ne; jde o krátký konkrétní a nereprezentativní vzorek, jeho četnost nelze zobecnit na celý jazyk, nejistota existuje i bez šifrování. Odpověď chybí. Před otázkou přímý opravný výklad s tímto slovem a stejným statistickým principem, proto hints_used=1. Po opravě přejít k dalším vodítkům (monogramy/bigramy/trigramy,struktura slov,kontext) a později samostatně ověřit krátký vzorek na jiném příkladu. Předzpracování českých dat, polyalfabetické rozptýlení četností a meze náhodného vzhledu ještě nevyloženy, hillclimbing str16také ne. Důkladné hledání délky klíče a afinní šifra zůstávají neprobrané. Zachovat celou mapu, uživatel nechce další Caesarovy drily. Page9a15vizuálně ověřeny, ostatní grafický obsah zatím ne.",
+      "review_on": "2026-10-24",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-13",
+      "activity": "V šifrovém textu dlouhém10písmen je nejčastější znakX. Můžeš s jistotou říct, žeXzastupuje nejčastější písmeno daného jazyka? Proč?",
+      "learner_answer": "ne, protože X je šifrované z jiného písmena",
+      "evaluation": "Kritérium: odmítnout jistotu a zdůvodnit ji malým vzorkem a možnou odchylkou od jazykových četností. Uživatel správně odmítl jistotu, ale jako důvod uvedl pouze náhradu původního písmene šifrovýmX. Samotné přejmenování nezdůvodňuje, proč nejčastější znak krátkého vzorku nemusí odpovídat nejčastějšímu písmenu obecného jazykového modelu. Není tím doloženo, že by uživatel chápal statistickou nejistotu; není mu však připisována další domnělá teorie o šifrách. Před úlohou výklad a původní protipříkladKHOOR/HELLO, dle předchozího checkpointu hints_used=1. Zpětná vazba potvrdila správný závěr a přesunula vysvětlení na malý nereprezentativní vzorek i v otevřeném textuKRK. Před zápisem přes request_user_input_async zobrazena cílená otázka zobecnění četnostiKz tohoto otevřeného slova.",
+      "result": "needs-practice",
+      "hints_used": 1,
+      "difficulty": "zakladni-statisticka-interpretace",
+      "created_at": "2026-10-23T04:03:29.327070+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "misconceptions": [
+        "Omezení určení původního písmene vysvětlil pouze tím, žeXvzniklo šifrováním jiného písmene; vliv malého vzorku a rozdíl jeho četností od jazykového modelu zatím sám nezdůvodnil."
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: V nezašifrovaném slověKRKtvoříKdvě třetiny znaků. Dokazuje to, žeKtvoří dvě třetiny všech písmen v češtině? Proč? Kritérium: ne; jde o krátký konkrétní a nereprezentativní vzorek, jeho četnost nelze zobecnit na celý jazyk, nejistota existuje i bez šifrování. Odpověď chybí. Před otázkou přímý opravný výklad s tímto slovem a stejným statistickým principem, proto hints_used=1. Po opravě přejít k dalším vodítkům (monogramy/bigramy/trigramy,struktura slov,kontext) a později samostatně ověřit krátký vzorek na jiném příkladu. Předzpracování českých dat, polyalfabetické rozptýlení četností a meze náhodného vzhledu ještě nevyloženy, hillclimbing str16také ne. Důkladné hledání délky klíče a afinní šifra zůstávají neprobrané. Zachovat celou mapu, uživatel nechce další Caesarovy drily. Page9a15vizuálně ověřeny, ostatní grafický obsah zatím ne.",
+      "review_on": "2026-10-24",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-14",
+      "activity": "Opravný výklad: deset písmen nemusí reprezentovat celý jazyk. I nezašifrovanéKRKmá nejčastějšíK, což neprokazuje jeho prvenství v češtině. Pevná substituce zachová četnosti konkrétního textu, který však může být pro jazyk netypický.",
+      "learner_answer": "",
+      "evaluation": "Dokončeně vysvětleno, že statistická nejistota vzniká už u krátkého otevřeného textu, a oddělena od pouhé náhrady symbolů. Vlastní příkladKRKje aplikací pravidla krátkého vzorku ze str15, nikoli doslovný zdrojový příklad. Nebylo tvrzeno konkrétní skutečné pořadí českých písmen. Uživatelovo použití této opravy dosud neověřeno. Před zápisem přes request_user_input_async zobrazena otázka, zda2/3Kve slově dokazují2/3Kvcelém jazyce, odpověď chybí. Navazující pokus po přímé podpoře hints_used=1. Další druhy vodítek zatím nepřidány.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-oprava-statistickeho-vzorku",
+      "created_at": "2026-10-23T04:03:29.389949+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Vypiš všechny sousední bigramy řetězceKOKOS. Opakované dvojice také zopakuj. Kritérium:KO,OK,KO,OS. Odpověď zatím chybí. Před otázkou vyřešen analogický příklad ABCDnaAB/BC/CDa výslovně vysvětlen překryv, proto navazující pokus hints_used=1. Úspěch dokládá rozpoznání sousedních dvojic po podpoře, nikoli celé statistické luštění. Podle výsledku ověřit četnost opakované dvojice či trojice a pak navázat dalším zdrojovým vodítkem: první písmena, krátká slova, opakované koncovky, jazyk/obor/formát/očekávaný obsah. České předzpracování, polyalfabetické rozptýlení četností a meze náhodného vzhledu ze str15stále neprobrané; hillclimbing str16také ne. Příčinu Vigenèrovy skupiny stejných posunů uživatel zatím sám nevyslovil, doplnil ji asistent; později ověřit. Afinní a další části celé mapy zachovány, další Caesarovy drily uživatel nechce. Page9a15vizuálně ověřeny, ostatní grafické části stále otevřené.",
+      "review_on": "2026-10-24",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-15",
+      "activity": "V nezašifrovaném slověKRKtvoříKdvě třetiny znaků. Dokazuje to, žeKtvoří dvě třetiny všech písmen v češtině? Proč?",
+      "learner_answer": "ne. protože ton ejosu četnosti v abecedě ale vkonkrétním slově",
+      "evaluation": "Kritérium: odmítnout zobecnění a rozlišit četnost konkrétního krátkého slova od celého jazyka. Uživatel správně uvedlne a výslovně odlišil konkrétní slovo od obecného kontextu. Formulace četnosti v abecedě je z kontextu míněna jako jazykové četnosti; zpětná vazba přesně pojmenovala celý jazyk. Překlepy se nehodnotí. Oprava předchozího zdůvodnění pouhou existencí šifrování je v tomto otevřeném příkladu správně použita. Před úlohou přímý výklad stejného příkladuKRK, dle předchozího checkpointu hints_used=1. Doloženo pochopení po podpoře, samostatný přenos s odstupem zbývá. Po porovnání celé mapy a dosavadní načtené historie s aktuálními aktivitami zvoleny dosud nevyložené mono/bi/trigramy str15. Po jejich výkladu před zápisem přes request_user_input_async zobrazena úlohaKOKOS.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-oprava-vzorku",
+      "created_at": "2026-10-23T04:11:36.664365+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Vypiš všechny sousední bigramy řetězceKOKOS. Opakované dvojice také zopakuj. Kritérium:KO,OK,KO,OS. Odpověď zatím chybí. Před otázkou vyřešen analogický příklad ABCDnaAB/BC/CDa výslovně vysvětlen překryv, proto navazující pokus hints_used=1. Úspěch dokládá rozpoznání sousedních dvojic po podpoře, nikoli celé statistické luštění. Podle výsledku ověřit četnost opakované dvojice či trojice a pak navázat dalším zdrojovým vodítkem: první písmena, krátká slova, opakované koncovky, jazyk/obor/formát/očekávaný obsah. České předzpracování, polyalfabetické rozptýlení četností a meze náhodného vzhledu ze str15stále neprobrané; hillclimbing str16také ne. Příčinu Vigenèrovy skupiny stejných posunů uživatel zatím sám nevyslovil, doplnil ji asistent; později ověřit. Afinní a další části celé mapy zachovány, další Caesarovy drily uživatel nechce. Page9a15vizuálně ověřeny, ostatní grafické části stále otevřené.",
+      "review_on": "2026-10-24",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-16",
+      "activity": "Výklad dalších četnostních vodítek: monogramy jsou jednotlivé znaky, bigramy sousední dvojice, trigramy sousední trojice. Vlastní příkladABCDmá bigramyAB,BC,CDvčetně překryvu. Takové skupiny zachycují návaznost písmen, kterou samotné počty jednotlivých znaků nezachytí.",
+      "learner_answer": "",
+      "evaluation": "Dokončeně představeny tři typy znakových skupin, princip překrývajících se sousedních dvojic a účel zachycení pořadí/návaznosti nad monogramové četnosti. Vychází z odrážek monogramy/bigramy/trigramy na vizuálně ověřené str15, vlastníABCDje jednoduché rozvedení. Trigramy zatím pouze definovány, konkrétně neprocvičeny; neproběhlo statistické skórování, výklad vodítek struktury slov/kontextu ani předzpracování. Před zápisem přes request_user_input_async zobrazena úloha vypsat bigramyKOKOSvčetně opakování; odpověď chybí. Analogický příklad je jedna podpora navazujícího pokusu.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-ngramy",
+      "created_at": "2026-10-23T04:11:36.727189+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-17",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "activity": "Vypiš všechny sousední bigramy řetězce KOKOS. Opakované dvojice také zopakuj.",
+      "learner_answer": "KO, OK, KO, OS",
+      "evaluation": "Kritérium: všechny sousední dvojice KO, OK, KO, OS včetně překryvu a opakovanéhoKO. Uživatel uvedl přesný správný seznam. Před úlohou vyřešen analogický příkladABCDnaAB/BC/CD, dle předchozího checkpointu hints_used=1. Doloženo správné vypsání překrývajících se bigramů po podpoře, nikoli celé statistické luštění. Zpětná vazba potvrdila všechny dvojice i opakováníKO. Před zápisem přes request_user_input_async zobrazena navazující otázka na trigramy téhož řetězce; jejich konkrétní výsledek dosud nebyl sdělen.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-bigramy",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Vypiš všechny sousední trigramy řetězceKOKOS. Kritérium:KOK,OKO,KOS. Odpověď zatím chybí. Trigramy byly dříve definovány jako sousední trojice, ale vyřešený příklad trigramů ani konkrétní výsledek tohoto zadání zatím poskytnuty nebyly; připomenutí známého významu trojice a pozitivní zpětná vazba k bigramům se samy nepovažují za metodickou nápovědu. Pokud odpoví bez další pomoci, hints_used=0. Hodnotit bezprostřední přenos ze sousedních dvojic na trojice, nikoli dlouhodobé zvládnutí frekvenční analýzy. Potom navázat dosud nevyloženými vodítky struktury slov a kontextu ze str15, dále českým předzpracováním, polyalfabetickým rozptýlením četností a mezemi náhodného vzhledu. Hillclimbing str16a ostatní mezery celé mapy zachovány. Zopakovat statistický krátký vzorek později bez okamžitého připomenutí. Další Caesarovy drily uživatel nechce. Page9a15vizuálně ověřeny, ostatní grafický obsah zatím neověřen.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T06:40:01.178647+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Slovo zašifrované pevnou monoalfabetickou substitucí má tvarABBA. Který návrh původního slova odpovídá jeho vzoru opakování:OTTO,neboMAMA? Proč? Kritérium:OTTO, protože první a poslední pozice odpovídají témužA a prostřední dvojice témužB (A/O,B/T); MAMA tento vzor nesplňuje. Jde o kompatibilitu vzoru, nikoli jistotu skutečného překladu. Odpověď zatím chybí. Před otázkou obecný princip stálé náhrady a vzoru, žádný vyřešený konkrétní obdobný vzor nebyl zobrazen a po zadání není metodická pomoc; při správném samostatném zdůvodnění hints_used=0. Potom navázat sladěním českého předzpracování str15(A/Á,mezery,velikost,CH,oborovýkontext), následně polyalfabetickým rozptýlením celkových četností a mezemi náhodně vypadajícího výstupu; tyto části jsou dosud neprobrané. Hillclimbing str16a další témata celé mapy včetně afinity otevřené. Statistickou nejistotu krátkého vzorku později zopakovat bez přímého řešeného příkladu. Uživatel nechce další Caesarovy drily. Page9a15vizuálně ověřeny, ostatní grafický obsah dosud neověřen.",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-18",
+      "activity": "Vypiš všechny sousední trigramy řetězceKOKOS.",
+      "learner_answer": "KOK, OKO,KOS",
+      "evaluation": "Kritérium: všechny sousední trojiceKOK,OKO,KOS. Uživatel uvedl správný seznam včetně překryvu; mezery po čárkách nejsou významové. Trigramy byly předem definovány, ale konkrétní řešený příklad trigramů před úlohou poskytnut nebyl a po zadání bez pomoci, hints_used=0. Doložen bezprostřední samostatný přenos ze dvojic na trojice, nikoli celé statistické luštění či dlouhodobé zvládnutí. Zpětná vazba potvrdila všechny tři. Po porovnání celé mapy s úplně dříve načtenou historií a aktuálními aktivitami zvoleny dosud nevyložené zdrojové odrážky struktura slov a kontext. Po jejich výkladu přes request_user_input_async zobrazena vlastní úlohaABBA/OTTO/MAMA před zápisem.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-trigramy",
+      "review_on": "2026-10-26",
+      "created_at": "2026-10-23T08:07:20.073780+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Slovo zašifrované pevnou monoalfabetickou substitucí má tvarABBA. Který návrh původního slova odpovídá jeho vzoru opakování:OTTO,neboMAMA? Proč? Kritérium:OTTO, protože první a poslední pozice odpovídají témužA a prostřední dvojice témužB (A/O,B/T); MAMA tento vzor nesplňuje. Jde o kompatibilitu vzoru, nikoli jistotu skutečného překladu. Odpověď zatím chybí. Před otázkou obecný princip stálé náhrady a vzoru, žádný vyřešený konkrétní obdobný vzor nebyl zobrazen a po zadání není metodická pomoc; při správném samostatném zdůvodnění hints_used=0. Potom navázat sladěním českého předzpracování str15(A/Á,mezery,velikost,CH,oborovýkontext), následně polyalfabetickým rozptýlením celkových četností a mezemi náhodně vypadajícího výstupu; tyto části jsou dosud neprobrané. Hillclimbing str16a další témata celé mapy včetně afinity otevřené. Statistickou nejistotu krátkého vzorku později zopakovat bez přímého řešeného příkladu. Uživatel nechce další Caesarovy drily. Page9a15vizuálně ověřeny, ostatní grafický obsah dosud neověřen.",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-19",
+      "activity": "Výklad dalších vodítek kryptoanalýzy: první písmena, krátká slova a opakující se koncovky. U pevné monoalfabetické substituce lze využít vzor opakování, protože stejný šifrový znak odpovídá stále stejnému původnímu písmenu. Kontext zahrnuje očekávaný jazyk, obor, formát a předpokládaný obsah a omezuje možné výklady.",
+      "learner_answer": "",
+      "evaluation": "Dokončeně představeny zdrojové odrážky pozice/struktura slov a kontext z vizuálně ověřené str15. Vzor opakování uvnitř slova je vlastní rozvedení stálé náhrady a slovní struktury, ne tvrzení o doslovném příkladu ve skriptech. Není tvrzeno, že jediný vzor či kontext zaručí správný překlad. Uživatelovo použití těchto vodítek zatím neověřeno. Před zápisem přes request_user_input_async zobrazena vlastní úlohaABBAse dvěma návrhy, bez vyřešeného analogického vzoru. České předzpracování a zbývající části str15dosud nevyloženy.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-struktura-a-kontext",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T08:07:20.135004+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku: V analyzovaném textu slučujemeA a Ádo jednoho znakuA. Referenční tabulka je počítá odděleně. Jak upravíš referenční tabulku, aby šly četnosti správně porovnat? Kritérium: sloučit referenční kategorieA a Áa jejich počty/četnosti sečíst, případně stejně odstranit diakritiku z referenčního korpusu a přepočítat tabulku. Odpověď chybí. Před otázkou obecný výklad s přímo uvedeným slučovánímA/Á, konzervativně navazující pokus hints_used=1. Po výsledku navázat dosud nevyloženými závěry str15: polyalfabetická substituce rozptyluje četnosti původního písmene mezi více šifrových symbolů, souhrnná tabulka bývá méně užitečná; periodicita může pomoci skupiny znovu oddělit. Pak odlišit skrytí jazykových vztahů u moderní šifry od falešného důkazu bezpečnosti náhodným vzhledem. Hillclimbing str16, afinita, transpoziční pomůcky a další obsah celé mapy zachovány neprobrané. Později zopakovat nejistotu malého vzorku a vysvětlení příčiny Vigenèrových skupin bez podpory. Uživatel nechce další Caesarovy drily. Page9a15vizuálně ověřeny, zbytek grafického obsahu dosud neověřen.",
+      "review_on": "2026-10-24",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-20",
+      "activity": "Slovo zašifrované pevnou monoalfabetickou substitucí má tvarABBA. Který návrh původního slova odpovídá jeho vzoru opakování:OTTO,neboMAMA? Proč?",
+      "learner_answer": "OTTO bavíme se o monoalfabetické abecedě",
+      "evaluation": "Cíl: vybrat návrh kompatibilní se vzorem opakování při pevné monoalfabetické substituci. Uživatel správně vybralOTTOa jako důvod odkázal na monoalfabetický typ; tím navázal na právě vysvětlenou stálou náhradu. Konkrétní shodu pozic sám nerozepsal, zpětná vazba ji doplnila jako dvěA/dvěOa dvěB/dvěT. Doložen správný výběr s relevantním odkazem na konstrukční vlastnost, nikoli úplný samostatný slovní rozbor nebo skutečné rozluštění. Před úlohou byl obecný výklad principu, žádný konkrétní vyřešený analogický vzor a po zadání bez pomoci, hints_used=0. Po zohlednění celé mapy a dosavadní úplně načtené historie zvoleno dosud nevyložené sladění českého předzpracování str15. Po výkladu přes request_user_input_async zobrazena otázka slučování referenčníchA/Ápřed zápisem.",
+      "result": "passed",
+      "hints_used": 0,
+      "difficulty": "zakladni-vzor-slov",
+      "created_at": "2026-10-23T08:46:50.940072+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku: V analyzovaném textu slučujemeA a Ádo jednoho znakuA. Referenční tabulka je počítá odděleně. Jak upravíš referenční tabulku, aby šly četnosti správně porovnat? Kritérium: sloučit referenční kategorieA a Áa jejich počty/četnosti sečíst, případně stejně odstranit diakritiku z referenčního korpusu a přepočítat tabulku. Odpověď chybí. Před otázkou obecný výklad s přímo uvedeným slučovánímA/Á, konzervativně navazující pokus hints_used=1. Po výsledku navázat dosud nevyloženými závěry str15: polyalfabetická substituce rozptyluje četnosti původního písmene mezi více šifrových symbolů, souhrnná tabulka bývá méně užitečná; periodicita může pomoci skupiny znovu oddělit. Pak odlišit skrytí jazykových vztahů u moderní šifry od falešného důkazu bezpečnosti náhodným vzhledem. Hillclimbing str16, afinita, transpoziční pomůcky a další obsah celé mapy zachovány neprobrané. Později zopakovat nejistotu malého vzorku a vysvětlení příčiny Vigenèrových skupin bez podpory. Uživatel nechce další Caesarovy drily. Page9a15vizuálně ověřeny, zbytek grafického obsahu dosud neověřen.",
+      "review_on": "2026-10-24",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-21",
+      "activity": "Výklad srovnatelnosti četností: zpráva a referenční data musejí mít stejné předzpracování. Pravidla zahrnují slučováníA/Á,malých/velkých písmen,započítávání mezer a případnéCHjako jeden znak. Rozdíly mění počty a někdy délku textu. Oborový kontext je také důležitý, odborný text může mít jiné četnosti než běžná konverzace.",
+      "learner_answer": "",
+      "evaluation": "Dokončeně vyložena pasáž českého předzpracování na vizuálně ověřené str15včetně všech uvedených rozdílů a oborové odlišnosti. Požadavek stejného zpracování je podmínkou smysluplného přímého porovnání; netvrdí, že různé tabulky nelze před porovnáním převést na společné kategorie. Samostatná aplikace zatím neověřena. Před zápisem přes request_user_input_async zobrazena otázka na sloučení referenčníchA/Á, odpověď chybí. Závěrečné části str15o souhrnných polyalfabetických četnostech a mezích náhodného vzhledu dosud nebyly vyloženy.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-predzpracovani",
+      "created_at": "2026-10-23T08:46:51.003682+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Proč u opakovaného Vigenèrova klíče pomůže počítat četnosti zvlášť pro každou skupinu pozic se stejným písmenem klíče? Kritérium: v každé skupině je stejný posun/pevná náhrada, takže výskyty stejného původního písmene nejsou v této skupině rozptýleny různými klíčovými posuny a lze využít jazykové četnosti. Odpověď zatím chybí. Před otázkou přímý výklad polyalfabetického rozdělení četností a vyřešený příklad AAAA/BCBC, proto hints_used=1. Po výsledku podle potřeby navázat posledním dosud nevyloženým závěrem str15: moderní šifra má jazykové vztahy skrývat, ale náhodně vypadající výstup sám bezpečnost neprokazuje. Pak str16hillclimbing či splatné opakování MAC, přičemž před další novou látkou porovnat celou mapu s kompletní relevantní historií. Hillclimbing, afinita a ostatní dříve evidované části stále neprobrané, uživatel nechce další Caesarovy drily. Page9a15vizuálně ověřeny, ostatní grafický obsah zatím neověřen.",
+      "review_on": "2026-10-24",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-22",
+      "activity": "V analyzovaném textu slučujemeA a Ádo jednoho znakuA. Referenční tabulka je počítá odděleně. Jak upravíš referenční tabulku pro správné porovnání?",
+      "learner_answer": "A' -> A",
+      "evaluation": "Kritérium: sjednotit referenčníA/Ás analyzovaným textem, tedy sloučit kategorie, jejich počty či četnosti agregovat. ZápisApostrofzaAje v kontextu úlohy jednoznačně míněn jakoÁ; uživatel správně navrhl převodÁnaA. Zpětná vazba potvrdila sjednocení a explicitně doplnila sečtení referenčních počtů/četností; tento agregační detail sám uživatel nenapsal. Doložen správný návrh normalizace, nikoli samostatná implementace či numerická agregace. Před úlohou obecný výklad přímo uváděl slučováníA/Á, dle předchozího checkpointu hints_used=1. Po zohlednění celé mapy a kompletně dříve načtené historie s aktuálními aktivitami zvolen dosud nevyložený závěrečný odstavec str15o polyalfabetickém rozptýlení četností. Po výkladu přes request_user_input_async zobrazena integrační otázka na Vigenèrovy skupiny před zápisem.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-predzpracovani",
+      "created_at": "2026-10-23T08:50:11.454072+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Proč u opakovaného Vigenèrova klíče pomůže počítat četnosti zvlášť pro každou skupinu pozic se stejným písmenem klíče? Kritérium: v každé skupině je stejný posun/pevná náhrada, takže výskyty stejného původního písmene nejsou v této skupině rozptýleny různými klíčovými posuny a lze využít jazykové četnosti. Odpověď zatím chybí. Před otázkou přímý výklad polyalfabetického rozdělení četností a vyřešený příklad AAAA/BCBC, proto hints_used=1. Po výsledku podle potřeby navázat posledním dosud nevyloženým závěrem str15: moderní šifra má jazykové vztahy skrývat, ale náhodně vypadající výstup sám bezpečnost neprokazuje. Pak str16hillclimbing či splatné opakování MAC, přičemž před další novou látkou porovnat celou mapu s kompletní relevantní historií. Hillclimbing, afinita a ostatní dříve evidované části stále neprobrané, uživatel nechce další Caesarovy drily. Page9a15vizuálně ověřeny, ostatní grafický obsah zatím neověřen.",
+      "review_on": "2026-10-24",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-23",
+      "activity": "Výklad polyalfabetických četností: výskyty téhož původního písmene se mohou rozdělit mezi více šifrových znaků. Vlastní příklad střídáníA naB/CpřevedeAAAAnaBCBC, původních100procentAse rozloží na50procentB a50procentC. Celkové četnosti mohou jazykové vztahy zastřít; u opakovaného klíče pomáhá zkoumat skupiny pozic stejného klíčového písmene zvlášť.",
+      "learner_answer": "",
+      "evaluation": "Dokončeně rozveden závěrečný odstavec polyalfabetické substituce z vizuálně ověřené str15a jeho vztah k opakovanému klíči, s vlastním kvantitativním příkladem rozptýlení četností. Nejde o tvrzení, že každá polyalfabetická šifra má rovnoměrné četnosti nebo automaticky odolá všem jazykovým útokům. Znalost skupin už byla dříve probírána, nově vysvětlen důsledek jejich smíchání pro četnosti celé zprávy. Samostatná aplikace zatím neověřena. Před zápisem přes request_user_input_async zobrazena otázka proč oddělit skupiny podle klíčového písmene; odpověď chybí. Meze argumentu náhodným vzhledem u moderních šifer z dalšího odstavce dosud nevyloženy.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-polyalfabeticke-cetnosti",
+      "created_at": "2026-10-23T08:50:11.512738+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Autor šifry zjistil, že její výstup má téměř stejné četnosti všech znaků. Tvrdí proto, že šifra je bezpečná. Stačí tato kontrola jako důkaz? Proč? Kritérium: ne; kontrola odstraňuje nebo neodhaluje jen konkrétní četnostní stopu, neprověřuje jiné závislosti/útoky, klíč, implementaci a podmínky použití. Nemusí vyjmenovat všechny oblasti, stačí konkrétně vystihnout, že jeden statistický znak nezaručuje celkovou bezpečnost. Odpověď chybí. Před otázkou přímý výklad tohoto omezení, navazující pokus hints_used=1. Po výsledku podle obtíží upevnit omezenost kontrol, při úspěchu vložit splatné opakování MAC mezi držiteli klíče nebo začít hillclimbing str16po vizuálním ověření. Textové části str15jsou nyní konkrétně vysvětlené, ověření samostatného použití různé: viz všechny checkpointy četností, krátkého vzorku, ngramů, vzoru slova, předzpracování, polyalfabetických skupin a tohoto posledního odstavce. Samotné pokrytí str15neznamená celé materiály probrané; hillclimbing, afinita a ostatní mezery celé mapy zůstávají otevřené. Uživatel nechce další Caesarovy drily. Vizuálně ověřena page9a15, ostatní grafický obsah zatím ne.",
+      "review_on": "2026-10-24",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-24",
+      "activity": "Proč u opakovaného Vigenèrova klíče pomůže počítat četnosti zvlášť pro každou skupinu pozic se stejným písmenem klíče?",
+      "learner_answer": "protože dohomady by se ztartila informace o referenci",
+      "evaluation": "Uživatel kvalitativně správně postihl, že spojení skupin zhoršuje použitelnou vazbu na referenční četnosti. Formulace informace o referenci je nepřesná, ale v daném kontextu je chápána jako zastření jazykové četnostní stopy, nikoli doslovné zmizení referenční tabulky. Zpětná vazba tuto interpretaci výslovně zpřesnila: míchají se různé posuny, zatímco v jedné skupině je stálý posun a zachované počty. Uživatel sám přesný mechanismus stálého posunu a zachování počtů nenapsal; passed se vztahuje na správnou kvalitativní intuici o vlivu smíchání, nikoli úplné samostatné odvození. Před otázkou přímý výklad a vyřešené rozděleníAAAA/BCBC, hints_used=1. Po zohlednění celé mapy a kompletní dosud načtené historie s aktuálními aktivitami zvolen poslední dosud nevyložený odstavec str15o moderním skrytí jazykových vztahů a mezích náhodného vzhledu. Po výkladu přes request_user_input_async zobrazena jedna otázka na statistický důkaz před zápisem.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-souvislost-cetnosti",
+      "created_at": "2026-10-23T09:11:17.593540+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Autor šifry zjistil, že její výstup má téměř stejné četnosti všech znaků. Tvrdí proto, že šifra je bezpečná. Stačí tato kontrola jako důkaz? Proč? Kritérium: ne; kontrola odstraňuje nebo neodhaluje jen konkrétní četnostní stopu, neprověřuje jiné závislosti/útoky, klíč, implementaci a podmínky použití. Nemusí vyjmenovat všechny oblasti, stačí konkrétně vystihnout, že jeden statistický znak nezaručuje celkovou bezpečnost. Odpověď chybí. Před otázkou přímý výklad tohoto omezení, navazující pokus hints_used=1. Po výsledku podle obtíží upevnit omezenost kontrol, při úspěchu vložit splatné opakování MAC mezi držiteli klíče nebo začít hillclimbing str16po vizuálním ověření. Textové části str15jsou nyní konkrétně vysvětlené, ověření samostatného použití různé: viz všechny checkpointy četností, krátkého vzorku, ngramů, vzoru slova, předzpracování, polyalfabetických skupin a tohoto posledního odstavce. Samotné pokrytí str15neznamená celé materiály probrané; hillclimbing, afinita a ostatní mezery celé mapy zůstávají otevřené. Uživatel nechce další Caesarovy drily. Vizuálně ověřena page9a15, ostatní grafický obsah zatím ne.",
+      "review_on": "2026-10-24",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-25",
+      "activity": "Výklad posledního odstavce str15: moderní šifra má skrývat využitelné jazykové vztahy. Pokud jednoduchá frekvenční analýza nenajde stopu, jde jen o omezení tohoto konkrétního útoku. Náhodně vypadající výstup sám bezpečnost neprokazuje, protože neprověřuje ostatní útoky ani správné použití šifry.",
+      "learner_answer": "",
+      "evaluation": "Dokončeně vysvětlen rozdíl mezi skrytím jednoduchých jazykových stop a celkovým důkazem bezpečnosti podle vizuálně ověřené str15. Nejde o výklad konkrétních moderních konstrukcí nebo plnou teorii náhodnosti a testů; příslušné kapitoly str17a23–25zůstávají samostatně neprobrané. Všechny konkrétní textové části frekvenční kapitoly str15jsou nyní průběžnými aktivitami představené, jejich samostatné použití je třeba hodnotit odděleně podle historie. Před zápisem přes request_user_input_async zobrazena otázka téměř stejných četností jako údajného důkazu bezpečnosti, odpověď chybí. Jedna přímá podpora pro navazující pokus.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-meze-statisticke-kontroly",
+      "created_at": "2026-10-23T09:11:17.656560+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-26",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "activity": "Autor šifry zjistil, že její výstup má téměř stejné četnosti všech znaků. Tvrdí proto, že šifra je bezpečná. Stačí tato kontrola jako důkaz? Proč?",
+      "learner_answer": "Nestačí, četnosti indukujjí reference. ne celkovou bezpečnost. Odpověz mi ve větším detailu.",
+      "evaluation": "Uživatel správně odmítl dostatečnost kontroly a odlišil četnosti od celkové bezpečnosti. Formulace četnosti indukují reference je nejasná; nebyl z ní domýšlen konkrétní statistický význam. Zpětná vazba výslovně upřesnila, že četnosti popisují vzorek a porovnávají se s referenčním modelem. Passed vztahuje správné rozlišení omezené kontroly a celkového tvrzení, nikoli plný samostatný rozbor bezpečnostního modelu. Před otázkou byl přímý výklad náhodného vzhledu a bezpečnosti, hints_used=1. Uživatel navíc výslovně požádal větší detail. Následoval podrobnější souvislý výklad: monogramy neověří pořadí, příkladABABABAB, možnost dalších vztahů, zveřejněný klíč při náhodně vypadajícím výstupu, různé cíle a útoky a správné omezené vyjádření výsledku kontroly. Před zápisem přes request_user_input_async zobrazena integrační otázka na neodhalenou změnu platebního příkazu.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-meze-statisticke-kontroly",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Šifrový text má téměř rovnoměrné četnosti znaků. Útočník ale dokáže změnit částku v zašifrovaném platebním příkazu, aniž příjemce změnu odhalí. Která bezpečnostní vlastnost selhala a proč ji kontrola četností neověřila? Kritérium: integrita; neodhalená neoprávněná změna obsahu. Četnostní kontrola sleduje rozdělení znaků, nikoli autentizaci či ověření neporušenosti zprávy. Odpověď chybí. Před otázkou na výslovné přání podrobný výklad omezenosti četnostních kontrol a odlišení bezpečnostních cílů, nikoli přímé znovuuvedení názvu integrita. Hints_used hodnotit konzervativně jako1pro poskytnutou přímou koncepční podporu. Aktivitu lze zapsat pod zakladni-pojmy s page6a případněpage15source1(zdroj je k tématu přiřazen). Poté podle výsledku vložit opakování MAC nebo navázat neprobraným hillclimbing str16po potřebné vizuální kontrole. Uživatel žádá větší detail odpovědí, zachovat podrobnější propojená vysvětlení a jednu otázku. Celá mapa nadále zahrnuje neprobrané afinní, formální, historické i moderní části, žádné celkové dokončení není doloženo. Další Caesarovy drily uživatel nechce. Page9a15vizuálně ověřeny, ostatní grafický obsah zatím neověřen.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T11:49:12.542148+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "checkpoint_id": "kryptoanalyza-2026-10-23-27",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity_kind": "material",
+      "activity": "Podrobné rozvedení omezené četnostní kontroly: téměř rovnoměrné monogramy jsou jedna vlastnost vzorku, neověřují pořadí či jiné závislosti. VlastníABABABABmá vyrovnanéA/Ba předvídatelné pořadí. Náhodně vypadající šifrový text s přiloženým tajným klíčem nemusí chránit obsah. Rozlišeny cíle přečtení, změny zprávy a získání klíče a vrstvy správy klíčů/implementace. Výsledek kontroly se omezuje na nenalezení konkrétní odchylky v konkrétním vzorku; neúspěch jednoho hledání slabin neprokazuje celkovou bezpečnost.",
+      "learner_answer": "",
+      "evaluation": "Dokončeně poskytnuto větší vysvětlení na výslovné přání uživatele. Jde o rozvedení principů str6,12,13,15; vlastní příklady nejsou vydávány za doslovné příklady všech těchto stran. ABABABABdemonstruje jen rovnost dvou znakových četností a závislost pořadí, nikoli uniformitu nad celou26znakovou abecedou. Model zveřejněného klíče propojuje již probíranou správu klíčů s omezeností statistické kontroly. Nebyl tvrzen úplný výklad útokových modelů COA/KPA/CPA/CCA ani celé kapitoly implementačních útoků; nově vyložené detaily jsou pouze uvedené souvislosti. Výklad a jeho konkrétní rozsah jsou doložené, samostatná aplikace čeká na otázku integrita vs četnosti zobrazenou přes request_user_input_async před zápisem.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-podrobne-propojeni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:6"
+        },
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:12"
+        },
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:13"
+        },
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "next_step": "Vyhodnotit již zobrazenou otázku: Šifrový text má téměř rovnoměrné četnosti znaků. Útočník ale dokáže změnit částku v zašifrovaném platebním příkazu, aniž příjemce změnu odhalí. Která bezpečnostní vlastnost selhala a proč ji kontrola četností neověřila? Kritérium: integrita; neodhalená neoprávněná změna obsahu. Četnostní kontrola sleduje rozdělení znaků, nikoli autentizaci či ověření neporušenosti zprávy. Odpověď chybí. Před otázkou na výslovné přání podrobný výklad omezenosti četnostních kontrol a odlišení bezpečnostních cílů, nikoli přímé znovuuvedení názvu integrita. Hints_used hodnotit konzervativně jako1pro poskytnutou přímou koncepční podporu. Aktivitu lze zapsat pod zakladni-pojmy s page6a případněpage15source1(zdroj je k tématu přiřazen). Poté podle výsledku vložit opakování MAC nebo navázat neprobraným hillclimbing str16po potřebné vizuální kontrole. Uživatel žádá větší detail odpovědí, zachovat podrobnější propojená vysvětlení a jednu otázku. Celá mapa nadále zahrnuje neprobrané afinní, formální, historické i moderní části, žádné celkové dokončení není doloženo. Další Caesarovy drily uživatel nechce. Page9a15vizuálně ověřeny, ostatní grafický obsah zatím neověřen.",
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T11:49:12.609181+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-02",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku hill-climbingu: současné skóre -120, dvě samostatné změny dávají -95 a -135, vyšší je lepší. Kritérium: přijmout změnu na -95, protože zlepšuje skóre proti -120; -135 je zhoršení. Odpověď zatím chybí. Před otázkou přímý výklad pravidla přijímání, bez vyřešeného číselného příkladu; konzervativně hints_used=1. Potom vysvětlit konkrétní zdrojový příklad -420/-380/-450 a dle výsledku lokální optimum, restarty, jiné sousedství, simulované žíhání, omezení modelu a moderních šifer. Tyto další části str16 dosud nejsou vyloženy. Celá mapa obou zdrojů zůstává v rozsahu; formální model, afinita, historické příklady, OTP, QKD, náhodnost, detail AES a režimy nadále neprobrané podle konkrétních aktivit. Vizuálně ověřeny str6,9,15,16 zdroje1; ostatní grafické části dosud neověřeny. Zachovat podrobnější souvislá vysvětlení a jednu otázku, uživatel nechce další Caesarovy drily. Splatné opakování rolí klíčů vložit po krátkém bloku nové látky.",
+      "checkpoint_id": "integrita-2026-10-23-28",
+      "topic_id": "zakladni-pojmy",
+      "activity": "Navázání na nezodpovězenou otázku: Šifrový text má téměř rovnoměrné četnosti znaků. Útočník dokáže změnit částku v zašifrovaném platebním příkazu bez odhalení příjemcem. Která bezpečnostní vlastnost selhala a proč ji kontrola četností neověřila?",
+      "learner_answer": "selhala integrita, úročník mohl přešifrovat stlem, že četnostsi zůstaly stejné, ale konkrétní písmena se změnily",
+      "evaluation": "Kritérium: určit integritu a vysvětlit, že četnostní kontrola neověřuje neporušenost obsahu. Uživatel správně určil integritu a uvedl možnost změny obsahu při stejných četnostech; doložen správný kvalitativní protipříklad omezenosti počtů znaků. Není doloženo, že četnosti skutečně zůstaly stejné v původním zadání, ani konkrétní postup manipulace. Slovo přešifrovat není automaticky vyloženo jako pevné tvrzení o znalosti klíče či nutnosti dešifrování. Zpětná vazba upřesnila, že útočník u některých konstrukcí může měnit šifrový text přímo a nepotřebuje dešifrovat ani nově šifrovat. Dále odlišila počty znaků od ověření neporušenosti a původu. Před otázkou již poskytnuta přímá koncepční podpora z předchozí lekce, dle uloženého dalšího kroku hints_used=1. Passed se vztahuje na toto rozlišení a kvalitativní protipříklad, nikoli samostatný kryptografický útok. Po porovnání celé mapy obnovené v předchozím tahu se všemi98checkpointy a aktuální odpovědí zvolen dosud nevyložený mechanismus hill-climbingu str16. Zpětná vazba a jedna další otázka zobrazeny před zápisem.",
+      "result": "passed",
+      "hints_used": 1,
+      "difficulty": "zakladni-meze-cetnosti-a-integrita",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:6"
+        },
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:15"
+        }
+      ],
+      "review_on": "2026-10-25",
+      "created_at": "2026-10-23T18:29:02.213247+00:00"
+    },
+    {
+      "subject_id": "udzk",
+      "lesson_id": "lekce-2026-10-23-02",
+      "activity_kind": "material",
+      "misconceptions": [],
+      "next_step": "Vyhodnotit již zobrazenou otázku hill-climbingu: současné skóre -120, dvě samostatné změny dávají -95 a -135, vyšší je lepší. Kritérium: přijmout změnu na -95, protože zlepšuje skóre proti -120; -135 je zhoršení. Odpověď zatím chybí. Před otázkou přímý výklad pravidla přijímání, bez vyřešeného číselného příkladu; konzervativně hints_used=1. Potom vysvětlit konkrétní zdrojový příklad -420/-380/-450 a dle výsledku lokální optimum, restarty, jiné sousedství, simulované žíhání, omezení modelu a moderních šifer. Tyto další části str16 dosud nejsou vyloženy. Celá mapa obou zdrojů zůstává v rozsahu; formální model, afinita, historické příklady, OTP, QKD, náhodnost, detail AES a režimy nadále neprobrané podle konkrétních aktivit. Vizuálně ověřeny str6,9,15,16 zdroje1; ostatní grafické části dosud neověřeny. Zachovat podrobnější souvislá vysvětlení a jednu otázku, uživatel nechce další Caesarovy drily. Splatné opakování rolí klíčů vložit po krátkém bloku nové látky.",
+      "checkpoint_id": "hillclimbing-2026-10-23-29",
+      "topic_id": "kryptoanalyza-klasickych-sifer",
+      "activity": "První výklad hill-climbingu ze str16: zvolit kandidátní klíč, dešifrovat text, hodnotit jazykovou podobnost například běžnými bigramy, navrhnout sousední klíč prohozením dvou náhradních písmen v monoalfabetické převodní tabulce, znovu dešifrovat a přepočítat skóre, přijmout zlepšení a pokračovat z nového klíče. Vysvětleno, že se mění odhad klíče a porovnávají vzniklé texty. Vyšší skóre je lepší shoda s jazykovým modelem, samo nepotvrzuje správné rozluštění.",
+      "learner_answer": "",
+      "evaluation": "Dokončeně vysvětlen mechanismus kandidátního klíče, skórování, sousedství prohozením dvou náhrad a přijímání lepšího kandidáta z prvních dvou odstavců a kroků1-4str16, včetně omezeného významu skóre ze závěrečného rámečku. Str16 aktuálně vizuálně ověřena. Dosud nebyl vyložen zdrojový číselný příklad -420/-380/-450, zastavení, lokální optimum, restarty, simulované žíhání, závislost na délce a modelu ani nemožnost univerzálního prolomení moderních šifer. Samostatné použití nového mechanismu neověřeno; otázka -120/-95/-135 zobrazena přes request_user_input_async před zápisem a čeká na odpověď.",
+      "result": "introduced",
+      "hints_used": 0,
+      "difficulty": "zakladni-mechanismus-hillclimbingu",
+      "source_refs": [
+        {
+          "source_id": "prednaska1-skripta-v1",
+          "locator": "page:16"
+        }
+      ],
+      "review_on": "2026-10-24",
+      "created_at": "2026-10-23T18:29:02.281067+00:00"
     }
   ]
 }
