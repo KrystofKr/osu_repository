@@ -993,6 +993,52 @@
       "result": "introduced",
       "next_step": "Zadána návrhová úloha: GPU12GB, váhy9GB, krátký jediný dotaz funguje, osm souběžných dotazů s dlouhou historií vyvolá nedostatek paměti. Vysvětlit pravděpodobnou příčinu a navrhnout dvě změny nastavení k otestování. Odpověď zatím nevyhodnocena. ZÁSADNÍ PREFERENCE: uživatel znovu oprávněně kritizoval úlohu s hotovou odpovědí přímo v zadání. Nezadávat přepis hotových vět ani nepodstatné jednoduché příklady. Učit souvislosti v ucelených blocích a ověřovat skutečné rozhodnutí/aplikaci, při žádosti vysvětlit názorně. Úloha na shrnutí nebyla validním ověřením; nepřipisovat samostatné zvládnutí ani chybu. Po tomto bloku pokračovat pamětí/KV/kvantizací/souběhem a podle výsledků zbývající mapou všech3taháků. PŮVODNÍ MEZERA VIZUÁLNÍ KONTROLY VYŘEŠENA: všech8stran PDF vyrenderováno pypdfium2 a prohlédnuto včetně všech tabulek/vzorců/kódu; obrázky /tmp/llma-material-review-20261024. Prozkoumání není výuka. Kompletní text všech pasáží i struktura a historie34checkpointů byly v tomto chatu načteny; poslední historie --start32 total34. Všechny odložené části zůstávají neprobrané kromě konkrétních dokladů historie; netvrdit dokončení učiva. Datované specifikace/modely/benchmarky zatím nejsou ověřené pro aktuální použití.",
       "created_at": "2026-10-24T10:34:56.134137+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "lokalni-inference",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "lokalni-inference-tahak-v1",
+          "locator": "page:1"
+        }
+      ],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "pokus-2026-10-24-36-pamet-a-soubeh",
+      "activity": "GPU12GB, váhy9GB, krátký jediný požadavek funguje, osm dlouhých souběžných požadavků způsobuje nedostatek paměti. Vysvětlit pravděpodobnou příčinu a navrhnout dvě změny nastavení k otestování.",
+      "learner_answer": "kontext 8 session je příliš velký, váhy lze kvantizovat a ušetřit místo na GPU",
+      "evaluation": "Doložen správný dílčí výsledek: uživatel spojuje nedostatek paměti s kontextem osmi souběžných session a navrhuje kvantizaci vah jako platnou možnost uvolnění paměti. Tutor upřesnil pravděpodobný růst součtu KV cache a doplnil snížení délky kontextu nebo souběhu spolu s kompromisy ztráty informací/čekání ve frontě. Passed se vztahuje na vlastní kauzální diagnózu a jednu platnou intervenci. Dvě explicitní konkrétní změny nastavení, měření spotřeby cache ani posouzení všech kompromisů uživatel samostatně nepředložil; nezapisovat je jako prokázané zvládnutí. Pouhá nepřítomnost druhé položky není konkrétní chybná představa ani důvod k řetězci stejných snadných úloh. Zpětná vazba a následující rozhodovací otázka zobrazeny před zápisem.",
+      "result": "passed",
+      "next_step": "Zadána rozhodovací úloha: serverA TTFT0,5s a decode20tok/s, serverB TTFT3s a decode80tok/s, stejné vstupy a zjednodušeně stálá rychlost. Vybrat rychlejší dokončení celé odpovědi pro10tokenů a300tokenů a zdůvodnit nebo odhadnout časy pomocí TTFT+(N−1)/v. Odpověď dosud nevyhodnocena. Nejde o specifikace skutečných serverů. Zachovat výslovnou preferenci smysluplných rozhodovacích úloh a uceleného výkladu, žádné přepisování odpovědi obsažené v zadání. Samostatně doložena diagnóza paměťového tlaku při souběhu a návrh kvantizace; konkrétní omezení kontextu/souběhu a jejich kompromisy doplnil tutor, lze ověřit později. Celá historie36předchozích checkpointů načtena postupně v tomto chatu, poslední dva přes --start34 do total36. Audit všech8stran tříPDF včetně tabulek/vzorců/kódu je textově i vizuálně dokončen, nejde o výuku. Všechny odložené části mapy stále neprobrané kromě konkrétních dokladů historie; aktuální modelové/specifikační/benchmarkové údaje nejsou ověřené.",
+      "created_at": "2026-10-24T11:53:44.697299+00:00"
+    },
+    {
+      "subject_id": "llma",
+      "lesson_id": "lekce-2026-10-24-01",
+      "topic_id": "lokalni-inference",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "stredni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "lokalni-inference-tahak-v1",
+          "locator": "page:1"
+        }
+      ],
+      "review_on": "2026-10-25",
+      "checkpoint_id": "vyklad-2026-10-24-37-prefill-decode-ttft",
+      "activity": "Výklad prefill jako zpracování vstupních tokenů a decode jako postupného generování; TTFT od odeslání požadavku k prvnímu výstupnímu tokenu a rychlost dalšího generování v tokenech/s. Rozdíl vlivu čekání na první token u krátkého výstupu a generování u dlouhého. Pro stálou rychlost odvozen orientační čas TTFT+(počet tokenů−1)/rychlost.",
+      "learner_answer": "",
+      "evaluation": "Dokončen koncepční výklad a zadána praktická volba mezi servery pro dvě délky odpovědi. Vzorec je výslovně zjednodušený odhad odvozený z definic; nejde o doslovný vzorec zdroje nebo přesnou předpověď skutečné zátěže. Samostatné porozumění zatím neověřeno. Neprobrány konkrétní benchmarkovací nástroje, vliv front/modelového načítání/prefix cache/chunked prefill, souhrnná propustnost, batching ani konkrétní výkonové údaje reálných enginů. Předchozí doplnění kratšího kontextu/menšího souběhu a kompromisů patří ke zpětné vazbě předchozí aktivity; nejde o kompletní zvládnutí paměťového tuningu.",
+      "result": "introduced",
+      "next_step": "Zadána rozhodovací úloha: serverA TTFT0,5s a decode20tok/s, serverB TTFT3s a decode80tok/s, stejné vstupy a zjednodušeně stálá rychlost. Vybrat rychlejší dokončení celé odpovědi pro10tokenů a300tokenů a zdůvodnit nebo odhadnout časy pomocí TTFT+(N−1)/v. Odpověď dosud nevyhodnocena. Nejde o specifikace skutečných serverů. Zachovat výslovnou preferenci smysluplných rozhodovacích úloh a uceleného výkladu, žádné přepisování odpovědi obsažené v zadání. Samostatně doložena diagnóza paměťového tlaku při souběhu a návrh kvantizace; konkrétní omezení kontextu/souběhu a jejich kompromisy doplnil tutor, lze ověřit později. Celá historie36předchozích checkpointů načtena postupně v tomto chatu, poslední dva přes --start34 do total36. Audit všech8stran tříPDF včetně tabulek/vzorců/kódu je textově i vizuálně dokončen, nejde o výuku. Všechny odložené části mapy stále neprobrané kromě konkrétních dokladů historie; aktuální modelové/specifikační/benchmarkové údaje nejsou ověřené.",
+      "created_at": "2026-10-24T11:53:44.999534+00:00"
     }
   ]
 }

@@ -4640,6 +4640,29 @@
       ],
       "next_step": "Čeká otázka: Použij stejný postup na prázdný vstup ε. Jaký neprázdný obsah zůstane po zastavení na pásce? Vysvětli, co stroj udělá. Vlastní hraniční varianta příkladu hlavních skript s.5 oddíl1.7 (zdrojový vstup111). Kritérium: zůstane jediná1, protože prázdný vstup nemá žádný symbol a hlava hned čte blank#, podle algoritmu na něm zapíše1 a zastaví. Stačí srozumitelný popis tohoto přímého postupu, není nutný formální přechod ani celé pravidlo ε versus blank. Před otázkou vysvětlen algoritmus přechodu přes1 a zápisu1 na prvním blanku, jedna podstatná metodická pomoc k postupu; samotný prázdný vstup nyní nevyložen, dřívější jeho výuka v historii. Odpověď dosud nepřijata ani nehodnocena. Poté dočíst konkrétní sled konfigurací příkladu1.7 a značení uqv z1.5, propojit ukončení inkrementu na každém konečném unárním vstupu s totalitou na dané doméně. Brzy zařadit splatné opakování totality PRF podle hlavních skript s.12–13, protože samotná definice totality dnes zvládnuta, konstrukční důkaz PRF dříve nikoli. Nezapomenout dosud nedoložené jednotlivé části1.1 (množiny a relace),1.8, zachovat opakování1–6 a praktických DFA/TS; kapitola7 odložena. Uživatel vyřadil původní VYSL1 z materiálů i pracovního kontextu: neotvírat, nestahovat, nečerpat z jeho historických definic. Hlavní učební podklad custom-skripta-v3-xtilo v3 včetně syntézy, ostatní katalogové podklady pouze v přidělené pomocné roli. Všechny části custom1–14,XTILO a dodatků zůstávají v celkové mapě a jejich celé probrání není doloženo.",
       "created_at": "2026-10-24T10:34:25.217073+00:00"
+    },
+    {
+      "subject_id": "tilo",
+      "checkpoint_id": "upresneni-2026-10-24-inkrement-prazdny-vstup-31",
+      "lesson_id": "lekce-2026-10-24-navazani-custom",
+      "topic_id": "7tilo-1",
+      "activity_kind": "material",
+      "activity": "Použij stejný postup na prázdný vstup ε. Jaký neprázdný obsah zůstane po zastavení na pásce? Vysvětli, co stroj udělá.",
+      "learner_answer": "když dostane epsilon, pozná že je na konci hodnot pásky a ukončí se, předpokládám, že ted mluvíš o unárním sčítači?",
+      "evaluation": "Hodnocení zatím neuzavřeno. Uživatel správně zmiňuje dosažení konce vstupního obsahu a zastavení, ale neuvádí výsledný neprázdný obsah ani zápis1 na blank před zastavením a současně žádá upřesnit, o jaký stroj jde. Z neúplné formulace nerozhodujeme, zda zápis pouze vynechal, nebo předpokládá jinou konstrukci. Nepřipisovat mylnou představu, že epsilon je blank nebo že páska má konec: nic takového uživatel jednoznačně netvrdí. Před zápisem potvrzeno, že jde konkrétně o unární přičtení1, nikoli neurčené obecné sčítání, s vlastním příkladem11→111. Vysvětleno, že uε hlava hned čte blank# a nepřechází žádné vstupní1. Zápis na blank zatím nebyl v této zpětné vazbě prozrazen, pouze cíleně označen jako chybějící akce. Přes průběžný vstup před zápisem položena upřesňující otázka. Výsledek unassessed nepřipisuje chybu, úspěch ani dokončený výklad celé cílové hraniční situace. hints_used=1 zachycuje algoritmus vysvětlený před původní úlohou, další pomoc je třeba zohlednit při navazujícím pokusu.",
+      "result": "unassessed",
+      "hints_used": 1,
+      "difficulty": "upresneni-modelu-inkrementoru-a-chybejiciho-zapisu",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "custom-skripta-v3-xtilo",
+          "locator": "page:5"
+        }
+      ],
+      "next_step": "Čeká upřesňující otázka: Co má tento unární inkrementor podle našeho pravidla udělat s prvním blankem# ještě před zastavením? Jaký obsah tím vznikne při prázdném vstupuε? Kritérium: na blank zapíše1 a pak zastaví, neprázdný obsah bude jediná1. Odpověď dosud nepřijata ani nehodnocena. Před touto otázkou připomenut konkrétní inkrement místo obecného sčítače, vysvětleno počáteční čtení# uε a cíleně upozorněno na chybějící zápis před zastavením; započíst podstatnou metodickou pomoc, neoznačit úspěch za nezávislé dlouhodobé vybavení. Původní odpověď není doložením chyby epsilon=blank ani konec pásky. Po vyjasnění konkrétního zápisu zakončit variantuε, později ověřit bez připomenutí a projít formální řetězec konfigurací1.7 a značení uqv1.5. Propojit ukončení na každém konečném unárním vstupu s totalitou na této doméně. Brzy zařadit splatné opakování totality PRF podle hlavních skript12–13; definici totality dnes uživatel samostatně zvládl, konstrukční důkaz PRF dříve zůstával k ověření. Nezapomenout neprobrané konkrétní části1.1 a1.8, opakování1–6 i praktických DFA/TS; kapitola7 odložena. ZÁVAZNÉ ZDROJE: původní VYSL1 uživatel vyřadil z materiálů a pracovního kontextu. Neotvírat, nestahovat ani nepoužívat historické definice tohoto originálu k hodnocení. Hlavní vlastní skripta custom-skripta-v3-xtilo v3 včetně syntézy jsou výkladovým podkladem. Celé probrání1–14,XTILO a dodatků není doloženo.",
+      "review_on": null,
+      "created_at": "2026-10-24T11:54:29.210440+00:00"
     }
   ]
 }

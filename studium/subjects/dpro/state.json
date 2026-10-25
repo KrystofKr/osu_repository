@@ -39,9 +39,9 @@
         "Zdůvodnit volbu výzkumného přístupu a způsobu získání dat podle otázky a proveditelnosti."
       ],
       "prerequisites": [],
-      "status": "practicing",
+      "status": "demonstrated",
       "misconceptions": [],
-      "review_on": "2026-10-25"
+      "review_on": "2026-10-27"
     },
     "reserse-citace-a-ai": {
       "subject_id": "dpro",
@@ -1554,6 +1554,194 @@
       ],
       "review_on": null,
       "created_at": "2026-10-24T10:31:26.368298+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vyzkumne-pristupy-a-data",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "next_step": "Čeká na odpověď: Ve stejném online kurzu výzkumník jen měří dobu dokončení lekce, do podoby ani podmínek výuky nezasahuje. Stačí to nazvat experimentem a proč? Kritérium: ne, chybí záměrná změna faktoru/zásah a uspořádané srovnání jeho účinku; samotné měření může být pozorovací. Není nutné předbíhat k celé kapitole s. 6. Další neprobrané s. 4: dotazník (standardizované odpovědi více osob; výběr respondentů, znění položek, škály, vyhodnocení); rozhovor (zkušenosti/významy; struktura, záznam, výběr osob, analýza); případová studie (vymezený případ v kontextu; hranice, důkazy, přenos); dokumenty (existující texty/záznamy; původ, výběr, kontext, interpretace). Pak nástroj–cíl a konkrétní měření, účel každé položky/data pro každou otázku či H, nepřekryv kategorií s hraničními příklady, vícenásobné odpovědi a základ procent/součet>100, pilotáž. Zachovat kontext kurzu kvůli dřívějšímu zmatení změnami zadání. Poté audit celé s. 4, později opakovat slabiny s. 2–3 (přínos, jmenovatel, vlastní H, další typy proměnných) a kvant/kval/smíšený s odstupem. S. 5–21 v celém rozsahu dle mapy stále v plánu.",
+      "checkpoint_id": "vyzkumne-pristupy-a-data-2026-10-24-07",
+      "activity": "Zůstaňme u online kurzu. Výzkumník v číselných záznamech o jeho dokončování hledá dosud nepředpokládané vzory a podle nich vytváří nové hypotézy. Lze tento postup označit současně jako kvantitativní a explorativní? Proč?",
+      "learner_answer": "spíše je to explorativní, kvantitativné jsou zaznamy o dokončení",
+      "evaluation": "Vystihl obě potřebná hlediska: explorativní účel a číselnou/kvantitativní povahu záznamů. Závěr uvedl váhavě jako spíše explorativní; zpětná vazba proto explicitně sjednotila, že současně obě označení platí pro výzkum, protože pracuje kvantitativně s číselnými daty a explorativně tvoří nové H. Kritérium rozpoznání obou charakteristik považujeme za splněné, nevyžadujeme mechanické ano, když je jádro vysvětlení přítomno. Samostatné plynulé rozlišování různých os ještě upevnit s odstupem, nedovozovat úplné zvládnutí typologie.",
+      "result": "passed",
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:3"
+        },
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:4"
+        }
+      ],
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T11:07:31.515817+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vyzkumne-pristupy-a-data",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "next_step": "Čeká na odpověď: Ve stejném online kurzu výzkumník jen měří dobu dokončení lekce, do podoby ani podmínek výuky nezasahuje. Stačí to nazvat experimentem a proč? Kritérium: ne, chybí záměrná změna faktoru/zásah a uspořádané srovnání jeho účinku; samotné měření může být pozorovací. Není nutné předbíhat k celé kapitole s. 6. Další neprobrané s. 4: dotazník (standardizované odpovědi více osob; výběr respondentů, znění položek, škály, vyhodnocení); rozhovor (zkušenosti/významy; struktura, záznam, výběr osob, analýza); případová studie (vymezený případ v kontextu; hranice, důkazy, přenos); dokumenty (existující texty/záznamy; původ, výběr, kontext, interpretace). Pak nástroj–cíl a konkrétní měření, účel každé položky/data pro každou otázku či H, nepřekryv kategorií s hraničními příklady, vícenásobné odpovědi a základ procent/součet>100, pilotáž. Zachovat kontext kurzu kvůli dřívějšímu zmatení změnami zadání. Poté audit celé s. 4, později opakovat slabiny s. 2–3 (přínos, jmenovatel, vlastní H, další typy proměnných) a kvant/kval/smíšený s odstupem. S. 5–21 v celém rozsahu dle mapy stále v plánu.",
+      "checkpoint_id": "vyzkumne-pristupy-a-data-2026-10-24-08",
+      "activity": "Výklad prvních tří řádků celé metodické tabulky s. 4, všechny sloupce: pozorování zachycuje chování/průběh, popsat co/kdy/jak, roli pozorovatele a možné ovlivnění; měření vyjadřuje vlastnost stanoveným postupem/jednotkou, popsat přístroj/škálu, podmínky, přesnost, jednotky a kalibraci (porovnání s referencí); experiment záměrně mění faktor a sleduje výsledek, popsat zásah, srovnání, přidělení podmínek, kontrolu rušivých vlivů. Vysvětleno, že experiment může zahrnovat měření, ale samotné měření není automaticky experimentem. Zbývající čtyři řádky tabulky a poslední oddíl s. 4 zatím nevyloženy.",
+      "learner_answer": "",
+      "evaluation": "První tři metody včetně všech popisných náležitostí byly skutečně vysvětleny. Rozlišení měření a experimentu čeká na otázku ve stabilním kontextu online kurzu. Neprokazuje samostatný návrh experimentu nebo zvládnutí celé tabulky.",
+      "result": "introduced",
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:4"
+        }
+      ],
+      "review_on": null,
+      "created_at": "2026-10-24T11:07:31.768759+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vyzkumne-pristupy-a-data",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká na odpověď: U stejného kurzu chceme podrobně porozumět důvodům odchodu, nechat studenty mluvit vlastními slovy a doptávat se v průběhu na nejasnosti. Dotazník, nebo rozhovor a proč? Kritérium: rozhovor, umožní hloubku a průběžné doplňující otázky; nevyžadovat termín kvalitativní, jde o konkrétní metodu. Pak zbývá s. 4 případová studie (detail vymezeného případu v kontextu, hranice/důkazy/přenos závěrů) a analýza dokumentů (existující texty/záznamy, původ/výběr/kontext/interpretace). Případová studie dříve jen stručně definována a čísla v ní připuštěna, náležitosti nevyloženy. Závěrečný oddíl s. 4: první odstavec účelu dotazníku/položek a dat ke každé otázce/H nyní vyložen, zbývají nepřekrývající se kategorie (do5,5–10,10–15 a hranice), vícečetné odpovědi se základem procent a možností součtu>100, pilotáž (neporozumění/chybějící varianty/záznam před hlavním sběrem). Poté audit celé s. 4 a pokračovat s. 5 rešerší. K opakování zůstává kvant/kval/smíšený ve stabilním kontextu, jmenovatel legitimních a přesná vlastní H, další typy proměnných a výzkumný přínos. S. 5–21 v celém rozsahu zachovány dle mapy.",
+      "checkpoint_id": "vyzkumne-pristupy-a-data-2026-10-24-09",
+      "activity": "Stále zkoumáme stejný online kurz. Výzkumník pouze měří, jak dlouho studentům trvá dokončení lekce. Do podoby kurzu ani podmínek výuky nezasahuje. Stačí toto měření nazvat experimentem? Proč?",
+      "learner_answer": "je to empirický výzkum, ale není to experiment",
+      "evaluation": "Správně odmítl automatické označení experimentem a současně rozpoznal empirický charakter. Kritérium odlišení měření od experimentu v příkladu splněno; důvod chybějícího zásahu sám explicitně nerozvedl, byl doplněn zpětnou vazbou. Bez nápovědy k úloze. Neprokazuje samostatný návrh srovnávacího experimentu ani všechny požadavky metodiky.",
+      "result": "passed",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T11:46:03.197845+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vyzkumne-pristupy-a-data",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká na odpověď: U stejného kurzu chceme podrobně porozumět důvodům odchodu, nechat studenty mluvit vlastními slovy a doptávat se v průběhu na nejasnosti. Dotazník, nebo rozhovor a proč? Kritérium: rozhovor, umožní hloubku a průběžné doplňující otázky; nevyžadovat termín kvalitativní, jde o konkrétní metodu. Pak zbývá s. 4 případová studie (detail vymezeného případu v kontextu, hranice/důkazy/přenos závěrů) a analýza dokumentů (existující texty/záznamy, původ/výběr/kontext/interpretace). Případová studie dříve jen stručně definována a čísla v ní připuštěna, náležitosti nevyloženy. Závěrečný oddíl s. 4: první odstavec účelu dotazníku/položek a dat ke každé otázce/H nyní vyložen, zbývají nepřekrývající se kategorie (do5,5–10,10–15 a hranice), vícečetné odpovědi se základem procent a možností součtu>100, pilotáž (neporozumění/chybějící varianty/záznam před hlavním sběrem). Poté audit celé s. 4 a pokračovat s. 5 rešerší. K opakování zůstává kvant/kval/smíšený ve stabilním kontextu, jmenovatel legitimních a přesná vlastní H, další typy proměnných a výzkumný přínos. S. 5–21 v celém rozsahu zachovány dle mapy.",
+      "checkpoint_id": "vyzkumne-pristupy-a-data-2026-10-24-10",
+      "activity": "Výklad čtvrtého a pátého řádku metodické tabulky s. 4 ve všech sloupcích. Dotazník umožňuje standardizované odpovědi více lidí; popsat výběr respondentů, přesné znění položek, škály a vyhodnocení. Rozhovor umožňuje hlouběji porozumět zkušenostem a významům; popsat strukturu, záznam, výběr osob a analytický postup. Současně vyložen první odstavec Výzkumný nástroj musí odpovídat cíli: nestačí obecné výhody dotazníku, nutno ukázat jak právě naše položky měří zkoumané; každá položka účel a ke každé otázce/H odpovídající data. Případová studie/analýza dokumentů a závěrečné kategorie/vícečetné odpovědi/pilotáž zatím systematicky nevyloženy.",
+      "learner_answer": "",
+      "evaluation": "Obě metody se všemi popisnými náležitostmi i obousměrná vazba účel položky–data k otázce byly skutečně vysvětleny. Volba konkrétní metody pro hloubku a doptávání čeká na odpověď. Neznamená, že rozhovor je za všech podmínek kvalitativní nebo dotazník za všech podmínek kvantitativní; takové ztotožnění nebylo učeno.",
+      "result": "introduced",
+      "review_on": null,
+      "created_at": "2026-10-24T11:46:03.427751+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vyzkumne-pristupy-a-data",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Jednou větou navrhni konkrétní vymezení případu pro případovou studii online kurzu — co přesně a v jakém období budeš zkoumat? Kritérium: konkrétní ohraničený kurz/program či jeho skupina v konkrétním období (např. jeden kurz na škole X v zimním semestru), ne jen všeobecná online výuka. Hypotetické označení kurzu i období přijmout, nejde o skutečný plán sběru. Poté poslední dosud neprobraná část s. 4: odpovědní kategorie s jasnými hranicemi (do5,5–10,10–15 se překrývají), vícenásobné odpovědi s uvedením základu procent a možným součtem>100, pilotní ověření před hlavním sběrem odhalí neporozumění, chybějící varianty a záznamové problémy. Po dokončení audit celé s. 4 a historie, pak s. 5 rešerše/poznámky/citace/AI v celém rozsahu. S. 2–3 stále opakovat slabiny (konkrétní výzkumný přínos, referenční jmenovatel legitimních, vlastní přesná H, ordinální/discrétní/spojitá); kvant/kval/smíšený upevnit ve stabilním kontextu. Všechny ostatní části s. 5–21 zůstávají v rozsahu podle úplné mapy, neprobrané kromě konkrétních korekcí s. 19.",
+      "checkpoint_id": "vyzkumne-pristupy-a-data-2026-10-24-11",
+      "activity": "U stejného online kurzu chceme podrobně porozumět důvodům odchodu studentů. Potřebujeme, aby je popsali vlastními slovy a abychom se mohli během sběru dat doptávat na nejasnosti. Kterou z právě probraných metod bys zvolil — dotazník, nebo rozhovor — a proč?",
+      "learner_answer": "rozhovor, dotazníky nemůžou reagovat na respondenta",
+      "evaluation": "Kritérium splněno bez nápovědy: zvolil rozhovor a volbu odůvodnil potřebou reakce na konkrétní odpovědi. Zpětná vazba zpřesnila klíčovou vlastnost jako možnost nové doplňující otázky podle sdělení. Zjednodušené vyjádření o dotazníku v tomto kontrastu nehodnotíme jako důkaz neznalosti adaptivního větvení; to není cílem aktivity. Doložena volba metody podle potřeby hloubky a doptávání, nikoli celý kvalitativní analytický protokol.",
+      "result": "passed",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T11:50:53.708366+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vyzkumne-pristupy-a-data",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Jednou větou navrhni konkrétní vymezení případu pro případovou studii online kurzu — co přesně a v jakém období budeš zkoumat? Kritérium: konkrétní ohraničený kurz/program či jeho skupina v konkrétním období (např. jeden kurz na škole X v zimním semestru), ne jen všeobecná online výuka. Hypotetické označení kurzu i období přijmout, nejde o skutečný plán sběru. Poté poslední dosud neprobraná část s. 4: odpovědní kategorie s jasnými hranicemi (do5,5–10,10–15 se překrývají), vícenásobné odpovědi s uvedením základu procent a možným součtem>100, pilotní ověření před hlavním sběrem odhalí neporozumění, chybějící varianty a záznamové problémy. Po dokončení audit celé s. 4 a historie, pak s. 5 rešerše/poznámky/citace/AI v celém rozsahu. S. 2–3 stále opakovat slabiny (konkrétní výzkumný přínos, referenční jmenovatel legitimních, vlastní přesná H, ordinální/discrétní/spojitá); kvant/kval/smíšený upevnit ve stabilním kontextu. Všechny ostatní části s. 5–21 zůstávají v rozsahu podle úplné mapy, neprobrané kromě konkrétních korekcí s. 19.",
+      "checkpoint_id": "vyzkumne-pristupy-a-data-2026-10-24-12",
+      "activity": "Dokončen výklad posledních dvou řádků metodické tabulky s. 4 ve všech sloupcích. Případová studie detailně zkoumá vymezený případ v kontextu; popsat hranice případu, použité důkazy, možnosti přenosu závěrů. Analýza dokumentů zkoumá existující texty/záznamy; popsat původ, výběr, kontext a interpretaci. Vlastní příklad jednoho konkrétního online kurzu v určitém semestru, který může propojit rozhovory, průchodové záznamy a dokumenty jako sylabus/pokyny; vyjasnit zahrnuté části a přenos na jiné situace. Poslední odstavec s. 4 o kategoriích/vícečetných odpovědích/pilotáži zatím nevyložen.",
+      "learner_answer": "",
+      "evaluation": "Celá metodická tabulka je po tomto výkladu probrána včetně všech popisných náležitostí, ne všechny metody však samostatně ověřeny. Navazující vlastní vymezení hranic případu čeká na odpověď. Analýza dokumentů zatím jen vysvětlena, nikoli samostatně procvičena.",
+      "result": "introduced",
+      "review_on": null,
+      "created_at": "2026-10-24T11:50:53.971958+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vyzkumne-pristupy-a-data",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Ze 40 dotázaných odcházejících studentů uvedlo 30 nedostatek času a 20 obtížnost; více voleb povoleno. Kolik procent dotázaných uvedlo čas? Výpočet. Kritérium: 30/40 = 75 %, nikoli 30/50 počtu označení. Pokud zapíše jen správný zlomek, uznat správnou volbu základu a dopočítat procenta; nevyvozovat chybu z nedopsaného převodu. Před otázkou běžný výklad základu respondentů, nejde o dodatečnou nápovědu k pokusu; úspěch dokládá bezprostřední použití, ne dlouhodobé zvládnutí. Poté audit celé s. 4 proti celé historii: všechny odstavce i 7 metod ve všech sloupcích byly vyloženy, ne vše samostatně ověřeno; zejména dokumenty/kalibrace/pilotáž/kategorie a přenos případu jen vysvětleny. S. 5 další nová látka reserser-citace-a-ai: rešerše jako argument pro otázku/metodu vs katalog, plán hledání CZ/EN/db/dotazy/filtry/datum a backward/forward, kritické posouzení zdrojů a rešeršní tabulka, tematické poznámky včetně popisu S9/IoT, citace a zprostředkování, AI s ověřováním. Před výkladem dohledat konkrétní pasáže, originální S9 screenshot není v aktivním PDF, nepředstírat jeho zkoumání. Přidat opakování slabin s. 2–3 a přístupů se stabilním kontextem. Zbytek s. 5–21 zachován v rozsahu podle celého průzkumu.",
+      "checkpoint_id": "vyzkumne-pristupy-a-data-2026-10-24-13",
+      "activity": "Navrhni jednou větou konkrétní vymezení případu pro případovou studii online kurzu: co přesně a v jakém období budeš zkoumat?",
+      "learner_answer": "v období jednoho měsíce budu sledovat churn dokončení kurzu a pak s jednotlivými skupinami churnu budu vést rozhovor, abych zjistil, proč kurz dokončili / nedokončili",
+      "evaluation": "Kritérium časového a věcného vymezení splněno: v kontextu stejného konkrétního kurzu určil měsíc sledování a skupiny dokončili/nedokončili i návazné rozhovory. Název kurzu nemusí znovu opakovat, je dán kontextem. Vlastní označení churn dokončení je nejasné, proto zpětná vazba doporučila předem definovat odchod vs nedokončení do konce období; někdo může stále studovat. Nejde o doloženou chybnou definici, ale o potřebné zpřesnění návrhu. Doloženo základní ohraničení případu, nikoli úplná metodika či validní odhad odchodovosti.",
+      "result": "passed",
+      "review_on": "2026-10-27",
+      "created_at": "2026-10-24T11:57:04.245594+00:00"
+    },
+    {
+      "subject_id": "dpro",
+      "lesson_id": "lekce-2026-10-23-01",
+      "topic_id": "vyzkumne-pristupy-a-data",
+      "activity_kind": "material",
+      "hints_used": 0,
+      "difficulty": "zakladni",
+      "misconceptions": [],
+      "source_refs": [
+        {
+          "source_id": "synteza-zaklady-vedecke-prace-v1",
+          "locator": "page:4"
+        }
+      ],
+      "next_step": "Čeká na odpověď: Ze 40 dotázaných odcházejících studentů uvedlo 30 nedostatek času a 20 obtížnost; více voleb povoleno. Kolik procent dotázaných uvedlo čas? Výpočet. Kritérium: 30/40 = 75 %, nikoli 30/50 počtu označení. Pokud zapíše jen správný zlomek, uznat správnou volbu základu a dopočítat procenta; nevyvozovat chybu z nedopsaného převodu. Před otázkou běžný výklad základu respondentů, nejde o dodatečnou nápovědu k pokusu; úspěch dokládá bezprostřední použití, ne dlouhodobé zvládnutí. Poté audit celé s. 4 proti celé historii: všechny odstavce i 7 metod ve všech sloupcích byly vyloženy, ne vše samostatně ověřeno; zejména dokumenty/kalibrace/pilotáž/kategorie a přenos případu jen vysvětleny. S. 5 další nová látka reserser-citace-a-ai: rešerše jako argument pro otázku/metodu vs katalog, plán hledání CZ/EN/db/dotazy/filtry/datum a backward/forward, kritické posouzení zdrojů a rešeršní tabulka, tematické poznámky včetně popisu S9/IoT, citace a zprostředkování, AI s ověřováním. Před výkladem dohledat konkrétní pasáže, originální S9 screenshot není v aktivním PDF, nepředstírat jeho zkoumání. Přidat opakování slabin s. 2–3 a přístupů se stabilním kontextem. Zbytek s. 5–21 zachován v rozsahu podle celého průzkumu.",
+      "checkpoint_id": "vyzkumne-pristupy-a-data-2026-10-24-14",
+      "activity": "Dokončen výklad posledního odstavce s. 4 ve všech částech. Jasné srozumitelné a zbytečně nepřekrývající se kategorie: původní do5/5–10/10–15 nejasné/překryté na 5 a 10; vlastní oprava pro celočíselný počet lekcí 0–5,6–10,11–15. Vícečetné odpovědi: uvést základ procent; podíly respondentů podle důvodů mohou dohromady přesáhnout100 %, protože osoba volí více možností; pro podíl dotázaných dělíme počtem dotázaných. Pilot před hlavním sběrem odhaluje neporozumění, chybějící varianty a záznamové problémy. Kontextová aplikace z hodnocení: nutnost předem vymezit odchod z kurzu vs pouhé nedokončení do konce sledování. Žádná další strana zdroje tím automaticky probrána.",
+      "learner_answer": "",
+      "evaluation": "Všechny zbývající zásady s. 4 byly skutečně vyloženy, včetně původního hraničního příkladu, základu procent a všech tří funkcí pilotáže. Výpočet podílu respondentů čeká na odpověď. Celá s. 4 je vyložena; probrání nerovná se samostatné zvládnutí.",
+      "result": "introduced",
+      "review_on": null,
+      "created_at": "2026-10-24T11:57:04.499081+00:00"
     }
   ]
 }
